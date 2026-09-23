@@ -159,6 +159,8 @@
   .swipe-card .stamp{position:absolute;top:18px;font-family:var(--display);font-weight:900;font-size:1.4rem;padding:4px 12px;border:3px solid;border-radius:10px;opacity:0;transform:rotate(-12deg)}
   .swipe-card .stamp.yes{right:18px;color:var(--good);border-color:var(--good)}
   .swipe-card .stamp.no{left:18px;color:var(--red);border-color:var(--red);transform:rotate(12deg)}
+  .swipe-card.vote-card{border-left:5px solid var(--marigold)}
+  .swipe-card.vote-card .q{font-size:1.08rem}
   .swipe-actions{display:grid;grid-template-columns:1fr auto 1fr;gap:10px}
   .swipe-actions .btn{margin:0}
   .bar{height:10px;background:var(--cream-2);border-radius:999px;overflow:hidden;margin:6px 0 4px}
@@ -189,6 +191,15 @@
   .feed .card.alert{border-left-color:var(--red)}
   .feed time{font-size:.72rem;color:var(--muted);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
 
+  .mascot{position:absolute;right:16px;bottom:92px;width:58px;height:58px;border-radius:50%;border:0;padding:0;cursor:pointer;background:linear-gradient(160deg,var(--navy),var(--navy-deep));box-shadow:0 8px 20px rgba(11,31,46,.35),inset 0 0 0 3px rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center;z-index:7;transition:transform .15s}
+  .mascot svg{width:36px;height:36px}
+  .mascot:active{transform:scale(.92)}
+  .mascot:focus-visible{outline:3px solid var(--marigold);outline-offset:3px}
+  .mascot .pole{stroke:var(--cream)}
+  .mascot-badge .pole{stroke:var(--navy)}
+  .mascot-badge{display:inline-flex;width:28px;height:28px}
+  .mascot-badge svg{width:100%;height:100%}
+
   .toast{position:absolute;left:20px;right:20px;bottom:96px;background:var(--ink);color:#fff;padding:12px 14px;border-radius:12px;font-size:.88rem;font-weight:600;opacity:0;transform:translateY(8px);transition:.2s;pointer-events:none;z-index:9;text-align:center}
   .toast.show{opacity:1;transform:none}
   .sheet-bg{position:absolute;inset:0;background:rgba(11,31,46,.5);z-index:8;display:none}
@@ -212,6 +223,24 @@
     .tabs{padding-bottom:calc(18px + env(safe-area-inset-bottom))}
     .toast{bottom:calc(96px + env(safe-area-inset-bottom))}
     .sheet{padding-bottom:calc(34px + env(safe-area-inset-bottom))}
+    .mascot{width:64px;height:64px;right:18px;bottom:calc(96px + env(safe-area-inset-bottom))}
+    .mascot svg{width:40px;height:40px}
+
+    /* Home: fill the viewport with a bigger, more touch-friendly layout */
+    .view.home-view{display:flex;flex-direction:column;padding:16px 18px 96px;font-size:1.05rem}
+    .view.home-view > *{flex:none}
+    .view.home-view .grid2{flex:1 0 auto;grid-auto-rows:minmax(120px,1fr);margin-bottom:12px}
+    .view.home-view h1.brand{margin:60px 0 14px;font-size:2.4rem}
+    .view.home-view h2{font-size:1.85rem}
+    .view.home-view .sub{font-size:.95rem}
+    .view.home-view .card{padding:18px 20px;border-radius:20px}
+    .view.home-view .card.navy{padding:22px 20px}
+    .view.home-view .card.navy .num{font-size:3rem}
+    .view.home-view .grid2{gap:12px}
+    .view.home-view .grid2 .card{padding:22px 16px;margin:0}
+    .view.home-view .grid2 .card h3{font-size:1.15rem}
+    .view.home-view .btn{padding:19px 18px;font-size:1.12rem;min-height:58px;border-radius:16px}
+    .view.home-view .chip{padding:10px 16px;font-size:.92rem}
   }
 </style>
 
@@ -236,6 +265,7 @@
           <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span data-i="tab_profile">Profile</span></button>
       </nav>
       <div class="toast" id="toast"></div>
+      <button class="mascot" id="mascot" onclick="requirePremium('bot')" aria-label="BallotBot" aria-haspopup="dialog"></button>
       <div class="sheet-bg" id="sheetbg" onclick="closeSheet()"></div>
       <div class="sheet" id="sheet"></div>
     </div>
@@ -294,7 +324,7 @@ const T = {
     bot_hi:'Hi! Ask me anything about voting or your ballot. I explain. I never tell you who to vote for.',ask:'Ask',thinking:'Thinking…',placeholder:'Ask a question',
     try:'Turn on Premium — free in this demo',later:'Not now',back:'Back',issues:'Key issues',bio:'Background',party:'Party',nonp:'Nonpartisan office',incumbent:'Incumbent',challenger:'Challenger',
     src_t:'Where this data comes from',src_close:'Got it',
-    sw_intro:'Swipe on real positions from candidates on your ballot. We hide who said it until the end.',sw_agree:'Agree',sw_dis:'Disagree',sw_skip:'Skip',sw_says:'A candidate for',sw_says2:'says:',sw_none:'No candidate positions are loaded for your races yet, so there’s nothing to swipe. Try ZIP 95391 to see how it works.',
+    sw_intro:'Swipe on what candidates say, and on a few votes they actually cast. Names stay hidden until the end.',sw_agree:'Agree',sw_dis:'Disagree',sw_skip:'Skip',sw_says:'A candidate for',sw_says2:'says:',sw_voted2:'voted on this. Would you have voted the same way?',sw_yea:'Voted YES',sw_nay:'Voted NO',sw_none:'No candidate positions are loaded for your races yet, so there’s nothing to swipe. Try ZIP 95391 to see how it works.',
     sw_result:'Your overlap',sw_result_s:'How often you agreed with each candidate’s own stated positions. Overlap isn’t a recommendation.',sw_based:'based on',sw_stmts:'statements',sw_again:'Swipe again',sw_reveal:'What you agreed with',
     rec_t:'Record',rec_s:'Recent recorded votes, shown next to what they said they’d do. We don’t judge which is which.',promises:'What they said',votes:'How they voted',related:'Related to',events:'Upcoming',contact:'Contact',
     upd_follow:'From people you follow',upd_all:'For your area',
@@ -316,7 +346,7 @@ const T = {
     bot_hi:'¡Hola! Pregúntame sobre votar o tu boleta. Explico. Nunca te digo por quién votar.',ask:'Enviar',thinking:'Pensando…',placeholder:'Escribe una pregunta',
     try:'Activar Premium — gratis en esta demo',later:'Ahora no',back:'Atrás',issues:'Temas clave',bio:'Trayectoria',party:'Partido',nonp:'Cargo no partidista',incumbent:'Titular',challenger:'Aspirante',
     src_t:'De dónde vienen estos datos',src_close:'Entendido',
-    sw_intro:'Desliza sobre posturas reales de candidatos en tu boleta. Ocultamos quién lo dijo hasta el final.',sw_agree:'De acuerdo',sw_dis:'En desacuerdo',sw_skip:'Saltar',sw_says:'Un candidato a',sw_says2:'dice:',sw_none:'Aún no hay posturas cargadas para tus contiendas. Prueba el código 95391 para ver cómo funciona.',
+    sw_intro:'Desliza sobre lo que dicen los candidatos y sobre algunos votos que de verdad emitieron. Los nombres se revelan al final.',sw_agree:'De acuerdo',sw_dis:'En desacuerdo',sw_skip:'Saltar',sw_says:'Un candidato a',sw_says2:'dice:',sw_voted2:'votó sobre esto. ¿Habrías votado igual?',sw_yea:'Votó SÍ',sw_nay:'Votó NO',sw_none:'Aún no hay posturas cargadas para tus contiendas. Prueba el código 95391 para ver cómo funciona.',
     sw_result:'Tu coincidencia',sw_result_s:'Cuántas veces coincidiste con las posturas declaradas de cada candidato. No es una recomendación.',sw_based:'según',sw_stmts:'posturas',sw_again:'Deslizar de nuevo',sw_reveal:'Con qué coincidiste',
     rec_t:'Historial',rec_s:'Votos recientes, junto a lo que dijeron que harían. No juzgamos cuál es cuál.',promises:'Lo que dijeron',votes:'Cómo votaron',related:'Relacionado con',events:'Próximos',contact:'Contacto',
     upd_follow:'De quienes sigues',upd_all:'Para tu zona',
@@ -349,7 +379,7 @@ async function loadAll(){
 }
 
 /* ---------- what's on THIS voter's ballot ---------- */
-const ISSUE={housing:{en:'Housing',es:'Vivienda'},cost:{en:'Cost of living',es:'Costo de vida'},health:{en:'Health care',es:'Salud'},taxes:{en:'Taxes',es:'Impuestos'},energy:{en:'Gas & energy',es:'Gasolina y energía'},safety:{en:'Public safety',es:'Seguridad'},homeless:{en:'Homelessness',es:'Personas sin hogar'},emerg:{en:'Emergencies & Delta',es:'Emergencias y Delta'},education:{en:'Education',es:'Educación'},streets:{en:'Streets & safety',es:'Calles y seguridad'},water:{en:'Water',es:'Agua'},roads:{en:'Roads',es:'Carreteras'},growth:{en:'Growth',es:'Crecimiento'},community:{en:'Community',es:'Comunidad'},immigration:{en:'Immigration',es:'Inmigración'},economy:{en:'Economy',es:'Economía'},environment:{en:'Environment',es:'Medio ambiente'},abortion:{en:'Abortion',es:'Aborto'},guns:{en:'Guns',es:'Armas'},crime:{en:'Crime',es:'Delincuencia'},jobs:{en:'Jobs',es:'Empleos'},agriculture:{en:'Agriculture',es:'Agricultura'},veterans:{en:'Veterans',es:'Veteranos'},elections:{en:'Elections',es:'Elecciones'},budget:{en:'Budget',es:'Presupuesto'},childcare:{en:'Child care',es:'Cuidado infantil'},other:{en:'Other',es:'Otro'}};
+const ISSUE={housing:{en:'Housing',es:'Vivienda'},cost:{en:'Cost of living',es:'Costo de vida'},health:{en:'Health care',es:'Salud'},taxes:{en:'Taxes',es:'Impuestos'},energy:{en:'Gas & energy',es:'Gasolina y energía'},safety:{en:'Public safety',es:'Seguridad'},homeless:{en:'Homelessness',es:'Personas sin hogar'},emerg:{en:'Emergencies & Delta',es:'Emergencias y Delta'},education:{en:'Education',es:'Educación'},streets:{en:'Streets & safety',es:'Calles y seguridad'},water:{en:'Water',es:'Agua'},roads:{en:'Roads',es:'Carreteras'},growth:{en:'Growth',es:'Crecimiento'},community:{en:'Community',es:'Comunidad'},immigration:{en:'Immigration',es:'Inmigración'},economy:{en:'Economy',es:'Economía'},environment:{en:'Environment',es:'Medio ambiente'},abortion:{en:'Abortion',es:'Aborto'},guns:{en:'Guns',es:'Armas'},crime:{en:'Crime',es:'Delincuencia'},jobs:{en:'Jobs',es:'Empleos'},agriculture:{en:'Agriculture',es:'Agricultura'},veterans:{en:'Veterans',es:'Veteranos'},elections:{en:'Elections',es:'Elecciones'},budget:{en:'Budget',es:'Presupuesto'},childcare:{en:'Child care',es:'Cuidado infantil'},record:{en:'Voting record',es:'Historial de votos'},other:{en:'Other',es:'Otro'}};
 const issueName = k => L(ISSUE[k]) || (k||'').replace(/_/g,' ').replace(/^\w/,c=>c.toUpperCase());
 
 function myRaces(){
@@ -438,6 +468,18 @@ function toast(m){ const el=document.getElementById('toast'); el.textContent=m; 
 function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function initials(n){ return (n||'?').split(' ').filter(Boolean).map(w=>w[0]).join('').slice(0,2).toUpperCase(); }
 const ICON={user:'<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>',doc:'<svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>',cal:'<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h2M12 14h2M16 14h2"/></svg>',bot:'<svg viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><circle cx="9" cy="14" r="1.5"/><circle cx="15" cy="14" r="1.5"/><path d="M12 8V4M9 4h6"/></svg>',book:'<svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h6v18H6a2 2 0 0 1-2-2zM12 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-6"/></svg>',lock:'<svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>',arrow:'<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',heart:'<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg>',check:'<svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg>',x:'<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>'};
+// BallotBot mascot: friendly robot holding the logo's waving flag
+const MASCOT_SVG=`<svg viewBox="0 0 44 44" aria-hidden="true">
+  <line x1="17" y1="15" x2="17" y2="8" style="stroke:var(--coral);stroke-width:3;stroke-linecap:round"/>
+  <circle cx="17" cy="6" r="2.4" style="fill:var(--marigold)"/>
+  <rect x="5" y="15" width="24" height="20" rx="8" style="fill:var(--coral)"/>
+  <circle cx="12.5" cy="24.5" r="2.3" style="fill:var(--navy)"/>
+  <circle cx="21.5" cy="24.5" r="2.3" style="fill:var(--navy)"/>
+  <path d="M12.5 29.5q4.5 3.2 9 0" style="stroke:var(--navy);stroke-width:2;stroke-linecap:round;fill:none"/>
+  <line class="pole" x1="34" y1="9" x2="34" y2="38" style="stroke-width:2.5;stroke-linecap:round"/>
+  <path d="M34 10c4-2.2 6 1.8 9.2-.2-.9 2.6-.9 5.2 0 7.8-3.2 2-5.2-2-9.2.2z" style="fill:var(--coral)"/>
+  <path d="M36.3 11.6l1.6 4M39.3 11.2l1.6 4" style="stroke:var(--navy);stroke-width:1.3;stroke-linecap:round"/>
+</svg>`;
 const back = (to) => `<button class="back" onclick="go('${to}')"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>${t('back')}</button>`;
 const locShort = () => S.state ? ((S.county?S.county+', ':'')+S.state) : '';
 const srcPill = () => `<button class="pill gold pillbtn" onclick="showSources()">${t('srcs')}</button>`;
@@ -448,9 +490,14 @@ const followBtn = (id,name) => `<button class="follow ${S.following[id]?'on':''}
 function toggleFollow(id,name){ if(S.following[id]) delete S.following[id]; else S.following[id]={name,at:Date.now()}; save(); render(); }
 
 function go(screen,params){ S.screen=screen; S.params=params||{}; save(); render(); document.getElementById('view').scrollTop=0; }
-function requirePremium(next,params){ if(S.premium) return go(next,params); openSheet(`<span class="pill premium">${t('premium')}</span><h2 style="margin-top:12px">${t('premium_s')}</h2><div class="price">$7.99<small>/${S.lang==='es'?'mes':'mo'}</small></div><button class="btn center" style="margin-top:14px" onclick="S.premium=true;save();closeSheet();go('${next}',${JSON.stringify(params||{}).replace(/"/g,'&quot;')})">${t('try')}</button><button class="btn ghost center" onclick="closeSheet()">${t('later')}</button>`); }
-function openSheet(html){ document.getElementById('sheet').innerHTML=html; document.getElementById('sheet').classList.add('show'); document.getElementById('sheetbg').classList.add('show'); }
-function closeSheet(){ document.getElementById('sheet').classList.remove('show'); document.getElementById('sheetbg').classList.remove('show'); }
+function requirePremium(next,params){ const bot=next==='bot'; if(S.premium) return bot?openBot():go(next,params);
+  const unlock=bot?'openBot()':`go('${next}',${JSON.stringify(params||{}).replace(/"/g,'&quot;')})`;
+  openSheet(`<span class="pill premium">${t('premium')}</span><h2 style="margin-top:12px">${t('premium_s')}</h2><div class="price">$7.99<small>/${S.lang==='es'?'mes':'mo'}</small></div><button class="btn center" style="margin-top:14px" onclick="S.premium=true;save();closeSheet();${unlock}">${t('try')}</button><button class="btn ghost center" onclick="closeSheet()">${t('later')}</button>`); }
+let botOpen=false;
+function openSheet(html){ botOpen=false; document.getElementById('sheet').innerHTML=html; document.getElementById('sheet').classList.add('show'); document.getElementById('sheetbg').classList.add('show'); }
+function closeSheet(){ botOpen=false; document.getElementById('sheet').classList.remove('show'); document.getElementById('sheetbg').classList.remove('show'); }
+function openBot(){ openSheet(botSheet()); botOpen=true; scrollChat(); }
+function scrollChat(){ const c=document.getElementById('chat'); if(c&&c.lastElementChild) c.lastElementChild.scrollIntoView({block:'end'}); }
 function showSources(){ const es=S.lang==='es'; const src=D.sources||{}; openSheet(`<h2>${t('src_t')}</h2><ul>
   <li><b>${es?'Candidatos':'Candidates'}:</b> ${es?'listas certificadas de cada Secretario de Estado; para la Cámara en cualquier distrito, la base de datos pública de la FEC (solo nombres y partido).':'each state’s certified candidate list; for U.S. House in any district, the FEC’s public database (names and party only).'}</li>
   <li><b>${es?'Posturas':'Positions'}:</b> ${es?'el sitio web de cada candidato o su declaración oficial. Sin caracterización añadida.':'each candidate’s own website or official candidate statement. No characterization added.'}</li>
@@ -494,8 +541,7 @@ const SCREENS={
      <button class="card click" onclick="go('deadlines')" style="text-align:left;font:inherit"><div style="color:var(--red);width:26px">${ICON.cal}</div><h3>${t('deadlines')}</h3><div class="sub" style="margin:0">${Object.values(S.reminders).filter(Boolean).length} ${t('reminders_n')}</div></button>
      <button class="card click" onclick="go('learn')" style="text-align:left;font:inherit"><div style="color:var(--navy);width:26px">${ICON.book}</div><h3>${t('learn')}</h3><div class="sub" style="margin:0">${t('official_t')}</div></button>
    </div>
-   ${fol.length?`<div class="eyebrow">${t('following')}</div><div class="chips" style="margin-top:0">${fol.map(([id,f])=>`<button class="chip on" onclick="openFollowed('${esc(id)}')">${esc(f.name)}</button>`).join('')}</div>`:''}
-   <button class="btn navy" onclick="requirePremium('bot')">${ICON.bot}${t('bot')} <span class="pill premium" style="margin-left:auto">${t('premium')}</span></button>`; },
+   ${fol.length?`<div class="eyebrow">${t('following')}</div><div class="chips" style="margin-top:0">${fol.map(([id,f])=>`<button class="chip on" onclick="openFollowed('${esc(id)}')">${esc(f.name)}</button>`).join('')}</div>`:''}`; },
 
  candidates(){ const races=myRaces();
    if(!S.state) return `${back('home')}<h2>${t('cands')}</h2><div class="card note">${t('notloaded')}</div>`;
@@ -583,13 +629,13 @@ const SCREENS={
    if(!remaining.length||S.matchDone){ S.matchDone=true; save(); const res=matchResults(); return `
      <div class="row between"><h2>${t('sw_result')}</h2><button class="chip" onclick="S.swipes={};S.matchDone=false;save();go('match')">${t('sw_again')}</button></div><p class="sub">${t('sw_result_s')}</p>
      ${res.map(r=>`<button class="card click" style="width:100%;text-align:left;font:inherit" onclick="go('candidate',{id:'${esc(r.id)}'})"><div class="row between"><h3>${esc(r.name)} <span class="pill" style="margin-left:4px">${esc(r.party)}</span></h3><b style="font-family:var(--display);font-size:1.3rem;color:var(--navy)">${r.pct}%</b></div><div class="bar"><i style="width:${r.pct}%"></i></div><div class="sub" style="margin:0">${esc(L(r.office))} · ${r.agree}/${r.n} ${t('sw_stmts')}</div></button>`).join('')}
-     <div class="eyebrow">${t('sw_reveal')}</div>${pool.filter(p=>S.swipes[p.key]===1).map(p=>`<div class="card" style="padding:10px 14px"><div class="sub" style="margin:0 0 4px"><b>${esc(p.name)}</b> · ${issueName(p.topic)}</div><div style="font-size:.92rem">${esc(L(p.statement))}</div></div>`).join('')||`<div class="card note">—</div>`}`; }
+     <div class="eyebrow">${t('sw_reveal')}</div>${pool.filter(p=>S.swipes[p.key]===1).map(p=>`<div class="card" style="padding:10px 14px"><div class="sub" style="margin:0 0 4px"><b>${esc(p.name)}</b> · ${issueName(p.topic)}</div><div style="font-size:.92rem">${p.kind==='vote'?`<b>${t(p.yea?'sw_yea':'sw_nay')}</b> · `:''}${esc(L(p.statement))}</div></div>`).join('')||`<div class="card note">—</div>`}`; }
    const cur=remaining[0], nxt=remaining[1]; const done=pool.length-remaining.length;
    return `
    <div class="row between"><h2>${t('tab_match')}</h2><span class="pill navy">${done+1} / ${pool.length}</span></div><p class="sub">${t('sw_intro')}</p>
    <div class="deck">
-     ${nxt?`<div class="swipe-card behind"><div class="who">${t('sw_says')} ${esc(L(nxt.office))} ${t('sw_says2')}</div><div class="q">${esc(L(nxt.statement))}</div><span class="pill">${issueName(nxt.topic)}</span></div>`:''}
-     <div class="swipe-card top" id="swtop" data-key="${esc(cur.key)}"><span class="stamp yes">${t('sw_agree').toUpperCase()}</span><span class="stamp no">${t('sw_dis').toUpperCase()}</span><div class="who">${t('sw_says')} ${esc(L(cur.office))} ${t('sw_says2')}</div><div class="q">${esc(L(cur.statement))}</div><span class="pill">${issueName(cur.topic)}</span></div>
+     ${nxt?`<div class="swipe-card behind${nxt.kind==='vote'?' vote-card':''}">${swipeBody(nxt)}</div>`:''}
+     <div class="swipe-card top${cur.kind==='vote'?' vote-card':''}" id="swtop" data-key="${esc(cur.key)}"><span class="stamp yes">${t('sw_agree').toUpperCase()}</span><span class="stamp no">${t('sw_dis').toUpperCase()}</span>${swipeBody(cur)}</div>
    </div>
    <div class="swipe-actions"><button class="btn ghost center" onclick="swipe(-1)">${ICON.x}${t('sw_dis')}</button><button class="btn ghost center small" style="box-shadow:inset 0 0 0 2px var(--line);color:var(--muted)" onclick="swipe(0)">${t('sw_skip')}</button><button class="btn center" style="background:var(--good);box-shadow:0 2px 0 #1F6B41" onclick="swipe(1)">${ICON.check}${t('sw_agree')}</button></div>`; },
 
@@ -625,16 +671,16 @@ const SCREENS={
      <div class="row between"><span>${t('notif')}</span><button class="toggle ${S.notif?'on':''}" aria-label="${t('notif')}" onclick="S.notif=!S.notif;save();if(S.notif)askNotify();this.classList.toggle('on')"></button></div></div>
    <div class="card" style="border-color:var(--marigold)"><div class="row between"><span class="pill premium">${t('premium')}</span><button class="toggle ${S.premium?'on':''}" aria-label="${t('premium')}" onclick="S.premium=!S.premium;save();render()"></button></div><p style="margin:8px 0 0">${t('premium_s')}</p><div class="sub" style="margin:4px 0 0">${S.premium?t('on_demo'):t('price')}</div></div>
    <button class="btn ghost center" onclick="showSources()">${t('srcs')}</button>
-   <button class="btn ghost center" onclick="localStorage.removeItem('bb-state');localStorage.removeItem('bb-fec');location.reload()">${t('reset')}</button>`; },
-
- bot(){ const es=S.lang==='es'; const sug=es?['¿Estoy registrado?','¿Qué medidas hay en mi boleta?','¿Necesito identificación?']:['Am I registered?','What measures are on my ballot?','Do I need ID?'];
-   return `
-   ${back('home')}
-   <div class="row between"><h2>BallotBot</h2><span class="pill premium">${t('premium')}</span></div>
-   <div class="chat" id="chat" style="margin-top:12px">${S.chat.length?S.chat.map(m=>`<div class="msg ${m.role==='user'?'me':'bot'}">${esc(m.content)}</div>`).join(''):`<div class="msg bot">${t('bot_hi')}</div>`}</div>
-   <div class="suggest">${sug.map(s=>`<button class="chip" onclick="askBot(${JSON.stringify(s).replace(/"/g,'&quot;')})">${s}</button>`).join('')}</div>
-   <form class="chatbar" onsubmit="event.preventDefault();askBot(this.q.value);this.q.value=''"><input name="q" type="text" autocomplete="off" placeholder="${t('placeholder')}"><button class="btn" type="submit" id="askbtn">${t('ask')}</button></form>`; }
+   <button class="btn ghost center" onclick="localStorage.removeItem('bb-state');localStorage.removeItem('bb-fec');location.reload()">${t('reset')}</button>`; }
 };
+
+function botSheet(){ const es=S.lang==='es'; const sug=es?['¿Estoy registrado?','¿Qué medidas hay en mi boleta?','¿Necesito identificación?']:['Am I registered?','What measures are on my ballot?','Do I need ID?'];
+  return `
+  <div class="row between"><div class="row" style="gap:10px"><span class="mascot-badge">${MASCOT_SVG}</span><h2 style="margin:0">BallotBot</h2></div>
+    <div class="row" style="gap:8px"><span class="pill premium">${t('premium')}</span><button class="back" style="margin:0;padding:6px" onclick="closeSheet()" aria-label="${es?'Cerrar':'Close'}">${ICON.x}</button></div></div>
+  <div class="chat" id="chat" style="margin-top:12px">${S.chat.length?S.chat.map(m=>`<div class="msg ${m.role==='user'?'me':'bot'}">${esc(m.content)}</div>`).join(''):`<div class="msg bot">${t('bot_hi')}</div>`}</div>
+  <div class="suggest">${sug.map(s=>`<button class="chip" onclick="askBot(${JSON.stringify(s).replace(/"/g,'&quot;')})">${s}</button>`).join('')}</div>
+  <form class="chatbar" onsubmit="event.preventDefault();askBot(this.q.value);this.q.value=''"><input name="q" type="text" autocomplete="off" placeholder="${t('placeholder')}"><button class="btn" type="submit" id="askbtn">${t('ask')}</button></form>`; }
 
 /* ---------- candidate list + positions ---------- */
 function normPos(c){ if(c.positions&&Array.isArray(c.positions)) return c.positions.map(p=>({topic:p.topic||'other',statement:p.statement,url:p.url})); if(c.pos) return Object.entries(c.pos).map(([k,v])=>({topic:k,statement:v,url:c.src})); return []; }
@@ -646,9 +692,23 @@ async function fillFEC(){ for(const r of myRaces()){ if(!r.fec) continue; const 
   catch(e){ el.outerHTML=`<div class="card warn">${t('fec_fail')} ${ext('https://www.fec.gov/data/elections/house/'+S.cd.slice(0,2)+'/'+S.cd.slice(2)+'/2026/','FEC')}</div>`; } } }
 
 /* ---------- swipe logic ---------- */
-function swipePool(){ const pool=[]; for(const r of myRaces()){ if(!r.candidates) continue; for(const c of r.candidates){ const id=candId(r,c); c.id=id; normPos(c).forEach((p,i)=>{ if(p.statement) pool.push({key:id+'#'+i,cid:id,name:c.name,party:partyOf(c),office:r.office,topic:p.topic,statement:p.statement}); }); } }
+const slug = s => (s||'').toLowerCase().replace(/[^a-z]/g,'');
+const shorten = (s,n) => s.length>n ? s.slice(0,n).replace(/\s+\S*$/,'')+'…' : s;
+// Share of the chamber on the winning side; lower = more contested
+const voteMargin = v => { const m=/(\d+)-(\d+)/.exec(v.outcome||''); return m ? Math.max(+m[1],+m[2])/(+m[1]+ +m[2]) : 1; };
+// A few of an incumbent's most contested recorded votes, so the deck isn't only campaign promises
+function recordCards(r,c,id){ const o=REPS.officials.find(x=>slug(x.name)===slug(c.name)); if(!o) return [];
+  return (o.votes||[]).filter(v=>/yea|aye|yes|nay|no\b/i.test(v.vote||'')).map((v,i)=>({v,i})).sort((a,b)=>voteMargin(a.v)-voteMargin(b.v)).slice(0,2)
+    .map(({v,i})=>({key:id+'#vote'+i,cid:id,name:c.name,party:partyOf(c),office:r.office,topic:'record',kind:'vote',yea:/yea|aye|yes/i.test(v.vote),statement:shorten(`${v.title}: ${v.what_it_does||''}`,150)})); }
+function swipeBody(p){ const vote=p.kind==='vote';
+  return `<div class="who">${t('sw_says')} ${esc(L(p.office))} ${t(vote?'sw_voted2':'sw_says2')}</div><div class="q">${esc(L(p.statement))}</div>
+  <div class="row" style="gap:6px;flex-wrap:wrap">${vote?`<span class="pill ${p.yea?'good':'gold'}">${t(p.yea?'sw_yea':'sw_nay')}</span>`:''}<span class="pill">${issueName(p.topic)}</span></div>`; }
+function swipePool(){ const pool=[], votes=[]; for(const r of myRaces()){ if(!r.candidates) continue; for(const c of r.candidates){ const id=candId(r,c); c.id=id; normPos(c).forEach((p,i)=>{ if(p.statement) pool.push({key:id+'#'+i,cid:id,name:c.name,party:partyOf(c),office:r.office,topic:p.topic,statement:p.statement}); }); votes.push(...recordCards(r,c,id)); } }
   // stable shuffle by key hash so order is consistent per user
-  const h=s=>{let x=0;for(const ch of s)x=(x*31+ch.charCodeAt(0))>>>0;return x;}; return pool.sort((a,b)=>h(a.key+S.zip)-h(b.key+S.zip)).slice(0,24); }
+  const h=s=>{let x=0;for(const ch of s)x=(x*31+ch.charCodeAt(0))>>>0;return x;}; const byHash=(a,b)=>h(a.key+S.zip)-h(b.key+S.zip);
+  // reserve a few slots for recorded votes so they aren't crowded out by promises
+  const v=votes.sort(byHash).slice(0,4), deck=pool.sort(byHash).slice(0,24-v.length);
+  const gap=Math.max(1,Math.floor(deck.length/(v.length+1))); v.forEach((x,i)=>deck.splice(Math.min(deck.length,gap*(i+1)+i),0,x)); return deck; }
 function swipe(v){ const el=document.getElementById('swtop'); if(!el) return; const key=el.dataset.key; S.swipes[key]=v; save();
   el.style.transform=`translateX(${v>0?120:v<0?-120:0}%) rotate(${v*15}deg)`; el.style.opacity='0'; setTimeout(()=>render(),220); }
 function attachSwipe(){ const el=document.getElementById('swtop'); if(!el) return; let x0=null, dx=0;
@@ -697,14 +757,17 @@ async function askBot(q){ q=(q||'').trim(); if(!q) return; S.chat.push({role:'us
 /* ---------- render ---------- */
 function render(){
   if(speaking){ try{ speechSynthesis.cancel(); }catch(e){} speaking=false; }
-  const v=document.getElementById('view'); v.classList.toggle('large',S.large);
+  if(S.screen==='bot') S.screen='home';
+  const v=document.getElementById('view'); v.classList.toggle('large',S.large); v.classList.toggle('home-view',S.screen==='home');
   v.innerHTML=SCREENS[S.screen]?SCREENS[S.screen]():SCREENS.welcome();
   document.querySelectorAll('[data-i]').forEach(el=>el.textContent=t(el.dataset.i));
-  const tabFor={home:'home',candidates:'home',candidate:'home',compare:'home',measures:'home',measure:'home',deadlines:'home',learn:'home',bot:'home',match:'match',updates:'updates',record:'updates',profile:'profile'};
+  const tabFor={home:'home',candidates:'home',candidate:'home',compare:'home',measures:'home',measure:'home',deadlines:'home',learn:'home',match:'match',updates:'updates',record:'updates',profile:'profile'};
   document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab===tabFor[S.screen]));
-  document.getElementById('tabs').style.display=(S.screen==='welcome'||S.screen==='setup')?'none':'flex';
+  const onboarding=S.screen==='welcome'||S.screen==='setup';
+  document.getElementById('tabs').style.display=onboarding?'none':'flex';
+  document.getElementById('mascot').style.display=onboarding?'none':'flex';
+  if(botOpen){ document.getElementById('sheet').innerHTML=botSheet(); scrollChat(); }
   if(S.screen==='setup'){ const z=document.getElementById('zip'); if(z&&z.value) previewZip(z.value); }
-  if(S.screen==='bot'){ const c=document.getElementById('chat'); if(c&&c.lastElementChild) c.lastElementChild.scrollIntoView({block:'end'}); }
   if(S.screen==='candidates') fillFEC();
   if(S.screen==='match') attachSwipe();
 }
@@ -712,6 +775,7 @@ function tick(){ const d=new Date(); document.getElementById('clock').textConten
 tick(); setInterval(tick,30000);
 function fit(){ const ph=document.querySelector('.phone'); if(innerWidth<=820){ ph.style.transform=''; ph.style.marginTop=''; ph.style.marginBottom=''; return; } const sc=Math.min(1,(innerHeight-48)/800); ph.style.transform=sc<1?`scale(${sc})`:''; ph.style.marginTop=sc<1?`${-(800-800*sc)/2}px`:''; ph.style.marginBottom=ph.style.marginTop; }
 fit(); addEventListener('resize',fit);
+document.getElementById('mascot').innerHTML=MASCOT_SVG;
 document.querySelector('[data-tab="home"]').onclick=()=>go(S.setup?'home':'welcome');
 if(!S.setup) S.screen='welcome';
 render(); loadAll().then(checkReminders);

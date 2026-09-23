@@ -1,0 +1,108 @@
+{
+ "generated": "2026-09-22",
+ "states": {
+  "OH": {
+   "source_url": "https://www.ohiosos.gov/office/media-center/categories/press-releases/2026-08-18",
+   "official_guide_published": true,
+   "notes": "Exactly one statewide issue is certified for Nov 3, 2026: State Issue 3. There are no statewide Issues 1 or 2 this cycle; no citizen-initiated statewide measure (including proposals on property taxes and on data centers) qualified for the 2026 ballot, per reporting on the Ohio Ballot Board's Aug. 3, 2026 meeting. The Ohio Ballot Board certified the Issue 3 ballot language, certified explanation, and arguments for and against on Aug. 3, 2026 (announced by the Secretary of State on Aug. 18, 2026), so issue numbering is final. Ohio's 2026 congressional redistricting is not the subject of any statewide measure on this ballot. NOTE ON SOURCING: ohiosos.gov blocked all automated retrieval (HTTP 403) during this research, so the certified Ballot Board text could not be read in full; the enrolled joint resolution text below was retrieved directly from the Ohio Legislature's document service and is verbatim.",
+   "measures": [
+    {
+     "number": "Issue 3",
+     "title": "Require photo identification to vote",
+     "ballot_label": "Heads up: we could not confirm the exact certified ballot wording. Ohio's Secretary of State website could not be read automatically on September 22, 2026, so the wording below comes from several reports of the Ballot Board's August 3, 2026 certification and from the resolution the legislature passed. Read the official text at https://www.ohiosos.gov/assets/certified-ballot-language-08-03-2026.pdf before you rely on it.\n\nThe certified title says the amendment would require voters \"to present photo identification in order to vote.\" The certified language requires voters \"to present an approved form of government-issued photo identification in order to vote\"; lets state law provide another way to verify the identity of a voter who has a sincere religious objection to being photographed and so does not have an approved photo ID; and requires voters who do not vote in person to provide an approved government-issued photo ID, unless the law lets them give a signature plus at least one other specified unique identifier.\n\nThe text that would be added to the Ohio Constitution reads: 'Section 5. (A) Electors shall provide photo identification in order to vote in person at a polling place or other voting location designated by law, in accordance with laws passed by the general assembly, except that the laws may provide an alternative method of verifying the identity of an elector who does not have photo identification because the elector has a sincere religious objection to being photographed. (B) At a minimum, and in accordance with laws passed by the general assembly, electors shall provide photo identification or, if authorized by law, a signature and at least one other unique identifier in order to vote by any other method authorized by law.' The resolution adds that if a majority of electors voting on the proposal adopt it, the new Section 5 takes effect immediately.",
+     "plain": [
+      "This amendment would place Ohio's photo ID requirement for voting into the state constitution instead of leaving it only in state law.",
+      "People voting in person would have to show an unexpired government-issued photo ID from a specific list, such as an Ohio driver's license or state ID card, a U.S. passport or passport card, or a U.S. military, Ohio National Guard, or Veterans Affairs ID card.",
+      "People voting by another method would have to show photo ID or, if state law allows, give a signature plus at least one other unique identifier, and state law could set up a different way to verify identity for a voter with a sincere religious objection to being photographed."
+     ],
+     "yes": "A yes vote enacts Section 5 of Article V of the Ohio Constitution, making the photo identification requirement for voting a constitutional requirement that takes effect immediately upon adoption.",
+     "no": "A no vote does not enact Section 5 of Article V, leaving Ohio's photo identification requirement for voting in statute, where the General Assembly can change or repeal it.",
+     "fiscal": "No official fiscal estimate was published as of Sept 22, 2026. No fiscal estimate or cost statement appears among the Secretary of State's certified Issue 3 materials (certified ballot language, certified explanation, arguments for and against), and no Legislative Service Commission fiscal note for Sub. S.J.R. No. 10 was located. No estimate has been produced here.",
+     "urls": [
+      "https://www.ohiosos.gov/assets/certified-ballot-language-08-03-2026.pdf",
+      "https://www.ohiosos.gov/assets/certified-explanation-08-03-2026.pdf",
+      "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sjr10/05_EN/pdf/",
+      "https://www.legislature.ohio.gov/legislation/136/sjr10",
+      "https://www.ohiosos.gov/assets/issue-3-argument-in-for.pdf",
+      "https://www.ohiosos.gov/assets/issue-3-argument-against.pdf",
+      "https://www.ohiosos.gov/office/media-center/categories/press-releases/2026-08-18",
+      "https://ballotpedia.org/Ohio_Issue_3,_Require_Voter_Identification_Amendment_(2026)"
+     ]
+    }
+   ]
+  },
+  "WI": {
+   "source_url": "https://elections.wi.gov/memo/type-c-notice-referendum-november-3-2026",
+   "official_guide_published": true,
+   "notes": "Three statewide constitutional amendment questions are certified for Nov 3, 2026 - this year Wisconsin's questions are on the November ballot, not the spring ballot. Each cleared two consecutive legislatures: first consideration by the 2023 legislature (2023 Enrolled Joint Resolutions 16, 11, and 15) and second consideration by the 2025 legislature (2025 SJR 116, 2025 AJR 10, and 2025 AJR 102 respectively). Question text, explanatory statements, and resolution numbers below were read verbatim from the official statewide Type C Notice of Referendum Election for November 3, 2026. The Wisconsin Elections Commission's own copy of that notice (source_url) returned HTTP 403 to automated retrieval on 2026-09-22; the identical notice was read in full from the City of Franklin, Wisconsin clerk's posting of the same WEC-issued document.",
+   "measures": [
+    {
+     "number": "Question 1",
+     "title": "Partial veto - 2025 Senate Joint Resolution 116 (first considered as 2023 Assembly Joint Resolution 112 / 2023 Enrolled Joint Resolution 16): To amend section 10(1)(c) of article V; relating to: prohibiting the governor from using the partial veto to create or increase any tax or fee.",
+     "ballot_label": "QUESTION 1: \"Partial veto. Shall section 10 (1) (c) of article V of the constitution be amended to prohibit the governor, in exercising his or her partial veto authority, from creating or increasing or authorizing the creation or increase of any tax or fee?\"",
+     "plain": [
+      "This amendment would change the part of the state constitution that governs the governor's partial veto of spending bills.",
+      "It would bar the governor from using that partial veto to create or increase any tax or fee.",
+      "It would also bar a partial veto that authorizes local government bodies, such as school districts, to create or increase their own taxes or fees."
+     ],
+     "yes": "A yes vote amends Article V, Section 10(1)(c) of the Wisconsin Constitution so the governor may not use the partial veto to create or increase, or authorize the creation or increase of, any tax or fee.",
+     "no": "A no vote leaves Article V, Section 10(1)(c) unchanged, keeping the governor's current partial veto authority over appropriation bills.",
+     "fiscal": "No official fiscal estimate was published as of Sept 22, 2026. The statewide Type C Notice of Referendum Election for November 3, 2026 carries an explanatory statement for each question but contains no fiscal estimate, and no separate fiscal estimate was located for the joint resolution. No estimate has been produced here.",
+     "urls": [
+      "https://elections.wi.gov/memo/type-c-notice-referendum-november-3-2026",
+      "https://docs.legis.wisconsin.gov/2025/related/proposals/sjr116",
+      "https://www.franklinwi.gov/Files/Elections/Notice-of-Referendum-for-November-2026-General-Election.pdf",
+      "https://ballotpedia.org/Wisconsin_Prohibit_Partial_Veto_to_Increase_Tax_or_Fee_Amendment_(2026)"
+     ]
+    },
+    {
+     "number": "Question 2",
+     "title": "Freedom to gather in places of worship during an emergency - 2025 Assembly Joint Resolution 10 (first considered as 2023 Senate Joint Resolution 54 / 2023 Enrolled Joint Resolution 11): To amend section 18 of article I of the constitution; relating to: the freedom to gather in places of worship during a state of emergency.",
+     "ballot_label": "QUESTION 2: \"Freedom to gather in places of worship during an emergency. Shall section 18 of article I of the constitution, which deals with religious liberty, be amended to prohibit the state or a political subdivision of the state from ordering the closure of, or forbidding gatherings in, places of worship in response to a state of emergency, including a public health emergency?\"",
+     "plain": [
+      "This amendment would add new language to the religious liberty section of the state constitution.",
+      "It would stop the state and local governments from ordering places of worship to close during a declared national, state, or local emergency.",
+      "It would also stop them from forbidding gatherings at places of worship during such an emergency, including an emergency related to public health."
+     ],
+     "yes": "A yes vote amends Article I, Section 18 of the Wisconsin Constitution to prohibit the state or a political subdivision from ordering the closure of, or forbidding gatherings in, places of worship in response to a state of emergency.",
+     "no": "A no vote leaves Article I, Section 18 unchanged, so officials may continue to limit gatherings at places of worship during a declared emergency provided religious and secular gatherings are treated the same.",
+     "fiscal": "No official fiscal estimate was published as of Sept 22, 2026. The statewide Type C Notice of Referendum Election for November 3, 2026 carries an explanatory statement for each question but contains no fiscal estimate, and no separate fiscal estimate was located for the joint resolution. No estimate has been produced here.",
+     "urls": [
+      "https://elections.wi.gov/memo/type-c-notice-referendum-november-3-2026",
+      "https://docs.legis.wisconsin.gov/2025/related/proposals/ajr10",
+      "https://www.franklinwi.gov/Files/Elections/Notice-of-Referendum-for-November-2026-General-Election.pdf"
+     ]
+    },
+    {
+     "number": "Question 3",
+     "title": "Governmental entity discrimination prohibited - 2025 Assembly Joint Resolution 102 (first considered as 2023 Assembly Joint Resolution 109 / 2023 Enrolled Joint Resolution 15): To create section 27 of article I of the constitution; relating to: prohibiting governmental entity discrimination.",
+     "ballot_label": "QUESTION 3: \"Governmental entity discrimination prohibited. Shall section 27 of article I of the constitution be created to prohibit governmental entities in the state from discriminating against, or granting preferential treatment to, any individual or group on the basis of race, sex, color, ethnicity, or national origin in public employment, public education, public contracting, or public administration?\"",
+     "plain": [
+      "This amendment would create a new section of the state constitution covering how government bodies treat people.",
+      "It would bar state and local governmental entities - including the University of Wisconsin System, technical colleges, and public school districts - from discriminating against or granting preferential treatment to any individual or group based on race, sex, color, ethnicity, or national origin in public employment, public education, public contracting, or public administration.",
+      "It would allow actions needed to keep eligibility for a federal program when losing that eligibility would cost the government body federal funds, and it would allow bona fide sex-based qualifications reasonably necessary to normal operations."
+     ],
+     "yes": "A yes vote creates Article I, Section 27 of the Wisconsin Constitution, prohibiting governmental entities from discriminating against or granting preferential treatment to any individual or group on the basis of race, sex, color, ethnicity, or national origin in public employment, public education, public contracting, or public administration.",
+     "no": "A no vote does not add Article I, Section 27, leaving existing state and federal equal protection standards as the governing law.",
+     "fiscal": "No official fiscal estimate was published as of Sept 22, 2026. The statewide Type C Notice of Referendum Election for November 3, 2026 carries an explanatory statement for each question but contains no fiscal estimate, and no separate fiscal estimate was located for the joint resolution. No estimate has been produced here.",
+     "urls": [
+      "https://elections.wi.gov/memo/type-c-notice-referendum-november-3-2026",
+      "https://docs.legis.wisconsin.gov/2025/related/proposals/ajr102",
+      "https://www.franklinwi.gov/Files/Elections/Notice-of-Referendum-for-November-2026-General-Election.pdf",
+      "https://ballotpedia.org/Wisconsin_Prohibit_Government_Discrimination_or_Preferential_Treatment_Amendment_(2026)"
+     ]
+    }
+   ]
+  }
+ },
+ "states_with_no_measures": [],
+ "uncertain": [
+  "OH Issue 3 ballot_label: the exact certified Ballot Board ballot language could not be read. Every ohiosos.gov URL (certified ballot language PDF, certified explanation PDF, official sample ballot directive 2026-45, press releases) returned HTTP 403 to automated retrieval on 2026-09-22, as did lookup.boe.ohio.gov county sample-ballot lookups and web.archive.org. The ballot_label field records only elements corroborated by multiple secondary reports of the Aug. 3, 2026 certification, clearly flagged, plus the verbatim constitutional text from the enrolled resolution retrieved from the Ohio Legislature's own document service. A human should open https://www.ohiosos.gov/assets/certified-ballot-language-08-03-2026.pdf in a browser and paste the exact printed text before publication.",
+  "OH: the certified title line, the exact count and wording of the four bullet points, and any 'A majority yes vote is necessary...' line are unconfirmed for the same reason. Reporting is consistent that the Ballot Board approved the language 4-1 on Aug. 3, 2026 and that the certified language contains four bullet points.",
+  "OH completeness: that Issue 3 is the ONLY statewide issue certified for Nov 3, 2026 rests on news reporting (Signal Ohio, NBC4/Fox8, Ballotpedia) rather than a directly readable Secretary of State certification list, because ohiosos.gov was unreachable. Reporting states no citizen-initiated statewide measure qualified for 2026, including proposals on property taxes and on data centers. Worth one browser confirmation against the Secretary of State's statewide issues page.",
+  "OH fiscal: absence of an official fiscal estimate is inferred from the absence of any fiscal document among the Secretary of State's Issue 3 materials and the Ohio Legislature's SJR 10 page. It could not be positively confirmed against the Legislative Service Commission's site.",
+  "WI source access: the Wisconsin Elections Commission page at https://elections.wi.gov/memo/type-c-notice-referendum-november-3-2026 returned HTTP 403 to automated retrieval. All Wisconsin question text, explanatory statements, and joint resolution numbers recorded here were read verbatim from the identical WEC-issued statewide Type C Notice of Referendum Election as posted by the City of Franklin, Wisconsin clerk.",
+  "WI Question 3 explanatory statement: the 'yes' vote sentence in the official explanatory statement spans a page break in the notice PDF and extracted incompletely. Note also that the notice's printed 'no' vote sentence for Question 3 reads 'would vote not to add Wis. Const. art. I § 18' - an apparent typographical error in the official document, since Question 3 concerns Article I, Section 27. The 'no' summary written here reflects the substance of the question rather than that apparent typo.",
+  "WI: no Wisconsin statewide question was found on a spring 2026 ballot; all three certified 2026 statewide questions are on the Nov 3, 2026 general election ballot. This was not separately confirmed against a WEC spring election notice."
+ ]
+}

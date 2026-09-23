@@ -1,0 +1,352 @@
+{
+ "generated": "2026-09-22",
+ "states": {
+  "MT": {
+   "source_url": "https://sosmt.gov/elections/ballot_issues/proposed-2026-ballot-issues/",
+   "official_guide_published": false,
+   "notes": "The Montana Secretary of State certified three citizen-initiated measures on 8/17/2026 (CI-132, CI-133, I-194). No legislative referendum (LR-) appears on the Secretary of State's list of issues qualified for the 2026 General Election ballot. The 2026 Montana Voter Information Pamphlet had not been posted at sosmt.gov/elections/vip/ as of Sept 22, 2026; that page still showed the 2024 pamphlet. Ballot language below is transcribed from the Secretary of State's official ballot-language PDFs.",
+   "measures": [
+    {
+     "number": "CI-132",
+     "title": "Keep judicial elections nonpartisan",
+     "ballot_label": "CI-132 amends the Montana Constitution to require that judicial elections remain nonpartisan. [] YES on Constitutional Amendment CI-132 [] NO on Constitutional Amendment CI-132",
+     "plain": [
+      "CI-132 would add a new section to the Montana Constitution saying that judicial elections shall remain nonpartisan.",
+      "Under Montana law today, candidates for judge already run without a political party label next to their names.",
+      "Putting the rule in the constitution means the Legislature could not change it by passing an ordinary law."
+     ],
+     "yes": "A yes vote adds a new Section 12 to Article VII of the Montana Constitution providing that judicial elections shall remain nonpartisan.",
+     "no": "A no vote leaves the Montana Constitution unchanged, so the nonpartisan format of judicial elections continues to rest on state statute rather than the constitution.",
+     "fiscal": "No fiscal statement is printed on the official ballot language issued by the Montana Secretary of State for CI-132, and the 2026 Montana Voter Information Pamphlet had not been published as of Sept 22, 2026. No official fiscal estimate was published as of Sept 22, 2026.",
+     "urls": [
+      "https://sosmt.gov/wp-content/uploads/wpfd/preview_files/CI-132(3a70e31b2fe58baa619ffb1d9b23c8ff).pdf",
+      "https://sosmt.gov/elections/ballot_issues/proposed-2026-ballot-issues/",
+      "https://ballotpedia.org/Montana_CI-132,_Require_Nonpartisan_Judicial_Elections_Initiative_(2026)"
+     ]
+    },
+    {
+     "number": "CI-133",
+     "title": "Right to use the initiative and referendum process",
+     "ballot_label": "The Montana constitution reserves to the people the powers of initiative and referendum. CI-133 amends the constitution to secure this fundamental right from interference by the government. Specifically, CI-133 requires impartial, predictable, open, and timely processes for ballot issues. Petitions and ballot statements must be approved within 90 days of the initial submission, and legal challenges to ballot qualification must be resolved before the deadline for finalizing ballots. CI-133 requires the state to allow ample time for signature gathering, prohibits disqualification of petitions because of minor or technical issues, allows voters to withdraw their signatures if they so choose, and prohibits the use of government resources to support or oppose a ballot measure. [] YES on Constitutional Amendment CI-133 [] NO on Constitutional Amendment CI-133",
+     "plain": [
+      "CI-133 would add a new section to the Montana Constitution stating that people have a fundamental right to use the initiative and referendum process.",
+      "It would require the state to approve petitions and ballot statements within 90 days of the first submission and to resolve court challenges before ballots are finalized.",
+      "It would also bar rejecting petitions over minor or technical errors, let voters withdraw their own signatures, and prohibit using government resources to support or oppose a ballot measure."
+     ],
+     "yes": "A yes vote adds a new Section 37 to Article II of the Montana Constitution establishing a fundamental right to initiative and referendum and the procedural guarantees listed in the measure.",
+     "no": "A no vote leaves the Montana Constitution unchanged, so the rules for qualifying and challenging ballot issues continue to be set by statute.",
+     "fiscal": "No fiscal statement is printed on the official ballot language issued by the Montana Secretary of State for CI-133, and the 2026 Montana Voter Information Pamphlet had not been published as of Sept 22, 2026. No official fiscal estimate was published as of Sept 22, 2026.",
+     "urls": [
+      "https://sosmt.gov/wp-content/uploads/wpfd/preview_files/CI-133(ba9d97da675a9f26f24b5f9e333b35b7).pdf",
+      "https://sosmt.gov/elections/ballot_issues/proposed-2026-ballot-issues/"
+     ]
+    },
+    {
+     "number": "I-194",
+     "title": "Limit election spending by corporations and similar entities",
+     "ballot_label": "I-194, if passed, limits the powers of artificial persons to those powers necessary or convenient as provided by law. These powers must exclude contributing anything of value to candidate elections, supporting or opposing political parties, or supporting or opposing state or local ballot issues. Artificial persons include non-profits, trusts, partnerships, corporations, trade associations, or unincorporated associations and includes all such entities doing business in Montana. Any violation of I-194 is punished by forfeiting all privileges to do business in Montana. Those privileges may be, but are not automatically, restored upon disgorgement and certification of compliance with I-194. I-194 does not apply to the distribution of news, commentary, or editorial content. I-194 also does not apply to the state of Montana, political subdivisions, individuals, political committees, or public corporations. [] YES on Initiative I-194 [] NO on Initiative I-194",
+     "plain": [
+      "I-194 would change state law so that corporations, nonprofits, trusts, partnerships, trade associations, and similar entities do not have the legal power to spend money on Montana elections.",
+      "An entity that spends money to support or oppose a candidate, a political party, or a ballot issue would forfeit its Montana charter privileges, including limited liability.",
+      "The law would not apply to individuals, political committees, state or local government bodies, or to publishing news, commentary, and editorial content."
+     ],
+     "yes": "A yes vote enacts a new chapter of Montana statute, effective January 1, 2027, that withholds political spending power from artificial persons and makes such spending void and grounds for forfeiture of charter privileges.",
+     "no": "A no vote leaves Montana statute unchanged, so existing law governing political spending by corporations and other entities continues to apply.",
+     "fiscal": "No fiscal statement is printed on the official ballot language issued by the Montana Secretary of State for I-194, and the 2026 Montana Voter Information Pamphlet had not been published as of Sept 22, 2026. No official fiscal estimate was published as of Sept 22, 2026.",
+     "urls": [
+      "https://sosmt.gov/wp-content/uploads/wpfd/preview_files/I-194(d4249530242056d948420c5212f6f750).pdf",
+      "https://sosmt.gov/elections/ballot_issues/proposed-2026-ballot-issues/"
+     ]
+    }
+   ]
+  },
+  "NV": {
+   "source_url": "https://www.nvsos.gov/sos/elections/election-information/2026-election-information",
+   "official_guide_published": true,
+   "notes": "The Nevada Secretary of State has published the official 2026 Statewide Ballot Questions guide (30 pages, issued by Secretary of State Francisco V. Aguilar). The guide states there will be only two statewide ballot measures this year and that there are no statewide Questions 1 through 5, because no petition circulated for 2026 gathered enough valid signatures. Both remaining questions are second-round votes under Article 19, Section 2 of the Nevada Constitution, which requires an initiated constitutional amendment to be approved at two successive general elections. A statewide initiative to exempt teachers and school staff from public-employee strike bans was withdrawn and is not on the ballot.",
+   "measures": [
+    {
+     "number": "Question 6",
+     "title": "State Question No. 6 - Amendment to the Nevada Constitution, Initiative Petition C-05-2023",
+     "ballot_label": "Should the Nevada Constitution be amended to create an individual's fundamental right to an abortion, without interference by state or local governments, whenever the abortion is performed by a qualified healthcare professional until fetal viability or when necessary to protect the health or life of the pregnant individual at any point during the pregnancy? Yes [ ] No [ ]",
+     "plain": [
+      "Question 6 would add a new section to the Nevada Constitution creating a fundamental right to an abortion performed by a qualified health care professional.",
+      "That right would apply until fetal viability, and after that point when an abortion is needed to protect the life or health of the pregnant patient.",
+      "This is the second of two required votes: Nevada voters approved the same amendment in 2024, and an initiated constitutional amendment must pass at two general elections in a row before it becomes part of the constitution."
+     ],
+     "yes": "A yes vote gives the amendment the second of the two approvals it needs, adding a new Section 25 to Article 1 of the Nevada Constitution that establishes a constitutional right to abortion, effective when the vote is canvassed on November 24, 2026.",
+     "no": "A no vote rejects the amendment, so it does not become part of the Nevada Constitution and abortion remains legal in Nevada only as a matter of state statute.",
+     "fiscal": "Official fiscal note in the Secretary of State's 2026 guide: \"FINANCIAL IMPACT - CANNOT BE DETERMINED.\" The Legislative Counsel Bureau's Fiscal Analysis Division found that if the amendment passes, the Legislature may have to review existing abortion laws for compliance, which could affect state or local resources; but because it is unknown which laws, if any, would be out of compliance or how the Legislature would revise them, the financial effect on state or local governments cannot be determined with any reasonable degree of certainty. Prepared by the Fiscal Analysis Division of the Legislative Counsel Bureau, August 1, 2024.",
+     "urls": [
+      "https://www.nvsos.gov/home/showpublisheddocument/20519/639233354596030000",
+      "https://www.nvsos.gov/sos/elections/election-information/2026-election-information",
+      "https://www.nvsos.gov/sos/elections/2026-petitions",
+      "https://ballotpedia.org/Nevada_Question_6,_Right_to_Abortion_Initiative_(2026)"
+     ]
+    },
+    {
+     "number": "Question 7",
+     "title": "State Question No. 7 - Amendment to the Nevada Constitution, Initiative Petition C-02-2023",
+     "ballot_label": "Should the Nevada Constitution be amended to require voters to either present photo identification to verify their identity when voting in-person or to provide certain personal information to verify their identity when voting by mail ballot? Yes [ ] No [ ]",
+     "plain": [
+      "Question 7 would amend the Nevada Constitution to require voters to show a photo ID before receiving a ballot at a polling place.",
+      "Voters using a mail ballot would instead provide identifying numbers, such as the last four digits of a Nevada driver's license or Social Security number.",
+      "This is the second of two required votes: Nevada voters approved the same amendment in 2024, and an initiated constitutional amendment must pass at two general elections in a row before it becomes part of the constitution."
+     ],
+     "yes": "A yes vote gives the amendment the second of the two approvals it needs, adding new Sections 1B and 1C to Article 2 of the Nevada Constitution that require photo ID for in-person voting and identifying information for mail ballots, effective when the vote is canvassed on November 24, 2026.",
+     "no": "A no vote rejects the amendment, so it does not become part of the Nevada Constitution and current identification rules for voting continue to apply.",
+     "fiscal": "Official fiscal note in the Secretary of State's 2026 guide: \"FINANCIAL IMPACT - YES.\" Based on information from the Secretary of State's Office, changes to Nevada's voter check-in and mail-ballot verification systems would cost approximately $6,750 and would have to be made in time for the 2028 elections. The Fiscal Analysis Division also assumes the Legislature would need to create a free alternative form of voter ID for people who lack an accepted document, and because the form, issuing agency, and number of affected voters are unknown, that additional financial effect on state or local governments cannot be determined with any reasonable degree of certainty. Prepared by the Fiscal Analysis Division of the Legislative Counsel Bureau, July 29, 2024.",
+     "urls": [
+      "https://www.nvsos.gov/home/showpublisheddocument/20519/639233354596030000",
+      "https://www.nvsos.gov/sos/elections/election-information/2026-election-information",
+      "https://www.nvsos.gov/sos/elections/2026-petitions",
+      "https://ballotpedia.org/Nevada_Question_7,_Require_Voter_Identification_Initiative_(2026)"
+     ]
+    }
+   ]
+  },
+  "NM": {
+   "source_url": "https://www.sos.nm.gov/wp-content/uploads/2026/09/IT-0976-1A06E285BD1-1EA01218E0D402F2F5-2026-CA-and-GOB-Questions-final.pdf",
+   "official_guide_published": true,
+   "notes": "The New Mexico Secretary of State's official 2026 publication of statewide constitutional amendments and general obligation bond questions lists four constitutional amendments and three bond questions. Ballot text below is transcribed from that publication (English text; the same document also carries Spanish text). Fiscal figures come from the Legislative Finance Committee fiscal impact reports for the underlying joint resolutions.",
+   "measures": [
+    {
+     "number": "Constitutional Amendment 1",
+     "title": "Constitutional Amendment 1 (House Joint Resolution 2, 2025 Regular Session - \"Eliminate Pocket Vetoes, CA\")",
+     "ballot_label": "Proposing an amendment to Article 4, Section 22 of the Constitution of New Mexico to require the governor to provide veto messages on all bills vetoed in whole or in part and to provide that all bills passed by the legislature and not acted on by the governor will become law.",
+     "plain": [
+      "Constitutional Amendment 1 would require the governor to give a written veto message for every bill or part of a bill that is vetoed.",
+      "Bills the Legislature passes that the governor does not act on would become law instead of dying without any action.",
+      "This would end the practice in New Mexico known as the pocket veto."
+     ],
+     "yes": "A yes vote amends Article 4, Section 22 of the New Mexico Constitution to require veto messages for all vetoes and to make unsigned, unvetoed bills become law.",
+     "no": "A no vote leaves Article 4, Section 22 unchanged, so a bill the governor neither signs nor vetoes after the session ends continues to die without an explanation.",
+     "fiscal": "Legislative Finance Committee fiscal impact report on House Joint Resolution 2 (2025), \"Eliminate Pocket Vetoes, CA\": estimated Secretary of State cost of $30,000 to $50,000, nonrecurring, from other state funds, to place the amendment before voters; the impact on the Office of the Governor is listed as indeterminate but minimal.",
+     "urls": [
+      "https://www.sos.nm.gov/wp-content/uploads/2026/09/IT-0976-1A06E285BD1-1EA01218E0D402F2F5-2026-CA-and-GOB-Questions-final.pdf",
+      "https://www.nmlegis.gov/Sessions/25%20Regular/firs/HJR02.PDF"
+     ]
+    },
+    {
+     "number": "Constitutional Amendment 2",
+     "title": "Constitutional Amendment 2 (Senate Joint Resolution 1, 2026 Regular Session - \"School Election Timing, CA\")",
+     "ballot_label": "Proposing to amend Article 7, Section 1 of the Constitution of New Mexico to remove the requirement that school elections be separate from partisan elections.",
+     "plain": [
+      "Constitutional Amendment 2 would delete the constitutional rule that school elections must be held at a different time from partisan elections.",
+      "School districts could then put their races and bond questions on the same ballot as a general election.",
+      "The timing of school elections would instead be set by state law."
+     ],
+     "yes": "A yes vote amends Article 7, Section 1 of the New Mexico Constitution to strike the requirement that school elections be held at different times from partisan elections.",
+     "no": "A no vote leaves Article 7, Section 1 unchanged, so school elections must continue to be held separately from partisan elections.",
+     "fiscal": "Legislative Finance Committee fiscal impact report on Senate Joint Resolution 1 (2026), \"School Election Timing, CA\": election costs of $35,000 to $50,000, nonrecurring, from the general fund, to print and publish the amendment for voters; enactment costs are listed as no fiscal impact.",
+     "urls": [
+      "https://www.sos.nm.gov/wp-content/uploads/2026/09/IT-0976-1A06E285BD1-1EA01218E0D402F2F5-2026-CA-and-GOB-Questions-final.pdf",
+      "https://www.nmlegis.gov/Sessions/26%20Regular/firs/SJR01.PDF"
+     ]
+    },
+    {
+     "number": "Constitutional Amendment 3",
+     "title": "Constitutional Amendment 3 (House Joint Resolution 1, 2026 Regular Session - \"Boards of Regents Nominating Committees, CA\")",
+     "ballot_label": "Proposing an amendment to Article 12, Section 13 of the Constitution of New Mexico to establish nominating committees to provide lists of nominees to the governor for appointment of nonstudent members to the boards of regents of state educational institutions; providing that student members of boards of regents shall be appointed from a list provided by an elected student governing body of the institution; providing that, except for a student member, members of the boards of regents shall not have changed their political party registration in the twelve months preceding appointment.",
+     "plain": [
+      "Constitutional Amendment 3 would create nominating committees that give the governor a list of candidates for the boards of regents of state colleges and universities.",
+      "The governor would have to choose non-student regents from that list, and student regents from a list provided by an elected student government.",
+      "Except for student members, a person could not be appointed as a regent if they changed their political party registration in the previous twelve months."
+     ],
+     "yes": "A yes vote amends Article 12, Section 13 of the New Mexico Constitution to require nominating committees for regent appointments and to impose the party-registration and student-nomination conditions described in the measure.",
+     "no": "A no vote leaves Article 12, Section 13 unchanged, so the governor continues to nominate regents under the current process.",
+     "fiscal": "Legislative Finance Committee fiscal impact report on House Joint Resolution 1 (2026), \"Boards of Regents Nominating Committees, CA\": estimated Secretary of State cost of $35,000 to $50,000 in FY27, nonrecurring, from the general fund.",
+     "urls": [
+      "https://www.sos.nm.gov/wp-content/uploads/2026/09/IT-0976-1A06E285BD1-1EA01218E0D402F2F5-2026-CA-and-GOB-Questions-final.pdf",
+      "https://www.nmlegis.gov/Sessions/26%20Regular/firs/HJR01.PDF"
+     ]
+    },
+    {
+     "number": "Constitutional Amendment 4",
+     "title": "Constitutional Amendment 4 (House Joint Resolution 5, 2026 Regular Session - \"Legislative Compensation, CA\")",
+     "ballot_label": "Proposing to amend Article 4, Section 10 of the Constitution of New Mexico to allow legislative compensation that is limited to the median household income for New Mexico, to require legislative compensation to be reduced if the median household income for New Mexico falls, to allow legislative compensation to be increased only if the median household income for New Mexico rises and to provide for delayed implementation.",
+     "plain": [
+      "Constitutional Amendment 4 would allow New Mexico legislators to be paid a salary, which the constitution does not currently permit.",
+      "The salary could be no more than the state's median household income.",
+      "Legislative pay would rise only if the state's median household income rises and would be cut if it falls, and the change would take effect on a delayed schedule."
+     ],
+     "yes": "A yes vote amends Article 4, Section 10 of the New Mexico Constitution to permit legislative compensation capped at the state median household income, on the delayed schedule set out in the amendment.",
+     "no": "A no vote leaves Article 4, Section 10 unchanged, so New Mexico legislators continue to serve without a salary.",
+     "fiscal": "Legislative Finance Committee fiscal impact report on House Joint Resolution 5 (2026), \"Legislative Compensation, CA\": about $35,000 nonrecurring general fund for the Secretary of State to put the amendment before voters, and, if the amendment is ratified, about $3,800,000 in recurring general fund costs to the Legislative Council Service beginning in FY2028. The report notes the amounts do not include employer payroll taxes (10-12 percent of payroll) or benefits (up to 30 percent).",
+     "urls": [
+      "https://www.sos.nm.gov/wp-content/uploads/2026/09/IT-0976-1A06E285BD1-1EA01218E0D402F2F5-2026-CA-and-GOB-Questions-final.pdf",
+      "https://www.nmlegis.gov/Sessions/26%20Regular/firs/HJR05.PDF"
+     ]
+    },
+    {
+     "number": "Bond Question 1",
+     "title": "Bond Question 1 - Senior Citizen Facility Improvement, Construction and Equipment Acquisition Bonds (2026 Capital Projects General Obligation Bond Act)",
+     "ballot_label": "The 2026 Capital Projects General Obligation Bond Act authorizes the issuance and sale of senior citizen facility improvement, construction and equipment acquisition bonds. Shall the state be authorized to issue general obligation bonds in an amount not to exceed twenty-one million five hundred eighty-two thousand two hundred thirteen dollars ($21,582,213) to make capital expenditures for certain senior citizen facility improvement, construction and equipment acquisition projects and provide for a general property tax imposition and levy for the payment of principal of, interest on and expenses incurred in connection with the issuance of the bonds and the collection of the tax as permitted by law?",
+     "plain": [
+      "Bond Question 1 would let the state borrow up to $21,582,213 by issuing general obligation bonds.",
+      "The money would pay for building, improving, and equipping senior citizen facilities across New Mexico.",
+      "A general property tax would be imposed and collected to repay the bond principal, the interest, and the costs of issuing the bonds."
+     ],
+     "yes": "A yes vote authorizes the state to issue up to $21,582,213 in general obligation bonds for senior citizen facility projects and to levy a general property tax to repay them.",
+     "no": "A no vote denies the bond authorization, so the state may not issue these bonds or levy the associated property tax for these projects.",
+     "fiscal": "The official fiscal terms are stated in the ballot question itself: general obligation bonds in an amount not to exceed $21,582,213, repaid through a general property tax imposition and levy covering principal, interest, and issuance expenses. No separate dollar fiscal estimate beyond the ballot text was published by the Secretary of State as of Sept 22, 2026.",
+     "urls": [
+      "https://www.sos.nm.gov/wp-content/uploads/2026/09/IT-0976-1A06E285BD1-1EA01218E0D402F2F5-2026-CA-and-GOB-Questions-final.pdf"
+     ]
+    },
+    {
+     "number": "Bond Question 2",
+     "title": "Bond Question 2 - Library Acquisition Bonds (2026 Capital Projects General Obligation Bond Act)",
+     "ballot_label": "The 2026 Capital Projects General Obligation Bond Act authorizes the issuance and sale of library acquisition bonds. Shall the state be authorized to issue general obligation bonds in an amount not to exceed nineteen million three hundred twenty-four thousand one hundred eighty-eight dollars ($19,324,188) to make capital expenditures for academic, public school, public and tribal library resource acquisitions and provide for a general property tax imposition and levy for the payment of principal of, interest on and expenses incurred in connection with the issuance of the bonds and the collection of the tax as permitted by law?",
+     "plain": [
+      "Bond Question 2 would let the state borrow up to $19,324,188 by issuing general obligation bonds.",
+      "The money would buy library resources for academic libraries, public school libraries, public libraries, and tribal libraries.",
+      "A general property tax would be imposed and collected to repay the bond principal, the interest, and the costs of issuing the bonds."
+     ],
+     "yes": "A yes vote authorizes the state to issue up to $19,324,188 in general obligation bonds for library resource acquisitions and to levy a general property tax to repay them.",
+     "no": "A no vote denies the bond authorization, so the state may not issue these bonds or levy the associated property tax for these acquisitions.",
+     "fiscal": "The official fiscal terms are stated in the ballot question itself: general obligation bonds in an amount not to exceed $19,324,188, repaid through a general property tax imposition and levy covering principal, interest, and issuance expenses. No separate dollar fiscal estimate beyond the ballot text was published by the Secretary of State as of Sept 22, 2026.",
+     "urls": [
+      "https://www.sos.nm.gov/wp-content/uploads/2026/09/IT-0976-1A06E285BD1-1EA01218E0D402F2F5-2026-CA-and-GOB-Questions-final.pdf"
+     ]
+    },
+    {
+     "number": "Bond Question 3",
+     "title": "Bond Question 3 - Higher Education, Special Schools and Tribal Schools Capital Improvement and Acquisition Bonds (2026 Capital Projects General Obligation Bond Act)",
+     "ballot_label": "The 2026 Capital Projects General Obligation Bond Act authorizes the issuance and sale of higher education, special schools and tribal schools capital improvement and acquisition bonds. Shall the state be authorized to issue general obligation bonds in an amount not to exceed three hundred fifty-two million two hundred twenty five thousand three hundred seventy-nine dollars ($352,225,379) to make capital expenditures for certain higher education, special schools and tribal schools capital improvements and acquisitions and provide for a general property tax imposition and levy for the payment of principal of, interest on and expenses incurred in connection with the issuance of the bonds and the collection of the tax as permitted by law?",
+     "plain": [
+      "Bond Question 3 would let the state borrow up to $352,225,379 by issuing general obligation bonds.",
+      "The money would pay for capital improvements and acquisitions at higher education institutions, special schools, and tribal schools.",
+      "A general property tax would be imposed and collected to repay the bond principal, the interest, and the costs of issuing the bonds."
+     ],
+     "yes": "A yes vote authorizes the state to issue up to $352,225,379 in general obligation bonds for higher education, special school, and tribal school capital projects and to levy a general property tax to repay them.",
+     "no": "A no vote denies the bond authorization, so the state may not issue these bonds or levy the associated property tax for these projects.",
+     "fiscal": "The official fiscal terms are stated in the ballot question itself: general obligation bonds in an amount not to exceed $352,225,379, repaid through a general property tax imposition and levy covering principal, interest, and issuance expenses. No separate dollar fiscal estimate beyond the ballot text was published by the Secretary of State as of Sept 22, 2026.",
+     "urls": [
+      "https://www.sos.nm.gov/wp-content/uploads/2026/09/IT-0976-1A06E285BD1-1EA01218E0D402F2F5-2026-CA-and-GOB-Questions-final.pdf"
+     ]
+    }
+   ]
+  },
+  "UT": {
+   "source_url": "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+   "official_guide_published": false,
+   "notes": "Lieutenant Governor Deidre M. Henderson's 2026 General Election Certification, signed August 28, 2026, states that under Utah Code 20A-5a-209(2)(c) no statewide ballot propositions qualified for the 2026 Utah General Election ballot, and that the two proposed constitutional amendments below, passed by the Legislature, shall appear on the ballot. The H.B. 267 public-sector collective bargaining veto referendum had enough verified signatures but was removed from the ballot after the Legislature repealed H.B. 267 in the 2025 Second Special Session (approved December 11, 2025), eliminating the referendum's subject matter. A direct initiative to repeal the Independent Redistricting Commission and Standards Act did not gather enough signatures. Utah's 2026 Voter Information Pamphlet, which carries the Office of Legislative Research and General Counsel's impartial analysis and statement of fiscal effects, had not been published as of Sept 22, 2026.",
+   "measures": [
+    {
+     "number": "Constitutional Amendment A",
+     "title": "Constitutional Amendment A (H.J.R. 10, 2025 General Session - Proposal to Amend Utah Constitution - Publication Amendments)",
+     "ballot_label": "Constitutional Amendment A. Shall the Utah Constitution be amended to change how proposed constitutional amendments are published, requiring publication for 60 days immediately before the general election in a manner established by state law instead of in newspapers? If voters approve Constitutional Amendment A, state statute would change to require the Lieutenant Governor to publish the full text of all proposed constitutional amendments and other ballot questions from the Legislature, on the Utah Public Notice Website and on the Lieutenant Governor's website for 60 days immediately before the general election. ( ) For ( ) Against",
+     "plain": [
+      "Constitutional Amendment A would change how the state must publish proposed constitutional amendments before an election.",
+      "Instead of printing them in a newspaper in every county for two months, they would be published for the 60 days immediately before the general election in a manner set by state law.",
+      "State law would then require the lieutenant governor to post the full text on the Utah Public Notice Website and on the lieutenant governor's website."
+     ],
+     "yes": "A for vote amends Article XXIII, Section 1 of the Utah Constitution to replace the two-month newspaper publication requirement with 60 days of publication in a manner provided by statute, effective January 1, 2027.",
+     "no": "An against vote leaves Article XXIII, Section 1 unchanged, so proposed constitutional amendments must continue to be published in a newspaper in every county where one is published, for two months before the election.",
+     "fiscal": "No official fiscal estimate was published as of Sept 22, 2026. Utah's 2026 Voter Information Pamphlet, which carries the Office of Legislative Research and General Counsel's impartial analysis and its identification of the measure's fiscal effects, had not been published as of that date.",
+     "urls": [
+      "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+      "https://le.utah.gov/constitutionalAmendment/2026/constitutionalamendments.pdf",
+      "https://le.utah.gov/constitutionalAmendment/2026.html",
+      "https://ballotpedia.org/Utah_Publication_Requirements_for_Constitutional_Amendments_Measure_(2026)"
+     ]
+    },
+    {
+     "number": "Constitutional Amendment B",
+     "title": "Constitutional Amendment B (S.J.R. 2, 2025 General Session - Proposal to Amend Utah Constitution - Statewide Initiatives)",
+     "ballot_label": "Constitutional Amendment B. Shall the Utah Constitution be amended to require that citizen-proposed laws that increase taxes compared to existing law be approved by at least 60% of voters, instead of a simple majority? ( ) For ( ) Against",
+     "plain": [
+      "Constitutional Amendment B would raise the share of votes needed to pass a citizen initiative that increases taxes.",
+      "Such an initiative would need approval from at least 60% of those voting on it instead of a simple majority.",
+      "It applies to initiatives that create a new tax, extend an existing tax to more items or transactions, raise a tax rate, or reduce a property tax rate by less than current law would."
+     ],
+     "yes": "A for vote amends Article VI, Section 1 of the Utah Constitution so that initiated legislation voted on after November 1, 2026 that makes the listed tax changes must be approved by at least 60% of those voting, effective November 23, 2026.",
+     "no": "An against vote leaves Article VI, Section 1 unchanged, so citizen initiatives that raise taxes continue to pass with a simple majority.",
+     "fiscal": "No official fiscal estimate was published as of Sept 22, 2026. Utah's 2026 Voter Information Pamphlet, which carries the Office of Legislative Research and General Counsel's impartial analysis and its identification of the measure's fiscal effects, had not been published as of that date.",
+     "urls": [
+      "https://vote.utah.gov/wp-content/uploads/2026/09/2026-General-Election-Certification.pdf",
+      "https://le.utah.gov/constitutionalAmendment/2026/constitutionalamendments.pdf",
+      "https://le.utah.gov/constitutionalAmendment/2026.html",
+      "https://ballotpedia.org/Utah_60%25_Vote_Requirement_for_Ballot_Initiatives_to_Increase_or_Expand_Taxes_Amendment_(2026)"
+     ]
+    }
+   ]
+  },
+  "WA": {
+   "source_url": "https://www.sos.wa.gov/elections/voters/proposed-ballot-measure-information",
+   "official_guide_published": true,
+   "notes": "Secretary of State Steve Hobbs certified three statewide measures for the November 3, 2026 general election: one Initiative to the People (IP26-645) and two Initiatives to the Legislature that the Legislature did not act on (IL26-001 and IL26-638). There are no advisory votes on the 2026 ballot; Washington abolished tax advisory votes with ESSB 5082 (Chapter 109, Laws of 2023). No statewide referendum or legislatively referred constitutional amendment was certified for 2026. Ballot titles are written by the Attorney General; fiscal impact statements are prepared by the Office of Financial Management under RCW 29A.72.025. The official voters' pamphlet components (ballot titles, explanatory statements, fiscal impact statements, arguments and rebuttals) were posted on the Secretary of State's site as of Sept 22, 2026; ballots are mailed to voters by October 16.",
+   "measures": [
+    {
+     "number": "Initiative Measure No. IP26-645",
+     "title": "Initiative Measure No. IP26-645 - An Initiative Prohibiting Individual Income Taxes (Initiative to the People)",
+     "ballot_label": "Initiative Measure No. IP26-645 concerns state and local taxes. This measure would repeal a 9.9% tax on annual individual income over $1,000,000; prohibit taxes measured by individual income and taxes on individual income or the receipt of individual income; and define \"income.\" This measure would decrease funding for public K-12 education, higher education (including universities and community colleges), and human services (primarily healthcare). Should this measure be enacted into law? Yes [ ] No [ ]",
+     "plain": [
+      "Initiative IP26-645 would repeal the 9.9% state tax on individual income above $1,000,000 that the Legislature enacted in 2026 and that was set to begin in 2028.",
+      "It would also bar state and local governments from imposing taxes on individual income, on the receipt of individual income, or measured by individual income.",
+      "It would define \"income\" and \"individual\" for state excise tax purposes, while leaving in place the other tax credits, exemptions, and deductions enacted alongside the tax."
+     ],
+     "yes": "A yes vote enacts the measure, repealing the 9.9% tax on individual income over $1,000,000 and prohibiting state and local individual income taxes, effective December 3, 2026.",
+     "no": "A no vote rejects the measure, so the 9.9% tax on individual income over $1,000,000 takes effect as scheduled and no new prohibition on income taxes is added to state law.",
+     "fiscal": "Office of Financial Management fiscal impact statement: if approved, Initiative 645 will result in an estimated loss to state revenue of $11.4 billion over state fiscal years 2027-2031 (total revenue loss of $11,432,414,000 across the state general fund, federal general fund, and fair start for kids account). This would reduce funding to the state general fund for core government services, particularly public K-12 education, higher education, and human services (primarily healthcare). State agency savings are estimated at a net total of $150,471,700 over five state fiscal years. The measure is also subject to a public investment impact disclosure stating it \"would decrease funding for public K-12 education, higher education (including universities and community colleges), and human services (primarily healthcare).\"",
+     "urls": [
+      "https://www.sos.wa.gov/sites/default/files/2026-07/FIS%20-%20Initiative%20645%20-%20FINAL.pdf",
+      "https://www.sos.wa.gov/sites/default/files/2026-07/ExStmt_IP26-645.pdf",
+      "https://www.sos.wa.gov/sites/default/files/2026-07/IP26-645_PIID.pdf",
+      "https://www.sos.wa.gov/elections/voters/proposed-ballot-measure-information",
+      "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election"
+     ]
+    },
+    {
+     "number": "Initiative Measure No. IL26-001",
+     "title": "Initiative Measure No. IL26-001 - An Act Relating to the Washington Parents' Bill of Rights (Initiative to the Legislature)",
+     "ballot_label": "Initiative Measure No. IL26-001 concerns parental rights relating to their children in public school. This measure would repeal amendments to a statute listing certain rights of parents and guardians of public-school children and re-enact the law as it was originally enacted by Initiative to the Legislature 2081. Should this measure be enacted into law? Yes [ ] No [ ]",
+     "plain": [
+      "Initiative IL26-001 would restore RCW 28A.605.005 to the version originally enacted by Initiative to the Legislature 2081 in 2024.",
+      "It would repeal the changes the Legislature made to that statute in the 2025 session.",
+      "The restored law lists rights of parents and guardians of public-school children, including reviewing materials and student records, receiving certain notifications, and opting their child out of certain activities."
+     ],
+     "yes": "A yes vote enacts the measure, re-enacting RCW 28A.605.005 as originally passed under Initiative 2081 and repealing the 2025 legislative amendments, effective December 3, 2026.",
+     "no": "A no vote rejects the measure, so RCW 28A.605.005 stays in its current form, including the amendments the Legislature made in 2025.",
+     "fiscal": "Office of Financial Management fiscal impact statement: the initiative \"would have no fiscal impact on the state. Local school districts may incur minor costs to update policies and procedures, but this fiscal impact is indeterminate.\" The initiative would not impact state or local revenue.",
+     "urls": [
+      "https://www.sos.wa.gov/sites/default/files/2026-07/Initiative%20Measure%20NoIL26-001_FIS_FINAL.pdf",
+      "https://www.sos.wa.gov/sites/default/files/2026-03/INITIATIVE%20IL26-001%20ballottitleletter.pdf",
+      "https://www.sos.wa.gov/sites/default/files/2026-07/ExStat_IL26-001.pdf",
+      "https://www.sos.wa.gov/elections/voters/proposed-ballot-measure-information"
+     ]
+    },
+    {
+     "number": "Initiative Measure No. IL26-638",
+     "title": "Initiative Measure No. IL26-638 - An Act Relating to Defending Equity in Interscholastic Sports (Initiative to the Legislature)",
+     "ballot_label": "Initiative Measure No. IL26-638 concerns participation in athletics at K-12 schools. This measure would prohibit students it defines as \"biologically male\" from competing in certain school athletic activities intended for female students only. It would require verification of biological sex by students' healthcare providers. Should this measure be enacted into law? Yes [ ] No [ ]",
+     "plain": [
+      "Initiative IL26-638 would require policies barring students it defines as \"biologically male\" from competing with or against female students in certain interschool athletic activities intended for female students only.",
+      "Students who take part in those activities would have to provide a statement from their health care provider verifying the student's biological sex.",
+      "Verification would be based on reproductive anatomy, genetic makeup, or normal endogenously produced testosterone levels, and the rules would apply to both individual and team competitions."
+     ],
+     "yes": "A yes vote enacts the measure, requiring the athletic eligibility restrictions and health care provider sex verification described in the ballot title, effective December 3, 2026.",
+     "no": "A no vote rejects the measure, so no new statewide restriction or verification requirement for female-only interschool athletics is added to state law.",
+     "fiscal": "Office of Financial Management fiscal impact statement: the Office of the Superintendent of Public Instruction would incur a one-time cost of approximately $21,000 in state fiscal year 2026 to update existing guidelines. Local school districts would likely also incur costs to revise existing policies, procedures, rules, and other requirements, but that fiscal impact is indeterminate. The initiative would not impact state or local revenue.",
+     "urls": [
+      "https://www.sos.wa.gov/sites/default/files/2026-07/Initiative%20Measure%20NoIL26-638_FIS_FINAL.pdf",
+      "https://apps.sos.wa.gov/_assets/elections/initiatives/ballottitleletter_3276.pdf",
+      "https://www.sos.wa.gov/sites/default/files/2026-07/IL26-638%20Explanatory%20Statement.pdf",
+      "https://www.sos.wa.gov/elections/voters/proposed-ballot-measure-information"
+     ]
+    }
+   ]
+  }
+ },
+ "states_with_no_measures": [],
+ "uncertain": [
+  "Montana: I found no legislatively referred measure (LR-) for 2026. The Secretary of State's 'Issues Qualified for the 2026 General Election Ballot' section lists only CI-132, CI-133 and I-194, and Montana Free Press reporting agrees, but the Secretary of State's ballot-issues pages are organized around citizen petitions, so a referral by the 2025 Legislature would not necessarily appear there. Worth one more confirmation against a certified sample ballot when counties publish them.",
+  "Montana: the official ballot-language PDFs for CI-132, CI-133 and I-194 contain no fiscal statement, and the 2026 Voter Information Pamphlet was not yet posted at sosmt.gov/elections/vip/ as of Sept 22, 2026 (that page still showed the 2024 pamphlet). If a fiscal statement is later added to the pamphlet, these entries should be refreshed.",
+  "Utah: no official fiscal estimate for Constitutional Amendments A and B was available as of Sept 22, 2026. I could not locate a Legislative Fiscal Analyst fiscal note for H.J.R. 10 or S.J.R. 2 at the usual le.utah.gov fiscal-note paths, and the 2026 Voter Information Pamphlet, which carries the fiscal-effects analysis, had not been published. Re-check vote.utah.gov in October.",
+  "New Mexico: the Secretary of State's official publication prints the 'Proposing an amendment to...' text for each constitutional amendment, which is what I used as the ballot label. County ballots may display a shorter heading above that text. The fiscal figures come from Legislative Finance Committee fiscal impact reports on the underlying joint resolutions, not from a voter-facing fiscal estimate; New Mexico does not publish a fiscal note inside the ballot-question publication itself.",
+  "New Mexico: the LFC fiscal impact report for H.J.R. 5 (legislative compensation) presents its out-year figures in a table whose last column is labeled 'FY29 (last half)'. I read the roughly $3.8 million recurring general fund cost as beginning in FY2028; the exact multi-year total in that table is ambiguous in the extracted text.",
+  "Washington: I confirmed the individual voters' pamphlet components (ballot titles, explanatory statements, fiscal impact statements, and arguments and rebuttals) were published on the Secretary of State's site as of Sept 22, 2026, and marked official_guide_published true on that basis. The consolidated printed and online voters' pamphlet ships closer to the October 16 ballot mailing.",
+  "Nevada: the Secretary of State's 2026 Statewide Ballot Questions guide is the authoritative source and states plainly that Questions 6 and 7 are the only statewide measures. The fiscal notes reproduced in the 2026 guide are the ones the Legislative Counsel Bureau prepared in 2024 for the first-round vote (dated August 1, 2024 and July 29, 2024); they were not re-issued for 2026."
+ ]
+}

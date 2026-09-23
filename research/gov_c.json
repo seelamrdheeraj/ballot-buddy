@@ -1,0 +1,660 @@
+{
+ "office": "gov",
+ "states": {
+  "OK": {
+   "primary_held": true,
+   "primary_date": "2026-06-16 (runoff 2026-08-25)",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Oklahoma_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Mike Mazzei",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Tulsa financial planner; former Oklahoma state senator",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Oklahoma_gubernatorial_election",
+     "summary": "Property tax elimination, land protection, education, jobs, accountability",
+     "site": "https://mikeforok.com/",
+     "positions": [
+      {
+       "topic": "Property taxes",
+       "statement": "Eliminate property tax for seniors and veterans; no one taxed out of their home.",
+       "url": "https://mikeforok.com/the-issues/"
+      },
+      {
+       "topic": "Land",
+       "statement": "Oklahoma land should belong to Oklahomans.",
+       "url": "https://mikeforok.com/the-issues/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Reforms prioritizing reading proficiency, accountability, and stronger curriculum.",
+       "url": "https://mikeforok.com/the-issues/"
+      }
+     ]
+    },
+    {
+     "name": "Cyndi Munson",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Oklahoma House Minority Leader; state representative",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Oklahoma_gubernatorial_election",
+     "summary": "Public schools, tax relief, healthcare costs, abortion",
+     "site": "https://cyndimunson.com",
+     "positions": [
+      {
+       "topic": "Education",
+       "statement": "Invest in public schools and raise teacher pay",
+       "url": "https://cyndimunson.com/Priorities"
+      },
+      {
+       "topic": "Taxes",
+       "statement": "Tax relief for everyday Oklahomans",
+       "url": "https://cyndimunson.com/Priorities"
+      },
+      {
+       "topic": "Healthcare",
+       "statement": "Lower healthcare costs for Oklahomans",
+       "url": "https://cyndimunson.com/Priorities"
+      }
+     ]
+    }
+   ],
+   "notes": "Ballotpedia page returned no content; field confirmed via Wikipedia/news search. Mazzei won Aug 25 GOP runoff over AG Gentner Drummond. Mazzei site located 2026-09-22 (mikeforok.com) and issues page fetched. Any independent/Libertarian ballot-qualified candidates not verified. Gov. Kevin Stitt term-limited."
+  },
+  "OR": {
+   "primary_held": true,
+   "primary_date": "2026-05-19",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Oregon_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Tina Kotek",
+     "party": "Democratic (also Working Families)",
+     "incumbent": true,
+     "background": "Incumbent Governor of Oregon, elected 2022",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Oregon_gubernatorial_election",
+     "summary": "Affordability, economic opportunity, students, homelessness",
+     "site": "https://www.tinafororegon.com/",
+     "positions": [
+      {
+       "topic": "Affordability",
+       "statement": "Fighting to help Oregonians dealing with the cost of living.",
+       "url": "https://www.tinafororegon.com/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Help all students succeed.",
+       "url": "https://www.tinafororegon.com/"
+      },
+      {
+       "topic": "Homelessness",
+       "statement": "Reducing homelessness.",
+       "url": "https://www.tinafororegon.com/"
+      }
+     ]
+    },
+    {
+     "name": "Christine Drazan",
+     "party": "Republican (also Libertarian)",
+     "incumbent": false,
+     "background": "2022 Republican nominee for Oregon governor; former state representative",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Oregon_gubernatorial_election",
+     "summary": "",
+     "site": "http://www.christinefororegon.com/",
+     "positions": []
+    },
+    {
+     "name": "Brett Smith",
+     "party": "Pacific Green",
+     "incumbent": false,
+     "background": "Pacific Green Party nominee",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Oregon_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Ballotpedia page returned no content; field via Wikipedia/news search. Kotek-Drazan rematch of 2022. Kotek's official site located 2026-09-22 (tinafororegon.com); homepage phrases only, with a fuller platform at tinafororegon.com/oregons-future/ not fetched. Drazan site: www.christinefororegon.com refused HTTPS connections and the bare domain 301-redirects back to it, so it could not be fetched; positions empty."
+  },
+  "PA": {
+   "primary_held": true,
+   "primary_date": "2026-05-19",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Pennsylvania_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Josh Shapiro",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "Incumbent Governor of Pennsylvania, elected 2022; running mate Austin Davis",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Pennsylvania_gubernatorial_election",
+     "summary": "Public education, law enforcement, jobs, money back in pockets",
+     "site": "https://joshshapiro.org",
+     "positions": [
+      {
+       "topic": "Education",
+       "statement": "Invested more in public education than ever before; free school breakfast.",
+       "url": "https://joshshapiro.org/meet-josh/"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Hired hundreds of new law enforcement officers.",
+       "url": "https://joshshapiro.org/meet-josh/"
+      },
+      {
+       "topic": "Economy",
+       "statement": "Created thousands of new jobs and put money back in people's pockets.",
+       "url": "https://joshshapiro.org/meet-josh/"
+      }
+     ]
+    },
+    {
+     "name": "Stacy Garrity",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Pennsylvania State Treasurer; running mate Jason Richey",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Pennsylvania_gubernatorial_election",
+     "summary": "Fiscal responsibility, transparency, veterans",
+     "site": "http://garrityforpa.com/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "statement": "A governor more interested in raising hope than raising taxes.",
+       "url": "https://garrityforpa.com/"
+      },
+      {
+       "topic": "Transparency",
+       "statement": "Ethics in her office and full transparency a top priority.",
+       "url": "https://garrityforpa.com/"
+      },
+      {
+       "topic": "Veterans",
+       "statement": "Returning hundreds of military decorations safeguarded in the Treasury's vault.",
+       "url": "https://garrityforpa.com/"
+      }
+     ]
+    }
+   ],
+   "notes": "Ballotpedia page returned no content; field via Wikipedia/news search. Both nominated unopposed. Shapiro's site has no issues page; positions are record statements from joshshapiro.org/meet-josh/ fetched 2026-09-22. Garrity positions from her homepage fetched 2026-09-22 (issues page at garrityforpa.com/turnaroundpa/ and /datacenter/ not fetched). Third-party ballot access not verified."
+  },
+  "RI": {
+   "primary_held": true,
+   "primary_date": "2026-09-08",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Rhode_Island_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Helena Foulkes",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former CVS Health executive; 2022 candidate for governor; defeated Gov. Dan McKee in primary",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Rhode_Island_gubernatorial_election",
+     "summary": "Affordability, housing, Washington Bridge, jobs, spending",
+     "site": "https://helenafoulkes.com/",
+     "positions": [
+      {
+       "topic": "Housing and infrastructure",
+       "statement": "Address affordable housing and the Washington Bridge",
+       "url": "https://helenafoulkes.com/"
+      },
+      {
+       "topic": "Affordability",
+       "statement": "Make living in Rhode Island more affordable for every Rhode Islander",
+       "url": "https://helenafoulkes.com/"
+      },
+      {
+       "topic": "Jobs",
+       "statement": "Create more good-paying jobs",
+       "url": "https://helenafoulkes.com/"
+      }
+     ]
+    },
+    {
+     "name": "Aaron Guckian",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Republican nominee; 2022 candidate for lieutenant governor",
+     "background_url": "https://ballotpedia.org/Aaron_Guckian",
+     "summary": "",
+     "site": "https://www.aaronforri.com/",
+     "positions": []
+    },
+    {
+     "name": "Ken Block",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate; previously ran for governor",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Rhode_Island_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Field from Wikipedia. Primary date: search said Sept 8 (a Tuesday), Wikipedia extract said Sept 9; using Sept 8. Foulkes has a detailed plans page (https://helenafoulkes.com/plans/) not fetched; positions above are from her homepage. Guckian site located via politics1.com (aaronforri.com) but the fetched page rendered only a header with no text content, so positions remain empty. Politics1 also lists independents Ken Block (blockforgovernor.com), Jay Gotra, and C.D. Reynolds; roster not changed."
+  },
+  "SC": {
+   "primary_held": true,
+   "primary_date": "2026-06-09 (runoff 2026-06-23)",
+   "source_url": "https://en.wikipedia.org/wiki/2026_South_Carolina_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Alan Wilson",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "South Carolina Attorney General since 2011; running mate Mike Reichenbach",
+     "background_url": "https://en.wikipedia.org/wiki/2026_South_Carolina_gubernatorial_election",
+     "summary": "Public safety, child protection, trafficking, election integrity",
+     "site": "https://wilsonforsc.com/",
+     "positions": [
+      {
+       "topic": "Public safety",
+       "statement": "Expanded Internet Crimes Against Children Task Force to 128 agencies",
+       "url": "https://wilsonforsc.com/priorities/"
+      },
+      {
+       "topic": "Human trafficking",
+       "statement": "Led creation of state Human Trafficking Task Force in 2012",
+       "url": "https://wilsonforsc.com/priorities/"
+      },
+      {
+       "topic": "Elections",
+       "statement": "Stood for election integrity against federal overreach",
+       "url": "https://wilsonforsc.com/priorities/"
+      }
+     ]
+    },
+    {
+     "name": "Jermaine Johnson",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "South Carolina state representative; running mate Sam Skardon",
+     "background_url": "https://en.wikipedia.org/wiki/2026_South_Carolina_gubernatorial_election",
+     "summary": "Second chances for former felons, accountability",
+     "site": "https://johnsonforsc.com/",
+     "positions": [
+      {
+       "topic": "Criminal justice",
+       "statement": "Proposed law to give former felons a fresh start",
+       "url": "https://johnsonforsc.com/"
+      },
+      {
+       "topic": "Governing approach",
+       "statement": "Accountability, integrity, and commitment in serving South Carolinians",
+       "url": "https://johnsonforsc.com/"
+      }
+     ]
+    }
+   ],
+   "notes": "Field from Wikipedia. Wilson won June 23 GOP runoff over Lt. Gov. Pamela Evette; Johnson won Dem primary over Billy Webster. Wilson's priorities page lists record items (framed as accomplishments). Johnson's detailed policies page (https://johnsonforsc.com/policies) not fetched; positions from homepage. Gov. Henry McMaster term-limited. Third-party ballot access not verified."
+  },
+  "SD": {
+   "primary_held": true,
+   "primary_date": "2026-06-02 (runoff 2026-07-28)",
+   "source_url": "https://en.wikipedia.org/wiki/2026_South_Dakota_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Larry Rhoden",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "Incumbent Governor since January 2025; previously Lieutenant Governor 2019-2025",
+     "background_url": "https://en.wikipedia.org/wiki/2026_South_Dakota_gubernatorial_election",
+     "summary": "Strong, safe, free South Dakota",
+     "site": "http://governorlarryrhoden.com/",
+     "positions": [
+      {
+       "topic": "Families and business",
+       "statement": "Keep South Dakota strong: strong families, businesses, and institutions.",
+       "url": "https://governorlarryrhoden.com/"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Keep South Dakota safe with low crime and respect for law enforcement.",
+       "url": "https://governorlarryrhoden.com/"
+      },
+      {
+       "topic": "Freedom",
+       "statement": "Keep South Dakota free; freedom will continue to be our calling card.",
+       "url": "https://governorlarryrhoden.com/"
+      }
+     ]
+    },
+    {
+     "name": "Dan Ahlers",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Executive director of South Dakota Democratic Party; former state senator",
+     "background_url": "https://en.wikipedia.org/wiki/2026_South_Dakota_gubernatorial_election",
+     "summary": "Rural economy, education, housing, healthcare, wages, accountability",
+     "site": "https://www.danahlers.com/",
+     "positions": [
+      {
+       "topic": "Rural economy",
+       "statement": "Invest in Main Street businesses and local economies of rural communities.",
+       "url": "https://www.danahlers.com/about-3"
+      },
+      {
+       "topic": "Education",
+       "statement": "Recruit and retain great teachers in classrooms across the state.",
+       "url": "https://www.danahlers.com/about-3"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Keep rural hospitals open and long-term care facilities thriving.",
+       "url": "https://www.danahlers.com/about-3"
+      }
+     ]
+    },
+    {
+     "name": "Anthony Sitter",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "HVAC installer",
+     "background_url": "https://en.wikipedia.org/wiki/2026_South_Dakota_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Field from Wikipedia. Rhoden won July 28 GOP runoff over Toby Doeden (70.8%). Rhoden homepage fetched 2026-09-22; its 'Issues Affecting South Dakotans' section contains placeholder text, so positions are his three 'strong, safe, free' statements. Ahlers site located (danahlers.com) and issues page fetched 2026-09-22. Sitter is independent: name/party only."
+  },
+  "TN": {
+   "primary_held": true,
+   "primary_date": "2026-08-06",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Tennessee_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Marsha Blackburn",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "U.S. Senator from Tennessee since 2019",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Tennessee_gubernatorial_election",
+     "summary": "Economic growth, immigration, public safety, women's sports",
+     "site": "https://marshablackburn.com/",
+     "positions": [
+      {
+       "topic": "Economy",
+       "statement": "Fighting for Tennessee's continued economic growth",
+       "url": "https://marshablackburn.com/issues/"
+      },
+      {
+       "topic": "Immigration",
+       "statement": "Stopping the scourge of illegal immigration",
+       "url": "https://marshablackburn.com/issues/"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Keeping our communities safe",
+       "url": "https://marshablackburn.com/issues/"
+      }
+     ]
+    },
+    {
+     "name": "Jerri Green",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Memphis City Council member; public defender",
+     "background_url": "https://ballotpedia.org/Jerri_Green",
+     "summary": "Paid leave, public schools, Medicaid expansion, gun safety",
+     "site": "https://greenforgovernor.com/",
+     "positions": [
+      {
+       "topic": "Workers",
+       "statement": "Expand paid family and medical leave",
+       "url": "https://greenforgovernor.com/policy/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Fully fund public schools",
+       "url": "https://greenforgovernor.com/policy/"
+      },
+      {
+       "topic": "Healthcare",
+       "statement": "Expand Medicaid, especially in rural Tennessee",
+       "url": "https://greenforgovernor.com/policy/"
+      }
+     ]
+    }
+   ],
+   "notes": "Field from news/Ballotpedia via search. Blackburn won GOP primary (43.6%) over John Rose and Monty Fritts; Green won Dem primary. Reports mention several independents also on the November ballot; names not verified. Gov. Bill Lee term-limited."
+  },
+  "TX": {
+   "primary_held": true,
+   "primary_date": "2026-03-03",
+   "source_url": "https://ballotpedia.org/Texas_gubernatorial_election,_2026",
+   "candidates": [
+    {
+     "name": "Greg Abbott",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "Incumbent Governor of Texas since 2015; seeking fourth term",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+     "summary": "Property tax reform, border security, school funding, public safety",
+     "site": "https://gregabbott.com/",
+     "positions": [
+      {
+       "topic": "Property taxes",
+       "statement": "Empowering Texas Taxpayers property tax reform plan",
+       "url": "https://gregabbott.com/"
+      },
+      {
+       "topic": "Border security",
+       "statement": "Texas became the first state to build its own border wall.",
+       "url": "https://www.gregabbott.com/issues/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Increased public school funding from $54 billion to $93 billion.",
+       "url": "https://www.gregabbott.com/issues/"
+      }
+     ]
+    },
+    {
+     "name": "Gina Hinojosa",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Texas state representative (District 49) since 2017",
+     "background_url": "https://ballotpedia.org/Gina_Hinojosa",
+     "summary": "Public schools, affordability, accountability, data centers",
+     "site": "https://ginafortexas.com/",
+     "positions": [
+      {
+       "topic": "Education",
+       "statement": "Save our public schools",
+       "url": "https://ginafortexas.com/priorities/"
+      },
+      {
+       "topic": "Cost of living",
+       "statement": "Put money in your pocket",
+       "url": "https://ginafortexas.com/priorities/"
+      },
+      {
+       "topic": "Data centers",
+       "statement": "Address costly data center madness",
+       "url": "https://ginafortexas.com/priorities/"
+      }
+     ]
+    },
+    {
+     "name": "Jenn Mack Raphoon",
+     "party": "Other (party unverified)",
+     "incumbent": false,
+     "background": "Listed on November ballot; party not confirmed",
+     "background_url": "https://ballotpedia.org/Texas_gubernatorial_election,_2026",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "No runoff needed: Abbott won GOP primary (82%), Hinojosa won Dem primary (59%). Abbott issues page fetched 2026-09-22 (also covers economy, public safety, higher education, healthcare, water infrastructure, veterans, abortion, elections). Raphoon's party (likely Libertarian or Green) not verified."
+  },
+  "VT": {
+   "primary_held": true,
+   "primary_date": "2026-08-11",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Vermont_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Phil Scott",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "Incumbent Governor of Vermont since 2017; seeking sixth two-year term",
+     "background_url": "https://ballotpedia.org/Phil_Scott_(Vermont)",
+     "summary": "Economy, middle class, affordability, practical leadership",
+     "site": "https://philscott.org/",
+     "positions": [
+      {
+       "topic": "Economy",
+       "statement": "Revitalize a strong economy that expands the middle class and lifts wages.",
+       "url": "https://www.philscott.org/meet-phil/"
+      },
+      {
+       "topic": "Affordability",
+       "statement": "Confront the crisis of affordability in meaningful ways.",
+       "url": "https://www.philscott.org/meet-phil/"
+      }
+     ]
+    },
+    {
+     "name": "Amanda Janoo",
+     "party": "Democratic (also Progressive)",
+     "incumbent": false,
+     "background": "Economist and policy leader",
+     "background_url": "https://ballotpedia.org/Amanda_Janoo",
+     "summary": "Local economy, housing, schools, AI data centers, primary care",
+     "site": "https://www.janooforvt.com/",
+     "positions": [
+      {
+       "topic": "Housing",
+       "statement": "Housing system where every Vermonter can afford to rent, buy, or build",
+       "url": "https://www.janooforvt.com/platform-page/"
+      },
+      {
+       "topic": "Healthcare",
+       "statement": "Universal primary care with a community doctor for every Vermonter",
+       "url": "https://www.janooforvt.com/platform-page/"
+      },
+      {
+       "topic": "Technology",
+       "statement": "Ban AI data centers and regulate tech giants",
+       "url": "https://www.janooforvt.com/platform-page/"
+      }
+     ]
+    }
+   ],
+   "notes": "Janoo won Dem primary narrowly (49.1%) over Aly Richards. Scott's campaign site has no issues page; homepage and meet-phil page fetched 2026-09-22 yielded only two policy statements. Third-party/independent ballot access not verified."
+  },
+  "WI": {
+   "primary_held": true,
+   "primary_date": "2026-08-11",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Wisconsin_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "David Crowley",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Milwaukee County Executive; running mate Sarah Godlewski",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Wisconsin_gubernatorial_election",
+     "summary": "Local economy, apprenticeships, small business, broadband, childcare",
+     "site": "https://www.crowleyforwi.com/",
+     "positions": [
+      {
+       "topic": "Economy",
+       "statement": "Grow an economy rooted in local ownership and union labor",
+       "url": "https://www.crowleyforwi.com/Plan"
+      },
+      {
+       "topic": "Childcare",
+       "statement": "Cap families' out-of-pocket childcare costs at 7 percent",
+       "url": "https://www.crowleyforwi.com/Plan"
+      },
+      {
+       "topic": "Infrastructure",
+       "statement": "Close Wisconsin's broadband gap, repair roads, and expand transit",
+       "url": "https://www.crowleyforwi.com/Plan"
+      }
+     ]
+    },
+    {
+     "name": "Tom Tiffany",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "U.S. Representative, Wisconsin's 7th District; running mate David Varnam",
+     "background_url": "https://ballotpedia.org/Tom_Tiffany",
+     "summary": "Lower costs, restore order, education, protect Wisconsin",
+     "site": "https://tomtiffany.com/",
+     "positions": [
+      {
+       "topic": "Affordability",
+       "statement": "Lower costs for every Wisconsinite",
+       "url": "https://tomtiffany.com/solutions/"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Restore order and create opportunity",
+       "url": "https://tomtiffany.com/solutions/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Prepare kids for success",
+       "url": "https://tomtiffany.com/solutions/"
+      }
+     ]
+    }
+   ],
+   "notes": "Crowley won Dem primary (39.8%) over Francesca Hong; Tiffany won GOP primary. Tiffany's Solutions page lists four broad themes without detail. Gov. Tony Evers not seeking re-election. Third-party/independent ballot access not verified."
+  },
+  "WY": {
+   "primary_held": true,
+   "primary_date": "2026-08-18",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Wyoming_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Eric Barlow",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Wyoming state senator; rancher from Wright",
+     "background_url": "https://ballotpedia.org/Eric_Barlow",
+     "summary": "Limited government, energy, local school control, rural healthcare",
+     "site": "https://barlowforwyo.com/",
+     "positions": [
+      {
+       "topic": "Government",
+       "statement": "Protect freedom and state sovereignty; live within means via cash-based budgeting",
+       "url": "https://barlowforwyo.com/positions"
+      },
+      {
+       "topic": "Energy",
+       "statement": "Back traditional energy industries; streamline permitting processes",
+       "url": "https://barlowforwyo.com/positions"
+      },
+      {
+       "topic": "Education",
+       "statement": "Local control and parental involvement in schools",
+       "url": "https://barlowforwyo.com/positions"
+      }
+     ]
+    },
+    {
+     "name": "Kenneth Casner",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Democrat from Elk Mountain; third bid for governor",
+     "background_url": "https://ballotpedia.org/Ken_Casner",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Barlow won GOP primary (45.1%) over Superintendent Megan Degenfelder; Casner unopposed for Dem nomination. Search on 2026-09-22 again found no Casner campaign site (only the Wyoming Democratic Party profile at wyodems.org and news coverage), so positions remain empty. Gov. Mark Gordon term-limited. Third-party (Libertarian/Constitution) ballot access not verified."
+  }
+ },
+ "uncertain": [
+  "OR: Drazan site (christinefororegon.com) unreachable over HTTPS; positions empty. Kotek positions are homepage phrases only.",
+  "OK/OR/PA: backgrounds from Wikipedia/news via search, not Ballotpedia (fetch failed)",
+  "PA: Shapiro positions are record claims from his bio page (no issues page); Garrity issues sub-pages not fetched",
+  "RI: Guckian site aaronforri.com renders no readable text; positions empty. Guckian 2022 LG-candidate background from memory, verify; primary date Sept 8 vs 9 discrepancy. Politics1 lists additional independents (Gotra, Reynolds) not in roster.",
+  "SC: Johnson positions from homepage only; policies page not fetched",
+  "SD: Rhoden homepage issues section is placeholder text; positions are broad slogans",
+  "TN: independents on general ballot not enumerated",
+  "TX: Raphoon party unverified",
+  "VT: Scott has only two positions (no issues page on campaign site)",
+  "WI: Tiffany positions are broad themes only",
+  "WY: Casner has no campaign site (party page only); positions empty; third-party candidates unverified"
+ ]
+}

@@ -1,0 +1,601 @@
+{
+ "states": {
+  "AK": {
+   "source_url": "https://www.elections.alaska.gov/petitions-and-ballot-measures/",
+   "official_guide_published": false,
+   "measures": [
+    {
+     "number": "Ballot Measure 2",
+     "title": "An Act Restoring Political Party Primaries, Ending Ranked-Choice General Elections, and Repealing Recent Campaign Finance Laws",
+     "ballot_label": "This act would get rid of open primary elections, where all candidates appear on one ballot. It would also get rid of ranked-choice general elections. It would bring back political party primaries and single-choice general elections. It would also repeal certain campaign finance rules that were added by a 2020 ballot measure. ... Should this initiative become law?",
+     "plain": [
+      "Ends Alaska's open primary (all candidates on one ballot) and ends ranked-choice voting in general elections.",
+      "Brings back party primaries; in the general election you vote for one candidate and the one with the most votes wins.",
+      "Repeals campaign finance rules added by a 2020 ballot measure, including some donation limits and 'true source' disclosure rules."
+     ],
+     "yes": "A yes vote returns Alaska to party primaries and single-choice general elections and repeals the 2020 campaign finance rules.",
+     "no": "A no vote keeps the current top-four open primary, ranked-choice general election, and 2020 campaign finance rules.",
+     "fiscal": "No official fiscal estimate was published as of Sept. 22, 2026; the state's Official Election Pamphlet is not yet released.",
+     "urls": [
+      "https://ballotpedia.org/Alaska_Ballot_Measure_2,_Repeal_Top-Four_Ranked-Choice_Voting_Initiative_(2026)",
+      "http://www.elections.alaska.gov/petitions/19AKBE/19AKBE-TheBill.pdf",
+      "https://ltgov.alaska.gov/newsroom/2025/12/lt-governor-nancy-dahlstrom-certifies-proper-filing-of-ballot-initiative-petition-24eseg/"
+     ]
+    },
+    {
+     "number": "Ballot Measure 3",
+     "title": "An Act Addressing Voter Qualification",
+     "ballot_label": "Alaska law requires that someone must be a United States citizen and meet other requirements to vote. This act would specify that only those who are United States citizens and meet the other requirements may vote. This act would not change the requirements to vote. Should this initiative become law?",
+     "plain": [
+      "Current law says a person who is a U.S. citizen and meets other rules may vote in any election.",
+      "This act changes the wording to say that only U.S. citizens who meet the other rules may vote.",
+      "The official summary says the act does not change who is eligible to vote."
+     ],
+     "yes": "A yes vote rewrites Alaska's voter qualification law to state that only U.S. citizens may vote in any election.",
+     "no": "A no vote leaves the current wording of the voter qualification law unchanged.",
+     "fiscal": "No official fiscal estimate was published as of Sept. 22, 2026.",
+     "urls": [
+      "https://ballotpedia.org/Alaska_Ballot_Measure_3,_Citizenship_Voting_Requirement_Initiative_(2026)",
+      "https://ltgov.alaska.gov/newsroom/2026/03/lieutenant-governor-nancy-dahlstrom-certifies-proper-filing-of-ballot-initiative-petition-25uscv/"
+     ]
+    }
+   ]
+  },
+  "AZ": {
+   "source_url": "https://apps.azsos.gov/election/BallotMeasures/2026/2026-AZ-Publicity-Pamphlet.pdf",
+   "official_guide_published": true,
+   "measures": [
+    {
+     "number": "Proposition 141",
+     "title": "Prohibits taxes or fees based on vehicle miles traveled and laws monitoring or limiting vehicle miles traveled without consent",
+     "ballot_label": "A \"yes\" vote shall have the effect of amending the Arizona Constitution to prohibit: (1) taxes or fees on based on motor vehicle miles traveled; and (2) laws or rules that monitor or limit motor vehicle miles traveled without consent. These prohibitions do not apply in certain instances to interstate commercial vehicles or to vehicles owned by the state or local governments.",
+     "plain": [
+      "Bans state and local governments from charging any tax or fee based on how many miles a vehicle is driven.",
+      "Bans laws or rules that track or limit a person's driving miles without that person's consent.",
+      "Some exceptions apply for interstate commercial vehicles and government-owned vehicles."
+     ],
+     "yes": "A yes vote adds a constitutional ban on mileage-based taxes or fees and on tracking or limiting miles driven without consent.",
+     "no": "A no vote keeps the constitution as is, leaving the legislature free to adopt mileage-based taxes, fees, or monitoring rules.",
+     "fiscal": "No fiscal impact statement is published; Arizona requires JLBC fiscal statements only for citizen initiatives, and this is a legislative referral.",
+     "urls": [
+      "https://ballotpedia.org/Arizona_Proposition_141,_Prohibit_Taxes_or_Fees_on_Miles_Traveled_in_Motor_Vehicle_Amendment_(2026)",
+      "https://apps.azsos.gov/election/BallotMeasures/2026/2026-AZ-Publicity-Pamphlet.pdf",
+      "https://azsos.gov/sites/default/files/docs/2026-Ballot-Language-FINAL_0.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 142",
+     "title": "Adds further details to the constitutional prohibition against preferential treatment or discrimination by the state based on race, ethnicity, or other classes",
+     "ballot_label": "A \"yes\" vote shall have the effect of amending the Arizona Constitution's current prohibition against preferential treatment or discrimination by the state based on race, ethnicity, or other classes, to specifically prohibit: (1) compelling individuals to support preferential treatment or discrimination based on race or ethnicity as a condition of education, employment, or contract opportunities; ...",
+     "plain": [
+      "Expands the constitution's existing ban on state discrimination or preferential treatment based on race or ethnicity.",
+      "Bars requiring people to endorse race-based preferences (such as DEI statements) to get education, jobs, or contracts, and bars public money for public-education jobs that promote them.",
+      "Bans discipline practices that treat students or employees differently by race or ethnicity; certain exceptions apply."
+     ],
+     "yes": "A yes vote adds these specific anti-preference prohibitions to the Arizona Constitution.",
+     "no": "A no vote keeps the constitution's current language on preferential treatment and discrimination unchanged.",
+     "fiscal": "No fiscal impact statement is published; Arizona requires JLBC fiscal statements only for citizen initiatives, and this is a legislative referral.",
+     "urls": [
+      "https://ballotpedia.org/Arizona_Proposition_142,_Prohibit_Compelled_Support_for_Race-Based_Preferential_Treatment_or_Discrimination_Amendment_(2026)",
+      "https://apps.azsos.gov/election/BallotMeasures/2026/2026-AZ-Publicity-Pamphlet.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 144",
+     "title": "Requires all voters, including voters who vote by mail, to show government-issued ID to vote in each election; makes other changes to election administration and campaign finance prohibitions",
+     "ballot_label": "A \"yes\" vote shall have the effect of amending the Arizona Constitution to: (1) require voters to show proof of identity when voting in each election, including when voting by mail; (2) changing existing proof of identity requirements to limit acceptable documentation to government-issued ID; ...",
+     "plain": [
+      "Every voter, including mail voters, must show proof of identity, limited to government-issued ID.",
+      "Election officials must let voters have their ballot counted at their voting location on Election Day, and foreign nationals may not spend to influence Arizona elections.",
+      "Changes the legal standard courts use to review election laws, making challenges harder, and requires the legislature to fund these changes."
+     ],
+     "yes": "A yes vote amends the constitution to require government-issued ID for all voting, including by mail, and makes the other listed election changes.",
+     "no": "A no vote keeps the current constitutional provisions governing elections.",
+     "fiscal": "No fiscal impact statement is published; Arizona requires JLBC fiscal statements only for citizen initiatives, and this is a legislative referral (the measure itself directs the legislature to appropriate implementation funds).",
+     "urls": [
+      "https://ballotpedia.org/Arizona_Proposition_144,_Citizenship_Voting_Requirement_and_Voter_ID_Amendment_(2026)",
+      "https://apps.azsos.gov/election/BallotMeasures/2026/2026-AZ-Publicity-Pamphlet.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 316",
+     "title": "Retroactively prohibits local governments from adopting or increasing a tax on groceries without voter approval and sets a maximum rate of 2%",
+     "ballot_label": "A \"yes\" vote shall have the effect of: (1) retroactively prohibiting local governments from adopting or increasing a tax on groceries from July 1, 2025, through June 30, 2027; and (2) after that time, prohibiting local governments from adopting or increasing a tax on groceries without voter approval ...",
+     "plain": [
+      "Cities, towns, and counties could not create or raise a grocery tax from July 1, 2025 through June 30, 2027.",
+      "After that, any new or higher local grocery tax would need voter approval.",
+      "Any new or increased local grocery tax would be capped at 2%."
+     ],
+     "yes": "A yes vote blocks local grocery tax increases through mid-2027 and then requires voter approval, with a 2% cap.",
+     "no": "A no vote keeps current law on local government taxation of groceries.",
+     "fiscal": "No fiscal impact statement is published; Arizona requires JLBC fiscal statements only for citizen initiatives, and this is a legislative referral.",
+     "urls": [
+      "https://ballotpedia.org/Arizona_Proposition_316,_Prohibit_Local_Grocery_Tax_Increases_Without_Voter_Approval_Measure_(2026)",
+      "https://apps.azsos.gov/election/BallotMeasures/2026/2026-AZ-Publicity-Pamphlet.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 317",
+     "title": "Declares that drug cartels are terrorist organizations; directs the Arizona Department of Homeland Security to do everything in its authority to address drug cartels",
+     "ballot_label": "A \"yes\" vote shall have the effect of: (1) declaring drug cartels as terrorist organizations and directing the Arizona Department of Homeland Security to do everything in its authority to address threats posed by drug cartels; (2) defining \"drug cartel\" to mean an ongoing formal or informal association of persons engaged in human smuggling, drug trafficking ...",
+     "plain": [
+      "Declares drug cartels to be terrorist organizations under Arizona law.",
+      "Directs the Arizona Department of Homeland Security to use all its authority to address cartel threats.",
+      "Defines \"drug cartel\" as a group engaged in human smuggling, drug trafficking, or terrorism, and says the measure does not support anyone's asylum claim."
+     ],
+     "yes": "A yes vote declares drug cartels terrorist organizations and directs the state homeland security department to act against them.",
+     "no": "A no vote keeps current state law on terrorism and the Arizona Department of Homeland Security.",
+     "fiscal": "No fiscal impact statement is published; Arizona requires JLBC fiscal statements only for citizen initiatives, and this is a legislative referral.",
+     "urls": [
+      "https://ballotpedia.org/Arizona_Proposition_317,_Declare_Drug_Cartels_Terrorist_Organizations_Measure_(2026)",
+      "https://apps.azsos.gov/election/BallotMeasures/2026/2026-AZ-Publicity-Pamphlet.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 318",
+     "title": "Requires all schools and athletic associations to designate athletic teams as male, female, or coed based on the biological sex of the athletes as defined at birth; prohibits these entities from authorizing use of private spaces not designated for a person's sex",
+     "ballot_label": "A \"yes\" vote shall have the effect of: (1) requiring private schools, public schools, and athletic associations to designate every athletic team as male, female, or coed/mixed based on sex and to prevent males from joining female teams; existing law imposes this requirement only on public schools and those competing against them; ...",
+     "plain": [
+      "All public and private schools and athletic associations must label every sports team male, female, or coed based on sex and keep males off female teams; current law covers only public schools and their opponents.",
+      "Schools could not let anyone use restrooms, locker rooms, or similar private spaces not designated for their sex.",
+      "Defines \"sex\" by the original birth certificate and lets athletes sue schools that knowingly break the law."
+     ],
+     "yes": "A yes vote extends sex-based team designations to all schools, restricts private-space use by sex, and allows athlete lawsuits.",
+     "no": "A no vote keeps current state law on student athletics.",
+     "fiscal": "No fiscal impact statement is published; Arizona requires JLBC fiscal statements only for citizen initiatives, and this is a legislative referral.",
+     "urls": [
+      "https://ballotpedia.org/Arizona_Proposition_318,_Sex-Based_Designation_of_Athletic_Teams_and_Private_Spaces_Measure_(2026)",
+      "https://apps.azsos.gov/election/BallotMeasures/2026/2026-AZ-Publicity-Pamphlet.pdf",
+      "https://www.azleg.gov/alispdfs/Council/2026BallotMeasures/Adopted%20analysis%20HCR2003%20-%202026.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 319",
+     "title": "Prohibits state agencies and local governments from using photo enforcement systems for traffic enforcement unless provided by contract as of December 31, 2026; requires local governments to obtain voter approval to continue their use",
+     "ballot_label": "A \"yes\" vote shall have the effect of: (1) prohibiting state agencies and local governments from using photo enforcement systems to identify violators of traffic laws unless the agency or government contracts to use those systems by December 31, 2026; and (2) requiring local governments to obtain voter approval of existing photo enforcement systems ...",
+     "plain": [
+      "Bans new photo traffic-enforcement systems (such as red-light and speed cameras) unless a contract is in place by Dec. 31, 2026.",
+      "Local governments with existing camera systems must get voter approval at the next general election to keep using them.",
+      "Voters would have to re-approve those systems every 10 years."
+     ],
+     "yes": "A yes vote blocks new traffic cameras and requires voter approval to keep existing ones.",
+     "no": "A no vote keeps current law on photo traffic enforcement.",
+     "fiscal": "No fiscal impact statement is published; Arizona requires JLBC fiscal statements only for citizen initiatives, and this is a legislative referral.",
+     "urls": [
+      "https://ballotpedia.org/Arizona_Proposition_319,_Prohibit_New_Photo_Traffic_Enforcement_Systems_Measure_(2026)",
+      "https://apps.azsos.gov/election/BallotMeasures/2026/2026-AZ-Publicity-Pamphlet.pdf",
+      "https://www.azleg.gov/alispdfs/Council/2026BallotMeasures/adopted%20analysis%20SCR1004%20-%202026.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 320",
+     "title": "Requires certain school districts to spend at least sixty percent of their operational spending on direct instructional expenses as defined by the Auditor General; reduces certain state funding for non-compliant districts",
+     "ballot_label": "A \"yes\" vote shall have the effect of: (1) requiring school districts with 7,500 or more students in any county or that operate in a county with 500,000 or more people to spend at least 60% of their operational spending on direct instructional expenses; (2) requiring the state Auditor General to define \"operational spending\" and \"direct instructional expenses\"; ...",
+     "plain": [
+      "School districts with 7,500 or more students, or in counties with 500,000 or more people, must spend at least 60% of operating money on direct instruction.",
+      "The state Auditor General defines the terms; districts that fall short must adjust spending each year until they comply.",
+      "Non-compliant districts lose 25% of their Classroom Site Fund money each year, with limited waivers from the Superintendent of Public Instruction."
+     ],
+     "yes": "A yes vote requires large school districts to put at least 60% of operating spending into direct instruction or lose some state funding.",
+     "no": "A no vote keeps current law on school district budgets.",
+     "fiscal": "No fiscal impact statement is published; Arizona requires JLBC fiscal statements only for citizen initiatives, and this is a legislative referral.",
+     "urls": [
+      "https://ballotpedia.org/Arizona_Proposition_320,_Require_Certain_School_Districts_to_Spend_60%25_of_Operational_Spending_on_Direct_Instruction_Measure_(2026)",
+      "https://apps.azsos.gov/election/BallotMeasures/2026/2026-AZ-Publicity-Pamphlet.pdf",
+      "https://www.azleg.gov/alispdfs/Council/2026BallotMeasures/Adopted%20analysis%20SCR1032%20-%202026.pdf"
+     ]
+    }
+   ]
+  },
+  "CO": {
+   "source_url": "https://content.leg.colorado.gov/publications/2026-blue-book",
+   "official_guide_published": true,
+   "measures": [
+    {
+     "number": "Amendment 81",
+     "title": "Law Enforcement Communication with Federal Immigration Authorities",
+     "ballot_label": "Shall there be an amendment to the Colorado Constitution requiring law enforcement to notify the department of homeland security when a person is charged with either a violent crime or any crime if the person has a prior felony conviction if law enforcement cannot determine that the person is lawfully present in the United States?",
+     "plain": [
+      "Police, corrections officers, and district attorney staff would have to notify the U.S. Department of Homeland Security within 72 hours when they charge someone with a violent crime, or any crime if the person has a prior felony conviction.",
+      "The notice is required only when officers cannot confirm the person is lawfully in the United States.",
+      "The requirement would be written into the state constitution."
+     ],
+     "yes": "A yes vote requires law enforcement to notify federal immigration authorities in those cases.",
+     "no": "A no vote keeps current law, which has no such constitutional notification requirement.",
+     "fiscal": "Legislative Council Staff estimates about $60,000 in one-time state costs in FY 2026-27 for database access and computer updates, with no ongoing state cost and some added local workload.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Amendment_81,_Notification_of_U.S._Department_of_Homeland_Security_for_Certain_Criminal_Charges_and_Immigration_Status_Initiative_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Amendment 82",
+     "title": "Constitutional Right to Purchase and Sell Natural Gas",
+     "ballot_label": "Shall there be an amendment to the Colorado Constitution creating new law granting the right for consumers to purchase natural gas for cooking or heating in homes or businesses and for distributors and utilities to sell natural gas to consumers?",
+     "plain": [
+      "Creates a constitutional right for consumers to buy natural gas for cooking or heating in homes and businesses.",
+      "Creates a matching right for distributors and utilities to sell natural gas for those uses.",
+      "Local building codes that restrict natural gas would have to be changed to fit the new right."
+     ],
+     "yes": "A yes vote adds a right to buy and sell natural gas for cooking and heating to the state constitution.",
+     "no": "A no vote leaves the constitution unchanged, so state and local governments keep their current authority over natural gas use.",
+     "fiscal": "No direct state revenue or spending change is estimated; state agency workload may rise and local governments with gas-restricting building codes would face costs to conform them.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Amendment_82,_Right_to_Purchase_and_Sell_Natural_Gas_for_Cooking_or_Heating_in_Homes_and_Businesses_Amendment_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Amendment 83",
+     "title": "Constitutional Right to Hunt and Fish",
+     "ballot_label": "Shall there be an amendment to the Colorado Constitution creating a constitutional right to hunt, fish, and harvest fish and wildlife by traditional methods, including all species of fish and wildlife managed by the state except non-game species, endangered species, or any species that is illegal to hunt under federal law, ...",
+     "plain": [
+      "Adds a right to hunt, fish, and harvest wildlife by traditional methods to the state constitution.",
+      "Does not cover non-game species, endangered species, or species that are illegal to hunt under federal law.",
+      "Makes hunting and fishing the preferred way to manage wildlife, while the state keeps its power to regulate for conservation and public safety."
+     ],
+     "yes": "A yes vote creates a constitutional right to hunt and fish in Colorado.",
+     "no": "A no vote leaves hunting and fishing governed by current statutes and regulations without a constitutional right.",
+     "fiscal": "Legislative Council Staff expects no change to near-term state revenue or spending.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Amendment_83,_Right_to_Hunt_and_Fish_Amendment_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Amendment 84",
+     "title": "Mail Ballot Voter Identification",
+     "ballot_label": "Shall there be an amendment to the Colorado Constitution requiring a voter to sign and include the last four digits of their social security number or their Colorado driver's license or identification card number on the outside of their mail ballot for any federal or state election, ...",
+     "plain": [
+      "Mail voters would have to sign and write the last four digits of their Social Security number, or their Colorado driver's license or ID number, on the outside of the ballot envelope.",
+      "Voters could fix missing or wrong information, including with other forms of ID.",
+      "County clerks could not count a mail ballot until the problem is fixed."
+     ],
+     "yes": "A yes vote adds an ID-number requirement for mail ballots in federal and state elections.",
+     "no": "A no vote keeps the current signature-and-affirmation process for mail ballots.",
+     "fiscal": "Legislative Council Staff estimates Department of State costs of $1.2 million in FY 2026-27, $260,000 in FY 2027-28, and $555,500 in FY 2028-29, plus county costs up to $2.5 million in 2026-27 (about 45% reimbursed by the state).",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Amendment_84,_Require_Voter_Identification_Number_for_Mail-In_Ballots_Initiative_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Amendment 85",
+     "title": "Plain Language Ballot Titles",
+     "ballot_label": "Shall there be an amendment to the Colorado Constitution concerning ballot question language, and, in connection therewith, requiring all state and local ballot questions to be written in plain language and at no more than an 8th grade reading level and prohibiting a state statute from requiring language that conflicts with these requirements in ballot questions for citizen-initiated measures?",
+     "plain": [
+      "All state and local ballot questions would have to be written in plain language at no higher than an 8th-grade reading level.",
+      "State laws could not require wording in citizen-initiated ballot questions that conflicts with this rule.",
+      "The Title Board would set the standards for plain language and reading level."
+     ],
+     "yes": "A yes vote requires plain-language, 8th-grade-level ballot questions statewide.",
+     "no": "A no vote keeps current rules for how ballot questions are written.",
+     "fiscal": "No change in state revenue or spending; the Title Board may see minimal added workload.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Amendment_85,_Require_Plain_Language_and_Eighth-Grade_Reading_Level_for_Ballot_Measures_Initiative_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Amendment 86",
+     "title": "Requirements for Off-Cycle Congressional Redistricting",
+     "ballot_label": "Shall there be an amendment to the Colorado Constitution concerning congressional redistricting, and, in connection therewith, reenacting the current process for congressional redistricting in the Colorado Constitution and prohibiting modifications to a final map unless at least three public meetings are held, ...",
+     "plain": [
+      "Re-enacts Colorado's current independent commission process for drawing congressional districts.",
+      "Blocks changes to a final map unless at least three public meetings are held and the changes do not split communities of interest or purposely favor one party.",
+      "Any mid-decade map change would need approval from both the redistricting commission and the Colorado Supreme Court."
+     ],
+     "yes": "A yes vote requires commission and Supreme Court approval and public meetings before any off-cycle change to congressional maps.",
+     "no": "A no vote keeps the current process, which reviews maps only after each ten-year census.",
+     "fiscal": "Legislative Council Staff estimates about $370,000 in state costs and 1.0 FTE only in a year when off-cycle redistricting occurs, and no cost otherwise.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Amendment_86,_Require_Commission_and_Supreme_Court_Approval_for_Mid-Decade_Congressional_Redistricting_Initiative_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Amendment 87",
+     "title": "Graduated Income Tax",
+     "ballot_label": "Shall state taxes be increased $2.7 billion annually, in order to increase or improve levels of public services, including K-12 public school education, health care, and early child care and education services, by an amendment to the Colorado Constitution and a change to the Colorado Revised Statutes ...",
+     "plain": [
+      "Replaces Colorado's flat 4.4% income tax with graduated rates that rise with income, and removes the constitution's single-rate rule in TABOR.",
+      "The 4.4% rate stays for income from selling a primary home.",
+      "New revenue goes to the Colorado Future's Account for K-12 schools, health care, and early child care; the state may keep and spend it without TABOR refunds."
+     ],
+     "yes": "A yes vote creates a graduated income tax and dedicates the added revenue to education, health care, and child care.",
+     "no": "A no vote keeps the flat 4.4% income tax.",
+     "fiscal": "Legislative Council Staff estimates state revenue rises $958.4 million in FY 2026-27 (half year) and $1,972.0 million in FY 2027-28; taxpayers with taxable income under $510,834 pay less on average (about $176) and those above pay more.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Amendment_87,_Establish_Graduated_Income_Tax_and_Dedicate_New_Revenue_to_Education,_Healthcare,_and_Childcare_Initiative_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Proposition NN",
+     "title": "Keep and Spend Money for Education and Other Purposes",
+     "ballot_label": "Shall state investment in K-12 public education increase two percent each year for the next ten years, with investments used to increase teacher pay, improve teacher retention, lower class sizes, and increase access to career and technical courses, without raising taxes but instead funded by raising the annual limit on state fiscal year spending ...",
+     "plain": [
+      "Raises the TABOR spending limit by the amount the state spends on K-12 education, so the state keeps money that would otherwise be refunded.",
+      "State K-12 funding would grow 2% a year for ten years, for teacher pay, teacher retention, smaller classes, and career and technical courses.",
+      "Requires a public, independent annual audit of how the money is spent; no tax rates change."
+     ],
+     "yes": "A yes vote lets the state keep and spend money above the TABOR cap for K-12 education instead of refunding it.",
+     "no": "A no vote keeps the current TABOR limit and refunds.",
+     "fiscal": "Legislative Council Staff estimates state spending rises $329.9 million in FY 2026-27 and $521.0 million in FY 2027-28, with TABOR refunds reduced by the same amounts.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Proposition_NN,_TABOR_Revenue_Cap_Increase_for_K-12_Education_Measure_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 132",
+     "title": "Increase Penalties for Fentanyl Crimes",
+     "ballot_label": "Shall there be a change to the Colorado Revised Statutes concerning criminal penalties for fentanyl and certain synthetic opioids, and, in connection therewith, increasing the felony classifications of drug-related crimes for distribution, manufacturing, dispensing, sale, or possession of fentanyl and certain synthetic opioids; creating mandated treatment for certain drug felony violations based on possession amount; ...",
+     "plain": [
+      "Raises the felony level for making, selling, distributing, or possessing fentanyl and certain synthetic opioids.",
+      "Requires treatment for some drug felonies, depending on the amount possessed.",
+      "Narrows or removes sentencing exceptions for fentanyl crimes and drug-related deaths."
+     ],
+     "yes": "A yes vote increases penalties and adds mandated treatment for fentanyl-related crimes.",
+     "no": "A no vote keeps current fentanyl penalties and sentencing rules.",
+     "fiscal": "Legislative Council Staff estimates state spending of $876,488 in FY 2026-27, $8.9 million in FY 2027-28, and $24.8 million in FY 2028-29, mostly for prisons and courts, with mixed effects on local governments.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Proposition_132,_Penalties_for_Fentanyl_Sale_and_Possession_Initiative_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 133",
+     "title": "Penalties for Human Trafficking of a Minor",
+     "ballot_label": "Shall there be a change to the Colorado Revised Statutes modifying existing law concerning human trafficking of a minor for sexual servitude, and, in connection therewith, creating new law expanding human trafficking of a minor for sexual servitude to include knowingly trading anything of monetary value to buy or sell sexual activity with a minor ...",
+     "plain": [
+      "Makes human trafficking of a minor for sexual servitude a class 1 felony, punishable by life in prison without parole or release.",
+      "Expands the crime to include knowingly trading anything of value to buy or sell sexual activity with a minor.",
+      "Applies to offenses committed on or after January 1, 2027."
+     ],
+     "yes": "A yes vote requires life in prison without parole for trafficking a minor for sexual servitude.",
+     "no": "A no vote keeps the crime a class 2 felony with the current 8-to-24-year sentence range.",
+     "fiscal": "Legislative Council Staff expects no state cost until about FY 2041-42, when prison costs rise by roughly $180,000, growing to $360,000 a year, with minimal local impact.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Proposition_133,_Require_Life_in_Prison_for_Human_Trafficking_of_Minors_Measure_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 134",
+     "title": "Male and Female Participation in School and Collegiate Sports",
+     "ballot_label": "Shall there be a change to the Colorado Revised Statutes creating new law restricting participation in all K-12 and collegiate school sports based on the participant's sex as determined by certain aspects of their biological reproductive system, and, in connection therewith, requiring a school, institution of higher education, or athletic association ...",
+     "plain": [
+      "Every K-12 and college team or sport must be labeled male, female, or coed, and students may play only on the team matching their sex as defined by biological reproductive system, or on a coed team.",
+      "A female may join a male team if no female team exists.",
+      "Bars agencies and athletic associations from punishing schools for keeping separate female teams; the education commissioner enforces it for K-12."
+     ],
+     "yes": "A yes vote requires school and college sports teams to be separated by sex as defined in the measure.",
+     "no": "A no vote keeps current rules on team participation.",
+     "fiscal": "No state revenue or spending change is estimated; the Department of Education and school districts may see minimal workload and policy-update costs.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Proposition_134,_Sex_Requirement_for_School_and_College_Sports_Initiative_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 135",
+     "title": "Prohibit Surgery on Minors in Response to Perception of Sex or Gender",
+     "ballot_label": "Shall there be a change to the Colorado Revised Statutes modifying existing law by prohibiting surgery on a minor for the purpose of altering the minor's biological sex characteristics, and, in connection therewith, prohibiting any health-care professional or other person from knowingly performing, prescribing, administering, or providing any surgery to a minor ...",
+     "plain": [
+      "Bans health-care professionals and others from performing or providing surgery on anyone under 18 to alter the minor's biological sex characteristics.",
+      "Bans using state or federal funds, Medicaid, or insurance coverage to pay for such surgery.",
+      "Takes effect January 1, 2027."
+     ],
+     "yes": "A yes vote prohibits sex-altering surgery on minors and public or insurance payment for it.",
+     "no": "A no vote keeps current law, which does not prohibit these surgeries.",
+     "fiscal": "Legislative Council Staff expects minimal fiscal impact, with possible small savings in Medicaid and state employee insurance and minimal added workload for regulators and courts.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Proposition_135,_Prohibit_Surgeries_for_Treatment_in_Response_to_Minors%27_Perception_of_Sex_or_Gender_Measure_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 136",
+     "title": "Income Tax Rate Limit",
+     "ballot_label": "Shall there be a change to the Colorado Revised Statutes capping the state income tax rate at 4.4% of federal taxable income for individuals and corporations?",
+     "plain": [
+      "Makes the current 4.4% income tax rate the maximum rate for individuals and corporations, starting in tax year 2027.",
+      "Does not change the rate anyone pays today.",
+      "Conflicts with Amendment 87; if both pass, the one with more votes controls where they conflict."
+     ],
+     "yes": "A yes vote caps Colorado's income tax rate at 4.4% in state law.",
+     "no": "A no vote leaves the legislature and voters free to set the rate above 4.4% in the future.",
+     "fiscal": "Legislative Council Staff assesses the measure as having no fiscal impact because it keeps the existing 4.4% rate.",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Proposition_136,_Establish_4.4%25_Cap_on_Individual_and_Corporate_Income_Tax_Rates_Initiative_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    },
+    {
+     "number": "Proposition 137",
+     "title": "Direct Sporting Goods Sales Tax Revenue for Conservation",
+     "ballot_label": "Shall there be a change to the Colorado Revised Statutes creating new law to increase water and land conservation funding without raising taxes, and, in connection therewith, through a voter-approved revenue change, allowing the state to keep and spend a portion of revenue from the state sales tax on sporting goods and equipment ...",
+     "plain": [
+      "Lets the state keep and spend sales tax revenue from sporting goods and equipment instead of refunding it under TABOR.",
+      "The money would go to water, land, and forest conservation, wildfire prevention, and outdoor recreation.",
+      "Spending could be reduced if needed to protect funding for certain tax credits; no tax rates change."
+     ],
+     "yes": "A yes vote directs sporting-goods sales tax revenue to conservation and wildfire prevention without a TABOR refund.",
+     "no": "A no vote leaves that revenue subject to current TABOR refund rules.",
+     "fiscal": "Legislative Council Staff estimates about $175.0 million in FY 2027-28 and $180.2 million in FY 2028-29 redirected to conservation, reducing TABOR refunds by $175.0 million in FY 2027-28, with state spending rising to $54.9 million and then $131.8 million (excluding GOCO).",
+     "urls": [
+      "https://ballotpedia.org/Colorado_Proposition_137,_Retain_Sporting_Goods_Sales_Tax_Revenue_for_Conservation_and_Wildfire_Prevention_Fund_Initiative_(2026)",
+      "https://content.leg.colorado.gov/publications/2026-blue-book",
+      "https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf"
+     ]
+    }
+   ]
+  },
+  "ID": {
+   "source_url": "https://archive.voteidaho.gov/download/2026_Voter_Pamphlet.pdf",
+   "official_guide_published": true,
+   "measures": [
+    {
+     "number": "HJR 4",
+     "title": "Grant Legislature Exclusive Authority and Prohibit Citizen-Initiated Measures on Marijuana, Narcotics, and Psychoactive Substances Amendment",
+     "ballot_label": "Shall Section 26, Article III of the Constitution of the State of Idaho be amended to provide that only the Idaho Legislature shall have power and authority to legalize the growing, producing, manufacturing, transporting, selling, delivering, dispensing, administering, prescribing, distributing, possessing, or using of marijuana, narcotics, or other psychoactive substances?",
+     "plain": [
+      "Only the Idaho Legislature could legalize marijuana, narcotics, or other psychoactive substances.",
+      "Citizens could no longer use the ballot initiative process to legalize these substances.",
+      "The amendment does not change any current statute on its own."
+     ],
+     "yes": "A yes vote gives the Legislature sole power to legalize marijuana, narcotics, or other psychoactive substances.",
+     "no": "A no vote keeps citizens' ability to propose initiatives that would legalize or decriminalize these substances.",
+     "fiscal": "The official fiscal note says there is no fiscal impact except the cost of placing the measure on the ballot, which the Secretary of State estimates at no more than $200,000.",
+     "urls": [
+      "https://ballotpedia.org/Idaho_HJR_4,_Grant_Legislature_Exclusive_Authority_and_Prohibit_Citizen-Initiated_Measures_on_Marijuana,_Narcotics,_and_Psychoactive_Substances_Amendment_(2026)",
+      "https://archive.voteidaho.gov/download/2026_Voter_Pamphlet.pdf",
+      "https://legislature.idaho.gov/sessioninfo/2025/legislation/HJR004/"
+     ]
+    },
+    {
+     "number": "HJR 6",
+     "title": "English as Official State Language Amendment",
+     "ballot_label": "Shall Article X of the Constitution of the State of Idaho be amended by the addition of a new Section 8, to provide that the English language shall be the official language for the state of Idaho, and to further provide that, except as required by federal law, English shall be used in all public proceedings, public documents, ...",
+     "plain": [
+      "Makes English the official language of Idaho in the state constitution (it is already the official language in statute).",
+      "Requires English in public proceedings, public documents, public instruction, and other public acts of public institutions.",
+      "Exceptions apply where federal law requires another language."
+     ],
+     "yes": "A yes vote adds English as the official state language to the Idaho Constitution.",
+     "no": "A no vote leaves English as the official language in statute only.",
+     "fiscal": "The official fiscal note estimates up to $300,000 for the Secretary of State to publish the voter pamphlet, a cost that occurs anyway when other measures qualify for the ballot.",
+     "urls": [
+      "https://ballotpedia.org/Idaho_HJR_6,_English_as_Official_State_Language_Amendment_(2026)",
+      "https://archive.voteidaho.gov/download/2026_Voter_Pamphlet.pdf",
+      "https://legislature.idaho.gov/sessioninfo/2025/legislation/HJR006/"
+     ]
+    },
+    {
+     "number": "Advisory Question (Official State Gun)",
+     "title": "Official State Gun Advisory Question",
+     "ballot_label": "Which of the following guns should be designated as the state gun of Idaho? Please choose only one answer. (a) Winchester Model 1894 (.30-30); (b) Winchester Model 1873 \"Gun that Won the West\" (.44-40); (c) 1873 Colt Single Action Army Revolver \"Peacemaker\" (.45 Colt); (d) M1 Garand rifle (.30-06); ...",
+     "plain": [
+      "Asks voters which of six firearms they would like as Idaho's official state gun.",
+      "It is a non-binding advisory question; the Legislature would still have to pass a law to designate a state gun.",
+      "Voters choose only one option: (a) through (f)."
+     ],
+     "yes": "There is no yes/no choice; voters pick one of six listed guns as their preference.",
+     "no": "Voters may leave the question blank; the result is advisory and does not change any law.",
+     "fiscal": "No fiscal note is shown; the question is advisory and non-binding.",
+     "urls": [
+      "https://ballotpedia.org/Idaho_Official_State_Gun_Question_(2026)",
+      "https://archive.voteidaho.gov/download/2026_Voter_Pamphlet.pdf",
+      "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0932/"
+     ]
+    },
+    {
+     "number": "Proposition 1",
+     "title": "Reproductive Freedom and Privacy Act",
+     "ballot_label": "Measure creating right to abortion before fetus viability, and post-viability to protect health; right to privacy; healthcare provider liability protections.",
+     "plain": [
+      "Creates a legal right to abortion before fetal viability, and after viability in a medical emergency that threatens the woman's life or health.",
+      "Adds a right to reproductive freedom and privacy covering decisions such as contraception, fertility treatment, miscarriage care, and prenatal and postpartum care.",
+      "Protects patients, health-care providers, and those who assist them from penalties, and requires any restriction to be justified by a compelling state interest tied to the patient's health."
+     ],
+     "yes": "A yes vote creates a statutory right to abortion before viability (and after in medical emergencies) with provider liability protections.",
+     "no": "A no vote keeps Idaho's current law, which bans abortion except to prevent the woman's death or in the first trimester for reported rape or incest.",
+     "fiscal": "The state estimates the initiative would increase state spending by $3,100 to $7,800 a year (under 0.001% of the state share of Medicaid) for treating complications from chemical abortions.",
+     "urls": [
+      "https://ballotpedia.org/Idaho_Proposition_1,_Reproductive_Freedom_and_Privacy_Act_Initiative_(2026)",
+      "https://archive.voteidaho.gov/download/2026_Voter_Pamphlet.pdf",
+      "https://archive.sos.idaho.gov/elections/initiatives/2026/RFPA-FiscalImpact.pdf",
+      "https://archive.sos.idaho.gov/elections/initiatives/2026/RFPA.pdf"
+     ]
+    }
+   ]
+  },
+  "HI": {
+   "source_url": "https://elections.hawaii.gov/voting/2026-proposed-amendments-to-the-hawaii-state-constitution/",
+   "official_guide_published": true,
+   "measures": [
+    {
+     "number": "Question 1",
+     "title": "Increase Time for Senate to Act on Judicial Appointments Amendment",
+     "ballot_label": "Shall the Constitution of the State of Hawaii be amended to allow the Senate more time to consider and act on the appointments of justices and judges, by increasing the timeframe from thirty days to sixty days for appointments made between April 1 and December 31 when the Senate is not in regular session or is about to adjourn the regular session?",
+     "plain": [
+      "The state Senate must confirm or reject the governor's and chief justice's judicial appointments within a set time.",
+      "This would extend that time from 30 days to 60 days for appointments made April 1 through December 31.",
+      "The longer window applies only when the Senate is not in regular session or is about to adjourn."
+     ],
+     "yes": "A yes vote gives the Senate up to 60 days (instead of 30) to act on judicial appointments made outside the regular session.",
+     "no": "A no vote keeps the current 30-day deadline for the Senate to act on judicial appointments.",
+     "fiscal": "No official fiscal estimate accompanies the ballot question.",
+     "urls": [
+      "https://ballotpedia.org/Hawaii_Question_1,_Increase_Time_for_Senate_to_Act_on_Judicial_Appointments_Amendment_(2026)",
+      "https://elections.hawaii.gov/voting/2026-proposed-amendments-to-the-hawaii-state-constitution/",
+      "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=121&year=2025"
+     ]
+    },
+    {
+     "number": "Question 2",
+     "title": "Resilient Infrastructure for Shelter and Equity (RISE) Bonds Amendment",
+     "ballot_label": "Shall the Hawaii State Constitution be amended to direct the legislature to authorize the counties to issue resilient infrastructure for shelter and equity bonds to fund public improvements in designated districts, repaid solely by future growth in property tax revenues within those districts, not by increasing real property tax rates, ...",
+     "plain": [
+      "Lets the legislature authorize counties to issue \"RISE\" bonds to pay for public improvements in designated districts.",
+      "The bonds would be repaid only from future growth in property tax revenue in those districts, not from higher property tax rates.",
+      "These bonds would not count toward a county's debt limit and would be subject to accountability and oversight rules set by law."
+     ],
+     "yes": "A yes vote lets counties issue RISE bonds for infrastructure in designated districts, repaid from future property tax growth.",
+     "no": "A no vote leaves county bonding authority and debt limits as they are.",
+     "fiscal": "No official fiscal estimate accompanies the ballot question; the question states the bonds are repaid solely from future property tax growth in the districts, not by raising property tax rates.",
+     "urls": [
+      "https://ballotpedia.org/Hawaii_Question_2,_Authorize_Resilient_Infrastructure_for_Shelter_and_Equity_(RISE)_Bonds_Amendment_(2026)",
+      "https://elections.hawaii.gov/voting/2026-proposed-amendments-to-the-hawaii-state-constitution/",
+      "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=3219&year=2026"
+     ]
+    }
+   ]
+  },
+  "WY": {
+   "source_url": "https://sos.wyo.gov/elections/initiativereferenduminfo.aspx",
+   "official_guide_published": false,
+   "measures": [
+    {
+     "number": "Initiative 1",
+     "title": "Homeowner's Primary Residence Property Tax Exemption",
+     "ballot_label": "PROPOSED INITIATIVE PROPOSITION NUMBER ONE Shall a law be enacted: Establishing a property tax exemption for qualified homeowners' primary residence in the amount of fifty percent (50%) of the assessed value of the dwelling; AND Defining \"homeowner\" and \"primary residence\"; providing that no more than one exemption shall apply to a single property ...",
+     "plain": [
+      "Exempts 50% of the assessed value of a qualified homeowner's primary residence from property tax.",
+      "To qualify, a homeowner must have lived in Wyoming at least one year and occupied the home at least six months of the prior tax year, and file a sworn claim with the county assessor by the fourth Monday in May.",
+      "Only one exemption per property or owner each year; the exemption applies to the residential structure, and false claims carry a penalty."
+     ],
+     "yes": "A yes vote creates a 50% property tax exemption on a qualified homeowner's primary residence.",
+     "no": "A no vote keeps current property tax law with no new primary-residence exemption.",
+     "fiscal": "The ballot's official estimate projects property tax revenue decreases of $92,614,266 in fiscal year 2028 and $95,855,766 in fiscal year 2029, based on 2023 assessment data.",
+     "urls": [
+      "https://ballotpedia.org/Wyoming_Initiative_1,_Homeowner%27s_Primary_Residence_Property_Tax_Exemption_Measure_(2026)",
+      "https://sos.wyo.gov/elections/initiativereferenduminfo.aspx",
+      "https://sos.wyo.gov/media/2025/Certification_of_Initiative_Letter.pdf"
+     ]
+    }
+   ]
+  }
+ },
+ "states_with_no_measures": [
+  "IL",
+  "OR"
+ ],
+ "uncertain": [
+  "CO: Amendment 87 and Proposition 136 are competing measures; if both pass, the one with more votes controls conflicting provisions (per Ballotpedia)."
+ ]
+}

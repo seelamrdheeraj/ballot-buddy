@@ -1,0 +1,17 @@
+{"source_url":"https://elections.hawaii.gov/voting/2026-proposed-amendments-to-the-hawaii-state-constitution/","official_guide_published":true,
+"measures":[
+{"number":"Question 1","title":"Increase Time for Senate to Act on Judicial Appointments Amendment",
+"ballot_label":"Shall the Constitution of the State of Hawaii be amended to allow the Senate more time to consider and act on the appointments of justices and judges, by increasing the timeframe from thirty days to sixty days for appointments made between April 1 and December 31 when the Senate is not in regular session or is about to adjourn the regular session?",
+"plain":["The state Senate must confirm or reject the governor's and chief justice's judicial appointments within a set time.","This would extend that time from 30 days to 60 days for appointments made April 1 through December 31.","The longer window applies only when the Senate is not in regular session or is about to adjourn."],
+"yes":"A yes vote gives the Senate up to 60 days (instead of 30) to act on judicial appointments made outside the regular session.",
+"no":"A no vote keeps the current 30-day deadline for the Senate to act on judicial appointments.",
+"fiscal":"No official fiscal estimate accompanies the ballot question.",
+"urls":["https://ballotpedia.org/Hawaii_Question_1,_Increase_Time_for_Senate_to_Act_on_Judicial_Appointments_Amendment_(2026)","https://elections.hawaii.gov/voting/2026-proposed-amendments-to-the-hawaii-state-constitution/","https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=121&year=2025"]},
+{"number":"Question 2","title":"Resilient Infrastructure for Shelter and Equity (RISE) Bonds Amendment",
+"ballot_label":"Shall the Hawaii State Constitution be amended to direct the legislature to authorize the counties to issue resilient infrastructure for shelter and equity bonds to fund public improvements in designated districts, repaid solely by future growth in property tax revenues within those districts, not by increasing real property tax rates, ...",
+"plain":["Lets the legislature authorize counties to issue \"RISE\" bonds to pay for public improvements in designated districts.","The bonds would be repaid only from future growth in property tax revenue in those districts, not from higher property tax rates.","These bonds would not count toward a county's debt limit and would be subject to accountability and oversight rules set by law."],
+"yes":"A yes vote lets counties issue RISE bonds for infrastructure in designated districts, repaid from future property tax growth.",
+"no":"A no vote leaves county bonding authority and debt limits as they are.",
+"fiscal":"No official fiscal estimate accompanies the ballot question; the question states the bonds are repaid solely from future property tax growth in the districts, not by raising property tax rates.",
+"urls":["https://ballotpedia.org/Hawaii_Question_2,_Authorize_Resilient_Infrastructure_for_Shelter_and_Equity_(RISE)_Bonds_Amendment_(2026)","https://elections.hawaii.gov/voting/2026-proposed-amendments-to-the-hawaii-state-constitution/","https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=3219&year=2026"]}
+]}

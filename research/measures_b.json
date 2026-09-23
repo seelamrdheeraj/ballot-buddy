@@ -1,0 +1,454 @@
+{
+  "states": {
+    "AL": {
+      "source_url": "https://ballotpedia.org/Alabama_2026_ballot_measures",
+      "official_guide_published": false,
+      "measures": [
+        {
+          "number": "Amendment 1",
+          "title": "Elections for Lieutenant Governor Vacancies and Legislative Authority Over Salaries Amendment",
+          "ballot_label": "Proposing an amendment to the Constitution of Alabama of 2022, to provide for the election of a Lieutenant Governor if the Office of Lieutenant Governor becomes vacant during the first two years of a term, to authorize the Legislature to set the salary of the Lieutenant Governor and officers of the Legislature, and to require any expenditure of legislative funds for travel to be approved…",
+          "plain": [
+            "If the lieutenant governor's office becomes empty during the first two years of a term, voters would elect a replacement.",
+            "The Legislature would be allowed to set the pay of the lieutenant governor and of its own officers.",
+            "Any use of legislative money for travel would need approval from a legislative officer."
+          ],
+          "yes": "A yes vote requires an election to fill a lieutenant governor vacancy that occurs more than 60 days before the next general election and lets the Legislature set the lieutenant governor's and legislative officers' salaries.",
+          "no": "A no vote keeps the current constitutional rules on lieutenant governor vacancies and salaries.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Alabama_Require_Special_Election_for_Lieutenant_Governor_Vacancies_Amendment_(2026)",
+            "https://governor.alabama.gov/wp-content/uploads/2026/09/Statewide-CA-Proclamation.pdf"
+          ]
+        },
+        {
+          "number": "Amendment 2",
+          "title": "School District Consolidation Process Amendment",
+          "ballot_label": "Proposing an amendment to the Constitution of Alabama of 2022, to provide a process for the creation of a consolidated county school system by merging two or more contiguous county boards of education; to require the State Board of Education to conduct an impact study on the potential effects of the consolidation; to require publication of the impact study;…",
+          "plain": [
+            "Two or more neighboring county school boards could agree to merge into one multi-county school system.",
+            "Before a merger, the State Board of Education would have to study its effects and post the study online.",
+            "If 25 percent of voters in any affected district file a protest, the merger would need voter approval to go ahead."
+          ],
+          "yes": "A yes vote creates a constitutional process for neighboring county school boards to consolidate, with a required impact study and a protest-and-referendum step.",
+          "no": "A no vote leaves the constitution unchanged, with no such consolidation process.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Alabama_School_District_Consolidation_Process_Amendment_(2026)",
+            "https://governor.alabama.gov/wp-content/uploads/2026/09/Statewide-CA-Proclamation.pdf"
+          ]
+        },
+        {
+          "number": "Amendment 3",
+          "title": "Require the Pledge of Allegiance and Allow Student-Led Prayer in Public Schools Amendment",
+          "ballot_label": "Proposing an amendment to the Constitution of Alabama of 2022, to require local boards of education to adopt policies requiring each public K-12 school to recite The Pledge of Allegiance to the United States flag at the beginning of each school day; and to require local boards of education to adopt a policy authorizing student-initiated and student-led prayer.",
+          "plain": [
+            "Every public K-12 school would start each day by conducting the Pledge of Allegiance, and students could choose whether to say it.",
+            "Schools would also have to allow a prayer that is started and led by a student; no student could be required to take part.",
+            "Students could opt out of both the Pledge and the prayer based on their own beliefs."
+          ],
+          "yes": "A yes vote requires local school boards to adopt policies for a daily Pledge of Allegiance and for student-initiated, student-led prayer in public K-12 schools.",
+          "no": "A no vote leaves current law in place, with no constitutional requirement for these policies.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Alabama_Require_Pledge_of_Allegiance_and_Allow_Student-Led_Prayer_in_Public_Schools_Amendment_(2026)",
+            "https://governor.alabama.gov/wp-content/uploads/2026/09/Statewide-CA-Proclamation.pdf"
+          ]
+        },
+        {
+          "number": "Amendment 4",
+          "title": "Broadcast The Star-Spangled Banner in Public Schools Amendment",
+          "ballot_label": "Proposing an amendment to the Constitution of Alabama of 2022, to require local boards of education to adopt policies requiring each public K-12 school to broadcast or sanction the performance of the first stanza of The Star-Spangled Banner at least once per week during school hours.",
+          "plain": [
+            "Each public K-12 school would have to broadcast the first verse of the national anthem at least once a week during school hours.",
+            "Schools would use a recording from the Library of Congress, or a school band, choir or singer could perform it instead.",
+            "Local school boards would write the policies to carry this out."
+          ],
+          "yes": "A yes vote requires public K-12 schools to broadcast or perform the first stanza of The Star-Spangled Banner at least weekly.",
+          "no": "A no vote does not add this requirement to the constitution.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Alabama_Broadcast_The_Star-Spangled_Banner_in_Public_Schools_Amendment_(2026)",
+            "https://governor.alabama.gov/wp-content/uploads/2026/09/Statewide-CA-Proclamation.pdf"
+          ]
+        }
+      ]
+    },
+    "GA": {
+      "source_url": "https://ballotpedia.org/Georgia_2026_ballot_measures",
+      "official_guide_published": false,
+      "measures": [
+        {
+          "number": "Amendment 1",
+          "title": "Authorize Creation of Next Generation 9-1-1 Fund Amendment",
+          "ballot_label": "Shall the Constitution of Georgia be amended so as to authorize the General Assembly to dedicate certain existing revenues, including revenues reallocated by law, to a nonlapsing fund to be used exclusively for the expansion, maintenance, and operation of emergency 9-1-1 systems in this state?",
+          "plain": [
+            "The Legislature could create a special fund called the Georgia Next Generation 9-1-1 Fund.",
+            "Money in the fund could only be spent to expand, maintain and run 9-1-1 systems, including upgrades to newer technology.",
+            "Money in the fund would not expire at the end of the year the way most state funds do."
+          ],
+          "yes": "A yes vote lets the General Assembly create and dedicate revenue to a nonlapsing fund used only for 9-1-1 systems.",
+          "no": "A no vote keeps the constitution as is, without authorizing a dedicated 9-1-1 fund.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Georgia_Authorize_Creation_of_Next_Generation_9-1-1_Fund_Amendment_(2026)"
+          ]
+        },
+        {
+          "number": "Amendment 2",
+          "title": "Increase Acre Limit for Agriculture and Timber Conservation Use Property Tax Classification Amendment",
+          "ballot_label": "Shall the Constitution of Georgia, for the purpose of protecting family farmland, be amended so as to increase the maximum acreage to qualify for assessment and taxation as a bona fide conservation use property from 2,000 acres to 4,000 acres?",
+          "plain": [
+            "Farm and timber land in the conservation-use program is taxed on its current use, which usually means a lower tax bill.",
+            "Today one owner can enroll up to 2,000 acres; this would raise the limit to 4,000 acres.",
+            "Owners must still promise to keep the land in conservation use for 10 years or pay back the tax savings."
+          ],
+          "yes": "A yes vote raises the per-owner cap for conservation use property tax treatment from 2,000 to 4,000 acres.",
+          "no": "A no vote keeps the cap at 2,000 acres.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Georgia_Increase_Acre_Limit_for_Agriculture_and_Timber_Conservation_Use_Property_Tax_Classification_Amendment_(2026)"
+          ]
+        },
+        {
+          "number": "Amendment 3",
+          "title": "Require Nonpartisan Elections for Probate Judges Amendment",
+          "ballot_label": "Shall the Constitution of Georgia be amended so as to require that all probate court judges be elected in nonpartisan elections?",
+          "plain": [
+            "Probate judges handle wills, estates, guardianships and some licenses in each county.",
+            "Some probate judges now run with a party label; this would require all of them to run in nonpartisan elections.",
+            "Georgia's superior, state, appeals and Supreme Court judges are already elected without party labels."
+          ],
+          "yes": "A yes vote requires all probate judges to be elected on a nonpartisan basis.",
+          "no": "A no vote keeps allowing probate judges to be elected in partisan elections.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Georgia_Require_Nonpartisan_Elections_for_Probate_Judges_Amendment_(2026)"
+          ]
+        }
+      ]
+    },
+    "NC": {
+      "source_url": "https://ballotpedia.org/North_Carolina_2026_ballot_measures",
+      "official_guide_published": false,
+      "measures": [
+        {
+          "number": "Constitutional Amendment (no number on ballot) – Voter ID",
+          "title": "Require Voter Identification Amendment",
+          "ballot_label": "Constitutional amendment to require all voters, not just those presenting to vote in person, to present photo identification before voting.",
+          "plain": [
+            "North Carolina already requires photo ID for people who vote in person.",
+            "This would extend the photo ID requirement to all voters, including those who vote by mail.",
+            "The Legislature would set the rules for which IDs count and any exceptions."
+          ],
+          "yes": "A yes vote requires photo identification for all voters, including absentee-by-mail voters.",
+          "no": "A no vote keeps the photo ID requirement limited to in-person voting.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/North_Carolina_Require_Voter_Identification_Amendment_(2026)"
+          ]
+        },
+        {
+          "number": "Constitutional Amendment (no number on ballot) – Income tax cap",
+          "title": "Reduce Income Tax Rate Cap from 7% to 3.5% Amendment",
+          "ballot_label": "Constitutional amendment to keep the State income tax rate from being raised higher than three and one-half percent (3.5%).",
+          "plain": [
+            "The state constitution now caps the income tax rate at 7 percent.",
+            "This would lower that cap to 3.5 percent.",
+            "Lawmakers could not raise the income tax rate above 3.5 percent without another constitutional amendment."
+          ],
+          "yes": "A yes vote lowers the constitutional maximum income tax rate from 7% to 3.5%.",
+          "no": "A no vote keeps the maximum at 7%.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/North_Carolina_Reduce_Income_Tax_Rate_Cap_from_7%25_to_3.5%25_Amendment_(2026)"
+          ]
+        },
+        {
+          "number": "Constitutional Amendment (no number on ballot) – Property tax limits",
+          "title": "Property Tax Levy Limit Amendment",
+          "ballot_label": "Constitutional amendment requiring limits on property tax increases by local governments.",
+          "plain": [
+            "Counties, cities and other local governments collect property taxes.",
+            "This would require the Legislature to pass laws limiting how much those property tax collections can increase.",
+            "The laws could include exceptions."
+          ],
+          "yes": "A yes vote requires the General Assembly to enact laws limiting increases in local property tax levies.",
+          "no": "A no vote does not add that requirement to the constitution.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/North_Carolina_Property_Tax_Levy_Limit_Amendment_(2026)"
+          ]
+        }
+      ]
+    },
+    "OK": {
+      "source_url": "https://ballotpedia.org/Oklahoma_2026_ballot_measures",
+      "official_guide_published": false,
+      "measures": [
+        {
+          "number": "State Question 845",
+          "title": "Changes to Judicial Nominating Commission Amendment",
+          "ballot_label": "This measure amends article 7-B, section 3 of the Oklahoma Constitution, changing the Judicial Nominating Commission's structure. Currently appointments are based on congressional districts as constituted in 1967. If approved, appointments to the fifteen-member Commission will be as follows: 1) Governor appoints six members, including one from each congressional district as of the time of their appointment;…",
+          "plain": [
+            "The Judicial Nominating Commission picks the finalists the governor chooses from when filling judge vacancies.",
+            "Its 15 members would be chosen by today's congressional districts instead of the 1967 map, and could serve two terms in a row.",
+            "Limits on how many members can come from one political party, and on lawyers or their relatives serving, would be removed."
+          ],
+          "yes": "A yes vote changes the commission's appointment districts, terms, party-balance rule and eligibility rules as described.",
+          "no": "A no vote keeps the commission's current structure.",
+          "fiscal": "The official ballot title states the measure will not have a fiscal impact.",
+          "urls": [
+            "https://ballotpedia.org/Oklahoma_State_Question_845,_Changes_to_Judicial_Nominating_Commission_Amendment_(2026)"
+          ]
+        },
+        {
+          "number": "State Question 847",
+          "title": "Reduce Annual Increases in Property Values for Tax Calculations Amendment",
+          "ballot_label": "This measure amends article 10, sections 8B and 8C of the Oklahoma Constitution. Currently, section 8B limits annual growth in fair cash value to 5% for most real property or 3% for homesteads and agricultural land. If approved, the measure would limit annual growth in fair cash value for tax year 2027 and after to 4% for most real property…",
+          "plain": [
+            "Starting in 2027, the taxable value of most property could rise no more than 4% a year (down from 5%), and homes and farmland no more than 1.75% (down from 3%).",
+            "The senior freeze for homeowners 65 and older would no longer have an income cap, but values could rise up to 1.75% a year depending on household income.",
+            "Seniors with household income at or below their area's median would still see no increase in value."
+          ],
+          "yes": "A yes vote lowers the annual caps on growth in assessed property values and reworks the senior freeze as described.",
+          "no": "A no vote keeps the current 5% and 3% caps and the existing senior freeze rules.",
+          "fiscal": "The official ballot title states the measure would have a fiscal impact on the state, but the exact impact is unknown.",
+          "urls": [
+            "https://ballotpedia.org/Oklahoma_Reduce_Annual_Increases_in_Property_Values_for_Tax_Calculations_Amendment_(2026)"
+          ]
+        }
+      ]
+    },
+    "AR": {
+      "source_url": "https://ballotpedia.org/Arkansas_2026_ballot_measures",
+      "official_guide_published": false,
+      "measures": [
+        {
+          "number": "Issue 1",
+          "title": "The Citizens Only Voting Amendment (Citizenship Voting Requirement Amendment)",
+          "ballot_label": "An amendment to the Arkansas Constitution to create \"The Citizens Only Voting Amendment\"; to provide that only a citizen of the United States meeting the qualifications of an elector under the Arkansas Constitution may vote in an election in this state; and providing that a person who does not meet the qualifications of an elector under the Arkansas Constitution shall not…",
+          "plain": [
+            "The Arkansas Constitution already says voters must be U.S. citizens, state residents, at least 18 and registered.",
+            "This adds that only a U.S. citizen who meets those requirements may vote in any election in the state.",
+            "It also says anyone who does not meet the requirements cannot vote in any state or local election."
+          ],
+          "yes": "A yes vote adds language that only U.S. citizens meeting elector qualifications may vote in any state or local election.",
+          "no": "A no vote leaves the current voter-qualification language unchanged.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Arkansas_Citizenship_Requirement_for_Voting_Amendment_(2026)",
+            "https://uaex.uada.edu/business-communities/voter-education/issue1.aspx"
+          ]
+        },
+        {
+          "number": "Issue 2",
+          "title": "Right to Keep and Bear Arms Amendment",
+          "ballot_label": "An amendment to the Arkansas Constitution to provide that the citizens of the State of Arkansas shall have the right to keep and bear arms for their common defense, for lawful hunting and recreational use, and for any other lawful purpose; providing that the right to keep and bear arms includes without limitation the possession and use of ammunition,…",
+          "plain": [
+            "The constitution now protects the right to keep and bear arms for the people's common defense.",
+            "This would add lawful hunting, recreation and any other lawful purpose, and would cover ammunition, accessories and gun parts.",
+            "It would declare the right natural, fundamental and individual, and say it shall not be infringed."
+          ],
+          "yes": "A yes vote expands the constitutional right to keep and bear arms as described, including ammunition, accessories and components.",
+          "no": "A no vote keeps the current wording, which protects the right to keep and bear arms for the common defense.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Arkansas_Right_to_Keep_and_Bear_Arms_Amendment_(2026)",
+            "https://uaex.uada.edu/business-communities/voter-education/issue2.aspx"
+          ]
+        },
+        {
+          "number": "Issue 3",
+          "title": "Creation of Economic Development Districts Amendment",
+          "ballot_label": "An amendment to the Arkansas Constitution concerning economic development in the State of Arkansas; and authorizing the General Assembly to provide for the creation of economic development districts within cities, counties, or cooperative areas to promote economic development within the economic development district.",
+          "plain": [
+            "The Legislature could create programs and give loans or grants of public money to grow the economy, reduce unemployment, expand transportation and commerce, or develop real estate.",
+            "It could also allow cities, counties or groups of them to create economic development districts.",
+            "Those districts could issue bonds for projects, and the bonds would not count toward some existing constitutional debt limits."
+          ],
+          "yes": "A yes vote lets the General Assembly create economic development programs, loans, grants and economic development districts that can issue bonds.",
+          "no": "A no vote keeps the current constitutional limits on public loans, grants and local debt.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Arkansas_Creation_of_Economic_Development_Districts_Amendment_(2026)",
+            "https://uaex.uada.edu/business-communities/voter-education/issue3.aspx"
+          ]
+        },
+        {
+          "number": "Issue 4",
+          "title": "Arkansas Water, Waste Disposal, and Pollution Abatement Facilities Financing Act of 2025 (Natural Resources Commission Bond Measure)",
+          "ballot_label": "Popular name: Arkansas Water, Waste Disposal, and Pollution Abatement Facilities Financing Act of 2025 (referred state statute authorizing up to $500 million in general obligation bonds).",
+          "plain": [
+            "The state could borrow up to $500 million by selling bonds for water, waste disposal, pollution control, drainage, irrigation and flood control projects.",
+            "No more than $60 million could be issued in any two-year period without added legislative approval, and no more than $165 million could go to irrigation.",
+            "The bonds would be repaid over up to 35 years from state general revenue and loan repayments from the projects."
+          ],
+          "yes": "A yes vote authorizes the Arkansas Natural Resources Commission to issue up to $500 million in general obligation bonds for water-related infrastructure.",
+          "no": "A no vote does not authorize the new bonded debt.",
+          "fiscal": "Authorizes up to $500 million in general obligation bonds, repaid over up to 35 years from state general revenue and project loan repayments (per the UA Cooperative Extension voter guide); no separate official fiscal estimate was located.",
+          "urls": [
+            "https://ballotpedia.org/Arkansas_Natural_Resources_Commission_Bond_Measure_(2026)",
+            "https://uaex.uada.edu/business-communities/voter-education/issue4.aspx",
+            "https://uaex.uada.edu/business-communities/voter-education/docs/2026-Arkansas-Ballot-Issues-Voter-Guide.pdf"
+          ]
+        }
+      ]
+    },
+    "KY": {
+      "source_url": "https://ballotpedia.org/Kentucky_2026_ballot_measures",
+      "official_guide_published": false,
+      "measures": [
+        {
+          "number": "Constitutional Amendment 1",
+          "title": "Limit Governor's Pardon Power and Commutations Near General Election Amendment (Senate Bill 10)",
+          "ballot_label": "Are you in favor of limiting a Governor's ability to grant pardons or commute sentences by prohibiting him or her from granting pardons or commuting sentences during the time period beginning 60 days prior to the general election at which the Governor is elected, and ending when the Governor is sworn in for that term…",
+          "plain": [
+            "Kentucky's governor can now grant pardons and shorten sentences at any time.",
+            "This would block the governor from granting pardons or commuting sentences from 60 days before the governor's election until the new term begins (the fifth Tuesday after the election).",
+            "The governor would still have to file a public statement of reasons for each pardon decision."
+          ],
+          "yes": "A yes vote bars the governor from issuing pardons or commutations during the window from 60 days before the gubernatorial election until the new term starts.",
+          "no": "A no vote keeps the governor's current unrestricted timing for pardons and commutations.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Kentucky_Limit_Governor%27s_Pardon_Power_and_Commutations_Near_General_Election_Amendment_(2026)",
+            "https://news.ballotpedia.org/2026/04/02/kentucky-voters-set-to-decide-on-amendment-limiting-governors-pardon-power-in-november/"
+          ]
+        }
+      ]
+    },
+    "TN": {
+      "source_url": "https://ballotpedia.org/Tennessee_2026_ballot_measures",
+      "official_guide_published": false,
+      "measures": [
+        {
+          "number": "Amendment 1",
+          "title": "Remove Right to Bail for Certain Criminal Offenses Amendment",
+          "ballot_label": "Official summary: This amendment changes Article I, section 15 of the Tennessee Constitution by allowing a court to hold a defendant without bail before trial when that defendant is accused of: an offense punishable by the death penalty, an act of terrorism, second degree murder, aggravated rape of a child, aggravated rape, grave torture, or any crime for which a convicted person…",
+          "plain": [
+            "Today judges must allow bail for everyone except in death-penalty cases where the evidence is strong.",
+            "This would let judges deny bail before trial for people accused of terrorism, second-degree murder, aggravated rape, aggravated rape of a child, grave torture, or crimes requiring 85% of the sentence to be served, when the evidence is strong.",
+            "Judges would have to state on the record why they granted or denied bail in those cases."
+          ],
+          "yes": "A yes vote lets courts deny pretrial bail for the listed serious offenses when the proof is evident or presumption great.",
+          "no": "A no vote keeps bail available in all cases except capital offenses.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Tennessee_Remove_Right_to_Bail_for_Certain_Criminal_Offenses_Amendment_(2026)"
+          ]
+        },
+        {
+          "number": "Amendment 2",
+          "title": "Prohibit State Property Taxes Amendment",
+          "ballot_label": "Official summary: This amendment adds text to Article II, section 28 of the Tennessee Constitution that prohibits the Legislature from imposing a State property tax on real, personal, or mixed property.",
+          "plain": [
+            "Tennessee has no statewide property tax today; local governments collect property taxes.",
+            "This would write a ban on any state-level property tax into the constitution.",
+            "Local property taxes would not be affected."
+          ],
+          "yes": "A yes vote prohibits the Legislature from ever levying a state property tax.",
+          "no": "A no vote leaves the Legislature's existing authority over property taxation unchanged.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Tennessee_Prohibit_State_Property_Taxes_Amendment_(2026)"
+          ]
+        },
+        {
+          "number": "Amendment 3",
+          "title": "Marsy's Law Crime Victims' Rights Amendment",
+          "ballot_label": "Official summary: This amendment changes Article I, section 35 of the Tennessee Constitution by clarifying existing rights for crime victims and adding new rights. The amendment gives victims new rights: to fair treatment; to be informed about and participate in the parole process; to be protected from harassment, intimidation, and abuse; to be informed of the minimum sentence the convicted criminal will…",
+          "plain": [
+            "The constitution already lists some rights for crime victims; this replaces that list with a longer one, often called Marsy's Law.",
+            "New rights include fair treatment, taking part in parole hearings, protection from harassment, and knowing the offender's minimum sentence and release date.",
+            "It does not limit prosecutors or courts and does not let victims sue the state for money."
+          ],
+          "yes": "A yes vote replaces the current victims' rights section with the expanded list of rights.",
+          "no": "A no vote keeps the existing list of crime victims' rights.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Tennessee_Marsy%27s_Law_Crime_Victims_Rights_Amendment_(2026)"
+          ]
+        }
+      ]
+    },
+    "MD": {
+      "source_url": "https://ballotpedia.org/Maryland_2026_ballot_measures",
+      "official_guide_published": false,
+      "measures": [
+        {
+          "number": "Question 1",
+          "title": "Arbitration Reform for State Employees Act of 2026 (Constitutional Amendment, Ch. 155 of the 2026 Legislative Session)",
+          "ballot_label": "Providing that each budget submitted by the Governor shall include proposed expenditures necessary to implement wages, hours, fringe benefits, health benefits, and other terms and conditions of employment in each collective bargaining memorandum of understanding with State employees, whether the State and State employees reached those terms and conditions by mutual agreement or through a neutral decider's order.",
+          "plain": [
+            "State employee unions and the state sign agreements on pay, hours and benefits.",
+            "This would require the governor's yearly budget to include enough money to pay for what those agreements say.",
+            "It applies whether the terms were negotiated or set by a neutral arbitrator."
+          ],
+          "yes": "A yes vote means the Governor must include money in the proposed State budget to pay for agreements between the State and its employees, whether negotiated or decided by a neutral decision-maker.",
+          "no": "A no vote means the law about funding agreements between the State and State employees stays the same.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Maryland_Changes_to_Collective_Bargaining_for_State_Employees_Amendment_(2026)"
+          ]
+        },
+        {
+          "number": "Question 2",
+          "title": "Temporary Appointments on the Commission on Judicial Disabilities (Constitutional Amendment, Ch. 878 of the 2026 Legislative Session)",
+          "ballot_label": "Authorizing temporary substitute appointments to the Commission on Judicial Disabilities when a member is recused or disqualified, or when a member's term expires. In these situations, the Commission Chair may recall a former member of the Commission, or the Governor, at the request of the Commission Chair, may appoint a temporary substitute member or extend the term of a current member…",
+          "plain": [
+            "The Commission on Judicial Disabilities reviews complaints about judges.",
+            "If a member steps aside, is disqualified, or a term ends with no replacement, the chair could bring back a former member to fill in temporarily.",
+            "The governor, at the chair's request, could also name a temporary substitute or extend a current member's term until a permanent replacement is appointed."
+          ],
+          "yes": "A yes vote allows temporary appointments to the Commission when a member is recused, disqualified, or a term ends without a replacement.",
+          "no": "A no vote keeps the current membership rules, with no temporary appointments allowed.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Maryland_Commission_on_Judicial_Disabilities_Vacancies_Amendment_(2026)"
+          ]
+        },
+        {
+          "number": "Question 3",
+          "title": "Election Districts (Constitutional Amendment, Ch. 881 of the 2026 Legislative Session)",
+          "ballot_label": "FOR the purpose of clarifying that certain requirements apply only to districts for the election of members of the Senate of Maryland and the House of Delegates; authorizing the General Assembly to grant original jurisdiction to the Supreme Court of Maryland to review the congressional districting plan of the State; and providing that nothing in the Maryland Constitution provides applicable criteria…",
+          "plain": [
+            "The constitution requires state legislative districts to be compact, connected and roughly equal in population; this says those rules apply only to state legislative districts, not congressional districts.",
+            "It states that nothing in the Maryland Constitution sets criteria for congressional district lines.",
+            "The General Assembly could let the Supreme Court of Maryland hear challenges to a congressional map directly."
+          ],
+          "yes": "A yes vote limits the constitutional districting criteria to state legislative districts and declares the constitution sets no criteria for congressional districts.",
+          "no": "A no vote leaves the constitution's districting language as it is.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/Maryland_Provide_That_Nothing_in_State_Constitution_Establishes_Criteria_for_Congressional_Redistricting_Amendment_(2026)"
+          ]
+        }
+      ]
+    },
+    "NH": {
+      "source_url": "https://ballotpedia.org/New_Hampshire_2026_ballot_measures",
+      "official_guide_published": false,
+      "measures": [
+        {
+          "number": "Question 1 (Constitutional Amendment)",
+          "title": "Eliminate Office of Register of Probate Amendment",
+          "ballot_label": "Are you in favor of eliminating the office of register of probate by amending articles 71 and 81 of the second part of the constitution to read as follows:… (full text of Articles 71 and 81 as amended follows on the ballot)",
+          "plain": [
+            "The constitution now lists the register of probate among the county officers that voters elect.",
+            "This would remove the register of probate from that list, eliminating the office.",
+            "It would also remove the reference to registers of probate in the rule that bars judges from acting as lawyers in probate cases."
+          ],
+          "yes": "A yes vote removes the office of register of probate from the New Hampshire Constitution; a two-thirds vote is needed to pass.",
+          "no": "A no vote keeps the office of register of probate in the constitution.",
+          "fiscal": "No official fiscal estimate was published.",
+          "urls": [
+            "https://ballotpedia.org/New_Hampshire_Abolish_Office_of_Register_of_Probate_Amendment_(2026)"
+          ]
+        }
+      ]
+    }
+  },
+  "states_with_no_measures": [],
+  "uncertain": []
+}

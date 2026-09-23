@@ -1,0 +1,366 @@
+{
+  "generated": "2026-09-22",
+  "states": {
+    "FL": {
+      "source_url": "https://constitutionalinitiatives.dos.fl.gov/",
+      "official_guide_published": true,
+      "notes": "All three measures are legislative referrals; no citizen initiative qualified for 2026. Florida requires 60% approval for passage. Amendment 3's ballot title and summary were rewritten under court order: on Aug. 4, 2026 a Leon County circuit judge ruled the Legislature's title ('Save Our Homes From Excessive Property Taxes') and summary misleading, and the Attorney General filed revised language on Aug. 13-14, 2026. The 'ballot_label' for Amendment 3 below is the revised text carried by the Division of Elections; Amendments 1 and 2 use the Legislature's original enrolled ballot statements, which were not challenged.",
+      "measures": [
+        {
+          "number": "Amendment 1",
+          "title": "Budget Stabilization Fund",
+          "ballot_label": "CONSTITUTIONAL AMENDMENT, ARTICLE III, SECTION 19. BUDGET STABILIZATION FUND.—Proposing an amendment to the State Constitution to increase the amount of funds that may be retained in the budget stabilization fund from 10% to 25% of general revenue collections, require the legislature to transfer the lesser of $750 million or the amount required to reach 25% of the general revenue collections each year unless certain conditions are met, and allow the legislature to withdraw funds for critical state needs.",
+          "plain": [
+            "This amendment would let the state hold more money in its savings account, the Budget Stabilization Fund, by raising the cap from 10% to 25% of general revenue collections.",
+            "It would require the Legislature to deposit the lesser of $750 million or the amount needed to reach the 25% cap each year, unless certain conditions are met.",
+            "It would also let the Legislature take money out of the fund to pay for critical state needs."
+          ],
+          "yes": "A yes vote raises the Budget Stabilization Fund cap from 10% to 25% of general revenue collections, requires an annual deposit, and allows withdrawals for critical state needs.",
+          "no": "A no vote keeps the fund's cap at 10% of general revenue collections and leaves current deposit and withdrawal rules unchanged.",
+          "fiscal": "No Financial Impact Statement was published for this measure. Under Florida law the Financial Impact Estimating Conference prepares those statements for citizen initiatives only, and this is a legislative referral (HJR 5019, 2025 session). The Florida House's nonpartisan Final Bill Analysis states: \"The fiscal impact on the state is indeterminate but likely insignificant.\"",
+          "urls": [
+            "https://constitutionalinitiatives.dos.fl.gov/Home/InitDetail?account=10&seqnum=108",
+            "https://www.flsenate.gov/Session/Bill/2025/5019/BillText/er/PDF",
+            "https://www.flsenate.gov/Session/Bill/2025/5019/Analyses/h5019z1.BUC.PDF"
+          ]
+        },
+        {
+          "number": "Amendment 2",
+          "title": "Exemption of Tangible Personal Property on Agricultural Land From Taxation",
+          "ballot_label": "CONSTITUTIONAL AMENDMENT, ARTICLE VII, SECTION 3; ARTICLE XII. EXEMPTION OF TANGIBLE PERSONAL PROPERTY ON AGRICULTURAL LAND FROM TAXATION.—Proposing an amendment to the State Constitution to exempt tangible personal property habitually located or typically present on land classified as agricultural, used in the production of agricultural products or for agritourism activities, and owned by the landowner or leaseholder of the agricultural land from ad valorem taxation. If approved this amendment would first apply for tax years beginning January 1, 2027.",
+          "plain": [
+            "This amendment would end local property taxes on equipment and other tangible personal property kept on land that is classified as agricultural.",
+            "The exemption would apply only to property used to produce agricultural products or for agritourism, and owned by the landowner or the person leasing the farmland.",
+            "If approved, the exemption would first apply to tax years beginning January 1, 2027."
+          ],
+          "yes": "A yes vote exempts qualifying farm and agritourism equipment and other tangible personal property on agricultural land from property taxes beginning with the 2027 tax year.",
+          "no": "A no vote leaves that equipment and other tangible personal property on agricultural land subject to local property taxes.",
+          "fiscal": "No Financial Impact Statement was published, because Florida prepares those only for citizen initiatives and this is a legislative referral (CS/HJR 1215, 2025 session). The Florida House Final Bill Analysis reports: \"The Revenue Estimating Conference estimates that, if approved by the voters, the amendment proposed by the joint resolution will have a negative recurring impact on local government revenues of $31.0 million, beginning in Fiscal Year 2027-28.\"",
+          "urls": [
+            "https://constitutionalinitiatives.dos.fl.gov/Home/InitDetail?account=10&seqnum=109",
+            "https://www.flsenate.gov/Session/Bill/2025/1215/BillText/er/PDF",
+            "https://www.flsenate.gov/Session/Bill/2025/1215/Analyses/h1215z.WMC.PDF"
+          ]
+        },
+        {
+          "number": "Amendment 3",
+          "title": "Increased Homestead Exemption; Lower Cap on Increases in Non-Homestead Property Assessments",
+          "ballot_label": "This amendment increases the homestead exemption, for all non-school taxes, to $150,000 in 2027 and $250,000 in 2028, and adjusts for inflation thereafter. It requires the Legislature to prescribe a uniform procedure for counties and municipalities, for their respective levies, to increase the homestead exemption up to full assessed value, and allows special districts, subject to referendum approval, to do the same. Persons who are not Florida residents on December 31, 2026, will receive the existing homestead exemption upon qualifying for a homestead exemption, with the increased homestead exemption beginning with the fifth year of exemption, to the extent permitted by the U.S. Constitution. This amendment reduces the annual cap on assessment increases for non-homestead properties from 10% to 5%. This amendment requires counties and municipalities to use property taxes solely for public safety, education and schools, infrastructure, natural resources, bond debt service, retirement benefits for employees, and operations and administration. Other expenditures may be approved by county officers or county or municipal governing bodies unless prohibited by general law, notwithstanding Article VII, Section 9(a) of the Florida Constitution, which allows counties and municipalities to levy property taxes for their respective purposes. This amendment takes effect January 1, 2027.",
+          "plain": [
+            "This amendment would raise the homestead exemption for all non-school property taxes to $150,000 in 2027 and $250,000 in 2028, with inflation adjustments after that.",
+            "It would lower the yearly cap on assessment increases for non-homestead property, such as rentals, vacation homes and commercial buildings, from 10% to 5%.",
+            "It would also limit counties and cities to spending property tax money on listed purposes such as public safety, schools, infrastructure, natural resources, debt payments and employee retirement."
+          ],
+          "yes": "A yes vote increases the non-school homestead exemption, lowers the non-homestead assessment cap to 5%, delays the larger exemption until the fifth year for people who are not Florida residents on December 31, 2026, and restricts how counties and cities may spend property tax revenue, all effective January 1, 2027.",
+          "no": "A no vote keeps the current homestead exemption amounts, the 10% cap on non-homestead assessment increases, and existing rules on how local governments may spend property tax revenue.",
+          "fiscal": "No Financial Impact Statement was published, because Florida prepares those only for citizen initiatives and this is a legislative referral (CS/HJR 1F, 2026 special session). The Florida House Final Bill Analysis estimates that, if approved, \"the cash impacts on local non-school property tax revenues would be -$4.95 billion in Fiscal Year (FY) 2027-28 (with the $150,000 exemption in place) and -$8.78 billion in FY 2028-29 (with the $250,000 exemption in place). The recurring impact in all years is estimated to be -$11.86 billion on local non-school property tax revenues.\"",
+          "urls": [
+            "https://constitutionalinitiatives.dos.fl.gov/Home/InitDetail?account=10&seqnum=110",
+            "https://flsenate.gov/Session/Bill/2026F/1F/Analyses/h0001z.SAC.PDF",
+            "https://www.flsenate.gov/Session/Bill/2026F/1F/BillText/er/PDF"
+          ]
+        }
+      ]
+    },
+    "LA": {
+      "source_url": "https://legis.la.gov/legis/ConstAmendments.aspx?sid=26RS",
+      "official_guide_published": false,
+      "notes": "Louisiana votes on constitutional amendments on its own schedule, and 2026 has two amendment elections. Five amendments referred by the 2025 Legislature were voted on at the MAY 16, 2026 statewide election (originally set for April 18, 2026 and moved by Act 2 of the 2025 First Extraordinary Session); those are not included here. Ten amendments are set for NOVEMBER 3, 2026: nine acts of the 2026 Regular Session plus HB300 of the 2025 Regular Session (Act 220). One further 2026 act, SB68 (Act 38, Louisiana Supreme Court discipline of out-of-state attorneys), specifies the April 17, 2027 election and is NOT on the November 2026 ballot. Ballot text below is quoted verbatim from each enrolled act on legis.la.gov. IMPORTANT: the Secretary of State had not published its 'Statement of Proposed Constitutional Amendments' for Nov. 3, 2026 as of Sept. 22, 2026, so the official amendment NUMBERS are not confirmed; the 1-10 ordering used here comes from two independent news listings that agree with each other, and should be re-checked against the Secretary of State once published. Also note a drafting collision: Amendment 10 (Act 272) and Amendment 6 (Act 274) both add Article VII, Section 21(P).",
+      "measures": [
+        {
+          "number": "Amendment 1",
+          "title": "Surviving Spouse of a Deceased Veteran with a Service-Connected Disability; One-Time Transfer of Additional Property Tax Exemption (Act 39, SB180)",
+          "ballot_label": "Do you support an amendment to allow the surviving spouse of a deceased veteran with a service-connected disability, who receives the additional property tax exemption, to make a one-time transfer of the additional property tax exemption to a subsequent qualifying property? (Effective January 1, 2027) (Amends Article VII, Section 21(K)(1))",
+          "plain": [
+            "Louisiana gives an additional property tax exemption to veterans with a service-connected disability and to their surviving spouses.",
+            "This amendment would let a surviving spouse who already receives that additional exemption move it one time to a different qualifying home.",
+            "If approved, the change would take effect January 1, 2027."
+          ],
+          "yes": "A yes vote lets the surviving spouse of a deceased veteran with a service-connected disability transfer the additional property tax exemption one time to a later qualifying property.",
+          "no": "A no vote keeps the additional exemption attached to the property the surviving spouse currently claims, with no one-time transfer allowed.",
+          "fiscal": "Legislative Fiscal Office fiscal note (enrolled, 5/12/2026), coded \"EN SEE FISC NOTE LF RV See Note\": the measure \"may result in a decrease in tax revenues\" for local taxing bodies, but \"the aggregate revenue impact is not expected to be significant.\" The note's baseline: 229 surviving spouses, roughly $1.6 million in exempt assessed value and about $168,000 in forgone revenue.",
+          "urls": [
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1474006",
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1471476",
+            "https://legis.la.gov/legis/ConstAmendments.aspx?sid=26RS"
+          ]
+        },
+        {
+          "number": "Amendment 2",
+          "title": "Levy of a Lower Millage Rate Without Loss of Adjustment Authority (Act 273, HB521)",
+          "ballot_label": "Do you support an amendment to allow a local taxing authority to continue to levy a lower millage rate without losing its ability to adjust to the maximum authorized millage rate from a prior year's reassessment? (Effective January 1, 2027) (Amends Article VII, Section 23(C))",
+          "plain": [
+            "When property is reassessed, a local taxing body may adjust its property tax rate, called a millage, up to a maximum allowed by law.",
+            "Under current rules, a body that chooses to keep charging a lower rate can lose the ability to move back up to that maximum later.",
+            "This amendment would let a local taxing authority keep levying the lower rate while preserving its ability to adjust to the maximum authorized after a prior reassessment."
+          ],
+          "yes": "A yes vote lets a local taxing authority levy a lower millage rate while keeping its ability to return to the maximum rate authorized from a prior reassessment, effective January 1, 2027.",
+          "no": "A no vote keeps current law, under which a taxing authority that levies below its maximum rate may lose the ability to adjust back up to it.",
+          "fiscal": "Legislative Fiscal Office fiscal note (enrolled, 5/12/2026), coded \"EN SEE FISC NOTE LF RV See Note\": the measure \"may result in foregone ad valorem tax revenues,\" and \"the extent of any decrease is indeterminable.\"",
+          "urls": [
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1475811",
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1471612",
+            "https://legis.la.gov/legis/ConstAmendments.aspx?sid=26RS"
+          ]
+        },
+        {
+          "number": "Amendment 3",
+          "title": "Prohibition on Post-Conviction Bail for Aggravated Offenses Against a Minor Child (Act 271, HB51)",
+          "ballot_label": "Do you support an amendment to prohibit a defendant from being released on any post-conviction bail if the defendant is convicted of an aggravated offense against a minor child?  (Adds Article I, Section 18(C))",
+          "plain": [
+            "After a conviction, a defendant can sometimes be released on bail while an appeal or further proceedings are pending.",
+            "This amendment would bar any post-conviction bail for a defendant convicted of an aggravated offense against a minor child.",
+            "The prohibition would be written into the bail section of the Louisiana Constitution."
+          ],
+          "yes": "A yes vote prohibits release on any post-conviction bail for a defendant convicted of an aggravated offense against a minor child.",
+          "no": "A no vote leaves the Constitution's bail provisions unchanged, so post-conviction bail remains available in those cases under existing law.",
+          "fiscal": "Legislative Fiscal Office fiscal note (enrolled, 5/17/2026), coded \"EN SEE FISC NOTE LF EX\": the measure \"may result in an indeterminable increase in Local Funds expenditures for local governing authorities,\" and \"The exact fiscal impact is indeterminable.\"",
+          "urls": [
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1475809",
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1473181",
+            "https://legis.la.gov/legis/ConstAmendments.aspx?sid=26RS"
+          ]
+        },
+        {
+          "number": "Amendment 4",
+          "title": "Lifetime Limit on Election as Governor (Act 414, HB225)",
+          "ballot_label": "Do you support an amendment to prohibit a person who has served more than one and one-half terms as governor from being elected as governor for any future term? (Amends Article IV, Section 3(B))",
+          "plain": [
+            "The Louisiana Constitution now bars a governor from being elected to more than two consecutive terms, but allows a former governor to run again after sitting out.",
+            "This amendment would bar anyone who has served more than one and one-half terms as governor from being elected governor in any future term.",
+            "That would turn the current limit on consecutive terms into a lifetime limit."
+          ],
+          "yes": "A yes vote bars a person who has served more than one and one-half terms as governor from being elected governor again at any future time.",
+          "no": "A no vote keeps the current rule, which limits consecutive terms but allows a former governor to run again after a break in service.",
+          "fiscal": "No fiscal note was published for this measure as of Sept. 22, 2026; the Legislative Fiscal Office issued no fiscal note on HB225.",
+          "urls": [
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1479667",
+            "https://legis.la.gov/legis/ConstAmendments.aspx?sid=26RS"
+          ]
+        },
+        {
+          "number": "Amendment 5",
+          "title": "Application of Nonrecurring State Monies to Retirement System Unfunded Accrued Liability (Act 606, HB27)",
+          "ballot_label": "Do you support an amendment to authorize a state retirement system to apply any nonrecurring state monies it receives to any of its unfunded accrued liability rather than requiring application to its oldest unfunded accrued liability? (Amends Article VII, Section 10(D)(2)(b)(iii))",
+          "plain": [
+            "State retirement systems sometimes receive one-time, nonrecurring state money to pay down pension debt.",
+            "Current rules require that money to be applied to the system's oldest unfunded accrued liability first.",
+            "This amendment would let a system apply that money to any of its unfunded accrued liability instead."
+          ],
+          "yes": "A yes vote lets a state retirement system apply nonrecurring state money to any of its unfunded accrued liability rather than requiring it go to the oldest debt.",
+          "no": "A no vote keeps the requirement that nonrecurring state money be applied to the system's oldest unfunded accrued liability.",
+          "fiscal": "No Legislative Fiscal Office fiscal note was published. The Legislative Auditor's enrolled actuarial note is coded \"EN NO IMPACT APV\" and states the legislation \"is not expected to have any measurable effects on retirement related fiscal costs and revenues during the five-year measurement period.\"",
+          "urls": [
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1480365",
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1478551",
+            "https://legis.la.gov/legis/ConstAmendments.aspx?sid=26RS"
+          ]
+        },
+        {
+          "number": "Amendment 6",
+          "title": "Additional Property Tax Exemption for Homeowners Age 65 or Older (Act 274, HB514)",
+          "ballot_label": "Do you support an amendment to authorize parishes and municipalities to extend an additional property tax exemption for property subject to the homestead exemption that is owned and occupied by a person who is at least sixty-five years of age and who qualifies for the special assessment level? (Effective January 1, 2028) (Adds Article VII, Section 21(P))",
+          "plain": [
+            "Louisiana lets qualifying homeowners who are 65 or older freeze the assessed value of their home, a benefit called the special assessment level.",
+            "This amendment would let parishes and municipalities grant those homeowners an additional property tax exemption on their homestead.",
+            "If approved, the authority would take effect January 1, 2028."
+          ],
+          "yes": "A yes vote authorizes parishes and municipalities to grant an additional property tax exemption to homestead owners who are at least 65 and qualify for the special assessment level, beginning January 1, 2028.",
+          "no": "A no vote leaves parishes and municipalities without authority to grant that additional exemption.",
+          "fiscal": "Legislative Fiscal Office fiscal note (enrolled, 5/21/2026), coded \"EN SEE FISC NOTE LF RV See Note\": the measure \"will result in an indeterminable but significant decrease in ad valorem tax revenues to local taxing authorities to the extent that the exemptions are approved through local elections.\" The note gives an illustrative statewide figure of roughly $19.4 million under a stated $1,000-per-property scenario.",
+          "urls": [
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1476071",
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1475571",
+            "https://legis.la.gov/legis/ConstAmendments.aspx?sid=26RS"
+          ]
+        },
+        {
+          "number": "Amendment 7",
+          "title": "Public Funds for Drinking Water Utility Service Lines (Act 607, SB228)",
+          "ballot_label": "Do you support an amendment to allow for the use of public funds by a political subdivision for the purpose of identifying, inventorying, removing or replacing drinking water utility service lines made of or affected by materials as specified or prescribed by the Lead and Copper Rule Improvements of the United States Environmental Protection Agency, promulgated October 30, 2024, or subsequent promulgation, on property owned by utility customers? (Amends Article VII, Section 14)",
+          "plain": [
+            "Some drinking water service lines that run to homes and businesses contain lead or other materials covered by federal drinking water rules.",
+            "The Louisiana Constitution generally bars spending public money on privately owned property, which can block local governments from replacing the customer-owned portion of those lines.",
+            "This amendment would let a parish, city or other political subdivision spend public funds to identify, inventory, remove or replace those covered service lines on property owned by utility customers."
+          ],
+          "yes": "A yes vote allows political subdivisions to spend public funds to identify, inventory, remove or replace covered drinking water service lines located on customer-owned property.",
+          "no": "A no vote keeps the constitutional restriction that bars spending public funds on that work on privately owned property.",
+          "fiscal": "Legislative Fiscal Office fiscal note (enrolled, 6/1/2026), coded \"EN SEE FISC NOTE LF EX\": the measure \"may increase local fund expenditures for political subdivisions,\" with \"no anticipated direct material effect on governmental revenues.\"",
+          "urls": [
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1480189",
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1479498",
+            "https://legis.la.gov/legis/ConstAmendments.aspx?sid=26RS"
+          ]
+        },
+        {
+          "number": "Amendment 8",
+          "title": "Prohibition on Expropriation of Property by a Foreign Adversary (Act 277, HB192)",
+          "ballot_label": "Do you support an amendment to prohibit expropriation of property by a foreign adversary or an agent of a foreign adversary? (Amends Article I, Section 4(B)(4))",
+          "plain": [
+            "Expropriation is the power to take private property for a public purpose, and the Louisiana Constitution sets out who may exercise it and on what terms.",
+            "This amendment would prohibit a foreign adversary, or an agent of a foreign adversary, from expropriating property in Louisiana.",
+            "The prohibition would be added to the property rights section of the state Constitution."
+          ],
+          "yes": "A yes vote prohibits a foreign adversary or an agent of a foreign adversary from expropriating property in Louisiana.",
+          "no": "A no vote leaves the Constitution's expropriation provisions as they are, with no express prohibition aimed at foreign adversaries.",
+          "fiscal": "No fiscal note was published for this measure as of Sept. 22, 2026; the Legislative Fiscal Office issued no fiscal note on HB192.",
+          "urls": [
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1476539",
+            "https://legis.la.gov/legis/ConstAmendments.aspx?sid=26RS"
+          ]
+        },
+        {
+          "number": "Amendment 9",
+          "title": "Increase in the Income Limit for the Special Assessment Level (Act 220, HB300 of 2025)",
+          "ballot_label": "Do you support an amendment to increase the maximum amount of income a person may receive and still qualify for the special assessment level for residential property receiving the homestead exemption?  (Effective January 1, 2027)  (Amends Article VII, Section 18(G)(1)(a)(ii))",
+          "plain": [
+            "Qualifying homeowners can freeze the assessed value of their homestead through the special assessment level if their income falls below a set limit.",
+            "This amendment would raise that income limit from $100,000 to $150,000 and delay the inflation adjustment of the limit from tax year 2026 to 2028.",
+            "If approved, the change would take effect January 1, 2027."
+          ],
+          "yes": "A yes vote raises the maximum income a homeowner may have and still qualify for the special assessment level on a homestead.",
+          "no": "A no vote keeps the current income limit for qualifying for the special assessment level.",
+          "fiscal": "Legislative Fiscal Office fiscal note (enrolled, 6/10/2025), coded \"EN DECREASE LF RV See Note\": \"the bill can only serve to decrease ad valorem tax revenue collections,\" with the magnitude of the decrease stated to be undeterminable.",
+          "urls": [
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1425422",
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1423903",
+            "https://legis.la.gov/legis/ConstAmendments.aspx?sid=25RS"
+          ]
+        },
+        {
+          "number": "Amendment 10",
+          "title": "Property Tax Exemption for Rehabilitated Blighted or Derelict Property (Act 272, HB214)",
+          "ballot_label": "Do you support an amendment to allow property tax exemptions for blighted or derelict properties that have been rehabilitated, and to require the legislature to enact laws providing for administration of these exemptions? (Effective January 1, 2027) (Adds Article VII, Section 21(P))",
+          "plain": [
+            "Blighted or derelict properties are buildings that have fallen into serious disrepair or been abandoned.",
+            "This amendment would allow property tax exemptions for such properties once they have been rehabilitated.",
+            "It would also require the Legislature to pass laws setting out how those exemptions are administered, effective January 1, 2027."
+          ],
+          "yes": "A yes vote allows property tax exemptions for rehabilitated blighted or derelict property and requires the Legislature to enact laws administering them.",
+          "no": "A no vote leaves the Constitution without authority for a property tax exemption for rehabilitated blighted or derelict property.",
+          "fiscal": "Legislative Fiscal Office fiscal note (enrolled, 5/20/2026), coded \"EN SEE FISC NOTE LF RV See Note\": \"The impact of the proposed exemption on local property tax revenues is indeterminable,\" with no material effect on expenditures.",
+          "urls": [
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1475810",
+            "https://legis.la.gov/Legis/ViewDocument.aspx?d=1474951",
+            "https://legis.la.gov/legis/ConstAmendments.aspx?sid=26RS"
+          ]
+        }
+      ]
+    },
+    "MS": {
+      "source_url": "https://sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf",
+      "official_guide_published": true,
+      "notes": "No statewide ballot measures. The Mississippi Secretary of State's official statewide sample ballot for the Nov. 3, 2026 general election (dated 9/9/2026) contains only federal, special legislative/district attorney, and nonpartisan judicial contests, and ends with 'END OF BALLOT' with no measure section. Mississippi has had no functioning citizen initiative process since the state Supreme Court invalidated it in 2021, and efforts to restore it failed again in the 2026 session. No legislatively referred amendment completed the required two-thirds passage for the 2026 ballot.",
+      "measures": []
+    },
+    "SC": {
+      "source_url": "https://www.scstatehouse.gov/rats2.php",
+      "official_guide_published": false,
+      "notes": "No statewide ballot measures. South Carolina has no citizen initiative or veto referendum process; amendments reach voters only by joint resolution passed by two-thirds of each house. A review of the 2025-2026 session's ratified acts and joint resolutions found no joint resolution proposing a constitutional amendment for submission to the electors. The one constitutional item, S. 582 (Act No. 245), is a ratification of the amendment voters already approved at the 2024 general election, not a new ballot question. The S.C. Election Commission's election listings for Nov. 3, 2026 show no statewide ballot question.",
+      "measures": []
+    },
+    "TX": {
+      "source_url": "https://www.sos.state.tx.us/elections/laws/advisory2026-21-november-3-election-law-calendar.shtml",
+      "official_guide_published": false,
+      "notes": "No statewide ballot measures. Texas votes on constitutional amendments in odd-numbered years, because the Legislature meets in regular session only in odd-numbered years. The 89th Legislature's 17 proposed amendments were all submitted at the Nov. 4, 2025 constitutional amendment election. The Secretary of State's election law calendar describes Nov. 3, 2026 as the uniform general election date for federal, state and county officers, with no statewide propositions, and the Legislative Reference Library lists no constitutional amendment election for 2026. Local political subdivisions may still place local bond or other propositions on this date.",
+      "measures": []
+    },
+    "VA": {
+      "source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-2026-proposed-constitutional-amendments/",
+      "official_guide_published": true,
+      "notes": "Three proposed constitutional amendments are on the Nov. 3, 2026 ballot. A fourth proposed amendment, on congressional redistricting, was decided at a separate special election earlier in 2026 and is not on the November ballot. The Virginia Department of Elections publishes an official explanation for each question prepared under Va. Code Sec. 30-19.9; ballot text below is quoted from those official pages.",
+      "measures": [
+        {
+          "number": "Question 1",
+          "title": "Proposed Constitutional Amendment, Question 1 (Right to Reproductive Freedom)",
+          "ballot_label": "Should the Constitution of Virginia be amended to (i) protect the freedom to make personal decisions about prenatal care, childbirth, postpartum care, birth control, abortion, miscarriage management, and fertility care; (ii) protect doctors, nurses, and patients from being punished for these decisions; and (iii) allow for restrictions on access to abortion during the third trimester of pregnancy except when the patient's health is at risk or the pregnancy cannot survive?",
+          "plain": [
+            "This amendment would add to Virginia's Bill of Rights a right to make and carry out decisions about one's own reproductive care.",
+            "The protection would cover prenatal care, childbirth, postpartum care, birth control, abortion, miscarriage management and fertility care, and would shield patients and health care providers from penalties for those decisions.",
+            "The state could still regulate abortion in the third trimester, but any such law would have to allow abortion when it is medically needed to protect the patient's life or health or when the fetus is not viable."
+          ],
+          "yes": "A yes vote adds a right to reproductive freedom to the Virginia Constitution's Bill of Rights and limits when the state may restrict reproductive care.",
+          "no": "A no vote leaves the Virginia Constitution unchanged, so reproductive care remains governed by statutes that the General Assembly can change.",
+          "fiscal": "No official fiscal estimate was published as of Sept. 22, 2026. Virginia's official explanation of a proposed constitutional amendment does not include a fiscal impact statement, and the Department of Elections published none for this question.",
+          "urls": [
+            "https://www.elections.virginia.gov/election-law/proposed-constitutional-amendment-question-1/",
+            "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-2026-proposed-constitutional-amendments/"
+          ]
+        },
+        {
+          "number": "Question 2",
+          "title": "Proposed Constitutional Amendment, Question 2 (Marriage)",
+          "ballot_label": "Should the Constitution of Virginia be amended to (i) remove the ban on same-sex marriage; (ii) affirm that two adults may marry regardless of sex, gender, or race; and (iii) require all legally valid marriages to be treated equally under the law?",
+          "plain": [
+            "Virginia's Constitution still contains a provision barring marriage and civil unions between people of the same sex or gender, which court rulings have made unenforceable.",
+            "This amendment would remove that provision and state that two adults may marry regardless of sex, gender or race.",
+            "It would also require Virginia to recognize and treat all lawful marriages equally and bar denying a marriage license on those grounds."
+          ],
+          "yes": "A yes vote removes the same-sex marriage ban from the Virginia Constitution and requires equal legal treatment of all lawful marriages between two adults.",
+          "no": "A no vote leaves the existing constitutional ban on same-sex marriage in the text of the Virginia Constitution.",
+          "fiscal": "No official fiscal estimate was published as of Sept. 22, 2026. Virginia's official explanation of a proposed constitutional amendment does not include a fiscal impact statement, and the Department of Elections published none for this question.",
+          "urls": [
+            "https://www.elections.virginia.gov/election-law/proposed-constitutional-amendment-question-2/",
+            "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-2026-proposed-constitutional-amendments/"
+          ]
+        },
+        {
+          "number": "Question 3",
+          "title": "Proposed Constitutional Amendment, Question 3 (Right to Vote; Qualifications of Voters)",
+          "ballot_label": "Should the Constitution of Virginia be amended (i) to provide for the fundamental right to vote in the Commonwealth, (ii) to revise the qualifications of voters so that a person convicted of a felony is not entitled to vote during his period of incarceration but is automatically invested with the right to vote upon release from incarceration, and (iii) to update the existing prohibition on voting by persons found to be mentally incompetent to instead apply to persons who have been found to lack the capacity to understand the act of voting?",
+          "plain": [
+            "This amendment would state in the Virginia Constitution that voting is a fundamental right for qualified residents.",
+            "A person convicted of a felony could not vote while incarcerated but would get voting rights back automatically upon release, without having to ask the Governor for restoration.",
+            "It would also narrow the current bar on voting by people found mentally incompetent so that it applies only to people a court finds lack the capacity to understand the act of voting."
+          ],
+          "yes": "A yes vote makes voting a fundamental constitutional right, automatically restores voting rights when a person is released from incarceration, and narrows the mental-capacity disqualification.",
+          "no": "A no vote keeps current law, under which a felony conviction removes the right to vote until the Governor restores it individually, and the broader mental-incompetence disqualification remains.",
+          "fiscal": "No official fiscal estimate was published as of Sept. 22, 2026. Virginia's official explanation of a proposed constitutional amendment does not include a fiscal impact statement, and the Department of Elections published none for this question.",
+          "urls": [
+            "https://www.elections.virginia.gov/election-law/proposed-constitutional-amendment-question-3/",
+            "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-2026-proposed-constitutional-amendments/"
+          ]
+        }
+      ]
+    },
+    "WV": {
+      "source_url": "https://sos.wv.gov/article/secretary-warner-issues-public-notice-proposed-amendment-west-virginia-constitution-will",
+      "official_guide_published": true,
+      "notes": "Secretary of State Kris Warner issued the official Public Notice on July 23, 2026 for one proposed amendment, designated Amendment 1. A second proposed amendment to raise the homestead exemption (HJR 42) did NOT make the ballot: the House passed it March 4, 2026, the Senate amended it March 13, and the House never acted on the Senate amendment before the session ended, so it failed. West Virginia amendments pass by simple majority.",
+      "measures": [
+        {
+          "number": "Amendment 1",
+          "title": "Citizenship Requirement to Vote in West Virginia Elections Amendment",
+          "ballot_label": "Summary of Purpose: \"This amendment provides that in all elections held in West Virginia only citizens of the United States who are citizens of this state are qualified to vote.\" Constitutional text to be adopted: \"Only citizens of the United States who are citizens of this state shall be entitled to vote at all elections held within the counties in which they respectively reside; but a person who is a minor, or who has been declared mentally incompetent by a court of competent jurisdiction, or who is under conviction of treason, felony or bribery in an election, or who has not been a resident of the state and of the county in which he or she offers to vote, for 30 days next preceding such offer, shall not be permitted to vote while such disability continues; and, a person in the military, naval, or marine service of the United States shall not be deemed a resident of this state by reason of being stationed therein.\"",
+          "plain": [
+            "This amendment would change the West Virginia Constitution so that only United States citizens who are citizens of this state may vote in elections held in West Virginia.",
+            "It adds an explicit United States citizenship requirement to Article IV, Section 1, the section that lists who is qualified to vote.",
+            "It keeps the existing bars on voting by minors, people a court has declared mentally incompetent, people under conviction of treason, a felony or election bribery, and people who have not lived in the state and county for 30 days."
+          ],
+          "yes": "A yes vote writes a United States citizenship requirement for voting into Article IV, Section 1 of the West Virginia Constitution.",
+          "no": "A no vote leaves Article IV, Section 1 of the West Virginia Constitution as it reads now, without an explicit United States citizenship requirement.",
+          "fiscal": "No official fiscal estimate was published as of Sept. 22, 2026. The Secretary of State's July 23, 2026 public notice for this amendment contains no fiscal impact statement.",
+          "urls": [
+            "https://sos.wv.gov/article/secretary-warner-issues-public-notice-proposed-amendment-west-virginia-constitution-will",
+            "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sjr9+sub1.htm&yr=2026&sesstype=RS&i=9&houseorig=S&billtype=JR"
+          ]
+        }
+      ]
+    }
+  },
+  "states_with_no_measures": [
+    "MS",
+    "SC",
+    "TX"
+  ],
+  "uncertain": [
+    "LOUISIANA NUMBERING IS NOT OFFICIALLY CONFIRMED. As of Sept. 22, 2026 the Louisiana Secretary of State had not published a 'Statement of Proposed Constitutional Amendments' for Nov. 3, 2026 (the equivalent document for the May 16, 2026 election does exist). The Amendment 1-10 ordering used here comes from two independent news listings that match each other; the ballot propositions and election dates themselves are quoted from the official enrolled acts and are solid. Re-check the numbers against the Secretary of State when the official statement is posted.",
+    "Florida Amendment 3's ballot title and summary were rewritten by court order (Leon County Circuit Judge David Frank, Aug. 4, 2026; revised language filed by the Attorney General Aug. 13-14, 2026). The text used here is the revised language carried on the Division of Elections' Constitutional Initiatives database. News coverage noted the ruling was final for purposes of appeal, so a higher court could in principle alter it again; no such change was found as of Sept. 22, 2026.",
+    "The Florida Division of Elections' printed 2026 amendment booklet (files.floridados.gov/media/711355/eng-2026-booklet-constitutional-amendpub-updated-20260821.pdf) is indexed by search engines but returned HTTP 404 on every direct fetch attempt, so it could not be read. Florida ballot text here was instead taken from the Division of Elections' Constitutional Initiatives database and from the enrolled joint resolutions on flsenate.gov.",
+    "West Virginia: Ballotpedia carries a page asserting a second 2026 amendment raising the homestead exemption (HJR 42). That appears to be wrong. WV MetroNews reported March 22, 2026 that HJR 42 died when the House never acted on the Senate's amendment before the session ended, and the Secretary of State's news feed contains only ONE public notice of a proposed amendment for Nov. 3, 2026 (issued July 23, 2026, designating the citizenship measure as Amendment 1). Treated here as a single WV amendment.",
+    "South Carolina: the conclusion of 'no statewide measures' rests on negative evidence - no joint resolution proposing a constitutional amendment appears among the 2025-2026 session's ratified acts, and the S.C. Election Commission's Nov. 3, 2026 listings show only local elections. No official page affirmatively states 'no statewide ballot questions,' so this could not be confirmed positively.",
+    "Mississippi: the conclusion rests on the Secretary of State's official statewide sample ballot dated 9/9/2026, which ends with 'END OF BALLOT' and contains no measure section. If the Legislature acted in a special session after that date, this would need rechecking; none was found.",
+    "West Virginia wording: the Secretary of State's public notice and the published legal notice both read 'only citizens of the United States who are citizens of this state,' while a retrieval of the legislature's SJR 9 text rendered the phrase in the reverse order ('only citizens of this state who are citizens of the United States'). The Secretary of State's notice text is used here, since it is what governs the printed ballot.",
+    "Louisiana drafting collision: Act 272 (Amendment 10) and Act 274 (Amendment 6) both add Article VII, Section 21(P) with different content, and both are on the same ballot. No official guidance was found on what happens if both pass."
+  ]
+}

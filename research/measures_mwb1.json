@@ -1,0 +1,220 @@
+{
+  "generated": "2026-09-22",
+  "states": {
+    "NE": {
+      "source_url": "https://sos.nebraska.gov/elections",
+      "official_guide_published": true,
+      "notes": "Secretary of State Robert B. Evnen certified the 2026 general election ballot on Sept. 11, 2026. Four statewide measures: three citizen initiatives (440, 441, 442) plus one constitutional amendment referred by the Legislature (LR19CA). The SoS 'Informational Pamphlet on Initiative Measures' covers only 440-442; LR19CA is posted separately as an Executive Board-approved ballot statement. Nebraska does not publish an official fiscal note for ballot measures. A fourth initiative (the 'Respect Nebraska Voters' / four-fifths-vote proposal) was removed from the ballot by the Nebraska Supreme Court on Sept. 10, 2026 for violating the single-subject rule and is NOT on the ballot.",
+      "measures": [
+        {
+          "number": "Initiative Measure 440",
+          "title": "Initiative Measure 440, Proposed by Initiative Petition. Object statement: \"The object of this petition is to amend the Nebraska Constitution to state that laws may be enacted allowing sports wagers to be placed within the State of Nebraska through an Internet-based platform offered by an authorized gaming operator.\"",
+          "ballot_label": "A vote \"FOR\" will amend the Nebraska Constitution to authorize the enactment of laws to allow persons located within Nebraska to place sports wagers through an Internet-based platform when offered by an authorized gaming operator conducting games of chance within a licensed racetrack enclosure in Nebraska. A vote \"AGAINST\" means the Nebraska Constitution will not be amended in this manner. Shall the Nebraska Constitution be amended to authorize the enactment of laws allowing persons located within Nebraska to place sports wagers through an Internet-based platform when offered by an authorized gaming operator conducting games of chance within a licensed racetrack enclosure in Nebraska? For / Against",
+          "plain": [
+            "This measure would change the Nebraska Constitution so that state laws may allow sports bets to be placed over the internet.",
+            "Only a gaming operator already authorized to run games of chance inside a licensed racetrack enclosure in Nebraska could offer those internet bets.",
+            "A person would have to be located within Nebraska at the time the wager is placed."
+          ],
+          "yes": "A vote FOR amends the Nebraska Constitution to authorize the Legislature to enact laws allowing people located in Nebraska to place sports wagers through an internet-based platform offered by an authorized racetrack gaming operator.",
+          "no": "A vote AGAINST leaves the Nebraska Constitution unchanged, so the constitution would continue to not authorize laws permitting internet-based sports wagering.",
+          "fiscal": "No official fiscal estimate was published as of Sept. 22, 2026. Nebraska law does not require a fiscal note for ballot measures, and the Secretary of State's 2026 informational pamphlet contains only the ballot title and text, the full measure text, and proponent/opponent arguments.",
+          "urls": [
+            "https://sos.nebraska.gov/elections",
+            "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026%20Ballot%20Measures%20Pamphlet.pdf",
+            "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026%20Ballot%20Measures%20Pamphlet%20-%20Spanish.pdf"
+          ]
+        },
+        {
+          "number": "Initiative Measure 441",
+          "title": "Initiative Measure 441, Proposed by Initiative Petition. Object statement: \"The object of this petition is to enact a statute allowing sports wagers to be placed within the State of Nebraska through Internet-based platforms offered by an authorized gaming operator, or its contracted platform provider, and regulate such sports wagers.\"",
+          "ballot_label": "A vote \"FOR\" will enact statutes allowing persons located within Nebraska to place sports wagers through an Internet-based platform when offered by an authorized gaming operator conducting games of chance within a licensed racetrack enclosure in Nebraska or the operator's platform provider, and regulating such sports wagers. A vote \"AGAINST\" means no such statutes will be enacted. Shall statutes be enacted that: (1) Allow persons located within Nebraska to place sports wagers through an Internet-based platform when offered by an authorized gaming operator conducting games of chance within a licensed racetrack enclosure in Nebraska or the operator's platform provider; and (2) Regulate such sports wagers? For / Against",
+          "plain": [
+            "This measure would write into state law the rules that let people located in Nebraska place sports bets through an internet platform.",
+            "The platform would have to be offered by an authorized racetrack gaming operator or by that operator's contracted platform provider.",
+            "The new statutes would also set up how online sports wagering is regulated in the state."
+          ],
+          "yes": "A vote FOR enacts statutes permitting internet-based sports wagering by people located in Nebraska through authorized racetrack gaming operators or their platform providers, and establishing the rules regulating that wagering.",
+          "no": "A vote AGAINST means those statutes are not enacted and Nebraska statutes would continue to not authorize or regulate internet-based sports wagering.",
+          "fiscal": "No official fiscal estimate was published as of Sept. 22, 2026. Nebraska law does not require a fiscal note for ballot measures, and the Secretary of State's 2026 informational pamphlet contains only the ballot title and text, the full measure text, and proponent/opponent arguments.",
+          "urls": [
+            "https://sos.nebraska.gov/elections",
+            "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026%20Ballot%20Measures%20Pamphlet.pdf"
+          ]
+        },
+        {
+          "number": "Initiative Measure 442",
+          "title": "Initiative Measure 442, Proposed by Initiative Petition. Object statement: \"The object of this petition is to amend the Nebraska Constitution to establish constitutional protections for sex-separate athletics to ensure equal access to athletic opportunities for females.\"",
+          "ballot_label": "A vote \"FOR\" will amend the Nebraska Constitution to provide: (1) Schools must expressly designate each athletic team or sport as one of the following based on biological sex: (a) Males, men, or boys; (b) females, women, or girls; or (c) coed or mixed; and (2) Athletic teams or sports designated for females, women, or girls shall not be open to students of the male sex. The amendment would apply to all athletic teams or sports sponsored by public schools or postsecondary educational institutions, and private schools or educational institutions whose athletic teams or sports compete against public schools or institutions. A vote \"AGAINST\" means the Nebraska Constitution will not be amended in this manner. Shall the Nebraska Constitution be amended to provide: (1) Schools must expressly designate each athletic team or sport as one of the following based on biological sex: (a) Males, men, or boys; (b) females, women, or girls; or (c) coed or mixed; and (2) Athletic teams or sports designated for females, women, or girls shall not be open to students of the male sex? The amendment would apply to all athletic teams or sports sponsored by public schools or postsecondary educational institutions, and private schools or educational institutions whose athletic teams or sports compete against public schools or institutions. For / Against",
+          "plain": [
+            "This measure would put in the Nebraska Constitution a requirement that schools label every athletic team or sport, based on biological sex, as male, female, or coed/mixed.",
+            "Teams or sports labeled for females, women, or girls could not be open to students of the male sex.",
+            "The requirement would cover public schools and postsecondary institutions, plus private schools whose teams compete against public ones."
+          ],
+          "yes": "A vote FOR amends the Nebraska Constitution to require sex-based designation of school athletic teams and to bar students of the male sex from teams designated for females, women, or girls at covered schools.",
+          "no": "A vote AGAINST leaves the Nebraska Constitution unchanged, so no constitutional designation or eligibility requirement for school athletic teams would be added.",
+          "fiscal": "No official fiscal estimate was published as of Sept. 22, 2026. Nebraska law does not require a fiscal note for ballot measures, and the Secretary of State's 2026 informational pamphlet contains only the ballot title and text, the full measure text, and proponent/opponent arguments.",
+          "urls": [
+            "https://sos.nebraska.gov/elections",
+            "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026%20Ballot%20Measures%20Pamphlet.pdf"
+          ]
+        },
+        {
+          "number": "LR19CA (constitutional amendment referred by the Legislature; ballot number not published by the Secretary of State as of Sept. 22, 2026)",
+          "title": "Legislative Resolution 19CA (2025) - proposed constitutional amendment on legislative term limits, ballot statement approved by the Executive Board of the Legislative Council on June 10, 2026",
+          "ballot_label": "Ballot Statement - LR19CA (2025): A vote FOR will amend the state constitution to increase the term limit for state legislators from two consecutive four-year terms (eight years) to three consecutive four-year terms (12 years). A vote AGAINST will not amend the Nebraska Constitution, so the current limit of two consecutive four-year terms will remain in effect. State legislators will continue to be ineligible for office in the Legislature for four years after serving two consecutive terms.",
+          "plain": [
+            "This amendment would change how long a person can serve in the Nebraska Legislature without a break.",
+            "The limit would go from two consecutive four-year terms, or eight years, to three consecutive four-year terms, or 12 years.",
+            "Under current law a senator must sit out four years after two consecutive terms, and that waiting period would apply after three terms instead."
+          ],
+          "yes": "A vote FOR amends the Nebraska Constitution to raise the consecutive-term limit for state legislators from two four-year terms to three four-year terms.",
+          "no": "A vote AGAINST leaves the current limit of two consecutive four-year terms in place, with legislators ineligible for the Legislature for four years after serving two consecutive terms.",
+          "fiscal": "No official fiscal estimate was published as of Sept. 22, 2026; the Secretary of State posted only the Executive Board's approved ballot statement language for LR19CA.",
+          "urls": [
+            "https://sos.nebraska.gov/elections",
+            "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/LR19CA_Approved_Ballot_Statement_Language.pdf"
+          ]
+        }
+      ]
+    },
+    "ND": {
+      "source_url": "https://www.sos.nd.gov/elections/voter/ballot-measures/measures-ballot",
+      "official_guide_published": true,
+      "notes": "Exactly two statewide measures are on the Nov. 3, 2026 general election ballot per the Secretary of State's measures page and the official 'Analyses of the Statewide Measures' publication required by N.D.C.C. 16.1-01-07. Two other legislature-referred measures did not reach this ballot: a single-subject constitutional measure was voted on at the June 9, 2026 primary, and a term-limits measure (SCR 4008, 2025) was ordered off the November ballot by the North Dakota Supreme Court on June 25, 2026.",
+      "measures": [
+        {
+          "number": "Constitutional Measure No. 1",
+          "title": "Constitutional Measure No. 1 (House Concurrent Resolution No. 3003, 2025 Session Laws, Ch. 614)",
+          "ballot_label": "This constitutional measure would amend and reenact section 9 of article III and section 16 of article IV of the Constitution of North Dakota. The proposed amendment would require constitutional amendments submitted to the electors, by resolution adopted by the legislative assembly proposing a constitutional amendment and each initiative petition and measure proposing a constitutional amendment, to receive an affirmative vote of at least sixty percent of those voting on the question for enactment. The estimated fiscal impact of this measure is none. Yes - Means you approve the measure as summarized above. No - Means you reject the measure as summarized above.",
+          "plain": [
+            "This measure would change how many votes it takes to approve a change to the North Dakota Constitution.",
+            "Amendments placed on the ballot by the Legislative Assembly and amendments proposed by initiative petition would each need at least 60 percent of the votes cast on the question.",
+            "Constitutional amendments now pass with a simple majority, so this would set a higher bar for future amendments."
+          ],
+          "yes": "A yes vote approves the amendment, requiring every future constitutional amendment, whether legislature-referred or initiated, to receive at least 60 percent of the votes cast on the question to be enacted.",
+          "no": "A no vote rejects the amendment, so constitutional amendments would continue to be enacted by a simple majority of those voting on the question.",
+          "fiscal": "Official ballot language and the Secretary of State's analysis both state: \"The estimated fiscal impact of this measure is none.\"",
+          "urls": [
+            "https://www.sos.nd.gov/elections/voter/ballot-measures/measures-ballot",
+            "https://www.sos.nd.gov/sites/default/files/documents/elections/measures/ballot-language-2026-general-measure1.pdf",
+            "https://www.sos.nd.gov/sites/default/files/documents/elections/measures/analysis-2026-general-measure1.pdf",
+            "https://www.sos.nd.gov/sites/www/files/documents/services/leg-bills/2025-69/house-res/3003.pdf"
+          ]
+        },
+        {
+          "number": "Initiated Constitutional Measure No. 2",
+          "title": "Initiated Constitutional Measure No. 2 (initiated constitutional measure relating to school meals, placed on the ballot by petitions circulated by a sponsoring committee)",
+          "ballot_label": "This initiated measure amendment would amend and add a new section to article VIII of the North Dakota Constitution. It would mandate all public school districts, public schools, and public charter schools to provide one breakfast and one lunch each school day to enrolled students at no cost to the student, parent, or guardians. It would allow nonpublic schools, Bureau of Indian Education schools, and other tribal schools the option to provide the same. It would require the State of North Dakota to reimburse school districts and schools at one hundred percent of the current rates used by the state for free meals, and the rate shall be adjusted annually for inflation. It would require the legislative assembly to identify a source of funds for reimbursement and if a source of funds is unable to be identified, reimbursement funds would be appropriated from the legacy earnings fund. This amendment would supersede any other part of the constitution that conflicts with it. The estimated fiscal impact of this measure is a $124.3 million to $134.3 million increase in ongoing biennial expenditures for the 2027-2029 biennium and will be adjusted for inflation every year after that. Yes - Means you approve the measure as summarized above. No - Means you reject the measure as summarized above.",
+          "plain": [
+            "This measure would require every public school district, public school, and public charter school to serve one breakfast and one lunch each school day at no cost to students or their families.",
+            "Nonpublic schools, Bureau of Indian Education schools, and other tribal schools could choose to offer the same free meals.",
+            "The state would reimburse schools at 100 percent of the current state rates for free meals, adjusted yearly for inflation, with money from the legacy earnings fund if the Legislative Assembly does not identify another source."
+          ],
+          "yes": "A yes vote approves the amendment, adding a section to Article VIII of the North Dakota Constitution that requires free school breakfast and lunch at public schools and obligates the state to reimburse schools for the cost.",
+          "no": "A no vote rejects the amendment, so the constitution would not require free school meals or state reimbursement for them.",
+          "fiscal": "Official ballot language: \"The estimated fiscal impact of this measure is a $124.3 million to $134.3 million increase in ongoing biennial expenditures for the 2027-2029 biennium and will be adjusted for inflation every year after that.\" The Legislative Council's July 2026 report (N.D.C.C. 16.1-01-17) gives the Department of Public Instruction's 2027-29 estimate as $124 million to $134 million for the cost of free meals plus $300,000 in departmental administrative costs.",
+          "urls": [
+            "https://www.sos.nd.gov/elections/voter/ballot-measures/measures-ballot",
+            "https://www.sos.nd.gov/sites/default/files/documents/elections/measures/ballot-language-2026-general-measure2.pdf",
+            "https://www.sos.nd.gov/sites/default/files/documents/elections/measures/analysis-2026-general-measure2.pdf",
+            "https://www.sos.nd.gov/sites/default/files/documents/elections/measures/schoollunches-fiscal-impact.pdf",
+            "https://www.sos.nd.gov/sites/default/files/documents/elections/measures/schoollunches-measure-full-text.pdf",
+            "https://www.sos.nd.gov/news/constitutional-initiative-related-funding-school-lunches-approved-november-3-2026-ballot"
+          ]
+        }
+      ]
+    },
+    "SD": {
+      "source_url": "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026-ballot-questions.aspx",
+      "official_guide_published": true,
+      "notes": "Four statewide ballot questions, all constitutional amendments referred by the Legislature in 2025. No initiated measure or initiated amendment qualified by petition for this ballot, and no referred law appears among the certified questions (a referendum petition on SB 245 was approved for circulation on 4/29/2026 but is not listed among the certified ballot questions). Titles, explanations and the effect of a Yes/No vote are written by the Attorney General; the Secretary of State's 2026 Ballot Question Pamphlet also carries proponent and opponent statements.",
+      "measures": [
+        {
+          "number": "Constitutional Amendment I",
+          "title": "An Amendment to the South Dakota Constitution that Repeals Expanded Medicaid Coverage if Federal Funding for the Program Drops below 90%. (HJR 5001, 2025)",
+          "ballot_label": "Title: An Amendment to the South Dakota Constitution that Repeals Expanded Medicaid Coverage if Federal Funding for the Program Drops below 90%. Attorney General Explanation: Medicaid is a program, funded by the State and the federal government, to provide medical coverage for low-income children, pregnant women, disabled individuals, and the elderly. In the 2022 General Election the voters approved Constitutional Amendment D, which expanded Medicaid eligibility in South Dakota. Amendment D requires the State to also provide Medicaid benefits to anyone over the age of 18 and under 65 whose income is at or below 133% of the federal property level, plus 5% of the federal poverty level for the applicable family size. Currently, federal law requires the federal government to fund 90% of South Dakota's Medicaid expansion. This proposed Constitutional Amendment ends the expanded Medicaid coverage if the federal funding for expansion drops below 90%. If federal funding drops below that 90% threshold, Medicaid coverage will once again only apply to low-income children, pregnant women, disabled individuals, and the elderly. Vote \"Yes\" to adopt the amendment. Vote \"No\" to leave the Constitution as it is. The text of this constitutional amendment is two pages long with two sections.",
+          "plain": [
+            "South Dakota voters added Medicaid expansion to the state constitution in 2022, covering adults ages 18 to 64 with incomes at or below 133 percent of the federal poverty level plus 5 percent.",
+            "This amendment would end that expanded coverage if the federal government's share of the expansion cost falls below 90 percent.",
+            "If that happened, Medicaid would again cover only low-income children, pregnant women, disabled individuals, and the elderly."
+          ],
+          "yes": "A yes vote adopts the amendment, so expanded Medicaid coverage would end automatically if federal funding for the expansion drops below 90 percent.",
+          "no": "A no vote leaves the constitution as it is, so the state would remain constitutionally required to provide expanded Medicaid coverage regardless of the federal funding share.",
+          "fiscal": "No official fiscal note was published for this amendment as of Sept. 22, 2026; the Secretary of State's 2026 ballot questions page lists only the Attorney General's draft and final statements, and the official 2026 Ballot Question Pamphlet contains no fiscal note for it.",
+          "urls": [
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026-ballot-questions.aspx",
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/2026GeneralBQPamphletFINAL.pdf",
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/HJR5001_Final_5.18.26.pdf",
+            "https://sdlegislature.gov/Session/Bill/25683"
+          ]
+        },
+        {
+          "number": "Constitutional Amendment J",
+          "title": "An Amendment to the South Dakota Constitution Clarifying that an Individual Must Be a Citizen of the United States to be Eligible to Vote. (SJR 503, 2025)",
+          "ballot_label": "Title: An Amendment to the South Dakota Constitution Clarifying that an Individual Must Be a Citizen of the United States to be Eligible to Vote. Attorney General Explanation: Article VII, Section 2 of the South Dakota Constitution defines who is qualified to vote in state elections. Among these qualifications are age, residency, and United States citizenship requirements. Article VII, Section 2 also establishes that individuals may be disqualified from voting because of mental incompetence or a felony conviction. This constitutional amendment adds people who are not United States citizens to the list of individuals disqualified from voting, clarifying the existing requirement that only citizens may vote in state elections. Vote \"Yes\" to adopt the amendment. Vote \"No\" to leave the Constitution as it is. The text of this constitutional amendment is one page long with two sections.",
+          "plain": [
+            "The South Dakota Constitution already lists United States citizenship among the qualifications for voting in state elections.",
+            "This amendment would add people who are not United States citizens to the constitution's list of individuals disqualified from voting.",
+            "The Attorney General describes the change as clarifying the citizenship requirement that already exists."
+          ],
+          "yes": "A yes vote adopts the amendment, adding non-citizens to the constitutional list of people disqualified from voting in state elections.",
+          "no": "A no vote leaves the constitution as it is, with citizenship listed as a voter qualification but non-citizens not named in the list of disqualifications.",
+          "fiscal": "No official fiscal note was published for this amendment as of Sept. 22, 2026; the Secretary of State's 2026 ballot questions page lists only the Attorney General's draft and final statements, and the official 2026 Ballot Question Pamphlet contains no fiscal note for it.",
+          "urls": [
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026-ballot-questions.aspx",
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/2026GeneralBQPamphletFINAL.pdf",
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/SJR503_Final%20Form_5.14.26.pdf",
+            "https://sdlegislature.gov/Session/Bill/25856"
+          ]
+        },
+        {
+          "number": "Constitutional Amendment K",
+          "title": "An Amendment to the South Dakota Constitution Establishing the Trust for Unclaimed Property Fund. (SJR 505, 2025)",
+          "ballot_label": "Title: An Amendment to the South Dakota Constitution Establishing the Trust for Unclaimed Property Fund. Attorney General Explanation: Under South Dakota statute, intangible property is presumed to be abandoned if it remains unclaimed by the owner for more than three years after it became payable or distributable. Examples of intangible property are traveler's checks, money orders, bank deposits, refunds, stocks, funds owed under a life insurance policy, and property held in a safe deposit box. Abandoned intangible property is transferred to the State Treasurer to hold while waiting for the owner to claim it. The State Treasurer must provide public notice of the abandoned property. This proposed constitutional amendment establishes a trust fund where unclaimed abandoned property will be deposited. Portions of the interest and income from this fund will be distributed into the general fund for the benefit of the state. This proposed amendment requires the Legislature to determine the amount to be distributed that promotes the growth of the trust fund and the distributed amount. Vote \"Yes\" to adopt the amendment. Vote \"No\" to leave the Constitution as it is. The text of this constitutional amendment is two pages long containing two sections.",
+          "plain": [
+            "Intangible property that goes unclaimed for more than three years is treated as abandoned and turned over to the State Treasurer to hold for the owner.",
+            "This amendment would create a constitutional trust fund where that unclaimed abandoned property is deposited.",
+            "Portions of the interest and income from the fund would be distributed to the state general fund, with the Legislature setting the amount in a way that also grows the fund."
+          ],
+          "yes": "A yes vote adopts the amendment, creating a constitutional trust for unclaimed property and directing part of its interest and income to the state general fund in amounts set by the Legislature.",
+          "no": "A no vote leaves the constitution as it is, so unclaimed abandoned property would continue to be handled under existing statutes without a constitutional trust fund.",
+          "fiscal": "No official fiscal note was published for this amendment as of Sept. 22, 2026; the Secretary of State's 2026 ballot questions page lists only the Attorney General's draft and final statements, and the official 2026 Ballot Question Pamphlet contains no fiscal note for it.",
+          "urls": [
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026-ballot-questions.aspx",
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/2026GeneralBQPamphletFINAL.pdf",
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/SJR505_Final%20Form_5.15.26.pdf",
+            "https://sdlegislature.gov/Session/Bill/25479"
+          ]
+        },
+        {
+          "number": "Constitutional Amendment L",
+          "title": "An Amendment to the South Dakota Constitution Requiring that a Proposed Constitutional Amendment or Revision Receive an Affirmative Vote of Sixty Percent of the Votes Cast. (HJR 5003, 2025)",
+          "ballot_label": "Title: An Amendment to the South Dakota Constitution Requiring that a Proposed Constitutional Amendment or Revision Receive an Affirmative Vote of Sixty Percent of the Votes Cast. Attorney General Explanation: The State Constitution provides that any proposed constitutional amendment or revision must be submitted to the voters for approval. Currently, a proposed constitutional amendment or revision becomes part of the Constitution if approved by a majority of the votes cast. This proposed Constitutional Amendment increases the number of votes required for a proposed constitutional amendment or revision to become part of the Constitution. If passed, further constitutional amendments must receive an affirmative vote of sixty percent of the votes cast to be implemented. Vote \"Yes\" to adopt the amendment. Vote \"No\" to leave the Constitution as it is. The text of this constitutional amendment is one page long containing two sections.",
+          "plain": [
+            "A proposed change to the South Dakota Constitution now becomes part of the constitution if a majority of the votes cast approve it.",
+            "This amendment would raise that requirement to 60 percent of the votes cast.",
+            "The higher threshold would apply to future proposed constitutional amendments and revisions."
+          ],
+          "yes": "A yes vote adopts the amendment, requiring future constitutional amendments or revisions to receive an affirmative vote of 60 percent of the votes cast to take effect.",
+          "no": "A no vote leaves the constitution as it is, so constitutional amendments and revisions would continue to take effect with a majority of the votes cast.",
+          "fiscal": "No official fiscal note was published for this amendment as of Sept. 22, 2026; the Secretary of State's 2026 ballot questions page lists only the Attorney General's draft and final statements, and the official 2026 Ballot Question Pamphlet contains no fiscal note for it.",
+          "urls": [
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026-ballot-questions.aspx",
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/2026GeneralBQPamphletFINAL.pdf",
+            "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/HJR5003_Final_5.19.26.pdf",
+            "https://sdlegislature.gov/Session/Bill/25663"
+          ]
+        }
+      ]
+    }
+  },
+  "states_with_no_measures": [],
+  "uncertain": [
+    "NE LR19CA: the Secretary of State's 2026 elections page posts the Executive Board's approved ballot statement but does not publish a ballot number (e.g. 'Amendment 1') or the full 'Shall the Constitution of Nebraska be amended...' question wording, so the ballot_label here is the approved ballot statement only. The ballot number should be confirmed against the certified ballot layout or a county sample ballot before publication.",
+    "NE: Nebraska publishes no official fiscal notes for ballot measures; the 'fiscal' fields for all four Nebraska measures record the absence of an official estimate rather than any dollar figure.",
+    "NE: A fourth initiative (reported as the 'Respect Nebraska Voters' / four-fifths legislative vote proposal) was struck from the ballot by the Nebraska Supreme Court on Sept. 10, 2026 for a single-subject violation. This is based on news reporting (Nebraska Public Media, Nebraska Examiner), not a primary court or SoS document reviewed here.",
+    "SD: No fiscal note was found for Amendments I, J, K or L on the Secretary of State's 2026 ballot questions page or in the official 2026 Ballot Question Pamphlet. A Legislative Research Council fiscal note exists on that page only for an unrelated property-tax constitutional amendment petition that did not qualify. If a fiscal note for any of these four was issued elsewhere (e.g., by the LRC), it was not located.",
+    "SD: The exact ballot layout wording was taken from the Attorney General's title/explanation/effect-of-vote as reprinted in the official Secretary of State pamphlet; the signed AG statement PDFs are image scans and could not be text-verified.",
+    "ND: Confirmed only two measures on the Nov. 3, 2026 ballot from the SoS measures page and the official 'Analyses of the Statewide Measures Appearing on the Election Ballot November 3, 2026'. The removal of the term-limits measure (SCR 4008) by the North Dakota Supreme Court on June 25, 2026 comes from news reporting (North Dakota Monitor), not a court document reviewed here."
+  ]
+}

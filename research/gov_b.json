@@ -1,0 +1,776 @@
+{
+ "office": "gov",
+ "states": {
+  "KS": {
+   "primary_held": true,
+   "primary_date": "2026-08-04",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Kansas_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Cindy Holscher",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Kansas state senator; running mate KC Ohaebosim",
+     "background_url": "https://www.nbcnews.com/politics/2026-primary-elections/kansas-governor-results",
+     "summary": "Lower cost of living, working families, property taxes, data center moratorium",
+     "site": "https://www.cindyforkansas.com/",
+     "positions": [
+      {
+       "topic": "Cost of living",
+       "statement": "The cost-of-living crisis is crushing Kansans.",
+       "url": "https://www.cindyforkansas.com/"
+      },
+      {
+       "topic": "Property taxes",
+       "statement": "Rising taxes shouldn't push people out of their homes.",
+       "url": "https://www.cindyforkansas.com/"
+      },
+      {
+       "topic": "Data centers",
+       "statement": "Stop approving new data centers until guardrails are in place.",
+       "url": "https://www.cindyforkansas.com/"
+      }
+     ]
+    },
+    {
+     "name": "Ty Masterson",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "President of the Kansas Senate; running mate Jeff Klemp",
+     "background_url": "https://www.nbcnews.com/politics/2026-primary-elections/kansas-governor-results",
+     "summary": "Homeowners Bill of Rights, ratepayer protection",
+     "site": "https://www.mastersonforgovernor.com/",
+     "positions": [
+      {
+       "topic": "Property taxes",
+       "statement": "Homeowners Bill of Rights: protect homeowners from runaway property taxes.",
+       "url": "https://www.mastersonforgovernor.com/"
+      },
+      {
+       "topic": "Utility costs",
+       "statement": "Ratepayer Protection Pledge: shield families and businesses from costs created by outside interests.",
+       "url": "https://www.mastersonforgovernor.com/"
+      }
+     ]
+    }
+   ],
+   "notes": "Incumbent Gov. Laura Kelly (D) is term-limited. Ballotpedia pages were unreachable; nominees confirmed via NBC News/KCUR/Wikipedia. Campaign sites located and homepages fetched 2026-09-22. Holscher's homepage links issue sub-pages (/issues/lowering-costs etc.) not fetched. Masterson's homepage details only two initiatives; /about returned 404, so only two positions captured. Third-party/independent ballot status unverified."
+  },
+  "ME": {
+   "primary_held": true,
+   "primary_date": "2026-06-09",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Maine_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Hannah Pingree",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former Speaker of the Maine House; former director, Governor's Office of Policy Innovation",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Maine_gubernatorial_election",
+     "summary": "Housing, affordability, climate, health care, education",
+     "site": "https://hannahforgovernor.com/",
+     "positions": [
+      {
+       "topic": "Affordability",
+       "statement": "Make it easier for hourly and per-diem workers to afford living here",
+       "url": "https://hannahforgovernor.com/affordability/"
+      },
+      {
+       "topic": "Housing",
+       "statement": "Address Maine's housing crisis as an urgent challenge",
+       "url": "https://hannahforgovernor.com/housing-plan/"
+      },
+      {
+       "topic": "Climate and energy",
+       "statement": "Continue leading Maine's climate work and fighting climate change",
+       "url": "https://hannahforgovernor.com/climate/"
+      }
+     ]
+    },
+    {
+     "name": "Bobby Charles",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Former U.S. Naval intelligence officer",
+     "background_url": "https://www.bobbyformaine.com/issues",
+     "summary": "Cut crime, cut taxes, refocus education",
+     "site": "https://www.bobbyformaine.com/",
+     "positions": [
+      {
+       "topic": "Crime",
+       "statement": "Dismantle cartel networks, strengthen law enforcement, increase addiction recovery support",
+       "url": "https://www.bobbyformaine.com/issues"
+      },
+      {
+       "topic": "Taxes",
+       "statement": "Abolish state income tax, slash regulation, reduce red tape",
+       "url": "https://www.bobbyformaine.com/issues"
+      },
+      {
+       "topic": "Education",
+       "statement": "Refocus on reading, math, science; eliminate 'woke' indoctrination from classrooms",
+       "url": "https://www.bobbyformaine.com/issues"
+      }
+     ]
+    },
+    {
+     "name": "Rick Bennett",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Maine_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Incumbent Gov. Janet Mills (D) is term-limited. Roster from Wikipedia (Ballotpedia unreachable). Rick Bennett's background/site not captured (independent; name and party only per scope). Other minor-party candidates, if any, not verified."
+  },
+  "MD": {
+   "primary_held": true,
+   "primary_date": "2026-06-23",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Maryland_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Wes Moore",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "Governor of Maryland since 2023; seeking a second term",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Maryland_gubernatorial_election",
+     "summary": "Expanding pathways to work, wages, and wealth",
+     "site": "https://wesmoore.com/",
+     "positions": [
+      {
+       "topic": "Grocery prices",
+       "statement": "First-in-the-nation ban on dynamic pricing in grocery stores",
+       "url": "https://wesmoore.com/"
+      },
+      {
+       "topic": "Child opportunity",
+       "statement": "Every Maryland child deserves opportunity to thrive through the ENOUGH initiative",
+       "url": "https://wesmoore.com/"
+      },
+      {
+       "topic": "Voting rights",
+       "statement": "Won't tolerate assaults on voting power in Maryland",
+       "url": "https://wesmoore.com/"
+      }
+     ]
+    },
+    {
+     "name": "Dan Cox",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Lawyer; former Maryland state delegate (2019-2023); 2022 GOP nominee for governor",
+     "background_url": "https://en.wikipedia.org/wiki/Dan_Cox",
+     "summary": "Cut taxes and fees, affordable home ownership, low-cost energy, accountability",
+     "site": "https://dancoxforgovernor.com/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "statement": "Reduce and eliminate taxes and fees by prioritizing careful spending.",
+       "url": "https://dancoxforgovernor.com/"
+      },
+      {
+       "topic": "Housing",
+       "statement": "Ensure affordable options for first-time home buyers to keep families in Maryland.",
+       "url": "https://dancoxforgovernor.com/"
+      },
+      {
+       "topic": "Energy",
+       "statement": "Clean energy solutions that work without overwhelming the electric grid.",
+       "url": "https://dancoxforgovernor.com/"
+      }
+     ]
+    }
+   ],
+   "notes": "Rematch of 2022. Moore positions taken from campaign homepage (no dedicated issues page). Cox positions fetched from his homepage 2026-09-22 (issues page at dancoxforgovernor.com/issues/ not separately fetched). Third-party/independent ballot qualifiers not verified (Wikipedia excerpt truncated)."
+  },
+  "MA": {
+   "primary_held": true,
+   "primary_date": "2026-09-01",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Maura Healey",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "Governor of Massachusetts since 2023; seeking a second term (running mate Lt. Gov. Kim Driscoll)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election",
+     "summary": "Lower costs, create opportunity, stand up to Trump",
+     "site": "https://maurahealey.com/",
+     "positions": [
+      {
+       "topic": "Cost of living",
+       "statement": "Focused on lowering costs and making life better for every Massachusetts family",
+       "url": "https://maurahealey.com/"
+      },
+      {
+       "topic": "Economic opportunity",
+       "statement": "Creating opportunities for all",
+       "url": "https://maurahealey.com/"
+      },
+      {
+       "topic": "Federal administration",
+       "statement": "Stand up to the damage Donald Trump is doing every single day",
+       "url": "https://maurahealey.com/"
+      }
+     ]
+    },
+    {
+     "name": "Michael Minogue",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Combat veteran; former CEO of medical-device maker Abiomed (running mate Shawn Oliver)",
+     "background_url": "https://minogueforma.com/meet-mike/",
+     "summary": "Accountability, affordability, opportunity, community safety",
+     "site": "https://minogueforma.com/",
+     "positions": [
+      {
+       "topic": "Government accountability",
+       "statement": "72% of voters supported the audit; the governor does not enforce it",
+       "url": "https://minogueforma.com/"
+      },
+      {
+       "topic": "Taxes and regulation",
+       "statement": "Massachusetts taxes more than 90% of America; reduce taxes and regulations",
+       "url": "https://minogueforma.com/"
+      },
+      {
+       "topic": "Jobs",
+       "statement": "Massachusetts ranks last in private-sector job growth; keep businesses, expand manufacturing",
+       "url": "https://minogueforma.com/"
+      }
+     ]
+    }
+   ],
+   "notes": "Healey unopposed in Democratic primary; Minogue defeated Brian Shortsleeve in GOP primary (Sept 1). Both candidates' positions from campaign homepages (no dedicated issues pages found). Third-party/independent ballot qualifiers not verified (Wikipedia section not captured)."
+  },
+  "MI": {
+   "primary_held": true,
+   "primary_date": "2026-08-04",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Michigan_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Jocelyn Benson",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Michigan Secretary of State (2019-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Michigan_gubernatorial_election",
+     "summary": "Affordability, housing, healthcare, childcare, energy, education",
+     "site": "https://www.jocelynbenson.com/",
+     "positions": [
+      {
+       "topic": "Housing",
+       "statement": "Increase housing availability and affordability by streamlining regulations that slow construction.",
+       "url": "https://www.jocelynbenson.com/issues/Affordability"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Lower healthcare costs via medical billing transparency and a $5,000 caregiver tax credit.",
+       "url": "https://www.jocelynbenson.com/issues/Affordability"
+      },
+      {
+       "topic": "Childcare",
+       "statement": "Make childcare more accessible by bringing Rx Kids statewide, removing provider barriers.",
+       "url": "https://www.jocelynbenson.com/issues/Affordability"
+      }
+     ]
+    },
+    {
+     "name": "John James",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "U.S. Representative from Michigan",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Michigan_gubernatorial_election",
+     "summary": "Freedom, opportunity, growth, parental rights",
+     "site": "https://johnjamesmi.com/",
+     "positions": [
+      {
+       "topic": "Ethics reform",
+       "statement": "Full financial disclosure; end FOIA exemptions to restore public trust",
+       "url": "https://johnjamesmi.com/freedom-agenda/"
+      },
+      {
+       "topic": "Parental rights",
+       "statement": "Parents retain primary rights over children's education and healthcare",
+       "url": "https://johnjamesmi.com/freedom-agenda/"
+      },
+      {
+       "topic": "School choice",
+       "statement": "Opt Michigan into federal K-12 Education Freedom Tax Credit, expanding school choice",
+       "url": "https://johnjamesmi.com/freedom-agenda/"
+      }
+     ]
+    }
+   ],
+   "notes": "Incumbent Gov. Gretchen Whitmer (D) is term-limited. Former Detroit Mayor Mike Duggan ended his independent bid in May 2026 (The Hill). Benson positions fetched 2026-09-22 from her /issues/Affordability sub-page; other sub-pages (Housing, Healthcare, Childcare, Energy-Costs, education, data-centers, environment) not fetched. Minor-party nominees (Libertarian, Green, U.S. Taxpayers) not verified."
+  },
+  "MN": {
+   "primary_held": true,
+   "primary_date": "2026-08-11",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Minnesota_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Amy Klobuchar",
+     "party": "Democratic-Farmer-Labor",
+     "incumbent": false,
+     "background": "U.S. Senator from Minnesota",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Minnesota_gubernatorial_election",
+     "summary": "Lower costs, accountability, workforce, rural economy, conservation",
+     "site": "https://www.amyklobuchar.com/",
+     "positions": [
+      {
+       "topic": "Health care",
+       "statement": "Make health care more affordable and accessible",
+       "url": "https://www.amyklobuchar.com/priorities/healthcare"
+      },
+      {
+       "topic": "Government accountability",
+       "statement": "Root out fraud and make government accountable to the people",
+       "url": "https://www.amyklobuchar.com/priorities/get-results-and-make-government-accountable"
+      },
+      {
+       "topic": "Rural economy",
+       "statement": "Expand Minnesota's rural and agricultural economy",
+       "url": "https://www.amyklobuchar.com/priorities/expand-minnesotas-rural-and-agricultural-economy"
+      }
+     ]
+    },
+    {
+     "name": "Lisa Demuth",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Speaker of the Minnesota House of Representatives",
+     "background_url": "https://minnesotareformer.com/2025/11/02/gop-minnesota-house-speaker-lisa-demuth-launches-campaign-for-governor/",
+     "summary": "Fraud prevention, affordability, education",
+     "site": "https://lisaformn.com/",
+     "positions": [
+      {
+       "topic": "Fraud prevention",
+       "statement": "Change the culture; anyone who steals welfare from the state goes to prison.",
+       "url": "https://lisaformn.com/fraud-prevention-plan/"
+      },
+      {
+       "topic": "Affordability",
+       "statement": "$150 million in property tax cuts; $99 maximum car tab fee.",
+       "url": "https://lisaformn.com/affordability-agenda/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Expand school safety funding to every classroom, not just public schools.",
+       "url": "https://lisaformn.com/education-comeback-plan/"
+      }
+     ]
+    }
+   ],
+   "notes": "Incumbent Gov. Tim Walz (DFL) ended his bid for a third term. Klobuchar won DFL primary (89.7%); Demuth won GOP primary (43.4%) over Mike Lindell and Kendall Qualls. Demuth's three plan pages fetched 2026-09-22 and plan-title placeholders replaced with statements. Third-party/independent ballot qualifiers not verified."
+  },
+  "NE": {
+   "primary_held": true,
+   "primary_date": "2026-05-12",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Nebraska_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Jim Pillen",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "Governor of Nebraska since 2023; seeking a second term",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Nebraska_gubernatorial_election",
+     "summary": "Protect kids, support agriculture, cut property taxes",
+     "site": "https://jimpillen.com/",
+     "positions": [
+      {
+       "topic": "Kids and social media",
+       "statement": "End social media's unhealthy grip on kids by banning phones in schools",
+       "url": "https://www.jimpillen.com/"
+      },
+      {
+       "topic": "Property taxes",
+       "statement": "Tax burden on Nebraskans is now less than before; homeowners owe less",
+       "url": "https://www.jimpillen.com/"
+      },
+      {
+       "topic": "Agriculture",
+       "statement": "Fight back against dishonest 'fake meat' products; support farmers and ranchers",
+       "url": "https://www.jimpillen.com/"
+      }
+     ]
+    },
+    {
+     "name": "Lynne Walz",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former Nebraska state senator (District 15, 2017-2025); former teacher",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Nebraska_gubernatorial_election",
+     "summary": "Common sense, compassion, integrity in leadership",
+     "site": "https://lynnewalz.com/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "statement": "Property taxes are too high; responsibly cut taxes while keeping vital services strong",
+       "url": "https://lynnewalz.com/"
+      },
+      {
+       "topic": "Voter initiatives",
+       "statement": "When voters speak, representatives' job is to listen (medical marijuana, minimum wage)",
+       "url": "https://lynnewalz.com/"
+      },
+      {
+       "topic": "Government transparency",
+       "statement": "Fight for honest, transparent government; stop corruptive behaviors",
+       "url": "https://lynnewalz.com/"
+      }
+     ]
+    },
+    {
+     "name": "Rick Beard",
+     "party": "Legal Marijuana NOW",
+     "incumbent": false,
+     "background": "",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Nebraska_gubernatorial_election",
+     "summary": "",
+     "site": "https://rickforgov.org/",
+     "positions": []
+    },
+    {
+     "name": "Brett Lindstrom",
+     "party": "America First Party",
+     "incumbent": false,
+     "background": "Former Nebraska state senator (District 18, 2015-2023)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Nebraska_gubernatorial_election",
+     "summary": "",
+     "site": "https://votelindstrom.com/",
+     "positions": []
+    }
+   ],
+   "notes": "Roster and all four site URLs from Wikipedia. Positions for major-party candidates from campaign homepages (no dedicated issues pages). Minor-party candidates: name/party/site only per scope."
+  },
+  "NV": {
+   "primary_held": true,
+   "primary_date": "2026-06-09",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Joe Lombardo",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "Governor of Nevada since 2023; seeking a second term",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election",
+     "summary": "Healthcare, housing, education, economy and wages, public safety",
+     "site": "https://www.joelombardofornv.com/",
+     "positions": [
+      {
+       "topic": "Housing",
+       "statement": "Housing must be built at least as fast as Nevada grows.",
+       "url": "https://www.endorse.joelombardofornv.com/vision/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Nevada advanced kids to the next grade without asking whether they could read.",
+       "url": "https://www.endorse.joelombardofornv.com/vision/"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Too many Nevadans still leave the state to get needed care.",
+       "url": "https://www.endorse.joelombardofornv.com/vision/"
+      }
+     ]
+    },
+    {
+     "name": "Aaron Ford",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Nevada Attorney General (2019-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election",
+     "summary": "Housing, healthcare, energy, data centers, economy, education",
+     "site": "https://www.fordfornevada.com/",
+     "positions": [
+      {
+       "topic": "Housing",
+       "statement": "Stand up to tariffs, crack down on Wall Street buyers, ease permitting",
+       "url": "https://www.fordfornevada.com/issues/housing"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Address predatory pharmacy benefit managers; crack down on price gouging, fraudulent billing",
+       "url": "https://www.fordfornevada.com/issues/healthcare"
+      },
+      {
+       "topic": "Energy",
+       "statement": "Deliver clean, affordable energy; make data centers pay fair share for energy, water",
+       "url": "https://www.fordfornevada.com/issues/energy"
+      }
+     ]
+    }
+   ],
+   "notes": "Lombardo won GOP primary with 91%. Lombardo campaign site located 2026-09-22 (joelombardofornv.com); positions from its 'vision' page, which frames five priority areas largely as problem statements. Third-party/independent ballot qualifiers not identified on Wikipedia."
+  },
+  "NH": {
+   "primary_held": true,
+   "primary_date": "2026-09-08",
+   "source_url": "https://en.wikipedia.org/wiki/2026_New_Hampshire_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Kelly Ayotte",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "Governor of New Hampshire since 2025; seeking a second term",
+     "background_url": "https://en.wikipedia.org/wiki/2026_New_Hampshire_gubernatorial_election",
+     "summary": "Safe, prosperous and free; housing, schools, vulnerable citizens",
+     "site": "https://kellyfornh.com/",
+     "positions": [
+      {
+       "topic": "Housing",
+       "statement": "Tackling the housing crisis.",
+       "url": "https://kellyfornh.com/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Strengthening our schools.",
+       "url": "https://kellyfornh.com/"
+      },
+      {
+       "topic": "Vulnerable citizens",
+       "statement": "Protecting our most vulnerable citizens.",
+       "url": "https://kellyfornh.com/"
+      }
+     ]
+    },
+    {
+     "name": "Cinde Warmington",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former New Hampshire Executive Councilor (2021-2025)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_New_Hampshire_gubernatorial_election",
+     "summary": "Affordability, healthcare, education, housing, taxes",
+     "site": "https://www.cindewarmington.com/",
+     "positions": [
+      {
+       "topic": "School vouchers",
+       "statement": "Repeal the private school voucher scheme hurting public schools, raising property taxes",
+       "url": "https://www.cindewarmington.com/"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Make health care more affordable; oppose increases in premiums and Medicaid co-pays",
+       "url": "https://www.cindewarmington.com/"
+      },
+      {
+       "topic": "Taxes",
+       "statement": "No sales or income tax",
+       "url": "https://www.cindewarmington.com/"
+      }
+     ]
+    },
+    {
+     "name": "Stephen Villee",
+     "party": "Libertarian",
+     "incumbent": false,
+     "background": "Software developer",
+     "background_url": "https://en.wikipedia.org/wiki/2026_New_Hampshire_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Ayotte won GOP primary with 91.9%. Ayotte campaign site located 2026-09-22 (kellyfornh.com; kellyayotte.com now redirects elsewhere). Homepage carries only short priority phrases; an Accomplishments page exists but was not fetched. Independent Jon Kiper failed to qualify for the ballot (Wikipedia)."
+  },
+  "NM": {
+   "primary_held": true,
+   "primary_date": "2026-06-02",
+   "source_url": "https://en.wikipedia.org/wiki/2026_New_Mexico_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Deb Haaland",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former U.S. Secretary of the Interior (2021-2025); former U.S. Representative, NM-1 (running mate Stephanie Garcia Richard)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_New_Mexico_gubernatorial_election",
+     "summary": "Crime, homelessness, addiction, lowering prices",
+     "site": "https://debhaaland.com/",
+     "positions": [
+      {
+       "topic": "Data centers",
+       "statement": "Backs a moratorium on large-scale data centers to protect water and communities",
+       "url": "https://debhaaland.com/2026/09/haaland-backs-data-center-moratorium-outlines-accountability-plan-to-stand-up-for-new-mexicos-water-and-communities/"
+      },
+      {
+       "topic": "Childcare",
+       "statement": "Supports universal childcare",
+       "url": "https://debhaaland.com/2026/09/haaland-reaffirms-support-for-universal-childcare-in-visit-to-abq-boys-and-girls-club/"
+      },
+      {
+       "topic": "Cost of living",
+       "statement": "Lower costs for New Mexico families",
+       "url": "https://debhaaland.com/2026/09/recap-deb-haaland-shares-vision-to-lower-costs-across-six-counties-over-labor-day-weekend/"
+      }
+     ]
+    },
+    {
+     "name": "Gregg Hull",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Mayor of Rio Rancho (2014-2026); entrepreneur (running mate David Gallegos)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_New_Mexico_gubernatorial_election",
+     "summary": "Public safety, economic growth, education, infrastructure",
+     "site": "https://gregghull.com/",
+     "positions": [
+      {
+       "topic": "Public safety",
+       "statement": "Empower law enforcement with modern tools and community-based solutions to crime's root causes",
+       "url": "https://gregghull.com/priorities/protecting-new-mexico/"
+      },
+      {
+       "topic": "Economy",
+       "statement": "Foster environments where small businesses flourish without excessive regulatory restrictions",
+       "url": "https://gregghull.com/priorities/putting-new-mexico-to-work-plan/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Guarantee every child access to quality education preparing them for tomorrow's workforce",
+       "url": "https://gregghull.com/priorities/education/"
+      }
+     ]
+    }
+   ],
+   "notes": "Incumbent Gov. Michelle Lujan Grisham (D) is term-limited. Wikipedia states no third-party or independent candidates qualified. Haaland's site has no issues page; positions drawn from September 2026 campaign press releases."
+  },
+  "NY": {
+   "primary_held": true,
+   "primary_date": "2026-06-23",
+   "source_url": "https://en.wikipedia.org/wiki/2026_New_York_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Kathy Hochul",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "Governor of New York since 2021; seeking re-election (running mate Adrienne Adams)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_New_York_gubernatorial_election",
+     "summary": "Lower costs, money back in pockets, safety",
+     "site": "https://kathyhochul.com/",
+     "positions": [
+      {
+       "topic": "Affordability",
+       "statement": "Put money back in people's pockets and lower costs",
+       "url": "https://kathyhochul.com/"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Invest in keeping New Yorkers safe",
+       "url": "https://kathyhochul.com/"
+      }
+     ]
+    },
+    {
+     "name": "Bruce Blakeman",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Nassau County Executive, two terms (running mate Todd Hood)",
+     "background_url": "https://www.blakemanfornewyork.com/",
+     "summary": "Lower taxes, safer communities, common-sense leadership",
+     "site": "https://www.blakemanfornewyork.com/",
+     "positions": [
+      {
+       "topic": "Public safety",
+       "statement": "Turned Nassau into America's safest county; rejected sanctuary policies, hired 900+ officers",
+       "url": "https://www.blakemanfornewyork.com/"
+      },
+      {
+       "topic": "Taxes",
+       "statement": "Eliminated $150 million in property tax hikes; never raised property or sales taxes",
+       "url": "https://www.blakemanfornewyork.com/"
+      },
+      {
+       "topic": "Schools and sports",
+       "statement": "Rejected COVID mask mandates; stopped boys from playing in girls' sports",
+       "url": "https://www.blakemanfornewyork.com/"
+      }
+     ]
+    }
+   ],
+   "notes": "Both nominees were unopposed in the June 23 primaries. Wikipedia indicates Hochul also carries the Working Families Party line and Blakeman the Conservative Party line (not independently verified). Hochul's site has no issues page; only two distinct positions found on homepage."
+  },
+  "OH": {
+   "primary_held": true,
+   "primary_date": "2026-05-05",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Ohio_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Vivek Ramaswamy",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Businessman (running mate Rob McColley)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Ohio_gubernatorial_election",
+     "summary": "Lower costs, bigger paychecks, world-class education",
+     "site": "https://vivekforohio.com/",
+     "positions": [
+      {
+       "topic": "Taxes and energy",
+       "statement": "Lower taxes, lower energy bills, greater opportunity",
+       "url": "https://vivekforohio.com/the-plan#lower-taxes"
+      },
+      {
+       "topic": "Education",
+       "statement": "World-class education for your kids",
+       "url": "https://vivekforohio.com/the-plan#education"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Protect our neighborhoods and revive our cities",
+       "url": "https://vivekforohio.com/the-plan#crush-crime"
+      }
+     ]
+    },
+    {
+     "name": "Amy Acton",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Physician; former Ohio public health official (running mate David Pepper)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Ohio_gubernatorial_election",
+     "summary": "Reduce costs, clean up corruption, education, healthcare",
+     "site": "https://actonforgovernor.com/",
+     "positions": [
+      {
+       "topic": "Cost of living",
+       "statement": "Reduce costs for Ohio families; give power back to people and communities",
+       "url": "https://actonforgovernor.com/issue/reducing-costs-for-ohio-families/"
+      },
+      {
+       "topic": "Corruption",
+       "statement": "Clean up institutional corruption affecting Ohioans",
+       "url": "https://actonforgovernor.com/issue/cleaning-up-corruption/"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Make healthcare affordable for all Ohioans",
+       "url": "https://actonforgovernor.com/issue/affordable-healthcare-for-all-ohioans/"
+      }
+     ]
+    },
+    {
+     "name": "Don Kissick",
+     "party": "Libertarian",
+     "incumbent": false,
+     "background": "",
+     "background_url": "https://www.statenews.org/government-politics/2026-09-16/libertarian-candidate-for-ohio-governor-wants-to-a-place-in-debate-conversation",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Incumbent Gov. Mike DeWine (R) is term-limited. Ramaswamy won GOP primary (82%+); Acton unopposed. Ramaswamy positions are section headings from his /the-plan page (close to verbatim). Libertarian Don Kissick confirmed via Statehouse News Bureau."
+  }
+ },
+ "uncertain": [
+  "KS: Masterson has only two positions (homepage lists two initiatives; /about 404); third-party/independent candidates unverified",
+  "MD: third-party/independent candidates unverified",
+  "MA: third-party/independent candidates unverified",
+  "MI: Benson positions all from the Affordability sub-page; minor-party nominees unverified",
+  "MN: third-party/independent candidates unverified",
+  "NV: Lombardo positions come from a 'vision' page hosted on the endorse. subdomain of his campaign site; third-party/independent candidates unverified",
+  "NH: Ayotte positions are short homepage phrases only",
+  "NY: fusion-party lines (Working Families/Conservative) and any other ballot lines unverified",
+  "ME (Bennett), NE (Beard, Lindstrom), OH (Kissick): minor-party/independent positions not researched (out of scope)"
+ ]
+}

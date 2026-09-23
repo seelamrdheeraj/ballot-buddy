@@ -1,0 +1,280 @@
+{
+ "generated": "2026-09-22",
+ "states": {
+  "IN": {
+   "source_url": "https://www.in.gov/sos/elections/",
+   "official_guide_published": false,
+   "notes": "Indiana allows no initiatives or referendums; every statewide measure is a legislatively referred constitutional amendment. Indiana prints no separate title, summary, or fiscal estimate with a public question - voters see only the question text and 'YES'/'NO'. The 2026 Indiana Voter Information Guide published by the Secretary of State and Indiana Election Division (revised January 2026) does not describe the two public questions. The verbatim ballot text below was taken from an official Lake County, Indiana sample ballot for the November 3, 2026 general election and matches the joint-resolution text at the Indiana General Assembly.",
+   "measures": [
+    {
+     "number": "Public Question #1",
+     "title": "Public Question #1 - constitutional amendment concerning bail (Senate Joint Resolution 1, 2026; first passage as SJR 1, 2023)",
+     "ballot_label": "Currently, under the Constitution of the State of Indiana, a person charged with murder or treason is not entitled to be released on bail if the proof is evident or the presumption strong. Shall the Constitution of the State of Indiana be amended to provide that a person charged with an offense other than murder or treason is not entitled to bail if: (1) the proof is evident or the presumption strong; and (2) the state proves by clear and convincing evidence that no release conditions will reasonably protect the safety of any other person or the community. (This question concerns Article 1, Section 17 of the Constitution of the State of Indiana.)",
+     "plain": [
+      "Today the Indiana Constitution says every offense except murder and treason can be released on bail.",
+      "This amendment would let a court deny bail for other charges when the evidence of guilt is strong and the state shows by clear and convincing evidence that no release conditions would reasonably protect another person or the community.",
+      "It changes Article 1, Section 17 of the Indiana Constitution and takes effect only if a majority of the voters who vote on it approve it."
+     ],
+     "yes": "A yes vote amends the Indiana Constitution so that a court may deny bail for offenses other than murder or treason when both listed conditions are met.",
+     "no": "A no vote leaves Article 1, Section 17 unchanged, so all offenses except murder and treason remain bailable under the state constitution.",
+     "fiscal": "No official fiscal estimate is printed with public questions on the Indiana ballot, and no official statewide fiscal estimate for this amendment was found published as of Sept 22, 2026.",
+     "urls": [
+      "https://iga.in.gov/legislative/2026/resolutions/senate/joint/1/details",
+      "https://lakecountyin.gov/departments/voters/2026-election/2026-general-election-sample-ballots/pct%20125-g6%2016%20act%2001-general.pdf",
+      "https://ballotpedia.org/Indiana_Bailable_Offenses_and_Substantial_Risk_Standard_Amendment_(2026)"
+     ]
+    },
+    {
+     "number": "Public Question #2",
+     "title": "Public Question #2 - constitutional amendment on town and city court judges (House Joint Resolution 1, 2025; first passage as HJR 6, 2023)",
+     "ballot_label": "Shall the Constitution of the State of Indiana be amended to permit the judge of a city or town court to reside in: (1) the county in which the court is located; or (2) the bordering county closest to the city or town in which the court is located? (This question concerns Article 6, Section 6 of the Constitution of the State of Indiana.)",
+     "plain": [
+      "Under current law a city or town court judge in Indiana must live in the city or town that the court serves.",
+      "This amendment would let that judge live anywhere in the county where the court sits, or in the bordering county closest to that city or town.",
+      "It changes Article 6, Section 6 of the Indiana Constitution and takes effect only if a majority of the voters who vote on it approve it."
+     ],
+     "yes": "A yes vote amends the Indiana Constitution to let a city or town court judge live in the court's county or in the closest bordering county.",
+     "no": "A no vote keeps the current constitutional rule that a city or town court judge must live in the city or town where the court is located.",
+     "fiscal": "No official fiscal estimate is printed with public questions on the Indiana ballot, and no official statewide fiscal estimate for this amendment was found published as of Sept 22, 2026.",
+     "urls": [
+      "https://iga.in.gov/legislative/2025/resolutions/house/joint/1/details",
+      "https://lakecountyin.gov/departments/voters/2026-election/2026-general-election-sample-ballots/pct%20125-g6%2016%20act%2001-general.pdf",
+      "https://ballotpedia.org/Indiana_Residency_Requirements_for_City_and_Town_Court_Judges_Amendment_(2026)"
+     ]
+    }
+   ]
+  },
+  "IA": {
+   "source_url": "https://www.legis.iowa.gov/law/statutory/constitution/pca",
+   "official_guide_published": false,
+   "notes": "Iowa has exactly one statewide measure. It is the only amendment on the Iowa Legislature's official Proposed Constitutional Amendment page that has completed both required passages ahead of the 2026 general election: HJR 2006 (90th General Assembly, final passage April 10, 2024) and SJR 11 (91st General Assembly, final passage May 3, 2026). The other item on that page, SJR 9 (91st G.A., 'Right of Accused to Confront Children and Other Witnesses'), has had only its first passage and is being published during 2026 ahead of a possible second passage; it is NOT on the 2026 ballot. Iowa's Secretary of State does not publish a statewide voter guide describing ballot measures. On county ballots the measure is designated 'Public Measure 1'; news coverage and campaigns commonly call it 'Amendment 1'.",
+   "measures": [
+    {
+     "number": "Public Measure 1",
+     "title": "Iowa Constitutional Amendment - Taxation Limitations (House Joint Resolution 2006, 90th G.A. / Senate Joint Resolution 11, 91st G.A.)",
+     "ballot_label": "Public Measure 1 - Iowa Constitutional Amendment - Taxation Limitations. Summary as printed on the county ballot: 'Provides that any bill that increases the individual income tax rate or the corporate income tax rate, or the rate of any other type of tax based upon income or legal and special reserves, shall require the affirmative votes of at least two-thirds of the members elected to each house of the general assembly for passage.' The ballot also prints the amendment itself, adding ARTICLE XIII. TAXATION LIMITATIONS, Section 1, 'Two-thirds majority vote for state tax law changes,' which applies the same two-thirds requirement to a bill establishing a new state tax on any type of income or legal and special reserves, exempts taxes imposed by local governments, requires any challenge to proper enactment to be filed within one year, and requires each affected bill to contain a separate provision describing these enactment requirements.",
+     "plain": [
+      "Today the Iowa Legislature can raise state income tax rates with a simple majority vote in each chamber.",
+      "It would amend the constitution to require at least two-thirds of the members elected to each chamber to raise the individual or corporate income tax rate, raise any other tax based on income or on legal and special reserves, or create a new state tax on that income.",
+      "The two-thirds requirement would not apply to taxes imposed by cities, counties, or other local governments, and any lawsuit claiming a bill was not properly enacted would have to be filed within one year."
+     ],
+     "yes": "A yes vote adds Article XIII to the Iowa Constitution, requiring a two-thirds vote of each legislative chamber to raise state income tax rates or create a new income-based state tax.",
+     "no": "A no vote makes no change, so the Legislature can continue to change state income tax rates by a simple majority vote in each chamber.",
+     "fiscal": "No official fiscal estimate is printed on the Iowa ballot for a constitutional amendment, and no official state fiscal estimate for this measure was published as of Sept 22, 2026.",
+     "urls": [
+      "https://www.legis.iowa.gov/law/statutory/constitution/pca",
+      "https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/SJR11.html",
+      "https://johnsoncountyiowa.gov/november-3-2026-general-election",
+      "https://ballotpedia.org/Iowa_Two-Thirds_Legislative_Vote_Requirement_for_Income_Tax_Increase_Bills_Amendment_(2026)"
+     ]
+    }
+   ]
+  },
+  "KS": {
+   "source_url": "https://sos.ks.gov/elections/proposed-constitutional-amendments.html",
+   "official_guide_published": true,
+   "notes": "Kansas has one statewide measure on the November 3, 2026 general election ballot. A second 2026 Kansas amendment, SCR 1611 (direct election of Kansas Supreme Court justices), was placed on the August 4, 2026 primary ballot and is therefore not a November measure. Kansas does not assign a number to ballot amendments; the ballot prints the proposition's title, an explanatory statement, 'vote for'/'vote against' statements, and the full text of the amendment.",
+   "measures": [
+    {
+     "number": "Constitutional Amendment (House Concurrent Resolution 5004)",
+     "title": "A PROPOSITION to amend section 1 of article 5 of the constitution of the state of Kansas to require individuals to be citizens of the United States, at least 18 years of age and a resident of the voting area in which such person seeks to vote in order to vote in this state.",
+     "ballot_label": "Explanatory statement. This amendment would clarify only a person who is a citizen of the United States is eligible to vote in this state. A vote for this proposition would clarify that only a person who is a citizen of the United States is eligible to vote in this state. A vote against this proposition would make no change to the Constitution of the State of Kansas, and the language concerning voter qualifications would remain the same. (Printed with the text of the amendment, which rewrites Section 1 of Article 5 to read: 'No person shall be deemed a qualified elector unless such person: (1) Is a citizen of the United States; (2) has attained the age of eighteen years; and (3) except as provided in subsection (b) or (c), resides in the voting area in which such person seeks to vote.' Subsections (b) and (c), which allow certain former residents to vote for president and vice president or in a former voting area, are retained.)",
+     "plain": [
+      "Section 1 of Article 5 of the Kansas Constitution now says that every U.S. citizen who is at least eighteen and who lives in the voting area is a qualified elector.",
+      "This amendment rewrites that section to state that no person is a qualified elector unless the person is a U.S. citizen, is at least eighteen years old, and lives in the voting area where the person seeks to vote.",
+      "It keeps the existing exceptions that let certain people who have moved still vote for president and vice president, or vote in their former voting area."
+     ],
+     "yes": "A yes vote changes Section 1 of Article 5 of the Kansas Constitution so it states that a person is not a qualified elector unless the person is a U.S. citizen, is at least eighteen, and resides in the voting area.",
+     "no": "A no vote makes no change to the Kansas Constitution, and the current voter-qualification language stays the same.",
+     "fiscal": "The Legislative Research Department's supplemental note on HCR 5004 states under Fiscal Information: 'No fiscal note was available at the time the House Committee took action on the resolution. [Note: The representative of the Secretary of State indicated that there is an estimated cost of $50,000, all from the State General Fund, to publish public notice of Constitutional Resolutions.]' No fiscal estimate is printed on the ballot itself.",
+     "urls": [
+      "https://sos.ks.gov/elections/proposed-constitutional-amendments.html",
+      "https://kslegislature.gov/li/b2025_26/measures/hcr5004/",
+      "https://kslegislature.gov/li/b2025_26/measures/documents/supp_note_hcr5004_01_0000.pdf",
+      "https://ballotpedia.org/Kansas_Citizenship_Voting_Requirement_Amendment_(2026)"
+     ]
+    }
+   ]
+  },
+  "MI": {
+   "source_url": "https://www.michigan.gov/sos/elections/voting/voters/candidatesproposals/current-proposals",
+   "official_guide_published": true,
+   "notes": "Michigan's November 3, 2026 statewide ballot was finalized in early September 2026 with two statewide proposals. A third proposed constitutional amendment - the Americans for Citizen Voting proof-of-citizenship measure - will NOT appear: the Board of State Canvassers deadlocked over affidavits offered to cure signature problems and the Michigan Supreme Court declined to order it onto the ballot in early September 2026. The Board of State Canvassers approved the 100-word ballot summary for Proposal 2 on August 17, 2026, and a last-minute challenge to Proposal 2 failed at the Michigan Supreme Court the week of September 1, 2026. michigan.gov returned HTTP 403 to automated fetching, so the official ballot wording below was confirmed from Michigan public-media reporting of the Board of State Canvassers' approved language rather than read directly off the state page.",
+   "measures": [
+    {
+     "number": "Proposal 1",
+     "title": "A proposal to convene a constitutional convention for the purpose of drafting a general revision of the state constitution",
+     "ballot_label": "A proposal to convene a constitutional convention for the purpose of drafting a general revision of the state constitution. Shall a convention of elected delegates be convened in 2027 to draft a general revision of the state constitution for presentation to the state's voters for their approval or rejection?",
+     "plain": [
+      "The Michigan Constitution requires this question to be placed before voters automatically every sixteen years; it was last asked in 2010.",
+      "If it passes, voters would elect delegates who would meet in a convention in 2027 to write a general revision of the state constitution.",
+      "Anything the convention produces would come back to Michigan voters at a later election for a separate yes-or-no vote before it could take effect."
+     ],
+     "yes": "A yes vote calls a convention of elected delegates to meet in 2027 to draft a general revision of the Michigan Constitution, which voters would later approve or reject.",
+     "no": "A no vote means no constitutional convention is held and the current Michigan Constitution remains in effect unchanged.",
+     "fiscal": "Michigan does not print an official fiscal estimate with statewide ballot proposals, and no official state fiscal estimate for this proposal was published as of Sept 22, 2026.",
+     "urls": [
+      "https://www.michigan.gov/sos/elections/voting/voters/candidatesproposals/current-proposals",
+      "https://www.michiganpublic.org/politics-government/2026-09-04/michigans-november-2026-ballot-is-official-includes-two-questions-for-all-voters",
+      "https://www.votebeat.org/michigan/2026/09/16/midterm-election-2026-whats-on-your-ballot-voter-guide/",
+      "https://ballotpedia.org/Michigan_Constitutional_Convention_Question_(2026)"
+     ]
+    },
+    {
+     "number": "Proposal 2",
+     "title": "A proposed initiated law to prohibit campaign contributions from certain regulated utilities and government contractors and apply campaign finance laws and regulations to additional types of political communications",
+     "ballot_label": "A PROPOSED INITIATED LAW TO PROHIBIT CAMPAIGN CONTRIBUTIONS FROM CERTAIN REGULATED UTILITIES AND GOVERNMENT CONTRACTORS AND APPLY CAMPAIGN FINANCE LAWS AND REGULATIONS TO ADDITIONAL TYPES OF POLITICAL COMMUNICATIONS. This proposed law would: Prohibit regulated electric and gas utilities, contractors with over $250,000 annually in government contracts, and people and organizations with substantial connections to these utilities/contractors from making direct or indirect campaign contributions to those who run for or hold offices that impact them. Expand laws regulating spending on political communications, including those requiring disclosing donor information, to apply to communications clearly identifying candidates or ballot questions, even if they do not expressly advocate voting for/against them. Expressly apply the law requiring disclosure of who paid for political communications to internet political communications. Should this proposal be adopted?",
+     "plain": [
+      "This initiated law would bar regulated electric and gas utilities, and businesses holding more than $250,000 a year in government contracts, from giving campaign contributions to candidates and officeholders whose offices affect them.",
+      "The ban would also reach people and organizations with substantial connections to those utilities and contractors, and would cover indirect contributions as well as direct ones.",
+      "It would extend Michigan's campaign finance and donor-disclosure rules to political messages that clearly identify a candidate or ballot question even without expressly urging a vote, and would apply the 'paid for by' disclosure rule to internet political communications."
+     ],
+     "yes": "A yes vote enacts the initiated law, adding the contribution prohibitions and the expanded disclosure requirements to Michigan campaign finance law.",
+     "no": "A no vote rejects the initiated law and leaves Michigan's current campaign finance and disclosure rules unchanged.",
+     "fiscal": "Michigan does not print an official fiscal estimate with statewide ballot proposals, and no official state fiscal estimate for this proposal was published as of Sept 22, 2026.",
+     "urls": [
+      "https://www.michigan.gov/sos/elections/voting/voters/candidatesproposals/current-proposals",
+      "https://www.votebeat.org/michigan/2026/09/16/midterm-election-2026-whats-on-your-ballot-voter-guide/",
+      "https://michiganadvance.com/2026/08/17/board-of-state-canvassers-approves-ballot-language-for-money-out-of-politics-proposal/",
+      "https://ballotpedia.org/Michigan_2026_ballot_measures"
+     ]
+    }
+   ]
+  },
+  "MN": {
+   "source_url": "https://www.sos.mn.gov/elections-voting/whats-on-my-ballot/constitutional-amendments/",
+   "official_guide_published": true,
+   "notes": "Minnesota has one proposed constitutional amendment on the November 3, 2026 ballot, authorized by 2026 Laws of Minnesota, Chapter 114. Minnesota does not number constitutional amendments on the ballot; the ballot prints a title and the question. The Attorney General has issued the statement of purpose and effect required by law. Under Minnesota law, leaving the question blank counts the same as a no vote, and the ballot carries that instruction.",
+   "measures": [
+    {
+     "number": "Constitutional Amendment - Increasing Funding to School Districts",
+     "title": "Increasing Funding to School Districts",
+     "ballot_label": "Shall the Minnesota Constitution be amended to increase the funding going to all school districts from the permanent school fund, which is a fund that supports school districts without raising individual income or property taxes, effective July 1, 2027? (Ballot instruction printed with the question: 'Failure to vote on a constitutional amendment will have the same effect as voting no on the amendment.')",
+     "plain": [
+      "The permanent school fund is a state investment fund whose earnings are paid out to every Minnesota school district each year.",
+      "This amendment changes Article XI, Section 8 of the Minnesota Constitution so the fund must be managed to provide annual distributions while preserving the fund's purchasing power over time.",
+      "If approved, the change takes effect July 1, 2027 and would send more money to school districts each year without raising individual income or property taxes."
+     ],
+     "yes": "A yes vote amends Article XI, Section 8 of the Minnesota Constitution to change how the permanent school fund is managed so that larger annual distributions go to school districts beginning July 1, 2027.",
+     "no": "A no vote leaves the current constitutional language governing the permanent school fund unchanged; leaving the question blank has the same effect as a no vote.",
+     "fiscal": "No official fiscal estimate is printed on the Minnesota ballot for a constitutional amendment, and no official statewide fiscal estimate was published as of Sept 22, 2026; the Attorney General's statement of purpose and effect, published with the Secretary of State's amendment page, is the official explanatory document.",
+     "urls": [
+      "https://www.sos.mn.gov/elections-voting/whats-on-my-ballot/constitutional-amendments/",
+      "https://www.house.mn.gov/NewLaws/story/2026/5733",
+      "https://news.ballotpedia.org/2026/05/19/minnesota-voters-to-decide-on-a-constitutional-amendment-that-would-allow-more-state-funds-to-be-distributed-to-school-districts-each-year/"
+     ]
+    }
+   ]
+  },
+  "MO": {
+   "source_url": "https://www.sos.mo.gov/petitions/2026ballotmeasures",
+   "official_guide_published": true,
+   "notes": "Five statewide measures are certified for the November 3, 2026 general election: Amendments 3, 6, 7, and 8 and Proposition A. Four other measures (Amendments 1, 2, 4, and 5) were placed on the August 4, 2026 primary ballot and are not November measures. Missouri prints the Official Ballot Title and a Fiscal Note Summary on the ballot itself; the Secretary of State also publishes Fair Ballot Language for each measure. LITIGATION: (1) Amendment 3's ballot language was rewritten by the Missouri Court of Appeals in December 2025 after the court found the Secretary of State's version failed to tell voters it would repeal the 2024 reproductive-rights amendment; the rewritten language is what is certified. (2) Amendment 6 was declared insufficient by Secretary of State Denny Hoskins on Aug. 4, 2026 and struck from the ballot by Cole County Circuit Judge Daniel Green on Aug. 19, 2026 on single-subject grounds, but the Missouri Supreme Court reversed on Sept. 3, 2026 and ordered it certified for the November ballot under the ballot title certified in September 2025. (3) Proposition A, the veto referendum on the 2025 mid-decade congressional map, was upheld by the Missouri Supreme Court on Sept. 3, 2026; separate federal litigation over WHICH congressional map Missouri must use in 2026 was still active as of Sept. 22, 2026 (Justice Kavanaugh denied a stay Sept. 8; the U.S. Supreme Court stayed a conflicting federal district court order Sept. 10; the Eighth Circuit ruled Sept. 21 and stayed its own ruling for a week pending further U.S. Supreme Court review). That federal fight concerns the map used for the 2026 congressional elections, not whether Proposition A appears on the ballot.",
+   "measures": [
+    {
+     "number": "Amendment 3",
+     "title": "Shall the Missouri Constitution be amended to: Repeal the 2024 voter-approved Amendment providing reproductive healthcare rights, including abortion through fetal viability; Allow abortions for rape and incest (under twelve-weeks' gestation), emergencies, and fetal anomalies; Allow legislation regulating abortion; Ensure parental consent for minors' abortions; Prohibit gender transition procedures for minors?",
+     "ballot_label": "Shall the Missouri Constitution be amended to: Repeal the 2024 voter-approved Amendment providing reproductive healthcare rights, including abortion through fetal viability; Allow abortions for rape and incest (under twelve-weeks' gestation), emergencies, and fetal anomalies; Allow legislation regulating abortion; Ensure parental consent for minors' abortions; Prohibit gender transition procedures for minors?",
+     "plain": [
+      "This amendment would repeal Article I, Section 36, the reproductive healthcare rights amendment Missouri voters approved in November 2024.",
+      "In its place it would allow abortion only in a medical emergency, for a fetal anomaly, or in cases of rape or incest before twelve weeks of pregnancy, would let the legislature pass laws regulating abortion, and would require parental consent for a minor's abortion.",
+      "It would also prohibit gender transition procedures for people under eighteen."
+     ],
+     "yes": "A yes vote repeals the 2024 reproductive healthcare rights amendment and writes the listed abortion limits, the parental-consent requirement, and the ban on gender transition procedures for minors into the Missouri Constitution.",
+     "no": "A no vote leaves the 2024 reproductive healthcare rights amendment in the Missouri Constitution and makes no change to it.",
+     "fiscal": "Official Fiscal Note Summary printed on the ballot: 'State governmental entities estimate no costs or savings. Greene County estimates it may experience an unknown increase in tax revenue. Other local governmental entities estimate no costs or savings.'",
+     "urls": [
+      "https://www.sos.mo.gov/petitions/2026ballotmeasures",
+      "https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/2454H.05T.pdf",
+      "https://www.sos.mo.gov/CMSImages/Elections/Petitions/SECONDREVISEDHCSHJR73WebCert.pdf"
+     ]
+    },
+    {
+     "number": "Amendment 6",
+     "title": "Shall the Missouri Constitution be amended to: expand the initiative and referendum petition process by making it a fundamental right; allow courts to revise ballot summaries through lawsuits; prohibit the legislature from weakening initiative or referendum powers; prohibit the legislature from changing or repealing laws enacted through the initiative process, or passing laws similar to those rejected by referendum, without approval from at least 80% of both chambers; and preserve existing majority vote and signature requirements for initiative and referendum petitions?",
+     "ballot_label": "Shall the Missouri Constitution be amended to: expand the initiative and referendum petition process by making it a fundamental right; allow courts to revise ballot summaries through lawsuits; prohibit the legislature from weakening initiative or referendum powers; prohibit the legislature from changing or repealing laws enacted through the initiative process, or passing laws similar to those rejected by referendum, without approval from at least 80% of both chambers; and preserve existing majority vote and signature requirements for initiative and referendum petitions?",
+     "plain": [
+      "This amendment would make the people's power to propose initiatives and referendums a fundamental right in the Missouri Constitution.",
+      "It would bar the legislature from passing laws that weaken those petition powers, and would let a court revise a ballot summary in a lawsuit.",
+      "It would take a vote of at least 80% of both legislative chambers to change or repeal a law voters passed, or to pass a law similar to one voters rejected. The existing majority-vote and signature rules for petitions stay the same."
+     ],
+     "yes": "A yes vote adds these initiative and referendum protections to the Missouri Constitution, including the 80% legislative vote requirement to alter voter-approved initiative laws.",
+     "no": "A no vote leaves the current constitutional provisions on initiative and referendum petitions unchanged.",
+     "fiscal": "Official Fiscal Note Summary printed on the ballot: 'State and local governmental entities estimate no costs or savings.'",
+     "urls": [
+      "https://www.sos.mo.gov/petitions/2026ballotmeasures",
+      "https://www.sos.mo.gov/CMSImages/Elections/Petitions/2026-106.pdf",
+      "https://www.sos.mo.gov/CMSImages/Elections/Petitions/2026-106WebCert.pdf",
+      "https://missouriindependent.com/2026/09/03/missouri-voters-will-decide-limits-on-lawmakers-rewriting-ballot-measures/"
+     ]
+    },
+    {
+     "number": "Amendment 7",
+     "title": "Shall the Missouri Constitution be amended to establish a permanent public endowment fund to support state government instead of taxing Missouri residents, prohibit the General Assembly from appropriating or diverting the fund, and eliminate state-imposed taxes once the fund generates sufficient revenue to replace them?",
+     "ballot_label": "Shall the Missouri Constitution be amended to establish a permanent public endowment fund to support state government instead of taxing Missouri residents, prohibit the General Assembly from appropriating or diverting the fund, and eliminate state-imposed taxes once the fund generates sufficient revenue to replace them?",
+     "plain": [
+      "This amendment would create a permanent public endowment fund in the Missouri Constitution, referred to in the Secretary of State's Fair Ballot Language as the 'Show-Me Prosperity Fund,' to support state government.",
+      "The General Assembly would be barred from appropriating money out of the fund or diverting it to other uses.",
+      "State-imposed taxes would be eliminated once the fund generates enough revenue to replace what those taxes bring in."
+     ],
+     "yes": "A yes vote creates the permanent endowment fund in the Missouri Constitution, shields it from legislative appropriation or diversion, and requires state-imposed taxes to end once the fund can replace that revenue.",
+     "no": "A no vote makes no change, and Missouri continues to fund state government through its existing tax system.",
+     "fiscal": "Official Fiscal Note Summary printed on the ballot: 'State and local governmental entities estimate no costs or savings.'",
+     "urls": [
+      "https://www.sos.mo.gov/petitions/2026ballotmeasures",
+      "https://www.senate.mo.gov/26info/pdf-bill/tat/SJR95.pdf",
+      "https://www.sos.mo.gov/CMSImages/Elections/Petitions/SSSCSSJR95WebCert.pdf"
+     ]
+    },
+    {
+     "number": "Amendment 8",
+     "title": "Shall the Missouri Constitution be amended to support law enforcement by preserving the right of citizens to elect a county sheriff, prohibiting the removal of a county sheriff except by a writ of quo warranto, and recognizing the office of sheriff as part of the administration of justice?",
+     "ballot_label": "Shall the Missouri Constitution be amended to support law enforcement by preserving the right of citizens to elect a county sheriff, prohibiting the removal of a county sheriff except by a writ of quo warranto, and recognizing the office of sheriff as part of the administration of justice?",
+     "plain": [
+      "This amendment would put into the Missouri Constitution the right of voters in each county to elect their county sheriff.",
+      "It would allow a county sheriff to be removed from office only through a court proceeding called a writ of quo warranto.",
+      "It would also recognize the office of sheriff in the constitution as part of the administration of justice."
+     ],
+     "yes": "A yes vote writes the elected office of county sheriff into the Missouri Constitution and limits removal of a sheriff to a quo warranto court proceeding.",
+     "no": "A no vote leaves the office of county sheriff governed by existing Missouri statutes rather than the constitution.",
+     "fiscal": "Official Fiscal Note Summary printed on the ballot: 'State and local governmental entities estimate no costs or savings.'",
+     "urls": [
+      "https://www.sos.mo.gov/petitions/2026ballotmeasures",
+      "https://www.senate.mo.gov/26info/pdf-bill/tat/SJR87.pdf",
+      "https://www.sos.mo.gov/CMSImages/Elections/Petitions/CCSHCSSSSJR87WebCert.pdf"
+     ]
+    },
+    {
+     "number": "Proposition A",
+     "title": "Do the people of the state of Missouri approve the act of the General Assembly entitled 'House Bill No. 1 (2025 Second Extraordinary Session),' which repeals Missouri's existing congressional plan, and replaces it with new congressional boundaries that keep more counties intact?",
+     "ballot_label": "Do the people of the state of Missouri approve the act of the General Assembly entitled 'House Bill No. 1 (2025 Second Extraordinary Session),' which repeals Missouri's existing congressional plan, and replaces it with new congressional boundaries that keep more counties intact?",
+     "plain": [
+      "This is a veto referendum: voters decide whether a law the General Assembly already passed, House Bill 1 from the 2025 Second Extraordinary Session, takes effect.",
+      "House Bill 1 repeals Missouri's existing congressional district plan and replaces it with new congressional district boundaries.",
+      "Only congressional district lines are at issue; no other state law is changed by this question."
+     ],
+     "yes": "A yes vote approves House Bill 1 (2025 Second Extraordinary Session), allowing the congressional district boundaries it draws to take effect.",
+     "no": "A no vote rejects House Bill 1, so Missouri's previously enacted congressional district plan remains in place.",
+     "fiscal": "Official Fiscal Note Summary printed on the ballot: 'State and local governmental entities estimate no costs or savings.'",
+     "urls": [
+      "https://www.sos.mo.gov/petitions/2026ballotmeasures",
+      "https://www.sos.mo.gov/CMSImages/Elections/Petitions/2026Referendums/2026-R004.pdf",
+      "https://www.sos.mo.gov/CMSImages/Elections/Petitions/2026-R004WebCert.pdf",
+      "https://www.stlpr.org/government-politics-issues/2026-09-03/missouri-supreme-court-referendum-congressional-map"
+     ]
+    }
+   ]
+  }
+ },
+ "states_with_no_measures": [],
+ "uncertain": [
+  "Michigan: michigan.gov returned HTTP 403 to every automated fetch attempt, so the Proposal 1 and Proposal 2 ballot wording was confirmed from Michigan public-media reporting of the Board of State Canvassers' approved language (Votebeat Michigan, WCMU, Michigan Advance, Michigan Public) rather than read directly off the Secretary of State page. The official URL is included but was not independently read.",
+  "Iowa: Iowa's Secretary of State does not publish statewide ballot-measure text, and the Iowa Legislature's Proposed Constitutional Amendment page lists the measure by short title only. The exact ballot wording above was taken from Johnson County's official November 3, 2026 general election page, where it appears as 'Public Measure 1 - Iowa Constitutional Amendment - Taxation Limitations.' Other counties may format the summary slightly differently, and the popular label 'Amendment 1' used in news coverage and by campaigns could not be confirmed as the official ballot designation.",
+  "Iowa: Iowa Capital Dispatch, Ballotpedia and Polk County pages returned HTTP 403 to automated fetching; the confirmation that this is the only Iowa statewide measure rests on the Iowa Legislature's official Proposed Constitutional Amendment page, which shows SJR 9 (91st G.A.) as having only a first passage and therefore not eligible for the 2026 ballot.",
+  "Indiana: Indiana publishes no statewide voter guide covering public questions and no official fiscal estimate for them. The verbatim question text came from an official Lake County sample ballot; I could not locate a Secretary of State page reproducing the statewide question text. Indiana also prints no separate title for a public question, so the 'title' field describes the underlying joint resolution rather than quoting printed ballot text.",
+  "Missouri: The federal litigation over which congressional map Missouri must use in the 2026 elections was still unresolved as of Sept 22, 2026 (Eighth Circuit ruling of Sept 21, 2026 stayed for one week pending U.S. Supreme Court review). This affects the map used for congressional races, not Proposition A's place on the ballot, which the Missouri Supreme Court secured on Sept 3, 2026. Any further court order could change the practical effect of a yes or no vote.",
+  "Missouri: The Secretary of State's Fair Ballot Language for each measure was summarized rather than quoted verbatim in this file; the 'yes' and 'no' fields are neutral restatements grounded in the certified Official Ballot Titles, not verbatim Fair Ballot Language.",
+  "Kansas: The enrolled text of HCR 5004 as extracted from the Kansas Legislature PDF shows the explanatory statement ending at 'a citizen of the United States.' The Secretary of State's page and the Legislative Research Department supplemental note both render it as 'This amendment would clarify only a person who is a citizen of the United States is eligible to vote in this state,' which is the wording used above.",
+  "Ballotpedia pages returned empty bodies or HTTP 403 to automated fetching throughout this research; Ballotpedia URLs are included as secondary finding aids only, and every measure listed here was confirmed against an official state, legislative, or county government source."
+ ]
+}

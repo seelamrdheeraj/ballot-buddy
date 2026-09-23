@@ -1,0 +1,17 @@
+{"source_url":"https://www.elections.alaska.gov/petitions-and-ballot-measures/","official_guide_published":false,
+"measures":[
+{"number":"Ballot Measure 2","title":"An Act Restoring Political Party Primaries, Ending Ranked-Choice General Elections, and Repealing Recent Campaign Finance Laws",
+"ballot_label":"This act would get rid of open primary elections, where all candidates appear on one ballot. It would also get rid of ranked-choice general elections. It would bring back political party primaries and single-choice general elections. It would also repeal certain campaign finance rules that were added by a 2020 ballot measure. ... Should this initiative become law?",
+"plain":["Ends Alaska's open primary (all candidates on one ballot) and ends ranked-choice voting in general elections.","Brings back party primaries; in the general election you vote for one candidate and the one with the most votes wins.","Repeals campaign finance rules added by a 2020 ballot measure, including some donation limits and 'true source' disclosure rules."],
+"yes":"A yes vote returns Alaska to party primaries and single-choice general elections and repeals the 2020 campaign finance rules.",
+"no":"A no vote keeps the current top-four open primary, ranked-choice general election, and 2020 campaign finance rules.",
+"fiscal":"No official fiscal estimate was published as of Sept. 22, 2026; the state's Official Election Pamphlet is not yet released.",
+"urls":["https://ballotpedia.org/Alaska_Ballot_Measure_2,_Repeal_Top-Four_Ranked-Choice_Voting_Initiative_(2026)","http://www.elections.alaska.gov/petitions/19AKBE/19AKBE-TheBill.pdf","https://ltgov.alaska.gov/newsroom/2025/12/lt-governor-nancy-dahlstrom-certifies-proper-filing-of-ballot-initiative-petition-24eseg/"]},
+{"number":"Ballot Measure 3","title":"An Act Addressing Voter Qualification",
+"ballot_label":"Alaska law requires that someone must be a United States citizen and meet other requirements to vote. This act would specify that only those who are United States citizens and meet the other requirements may vote. This act would not change the requirements to vote. Should this initiative become law?",
+"plain":["Current law says a person who is a U.S. citizen and meets other rules may vote in any election.","This act changes the wording to say that only U.S. citizens who meet the other rules may vote.","The official summary says the act does not change who is eligible to vote."],
+"yes":"A yes vote rewrites Alaska's voter qualification law to state that only U.S. citizens may vote in any election.",
+"no":"A no vote leaves the current wording of the voter qualification law unchanged.",
+"fiscal":"No official fiscal estimate was published as of Sept. 22, 2026.",
+"urls":["https://ballotpedia.org/Alaska_Ballot_Measure_3,_Citizenship_Voting_Requirement_Initiative_(2026)","https://ltgov.alaska.gov/newsroom/2026/03/lieutenant-governor-nancy-dahlstrom-certifies-proper-filing-of-ballot-initiative-petition-25uscv/"]}
+]}

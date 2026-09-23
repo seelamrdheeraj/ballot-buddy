@@ -1,0 +1,3 @@
+{ "name": "BallotBuddy", "short_name": "BallotBuddy", "start_url": "./ballot-buddy-app.html", "display": "standalone",
+  "background_color": "#F6F1E7", "theme_color": "#0F4A6B",
+  "icons": [ { "src": "icon.png", "sizes": "512x512", "type": "image/png" } ] }

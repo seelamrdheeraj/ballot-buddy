@@ -1,0 +1,1367 @@
+{
+  "office": "sen",
+  "generated": "2026-09-22",
+  "states": {
+    "AK": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-08-18",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+      "candidates": [
+        {
+          "name": "Dan S. Sullivan",
+          "party": "Republican",
+          "incumbent": true,
+          "background": "U.S. senator from Alaska since 2015.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+          "summary": "Incumbent Republican senator seeking third term",
+          "site": "https://dansullivanforalaska.com/",
+          "positions": [
+            {
+              "topic": "Taxes",
+              "statement": "Passing the biggest tax cut in American history.",
+              "url": "https://dansullivanforalaska.com/"
+            },
+            {
+              "topic": "Energy",
+              "statement": "Unleash Alaska's energy potential.",
+              "url": "https://dansullivanforalaska.com/"
+            },
+            {
+              "topic": "Defense",
+              "statement": "Historic investments in the military and national defense.",
+              "url": "https://dansullivanforalaska.com/"
+            },
+            {
+              "topic": "Health care",
+              "statement": "Strengthen Alaska's healthcare system.",
+              "url": "https://dansullivanforalaska.com/"
+            }
+          ]
+        },
+        {
+          "name": "Mary Peltola",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "Former U.S. representative for Alaska's at-large district (2022-2025).",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+          "summary": "Former congresswoman challenging the incumbent",
+          "site": "https://marypeltola.com/2026/",
+          "positions": [
+            {
+              "topic": "Affordability",
+              "statement": "Lower costs through an expanded child tax credit and price gouging bans.",
+              "url": "https://marypeltola.com/2026/"
+            },
+            {
+              "topic": "Energy",
+              "statement": "Unleash Alaska oil and gas development and cut energy costs.",
+              "url": "https://marypeltola.com/2026/"
+            },
+            {
+              "topic": "Fisheries",
+              "statement": "Restore and defend Alaska fisheries; oppose factory trawling influence.",
+              "url": "https://marypeltola.com/2026/"
+            },
+            {
+              "topic": "Veterans",
+              "statement": "Expand benefits and improve VA healthcare for veterans.",
+              "url": "https://marypeltola.com/2026/"
+            },
+            {
+              "topic": "Government reform",
+              "statement": "Fix the rigged system in DC through anti-corruption measures.",
+              "url": "https://marypeltola.com/2026/"
+            }
+          ]
+        },
+        {
+          "name": "Daniel J. Sullivan Jr.",
+          "party": "Undeclared",
+          "incumbent": false,
+          "background": "Retired teacher and Forest Service employee.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+          "summary": "Retired teacher; advanced via top-four primary",
+          "site": "",
+          "positions": []
+        },
+        {
+          "name": "Gerald L. Heikes",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "Musician and perennial candidate.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+          "summary": "Perennial candidate; advanced via top-four primary",
+          "site": "",
+          "positions": []
+        }
+      ],
+      "notes": "Alaska uses a nonpartisan top-four primary (held Aug 18, 2026) and ranked-choice voting in the general election. Primary results: Peltola 49.5%, D. Sullivan 41.4%, D. Sullivan Jr. 2.5%, Heikes 1.1%. Backgrounds sourced from Wikipedia because Ballotpedia pages returned empty to the fetcher. Campaign-site URLs and positions not captured (fetch budget consumed by failed Ballotpedia fetches). Note: the non-incumbent Daniel J. Sullivan Jr. uses sullivanforsenate.com; do not confuse with the incumbent."
+    },
+    "AR": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-03-03",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
+      "candidates": [
+        {
+          "name": "Tom Cotton",
+          "party": "Republican",
+          "incumbent": true,
+          "background": "Incumbent U.S. senator from Arkansas since 2015.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
+          "summary": "Incumbent Republican senator seeking third term",
+          "site": "http://tomcotton.com/",
+          "positions": [
+            {
+              "topic": "Border security",
+              "statement": "Authored the RAISE Act; helped pass the Laken Riley Act to deport criminal illegals.",
+              "url": "http://tomcotton.com/"
+            },
+            {
+              "topic": "Taxes",
+              "statement": "Decisive vote to pass the largest middle-class tax cut in history.",
+              "url": "http://tomcotton.com/"
+            },
+            {
+              "topic": "Health care",
+              "statement": "Ended the Obamacare tax on Arkansans; helped lower healthcare costs.",
+              "url": "http://tomcotton.com/"
+            },
+            {
+              "topic": "Law enforcement",
+              "statement": "Backs the Blue 100% of the time.",
+              "url": "http://tomcotton.com/"
+            }
+          ]
+        },
+        {
+          "name": "Hallie Shoffner",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "Farmer and entrepreneur.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
+          "summary": "Farmer and entrepreneur; Democratic nominee",
+          "site": "https://www.hallieshoffner.com/",
+          "positions": [
+            {
+              "topic": "Cost of living",
+              "statement": "Cut taxes for working families; lower grocery, childcare, housing, healthcare costs.",
+              "url": "https://www.hallieshoffner.com/platform"
+            },
+            {
+              "topic": "Health care",
+              "statement": "Protect hospitals, lower prescription drug prices, strengthen the Affordable Care Act.",
+              "url": "https://www.hallieshoffner.com/platform"
+            },
+            {
+              "topic": "Social Security",
+              "statement": "Protect Social Security and Medicare; lift the contribution cap on the wealthy.",
+              "url": "https://www.hallieshoffner.com/platform"
+            },
+            {
+              "topic": "Labor",
+              "statement": "Protect workers' right to organize and bargain collectively.",
+              "url": "https://www.hallieshoffner.com/platform"
+            },
+            {
+              "topic": "Wages",
+              "statement": "Raise the minimum wage and expand workforce training.",
+              "url": "https://www.hallieshoffner.com/platform"
+            }
+          ]
+        },
+        {
+          "name": "Jeff Wadlin",
+          "party": "Libertarian",
+          "incumbent": false,
+          "background": "Strategy consultant.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
+          "summary": "Libertarian nominee; strategy consultant",
+          "site": "",
+          "positions": []
+        }
+      ],
+      "notes": "Primaries held March 3, 2026: Cotton won the Republican nomination (81.6%); Shoffner won the Democratic nomination (78.3%). Backgrounds sourced from Wikipedia because Ballotpedia pages returned empty to the fetcher. Positions not captured (fetch budget consumed by failed Ballotpedia fetches); Cotton campaign-site URL not found in search."
+    },
+    "AL": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-05-19",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alabama",
+      "candidates": [
+        {
+          "name": "Barry Moore",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "U.S. representative from Alabama (R-Enterprise); won the June 16 Republican runoff over Jared Hudson.",
+          "background_url": "https://alabamareflector.com/2026/06/16/barry-moore-wins-alabama-gop-nomination-for-u-s-senate-seat/",
+          "summary": "Congressman; Republican nominee for open seat",
+          "site": "https://barrymooreforalabama.com/",
+          "positions": [
+            {
+              "topic": "Immigration",
+              "statement": "Secure the border, deport, and make English the official language.",
+              "url": "https://barrymooreforalabama.com/"
+            },
+            {
+              "topic": "Second Amendment",
+              "statement": "Defend the Second Amendment and resist gun confiscation.",
+              "url": "https://barrymooreforalabama.com/"
+            },
+            {
+              "topic": "Economy",
+              "statement": "Cut taxes, shrink government, and build an economy for families.",
+              "url": "https://barrymooreforalabama.com/"
+            },
+            {
+              "topic": "Women's sports",
+              "statement": "Opposes men in women's sports.",
+              "url": "https://barrymooreforalabama.com/"
+            },
+            {
+              "topic": "Veterans",
+              "statement": "Fund the VA and support military families.",
+              "url": "https://barrymooreforalabama.com/"
+            }
+          ]
+        },
+        {
+          "name": "Everett Wess",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "Attorney; won the June 16 Democratic runoff over Dakarai Larriett.",
+          "background_url": "https://alabamareflector.com/2026/06/16/barry-moore-wins-alabama-gop-nomination-for-u-s-senate-seat/",
+          "summary": "Attorney; Democratic nominee for open seat",
+          "site": "https://wessforsenate.com/",
+          "positions": [
+            {
+              "topic": "Jobs",
+              "statement": "Protect Alabama jobs.",
+              "url": "https://wessforsenate.com/"
+            },
+            {
+              "topic": "Health care",
+              "statement": "Affordable healthcare; fund rural medical providers and underserved hospitals.",
+              "url": "https://wessforsenate.com/"
+            },
+            {
+              "topic": "Voting rights",
+              "statement": "Protect voting rights.",
+              "url": "https://wessforsenate.com/"
+            },
+            {
+              "topic": "Education",
+              "statement": "Quality public education as the engine of opportunity.",
+              "url": "https://wessforsenate.com/"
+            },
+            {
+              "topic": "Criminal justice",
+              "statement": "Tough, fair justice with fair courts and accountability.",
+              "url": "https://wessforsenate.com/"
+            }
+          ]
+        }
+      ],
+      "notes": "Open seat: incumbent Tommy Tuberville (R) is running for governor. Primary May 19, 2026; runoffs June 16, 2026 (Moore 55.8% over Jared Hudson; Wess over Dakarai Larriett). Campaign-site URLs and positions not captured: per-state fetch budget was consumed by failed Ballotpedia fetches."
+    },
+    "CO": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-06-30",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
+      "candidates": [
+        {
+          "name": "John Hickenlooper",
+          "party": "Democratic",
+          "incumbent": true,
+          "background": "U.S. senator since 2021; former governor of Colorado.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
+          "summary": "Incumbent Democratic senator seeking second term",
+          "site": "https://hickenlooper.com/",
+          "positions": [
+            {
+              "topic": "Democracy and campaign finance",
+              "statement": "Ban corporate PAC donations and overturn Citizens United.",
+              "url": "https://hickenlooper.com/issues/"
+            },
+            {
+              "topic": "Health care",
+              "statement": "Universal, affordable health care as a right; supports a public option.",
+              "url": "https://hickenlooper.com/issues/"
+            },
+            {
+              "topic": "Gun safety",
+              "statement": "Universal background checks and an assault weapons ban.",
+              "url": "https://hickenlooper.com/issues/"
+            },
+            {
+              "topic": "Public lands",
+              "statement": "Protect public lands from sale and privatization.",
+              "url": "https://hickenlooper.com/issues/"
+            },
+            {
+              "topic": "Trade",
+              "statement": "Opposes Trump's tariffs; supports small business access to capital.",
+              "url": "https://hickenlooper.com/issues/"
+            }
+          ]
+        },
+        {
+          "name": "Mark Baisley",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "State senator from Colorado's 4th district since 2023.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
+          "summary": "State senator; Republican nominee",
+          "site": "",
+          "positions": []
+        },
+        {
+          "name": "Bob Chew",
+          "party": "Forward",
+          "incumbent": false,
+          "background": "Colorado Forward Party candidate.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
+          "summary": "Forward Party candidate",
+          "site": "",
+          "positions": []
+        },
+        {
+          "name": "Christopher Baum",
+          "party": "Approval Voting",
+          "incumbent": false,
+          "background": "Approval Voting Party candidate.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
+          "summary": "Approval Voting Party candidate",
+          "site": "",
+          "positions": []
+        },
+        {
+          "name": "Blake Huber",
+          "party": "Libertarian",
+          "incumbent": false,
+          "background": "Libertarian Party candidate.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
+          "summary": "Libertarian candidate",
+          "site": "",
+          "positions": []
+        },
+        {
+          "name": "Adam Withrow",
+          "party": "Unity",
+          "incumbent": false,
+          "background": "Unity Party of America candidate.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
+          "summary": "Unity Party candidate",
+          "site": "",
+          "positions": []
+        }
+      ],
+      "notes": "Primaries held June 30, 2026 (Hickenlooper 52.8% over Julie Gonzales; Baisley advanced unopposed via the Republican state assembly). Hickenlooper's homepage states no specific positions (issues page: https://hickenlooper.com/issues/, not fetched). Baisley's campaign-site URL was not found in search."
+    },
+    "DE": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-09-15",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware",
+      "candidates": [
+        {
+          "name": "Chris Coons",
+          "party": "Democratic",
+          "incumbent": true,
+          "background": "Incumbent U.S. senator since 2010.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware",
+          "summary": "Incumbent Democratic senator seeking fourth term",
+          "site": "https://www.chriscoons.com/",
+          "positions": [
+            {
+              "topic": "Economy",
+              "statement": "A 'strong floor and no ceiling' so every Delawarean can build a better future.",
+              "url": "https://www.chriscoons.com/priorities/"
+            },
+            {
+              "topic": "Community safety",
+              "statement": "Every Delawarean should feel safe and secure in their community and retirement.",
+              "url": "https://www.chriscoons.com/priorities/"
+            },
+            {
+              "topic": "Justice",
+              "statement": "Justice is foundational; without it, nothing else is possible.",
+              "url": "https://www.chriscoons.com/priorities/"
+            }
+          ]
+        },
+        {
+          "name": "Michael Katz",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "Former Democratic state senator (2009-2013); 2024 Independent Party nominee for U.S. Senate.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware",
+          "summary": "Former state senator; Republican nominee",
+          "site": "https://katz2026.com/",
+          "positions": [
+            {
+              "topic": "Health care",
+              "statement": "Lower drug costs, fix rural care gaps, and focus on prevention over treatment.",
+              "url": "https://katz2026.com/platform#healthcare"
+            },
+            {
+              "topic": "Economy",
+              "statement": "Halt wasteful spending, cut red tape, reduce energy and housing costs for families.",
+              "url": "https://katz2026.com/platform#economy"
+            },
+            {
+              "topic": "Border security",
+              "statement": "Complete the wall, stop fentanyl trafficking, restore federal accountability at the border.",
+              "url": "https://katz2026.com/platform#border-security"
+            }
+          ]
+        }
+      ],
+      "notes": "Primaries held Sept 15, 2026: Coons won 78%; Katz won 77.3%. Katz's Wikipedia-listed site drmikekatz.com serves content from katz2026.com."
+    },
+    "GA": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-05-19",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
+      "candidates": [
+        {
+          "name": "Jon Ossoff",
+          "party": "Democratic",
+          "incumbent": true,
+          "background": "Incumbent U.S. senator since 2021.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
+          "summary": "Incumbent Democratic senator seeking second term",
+          "site": "https://electjon.com/",
+          "positions": [
+            {
+              "topic": "Health care",
+              "statement": "Cap insulin costs for seniors at $35 a month.",
+              "url": "https://electjon.com/"
+            },
+            {
+              "topic": "Housing",
+              "statement": "Lower housing costs.",
+              "url": "https://electjon.com/"
+            },
+            {
+              "topic": "Maternal and child health",
+              "statement": "Upgrade health care for pregnant women, babies, and children.",
+              "url": "https://electjon.com/"
+            }
+          ]
+        },
+        {
+          "name": "Mike Collins",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "U.S. representative from Georgia's 10th district.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
+          "summary": "Congressman; Republican nominee",
+          "site": "https://mikecollinsga.com/",
+          "positions": [
+            {
+              "topic": "Legislative agenda",
+              "statement": "Pass America First legislation in Congress alongside President Trump.",
+              "url": "https://mikecollinsga.com/"
+            },
+            {
+              "topic": "Working class",
+              "statement": "Working-class Americans are the backbone of the entire country.",
+              "url": "https://mikecollinsga.com/"
+            },
+            {
+              "topic": "Accountability",
+              "statement": "If you don't deliver, you don't get paid.",
+              "url": "https://mikecollinsga.com/"
+            }
+          ]
+        }
+      ],
+      "notes": "Primaries May 19, 2026; Republican runoff June 16, 2026 (Collins defeated Derek Dooley, 55.5%). Ossoff was unopposed. Collins's positions not fetched (budget)."
+    },
+    "ID": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-05-19",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
+      "candidates": [
+        {
+          "name": "Jim Risch",
+          "party": "Republican",
+          "incumbent": true,
+          "background": "Incumbent U.S. senator since 2009.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
+          "summary": "Incumbent Republican senator seeking fourth term",
+          "site": "https://senatorrisch.com/",
+          "positions": [
+            {
+              "topic": "Public lands",
+              "statement": "Led the Senate fight to stop a proposal selling some of Idaho's public lands.",
+              "url": "https://senatorrisch.com/issues/"
+            },
+            {
+              "topic": "Border security",
+              "statement": "Secure the southern border and enforce immigration laws.",
+              "url": "https://senatorrisch.com/issues/"
+            },
+            {
+              "topic": "Taxes and spending",
+              "statement": "Reduce federal spending and taxes; supported the 2017 tax cuts.",
+              "url": "https://senatorrisch.com/issues/"
+            }
+          ]
+        },
+        {
+          "name": "Todd Achilles",
+          "party": "Independent",
+          "incumbent": false,
+          "background": "Former Democratic state representative from the 16th district (2024-2025).",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
+          "summary": "Former Democratic legislator running as independent",
+          "site": "https://www.achillesforidaho.com/",
+          "positions": [
+            {
+              "topic": "Two-party system",
+              "statement": "Both parties increase the national debt, keep us in endless wars, favor big corporations.",
+              "url": "https://www.achillesforidaho.com/"
+            },
+            {
+              "topic": "Representation",
+              "statement": "Will fight for all Idahoans, not billionaires or extremists.",
+              "url": "https://www.achillesforidaho.com/"
+            },
+            {
+              "topic": "Senate caucus",
+              "statement": "Won't caucus with either party if elected to the Senate.",
+              "url": "https://www.achillesforidaho.com/"
+            }
+          ]
+        },
+        {
+          "name": "Matt Loesby",
+          "party": "Libertarian",
+          "incumbent": false,
+          "background": "2024 Libertarian nominee for Idaho's 1st congressional district.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
+          "summary": "Libertarian nominee",
+          "site": "https://www.loesby.us/",
+          "positions": []
+        },
+        {
+          "name": "Natalie Fleming",
+          "party": "Independent",
+          "incumbent": false,
+          "background": "Software developer.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
+          "summary": "Independent candidate; software developer",
+          "site": "https://nataliefleming.info/",
+          "positions": []
+        }
+      ],
+      "notes": "Primaries held May 19, 2026. The fetched article listed no Democratic nominee on the general-election ballot."
+    },
+    "IL": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-03-17",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+      "candidates": [
+        {
+          "name": "Juliana Stratton",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "Lieutenant governor of Illinois.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+          "summary": "Lieutenant governor; Democratic nominee for open seat",
+          "site": "https://www.julianastratton.com/",
+          "positions": [
+            {
+              "topic": "Trade and taxes",
+              "statement": "End Trump's trade war and tax on working families.",
+              "url": "https://www.julianastratton.com/issues"
+            },
+            {
+              "topic": "Minimum wage",
+              "statement": "Raise the federal minimum wage to $25.",
+              "url": "https://www.julianastratton.com/issues"
+            },
+            {
+              "topic": "Health care",
+              "statement": "Secure Medicare for All.",
+              "url": "https://www.julianastratton.com/issues"
+            },
+            {
+              "topic": "Taxes",
+              "statement": "Middle-class tax cut paid for by taxing incomes over a million dollars.",
+              "url": "https://www.julianastratton.com/issues"
+            },
+            {
+              "topic": "Immigration",
+              "statement": "Abolish ICE.",
+              "url": "https://www.julianastratton.com/issues"
+            },
+            {
+              "topic": "Gun safety",
+              "statement": "Pass common sense gun safety laws.",
+              "url": "https://www.julianastratton.com/issues"
+            }
+          ]
+        },
+        {
+          "name": "Don Tracy",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "Attorney and business leader; former chair of the Illinois Republican Party.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+          "summary": "Former state GOP chair; Republican nominee",
+          "site": "https://dontracyforil.com/",
+          "positions": [
+            {
+              "topic": "Cost of living",
+              "statement": "Lower the cost of living so everyone can achieve the American Dream.",
+              "url": "https://dontracyforil.com/lower-the-cost-of-living/"
+            },
+            {
+              "topic": "Leadership",
+              "statement": "Common-sense leadership that puts families first, strengthens communities, expands opportunity.",
+              "url": "https://dontracyforil.com/common-sense-solutions/"
+            },
+            {
+              "topic": "Representation",
+              "statement": "Represent all 102 Illinois counties, not just Chicago.",
+              "url": "https://dontracyforil.com/represent/"
+            }
+          ]
+        }
+      ],
+      "notes": "Open seat: Dick Durbin (D) is retiring. Primaries held March 17, 2026 (Stratton 40.4%; Tracy 40%). The fetched article listed no third-party candidates. Stratton's campaign-site URL not found (julianaforillinois.com shows only a 'Coming Soon' page)."
+    },
+    "IA": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-06-02",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
+      "candidates": [
+        {
+          "name": "Ashley Hinson",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "U.S. representative from Iowa's 2nd district since 2021.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
+          "summary": "Congresswoman; Republican nominee for open seat",
+          "site": "https://ashleyhinson.com/",
+          "positions": [
+            {
+              "topic": "Border security",
+              "statement": "Secure our borders.",
+              "url": "https://ashleyhinson.com/"
+            },
+            {
+              "topic": "Government spending",
+              "statement": "Cut wasteful spending.",
+              "url": "https://ashleyhinson.com/"
+            },
+            {
+              "topic": "Economy",
+              "statement": "Put our country back on the path to prosperity.",
+              "url": "https://ashleyhinson.com/"
+            }
+          ]
+        },
+        {
+          "name": "Josh Turek",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "State representative from Iowa's 20th district since 2023.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
+          "summary": "State legislator; Democratic nominee for open seat",
+          "site": "https://turek4iowa.com/",
+          "positions": [
+            {
+              "topic": "Taxes",
+              "statement": "Middle class tax cuts; close corporate and billionaire loopholes.",
+              "url": "https://turek4iowa.com/platform"
+            },
+            {
+              "topic": "Health care",
+              "statement": "Introduce a public option; cap prescription drug costs.",
+              "url": "https://turek4iowa.com/platform"
+            },
+            {
+              "topic": "Abortion",
+              "statement": "Make Roe v. Wade the law of the land; protect contraception and IVF.",
+              "url": "https://turek4iowa.com/platform"
+            },
+            {
+              "topic": "Campaign finance",
+              "statement": "Ban corporate PAC money and congressional stock trading.",
+              "url": "https://turek4iowa.com/platform"
+            },
+            {
+              "topic": "Housing",
+              "statement": "Ban private equity from buying single-family homes and farmland.",
+              "url": "https://turek4iowa.com/platform"
+            },
+            {
+              "topic": "Immigration",
+              "statement": "Secure borders and simplify the citizenship pathway; stop fentanyl.",
+              "url": "https://turek4iowa.com/platform"
+            }
+          ]
+        }
+      ],
+      "notes": "Open seat: Joni Ernst (R) is not seeking a third term. Primaries held June 2, 2026. Hinson won the Republican primary with 73.9% over Jim Carlin; Turek won the Democratic primary with 62.6% over Zach Wahls. Hinson homepage statements are brief; fuller issues page at https://ashleyhinson.com/issues/ (not fetched). Turek's platform page (https://turek4iowa.com/platform/) not fetched (budget)."
+    },
+    "KS": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-08-04",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
+      "candidates": [
+        {
+          "name": "Roger Marshall",
+          "party": "Republican",
+          "incumbent": true,
+          "background": "Incumbent U.S. senator since 2021.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
+          "summary": "Incumbent Republican senator seeking second term",
+          "site": "https://docmarshall.com/",
+          "positions": [
+            {
+              "topic": "Agriculture",
+              "statement": "Fertilizer relief legislation projected at $150 per ton for Kansas farmers.",
+              "url": "https://docmarshall.com/record/agriculture"
+            },
+            {
+              "topic": "Rural health care",
+              "statement": "Protect Critical Access hospitals; 72-hour cap on Medicare prior-authorization denials.",
+              "url": "https://docmarshall.com/record/rural-healthcare"
+            },
+            {
+              "topic": "Energy",
+              "statement": "Support oil, gas, wind, and ethanol without restrictions.",
+              "url": "https://docmarshall.com/record/energy"
+            }
+          ]
+        },
+        {
+          "name": "Adam Hamilton",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "Pastor and founder of the Church of the Resurrection.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
+          "summary": "Pastor; Democratic nominee",
+          "site": "https://hamiltonforkansas.com/",
+          "positions": [
+            {
+              "topic": "Health care",
+              "statement": "Protect healthcare.",
+              "url": "https://hamiltonforkansas.com/"
+            },
+            {
+              "topic": "Cost of living",
+              "statement": "Address high costs of food, energy, and healthcare straining Kansas families.",
+              "url": "https://hamiltonforkansas.com/"
+            },
+            {
+              "topic": "Foreign policy",
+              "statement": "Reduce unnecessary foreign military commitments that raise costs at home.",
+              "url": "https://hamiltonforkansas.com/"
+            },
+            {
+              "topic": "Trade",
+              "statement": "Tariffs make basic necessities more expensive for Kansans.",
+              "url": "https://hamiltonforkansas.com/"
+            }
+          ]
+        },
+        {
+          "name": "David C. Graham",
+          "party": "Libertarian",
+          "incumbent": false,
+          "background": "Libertarian nominee.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
+          "summary": "Libertarian nominee",
+          "site": "",
+          "positions": []
+        }
+      ],
+      "notes": "Primaries held Aug 4, 2026. Hamilton won the Democratic primary with 34.9%. Marshall's kansansformarshall.com serves content from docmarshall.com. Hamilton's site (hamiltonforkansas.com) not fetched (budget)."
+    },
+    "KY": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-05-19",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kentucky",
+      "candidates": [
+        {
+          "name": "Andy Barr",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "U.S. representative from Kentucky's 6th district since 2013.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kentucky",
+          "summary": "Congressman; Republican nominee for open seat",
+          "site": "https://barrforsenate.com/",
+          "positions": [
+            {
+              "topic": "Border security",
+              "statement": "Deport all criminal illegals and secure the border.",
+              "url": "https://barrforsenate.com/issues"
+            },
+            {
+              "topic": "Taxes",
+              "statement": "Supports largest tax cut in history; Kentucky family saves $4,200.",
+              "url": "https://barrforsenate.com/issues"
+            },
+            {
+              "topic": "Girls' sports",
+              "statement": "Ban biological men from girls' sports, locker rooms, and bathrooms.",
+              "url": "https://barrforsenate.com/issues"
+            },
+            {
+              "topic": "Energy",
+              "statement": "Restore coal industry jobs and block ESG mandates on retirement accounts.",
+              "url": "https://barrforsenate.com/issues"
+            },
+            {
+              "topic": "China",
+              "statement": "Sanction fentanyl producers; cut American investment in Chinese military companies.",
+              "url": "https://barrforsenate.com/issues"
+            },
+            {
+              "topic": "Agriculture",
+              "statement": "End the estate tax on family farms; expand crop insurance and hemp.",
+              "url": "https://barrforsenate.com/issues"
+            }
+          ]
+        },
+        {
+          "name": "Charles Booker",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "Former Kentucky state representative; 2022 Democratic nominee for U.S. Senate.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kentucky",
+          "summary": "Former state legislator; Democratic nominee",
+          "site": "https://charlesbookerky.org/",
+          "positions": [
+            {
+              "topic": "Health care",
+              "statement": "Healthcare as a human right.",
+              "url": "https://charlesbookerky.org/"
+            },
+            {
+              "topic": "Jobs",
+              "statement": "Union jobs in every county.",
+              "url": "https://charlesbookerky.org/"
+            },
+            {
+              "topic": "Environment",
+              "statement": "Clean water and clean air.",
+              "url": "https://charlesbookerky.org/"
+            },
+            {
+              "topic": "Poverty",
+              "statement": "Fight poverty like the emergency it is.",
+              "url": "https://charlesbookerky.org/"
+            }
+          ]
+        }
+      ],
+      "notes": "Open seat: Mitch McConnell (R) is retiring. Primaries held May 19, 2026. Barr won the Republican primary with 60.5% over Daniel Cameron; Booker won the Democratic primary with 47% over Amy McGrath and Pamela Stevenson. Campaign-site fetches failed: andybarr.com (no DNS record) and bookerforkentucky.com (TLS certificate error); sites and positions not captured."
+    },
+    "LA": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-05-16",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana",
+      "candidates": [
+        {
+          "name": "Julia Letlow",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "U.S. representative from Louisiana's 5th district since 2021.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana",
+          "summary": "Congresswoman; Republican nominee",
+          "site": "https://www.julialetlow.com/",
+          "positions": [
+            {
+              "topic": "Border security",
+              "statement": "Finish the border wall and deport criminal illegal aliens.",
+              "url": "https://www.julialetlow.com/policyplan"
+            },
+            {
+              "topic": "Taxes",
+              "statement": "Permanently extend Trump tax cuts; make no-tax-on-tips permanent.",
+              "url": "https://www.julialetlow.com/policyplan"
+            },
+            {
+              "topic": "Energy",
+              "statement": "Expand oil and gas production and accelerate LNG exports.",
+              "url": "https://www.julialetlow.com/policyplan"
+            },
+            {
+              "topic": "Election integrity",
+              "statement": "Require proof of citizenship to vote; strengthen voter ID.",
+              "url": "https://www.julialetlow.com/policyplan"
+            },
+            {
+              "topic": "Health care",
+              "statement": "Lower healthcare and prescription drug costs for families.",
+              "url": "https://www.julialetlow.com/policyplan"
+            },
+            {
+              "topic": "Congress",
+              "statement": "Ban members of Congress from trading individual stocks.",
+              "url": "https://www.julialetlow.com/policyplan"
+            }
+          ]
+        },
+        {
+          "name": "Jamie Davis",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "Farmer and business owner from Tensas Parish; member of the Tensas Parish Police Jury.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana",
+          "summary": "Parish official; Democratic nominee",
+          "site": "https://jamieforlouisiana.com/",
+          "positions": [
+            {
+              "topic": "Health care",
+              "statement": "Expand access to affordable care and oppose hospital closures.",
+              "url": "https://jamieforlouisiana.com/"
+            },
+            {
+              "topic": "Cost of living",
+              "statement": "Lower grocery, insurance, and utility bills for Louisiana families.",
+              "url": "https://jamieforlouisiana.com/#choice"
+            },
+            {
+              "topic": "Land rights",
+              "statement": "Oppose carbon pipelines taking family farms through eminent domain.",
+              "url": "https://jamieforlouisiana.com/#choice"
+            }
+          ]
+        }
+      ],
+      "notes": "2026 primary system: Louisiana replaced its all-party 'jungle' primary with closed party primaries for U.S. Senate (first since 2010). Unaffiliated voters may vote in a party primary; registered party members cannot vote in the other party's primary. First primary May 16, 2026 (R: Letlow 44.8%, Fleming 28.3%, incumbent Bill Cassidy 24.8%); runoff June 27, 2026 (Letlow 56.9% over Fleming; Davis 79.9%). Incumbent Cassidy (R) lost renomination, so neither general-election nominee is an incumbent. Letlow's homepage states no specific positions (issues page: https://www.julialetlow.com/issues; plan: https://www.julialetlow.com/policyplan; not fetched)."
+    },
+    "ME": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-06-09",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
+      "candidates": [
+        {
+          "name": "Susan Collins",
+          "party": "Republican",
+          "incumbent": true,
+          "background": "Incumbent U.S. senator since 1997.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
+          "summary": "Incumbent Republican senator seeking sixth term",
+          "site": "https://susancollins.com/",
+          "positions": [
+            {
+              "topic": "Environment and jobs",
+              "statement": "Protecting the environment and supporting Maine's workforce are complementary goals.",
+              "url": "https://susancollins.com/"
+            },
+            {
+              "topic": "Lobster industry",
+              "statement": "Fight for Maine's lobster industry and keep lobstermen working for generations.",
+              "url": "https://susancollins.com/"
+            },
+            {
+              "topic": "Bipartisanship",
+              "statement": "Work across party lines on practical solutions for Maine families.",
+              "url": "https://susancollins.com/"
+            }
+          ]
+        },
+        {
+          "name": "Troy Jackson",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "Fifth-generation logger from Allagash; former president of the Maine Senate.",
+          "background_url": "https://www.wgbh.org/news/politics/2026-07-27/troy-jackson-wins-the-democratic-nomination-to-challenge-sen-susan-collins",
+          "summary": "Former state Senate president; Democratic nominee",
+          "site": "https://www.jacksonformaine.com/",
+          "positions": [
+            {
+              "topic": "Health care",
+              "statement": "Medicare for All and lower prescription drug costs.",
+              "url": "https://www.jacksonformaine.com/"
+            },
+            {
+              "topic": "Taxes",
+              "statement": "Raise taxes on billionaires and large corporations.",
+              "url": "https://www.jacksonformaine.com/"
+            },
+            {
+              "topic": "Abortion",
+              "statement": "Federal protection for abortion access nationwide.",
+              "url": "https://www.jacksonformaine.com/"
+            }
+          ]
+        }
+      ],
+      "notes": "Primaries held June 9, 2026. Graham Platner won the Democratic primary but withdrew July 10, 2026 amid sexual-assault accusations and other controversies; Troy Jackson was chosen as replacement nominee at a July 25 state party convention (NBC News, GBH). General election uses ranked-choice voting."
+    },
+    "MA": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-09-01",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Massachusetts",
+      "candidates": [
+        {
+          "name": "Ed Markey",
+          "party": "Democratic",
+          "incumbent": true,
+          "background": "Incumbent U.S. senator since 2013.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Massachusetts",
+          "summary": "Incumbent Democratic senator seeking third full term",
+          "site": "https://www.edmarkey.com/",
+          "positions": [
+            {
+              "topic": "Immigration enforcement",
+              "statement": "Abolish ICE, calling it a domestic organization harming communities.",
+              "url": "https://www.edmarkey.com/"
+            },
+            {
+              "topic": "Climate",
+              "statement": "Green New Deal investment in clean-energy jobs and climate-resilient infrastructure.",
+              "url": "https://www.edmarkey.com/issues-priorities/"
+            },
+            {
+              "topic": "Voting rights",
+              "statement": "Protect mail-in voting against efforts to restrict election participation.",
+              "url": "https://www.edmarkey.com/"
+            }
+          ]
+        },
+        {
+          "name": "John Deaton",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "Republican nominee; ran unopposed in the Republican primary.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Massachusetts",
+          "summary": "Republican nominee",
+          "site": "https://www.johndeatonforsenate.com/",
+          "positions": [
+            {
+              "topic": "Term limits",
+              "statement": "Constitutional amendment capping House at three terms, Senate at two.",
+              "url": "https://www.johndeatonforsenate.com/"
+            },
+            {
+              "topic": "Health care",
+              "statement": "End pharmacy benefit manager abuses; expand telehealth nationwide.",
+              "url": "https://www.johndeatonforsenate.com/"
+            },
+            {
+              "topic": "Housing",
+              "statement": "Build five million new homes by reducing regulations and zoning restrictions.",
+              "url": "https://www.johndeatonforsenate.com/"
+            },
+            {
+              "topic": "Workforce",
+              "statement": "Create apprenticeship programs offering debt-free career pathways in trades.",
+              "url": "https://www.johndeatonforsenate.com/"
+            },
+            {
+              "topic": "Energy",
+              "statement": "Lower energy prices for families.",
+              "url": "https://www.johndeatonforsenate.com/"
+            }
+          ]
+        }
+      ],
+      "notes": "Primaries held Sept 1, 2026: Markey won the Democratic primary with 64.9% over Rep. Seth Moulton; Deaton was unopposed (NPR, CBS Boston). Markey homepage positions partly drawn from campaign social posts embedded on the site. Deaton site fetch failed (deatonforsenate.com has no DNS record); site and positions not captured."
+    },
+    "MI": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-08-04",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+      "candidates": [
+        {
+          "name": "Abdul El-Sayed",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "Former Wayne County health director.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+          "summary": "Former health director; Democratic nominee",
+          "site": "https://abdulforsenate.com/",
+          "positions": [
+            {
+              "topic": "Money in politics",
+              "statement": "Ban corporate money in politics, end gerrymandering, reform Supreme Court, abolish filibuster.",
+              "url": "https://abdulforsenate.com/priority/money-out-of-politics/"
+            },
+            {
+              "topic": "Economy",
+              "statement": "Tax billionaire wealth and create jobs to put money in people's pockets.",
+              "url": "https://abdulforsenate.com/priority/money-in-your-pocket/"
+            },
+            {
+              "topic": "Health care",
+              "statement": "Medicare for All; break up big health care to cut prescription costs.",
+              "url": "https://abdulforsenate.com/priority/medicare-for-all-the-path-to-a-healthier-america/"
+            }
+          ]
+        },
+        {
+          "name": "Mike Rogers",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "Former U.S. representative from Michigan.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+          "summary": "Former congressman; Republican nominee",
+          "site": "https://rogersforsenate.com/",
+          "positions": [
+            {
+              "topic": "Economy",
+              "statement": "Bring manufacturing jobs home; lower gas, grocery, and prescription drug costs.",
+              "url": "https://rogersforsenate.com/"
+            },
+            {
+              "topic": "Social Security and Medicare",
+              "statement": "Protect seniors' Social Security and Medicare.",
+              "url": "https://rogersforsenate.com/"
+            },
+            {
+              "topic": "Education",
+              "statement": "Prioritize education, not indoctrination, to set kids up for success.",
+              "url": "https://rogersforsenate.com/"
+            }
+          ]
+        }
+      ],
+      "notes": "Open seat: Gary Peters (D) is not seeking reelection. Primaries held Aug 4, 2026 (El-Sayed 48.5% over Haley Stevens; Rogers was the only Republican to qualify). Third-party candidates not captured from the truncated article."
+    },
+    "MN": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-08-11",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+      "candidates": [
+        {
+          "name": "Peggy Flanagan",
+          "party": "Democratic-Farmer-Labor",
+          "incumbent": false,
+          "background": "Lieutenant governor of Minnesota.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+          "summary": "Lieutenant governor; DFL nominee for open seat",
+          "site": "https://peggyflanagan.com/",
+          "positions": [
+            {
+              "topic": "Minimum wage",
+              "statement": "Raised Minnesota's minimum wage for the first time in a decade.",
+              "url": "https://peggyflanagan.com/"
+            },
+            {
+              "topic": "Paid leave",
+              "statement": "Helped pass Minnesota's paid family and medical leave law.",
+              "url": "https://peggyflanagan.com/"
+            },
+            {
+              "topic": "Abortion",
+              "statement": "Leading the fight to keep abortion legal in Minnesota.",
+              "url": "https://peggyflanagan.com/"
+            }
+          ]
+        },
+        {
+          "name": "Michele Tafoya",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "Former NBC Sports sideline reporter and conservative commentator.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+          "summary": "Former broadcaster; Republican nominee",
+          "site": "https://micheletafoya.com/",
+          "positions": [
+            {
+              "topic": "Fraud",
+              "statement": "Deport immigrants convicted of fraud; mandatory minimum sentences for fraudsters.",
+              "url": "https://micheletafoya.com/issues/"
+            },
+            {
+              "topic": "Public safety",
+              "statement": "Increase funding, equipment, and training for police; tougher penalties.",
+              "url": "https://micheletafoya.com/issues/"
+            },
+            {
+              "topic": "Immigration",
+              "statement": "Deport criminal illegal immigrants; secure borders and enforce federal law.",
+              "url": "https://micheletafoya.com/issues/"
+            },
+            {
+              "topic": "Taxes",
+              "statement": "Protect working families' tax cuts; oppose middle-class tax increases.",
+              "url": "https://micheletafoya.com/issues/"
+            },
+            {
+              "topic": "Health care",
+              "statement": "Reduce prescription drug costs; keep decisions with patients.",
+              "url": "https://micheletafoya.com/issues/"
+            },
+            {
+              "topic": "Election security",
+              "statement": "Require photo ID and paper ballots.",
+              "url": "https://micheletafoya.com/issues/"
+            }
+          ]
+        }
+      ],
+      "notes": "Open seat: Tina Smith (DFL) is retiring. Primaries held Aug 11, 2026: Flanagan won the DFL primary with 58.8% over Rep. Angie Craig; Tafoya won the Republican primary with 52.1% over Adam Schwarze and Royce White (FOX 9, NewsNation). Tafoya's issues page (https://micheletafoya.com/issues/) not fetched (budget)."
+    },
+    "MS": {
+      "special": false,
+      "primary_held": true,
+      "primary_date": "2026-03-10",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+      "candidates": [
+        {
+          "name": "Cindy Hyde-Smith",
+          "party": "Republican",
+          "incumbent": true,
+          "background": "Incumbent U.S. senator since 2018.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+          "summary": "Incumbent Republican senator seeking second full term",
+          "site": "https://cindyhydesmith.com/",
+          "positions": [
+            {
+              "topic": "Abortion",
+              "statement": "Defending life and protecting the unborn.",
+              "url": "https://cindyhydesmith.com/issue/defending-life-and-protecting-the-unborn/"
+            },
+            {
+              "topic": "Immigration",
+              "statement": "Stopping illegal immigration.",
+              "url": "https://cindyhydesmith.com/issue/stopping-illegal-immigration/"
+            },
+            {
+              "topic": "Second Amendment",
+              "statement": "Supporting Second Amendment rights.",
+              "url": "https://cindyhydesmith.com/issue/supporting-our-2nd-amendment-rights/"
+            }
+          ]
+        },
+        {
+          "name": "Scott Colom",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "District attorney for Mississippi's 16th Judicial District since 2016.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+          "summary": "District attorney; Democratic nominee",
+          "site": "https://scottcolom.com/",
+          "positions": [
+            {
+              "topic": "Health care",
+              "statement": "Save Mississippi hospitals.",
+              "url": "https://scottcolom.com/"
+            },
+            {
+              "topic": "Economy",
+              "statement": "Lower costs for families and bring good jobs home.",
+              "url": "https://scottcolom.com/"
+            },
+            {
+              "topic": "Public safety",
+              "statement": "Prioritize prosecuting violent crimes and hold criminals accountable.",
+              "url": "https://scottcolom.com/"
+            },
+            {
+              "topic": "Ethics",
+              "statement": "Root out corruption in Washington.",
+              "url": "https://scottcolom.com/"
+            }
+          ]
+        },
+        {
+          "name": "Ty Pinkins",
+          "party": "Independent",
+          "incumbent": false,
+          "background": "Lawyer; 2024 Democratic nominee for U.S. Senate.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+          "summary": "Lawyer; independent candidate",
+          "site": "",
+          "positions": []
+        }
+      ],
+      "notes": "Primaries held March 10, 2026 (Hyde-Smith 80.8%; Colom 72.9%). Caution: per Mississippi Today (Sept 17, 2026), ColomForSenate.com is a look-alike site run by the Hyde-Smith campaign, not Colom's official site; whereiscindyhydesmith.com is a Colom campaign attack site. Colom's official site is scottcolom.com; positions not fetched (budget)."
+    },
+    "FL": {
+      "special": true,
+      "primary_held": true,
+      "primary_date": "2026-08-18",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
+      "candidates": [
+        {
+          "name": "Ashley Moody",
+          "party": "Republican",
+          "incumbent": true,
+          "background": "Appointed U.S. senator in 2025; former Florida attorney general.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
+          "summary": "Appointed incumbent seeking to finish Rubio term",
+          "site": "https://ashleymoody.com/",
+          "positions": [
+            {
+              "topic": "America First",
+              "statement": "America First policies promoting law and order, economic prosperity, and American sovereignty.",
+              "url": "https://ashleymoody.com/"
+            }
+          ]
+        },
+        {
+          "name": "Angie Nixon",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "Florida state representative.",
+          "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
+          "summary": "State legislator; Democratic nominee",
+          "site": "https://angienixon.com/",
+          "positions": [
+            {
+              "topic": "Health care",
+              "statement": "Medicare for All; health care as a right, not tied to a paycheck.",
+              "url": "https://angienixon.com/"
+            },
+            {
+              "topic": "Housing",
+              "statement": "Support a national rent freeze and a moratorium on evictions.",
+              "url": "https://angienixon.com/"
+            },
+            {
+              "topic": "Child care",
+              "statement": "Free child care and pre-K for parents.",
+              "url": "https://angienixon.com/"
+            },
+            {
+              "topic": "Wages",
+              "statement": "Lower costs and raise wages for working families.",
+              "url": "https://angienixon.com/"
+            }
+          ]
+        }
+      ],
+      "notes": "Special election for the remainder of Marco Rubio's term (Rubio became Secretary of State in Jan 2025; Gov. DeSantis appointed Moody). Primary Aug 18, 2026 per Ballotpedia; the Wikipedia fetch said Aug 26 for the Democratic primary (Nixon 56.1% over Alex Vindman). No third-party candidates captured. Moody's homepage lists no dedicated issues page. Nixon's priorities page (https://angienixon.com/priorities/) not fetched (budget)."
+    }
+  },
+  "uncertain": [
+    "Ballotpedia pages (HTML and raw wikitext) returned empty content to the fetcher; candidate lists and backgrounds were sourced from Wikipedia instead.",
+    "AL, AK, AR: campaign-site positions not captured; the 4-call budget was consumed by failed Ballotpedia fetches. AK/AL site URLs and Cotton's site URL not found.",
+    "KY: both nominees' sites failed to load (andybarr.com no DNS; bookerforkentucky.com TLS error); no positions, sites unverified.",
+    "Sites found but positions not fetched (budget): Collins (GA), Turek (IA), Hamilton or Marshall (KS, one only), Letlow (LA), Tafoya (MN), Colom (MS), Nixon (FL); Hickenlooper (CO) homepage has no positions and issues page not fetched.",
+    "Sites not found: Baisley (CO), Stratton (IL), Deaton (MA).",
+    "Third-party/independent candidates may be incomplete for states where the Wikipedia fetch was truncated (AL, GA, IL, IA, KY, LA, MA, MI, MN, FL).",
+    "FL special: Ballotpedia lists the primary as Aug 18, 2026; the Wikipedia fetch said Aug 26 for the Democratic primary.",
+    "MA and MN primary dates/results and ME nominee replacement (Platner out, Jackson in) come from news reports surfaced by search, not Ballotpedia.",
+    "Gap-fill 2026-09-22: CO Baisley — no campaign site found (search surfaced only Wikipedia/Ballotpedia/Vote Smart; baisleyforcolorado.com has no DNS); positions left empty.",
+    "Gap-fill 2026-09-22: FL Moody — ashleymoody.com/issues/ returns 404; only the single homepage position remains.",
+    "Gap-fill 2026-09-22 resolved: positions added from campaign sites for AL (Moore, Wess), AK (Sullivan, Peltola), AR (Cotton via tomcotton.com, Shoffner), CO (Hickenlooper /issues/), GA (Collins), IL (Stratton), IA (Turek), KS (Hamilton), KY (Barr at barrforsenate.com; Booker at charlesbookerky.org, whose /issues/ page 404s), LA (Letlow /policyplan), MA (Deaton), MN (Tafoya), MS (Colom), FL (Nixon).",
+    "Gap-fill 2026-09-22: Collins (GA) and Sullivan (AK) homepages have no issues page; their entries reflect general homepage messaging only."
+  ]
+}

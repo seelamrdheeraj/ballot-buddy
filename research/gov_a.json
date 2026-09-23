@@ -1,0 +1,851 @@
+{
+ "office": "gov",
+ "states": {
+  "AL": {
+   "primary_held": true,
+   "primary_date": "2026-05-19",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Alabama_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Tommy Tuberville",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "U.S. Senator from Alabama (2021-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Alabama_gubernatorial_election",
+     "summary": "Jobs, border security, education, Second Amendment",
+     "site": "https://www.coachforgovernor.com/",
+     "positions": [
+      {
+       "topic": "Jobs",
+       "statement": "More jobs for Alabama.",
+       "url": "https://www.coachforgovernor.com/"
+      },
+      {
+       "topic": "Border",
+       "statement": "Securing the border.",
+       "url": "https://www.coachforgovernor.com/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Improving education.",
+       "url": "https://www.coachforgovernor.com/"
+      }
+     ]
+    },
+    {
+     "name": "Doug Jones",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former U.S. Senator from Alabama (2018-2021)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Alabama_gubernatorial_election",
+     "summary": "Medicaid expansion, affordability, education, state lottery",
+     "site": "https://www.dougjones.com/",
+     "positions": [
+      {
+       "topic": "Health care",
+       "statement": "Expand Medicaid to cover more than 154,000 working Alabamians.",
+       "url": "https://www.dougjones.com/priorities"
+      },
+      {
+       "topic": "Data centers",
+       "statement": "Declare a one-year moratorium on data centers until communities are informed and protected.",
+       "url": "https://www.dougjones.com/priorities"
+      },
+      {
+       "topic": "Lottery",
+       "statement": "Put a state lottery before voters so Alabamians can decide.",
+       "url": "https://www.dougjones.com/priorities"
+      }
+     ]
+    }
+   ],
+   "notes": "Ballotpedia page returned empty; Wikipedia used. Primary date from standard AL calendar, not confirmed by fetch. Tuberville positions are the issue headings on his homepage (issues page at coachforgovernor.com/issues not fetched). Jones positions fetched from dougjones.com/priorities on 2026-09-22 (page also lists affordability, jobs, ethics/stock-trading ban, housing, prisons). Third-party/independent candidates not confirmed."
+  },
+  "AK": {
+   "primary_held": true,
+   "primary_date": "2026-08-18",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Alaska_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Jonathan Kreiss-Tomkins",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former state representative (2013-2023)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Alaska_gubernatorial_election",
+     "summary": "Education funding, teacher retirement, lower costs, bipartisanship",
+     "site": "https://www.jktforak.com/",
+     "positions": [
+      {
+       "topic": "Education",
+       "statement": "Fully fund schools and reverse the decline of public education.",
+       "url": "https://www.jktforak.com/platform"
+      },
+      {
+       "topic": "Energy",
+       "statement": "Support all energy sources, including renewables, hydro, natural gas, to lower utility bills.",
+       "url": "https://www.jktforak.com/platform"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Protect Medicaid expansion.",
+       "url": "https://www.jktforak.com/platform"
+      }
+     ]
+    },
+    {
+     "name": "Bernadette Wilson",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Founder of a commercial waste-management company",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Alaska_gubernatorial_election",
+     "summary": "Statutory PFD, no new taxes, resource development",
+     "site": "https://bernadetteforgovernor.com/",
+     "positions": [
+      {
+       "topic": "Permanent Fund Dividend",
+       "statement": "Restore the statutory Permanent Fund Dividend.",
+       "url": "https://bernadetteforgovernor.com/"
+      },
+      {
+       "topic": "Resource development",
+       "statement": "Develop and build projects such as AKLNG, ANWR, Willow, and Ambler Road.",
+       "url": "https://bernadetteforgovernor.com/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Alaska children will attend the best schools in the country, at home.",
+       "url": "https://bernadetteforgovernor.com/"
+      }
+     ]
+    },
+    {
+     "name": "Dave Bronson",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Former Mayor of Anchorage (2021-2024)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Alaska_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Treg Taylor",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Former Alaska Attorney General (2021-2025)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Alaska_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Nonpartisan top-4 primary; general uses ranked-choice voting. Tom Begich (D) placed second but withdrew after the primary and endorsed Kreiss-Tomkins; fifth-place Treg Taylor advanced. Kreiss-Tomkins positions fetched from jktforak.com/platform and Wilson positions from her homepage (detailed page at bernadetteforgovernor.com/on-the-issues/ not fetched) on 2026-09-22. Bronson and Taylor sites not located; positions empty."
+  },
+  "AZ": {
+   "primary_held": true,
+   "primary_date": "2026-07-21",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Arizona_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Katie Hobbs",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "Governor of Arizona (2023-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Arizona_gubernatorial_election",
+     "summary": "Lower costs, middle-class tax cuts, border security",
+     "site": "https://katiehobbs.org/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "statement": "Cut taxes every year for middle-class families, veterans, and small businesses.",
+       "url": "https://katiehobbs.org/katie-hobbs-launches-black-leaders-for-katie-coalition-highlighting-her-record-of-lowering-costs-and-supporting-small-businesses/"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Eliminated $1 billion in medical debt for nearly 700,000 Arizonans; cut prescription costs.",
+       "url": "https://katiehobbs.org/katie-hobbs-launches-black-leaders-for-katie-coalition-highlighting-her-record-of-lowering-costs-and-supporting-small-businesses/"
+      },
+      {
+       "topic": "Childcare",
+       "statement": "Increasing access to childcare for working families.",
+       "url": "https://katiehobbs.org/katie-hobbs-launches-black-leaders-for-katie-coalition-highlighting-her-record-of-lowering-costs-and-supporting-small-businesses/"
+      }
+     ]
+    },
+    {
+     "name": "Andy Biggs",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "U.S. Representative, Arizona's 5th district (2017-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Arizona_gubernatorial_election",
+     "summary": "Affordability, border security, energy, water, school choice",
+     "site": "https://biggsforarizona.com/",
+     "positions": [
+      {
+       "topic": "Affordability",
+       "statement": "Bring down costs by growing the economy, lowering taxes, reducing government interference.",
+       "url": "https://biggsforarizona.com/issues/"
+      },
+      {
+       "topic": "Border",
+       "statement": "Partner with President Trump and local law enforcement to secure the southern border.",
+       "url": "https://biggsforarizona.com/issues/"
+      },
+      {
+       "topic": "Energy",
+       "statement": "Prioritize reliable, affordable energy sources to reduce utility costs and gas prices.",
+       "url": "https://biggsforarizona.com/issues/"
+      }
+     ]
+    },
+    {
+     "name": "Teri Hourihan",
+     "party": "No Labels",
+     "incumbent": false,
+     "background": "Therapist",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Arizona_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Risa Lombardo",
+     "party": "Green",
+     "incumbent": false,
+     "background": "Former Republican precinct committee member",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Arizona_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "First Arizona governor race with lieutenant-governor running mates (Hobbs: John Giles; Biggs: Sine Kerr). Hobbs's site has no issues page; positions re-sourced on 2026-09-22 from a directly fetched katiehobbs.org campaign-update post. The earlier border/National Guard item was not in the fetched post and was replaced. Biggs positions from his issues page."
+  },
+  "AR": {
+   "primary_held": true,
+   "primary_date": "2026-03-03",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Arkansas_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Sarah Huckabee Sanders",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "Governor of Arkansas (2023-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Arkansas_gubernatorial_election",
+     "summary": "",
+     "site": "https://www.sarahforgovernor.com/",
+     "positions": []
+    },
+    {
+     "name": "Fredrick Love",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Arkansas state senator, District 15 (2023-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Arkansas_gubernatorial_election",
+     "summary": "Stronger schools, economic opportunity, safer communities",
+     "site": "https://www.fredlove.com/",
+     "positions": [
+      {
+       "topic": "Education",
+       "statement": "Every child deserves quality education, strong teachers, and tools to succeed.",
+       "url": "https://www.fredlove.com/"
+      },
+      {
+       "topic": "Economy",
+       "statement": "Support small businesses, create jobs, and build a stronger Arkansas economy.",
+       "url": "https://www.fredlove.com/"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Invest in public safety, strengthen neighborhoods, and protect Arkansas families.",
+       "url": "https://www.fredlove.com/"
+      }
+     ]
+    },
+    {
+     "name": "Colt Shelby",
+     "party": "Libertarian",
+     "incumbent": false,
+     "background": "Farmer",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Arkansas_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Sanders won the GOP primary unopposed; Love won the Democratic primary with 81%. Sanders campaign site (sarahforgovernor.com/issues) returned HTTP 403 again on 2026-09-22; positions empty. Love positions fetched from fredlove.com homepage (issues page at fredlove.com/issues not fetched)."
+  },
+  "CO": {
+   "primary_held": true,
+   "primary_date": "2026-06-30",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Colorado_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Phil Weiser",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Colorado Attorney General (2019-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Colorado_gubernatorial_election",
+     "summary": "Cost of living, public safety, environment, youth mental health",
+     "site": "https://philforcolorado.com/",
+     "positions": [
+      {
+       "topic": "Rule of law",
+       "statement": "Advance the rule of law, protect democracy, and promote justice for all.",
+       "url": "https://philforcolorado.com/"
+      },
+      {
+       "topic": "Housing",
+       "statement": "Increase attainable owner-occupied homes by 40,000; expand down payment assistance.",
+       "url": "https://philforcolorado.com/issue/affordable-homes-and-communities/"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Support recruitment and investment in police and sheriffs; defend responsible gun safety laws.",
+       "url": "https://philforcolorado.com/issue/public-safety/"
+      }
+     ]
+    },
+    {
+     "name": "Victor Marx",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Author and minister; founder of All Things Possible Ministries",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Colorado_gubernatorial_election",
+     "summary": "Law and order, affordability, accountability",
+     "site": "https://www.victor2026.com/",
+     "positions": [
+      {
+       "topic": "Public safety",
+       "statement": "Putting victims first and criminals behind bars.",
+       "url": "https://www.victor2026.com/"
+      },
+      {
+       "topic": "Cost of living",
+       "statement": "Making Colorado affordable for working families again.",
+       "url": "https://www.victor2026.com/"
+      },
+      {
+       "topic": "Taxes and jobs",
+       "statement": "Lower taxes, strong jobs, a growing economy.",
+       "url": "https://www.victor2026.com/"
+      }
+     ]
+    },
+    {
+     "name": "Greg Lopez",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Former U.S. Representative, Colorado's 4th district (2024-2025)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Colorado_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Stephen T. Hamilton",
+     "party": "American Constitution",
+     "incumbent": false,
+     "background": "Party nominee",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Colorado_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Erik Mulder",
+     "party": "Libertarian",
+     "incumbent": false,
+     "background": "Party nominee",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Colorado_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Jeff Peckman",
+     "party": "Unity",
+     "incumbent": false,
+     "background": "Activist",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Colorado_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Erik Underwood",
+     "party": "Approval Voting",
+     "incumbent": false,
+     "background": "Party nominee",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Colorado_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Weiser defeated Michael Bennet 56.9-43.1 in the Democratic primary; Marx won the GOP primary 39.9% to Barbara Kirkmeyer's 39.4%. On 2026-09-22 Weiser's issue sub-pages (housing, public safety) and Marx's homepage were fetched directly; Marx statements corrected to the homepage wording. Weiser's original 'rule of law' entry is from an earlier search snippet of the homepage. Weiser's /issues/ page lists 15 topics; only two sub-pages fetched."
+  },
+  "CT": {
+   "primary_held": true,
+   "primary_date": "2026-08-11",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Connecticut_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Ned Lamont",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "Governor of Connecticut (2019-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Connecticut_gubernatorial_election",
+     "summary": "Middle-class tax cut, childcare, education, housing",
+     "site": "https://www.nedlamont.com/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "statement": "Largest middle-class tax cut in state history.",
+       "url": "https://www.nedlamont.com/priorities"
+      },
+      {
+       "topic": "Childcare",
+       "statement": "Expanded affordable childcare investment and access.",
+       "url": "https://www.nedlamont.com/priorities"
+      },
+      {
+       "topic": "Housing",
+       "statement": "Affordable housing expansion throughout the state.",
+       "url": "https://www.nedlamont.com/priorities"
+      }
+     ]
+    },
+    {
+     "name": "Ryan Fazio",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Connecticut state senator, 36th district (2021-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Connecticut_gubernatorial_election",
+     "summary": "Lower income and property taxes, electric bills, housing",
+     "site": "https://ryanfazio.com/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "statement": "Cap property taxes; Connecticut ranks third-highest taxed state in the nation.",
+       "url": "https://ryanfazio.com/issues/"
+      },
+      {
+       "topic": "Energy",
+       "statement": "Cut energy costs; Connecticut has the second-highest electricity rates in continental U.S.",
+       "url": "https://ryanfazio.com/issues/"
+      },
+      {
+       "topic": "Housing",
+       "statement": "Housing affordability and local control through his 'Grand Bargain' plan.",
+       "url": "https://ryanfazio.com/issues/"
+      }
+     ]
+    }
+   ],
+   "notes": "Lamont is seeking a third term; he defeated Josh Elliott in the August Democratic primary. Fazio won the GOP nomination at the May 2026 convention. Running mates: Susan Bysiewicz (D), Mathew Corey (R). Primary date is Connecticut's statutory second Tuesday in August, not confirmed by fetch. Fazio positions re-sourced by direct fetch of ryanfazio.com/issues on 2026-09-22; the earlier snippet figures ($1,500 income tax cut, 20% electricity cut) were not visible in the fetched text and were replaced with confirmed wording. Third-party candidates not confirmed."
+  },
+  "FL": {
+   "primary_held": true,
+   "primary_date": "2026-08-18",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Florida_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Byron Donalds",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "U.S. Representative, Florida's 19th district (2021-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Florida_gubernatorial_election",
+     "summary": "Affordability, health care, economy, education, law and order",
+     "site": "https://byrondonalds.com/",
+     "positions": [
+      {
+       "topic": "Affordability",
+       "statement": "Bring down costs for working families and seniors on fixed incomes.",
+       "url": "https://byrondonalds.com/issues/affordability/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Reading proficiency by third grade; debt-free pathways to well-paying careers.",
+       "url": "https://byrondonalds.com/issues/education/"
+      },
+      {
+       "topic": "Law and order",
+       "statement": "Secure our borders, keep local neighborhoods safe.",
+       "url": "https://byrondonalds.com/issues/law-and-order/"
+      }
+     ]
+    },
+    {
+     "name": "David Jolly",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former U.S. Representative, Florida's 13th district (2014-2017)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Florida_gubernatorial_election",
+     "summary": "Homeowners insurance reform, primary health care, public schools",
+     "site": "https://davidjolly.com/",
+     "positions": [
+      {
+       "topic": "Insurance",
+       "statement": "Historic homeowner's insurance reform.",
+       "url": "https://davidjolly.com/about-david/"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Expansion of primary healthcare services.",
+       "url": "https://davidjolly.com/about-david/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Investing in more community public schools.",
+       "url": "https://davidjolly.com/about-david/"
+      }
+     ]
+    }
+   ],
+   "notes": "Running mates: Bryan Avila (R), Gwen Graham (D). Wikipedia indicates qualified Libertarian and independent candidates exist but their names were not captured. Jolly positions confirmed by direct fetch of davidjolly.com/about-david/ on 2026-09-22 (a fuller issues page exists at davidjolly.com/issues/, not fetched)."
+  },
+  "GA": {
+   "primary_held": true,
+   "primary_date": "2026-05-19",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Rick Jackson",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Founder and CEO of Jackson Healthcare",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
+     "summary": "Affordability, tax cuts, spending cuts, education standards",
+     "site": "https://rickjackson.com/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "statement": "Cut the state income tax in half within four years.",
+       "url": "https://rickjackson.com/action-plan/"
+      },
+      {
+       "topic": "Education",
+       "statement": "Raise teacher pay.",
+       "url": "https://rickjackson.com/action-plan/"
+      },
+      {
+       "topic": "Public assistance",
+       "statement": "Tie public assistance to work or job training for able-bodied adults.",
+       "url": "https://rickjackson.com/action-plan/"
+      }
+     ]
+    },
+    {
+     "name": "Keisha Lance Bottoms",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former Mayor of Atlanta (2018-2022)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
+     "summary": "Health care, Medicaid expansion, pre-K, voting rights",
+     "site": "https://www.keishaforgovernor.com/",
+     "positions": [
+      {
+       "topic": "Health care",
+       "statement": "Lower health care costs by expanding Medicaid and ending Georgia Pathways program.",
+       "url": "https://www.keishaforgovernor.com/issues"
+      },
+      {
+       "topic": "Education",
+       "statement": "Fully fund Georgia's schools and modernize the outdated education funding formula.",
+       "url": "https://www.keishaforgovernor.com/issues"
+      },
+      {
+       "topic": "Affordability",
+       "statement": "Let local leaders eliminate or suspend local sales taxes on groceries and essentials.",
+       "url": "https://www.keishaforgovernor.com/issues"
+      }
+     ]
+    }
+   ],
+   "notes": "GOP runoff held 2026-06-16; Jackson defeated Burt Jones. Bottoms won the Democratic primary outright. Positions re-sourced on 2026-09-22 by direct fetch of rickjackson.com/action-plan/ and keishaforgovernor.com/issues; earlier snippet items not visible on fetch (Jackson property-tax freeze and tuition freeze; Bottoms pre-K guarantee and career pathways) were replaced with confirmed wording. Third-party candidates not confirmed."
+  },
+  "HI": {
+   "primary_held": true,
+   "primary_date": "2026-08-08",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Hawaii_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Josh Green",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "Governor of Hawaii (2022-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Hawaii_gubernatorial_election",
+     "summary": "Cost of living, housing, homelessness",
+     "site": "https://joshgreenforhawaii.com/",
+     "positions": [
+      {
+       "topic": "Cost of living",
+       "statement": "Delivered the biggest middle-class tax cut in Hawaii state history.",
+       "url": "https://joshgreenforhawaii.com/issues/"
+      },
+      {
+       "topic": "Housing",
+       "statement": "Bringing down housing costs for all Hawaii residents.",
+       "url": "https://joshgreenforhawaii.com/issues/"
+      },
+      {
+       "topic": "Homelessness",
+       "statement": "Largest investment in reducing homelessness in state history since 2022.",
+       "url": "https://joshgreenforhawaii.com/issues/"
+      }
+     ]
+    },
+    {
+     "name": "Gary Cordery",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Businessman; 2022 gubernatorial candidate",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Hawaii_gubernatorial_election",
+     "summary": "Housing affordability, jobs, water security",
+     "site": "https://www.garycorderyforgovernor.com/",
+     "positions": [
+      {
+       "topic": "Housing",
+       "statement": "Make housing accessible so residents can afford to stay.",
+       "url": "https://www.garycorderyforgovernor.com/"
+      },
+      {
+       "topic": "Jobs",
+       "statement": "Support local families through employment and economic development.",
+       "url": "https://www.garycorderyforgovernor.com/"
+      },
+      {
+       "topic": "Water",
+       "statement": "Explore desalination for a more sustainable and secure water future.",
+       "url": "https://www.garycorderyforgovernor.com/"
+      }
+     ]
+    }
+   ],
+   "notes": "Green won the Democratic primary with 88.5%; Cordery won the GOP primary with 75.9%. Running mates: Derek Kawakami (D), Daniel Anthony (R). Third-party candidates not confirmed."
+  },
+  "ID": {
+   "primary_held": true,
+   "primary_date": "2026-05-19",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Idaho_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Brad Little",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "Governor of Idaho (2019-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Idaho_gubernatorial_election",
+     "summary": "Tax cuts, economic growth, conservative values",
+     "site": "https://www.bradlittleforidaho.com/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "statement": "Historic tax cuts and unprecedented economic growth and investment.",
+       "url": "https://www.bradlittleforidaho.com/"
+      },
+      {
+       "topic": "Families and business",
+       "statement": "Putting Idaho families and businesses first.",
+       "url": "https://www.bradlittleforidaho.com/"
+      },
+      {
+       "topic": "Values",
+       "statement": "Defending the conservative values Idahoans share.",
+       "url": "https://www.bradlittleforidaho.com/"
+      }
+     ]
+    },
+    {
+     "name": "Terri Pickens",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Attorney; 2022 lieutenant governor nominee",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Idaho_gubernatorial_election",
+     "summary": "Public education, workers' rights, public lands, reproductive rights",
+     "site": "https://terriforidaho.com/",
+     "positions": [
+      {
+       "topic": "Education",
+       "statement": "Increase school funding, raise teacher salaries, expand pre-K and full-day kindergarten.",
+       "url": "https://terriforidaho.com/issues"
+      },
+      {
+       "topic": "Public lands",
+       "statement": "Public lands must stay in the hands of the public, not privatized.",
+       "url": "https://terriforidaho.com/issues"
+      },
+      {
+       "topic": "Reproductive rights",
+       "statement": "Women, not the government, should make their own family planning choices.",
+       "url": "https://terriforidaho.com/issues"
+      }
+     ]
+    },
+    {
+     "name": "Paul Sand",
+     "party": "Libertarian",
+     "incumbent": false,
+     "background": "2022 Libertarian gubernatorial nominee",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Idaho_gubernatorial_election",
+     "summary": "",
+     "site": "https://paulsand.org/",
+     "positions": []
+    },
+    {
+     "name": "Pro-Life",
+     "party": "Constitution",
+     "incumbent": false,
+     "background": "Perennial candidate and anti-abortion activist",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Idaho_gubernatorial_election",
+     "summary": "",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "John Stegner",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Former Idaho Supreme Court Justice (2018-2023)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Idaho_gubernatorial_election",
+     "summary": "",
+     "site": "https://www.stegnerforidaho.com/",
+     "positions": []
+    }
+   ],
+   "notes": "Little won the GOP primary with 59%; Pickens won the Democratic primary with 61%. Little's site has no dedicated issues page; positions are from homepage text. Pickens positions from her issues page."
+  },
+  "IL": {
+   "primary_held": true,
+   "primary_date": "2026-03-17",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Illinois_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "JB Pritzker",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "Governor of Illinois (2019-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Illinois_gubernatorial_election",
+     "summary": "Education, youth mental health, workforce, climate, budget",
+     "site": "https://jbpritzker.com/",
+     "positions": [
+      {
+       "topic": "Education",
+       "statement": "One of the best in the nation in education.",
+       "url": "https://jbpritzker.com/"
+      },
+      {
+       "topic": "Climate",
+       "statement": "Fighting climate change.",
+       "url": "https://jbpritzker.com/"
+      },
+      {
+       "topic": "Economy",
+       "statement": "Creating jobs, balancing our budget.",
+       "url": "https://jbpritzker.com/"
+      }
+     ]
+    },
+    {
+     "name": "Darren Bailey",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Former state senator; 2022 Republican nominee for governor",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Illinois_gubernatorial_election",
+     "summary": "Property tax relief, audit state spending, affordability",
+     "site": "https://baileyforillinois.com/",
+     "positions": [
+      {
+       "topic": "Property taxes",
+       "statement": "Homeownership should be a blessing, not a burden.",
+       "url": "https://baileyforillinois.com/issues/"
+      },
+      {
+       "topic": "Affordability",
+       "statement": "Bring real fiscal responsibility back to Springfield.",
+       "url": "https://baileyforillinois.com/issues/"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Stand with law enforcement, not against them.",
+       "url": "https://baileyforillinois.com/issues/"
+      }
+     ]
+    }
+   ],
+   "notes": "Rematch of 2022. Pritzker unopposed in the primary; Bailey won the GOP primary with 54%. Running mates: Christian Mitchell (D), Aaron Del Mar (R). Pritzker homepage lists themes only (accomplishments page at jbpritzker.com/accomplishments not fetched). baileyforillinois.com/issues/ fetched 2026-09-22: copyright '2026 Bailey for Illinois' and repeated 'as governor' wording confirm it is the 2026 governor site. Third-party candidates not confirmed."
+  },
+  "IA": {
+   "primary_held": true,
+   "primary_date": "2026-06-02",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Iowa_gubernatorial_election",
+   "candidates": [
+    {
+     "name": "Zach Lahn",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Businessman",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Iowa_gubernatorial_election",
+     "summary": "Iowa First: family farms, land ownership limits, education",
+     "site": "https://zachlahn.com/",
+     "positions": [
+      {
+       "topic": "Health",
+       "statement": "Work to defeat the cancer crisis plaguing the state.",
+       "url": "https://zachlahn.com/"
+      },
+      {
+       "topic": "Land ownership",
+       "statement": "Fight for the birthright to own the ground under our feet.",
+       "url": "https://zachlahn.com/"
+      },
+      {
+       "topic": "Agriculture",
+       "statement": "It's time for a change in a rigged farming system.",
+       "url": "https://zachlahn.com/"
+      }
+     ]
+    },
+    {
+     "name": "Rob Sand",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Iowa State Auditor (2019-present)",
+     "background_url": "https://en.wikipedia.org/wiki/2026_Iowa_gubernatorial_election",
+     "summary": "Pre-K, Medicaid, open primaries, auditor powers",
+     "site": "https://robsand.com/",
+     "positions": [
+      {
+       "topic": "Education",
+       "statement": "Universal all-day pre-K; redirect private school voucher funding to public education.",
+       "url": "https://robsand.com/priorities"
+      },
+      {
+       "topic": "Medicaid",
+       "statement": "Reverse the privatization of Medicaid by executive order.",
+       "url": "https://robsand.com/priorities"
+      },
+      {
+       "topic": "Elections",
+       "statement": "Public primaries open to all voters; approval voting in general elections.",
+       "url": "https://robsand.com/priorities"
+      }
+     ]
+    }
+   ],
+   "notes": "Open seat; Kim Reynolds (R) not seeking a third term. Lahn won the GOP primary with 37.7% over Randy Feenstra (36.9%); Sand was unopposed. Running mates: Derek Wulf (R), Dave Muhlbauer (D). Lahn site zachlahn.com fetched 2026-09-22 (policy page at zachlahn.com/policy/ not fetched). Third-party candidates not confirmed."
+  }
+ },
+ "uncertain": [
+  "AL: primary date 2026-05-19 not confirmed by fetch; third-party candidates unverified.",
+  "AK: an Aug 31 Alaska Beacon headline refers to a disqualified candidate's wife being placed on the ballot; verify the final four-candidate lineup (Wikipedia lists Treg Taylor as the fourth).",
+  "AK: Bronson and Taylor campaign sites not located; positions empty.",
+  "AR: Sanders campaign site returns HTTP 403 (two passes); positions empty. Colt Shelby (Libertarian) has no located site.",
+  "CO: Weiser 'rule of law' entry still from a search snippet; only two of 15 issue sub-pages fetched. Minor-party candidates have no located sites.",
+  "CT: primary date 2026-08-11 inferred from statute, not confirmed by fetch. Fazio's earlier specific figures ($1,500, 20%) unconfirmed on fetch.",
+  "FL: names of qualified Libertarian/independent candidates not captured.",
+  "AZ: Hobbs border/National Guard item from an earlier snippet could not be confirmed and was dropped.",
+  "ID: Sand, Pro-Life, and Stegner positions not researched (out of scope for this pass).",
+  "Ballotpedia pages returned empty on every fetch; all candidate lists come from Wikipedia. Third-party fields for AL, CT, GA, HI, IL, IA not confirmed."
+ ]
+}

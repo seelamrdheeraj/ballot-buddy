@@ -1,0 +1,1355 @@
+{
+ "office": "sen",
+ "states": {
+  "MT": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-06-02",
+   "source_url": "https://ballotpedia.org/United_States_Senate_election_in_Montana,_2026",
+   "candidates": [
+    {
+     "name": "Kurt Alme",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Former U.S. Attorney for Montana, state revenue director and governor's budget director; Harvard Law graduate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Montana,_2026",
+     "summary": "Former U.S. Attorney, endorsed by Daines",
+     "site": "https://almeforsenate.com",
+     "positions": [
+      {
+       "topic": "Affordability",
+       "statement": "Make life more affordable for Montanans.",
+       "url": "https://almeforsenate.com/"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Keep Montana communities safe.",
+       "url": "https://almeforsenate.com/"
+      },
+      {
+       "topic": "Montana way of life",
+       "statement": "Protect the Montana way of life.",
+       "url": "https://almeforsenate.com/"
+      }
+     ]
+    },
+    {
+     "name": "Alani Bankhead",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Retired U.S. Air Force lieutenant colonel and counterintelligence agent; founded a life-coaching company.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Montana,_2026",
+     "summary": "Retired Air Force officer and federal agent",
+     "site": "https://alaniformt.com",
+     "positions": [
+      {
+       "topic": "Affordability",
+       "statement": "Make life affordable for working families.",
+       "url": "https://alaniformt.com/"
+      },
+      {
+       "topic": "Government accountability",
+       "statement": "Accountability that starts at the top.",
+       "url": "https://alaniformt.com/"
+      },
+      {
+       "topic": "Protecting the vulnerable",
+       "statement": "Stand up for kids, survivors, and seniors.",
+       "url": "https://alaniformt.com/"
+      }
+     ]
+    },
+    {
+     "name": "Seth Bodnar",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "West Point graduate, former Green Beret, GE executive, and president of the University of Montana.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Montana,_2026",
+     "summary": "Independent; ex-Green Beret, university president",
+     "site": "https://www.sethformontana.com",
+     "positions": [
+      {
+       "topic": "Montana way of life",
+       "statement": "Make the Montana way of life a reality again.",
+       "url": "https://www.sethformontana.com/"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Safety, security, and the rule of law.",
+       "url": "https://www.sethformontana.com/"
+      },
+      {
+       "topic": "Political reform",
+       "statement": "Reform broken politics by working across party lines.",
+       "url": "https://www.sethformontana.com/"
+      }
+     ]
+    },
+    {
+     "name": "Kyle Austin",
+     "party": "Libertarian",
+     "incumbent": false,
+     "background": "Won the Libertarian primary over Tom Jandron.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Montana,_2026",
+     "summary": "Libertarian nominee",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Jami Woodman",
+     "party": "Nonpartisan (write-in)",
+     "incumbent": false,
+     "background": "Write-in candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Montana,_2026",
+     "summary": "Write-in candidate",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Open seat: incumbent Steve Daines (R) withdrew March 4, 2026 and endorsed Alme. Ballotpedia says Alme, Bankhead, and Bodnar lead in polling; Bodnar's positions were fetched within budget for that reason. Positions are from candidate homepages; detailed issue pages (almeforsenate.com/priorities, alaniformt.com/positions, sethformontana.com/Platform) were not fetched."
+  },
+  "NE": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-05-12",
+   "source_url": "https://ballotpedia.org/United_States_Senate_election_in_Nebraska,_2026",
+   "candidates": [
+    {
+     "name": "Pete Ricketts",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "U.S. senator since 2023 appointment; governor of Nebraska 2015-2023; former Ameritrade chief operating officer.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Nebraska,_2026",
+     "summary": "Incumbent senator, former governor",
+     "site": "https://petericketts.com",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "statement": "Cut taxes; stood with President Trump to cut taxes.",
+       "url": "https://petericketts.com/"
+      },
+      {
+       "topic": "Border security",
+       "statement": "Worked to secure the border.",
+       "url": "https://petericketts.com/"
+      },
+      {
+       "topic": "Federal spending",
+       "statement": "Opposes out-of-control spending and out-of-touch policies.",
+       "url": "https://petericketts.com/"
+      }
+     ]
+    },
+    {
+     "name": "Dan Osborn",
+     "party": "Nonpartisan",
+     "incumbent": false,
+     "background": "Industrial mechanic and former local union president; Navy and Army National Guard veteran; 2024 Senate candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Nebraska,_2026",
+     "summary": "Independent union leader, main challenger",
+     "site": "https://www.osbornforsenate.com",
+     "positions": [
+      {
+       "topic": "Anti-corruption",
+       "statement": "Strongest anti-corruption platform to curb corporate influence in politics.",
+       "url": "https://www.osbornforsenate.com/plans"
+      },
+      {
+       "topic": "Social Security and health care",
+       "statement": "Protect Social Security and health care; restore economic fairness.",
+       "url": "https://www.osbornforsenate.com/plans"
+      },
+      {
+       "topic": "Rural Nebraska",
+       "statement": "Fight agricultural monopolies; restore fair markets for farmers.",
+       "url": "https://www.osbornforsenate.com/plans"
+      }
+     ]
+    },
+    {
+     "name": "Mike Marvin",
+     "party": "Legal Marijuana Now",
+     "incumbent": false,
+     "background": "Legal Marijuana Now Party candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Nebraska,_2026",
+     "summary": "Legal Marijuana Now nominee",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Democratic nominee Cindy Burbank withdrew July 17, 2026, so no Democrat is on the ballot. Osborn (nonpartisan, endorsed by the state Democratic Party) is the main challenger; his positions were fetched within budget. Rated Likely Republican."
+  },
+  "NC": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-03-03",
+   "source_url": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
+   "candidates": [
+    {
+     "name": "Roy Cooper",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Governor of North Carolina 2017-2025; state attorney general 2001-2017; former state legislator.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
+     "summary": "Former two-term governor",
+     "site": "https://roycooper.com",
+     "positions": [
+      {
+       "topic": "Grocery prices",
+       "statement": "Lower food and grocery costs.",
+       "url": "https://roycooper.com/costless/groceries/"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Make health insurance and care more affordable for families.",
+       "url": "https://roycooper.com/costless/health-care/"
+      },
+      {
+       "topic": "Housing",
+       "statement": "Lower housing costs for North Carolinians.",
+       "url": "https://roycooper.com/costless/housing/"
+      }
+     ]
+    },
+    {
+     "name": "Michael Whatley",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Former chair of the Republican National Committee.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
+     "summary": "Former RNC chair, backs Trump agenda",
+     "site": "https://www.michaelwhatley.com",
+     "positions": [
+      {
+       "topic": "Immigration",
+       "statement": "Strict enforcement; deport undocumented immigrants with criminal records.",
+       "url": "https://michaelwhatley.com/issues/#immigration"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Back law enforcement; reverse policies such as cashless bail.",
+       "url": "https://michaelwhatley.com/issues/#safe"
+      },
+      {
+       "topic": "Economy",
+       "statement": "Affordable energy and reduced federal spending.",
+       "url": "https://michaelwhatley.com/issues/#economy"
+      }
+     ]
+    },
+    {
+     "name": "Michael Dublin",
+     "party": "Green",
+     "incumbent": false,
+     "background": "Green Party candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
+     "summary": "Green Party nominee",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Shannon Bray",
+     "party": "Libertarian",
+     "incumbent": false,
+     "background": "Libertarian candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
+     "summary": "Libertarian nominee",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Shaunesi Deberry",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Open seat; incumbent Thom Tillis (R) is retiring. Rated Toss-up (Inside Elections) to Lean Democratic (Cook, Sabato) as of Aug. 2026."
+  },
+  "NH": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-09-08",
+   "source_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026",
+   "candidates": [
+    {
+     "name": "Chris Pappas",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "U.S. representative for New Hampshire's 1st District since 2019.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026",
+     "summary": "Sitting U.S. House member",
+     "site": "https://chrispappas.org",
+     "positions": [
+      {
+       "topic": "Anti-corruption",
+       "statement": "Priority: an anti-corruption agenda.",
+       "url": "https://chrispappas.org/"
+      },
+      {
+       "topic": "Taxes and costs",
+       "statement": "Priority: a tax cuts and lower costs blueprint.",
+       "url": "https://chrispappas.org/"
+      }
+     ]
+    },
+    {
+     "name": "John Sununu",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Former U.S. senator from New Hampshire (2003-2009) and former U.S. representative.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026",
+     "summary": "Former U.S. senator seeking return",
+     "site": "https://www.sununusenator.com",
+     "positions": [
+      {
+       "topic": "Government waste",
+       "statement": "Took on government waste.",
+       "url": "https://www.sununusenator.com/"
+      },
+      {
+       "topic": "Taxes",
+       "statement": "Opposed tax hikes.",
+       "url": "https://www.sununusenator.com/"
+      },
+      {
+       "topic": "Seniors",
+       "statement": "Protected our seniors.",
+       "url": "https://www.sununusenator.com/"
+      }
+     ]
+    },
+    {
+     "name": "Edmond Laplante",
+     "party": "Constitution",
+     "incumbent": false,
+     "background": "Constitution Party of NH state chairman, Richmond school board member, Marine Corps veteran and auto mechanic.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026",
+     "summary": "Constitution Party state chairman",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Open seat; incumbent Jeanne Shaheen (D) retiring. Rated Lean Democratic (Cook, Sabato) to Toss-up (Inside Elections) as of Sept. 8, 2026. Pappas's homepage (chrispappas.org) names two priority areas only; his detailed pages (chrispappas.org/priorities/) were not fetched within the 2-call cap. Sununu's site (sununusenator.com) has no issues page; positions are the record line on his homepage."
+  },
+  "NJ": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-06-02",
+   "source_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Jersey,_2026",
+   "candidates": [
+    {
+     "name": "Cory Booker",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "U.S. senator since 2013; former mayor of Newark.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Jersey,_2026",
+     "summary": "Incumbent senator since 2013",
+     "site": "https://corybooker.com",
+     "positions": [
+      {
+       "topic": "Campaign finance",
+       "statement": "Rejects money from federal lobbyists, corporate PACs, fossil-fuel and pharma executives.",
+       "url": "https://corybooker.com/"
+      },
+      {
+       "topic": "Justice and opportunity",
+       "statement": "Fight to advance justice and opportunity for all Americans.",
+       "url": "https://corybooker.com/"
+      },
+      {
+       "topic": "Criminal justice",
+       "statement": "Fix the criminal justice system; co-sponsored the First Step Act.",
+       "url": "https://corybooker.com/about-cory/"
+      },
+      {
+       "topic": "Marijuana",
+       "statement": "Legalize marijuana federally and restore justice to those already convicted.",
+       "url": "https://corybooker.com/about-cory/"
+      }
+     ]
+    },
+    {
+     "name": "Justin Murphy",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Former Tabernacle Township committeeman and U.S. Navy veteran; won the June 2 GOP primary with 33.4%.",
+     "background_url": "https://whyy.org/articles/new-jersey-election-2026-primary-senate-republican-nomination/",
+     "summary": "Former township committeeman, Navy veteran",
+     "site": "https://jerseyjustin4senate.org",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "statement": "Abolish the IRS; flat income tax of 10-12 percent; end capital gains tax.",
+       "url": "https://jerseyjustin4senate.org/"
+      },
+      {
+       "topic": "Education",
+       "statement": "School choice for parents; abolish the federal Department of Education.",
+       "url": "https://jerseyjustin4senate.org/"
+      },
+      {
+       "topic": "Immigration",
+       "statement": "Secure borders, complete the border wall, withhold aid to sanctuary cities.",
+       "url": "https://jerseyjustin4senate.org/"
+      }
+     ]
+    },
+    {
+     "name": "Veronica Fernandez",
+     "party": "End the Corruption!",
+     "incumbent": false,
+     "background": "Co-owner of a small commercial electrical contracting business; former insurance underwriter.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Jersey,_2026",
+     "summary": "Small-business owner, third-party candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Joanne Kuniansky",
+     "party": "Socialist Workers",
+     "incumbent": false,
+     "background": "Socialist Workers Party candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Jersey,_2026",
+     "summary": "Socialist Workers Party candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Eduardo Castillo",
+     "party": "Democratic (write-in)",
+     "incumbent": false,
+     "background": "Write-in candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Jersey,_2026",
+     "summary": "Write-in candidate",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Booker's homepage carries little policy detail; two positions were added from his About page. Murphy's positions are from his homepage (jerseyjustin4senate.org), which also has issue subpages on energy, China, immigration and drugs."
+  },
+  "NM": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-06-02",
+   "source_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Mexico,_2026",
+   "candidates": [
+    {
+     "name": "Ben Ray Luján",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "U.S. senator since 2021; previously U.S. representative for New Mexico's 3rd District.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Mexico,_2026",
+     "summary": "Incumbent senator seeking second term",
+     "site": "https://benraylujan.com",
+     "positions": [
+      {
+       "topic": "Jobs",
+       "statement": "Create good-paying jobs for hardworking New Mexicans.",
+       "url": "https://benraylujan.com/about/"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Increase access to quality, affordable health care.",
+       "url": "https://benraylujan.com/about/"
+      },
+      {
+       "topic": "Natural resources",
+       "statement": "Protect New Mexico's natural resources.",
+       "url": "https://benraylujan.com/about/"
+      }
+     ]
+    },
+    {
+     "name": "Larry E. Marker",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Self-employed oil and gas businessperson from Roswell; won the GOP nomination as a write-in after no Republican filed.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Mexico,_2026",
+     "summary": "Write-in GOP nominee, oil-and-gas businessman",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Marker qualified for the ballot by winning at least 2,351 write-in votes in the June 2 Republican primary. No campaign website for Marker was found (search plus a markerforsenate.com attempt, which does not resolve); positions empty. Luján positions are from his site's About page as summarized on the homepage."
+  },
+  "OR": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-05-19",
+   "source_url": "https://ballotpedia.org/United_States_Senate_election_in_Oregon,_2026",
+   "candidates": [
+    {
+     "name": "Jeff Merkley",
+     "party": "Democratic / Working Families",
+     "incumbent": true,
+     "background": "U.S. senator since 2009.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Oregon,_2026",
+     "summary": "Incumbent senator since 2009",
+     "site": "https://www.jeffmerkley.com",
+     "positions": [
+      {
+       "topic": "Democracy",
+       "statement": "Stop the corruption of our democracy.",
+       "url": "https://www.jeffmerkley.com/"
+      },
+      {
+       "topic": "Climate",
+       "statement": "Take on the climate crisis.",
+       "url": "https://www.jeffmerkley.com/"
+      },
+      {
+       "topic": "Working families",
+       "statement": "Create opportunity for working families.",
+       "url": "https://www.jeffmerkley.com/"
+      }
+     ]
+    },
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Oregon state senator from Port Orford (2023-present); won a seven-way GOP primary.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oregon",
+     "summary": "State senator from the south coast",
+     "site": "https://www.davidbrocksmithfororegon.com",
+     "positions": [
+      {
+       "topic": "Affordability",
+       "statement": "No new taxes, support local businesses, eliminate fraud, reduce government spending.",
+       "url": "https://www.davidbrocksmithfororegon.com/issues"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Support law enforcement; accountability for repeat offenders; restore consequences.",
+       "url": "https://www.davidbrocksmithfororegon.com/issues"
+      },
+      {
+       "topic": "Homelessness",
+       "statement": "Drug and mental health treatment that works; end permanent street camping.",
+       "url": "https://www.davidbrocksmithfororegon.com/issues"
+      }
+     ]
+    },
+    {
+     "name": "Gary Dye",
+     "party": "Libertarian",
+     "incumbent": false,
+     "background": "Libertarian candidate; engineer.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Oregon,_2026",
+     "summary": "Libertarian nominee",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Pacific Green / Progressive",
+     "incumbent": false,
+     "background": "Pacific Green Party of Oregon and Progressive Party candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Oregon,_2026",
+     "summary": "Pacific Green/Progressive nominee",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Smith's positions are from his site's Issues page. Ballotpedia lists Chris Henry as the Pacific Green/Progressive candidate while Wikipedia lists Brett Smith; Ballotpedia's list is used."
+  },
+  "OK": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-06-16",
+   "source_url": "https://ballotpedia.org/United_States_Senate_election_in_Oklahoma,_2026",
+   "candidates": [
+    {
+     "name": "Kevin Hern",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "U.S. representative for Oklahoma's 1st District since 2018; endorsed by President Trump.",
+     "background_url": "https://news.ballotpedia.org/2026/03/12/rep-kevin-hern-becomes-the-16th-u-s-house-member-to-run-for-the-u-s-senate-in-2026/",
+     "summary": "Sitting U.S. House member, Trump-endorsed",
+     "site": "https://hernforsenate.com",
+     "positions": [
+      {
+       "topic": "Balanced budget",
+       "statement": "Supports a constitutional amendment requiring balanced federal budgets.",
+       "url": "https://hernforsenate.com/promises-kept/"
+      },
+      {
+       "topic": "Border security",
+       "statement": "Supports border wall funding and defunding sanctuary campuses.",
+       "url": "https://hernforsenate.com/promises-kept/"
+      },
+      {
+       "topic": "Second Amendment",
+       "statement": "Backs concealed-carry reciprocity; opposes gun control measures.",
+       "url": "https://hernforsenate.com/promises-kept/"
+      }
+     ]
+    },
+    {
+     "name": "N'Kiyla Thomas",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Nurse, Chickasaw citizen and military spouse from Ardmore; won the Aug. 25 Democratic runoff.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Oklahoma,_2026",
+     "summary": "Nurse and first-time candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Sevier White",
+     "party": "Libertarian",
+     "incumbent": false,
+     "background": "Libertarian candidate; 2016 nominee for Oklahoma's 4th Congressional District.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oklahoma",
+     "summary": "Libertarian nominee",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Ron Meinhardt",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate; media executive.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oklahoma",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Curtis Stinnett",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate; pharmacist.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oklahoma",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Open seat: Markwayne Mullin (R) resigned in March 2026 after being nominated as DHS Secretary; Alan S. Armstrong (R) was appointed March 24, 2026 and is not on the ballot. Regular Class II election, not a special. Democratic runoff was Aug. 25, 2026. No campaign site found for Thomas in two attempts (search returned only news/FEC/Ballotpedia pages); positions empty."
+  },
+  "RI": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-09-09",
+   "source_url": "https://ballotpedia.org/United_States_Senate_election_in_Rhode_Island,_2026",
+   "candidates": [
+    {
+     "name": "Jack Reed",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "U.S. senator since 1997; seeking a sixth term.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Rhode_Island,_2026",
+     "summary": "Incumbent senator since 1997",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Raymond McKay",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Former Rhode Island Republican State Central Committee member; unopposed in the Sept. 9 GOP primary.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Rhode_Island",
+     "summary": "Former GOP state committee member",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Michael Bahry",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate; theologian.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Rhode_Island",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Jon Lindley",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Rhode_Island,_2026",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Reed: search returned only his official Senate office site (reed.senate.gov), and reedforsenate.com refused connection again; positions empty. McKay: mckayforsenate.com redirects to mckayforussenate.com, which was not fetched within the 2-call cap; positions empty."
+  },
+  "SC": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-06-09",
+   "source_url": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+   "candidates": [
+    {
+     "name": "Darline Graham",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "Appointed July 13, 2026 to the seat of her late brother Lindsey Graham; former commissioner of the S.C. Commission for the Blind; won the Aug. 25 special GOP runoff.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+     "summary": "Appointed senator, won GOP replacement runoff",
+     "site": "https://www.darlinegraham.com",
+     "positions": [
+      {
+       "topic": "Taxpayer dollars",
+       "statement": "Fiercely protective of taxpayer dollars.",
+       "url": "https://www.darlinegraham.com/"
+      }
+     ]
+    },
+    {
+     "name": "Annie Andrews",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Pediatrician; won the June 9 Democratic primary.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina",
+     "summary": "Pediatrician, Democratic nominee",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Mark Hackett",
+     "party": "Constitution",
+     "incumbent": false,
+     "background": "Constitution Party candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+     "summary": "Constitution Party nominee",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Kasie Whitener",
+     "party": "Libertarian",
+     "incumbent": false,
+     "background": "University of South Carolina business professor, author and radio host; S.C. Libertarian Party state chair.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+     "summary": "Professor, Libertarian state chair",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Jack Ellison",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Cindy Glaser",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Paul Sedletsky",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Edward Strunge",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Reece Wright-McDonald",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Catherine Fleming Bruce",
+     "party": "Democratic (write-in)",
+     "incumbent": false,
+     "background": "Write-in candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_South_Carolina,_2026",
+     "summary": "Write-in candidate",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Sen. Lindsey Graham (R) won renomination June 9 and died July 11, 2026; Gov. McMaster appointed his sister Darline Graham on July 13. A special Republican primary (Aug. 11) and runoff (Aug. 25) chose the replacement nominee; Graham defeated Rep. Ralph Norman 52.5%. Regular Class II election, not a special. Graham's homepage (darlinegraham.com) states one stance; her /issues page was not fetched within the 2-call cap. annieandrews.com is a parked domain and no other Andrews campaign site was found; her positions are empty."
+  },
+  "SD": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-06-02",
+   "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Dakota",
+   "candidates": [
+    {
+     "name": "Mike Rounds",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "U.S. senator since 2015; seeking a third term.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Dakota",
+     "summary": "Incumbent senator seeking third term",
+     "site": "https://roundsforsenate.com",
+     "positions": [
+      {
+       "topic": "Energy",
+       "statement": "Achieve energy independence.",
+       "url": "https://roundsforsenate.com/issues/"
+      },
+      {
+       "topic": "Taxes",
+       "statement": "Keep taxes low so the next generation can thrive.",
+       "url": "https://roundsforsenate.com/issues/"
+      },
+      {
+       "topic": "Regulation",
+       "statement": "Reduce bureaucratic burden to support economic growth.",
+       "url": "https://roundsforsenate.com/issues/"
+      }
+     ]
+    },
+    {
+     "name": "Brian Bengs",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Navy and Air Force veteran; former Northern State University political science professor; 2022 Democratic Senate nominee now running as an independent.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Dakota",
+     "summary": "Veteran, ex-professor, independent challenger",
+     "site": "https://bengsforsouthdakota.com",
+     "positions": [
+      {
+       "topic": "Anti-corruption",
+       "statement": "Ban congressional stock trading; set ethics standards for public officials.",
+       "url": "https://bengsforsouthdakota.com/policy-positions/"
+      },
+      {
+       "topic": "Term limits",
+       "statement": "Twelve-year maximum for senators and representatives.",
+       "url": "https://bengsforsouthdakota.com/policy-positions/"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Overhaul health care to reduce costs and improve access.",
+       "url": "https://bengsforsouthdakota.com/policy-positions/"
+      }
+     ]
+    }
+   ],
+   "notes": "No Democrat on the ballot: the Democratic nominee withdrew and Bengs runs as an independent, so his positions were fetched. Rated safe Republican. Wikipedia is the source because Ballotpedia blocked automated access when this state was fetched."
+  },
+  "TN": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-08-06",
+   "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+   "candidates": [
+    {
+     "name": "Bill Hagerty",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "U.S. senator since 2021.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+     "summary": "Incumbent senator seeking second term",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Marquita Bradshaw",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Staffing consultant and environmental activist; 2020 Democratic Senate nominee.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+     "summary": "2020 nominee in rematch with Hagerty",
+     "site": "https://marquitabradshaw.com",
+     "positions": [
+      {
+       "topic": "Health care",
+       "statement": "Lower prescription-drug costs, protect rural hospitals, expand mental-health services.",
+       "url": "https://marquitabradshaw.com/issues/healthcare"
+      },
+      {
+       "topic": "Public education",
+       "statement": "Fully fund schools with competitive teacher pay and resources.",
+       "url": "https://marquitabradshaw.com/issues/public-education"
+      },
+      {
+       "topic": "Housing",
+       "statement": "Expand affordable housing; help renters and first-time homebuyers.",
+       "url": "https://marquitabradshaw.com/issues/invest-in-affordable-housing"
+      }
+     ]
+    },
+    {
+     "name": "Andrew Woodruff Mixon",
+     "party": "Federalist",
+     "incumbent": false,
+     "background": "Federalist Party candidate.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+     "summary": "Federalist Party candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Tharon Chandler",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent; 2024 Senate candidate.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Andrew Gerena",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate; technician.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Jeremy Hearn",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Robert Jones",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate; small business owner.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "James Macon III",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Yoshi Matthews",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate; nonprofit founder.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "David Sutman Jr.",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Catherine Whitson",
+     "party": "Independent",
+     "incumbent": false,
+     "background": "Independent candidate.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+     "summary": "Independent candidate",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Rated Safe/Solid Republican. Hagerty's campaign site appears to be teamhagerty.com (found via search) but it returned HTTP 403 when fetched, so his positions are empty. Wikipedia is the source because Ballotpedia blocked automated access when this state was fetched."
+  },
+  "VA": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-08-04",
+   "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Virginia",
+   "candidates": [
+    {
+     "name": "Mark Warner",
+     "party": "Democratic",
+     "incumbent": true,
+     "background": "U.S. senator seeking a fourth term; former governor of Virginia.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Virginia",
+     "summary": "Incumbent senator seeking fourth term",
+     "site": "https://www.markwarnerva.com",
+     "positions": [
+      {
+       "topic": "Affordability",
+       "statement": "Making Virginia affordable as prices and health care costs rise.",
+       "url": "https://www.markwarnerva.com/"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Fought to lower health care costs.",
+       "url": "https://www.markwarnerva.com/"
+      },
+      {
+       "topic": "Taxes",
+       "statement": "Reform a tax system that favors the wealthiest over working families.",
+       "url": "https://www.markwarnerva.com/"
+      }
+     ]
+    },
+    {
+     "name": "Bert Mizusawa",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Retired Army major general; West Point and Harvard Law graduate; won the Aug. 4 GOP primary with 51.5%.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Virginia",
+     "summary": "Retired Army general, GOP nominee",
+     "site": "https://bertforsenate.com",
+     "positions": [
+      {
+       "topic": "Fiscal responsibility",
+       "statement": "Focus on balancing the budget.",
+       "url": "https://bertforsenate.com/issues"
+      },
+      {
+       "topic": "Corruption",
+       "statement": "Ban congressional stock trading.",
+       "url": "https://bertforsenate.com/issues"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Lower healthcare costs; hold insurance companies accountable; fund rural hospitals.",
+       "url": "https://bertforsenate.com/issues"
+      }
+     ]
+    }
+   ],
+   "notes": "Warner's positions are from his campaign homepage (markwarnerva.com); his /plan/ page was not fetched. Mizusawa's positions are from bertforsenate.com/issues. Wikipedia is the source because Ballotpedia blocked automated access when this state was fetched."
+  },
+  "WV": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-05-12",
+   "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia",
+   "candidates": [
+    {
+     "name": "Shelley Moore Capito",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "U.S. senator since 2015; won the May 12 primary with 66.5%.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia",
+     "summary": "Incumbent senator seeking third term",
+     "site": "https://shelleymoorecapito.com",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "statement": "Supports tax cuts and getting them through Congress.",
+       "url": "https://shelleymoorecapito.com/"
+      },
+      {
+       "topic": "Border security",
+       "statement": "Advocates securing the southern border.",
+       "url": "https://shelleymoorecapito.com/"
+      },
+      {
+       "topic": "Opioid crisis",
+       "statement": "Working to address West Virginia's opioid epidemic.",
+       "url": "https://shelleymoorecapito.com/"
+      }
+     ]
+    },
+    {
+     "name": "Rachel Fetty Anderson",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former Morgantown city council member; won a five-way Democratic primary with 33.2%.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia",
+     "summary": "Former Morgantown councilwoman",
+     "site": "https://www.fettyandersonforsenate.com",
+     "positions": []
+    },
+    {
+     "name": "S. Marshall Wilson",
+     "party": "Constitution",
+     "incumbent": false,
+     "background": "National Guard officer; former member of the House of Delegates.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia",
+     "summary": "Former delegate, Constitution Party",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Rio Phillips",
+     "party": "Write-in",
+     "incumbent": false,
+     "background": "Write-in candidate; cybersecurity technician.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia",
+     "summary": "Write-in candidate",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Rated safe Republican. Fetty Anderson's campaign site (fettyandersonforsenate.com) was confirmed but its homepage has no policy text; the /issues and /platform pages were not fetched within the 2-call cap, so positions are empty. Wikipedia is the source because Ballotpedia blocked automated access when this state was fetched."
+  },
+  "WY": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-08-18",
+   "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Wyoming",
+   "candidates": [
+    {
+     "name": "Harriet Hageman",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "U.S. representative for Wyoming's at-large district since 2023.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Wyoming",
+     "summary": "Sitting U.S. House member",
+     "site": "https://www.hagemanforwyoming.com",
+     "positions": []
+    },
+    {
+     "name": "James W. Byrd",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former Wyoming state representative, District 44 (2009-2019).",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Wyoming",
+     "summary": "Former state legislator",
+     "site": "https://www.byrdforsenate.com",
+     "positions": [
+      {
+       "topic": "Energy costs",
+       "statement": "Cut gas prices through more domestic production and fewer foreign military entanglements.",
+       "url": "https://www.byrdforsenate.com/"
+      },
+      {
+       "topic": "Public lands",
+       "statement": "Keep public lands public for recreation and grazing.",
+       "url": "https://www.byrdforsenate.com/"
+      },
+      {
+       "topic": "Health care",
+       "statement": "Lower drug costs and support rural medical facilities.",
+       "url": "https://www.byrdforsenate.com/"
+      }
+     ]
+    }
+   ],
+   "notes": "Open seat; incumbent Cynthia Lummis (R) is not seeking re-election. Rated safe Republican. Hageman's site (hagemanforwyoming.com) has no issues page: the homepage has no policy text, the About page returned 404 earlier, and the Resources page is a media kit only, so positions are empty. Wikipedia is the source because Ballotpedia blocked automated access when this state was fetched."
+  },
+  "OH": {
+   "special": true,
+   "primary_held": true,
+   "primary_date": "2026-05-05",
+   "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
+   "candidates": [
+    {
+     "name": "Jon Husted",
+     "party": "Republican",
+     "incumbent": true,
+     "background": "U.S. senator, appointed in 2025 to fill the seat vacated by Vice President J.D. Vance.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
+     "summary": "Appointed incumbent seeking remainder of term",
+     "site": "https://www.jonhustedforsenate.com",
+     "positions": [
+      {
+       "topic": "Government efficiency",
+       "statement": "Reduce costs and eliminate government waste.",
+       "url": "https://www.jonhustedforsenate.com/bio/"
+      },
+      {
+       "topic": "Public safety",
+       "statement": "Supports police; secured funding for law enforcement agencies.",
+       "url": "https://www.jonhustedforsenate.com/bio/"
+      },
+      {
+       "topic": "Taxes",
+       "statement": "Delivered the largest income tax cut in Ohio's history.",
+       "url": "https://www.jonhustedforsenate.com/bio/"
+      },
+      {
+       "topic": "Abortion",
+       "statement": "Champion for life.",
+       "url": "https://www.jonhustedforsenate.com/bio/"
+      }
+     ]
+    },
+    {
+     "name": "Sherrod Brown",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Former three-term U.S. senator from Ohio seeking to return.",
+     "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
+     "summary": "Former senator seeking comeback",
+     "site": "https://sherrodbrown.com",
+     "positions": [
+      {
+       "topic": "Health insurance",
+       "statement": "Ban insurers from denying care your doctor says you need.",
+       "url": "https://www.sherrodbrown.com/our-fight/"
+      },
+      {
+       "topic": "Prescription drugs",
+       "statement": "Make it illegal for drug companies to charge Americans more than abroad.",
+       "url": "https://www.sherrodbrown.com/our-fight/"
+      },
+      {
+       "topic": "Congressional stock trading",
+       "statement": "No member of Congress or spouse should be able to trade stocks.",
+       "url": "https://www.sherrodbrown.com/our-fight/"
+      }
+     ]
+    }
+   ],
+   "notes": "Special election for the last two years of the term J.D. Vance (R) won in 2022. Husted's site has no issues page; his positions are record statements from its Bio page. Brown's positions are from sherrodbrown.com/our-fight/. Any minor-party or independent candidates could not be confirmed (Wikipedia page truncated; Ballotpedia blocked at fetch time)."
+  },
+  "TX": {
+   "special": false,
+   "primary_held": true,
+   "primary_date": "2026-03-03",
+   "source_url": "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
+   "candidates": [
+    {
+     "name": "Ken Paxton",
+     "party": "Republican",
+     "incumbent": false,
+     "background": "Texas attorney general since 2015; former state senator and state representative; defeated incumbent Sen. John Cornyn in the May 26 GOP runoff.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
+     "summary": "Texas attorney general who beat Cornyn",
+     "site": "https://www.kenpaxton.com",
+     "positions": [
+      {
+       "topic": "Border security",
+       "statement": "Finish the border wall; deport criminal illegal aliens.",
+       "url": "https://www.kenpaxton.com/issues"
+      },
+      {
+       "topic": "Taxes and spending",
+       "statement": "Cut taxes, stop wasteful spending, remove regulations on energy companies.",
+       "url": "https://www.kenpaxton.com/issues"
+      },
+      {
+       "topic": "Health and food",
+       "statement": "Take on Big Pharma and Big Food; increase transparency in food and healthcare.",
+       "url": "https://www.kenpaxton.com/issues"
+      }
+     ]
+    },
+    {
+     "name": "James Talarico",
+     "party": "Democratic",
+     "incumbent": false,
+     "background": "Texas state representative since 2019; former middle-school teacher and Presbyterian seminarian.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
+     "summary": "State representative, former teacher",
+     "site": "https://jamestalarico.com",
+     "positions": [
+      {
+       "topic": "Corruption",
+       "statement": "Take the fight against billionaire mega-donors and corruption to Washington.",
+       "url": "https://jamestalarico.com/"
+      },
+      {
+       "topic": "Working people",
+       "statement": "Win power back for working people.",
+       "url": "https://jamestalarico.com/"
+      }
+     ]
+    },
+    {
+     "name": "Ted Brown",
+     "party": "Libertarian",
+     "incumbent": false,
+     "background": "Libertarian candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
+     "summary": "Libertarian nominee",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Avery Ayers",
+     "party": "Independent (write-in)",
+     "incumbent": false,
+     "background": "Write-in candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
+     "summary": "Write-in candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Bradford Hall",
+     "party": "Independent (write-in)",
+     "incumbent": false,
+     "background": "Write-in candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
+     "summary": "Write-in candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Zul Mohamed",
+     "party": "Independent (write-in)",
+     "incumbent": false,
+     "background": "Write-in candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
+     "summary": "Write-in candidate",
+     "site": "",
+     "positions": []
+    },
+    {
+     "name": "Jade Simmons",
+     "party": "Independent (write-in)",
+     "incumbent": false,
+     "background": "Write-in candidate.",
+     "background_url": "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
+     "summary": "Write-in candidate",
+     "site": "",
+     "positions": []
+    }
+   ],
+   "notes": "Incumbent John Cornyn (R) lost the May 26 Republican primary runoff to Paxton, so no incumbent is on the ballot. Rated Lean Republican or Toss-up as of Sept. 2026. Paxton's homepage still shows placeholder issue text, but kenpaxton.com/issues now has real content and his positions come from there. Talarico's issues page (jamestalarico.com/issues) lists only topic headings; his positions are from the homepage."
+  }
+ },
+ "uncertain": [
+  "NH: Pappas homepage names only two priority areas; detailed pages (chrispappas.org/priorities/) not fetched under the 2-call cap. Sununu site has no issues page; positions are the record line on his homepage.",
+  "NJ: Murphy's background is from WHYY, not Ballotpedia.",
+  "OR: Pacific Green nominee differs between Ballotpedia (Chris Henry) and Wikipedia (Brett Smith).",
+  "NM: no campaign site found for Larry Marker (search and markerforsenate.com both failed).",
+  "RI: no Reed campaign site confirmed (reedforsenate.com refuses connection). McKay's site redirects to mckayforussenate.com, not fetched under the 2-call cap.",
+  "SC: Darline Graham has one homepage stance only; darlinegraham.com/issues not fetched under the 2-call cap. annieandrews.com is a parked domain; no Andrews campaign site found.",
+  "OK: no campaign site found for N'Kiyla Thomas.",
+  "SD, TN, VA, WV, WY, OH: candidate lists and backgrounds come from Wikipedia, not Ballotpedia (Ballotpedia returned a bot-check page).",
+  "OH: minor-party/independent candidates unconfirmed. Husted positions are record statements from his bio page (no issues page on site).",
+  "TN: teamhagerty.com returned HTTP 403; Hagerty positions empty.",
+  "VA: Warner positions are from his homepage; markwarnerva.com/plan/ not fetched.",
+  "WV: fettyandersonforsenate.com homepage has no policy text; its /issues and /platform pages not fetched under the 2-call cap.",
+  "WY: Hageman's site has no issues page (see notes)."
+ ]
+}

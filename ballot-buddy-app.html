@@ -1,0 +1,716 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="BallotBuddy">
+<meta name="theme-color" content="#F6F1E7">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="icon" href="icon.png">
+<link rel="manifest" href="manifest.json">
+<title>BallotBuddy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+  :root{
+    --navy:#0F4A6B; --navy-deep:#0B3A55; --red:#D8454F; --red-deep:#B8353E; --coral:#D9737D;
+    --cream:#F6F1E7; --cream-2:#EFE7D8; --marigold:#F2A65A; --ink:#0B1F2E; --ink-2:#3B4C58; --muted:#6B7C87;
+    --line:#DCD2C0; --white:#FFFFFF; --good:#2E8B57; --warn:#C7791B;
+    --stage:#0F4A6B; --stage-shape:#D9737D; --stage-text:#F6F1E7;
+    --display:'Archivo','Arial Narrow',Arial,sans-serif; --body:'Public Sans','Helvetica Neue',Arial,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --stage:#071F2E; --stage-shape:#7A3A42; --stage-text:#EFE7D8; } }
+  :root[data-theme="dark"]{ --stage:#071F2E; --stage-shape:#7A3A42; --stage-text:#EFE7D8; }
+
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--stage);color:var(--ink);font-family:var(--body);min-height:100vh;
+    background-image:radial-gradient(ellipse 42% 60% at 8% 12%,var(--stage-shape) 0 55%,transparent 56%),
+      radial-gradient(ellipse 40% 55% at 95% 90%,var(--stage-shape) 0 55%,transparent 56%),
+      radial-gradient(ellipse 30% 30% at 88% 8%,var(--navy-deep) 0 55%,transparent 56%);
+  }
+  .stage{min-height:100vh;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:32px;padding:32px 24px}
+  .stage-side{color:var(--stage-text);max-width:300px;justify-self:end}
+  .stage-side h1{font-family:var(--display);font-weight:900;font-size:2.4rem;line-height:1;margin:0 0 12px;letter-spacing:-.01em;text-wrap:balance}
+  .stage-side p{margin:0 0 10px;line-height:1.5;opacity:.9}
+  .stage-right{justify-self:start;max-width:250px;color:var(--stage-text);font-size:.88rem;line-height:1.5;opacity:.85}
+  .stage-right b{color:var(--marigold)}
+
+  .phone{width:390px;height:800px;transform-origin:center center;flex:none;background:#0e1620;border-radius:52px;padding:14px;box-shadow:0 30px 80px rgba(0,0,0,.45),inset 0 0 0 2px #2a3644;position:relative}
+  .phone::before{content:"";position:absolute;top:14px;left:50%;transform:translateX(-50%);width:120px;height:30px;background:#0e1620;border-radius:0 0 20px 20px;z-index:5}
+  .screen{width:100%;height:100%;background:var(--cream);border-radius:40px;overflow:hidden;display:flex;flex-direction:column;position:relative}
+  .status{height:44px;display:flex;justify-content:space-between;align-items:flex-end;padding:0 28px 6px;font-size:.8rem;font-weight:700;color:var(--ink)}
+  .view{flex:1;overflow-y:auto;overflow-x:hidden;padding:12px 20px 24px;scroll-behavior:smooth}
+  .view::-webkit-scrollbar{width:0}
+  .tabs{display:flex;border-top:1px solid var(--line);background:var(--cream);padding:8px 6px 18px}
+  .tab{flex:1;background:none;border:0;font:inherit;font-size:.66rem;font-weight:700;color:var(--navy);display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;padding:6px 0;border-radius:12px}
+  .tab svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .tab.active{color:var(--red)}
+  .tab:focus-visible{outline:2px solid var(--marigold)}
+
+  h1.brand{font-family:var(--display);font-weight:900;color:var(--navy);text-align:center;font-size:2.1rem;line-height:1.05;margin:120px 0 14px;letter-spacing:-.01em}
+  h1.brand small{display:block;font-weight:700;font-size:1.35rem;letter-spacing:0}
+  h2{font-family:var(--display);font-weight:900;color:var(--navy);font-size:1.5rem;margin:8px 0 4px;line-height:1.1;letter-spacing:-.01em;text-wrap:balance}
+  h3{font-family:var(--display);font-weight:700;font-size:1.05rem;margin:0 0 4px;color:var(--ink)}
+  p{line-height:1.5;margin:0 0 10px}
+  .sub{color:var(--muted);font-size:.85rem;margin-bottom:14px}
+  .eyebrow{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--red);margin:14px 0 6px}
+  .tagline{text-align:center;color:var(--ink-2);font-size:1rem;line-height:1.5;margin:0 auto 28px;max-width:26ch}
+  a.src{color:var(--navy);font-weight:700;font-size:.82rem;text-decoration:none;border-bottom:1px solid var(--line)}
+  a.src:hover{border-color:var(--navy)}
+  .links{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .links a{font-size:.78rem;font-weight:700;color:var(--navy);text-decoration:none;background:var(--cream-2);padding:6px 10px;border-radius:999px}
+
+  .btn{display:flex;align-items:center;gap:12px;width:100%;border:0;border-radius:12px;padding:15px 16px;font:inherit;font-weight:700;font-size:1.02rem;color:#fff;background:var(--red);cursor:pointer;text-align:left;margin-bottom:12px;box-shadow:0 2px 0 var(--red-deep)}
+  .btn.navy{background:var(--navy);box-shadow:0 2px 0 var(--navy-deep)}
+  .btn.center{justify-content:center}
+  .btn.ghost{background:transparent;color:var(--navy);box-shadow:inset 0 0 0 2px var(--navy)}
+  .btn.small{padding:10px 14px;font-size:.9rem;width:auto;display:inline-flex;margin:0}
+  .btn svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+  .btn:active{transform:translateY(1px)}
+  .btn:focus-visible,.card:focus-visible,input:focus-visible,select:focus-visible,.chip:focus-visible,summary:focus-visible,.pillbtn:focus-visible,.follow:focus-visible{outline:3px solid var(--marigold);outline-offset:2px}
+  .btn:disabled{opacity:.5;cursor:not-allowed}
+  .card svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+  .card{background:#fff;border-radius:16px;padding:14px 16px;margin-bottom:12px;border:1px solid var(--line);box-shadow:0 1px 2px rgba(11,31,46,.06)}
+  .card.navy{background:var(--navy);color:#fff;border-color:transparent}
+  .card.navy h3,.card.navy .sub{color:#fff}
+  .card.navy .sub{opacity:.8}
+  .card.note{background:var(--cream-2);border-color:transparent;box-shadow:none;font-size:.88rem;color:var(--ink-2);line-height:1.45}
+  .card.warn{background:#FDEBD3;border-color:transparent;box-shadow:none;font-size:.85rem;color:#6B3F0A;line-height:1.45}
+  .card.click{cursor:pointer}
+  .card.click:hover{border-color:var(--navy)}
+  .row{display:flex;align-items:center;gap:12px}
+  .row.between{justify-content:space-between}
+  .stack{display:flex;flex-direction:column;gap:10px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+
+  .pill{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 8px;border-radius:999px;background:var(--cream-2);color:var(--ink-2)}
+  .pill.navy{background:#DCEAF3;color:var(--navy)}
+  .pill.gold{background:#FDEBD3;color:#8A5210}
+  .pill.good{background:#DDF1E4;color:#1F6B41}
+  .pill.premium{background:var(--marigold);color:var(--ink)}
+  .pill.live{background:#E6F0F7;color:var(--navy)}
+  .pillbtn{border:0;font:inherit;cursor:pointer}
+
+  .num{font-family:var(--display);font-weight:900;font-size:2.4rem;line-height:1;color:var(--navy);font-variant-numeric:tabular-nums}
+  .countdown{display:flex;gap:8px;align-items:baseline}
+  .countdown .lbl{font-size:.75rem;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+
+  .avatar{width:44px;height:44px;border-radius:50%;background:var(--navy);color:#fff;font-family:var(--display);font-weight:900;display:flex;align-items:center;justify-content:center;flex:none;font-size:1rem}
+  .avatar.b{background:var(--coral)} .avatar.c{background:var(--marigold);color:var(--ink)} .avatar.d{background:#5C7F93}
+
+  .back{background:none;border:0;font:inherit;font-weight:700;color:var(--navy);cursor:pointer;padding:6px 0;display:inline-flex;align-items:center;gap:6px;margin-bottom:6px}
+  .back svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round}
+
+  label.f{display:block;font-size:.78rem;font-weight:700;color:var(--ink-2);margin:12px 0 6px;letter-spacing:.02em}
+  input[type=text],input[type=tel],select{width:100%;font:inherit;font-size:1.05rem;padding:12px 14px;border-radius:12px;border:2px solid var(--line);background:#fff;color:var(--ink)}
+  input[type=text]:focus,input[type=tel]:focus{border-color:var(--navy)}
+  .seg{display:flex;background:var(--cream-2);border-radius:12px;padding:4px;gap:4px}
+  .seg button{flex:1;border:0;background:transparent;font:inherit;font-weight:700;font-size:.85rem;padding:8px;border-radius:9px;color:var(--ink-2);cursor:pointer}
+  .seg button.on{background:#fff;color:var(--navy);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 12px}
+  .chip{border:2px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;font:inherit;font-size:.82rem;font-weight:700;color:var(--ink-2);cursor:pointer}
+  .chip.on{border-color:var(--navy);background:var(--navy);color:#fff}
+
+  .toggle{position:relative;width:46px;height:26px;border-radius:999px;background:#C9C0AE;border:0;cursor:pointer;flex:none;padding:0}
+  .toggle::after{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:#fff;transition:left .15s}
+  .toggle.on{background:var(--good)} .toggle.on::after{left:23px}
+  @media (prefers-reduced-motion:reduce){ .toggle::after{transition:none} .view{scroll-behavior:auto} .swipe-card{transition:none!important} }
+
+  .follow{border:2px solid var(--navy);background:#fff;color:var(--navy);border-radius:999px;font:inherit;font-weight:700;font-size:.78rem;padding:6px 12px;cursor:pointer;flex:none}
+  .follow.on{background:var(--navy);color:#fff}
+
+  details.legal-d{margin-top:14px;border-top:1px solid var(--line);padding-top:10px}
+  details.legal-d summary{cursor:pointer;font-weight:700;color:var(--navy);font-size:.9rem;list-style:none;display:flex;justify-content:space-between}
+  details.legal-d summary::-webkit-details-marker{display:none}
+  details.legal-d summary::after{content:"+";font-weight:900}
+  details.legal-d[open] summary::after{content:"–"}
+  .legal{font-size:.8rem;line-height:1.55;color:var(--ink-2);background:var(--cream-2);border-left:3px solid var(--line);padding:10px 12px;border-radius:0 10px 10px 0;font-style:italic;margin-top:10px}
+  ul.simple,ol.simple{margin:6px 0 10px;padding-left:20px;line-height:1.5;font-size:1.02rem}
+  ul.simple li,ol.simple li{margin-bottom:8px}
+  .yesno{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}
+  .yesno div{border-radius:12px;padding:10px 12px;font-size:.85rem;line-height:1.45}
+  .yesno .y{background:#DDF1E4} .yesno .n{background:#FBE3E5}
+  .yesno b{display:block;font-family:var(--display);font-size:1rem;margin-bottom:4px}
+
+  table.cmp{width:100%;border-collapse:collapse;font-size:.85rem}
+  table.cmp th,table.cmp td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top;line-height:1.4;min-width:120px}
+  table.cmp th:first-child,table.cmp td:first-child{min-width:80px}
+  table.cmp th{font-family:var(--display);font-weight:700;color:var(--navy)}
+  .scrollx{overflow-x:auto}
+
+  .timeline{position:relative;padding-left:26px;margin-top:10px}
+  .timeline::before{content:"";position:absolute;left:8px;top:8px;bottom:8px;width:2px;background:var(--line)}
+  .tl{position:relative;margin-bottom:18px}
+  .tl::before{content:"";position:absolute;left:-23px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--navy);border:2px solid var(--cream)}
+  .tl.hot::before{background:var(--red)}
+  .tl .d{font-weight:700;font-variant-numeric:tabular-nums;color:var(--navy);font-size:.85rem}
+  .tl .t{font-weight:700;font-size:1.05rem}
+  .tl .s{font-size:.85rem;color:var(--ink-2);line-height:1.4}
+
+  /* swipe matcher */
+  .deck{position:relative;height:300px;margin:10px 0 14px}
+  .swipe-card{position:absolute;inset:0;background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px 20px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 10px 30px rgba(11,31,46,.12);transition:transform .25s,opacity .25s;touch-action:pan-y;user-select:none}
+  .swipe-card.behind{transform:scale(.95) translateY(12px);opacity:.6;z-index:0}
+  .swipe-card.top{z-index:2;cursor:grab}
+  .swipe-card .q{font-family:var(--display);font-weight:700;font-size:1.25rem;line-height:1.3;color:var(--ink);margin:10px 0}
+  .swipe-card .who{font-size:.8rem;color:var(--muted);font-weight:700}
+  .swipe-card .stamp{position:absolute;top:18px;font-family:var(--display);font-weight:900;font-size:1.4rem;padding:4px 12px;border:3px solid;border-radius:10px;opacity:0;transform:rotate(-12deg)}
+  .swipe-card .stamp.yes{right:18px;color:var(--good);border-color:var(--good)}
+  .swipe-card .stamp.no{left:18px;color:var(--red);border-color:var(--red);transform:rotate(12deg)}
+  .swipe-actions{display:grid;grid-template-columns:1fr auto 1fr;gap:10px}
+  .swipe-actions .btn{margin:0}
+  .bar{height:10px;background:var(--cream-2);border-radius:999px;overflow:hidden;margin:6px 0 4px}
+  .bar i{display:block;height:100%;background:var(--navy);border-radius:999px}
+
+  .vote{border-top:1px solid var(--line);padding:10px 0}
+  .vote:first-child{border-top:0}
+  .vote .d{font-size:.72rem;color:var(--muted);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+  .vote .t{font-weight:700;margin:2px 0}
+  .vote .s{font-size:.85rem;color:var(--ink-2);line-height:1.4}
+  .vote .v{display:inline-block;font-size:.72rem;font-weight:700;padding:3px 8px;border-radius:999px;margin-top:6px}
+  .vote .v.yea{background:#DDF1E4;color:#1F6B41} .vote .v.nay{background:#FBE3E5;color:var(--red-deep)} .vote .v.nv{background:var(--cream-2);color:var(--ink-2)}
+
+  .chat{display:flex;flex-direction:column;gap:10px;padding-bottom:8px}
+  .msg{max-width:85%;padding:10px 13px;border-radius:16px;font-size:.95rem;line-height:1.45;white-space:pre-wrap}
+  .msg.bot{background:#fff;border:1px solid var(--line);border-bottom-left-radius:4px;align-self:flex-start}
+  .msg.me{background:var(--navy);color:#fff;border-bottom-right-radius:4px;align-self:flex-end}
+  .chatbar{display:flex;gap:8px;position:sticky;bottom:0;background:var(--cream);padding-top:8px}
+  .chatbar input{flex:1}
+  .chatbar .btn{width:auto;margin:0;padding:12px 14px}
+  .suggest{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+
+  .listen{background:none;border:2px solid var(--navy);color:var(--navy);border-radius:999px;font:inherit;font-weight:700;font-size:.78rem;padding:6px 12px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+  .listen svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+  .listen.on{background:var(--navy);color:#fff}
+
+  .feed .card{border-left:4px solid var(--navy)}
+  .feed .card.alert{border-left-color:var(--red)}
+  .feed time{font-size:.72rem;color:var(--muted);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+
+  .toast{position:absolute;left:20px;right:20px;bottom:96px;background:var(--ink);color:#fff;padding:12px 14px;border-radius:12px;font-size:.88rem;font-weight:600;opacity:0;transform:translateY(8px);transition:.2s;pointer-events:none;z-index:9;text-align:center}
+  .toast.show{opacity:1;transform:none}
+  .sheet-bg{position:absolute;inset:0;background:rgba(11,31,46,.5);z-index:8;display:none}
+  .sheet-bg.show{display:block}
+  .sheet{position:absolute;left:0;right:0;bottom:0;background:var(--cream);border-radius:28px 28px 0 0;padding:20px 22px 34px;z-index:10;display:none;max-height:80%;overflow-y:auto}
+  .sheet.show{display:block}
+  .sheet .price{font-family:var(--display);font-weight:900;font-size:2.2rem;color:var(--navy)}
+  .sheet .price small{font-size:1rem;font-weight:700;color:var(--muted)}
+  .sheet ul{padding-left:18px;line-height:1.5;font-size:.9rem;margin:8px 0 14px}
+  .sheet ul li{margin-bottom:8px}
+  .view.large{font-size:1.12rem}
+  .view.large .card{padding:16px 18px}
+
+  @media (max-width:820px){
+    .stage{grid-template-columns:1fr;padding:0;gap:0}
+    .stage-side,.stage-right{display:none}
+    .phone{width:100%;height:100vh;height:100dvh;border-radius:0;padding:0;box-shadow:none}
+    .phone::before{display:none}
+    .screen{border-radius:0;padding-top:env(safe-area-inset-top)}
+    .status{display:none}
+    .tabs{padding-bottom:calc(18px + env(safe-area-inset-bottom))}
+    .toast{bottom:calc(96px + env(safe-area-inset-bottom))}
+    .sheet{padding-bottom:calc(34px + env(safe-area-inset-bottom))}
+  }
+</style>
+
+<div class="stage">
+  <div class="stage-side">
+    <h1>Use your buddy to cast your ballot.</h1>
+    <p>Tap around. Free, nonpartisan, for voters 18–29.</p>
+  </div>
+
+  <div class="phone">
+    <div class="screen">
+      <div class="status"><span id="clock">9:41</span><span>●●● ⌒ ▮</span></div>
+      <div class="view" id="view" aria-live="polite"></div>
+      <nav class="tabs" id="tabs" aria-label="Main">
+        <button class="tab" data-tab="home" onclick="go('home')">
+          <svg viewBox="0 0 24 24"><path d="M3 11 12 3l9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><span data-i="tab_home">Home</span></button>
+        <button class="tab" data-tab="match" onclick="go('match')">
+          <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg><span data-i="tab_match">Match</span></button>
+        <button class="tab" data-tab="updates" onclick="go('updates')">
+          <svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21h4"/></svg><span data-i="tab_updates">Updates</span></button>
+        <button class="tab" data-tab="profile" onclick="go('profile')">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span data-i="tab_profile">Profile</span></button>
+      </nav>
+      <div class="toast" id="toast"></div>
+      <div class="sheet-bg" id="sheetbg" onclick="closeSheet()"></div>
+      <div class="sheet" id="sheet"></div>
+    </div>
+  </div>
+
+  <div class="stage-right">
+    <p><b>Any ZIP.</b> Statewide races and measures for all 50 states, live House candidates from the FEC, and the full local ballot for Mountain House, CA (95391).</p>
+    <p><b>Match.</b> Swipe on real candidate positions. We hide who said it until the end.</p>
+    <p><b>Follow.</b> Track your representatives' votes next to what they promised.</p>
+  </div>
+</div>
+
+<!-- ===== Curated ballot data. Seed = minimal inline copy so the app works offline; full data is fetched from data/ballot-2026.json ===== -->
+<script type="application/json" id="seed">{"generated":"2026-09-22","election":"2026-11-03","races":{"governor":{"CA":{"source_url":"https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf","primary_held":true,"notes":"Top two from the June 2, 2026 primary.","candidates":[{"id":"gov:xavierbecerra","name":"Xavier Becerra","party":"Democratic","cls":"","desig":{"en":"Voting Rights Attorney","es":"Abogado de derechos electorales"},"background":{"en":"Former U.S. Secretary of Health and Human Services; former California Attorney General.","es":"Ex secretario de Salud de EE. UU.; ex fiscal general de California."},"summary":{"en":"Housing emergency, price-gouging crackdown, lower drug prices.","es":"Emergencia de vivienda, freno a precios abusivos, medicinas más baratas."},"site":"https://www.xavierbecerra2026.com/","src":"https://www.xavierbecerra2026.com/","positions":[{"topic":"housing","statement":{"en":"Declare the housing shortage a state emergency; reform building fees statewide.","es":"Declarar emergencia estatal por la escasez de vivienda; reformar las tarifas de construcción."},"url":"https://www.xavierbecerra2026.com/priorities/housing/"},{"topic":"cost","statement":{"en":"Stand up to price gouging and unjustified rate hikes; expand child-care help.","es":"Enfrentar precios abusivos y alzas injustificadas; ampliar ayuda para cuidado infantil."},"url":"https://www.xavierbecerra2026.com/priorities/economy-and-affordability/"},{"topic":"health","statement":{"en":"Protect everyone’s coverage; negotiate lower drug prices for state programs.","es":"Proteger la cobertura de todos; negociar medicinas más baratas en programas estatales."},"url":"https://www.xavierbecerra2026.com/priorities/health-care/"}]},{"id":"gov:stevehilton","name":"Steve Hilton","party":"Republican","cls":"b","desig":{"en":"Small Business Owner","es":"Dueño de pequeño negocio"},"background":{"en":"Former senior adviser to a British prime minister; former Fox News host.","es":"Ex asesor de un primer ministro británico; ex presentador de Fox News."},"summary":{"en":"No income tax on first $150K, $3 gas, starter homes.","es":"Sin impuesto sobre los primeros $150K, gasolina a $3, casas iniciales."},"site":"https://stevehiltonforgovernor.com/","src":"https://stevehiltonforgovernor.com/plan","positions":[{"topic":"taxes","statement":{"en":"No state income tax on the first $150,000 you earn.","es":"Sin impuesto estatal sobre los primeros $150,000 que ganes."},"url":"https://stevehiltonforgovernor.com/plan"},{"topic":"energy","statement":{"en":"End the rules and fees behind high gas prices; cut utility bills in half.","es":"Eliminar las reglas y tarifas que encarecen la gasolina; reducir a la mitad las facturas de servicios."},"url":"https://stevehiltonforgovernor.com/plan"},{"topic":"housing","statement":{"en":"Clear red tape and fees so starter homes for young families get built.","es":"Eliminar trabas y tarifas para que se construyan casas iniciales para familias jóvenes."},"url":"https://stevehiltonforgovernor.com/plan"}]}]}},"senate":{},"house":{"CA09":{"source_url":"https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf","candidates":[{"id":"house:joshharder","name":"Josh Harder","party":"Democratic","cls":"c","inc":"Incumbent","desig":{"en":"Father/Representative","es":"Padre/Representante"},"background":{"en":"Current U.S. Representative (since 2019); former venture-capital executive.","es":"Representante actual (desde 2019); ex ejecutivo de capital de riesgo."},"summary":{"en":"Cheaper prescriptions, repeal gas taxes, homelessness as an emergency.","es":"Medicinas más baratas, eliminar impuestos a la gasolina, emergencia por personas sin hogar."},"site":"https://harderforcongress.com/","src":"https://harderforcongress.com/issues/","positions":[{"topic":"cost","statement":{"en":"Cut prescription drug costs, repeal gas taxes, get housing costs under control.","es":"Bajar el costo de las medicinas, eliminar impuestos a la gasolina, controlar el costo de la vivienda."},"url":"https://harderforcongress.com/issues/"},{"topic":"health","statement":{"en":"A $35 monthly cap on insulin; bring more doctors to the Valley.","es":"Tope de $35 al mes para la insulina; más médicos para el Valle."},"url":"https://harderforcongress.com/issues/"},{"topic":"homeless","statement":{"en":"Treat homelessness as an emergency: mental health, addiction services, job training.","es":"Tratar la falta de vivienda como emergencia: salud mental, adicciones, capacitación laboral."},"url":"https://harderforcongress.com/issues/"}]},{"id":"house:johnmcbride","name":"John McBride","party":"Republican","cls":"","desig":{"en":"Athletic Performance Coach","es":"Entrenador de rendimiento deportivo"},"background":{"en":"Strength and conditioning coach; ran in the 2024 primary.","es":"Entrenador de fuerza y acondicionamiento; candidato en la primaria de 2024."},"summary":{"en":"Lower taxes, smaller government, no tax on Social Security.","es":"Menos impuestos, gobierno más pequeño, sin impuesto al Seguro Social."},"site":"https://www.johnmcbrideforcongress.com/","src":"https://www.johnmcbrideforcongress.com/","positions":[{"topic":"taxes","statement":{"en":"Reduce taxes, shrink government spending, no tax on Social Security.","es":"Reducir impuestos, recortar el gasto público, sin impuesto al Seguro Social."},"url":"https://www.johnmcbrideforcongress.com/"},{"topic":"health","statement":{"en":"Remove dangerous chemicals from food and water.","es":"Eliminar químicos peligrosos de los alimentos y el agua."},"url":"https://www.johnmcbrideforcongress.com/"},{"topic":"safety","statement":{"en":"Support local police, a stronger border, water rights, less regulation on small farms.","es":"Apoyar a la policía local, frontera más fuerte, derechos de agua, menos regulación a granjas pequeñas."},"url":"https://www.johnmcbrideforcongress.com/"}]}]}}},"measures":{"CA":[{"number":"Prop 1","title":{"en":"Housing Bond","es":"Bono para vivienda"},"ballot_label":"Authorizes $11.25 billion in state general obligation bonds for housing affordability programs, including multifamily rental housing, mortgages for veterans, supportive housing, preservation of existing affordable housing, and downpayment assistance.","plain":{"en":["Lets the state borrow $11.25 billion by selling bonds.","Pays for rental housing, veterans’ home loans, supportive housing, and down-payment help.","The state pays it back over about 25 years."],"es":["Permite al estado pedir prestados $11.25 mil millones vendiendo bonos.","Paga vivienda de renta, préstamos para veteranos, vivienda de apoyo y ayuda para el enganche.","El estado lo paga en unos 25 años."]},"yes":{"en":"The state could borrow $11.25 billion for veterans and affordable housing.","es":"El estado podría pedir prestados $11.25 mil millones para veteranos y vivienda asequible."},"no":{"en":"The state could not borrow that money.","es":"El estado no podría pedir ese préstamo."},"fiscal":{"en":"About $500–600 million a year for about 25 years.","es":"Unos $500–600 millones al año por unos 25 años."},"urls":["https://voterguide.sos.ca.gov/propositions/1/"]},{"number":"Prop 2","title":{"en":"Bigger Rainy Day Fund","es":"Fondo de reserva más grande"},"ballot_label":"Increases California’s Rainy Day Fund, approved by voters in 2014, to provide funding for education, health care, public safety, and other essential services during economic downturns.","plain":{"en":["Makes the state’s savings account (the Rainy Day Fund) bigger: the cap rises from 10% to 20% of tax revenue.","Extends the state’s extra debt payments through 2040 instead of 2030.","The savings help keep schools, health care, and public safety funded when the economy is bad."],"es":["Hace más grande la cuenta de ahorros del estado (Fondo de reserva): el tope sube del 10% al 20% de los ingresos.","Extiende los pagos extra de deuda hasta 2040 en vez de 2030.","Los ahorros ayudan a mantener escuelas, salud y seguridad cuando la economía va mal."]},"yes":{"en":"State reserves would be higher; extra debt payments continue longer.","es":"Las reservas serían mayores; los pagos extra de deuda durarían más."},"no":{"en":"Reserve and debt-payment rules stay the same.","es":"Las reglas de reserva y pago de deuda siguen igual."},"fiscal":{"en":"State budget reserves would be higher.","es":"Las reservas del presupuesto estatal serían mayores."},"urls":["https://voterguide.sos.ca.gov/propositions/2/"]},{"number":"Prop 3","title":{"en":"Keep High-Income Tax for Schools","es":"Mantener impuesto a altos ingresos para escuelas"},"ballot_label":"Makes permanent existing voter-approved tax rates for individuals earning over $371,000 (adjusted annually for inflation). Allocates tax revenues to public education.","plain":{"en":["Keeps today’s higher income tax rates on people earning over $371,000 instead of ending them in 2031.","The money goes to public education and other programs.","The state keeps $5–15 billion a year it would otherwise lose."],"es":["Mantiene las tasas más altas de impuesto a quienes ganan más de $371,000 en vez de terminarlas en 2031.","El dinero va a educación pública y otros programas.","El estado conserva $5–15 mil millones al año que perdería."]},"yes":{"en":"The 2012 tax increase on high earners becomes permanent.","es":"El aumento de impuestos de 2012 a altos ingresos se vuelve permanente."},"no":{"en":"It expires in 2031.","es":"Termina en 2031."},"fiscal":{"en":"Keeps $5–15 billion a year in state revenue.","es":"Conserva $5–15 mil millones al año de ingresos estatales."},"urls":["https://voterguide.sos.ca.gov/propositions/3/"]},{"number":"Prop 4","title":{"en":"Public Campaign Funding","es":"Financiamiento público de campañas"},"ballot_label":"Repeals prohibition on state and local governments offering public funding of candidate election campaigns. Public funding programs may not use funds earmarked for education, transportation, or public safety.","plain":{"en":["Removes the ban on governments using public money for candidates’ campaigns.","State and local governments could choose to create public campaign funding programs, with limits.","Money set aside for education, transportation, or public safety could not be used."],"es":["Elimina la prohibición de usar dinero público en campañas de candidatos.","Los gobiernos estatal y locales podrían crear programas de financiamiento público, con límites.","No se podría usar dinero reservado para educación, transporte o seguridad."]},"yes":{"en":"Governments could create public campaign financing programs.","es":"Los gobiernos podrían crear programas de financiamiento público de campañas."},"no":{"en":"They remain unable to.","es":"Seguirían sin poder hacerlo."},"fiscal":{"en":"A few hundred thousand dollars a year for the state.","es":"Unos cientos de miles de dólares al año para el estado."},"urls":["https://voterguide.sos.ca.gov/propositions/4/"]},{"number":"Prop 5","title":{"en":"Change the Recall Process","es":"Cambiar el proceso de destitución"},"ballot_label":"Under current law, voters elect replacement candidates at the same time as the recall election. This measure instead fills recall vacancies by subsequent special election or appointment.","plain":{"en":["Changes what happens when a statewide officer, like the Governor, is recalled.","The recall ballot would only ask whether to remove them, not who replaces them.","The seat would be filled later by a special election or an appointment."],"es":["Cambia lo que pasa cuando se destituye a un funcionario estatal, como el Gobernador.","La boleta solo preguntaría si removerlo, no quién lo reemplaza.","El puesto se llenaría después por elección especial o nombramiento."]},"yes":{"en":"Recall ballots no longer pick a replacement; vacancies are filled by special election or appointment.","es":"Las boletas de destitución ya no eligen reemplazo; las vacantes se llenan por elección especial o nombramiento."},"no":{"en":"Voters keep choosing the replacement on the recall ballot.","es":"Los votantes siguen eligiendo el reemplazo en la boleta."},"fiscal":{"en":"Unknown; savings or costs of millions if a recall happens.","es":"Desconocido; ahorros o costos de millones si hay una destitución."},"urls":["https://voterguide.sos.ca.gov/propositions/5/"]},{"number":"Prop 37","title":{"en":"Home Loans for Middle-Income Buyers","es":"Préstamos para compradores de ingresos medios"},"ballot_label":"Authorizes $25 billion in bonds to offer eligible buyers fixed-rate mortgages for up to 17% of purchase price of a newly constructed home priced below about $1.5 million.","plain":{"en":["Creates a state loan program for middle-income buyers of newly built homes under about $1.5 million.","The state could sell up to $25 billion in bonds; buyers get a fixed-rate loan for up to 17% of the price.","Homeowners’ loan payments pay the bonds back."],"es":["Crea un programa estatal de préstamos para compradores de ingresos medios de casas nuevas de menos de $1.5 millones.","El estado podría vender hasta $25 mil millones en bonos; el comprador recibe un préstamo fijo de hasta 17% del precio.","Los pagos de los propietarios devuelven los bonos."]},"yes":{"en":"The state creates the program and can sell up to $25 billion in bonds.","es":"El estado crea el programa y puede vender hasta $25 mil millones en bonos."},"no":{"en":"No new program.","es":"No hay programa nuevo."},"fiscal":{"en":"No direct state or local cost.","es":"Sin costo directo para el estado o los gobiernos locales."},"urls":["https://voterguide.sos.ca.gov/propositions/37/"]},{"number":"Prop 38","title":{"en":"Medical Research Bond","es":"Bono para investigación médica"},"ballot_label":"Authorizes $8.4 billion in general obligation bonds for immunology and immunotherapy research, half to a single University of California-affiliated nonprofit medical research institute, half to research grants.","plain":{"en":["Lets the state borrow $8.4 billion for immunology and immunotherapy research.","Half goes to one UC-affiliated research institute; half to research grants.","Paid back over about 20 years."],"es":["Permite al estado pedir prestados $8.4 mil millones para investigación en inmunología e inmunoterapia.","La mitad va a un instituto afiliado a la UC; la otra mitad a becas de investigación.","Se paga en unos 20 años."]},"yes":{"en":"The state can borrow $8.4 billion for this research.","es":"El estado puede pedir prestados $8.4 mil millones para esta investigación."},"no":{"en":"It cannot.","es":"No puede."},"fiscal":{"en":"$500–600 million a year for about 20 years, partly offset if the research earns money.","es":"$500–600 millones al año por unos 20 años, en parte compensado si la investigación genera ingresos."},"urls":["https://voterguide.sos.ca.gov/propositions/38/"]},{"number":"Prop 39","title":{"en":"Voter ID Requirement","es":"Requisito de identificación para votar"},"ballot_label":"Invalidates mail ballots that do not have last four digits of designated government-issued identification number written on envelope. Prohibits in-person voting without presenting government-issued identification.","plain":{"en":["Requires a government-issued ID to vote in person.","Mail ballots would not count unless the last four digits of a government ID number are written on the envelope.","Today, your signature confirms your identity."],"es":["Exige identificación oficial para votar en persona.","Las boletas por correo no contarían sin los últimos cuatro dígitos de una identificación oficial en el sobre.","Hoy, tu firma confirma tu identidad."]},"yes":{"en":"Voters must show extra ID each time they vote.","es":"Los votantes deben mostrar identificación adicional cada vez que votan."},"no":{"en":"Your signature keeps confirming your identity.","es":"Tu firma sigue confirmando tu identidad."},"fiscal":{"en":"Tens of millions to low hundreds of millions of dollars a year.","es":"Decenas a cientos de millones de dólares al año."},"urls":["https://voterguide.sos.ca.gov/propositions/39/"]},{"number":"Prop 40","title":{"en":"One-Time Billionaire Tax","es":"Impuesto único a multimillonarios"},"ballot_label":"Imposes 5% tax on certain taxpayers with assets over $1 billion; revenue primarily for health care.","plain":{"en":["A one-time 5% tax on the wealth of people with assets over $1 billion.","Most of the money goes to health care.","The money is kept outside the usual school-funding and spending-limit rules."],"es":["Un impuesto único del 5% sobre la riqueza de quienes tienen más de $1 mil millones.","La mayor parte del dinero va a salud.","El dinero queda fuera de las reglas usuales de fondos escolares y límite de gasto."]},"yes":{"en":"The state collects a one-time 5% wealth tax from billionaires.","es":"El estado cobra un impuesto único del 5% a los multimillonarios."},"no":{"en":"No such tax.","es":"No hay ese impuesto."},"fiscal":{"en":"Tens of billions in one-time revenue, spread over several years.","es":"Decenas de miles de millones en ingresos únicos, repartidos en varios años."},"urls":["https://voterguide.sos.ca.gov/propositions/40/"]},{"number":"Prop 41","title":{"en":"Spending Limit & Tax Audits","es":"Límite de gasto y auditorías"},"ballot_label":"Nullifies state taxes enacted after January 1, 2026 that exempt their revenues from voter-approved state spending limit. Requires pre-election and recurring audits of programs funded by new special taxes.","plain":{"en":["Cancels any new state tax passed after Jan 1, 2026 that keeps its money outside the state spending limit.","The State Auditor must review the programs a new special tax would fund before it reaches the ballot.","Programs paid for by special taxes get regular audits."],"es":["Cancela cualquier impuesto estatal nuevo posterior al 1 de enero de 2026 que quede fuera del límite de gasto.","El Auditor Estatal debe revisar los programas de un impuesto especial nuevo antes de la votación.","Los programas pagados con impuestos especiales tendrían auditorías regulares."]},"yes":{"en":"New audits are required; new special taxes can’t be excluded from the spending limit.","es":"Se exigen auditorías nuevas; los impuestos especiales nuevos no pueden excluirse del límite de gasto."},"no":{"en":"Audit and spending-limit rules stay as they are.","es":"Las reglas de auditoría y límite de gasto siguen igual."},"fiscal":{"en":"Unknown; depends on future decisions.","es":"Desconocido; depende de decisiones futuras."},"urls":["https://voterguide.sos.ca.gov/propositions/41/"]},{"number":"Prop 42","title":{"en":"Ban New Personal Property Taxes","es":"Prohibir nuevos impuestos a bienes personales"},"ballot_label":"Prohibits any new state tax (1) imposed on the ownership of personal property (all things people own other than real estate), or (2) that applies retroactively based on taxpayer’s past activities.","plain":{"en":["Bans new state taxes on simply owning personal property, such as financial assets.","Bans new state taxes that reach back to past years.","Any conflicting tax passed after Jan 1, 2026 is cancelled."],"es":["Prohíbe nuevos impuestos estatales por solo poseer bienes personales, como activos financieros.","Prohíbe nuevos impuestos estatales retroactivos.","Cualquier impuesto en conflicto aprobado después del 1 de enero de 2026 se cancela."]},"yes":{"en":"The state can’t create new taxes on owning financial assets or other personal property.","es":"El estado no puede crear nuevos impuestos por poseer activos financieros u otros bienes personales."},"no":{"en":"The state keeps that option.","es":"El estado conserva esa opción."},"fiscal":{"en":"Future tax revenue might grow less.","es":"Los ingresos futuros podrían crecer menos."},"urls":["https://voterguide.sos.ca.gov/propositions/42/"]},{"number":"Prop 43","title":{"en":"Two-Thirds Vote for Local Taxes","es":"Dos tercios para impuestos locales"},"ballot_label":"Limits voters’ ability to pass voter-proposed local special taxes by increasing percentage of votes needed to approve such ballot measures from a majority (over 50%) to two-thirds, beginning January 1, 2027.","plain":{"en":["Raises the vote needed to pass voter-proposed local special taxes from a majority to two-thirds.","Applies to new, increased, or extended local special taxes starting Jan 1, 2027.","Some local taxes would be harder to pass."],"es":["Sube de mayoría a dos tercios el voto necesario para impuestos locales especiales propuestos por votantes.","Aplica a impuestos locales especiales nuevos, aumentados o extendidos desde el 1 de enero de 2027.","Algunos impuestos locales serían más difíciles de aprobar."]},"yes":{"en":"Certain local taxes need two-thirds voter approval.","es":"Ciertos impuestos locales necesitan dos tercios de los votos."},"no":{"en":"A majority is still enough.","es":"Una mayoría sigue siendo suficiente."},"fiscal":{"en":"Local tax revenue might grow less.","es":"Los ingresos locales podrían crecer menos."},"urls":["https://voterguide.sos.ca.gov/propositions/43/"]},{"number":"Prop 44","title":{"en":"Community Clinic Spending Rule","es":"Regla de gasto para clínicas comunitarias"},"ballot_label":"Imposes penalties on nonprofit Federally Qualified Health Centers (community clinics providing primary care to medically underserved areas and populations) that spend less than 90% of revenue on “program services” advancing their charitable purpose, including but not limited to patient services.","plain":{"en":["Requires nonprofit community health clinics to spend at least 90% of revenue on program services, including patient care.","Clinics that fall short face penalties.","The state’s new costs are covered by fees."],"es":["Exige que las clínicas comunitarias sin fines de lucro gasten al menos 90% de sus ingresos en servicios, incluida la atención a pacientes.","Las clínicas que no cumplan tendrían sanciones.","Los nuevos costos del estado se cubren con cuotas."]},"yes":{"en":"Certain nonprofit clinics must spend 90% of revenue on services.","es":"Ciertas clínicas sin fines de lucro deben gastar 90% de sus ingresos en servicios."},"no":{"en":"No new requirement.","es":"No hay requisito nuevo."},"fiscal":{"en":"Low tens of millions a year for the state, covered by fees.","es":"Unas decenas de millones al año para el estado, cubiertas con cuotas."},"urls":["https://voterguide.sos.ca.gov/propositions/44/"]},{"number":"Prop 45","title":{"en":"Faster Environmental Review (CEQA)","es":"Revisión ambiental más rápida (CEQA)"},"ballot_label":"Amends California Environmental Quality Act (CEQA) to expedite environmental review for certain projects (including most housing, transportation, water, and health projects) by setting deadlines to complete environmental review and resolve lawsuits challenging project approvals.","plain":{"en":["Speeds up environmental review (CEQA) for most housing, transportation, water, and health projects.","Sets deadlines for finishing the review.","Sets deadlines for resolving lawsuits against project approvals."],"es":["Acelera la revisión ambiental (CEQA) de la mayoría de proyectos de vivienda, transporte, agua y salud.","Fija plazos para terminar la revisión.","Fija plazos para resolver demandas contra la aprobación de proyectos."]},"yes":{"en":"Eligible projects get new, faster review and court procedures.","es":"Los proyectos elegibles tendrían procedimientos de revisión y judiciales más rápidos."},"no":{"en":"Projects keep the current procedures.","es":"Los proyectos siguen con los procedimientos actuales."},"fiscal":{"en":"High tens of millions, possibly over $100 million, a year for governments.","es":"Decenas de millones, posiblemente más de $100 millones, al año para los gobiernos."},"urls":["https://voterguide.sos.ca.gov/propositions/45/"]}]},"local":{"95391":[{"id":"council","level":{"en":"Local","es":"Local"},"office":{"en":"Mountain House City Council (At-Large)","es":"Concejo de Mountain House (general)"},"seats":2,"src":"https://www.mountainhouseca.gov/445/November-3-2026-Candidate-Log","candidates":[{"id":"council:ronnagreen","name":"Ronna Green","party":"nonp","cls":"","desig":{"en":"City of Mountain House Council Member","es":"Concejal de Mountain House"},"bio":{"en":"Current council member and Vice Mayor; business owner; resident since 2005.","es":"Concejal actual y vicealcaldesa; empresaria; residente desde 2005."},"summary":{"en":"Streets, public safety, housing costs, downtown, water.","es":"Calles, seguridad, costo de vivienda, centro, agua."},"site":"https://ronnagreen.org/","src":"https://ronnagreen.org/","pos":{"streets":{"en":"Improve streets, strengthen public safety, address housing affordability, reimagine downtown.","es":"Mejorar calles, reforzar la seguridad, atender el costo de la vivienda, renovar el centro."},"water":{"en":"Bring investment for reliable water infrastructure.","es":"Atraer inversión para una infraestructura de agua confiable."},"roads":{"en":"Advocate in Washington for safer roads and better connectivity.","es":"Gestionar en Washington carreteras más seguras y mejor conectividad."}}},{"id":"council:happygrewal","name":"Happy Grewal","party":"nonp","cls":"b","desig":{"en":"Business Owner/Farmer","es":"Empresario/Agricultor"},"bio":{"en":"Small business owner and farmer; resident for over a decade.","es":"Dueño de pequeño negocio y agricultor; residente por más de una década."},"summary":{"en":"Safe neighborhoods, smart growth, parks and local commerce.","es":"Vecindarios seguros, crecimiento inteligente, parques y comercio local."},"site":"https://happygrewal.pages.dev/","src":"https://happygrewal.pages.dev/","pos":{"safety":{"en":"Support first responders, safe school corridors, neighborhood safety partnerships.","es":"Apoyar a los socorristas, corredores escolares seguros, alianzas vecinales de seguridad."},"growth":{"en":"Thoughtful planning, balanced budgets, modern infrastructure.","es":"Planificación cuidadosa, presupuestos equilibrados, infraestructura moderna."},"community":{"en":"Family parks, local commerce, recreation, and events.","es":"Parques familiares, comercio local, recreación y eventos."}}},{"id":"council:arjunjuturu","name":"Arjun Juturu","party":"nonp","cls":"c","desig":{"en":"Engineer/Business Owner","es":"Ingeniero/Empresario"},"bio":{"en":"Challenger. Filed a county candidate statement (July 2026).","es":"Aspirante. Presentó declaración de candidato al condado (julio 2026)."},"nopos":true,"src":"https://www.sjgov.org/department/rov/election-information/current_election"},{"id":"council:nadershareghi","name":"Nader Shareghi","party":"nonp","cls":"d","desig":{"en":"Engineer/Assistant Manager","es":"Ingeniero/Subgerente"},"bio":{"en":"Former Mountain House CSD public works director; 16 years as a Stockton city engineer.","es":"Ex director de obras públicas del CSD de Mountain House; 16 años como ingeniero de la ciudad de Stockton."},"nopos":true,"src":"https://www.sjgov.org/department/rov/election-information/current_election"},{"id":"council:bernicekingtingle","name":"Bernice King Tingle","party":"nonp","cls":"","desig":{"en":"City of Mountain House Council Member","es":"Concejal de Mountain House"},"bio":{"en":"Current council member; original CSD board member (2008); the city’s first Vice Mayor.","es":"Concejal actual; miembro original de la junta del CSD (2008); primera vicealcaldesa de la ciudad."},"nopos":true,"src":"https://www.sjgov.org/department/rov/election-information/current_election"},{"id":"council:sureshvuyyuru","name":"Suresh Vuyyuru","party":"nonp","cls":"b","desig":{"en":"Parent/Engineer/Farmer","es":"Padre/Ingeniero/Agricultor"},"bio":{"en":"Software engineer and farmer; ran for CSD board (2022) and council (2024).","es":"Ingeniero de software y agricultor; candidato a la junta del CSD (2022) y al concejo (2024)."},"nopos":true,"src":"https://www.sjgov.org/department/rov/election-information/current_election"}]},{"id":"lusd","level":{"en":"Local","es":"Local"},"office":{"en":"Lammersville Unified School Board, Trustee Area 4","es":"Junta Escolar de Lammersville, Área 4"},"seats":1,"src":"https://www.sjgov.org/department/rov/election-information/current_election","note":{"en":"Only voters living in Trustee Area 4 (northern Mountain House) see this race.","es":"Solo los votantes del Área 4 (norte de Mountain House) ven esta contienda."},"candidates":[{"id":"lusd:vanithadaniel","name":"Vanitha Daniel","party":"nonp","cls":"c","desig":{"en":"Mother/Educator/Entrepreneur","es":"Madre/Educadora/Emprendedora"},"bio":{"en":"Current school board trustee (since 2022); educator.","es":"Miembro actual de la junta escolar (desde 2022); educadora."},"nopos":true,"src":"https://www.sjgov.org/department/rov/election-information/current_election"},{"id":"lusd:stephanieolsen","name":"Stephanie Olsen","party":"nonp","cls":"d","desig":{"en":"Education Attorney/Parent","es":"Abogada de educación/Madre"},"bio":{"en":"Current trustee (appointed 2024); board clerk; education attorney.","es":"Miembro actual (nombrada en 2024); secretaria de la junta; abogada de educación."},"nopos":true,"src":"https://www.sjgov.org/department/rov/election-information/current_election"}]},{"id":"assembly","level":{"en":"State","es":"Estatal"},"office":{"en":"State Assembly, District 13","es":"Asamblea Estatal, Distrito 13"},"seats":1,"src":"https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/95-state-assembly.pdf","candidates":[{"id":"assembly:rhodesiaransom","name":"Rhodesia Ransom","party":"Democratic","cls":"d","inc":"Incumbent","desig":{"en":"State Assemblymember","es":"Asambleísta estatal"},"bio":{"en":"Current Assemblymember (since 2024); former Tracy City Councilmember.","es":"Asambleísta actual (desde 2024); ex concejal de Tracy."},"summary":{"en":"Local jobs, renters’ internet costs, Family Justice Centers.","es":"Empleos locales, internet para inquilinos, Centros de Justicia Familiar."},"site":"https://voteransom.com/","src":"https://voteransom.com/results","pos":{"cost":{"en":"Protected 1,000+ local manufacturing jobs; ended forced high-cost internet contracts for renters.","es":"Protegió más de 1,000 empleos de manufactura; eliminó contratos de internet caros y obligatorios para inquilinos."},"safety":{"en":"$10 million for Family Justice Centers; tougher penalties for trafficking and drunk driving.","es":"$10 millones para Centros de Justicia Familiar; penas más duras por trata y conducir ebrio."},"emerg":{"en":"Improved wildfire response; $20 million to protect the Delta from invasive species.","es":"Mejoró la respuesta a incendios; $20 millones para proteger el Delta de especies invasoras."}}},{"id":"assembly:tompatti","name":"Tom Patti","party":"Republican","cls":"b","desig":{"en":"Businessman/Father","es":"Empresario/Padre"},"bio":{"en":"Former San Joaquin County Supervisor (2017–2025); business owner.","es":"Ex supervisor del condado de San Joaquin (2017–2025); empresario."},"summary":{"en":"Suspend gas taxes, parents’ rights, backed Prop 36.","es":"Suspender impuestos a la gasolina, derechos de los padres, apoyó la Prop 36."},"src":"https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/candidates/historical-county-voter-information-guides/2026-primary-composite-civg-(english).pdf","pos":{"energy":{"en":"Lower energy costs and suspend gas taxes.","es":"Bajar los costos de energía y suspender los impuestos a la gasolina."},"education":{"en":"Protect parents’ rights in schools; girls’ sports for girls only.","es":"Proteger los derechos de los padres en las escuelas; deportes femeninos solo para niñas."},"housing":{"en":"Smart growth for affordable housing without government overreach; backed Prop 36 on retail theft.","es":"Crecimiento inteligente para vivienda asequible sin exceso de gobierno; apoyó la Prop 36 contra el robo en tiendas."}}}]}]},"deadlines":{"CA":[{"id":"mail","date":"2026-10-05","title":{"en":"Mail ballots go out","es":"Se envían las boletas por correo"},"sub":{"en":"Every registered voter is mailed one. Ballot drop boxes and early voting at the county Registrar’s office open the same day.","es":"Cada votante registrado recibe una. Los buzones y la votación anticipada en la oficina del Registro abren el mismo día."}},{"id":"reg","date":"2026-10-19","title":{"en":"Register to vote","es":"Regístrate para votar"},"sub":{"en":"Missed it? From Oct 20 through Election Day you can register and vote in person at any polling place.","es":"¿Se te pasó? Del 20 de octubre al día de la elección puedes registrarte y votar en persona en cualquier lugar de votación."}},{"id":"req","date":"2026-10-27","title":{"en":"Last day to request a mail ballot","es":"Último día para pedir boleta por correo"},"sub":{"en":"If yours never arrived, ask the county Registrar by today.","es":"Si la tuya no llegó, pídela al Registro del condado hoy."}},{"id":"eday","date":"2026-11-03","title":{"en":"Election Day","es":"Día de la elección"},"sub":{"en":"Polls open 7 a.m. to 8 p.m. Mail ballots must be postmarked today, or dropped in a box by 8 p.m.","es":"Las urnas abren de 7 a.m. a 8 p.m. Las boletas por correo deben tener matasellos de hoy o ir al buzón antes de las 8 p.m."}},{"id":"recv","date":"2026-11-10","title":{"en":"Mailed ballots must arrive","es":"Deben llegar las boletas por correo"},"sub":{"en":"A ballot postmarked by Nov 3 counts if the county receives it by today.","es":"Una boleta con matasellos del 3 de nov cuenta si el condado la recibe hoy."}}],"default":[{"id":"reg","date":null,"approx":{"en":"Usually 15–30 days before Election Day","es":"Usualmente 15–30 días antes de la elección"},"title":{"en":"Register to vote","es":"Regístrate para votar"},"sub":{"en":"Deadlines vary by state. Many states allow same-day registration. Check vote.gov for yours.","es":"Las fechas varían por estado. Muchos permiten registrarse el mismo día. Revisa vote.gov."}},{"id":"mail","date":null,"approx":{"en":"Usually early to mid-October","es":"Usualmente a principios o mediados de octubre"},"title":{"en":"Request a mail ballot","es":"Solicita tu boleta por correo"},"sub":{"en":"Some states mail every voter a ballot; others require a request. Check vote.gov.","es":"Algunos estados envían boleta a todos; otros requieren solicitud. Revisa vote.gov."}},{"id":"eday","date":"2026-11-03","title":{"en":"Election Day","es":"Día de la elección"},"sub":{"en":"Polls are open all day. Mailing your ballot? Send it early; some states must receive it by today.","es":"Las urnas abren todo el día. ¿Por correo? Envíala temprano; algunos estados deben recibirla hoy."}}]},"official":{"CA":[{"name":{"en":"CA Secretary of State · Elections","es":"Secretario de Estado de CA · Elecciones"},"url":"https://www.sos.ca.gov/elections"},{"name":{"en":"Check registration","es":"Verificar registro"},"url":"https://voterstatus.sos.ca.gov/"},{"name":{"en":"Official Voter Guide","es":"Guía oficial del votante"},"url":"https://voterguide.sos.ca.gov/"},{"name":{"en":"Track my ballot","es":"Rastrear mi boleta"},"url":"https://california.ballottrax.net/"}],"95391":[{"name":{"en":"San Joaquin County Registrar","es":"Registro del condado de San Joaquin"},"url":"https://www.sjgov.org/department/rov/election-information/current_election"},{"name":{"en":"City of Mountain House","es":"Ciudad de Mountain House"},"url":"https://www.mountainhouseca.gov/436/Elections"},{"name":{"en":"Lammersville Unified School District","es":"Distrito Escolar de Lammersville"},"url":"https://www.lammersvilleschooldistrict.net/"},{"name":{"en":"Ballot drop box locations","es":"Buzones para boletas"},"url":"https://www.sjgov.org/department/rov/election-information/current_election/ballot-drop-box-locations"}]},"updates":{"CA":[{"date":"Aug 27","hot":true,"title":{"en":"Your candidates are final","es":"Tus candidatos son definitivos"},"body":{"en":"The Secretary of State certified the Nov 3 candidate list.","es":"El Secretario de Estado certificó la lista de candidatos del 3 de nov."},"url":"https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf"},{"date":"Aug 10","title":{"en":"Official Voter Guide published","es":"Guía oficial del votante publicada"},"body":{"en":"14 statewide propositions, explained in Measures.","es":"14 propuestas estatales, explicadas en Medidas."},"url":"https://voterguide.sos.ca.gov/"}],"all":[{"date":"Nov 3","title":{"en":"Election Day is Tuesday, November 3","es":"La elección es el martes 3 de noviembre"},"body":{"en":"Check your registration and deadlines in this app.","es":"Revisa tu registro y fechas límite en esta app."},"url":"https://vote.gov"}]},"sources":{"zip_cd":"U.S. Census Bureau ZCTA-to-Congressional-District relationship file (see NOTES.md)","fec":"https://api.open.fec.gov/"},"coverage":{"governor_states":["AK","AL","AR","AZ","CA","CO","CT","FL","GA","HI","IA","ID","IL","KS","MA","MD","ME","MI","MN","NE","NH","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","VT","WI","WY"],"senate_states":["AK","AL","AR","CO","DE","FL","GA","IA","ID","IL","KS","KY","LA","MA","ME","MI","MN","MS","MT","NC","NE","NH","NJ","NM","OH","OK","OR","RI","SC","SD","TN","TX","VA","WV","WY"],"measure_states":["AK","AL","AR","AZ","CA","CO","FL","GA","HI","IA","ID","IN","KS","KY","LA","MA","MD","MI","MN","MO","MT","NC","ND","NE","NH","NM","NV","OH","OK","RI","SD","TN","UT","VA","VT","WA","WI","WV","WY"],"local_zips":["95304","95376","95377","95391"]}}</script>
+
+<script>
+/* =========================================================
+   BallotBuddy v4
+   - Curated data: data/ballot-2026.json (governor + senate + measures for all states, local races where researched)
+   - Live data: FEC OpenFEC API for U.S. House candidates in any district (names + party only)
+   - ZIP → district: data/zip-cd.json
+   - Followed officials: data/reps.json
+   ========================================================= */
+const FEC_KEY = 'DEMO_KEY'; // Free key with a higher limit: https://api.data.gov/signup/ — paste it here.
+const DATA_URL='data/ballot-2026.json', ZIP_URL='data/zip-cd.json', REPS_URL='data/reps.json';
+const ELECTION = new Date(2026,10,3);
+
+/* ---------- state ---------- */
+const S = { screen:'welcome', lang:'en', zip:'', state:'', county:'', cd:'', cdOptions:[], setup:false, premium:false, large:false,
+  reminders:{}, notif:true, reading:'simple', following:{}, swipes:{}, matchDone:false, chat:[], params:{} };
+try{ Object.assign(S, JSON.parse(localStorage.getItem('bb-state')||'{}')); }catch(e){}
+for(const k of ['params','reminders','following','swipes']) S[k]=S[k]||{}; S.chat=S.chat||[]; S.cdOptions=S.cdOptions||[];
+function save(){ try{ localStorage.setItem('bb-state', JSON.stringify(S)); }catch(e){} }
+
+let D = { races:{governor:{},senate:{}}, measures:{}, local:{}, deadlines:{}, sources:{}, generated:'' };   // curated
+let ZIPCD = null;      // {zip: ["CA09", ...]}
+let REPS = { officials:[] };
+let FECCACHE = {}; try{ FECCACHE=JSON.parse(localStorage.getItem('bb-fec')||'{}'); }catch(e){}
+
+/* ---------- strings ---------- */
+const T = {
+  en:{tab_home:'Home',tab_match:'Match',tab_updates:'Updates',tab_profile:'Profile',welcome:'Welcome to',start:'Get started',tagline:'Your ballot, explained. Free. Nonpartisan. For voters 18–29.',
+    setup_t:'Where do you vote?',setup_s:'Your ZIP finds your ballot. Nothing is shared.',zip:'ZIP code',lang:'Language',save:'Show my ballot',zip_err:'Enter a 5-digit ZIP.',pick_cd:'Your ZIP spans more than one congressional district. Pick yours:',
+    home_t:'Your ballot',days:'days to Election Day',next:'Next',cands:'Candidates',measures:'Measures',deadlines:'Deadlines',learn:'Learn',bot:'BallotBot',srcs:'Sources',match:'Find your match',match_s:'Swipe on real candidate positions',match_done:'Your matches',following:'Following',follow:'Follow',unfollow:'Following ✓',nofollow:'Follow candidates and officials to see their votes and updates here.',
+    races:'races',measures_n:'measures',reminders_n:'reminders',
+    cand_s:'From each candidate’s own statements. We don’t endorse.',compare:'Compare',votefor:'Vote for',
+    fec_note:'Filed with the FEC for 2026. Primary results aren’t reflected here; confirm with your state’s certified list.',fec_loading:'Loading candidates from the FEC…',fec_fail:'Couldn’t reach the FEC right now.',fec_none:'No House candidates found for this district in the FEC database.',redistricted:'Your state redrew its congressional districts for 2026. The district shown comes from the previous map and may be wrong for you. Confirm on your state’s election site.',
+    nopos:'No campaign website or statement is published yet.',nopos_s:'Statement coming in the official Voter Guide',
+    also_t:'Also on your ballot',also_s:'Not loaded yet: other statewide offices, state legislature, and local races for your address. Check your county’s sample ballot.',
+    notloaded:'We don’t have ballot data for this state yet. Check vote.gov for your official sources.',
+    source:'Source',desig:'Ballot designation',official:'Official ballot text',guide:'Official source',updated:'Ballot data updated',
+    prop_s:'Statewide measures, in plain English. Tap one.',no_measures:'No statewide measures on your ballot this year.',meas_notloaded:'We haven’t verified this state’s statewide measures yet, so we’re not showing any. Check your Secretary of State’s site or vote.gov.',simple:'Simple',standard:'More detail',means:'What it means',yes:'A YES vote',no:'A NO vote',cost:'Cost',listen:'Listen',stop:'Stop',
+    remind:'Remind me',reminded:'Reminder set',unreminded:'Reminder removed',addcal:'Add to calendar',addall:'Add all to calendar',cal_note:'Reminders alert you when you open the app. Add to calendar for a real phone alert.',verify:'Check your registration at',
+    learn_s:'Two-minute reads, then the official sites for your area.',official_t:'Your official sources',official_s:'Primary sources. Everything in this app links back to these.',
+    prof_t:'Profile',loc:'Location',change:'Change',settings:'Settings',textsize:'Larger text',notif:'Deadline reminders',premium:'Premium',premium_s:'BallotBot, candidate comparison, no ads.',price:'$7.99/mo',on_demo:'On — free in this demo',reset:'Reset demo',interests:'Your interests',no_interests:'Swipe in Match to build your interests.',
+    bot_hi:'Hi! Ask me anything about voting or your ballot. I explain. I never tell you who to vote for.',ask:'Ask',thinking:'Thinking…',placeholder:'Ask a question',
+    try:'Turn on Premium — free in this demo',later:'Not now',back:'Back',issues:'Key issues',bio:'Background',party:'Party',nonp:'Nonpartisan office',incumbent:'Incumbent',challenger:'Challenger',
+    src_t:'Where this data comes from',src_close:'Got it',
+    sw_intro:'Swipe on real positions from candidates on your ballot. We hide who said it until the end.',sw_agree:'Agree',sw_dis:'Disagree',sw_skip:'Skip',sw_says:'A candidate for',sw_says2:'says:',sw_none:'No candidate positions are loaded for your races yet, so there’s nothing to swipe. Try ZIP 95391 to see how it works.',
+    sw_result:'Your overlap',sw_result_s:'How often you agreed with each candidate’s own stated positions. Overlap isn’t a recommendation.',sw_based:'based on',sw_stmts:'statements',sw_again:'Swipe again',sw_reveal:'What you agreed with',
+    rec_t:'Record',rec_s:'Recent recorded votes, shown next to what they said they’d do. We don’t judge which is which.',promises:'What they said',votes:'How they voted',related:'Related to',events:'Upcoming',contact:'Contact',
+    upd_follow:'From people you follow',upd_all:'For your area',
+  },
+  es:{tab_home:'Inicio',tab_match:'Match',tab_updates:'Avisos',tab_profile:'Perfil',welcome:'Bienvenido a',start:'Comenzar',tagline:'Tu boleta, explicada. Gratis. Imparcial. Para votantes de 18 a 29.',
+    setup_t:'¿Dónde votas?',setup_s:'Tu código postal encuentra tu boleta. No se comparte nada.',zip:'Código postal',lang:'Idioma',save:'Mostrar mi boleta',zip_err:'Escribe un código postal de 5 dígitos.',pick_cd:'Tu código postal abarca más de un distrito. Elige el tuyo:',
+    home_t:'Tu boleta',days:'días para la elección',next:'Próximo',cands:'Candidatos',measures:'Medidas',deadlines:'Fechas límite',learn:'Aprender',bot:'BallotBot',srcs:'Fuentes',match:'Encuentra tu match',match_s:'Desliza sobre posturas reales de candidatos',match_done:'Tus matches',following:'Siguiendo',follow:'Seguir',unfollow:'Siguiendo ✓',nofollow:'Sigue a candidatos y funcionarios para ver sus votos y avisos aquí.',
+    races:'contiendas',measures_n:'medidas',reminders_n:'recordatorios',
+    cand_s:'De las declaraciones de cada candidato. No respaldamos a nadie.',compare:'Comparar',votefor:'Vota por',
+    fec_note:'Registrados ante la FEC para 2026. No refleja resultados de primarias; confirma con la lista certificada de tu estado.',fec_loading:'Cargando candidatos de la FEC…',fec_fail:'No se pudo conectar con la FEC.',fec_none:'No hay candidatos a la Cámara para este distrito en la FEC.',redistricted:'Tu estado rediseñó sus distritos para 2026. El distrito mostrado viene del mapa anterior y podría no ser el tuyo. Confírmalo en el sitio electoral de tu estado.',
+    nopos:'Aún no hay sitio de campaña ni declaración publicada.',nopos_s:'Declaración pendiente en la guía oficial',
+    also_t:'También en tu boleta',also_s:'Aún no cargado: otros cargos estatales, legislatura estatal y contiendas locales. Revisa la boleta de muestra de tu condado.',
+    notloaded:'Aún no tenemos datos de boleta para este estado. Revisa vote.gov.',
+    source:'Fuente',desig:'Designación en la boleta',official:'Texto oficial de la boleta',guide:'Fuente oficial',updated:'Datos actualizados',
+    prop_s:'Medidas estatales, en lenguaje sencillo. Toca una.',no_measures:'No hay medidas estatales en tu boleta este año.',meas_notloaded:'Todavía no hemos verificado las medidas estatales de este estado, así que no mostramos ninguna. Revisa el sitio de tu Secretario de Estado o vote.gov.',simple:'Sencillo',standard:'Más detalle',means:'Qué significa',yes:'Votar SÍ',no:'Votar NO',cost:'Costo',listen:'Escuchar',stop:'Detener',
+    remind:'Recordarme',reminded:'Recordatorio activo',unreminded:'Recordatorio quitado',addcal:'Añadir al calendario',addall:'Añadir todo al calendario',cal_note:'Los recordatorios avisan al abrir la app. Añade al calendario para una alerta real.',verify:'Verifica tu registro en',
+    learn_s:'Lecturas de dos minutos y los sitios oficiales de tu zona.',official_t:'Tus fuentes oficiales',official_s:'Fuentes primarias. Todo en esta app remite a ellas.',
+    prof_t:'Perfil',loc:'Ubicación',change:'Cambiar',settings:'Ajustes',textsize:'Texto más grande',notif:'Recordatorios de fechas',premium:'Premium',premium_s:'BallotBot, comparar candidatos, sin anuncios.',price:'$7.99/mes',on_demo:'Activado — gratis en esta demo',reset:'Restablecer demo',interests:'Tus intereses',no_interests:'Desliza en Match para crear tus intereses.',
+    bot_hi:'¡Hola! Pregúntame sobre votar o tu boleta. Explico. Nunca te digo por quién votar.',ask:'Enviar',thinking:'Pensando…',placeholder:'Escribe una pregunta',
+    try:'Activar Premium — gratis en esta demo',later:'Ahora no',back:'Atrás',issues:'Temas clave',bio:'Trayectoria',party:'Partido',nonp:'Cargo no partidista',incumbent:'Titular',challenger:'Aspirante',
+    src_t:'De dónde vienen estos datos',src_close:'Entendido',
+    sw_intro:'Desliza sobre posturas reales de candidatos en tu boleta. Ocultamos quién lo dijo hasta el final.',sw_agree:'De acuerdo',sw_dis:'En desacuerdo',sw_skip:'Saltar',sw_says:'Un candidato a',sw_says2:'dice:',sw_none:'Aún no hay posturas cargadas para tus contiendas. Prueba el código 95391 para ver cómo funciona.',
+    sw_result:'Tu coincidencia',sw_result_s:'Cuántas veces coincidiste con las posturas declaradas de cada candidato. No es una recomendación.',sw_based:'según',sw_stmts:'posturas',sw_again:'Deslizar de nuevo',sw_reveal:'Con qué coincidiste',
+    rec_t:'Historial',rec_s:'Votos recientes, junto a lo que dijeron que harían. No juzgamos cuál es cuál.',promises:'Lo que dijeron',votes:'Cómo votaron',related:'Relacionado con',events:'Próximos',contact:'Contacto',
+    upd_follow:'De quienes sigues',upd_all:'Para tu zona',
+  }
+};
+const t = k => (T[S.lang]||T.en)[k] || T.en[k] || k;
+const L = o => (o && typeof o==='object' && !Array.isArray(o)) ? (o[S.lang]||o.en||'') : (o??'');
+const LA = o => (o && typeof o==='object' && !Array.isArray(o)) ? (o[S.lang]||o.en||[]) : (o||[]);
+
+/* ---------- ZIP -> state (prefix fallback) ---------- */
+const ZIPS=[['PR',[[6,9]]],['NY',[[5,5],[63,63],[100,149]]],['MA',[[10,27],[55,55]]],['RI',[[28,29]]],['NH',[[30,38]]],['ME',[[39,49]]],['VT',[[50,59]]],['CT',[[60,69]]],['NJ',[[70,89]]],['PA',[[150,196]]],['DE',[[197,199]]],['DC',[[200,200],[202,205],[569,569]]],['VA',[[201,201],[220,246]]],['MD',[[206,219]]],['WV',[[247,268]]],['NC',[[270,289]]],['SC',[[290,299]]],['GA',[[300,319],[398,399]]],['FL',[[320,349]]],['AL',[[350,369]]],['TN',[[370,385]]],['MS',[[386,397]]],['KY',[[400,427]]],['OH',[[430,459]]],['IN',[[460,479]]],['MI',[[480,499]]],['IA',[[500,528]]],['WI',[[530,549]]],['MN',[[550,567]]],['SD',[[570,577]]],['ND',[[580,588]]],['MT',[[590,599]]],['IL',[[600,629]]],['MO',[[630,658]]],['KS',[[660,679]]],['NE',[[680,693]]],['LA',[[700,714]]],['AR',[[716,729]]],['OK',[[730,749]]],['TX',[[733,733],[750,799],[885,885]]],['CO',[[800,816]]],['WY',[[820,831]]],['ID',[[832,838]]],['UT',[[840,847]]],['AZ',[[850,865]]],['NM',[[870,884]]],['NV',[[889,898]]],['CA',[[900,961]]],['HI',[[967,968]]],['OR',[[970,979]]],['WA',[[980,994]]],['AK',[[995,999]]]];
+const STATE_NAMES={AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'Washington, D.C.',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',PR:'Puerto Rico'};
+function zipToState(z){ const p=parseInt(z.slice(0,3),10); for(const [s,rs] of ZIPS){ for(const [a,b] of rs){ if(p>=a&&p<=b) return s; } } return ''; }
+function countyFor(z){ if(z.startsWith('953')||z.startsWith('952')) return 'San Joaquin County'; if(z.startsWith('945')||z.startsWith('946')) return 'Alameda County'; if(z.startsWith('958')||z.startsWith('956')) return 'Sacramento County'; if(z.startsWith('900')||z.startsWith('901')) return 'Los Angeles County'; return ''; }
+function cdsFor(z){ if(!ZIPCD) return []; const v=ZIPCD[z]; return Array.isArray(v)?v:(v?[v]:[]); }
+const cdLabel = cd => cd ? cd.slice(0,2)+'-'+cd.slice(2) : '';
+const redistricted = () => !!(ZIPCD&&ZIPCD._meta&&(ZIPCD._meta.redistricted_for_2026||[]).includes(S.state)&&!(ZIPCD._meta.overrides||{})[S.zip]);
+
+/* ---------- data loading ---------- */
+function applyData(d){ if(d&&d.races){ D=d; } }
+try{ const seed=JSON.parse(document.getElementById('seed').textContent||'{}'); applyData(seed); }catch(e){}
+async function loadAll(){
+  const j = async u => { try{ const r=await fetch(u,{cache:'no-cache'}); if(!r.ok) throw 0; return await r.json(); }catch(e){ return null; } };
+  const [d,z,r] = await Promise.all([j(DATA_URL), j(ZIP_URL), j(REPS_URL)]);
+  if(d) applyData(d);
+  if(z) ZIPCD=z;
+  if(r&&r.officials) REPS=r;
+  if(S.setup && !S.cd && ZIPCD){ const cds=cdsFor(S.zip); if(cds.length===1) S.cd=cds[0]; S.cdOptions=cds; save(); }
+  render();
+}
+
+/* ---------- what's on THIS voter's ballot ---------- */
+const ISSUE={housing:{en:'Housing',es:'Vivienda'},cost:{en:'Cost of living',es:'Costo de vida'},health:{en:'Health care',es:'Salud'},taxes:{en:'Taxes',es:'Impuestos'},energy:{en:'Gas & energy',es:'Gasolina y energía'},safety:{en:'Public safety',es:'Seguridad'},homeless:{en:'Homelessness',es:'Personas sin hogar'},emerg:{en:'Emergencies & Delta',es:'Emergencias y Delta'},education:{en:'Education',es:'Educación'},streets:{en:'Streets & safety',es:'Calles y seguridad'},water:{en:'Water',es:'Agua'},roads:{en:'Roads',es:'Carreteras'},growth:{en:'Growth',es:'Crecimiento'},community:{en:'Community',es:'Comunidad'},immigration:{en:'Immigration',es:'Inmigración'},economy:{en:'Economy',es:'Economía'},environment:{en:'Environment',es:'Medio ambiente'},abortion:{en:'Abortion',es:'Aborto'},guns:{en:'Guns',es:'Armas'},crime:{en:'Crime',es:'Delincuencia'},jobs:{en:'Jobs',es:'Empleos'},agriculture:{en:'Agriculture',es:'Agricultura'},veterans:{en:'Veterans',es:'Veteranos'},elections:{en:'Elections',es:'Elecciones'},budget:{en:'Budget',es:'Presupuesto'},childcare:{en:'Child care',es:'Cuidado infantil'},other:{en:'Other',es:'Otro'}};
+const issueName = k => L(ISSUE[k]) || (k||'').replace(/_/g,' ').replace(/^\w/,c=>c.toUpperCase());
+
+function myRaces(){
+  const st=S.state; if(!st) return [];
+  const out=[];
+  const g=D.races.governor[st]; if(g) out.push({id:'gov',level:{en:'Statewide',es:'Estatal'},office:{en:'Governor',es:'Gobernador'},seats:1,candidates:g.candidates||[],src:g.source_url,curated:true});
+  const s=D.races.senate[st]; if(s) out.push({id:'sen',level:{en:'Federal',es:'Federal'},office:{en:'U.S. Senate'+(s.special?' (special election)':''),es:'Senado de EE. UU.'+(s.special?' (elección especial)':'')},seats:1,candidates:s.candidates||[],src:s.source_url,curated:true});
+  if(S.cd){ const h=(D.races.house||{})[S.cd]; out.push({id:'house',level:{en:'Federal',es:'Federal'},office:{en:'U.S. House, District '+parseInt(S.cd.slice(2),10),es:'Cámara de Representantes, Distrito '+parseInt(S.cd.slice(2),10)},seats:1,candidates:h?h.candidates:null,src:h?h.source_url:'',curated:!!h,fec:!h}); }
+  const loc=D.local[S.zip]; if(loc) for(const r of loc) out.push(Object.assign({curated:true},r));
+  return out;
+}
+function myMeasures(){ return (S.state && D.measures[S.state]) || []; }
+// Some states print a whole paragraph as the official measure title. Keep headings readable;
+// the full official wording is always one tap away under More detail.
+function shortT(s, n){ s=String(s||'');
+  // Several states open every title with "Shall the X Constitution be amended to:". Drop that
+  // boilerplate so the heading leads with what the measure actually does.
+  s=s.replace(/^\s*shall\s+the\s+[a-z ]{0,40}constitution\s+be\s+amended\s+to:?\s*/i,'');
+  s=s.replace(/^\s*proposed\s+constitutional\s+amendment,?\s*/i,'');
+  s=s.charAt(0).toUpperCase()+s.slice(1);
+  if(s.length<=n) return s;
+  const cut=s.slice(0,n), i=cut.lastIndexOf(' ');
+  return (i>40?cut.slice(0,i):cut).replace(/[\s,;:.\u2014-]+$/,'')+'\u2026'; }
+// Some states repeat the measure's number inside its title. Print it once.
+function mHead(m){ const num=String(m.number||''); let t=shortT(L(m.title),110);
+  if(!t) return '';
+  const rx=new RegExp('^\\s*'+num.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\s*[-:\u2013\u2014]*\\s*','i');
+  if(rx.test(t)) t=t.replace(rx,'');
+  else { const lead=t.split(/[-:–—]/)[0].trim();
+    if(lead.length>=8 && num.toLowerCase().includes(lead.toLowerCase())) return ''; }
+  t=t.replace(/^\((.+)\)$/,'$1').trim();
+  return t?': '+esc(t):''; }
+// An empty list means we checked and the state has none; a missing key means we haven't researched it.
+function measuresChecked(){ return !!S.state && D.measures[S.state] !== undefined; }
+function findCandidate(id){ for(const r of myRaces()){ for(const c of (r.candidates||[])){ if(c.id===id) return {r,c}; } } return null; }
+function candId(r,c){ return c.id || (r.id+':'+(c.name||'').toLowerCase().replace(/[^a-z]/g,'')); }
+
+/* ---------- FEC live House candidates ---------- */
+function fecName(n){ if(!n) return ''; const [last,first]=n.split(',').map(s=>s.trim()); const tc=s=>s.toLowerCase().replace(/\b\w/g,c=>c.toUpperCase()).replace(/\bMc(\w)/g,(m,c)=>'Mc'+c.toUpperCase()); return first? tc(first)+' '+tc(last) : tc(n); }
+async function loadFEC(cd){
+  const key=cd; const hit=FECCACHE[key]; if(hit && Date.now()-hit.t<86400000) return hit.v;
+  const st=cd.slice(0,2), dist=cd.slice(2);
+  const u=`https://api.open.fec.gov/v1/candidates/?api_key=${FEC_KEY}&office=H&state=${st}&district=${dist}&cycle=2026&candidate_status=C&per_page=20`;
+  let r=await fetch(u); if(!r.ok) throw new Error('fec '+r.status); let j=await r.json();
+  if(!(j.results||[]).length && dist==='01'){ r=await fetch(u.replace('&district=01','&district=00')); if(r.ok) j=await r.json(); }
+  const v=(j.results||[]).filter(c=>(c.election_years||[]).includes(2026)).map(c=>({id:'fec:'+c.candidate_id,name:fecName(c.name),party:{en:(c.party_full||'').replace(/ PARTY$/i,'').replace(/\b\w+/g,w=>w[0]+w.slice(1).toLowerCase())},inc:c.incumbent_challenge_full,fec:c.candidate_id,src:'https://www.fec.gov/data/candidate/'+c.candidate_id+'/',nopos:true}));
+  FECCACHE[key]={t:Date.now(),v}; try{ localStorage.setItem('bb-fec',JSON.stringify(FECCACHE)); }catch(e){}
+  return v;
+}
+
+/* ---------- deadlines ---------- */
+function deadlines(){
+  const st=S.state; const rows=(D.deadlines&&D.deadlines[st])||(D.deadlines&&D.deadlines.default)||[];
+  return rows.map(r=>Object.assign({},r,{date:r.date?new Date(r.date+'T12:00:00'):null}));
+}
+const fmt = d => d.toLocaleDateString(S.lang==='es'?'es-US':'en-US',{weekday:'short',month:'short',day:'numeric'});
+const daysTo = d => Math.max(0,Math.ceil((d-new Date())/86400000));
+function icsFor(items){
+  const pad=n=>String(n).padStart(2,'0'); const ds=d=>d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate());
+  const ev=items.filter(i=>i.date).map(i=>`BEGIN:VEVENT\r\nUID:bb-${i.id}-${ds(i.date)}@ballotbuddy\r\nDTSTAMP:${ds(new Date())}T120000Z\r\nDTSTART;VALUE=DATE:${ds(i.date)}\r\nSUMMARY:${L(i.title)}\r\nDESCRIPTION:${L(i.sub).replace(/,/g,'\\,')}\r\nBEGIN:VALARM\r\nTRIGGER:-P1D\r\nACTION:DISPLAY\r\nDESCRIPTION:${L(i.title)}\r\nEND:VALARM\r\nEND:VEVENT`).join('\r\n');
+  return `BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//BallotBuddy//EN\r\n${ev}\r\nEND:VCALENDAR\r\n`;
+}
+function downloadICS(items,name){ const blob=new Blob([icsFor(items)],{type:'text/calendar'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=name; document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500); toast(t('addcal')+' ✓'); }
+function checkReminders(){
+  if(!S.notif) return; const due=deadlines().filter(d=>S.reminders[d.id]&&d.date&&daysTo(d.date)<=3);
+  if(!due.length) return;
+  const msg=due.map(d=>`${L(d.title)} · ${fmt(d.date)}`).join('\n');
+  if('Notification' in window && Notification.permission==='granted'){ try{ new Notification('BallotBuddy',{body:msg}); }catch(e){} }
+  else toast('⏰ '+msg.split('\n')[0]);
+}
+
+/* ---------- speech ---------- */
+let speaking=false;
+function speak(text,btn){
+  if(!('speechSynthesis' in window)){ toast(S.lang==='es'?'Audio no disponible':'Audio not available'); return; }
+  if(speaking){ speechSynthesis.cancel(); speaking=false; document.querySelectorAll('.listen.on').forEach(b=>{b.classList.remove('on'); b.querySelector('span').textContent=t('listen');}); return; }
+  const u=new SpeechSynthesisUtterance(text); u.lang=S.lang==='es'?'es-US':'en-US'; u.rate=.95;
+  u.onend=()=>{speaking=false; if(btn){btn.classList.remove('on'); btn.querySelector('span').textContent=t('listen');}};
+  speaking=true; if(btn){btn.classList.add('on'); btn.querySelector('span').textContent=t('stop');}
+  speechSynthesis.speak(u);
+}
+const listenBtn = (text) => `<button class="listen" onclick="speak(${JSON.stringify(text).replace(/"/g,'&quot;')},this)"><svg viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg><span>${t('listen')}</span></button>`;
+
+/* ---------- helpers ---------- */
+function toast(m){ const el=document.getElementById('toast'); el.textContent=m; el.classList.add('show'); clearTimeout(el._t); el._t=setTimeout(()=>el.classList.remove('show'),2000); }
+function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function initials(n){ return (n||'?').split(' ').filter(Boolean).map(w=>w[0]).join('').slice(0,2).toUpperCase(); }
+const ICON={user:'<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>',doc:'<svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>',cal:'<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h2M12 14h2M16 14h2"/></svg>',bot:'<svg viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><circle cx="9" cy="14" r="1.5"/><circle cx="15" cy="14" r="1.5"/><path d="M12 8V4M9 4h6"/></svg>',book:'<svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h6v18H6a2 2 0 0 1-2-2zM12 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-6"/></svg>',lock:'<svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>',arrow:'<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',heart:'<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg>',check:'<svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg>',x:'<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>'};
+const back = (to) => `<button class="back" onclick="go('${to}')"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>${t('back')}</button>`;
+const locShort = () => S.state ? ((S.county?S.county+', ':'')+S.state) : '';
+const srcPill = () => `<button class="pill gold pillbtn" onclick="showSources()">${t('srcs')}</button>`;
+const partyOf = c => c.party==='nonp' ? t('nonp') : (L(c.party)||'');
+const ext = (url,label) => url?`<a class="src" href="${esc(url)}" target="_blank" rel="noopener">${label} ↗</a>`:'';
+const socialLinks = c => { const s=c.social||{}; const items=[['site',c.site||c.src,S.lang==='es'?'Sitio oficial':'Official site'],['x',s.x,'X'],['instagram',s.instagram,'Instagram'],['facebook',s.facebook,'Facebook'],['youtube',s.youtube,'YouTube']].filter(i=>i[1]); return items.length?`<div class="links">${items.map(i=>`<a href="${esc(i[1])}" target="_blank" rel="noopener">${i[2]} ↗</a>`).join('')}</div>`:''; };
+const followBtn = (id,name) => `<button class="follow ${S.following[id]?'on':''}" onclick="toggleFollow('${esc(id)}',${JSON.stringify(name).replace(/"/g,'&quot;')});event.stopPropagation()">${S.following[id]?t('unfollow'):t('follow')}</button>`;
+function toggleFollow(id,name){ if(S.following[id]) delete S.following[id]; else S.following[id]={name,at:Date.now()}; save(); render(); }
+
+function go(screen,params){ S.screen=screen; S.params=params||{}; save(); render(); document.getElementById('view').scrollTop=0; }
+function requirePremium(next,params){ if(S.premium) return go(next,params); openSheet(`<span class="pill premium">${t('premium')}</span><h2 style="margin-top:12px">${t('premium_s')}</h2><div class="price">$7.99<small>/${S.lang==='es'?'mes':'mo'}</small></div><button class="btn center" style="margin-top:14px" onclick="S.premium=true;save();closeSheet();go('${next}',${JSON.stringify(params||{}).replace(/"/g,'&quot;')})">${t('try')}</button><button class="btn ghost center" onclick="closeSheet()">${t('later')}</button>`); }
+function openSheet(html){ document.getElementById('sheet').innerHTML=html; document.getElementById('sheet').classList.add('show'); document.getElementById('sheetbg').classList.add('show'); }
+function closeSheet(){ document.getElementById('sheet').classList.remove('show'); document.getElementById('sheetbg').classList.remove('show'); }
+function showSources(){ const es=S.lang==='es'; const src=D.sources||{}; openSheet(`<h2>${t('src_t')}</h2><ul>
+  <li><b>${es?'Candidatos':'Candidates'}:</b> ${es?'listas certificadas de cada Secretario de Estado; para la Cámara en cualquier distrito, la base de datos pública de la FEC (solo nombres y partido).':'each state’s certified candidate list; for U.S. House in any district, the FEC’s public database (names and party only).'}</li>
+  <li><b>${es?'Posturas':'Positions'}:</b> ${es?'el sitio web de cada candidato o su declaración oficial. Sin caracterización añadida.':'each candidate’s own website or official candidate statement. No characterization added.'}</li>
+  <li><b>${es?'Medidas':'Measures'}:</b> ${es?'guías oficiales del votante y secretarías de estado; Ballotpedia donde la guía aún no se publica.':'official voter guides and secretaries of state; Ballotpedia where the official guide isn’t out yet.'}</li>
+  <li><b>${es?'Distritos':'Districts'}:</b> ${esc(src.zip_cd||(es?'tabla código postal → distrito del Censo de EE. UU.':'U.S. Census ZIP-to-district relationship file'))}</li>
+  <li><b>${es?'Votos de funcionarios':'Officials’ votes'}:</b> ${es?'registros oficiales de votación (clerk.house.gov, leginfo.legislature.ca.gov).':'official roll-call records (clerk.house.gov, leginfo.legislature.ca.gov).'}</li></ul>
+  <p class="sub">${t('updated')} ${esc(D.generated||'')}.</p><button class="btn center" onclick="closeSheet()">${t('src_close')}</button>`); }
+
+/* ---------- screens ---------- */
+const SCREENS={
+ welcome(){ return `
+   <h1 class="brand"><small>${t('welcome')}</small>BallotBuddy!</h1>
+   <p class="tagline">${t('tagline')}</p>
+   <button class="btn center" onclick="${S.setup?"go('home')":"go('setup',{next:'home'})"}">${t('start')}${ICON.arrow}</button>`; },
+
+ setup(){ return `
+   ${back(S.setup?'profile':'welcome')}
+   <h2>${t('setup_t')}</h2><p class="sub">${t('setup_s')}</p>
+   <label class="f" for="zip">${t('zip')}</label>
+   <input id="zip" type="tel" inputmode="numeric" maxlength="5" placeholder="95391" value="${esc(S.zip)}" oninput="previewZip(this.value)">
+   <div id="zipprev" class="sub" style="margin-top:8px;min-height:1.2em"></div>
+   <div id="cdpick"></div>
+   <label class="f">${t('lang')}</label>
+   <div class="seg"><button class="${S.lang==='en'?'on':''}" onclick="setLang('en')">English</button><button class="${S.lang==='es'?'on':''}" onclick="setLang('es')">Español</button></div>
+   <button class="btn center" style="margin-top:22px" onclick="finishSetup()">${t('save')}${ICON.arrow}</button>`; },
+
+ home(){
+   const dls=deadlines(); const t0=new Date(); t0.setHours(0,0,0,0); const dated=dls.filter(d=>d.date&&d.id!=='eday'&&d.date>=t0).sort((a,b)=>a.date-b.date); const nxt=dated[0]||dls.find(d=>d.id==='eday')||{title:{en:'Election Day',es:'Día de la elección'},date:ELECTION};
+   const races=myRaces(), nM=myMeasures().length; const fol=Object.entries(S.following);
+   const res=S.matchDone?matchResults():null;
+   return `
+   <div class="row between"><h2>${t('home_t')}</h2>${srcPill()}</div>
+   <p class="sub">${esc(locShort())}${S.cd?' · '+cdLabel(S.cd):''} · ${fmt(ELECTION)}, 2026</p>
+   <div class="card navy"><div class="countdown"><span class="num" style="color:#fff">${daysTo(ELECTION)}</span><span class="lbl" style="color:#fff;opacity:.85">${t('days')}</span></div>
+     <div class="sub" style="margin:8px 0 0">${t('next')}: <b>${L(nxt.title)}</b> · ${nxt.date?fmt(nxt.date):L(nxt.approx)}</div></div>
+   ${res&&res.length?`<button class="card click" style="width:100%;text-align:left;font:inherit;border-color:var(--marigold)" onclick="go('match')"><div class="row between"><h3>${t('match_done')}</h3><span class="pill premium">${res[0].pct}%</span></div><div class="sub" style="margin:0">${esc(res[0].name)} · ${t('sw_based')} ${res[0].n} ${t('sw_stmts')}</div></button>`
+     :`<button class="btn" onclick="go('match')">${ICON.heart}${t('match')} <span class="sub" style="margin:0 0 0 auto;color:#fff;opacity:.85;font-size:.75rem">${t('match_s')}</span></button>`}
+   <div class="grid2">
+     <button class="card click" onclick="go('candidates')" style="text-align:left;font:inherit"><div style="color:var(--red);width:26px">${ICON.user}</div><h3>${t('cands')}</h3><div class="sub" style="margin:0">${races.length} ${t('races')}</div></button>
+     <button class="card click" onclick="go('measures')" style="text-align:left;font:inherit"><div style="color:var(--navy);width:26px">${ICON.doc}</div><h3>${t('measures')}</h3><div class="sub" style="margin:0">${nM} ${t('measures_n')}</div></button>
+     <button class="card click" onclick="go('deadlines')" style="text-align:left;font:inherit"><div style="color:var(--red);width:26px">${ICON.cal}</div><h3>${t('deadlines')}</h3><div class="sub" style="margin:0">${Object.values(S.reminders).filter(Boolean).length} ${t('reminders_n')}</div></button>
+     <button class="card click" onclick="go('learn')" style="text-align:left;font:inherit"><div style="color:var(--navy);width:26px">${ICON.book}</div><h3>${t('learn')}</h3><div class="sub" style="margin:0">${t('official_t')}</div></button>
+   </div>
+   ${fol.length?`<div class="eyebrow">${t('following')}</div><div class="chips" style="margin-top:0">${fol.map(([id,f])=>`<button class="chip on" onclick="openFollowed('${esc(id)}')">${esc(f.name)}</button>`).join('')}</div>`:''}
+   <button class="btn navy" onclick="requirePremium('bot')">${ICON.bot}${t('bot')} <span class="pill premium" style="margin-left:auto">${t('premium')}</span></button>`; },
+
+ candidates(){ const races=myRaces();
+   if(!S.state) return `${back('home')}<h2>${t('cands')}</h2><div class="card note">${t('notloaded')}</div>`;
+   return `
+   ${back('home')}
+   <div class="row between"><h2>${t('cands')}</h2>${srcPill()}</div><p class="sub">${t('cand_s')}</p>
+   ${races.map(r=>`<div class="eyebrow">${L(r.level)} · ${L(r.office)}${r.fec?` <span class="pill live" style="margin-left:6px">LIVE · FEC</span>`:''}</div>
+     ${r.seats>1?`<div class="sub" style="margin:0 0 8px">${t('votefor')} ${r.seats}</div>`:''}${r.note?`<div class="sub" style="margin:0 0 8px">${L(r.note)}</div>`:''}
+     ${r.fec&&redistricted()?`<div class="card warn">${t('redistricted')}</div>`:''}${r.fec?`<div id="fec-${r.id}" class="sub">${t('fec_loading')}</div>`:candList(r)}
+     ${r.curated&&r.candidates&&r.candidates.some(c=>c.pos||c.positions)?`<button class="btn ghost center small" style="margin:2px 0 10px;width:100%" onclick="requirePremium('compare',{race:'${r.id}'})">${ICON.lock}${t('compare')}</button>`:''}`).join('')}
+   ${!races.length?`<div class="card note">${t('notloaded')}</div>`:''}
+   <div class="card note"><b>${t('also_t')}.</b> ${t('also_s')}</div>`; },
+
+ candidate(){ const hit=findCandidate(S.params.id); if(!hit) return `${back('candidates')}<div class="card note">—</div>`; const {r,c}=hit;
+   const posList=normPos(c);
+   const speakText=`${c.name}. ${L(c.background||c.bio)} ${posList.map(p=>issueName(p.topic)+': '+L(p.statement)).join('. ')}`;
+   const id=candId(r,c);
+   return `
+   ${back('candidates')}
+   <div class="row" style="margin-bottom:10px"><div class="avatar ${c.cls||''}" style="width:60px;height:60px;font-size:1.3rem">${initials(c.name)}</div><div style="flex:1"><h2 style="margin:0">${esc(c.name)}</h2><div class="sub" style="margin:0">${L(r.office)} · ${partyOf(c)}${c.inc?' · '+esc(c.inc):''}</div></div>${followBtn(id,c.name)}</div>
+   <div class="row" style="margin-bottom:12px">${listenBtn(speakText)}</div>
+   ${(c.background||c.bio)?`<div class="card"><div class="eyebrow" style="margin-top:0">${t('bio')}</div><p style="margin:0">${L(c.background||c.bio)}</p>${c.desig?`<div class="sub" style="margin:8px 0 0">${t('desig')}: ${L(c.desig)}</div>`:''}${socialLinks(c)}</div>`:''}
+   ${posList.length?`<div class="card"><div class="eyebrow" style="margin-top:0">${t('issues')}</div>${posList.map(p=>`<div style="margin-bottom:10px"><b>${issueName(p.topic)}</b><div style="color:var(--ink-2);line-height:1.45">${L(p.statement)}</div>${p.url?`<div style="margin-top:3px">${ext(p.url,t('source'))}</div>`:''}</div>`).join('')}${c.src&&!posList.some(p=>p.url)?`<div style="margin-top:6px">${ext(c.src,t('source'))}</div>`:''}</div>`
+     :`<div class="card note">${t('nopos')}${c.fec?` <div style="margin-top:8px">${ext(c.src,'FEC filing')}</div>`:(c.src?`<div style="margin-top:8px">${ext(c.src,t('guide'))}</div>`:'')}${socialLinks(c)}</div>`}`; },
+
+ compare(){ const r=myRaces().find(x=>x.id===S.params.race)||myRaces()[0]; if(!r||!r.candidates) return back('candidates'); const cands=r.candidates.filter(c=>normPos(c).length); const keys=[...new Set(cands.flatMap(c=>normPos(c).map(p=>p.topic)))];
+   return `
+   ${back('candidates')}
+   <div class="row between"><h2>${t('compare')}</h2><span class="pill premium">${t('premium')}</span></div>
+   <p class="sub">${L(r.office)}</p>
+   <div class="card scrollx"><table class="cmp"><thead><tr><th></th>${cands.map(c=>`<th>${esc(c.name)}</th>`).join('')}</tr></thead>
+   <tbody><tr><td><b>${t('party')}</b></td>${cands.map(c=>`<td>${partyOf(c)}</td>`).join('')}</tr>
+   <tr><td><b>${t('bio')}</b></td>${cands.map(c=>`<td>${L(c.background||c.bio)}</td>`).join('')}</tr>
+   ${keys.map(k=>`<tr><td><b>${issueName(k)}</b></td>${cands.map(c=>{const p=normPos(c).find(x=>x.topic===k);return `<td>${p?L(p.statement):'—'}</td>`;}).join('')}</tr>`).join('')}</tbody></table></div>
+   <p class="sub" style="font-size:.78rem">${t('cand_s')}</p>`; },
+
+ measures(){ const ms=myMeasures(); if(!S.state) return `${back('home')}<h2>${t('measures')}</h2><div class="card note">${t('notloaded')}</div>`; return `
+   ${back('home')}
+   <div class="row between"><h2>${t('measures')}</h2>${srcPill()}</div><p class="sub">${ms.length?t('prop_s'):''}</p>
+   ${ms.length?ms.map((m,i)=>`<button class="card click" style="width:100%;text-align:left;font:inherit" onclick="go('measure',{i:${i}})"><h3>${esc(m.number)}${mHead(m)}</h3><div class="sub" style="margin:0">${esc((LA(m.plain)[0])||'')}</div></button>`).join(''):`<div class="card note">${t(measuresChecked()?'no_measures':'meas_notloaded')}</div>`}`; },
+
+ measure(){ const m=myMeasures()[S.params.i||0]; if(!m) return back('measures'); const plain=LA(m.plain); const pts=S.reading==='simple'?plain:[m.ballot_label||m.legal||'', (S.lang==='es'?'Impacto fiscal: ':'Fiscal impact: ')+L(m.fiscal||m.cost||'—')];
+   const speakText=`${m.number}. ${L(m.title)}. ${pts.join(' ')} ${t('yes')}: ${L(m.yes)} ${t('no')}: ${L(m.no)}`;
+   return `
+   ${back('measures')}
+   <span class="pill navy">${esc(S.state)}</span>
+   <h2 style="margin-top:8px">${esc(m.number)}${mHead(m)}</h2>
+   <div class="row" style="margin:6px 0 12px;justify-content:space-between"><div class="seg" style="flex:1"><button class="${S.reading==='simple'?'on':''}" onclick="S.reading='simple';save();render()">${t('simple')}</button><button class="${S.reading==='standard'?'on':''}" onclick="S.reading='standard';save();render()">${t('standard')}</button></div>${listenBtn(speakText)}</div>
+   <div class="eyebrow">${t('means')}</div>
+   <ul class="simple">${pts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>
+   <div class="yesno"><div class="y"><b>${t('yes')}</b>${esc(L(m.yes))}</div><div class="n"><b>${t('no')}</b>${esc(L(m.no))}</div></div>
+   ${(m.fiscal||m.cost)?`<div class="card"><div class="eyebrow" style="margin-top:0">${t('cost')}</div><p style="margin:0;font-size:.95rem">${esc(L(m.fiscal||m.cost))}</p></div>`:''}
+   <div style="margin:4px 0 8px">${ext((m.urls&&m.urls[0])||m.url,t('guide'))}</div>
+   ${(m.ballot_label||m.legal)?`<details class="legal-d"><summary>${t('official')}</summary><div class="legal">${esc(m.ballot_label||m.legal)}</div></details>`:''}`; },
+
+ deadlines(){ const ds=deadlines(); return `
+   ${back('home')}
+   <div class="row between"><h2>${t('deadlines')}</h2><span class="pill navy">${esc(locShort())}</span></div>
+   <div class="timeline">${ds.map(d=>{const t0=new Date(); t0.setHours(0,0,0,0); const hot=d.date&&d.date>=t0&&daysTo(d.date)<=21; return `<div class="tl ${hot?'hot':''}"><div class="d">${d.date?fmt(d.date):L(d.approx)}</div><div class="t">${L(d.title)}</div><div class="s">${L(d.sub)}</div>
+     <div class="row" style="margin-top:8px;gap:6px;flex-wrap:wrap">${d.id!=='eday'?`<button class="chip ${S.reminders[d.id]?'on':''}" onclick="setReminder('${d.id}')">${S.reminders[d.id]?'✓ '+t('reminded'):'⏰ '+t('remind')}</button>`:''}${d.date?`<button class="chip" onclick="downloadICS([deadlines().find(x=>x.id==='${d.id}')],'ballotbuddy-${d.id}.ics')">📅 ${t('addcal')}</button>`:''}</div></div>`;}).join('')}</div>
+   <button class="btn ghost center" onclick="downloadICS(deadlines(),'ballotbuddy-deadlines.ics')">${t('addall')}</button>
+   <p class="sub" style="font-size:.78rem">${t('cal_note')}</p>
+   <p class="sub" style="font-size:.8rem">${t('verify')} ${ext(S.state==='CA'?'https://voterstatus.sos.ca.gov/':'https://vote.gov/register/'+(S.state||'').toLowerCase(),S.state==='CA'?'voterstatus.sos.ca.gov':'vote.gov')}</p>`; },
+
+ learn(){ const st=(S.state||'').toLowerCase(); const local=(D.official&&D.official[S.zip])||[]; const stateLinks=(D.official&&D.official[S.state])||[];
+   const reads=[{t:{en:'What’s on a ballot?',es:'¿Qué hay en una boleta?'},b:{en:'A ballot has two kinds of choices: people (candidates, from city council to Congress) and measures (yes/no questions that change laws). Local races usually affect your daily life most: rent rules, buses, parks, schools. You don’t have to vote on everything. Leaving a race blank is fine; the rest of your ballot still counts.',es:'Una boleta tiene dos tipos de decisiones: personas (candidatos, desde el concejo hasta el Congreso) y medidas (preguntas de sí/no que cambian leyes). Las contiendas locales suelen afectar más tu vida diaria: renta, autobuses, parques, escuelas. No tienes que votar en todo. Dejar una contienda en blanco está bien; el resto de tu boleta cuenta.'}},
+     {t:{en:'How to vote, step by step',es:'Cómo votar, paso a paso'},b:{en:'1. Check you’re registered at your current address. 2. Not registered? Register before your state’s deadline; many states let you register and vote in person through Election Day. 3. Pick how you’ll vote: by mail, early in person, or on Election Day. 4. Voting by mail? Sign the envelope the way you signed your registration, and send it early.',es:'1. Verifica que estás registrado en tu dirección actual. 2. ¿No registrado? Regístrate antes de la fecha límite de tu estado; muchos estados permiten registrarse y votar en persona hasta el día de la elección. 3. Elige cómo votar: por correo, anticipado o el día de la elección. 4. ¿Por correo? Firma el sobre igual que en tu registro y envíalo temprano.'}},
+     {t:{en:'How to spot biased election info',es:'Cómo detectar información sesgada'},b:{en:'Ask three questions. Who paid for this? (Campaign ads must say.) Is it a fact or a prediction? (“Will raise taxes” is a claim; the measure’s text is the fact.) Can I find the original? Official voter guides, county election sites, and a measure’s full text are primary sources. Screenshots and group chats are not.',es:'Haz tres preguntas. ¿Quién pagó esto? (Los anuncios deben decirlo.) ¿Es un hecho o una predicción? (“Subirá los impuestos” es una afirmación; el texto de la medida es el hecho.) ¿Puedo encontrar el original? Las guías oficiales, los sitios electorales del condado y el texto completo son fuentes primarias. Las capturas y los chats no.'}}];
+   return `
+   ${back('home')}
+   <h2>${t('learn')}</h2><p class="sub">${t('learn_s')}</p>
+   ${reads.map(r=>`<details class="card" style="cursor:pointer"><summary style="font-family:var(--display);font-weight:700;font-size:1.05rem;list-style:none">${L(r.t)}</summary><div style="margin-top:8px">${listenBtn(L(r.b))}</div><p style="margin-top:10px;font-size:1rem">${L(r.b)}</p></details>`).join('')}
+   <div class="eyebrow">${t('official_t')}</div><p class="sub">${t('official_s')}</p>
+   <div class="card"><div class="links" style="margin:0">
+     <a href="https://vote.gov/register/${st}" target="_blank" rel="noopener">vote.gov · ${esc(STATE_NAMES[S.state]||'')} ↗</a>
+     ${stateLinks.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(L(l.name))} ↗</a>`).join('')}
+     ${local.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(L(l.name))} ↗</a>`).join('')}
+     ${S.cd?`<a href="https://www.fec.gov/data/elections/house/${S.cd.slice(0,2)}/${S.cd.slice(2)}/2026/" target="_blank" rel="noopener">FEC · ${cdLabel(S.cd)} ↗</a>`:''}
+   </div></div>`; },
+
+ /* ---- Swipe matcher ---- */
+ match(){ const pool=swipePool(); if(!S.state) return `<h2>${t('tab_match')}</h2><div class="card note">${t('notloaded')}</div>`;
+   if(!pool.length) return `<h2>${t('tab_match')}</h2><div class="card note">${t('sw_none')}</div>`;
+   const remaining=pool.filter(p=>!(p.key in S.swipes));
+   if(!remaining.length||S.matchDone){ S.matchDone=true; save(); const res=matchResults(); return `
+     <div class="row between"><h2>${t('sw_result')}</h2><button class="chip" onclick="S.swipes={};S.matchDone=false;save();go('match')">${t('sw_again')}</button></div><p class="sub">${t('sw_result_s')}</p>
+     ${res.map(r=>`<button class="card click" style="width:100%;text-align:left;font:inherit" onclick="go('candidate',{id:'${esc(r.id)}'})"><div class="row between"><h3>${esc(r.name)} <span class="pill" style="margin-left:4px">${esc(r.party)}</span></h3><b style="font-family:var(--display);font-size:1.3rem;color:var(--navy)">${r.pct}%</b></div><div class="bar"><i style="width:${r.pct}%"></i></div><div class="sub" style="margin:0">${esc(L(r.office))} · ${r.agree}/${r.n} ${t('sw_stmts')}</div></button>`).join('')}
+     <div class="eyebrow">${t('sw_reveal')}</div>${pool.filter(p=>S.swipes[p.key]===1).map(p=>`<div class="card" style="padding:10px 14px"><div class="sub" style="margin:0 0 4px"><b>${esc(p.name)}</b> · ${issueName(p.topic)}</div><div style="font-size:.92rem">${esc(L(p.statement))}</div></div>`).join('')||`<div class="card note">—</div>`}`; }
+   const cur=remaining[0], nxt=remaining[1]; const done=pool.length-remaining.length;
+   return `
+   <div class="row between"><h2>${t('tab_match')}</h2><span class="pill navy">${done+1} / ${pool.length}</span></div><p class="sub">${t('sw_intro')}</p>
+   <div class="deck">
+     ${nxt?`<div class="swipe-card behind"><div class="who">${t('sw_says')} ${esc(L(nxt.office))} ${t('sw_says2')}</div><div class="q">${esc(L(nxt.statement))}</div><span class="pill">${issueName(nxt.topic)}</span></div>`:''}
+     <div class="swipe-card top" id="swtop" data-key="${esc(cur.key)}"><span class="stamp yes">${t('sw_agree').toUpperCase()}</span><span class="stamp no">${t('sw_dis').toUpperCase()}</span><div class="who">${t('sw_says')} ${esc(L(cur.office))} ${t('sw_says2')}</div><div class="q">${esc(L(cur.statement))}</div><span class="pill">${issueName(cur.topic)}</span></div>
+   </div>
+   <div class="swipe-actions"><button class="btn ghost center" onclick="swipe(-1)">${ICON.x}${t('sw_dis')}</button><button class="btn ghost center small" style="box-shadow:inset 0 0 0 2px var(--line);color:var(--muted)" onclick="swipe(0)">${t('sw_skip')}</button><button class="btn center" style="background:var(--good);box-shadow:0 2px 0 #1F6B41" onclick="swipe(1)">${ICON.check}${t('sw_agree')}</button></div>`; },
+
+ /* ---- Followed official / candidate ---- */
+ record(){ const o=REPS.officials.find(x=>x.id===S.params.id); if(!o) return back('updates');
+   return `
+   ${back('updates')}
+   <div class="row" style="margin-bottom:10px"><div class="avatar" style="width:60px;height:60px;font-size:1.3rem">${initials(o.name)}</div><div style="flex:1"><h2 style="margin:0">${esc(o.name)}</h2><div class="sub" style="margin:0">${esc(o.office)} · ${esc(o.party)}</div></div>${followBtn(o.id,o.name)}</div>
+   <p class="sub">${t('rec_s')}</p>
+   ${socialLinks({site:o.official_site,social:o.social})}
+   ${(o.promises||[]).length?`<div class="card"><div class="eyebrow" style="margin-top:0">${t('promises')}</div>${o.promises.map(p=>`<div style="margin-bottom:10px"><b>${issueName(p.topic)}</b><div style="color:var(--ink-2);line-height:1.45">${esc(p.statement)}</div>${ext(p.url,t('source'))}</div>`).join('')}</div>`:''}
+   ${(o.votes||[]).length?`<div class="card"><div class="eyebrow" style="margin-top:0">${t('votes')}</div>${o.votes.map(v=>`<div class="vote"><div class="d">${esc(v.date)} · ${esc(v.bill)}</div><div class="t">${esc(v.title)}</div><div class="s">${esc(v.what_it_does)}</div><span class="v ${/yea|aye|yes/i.test(v.vote)?'yea':/nay|no\b/i.test(v.vote)?'nay':'nv'}">${esc(v.vote)}</span> <span class="sub" style="font-size:.75rem">${esc(v.outcome||'')}</span>${v.related_topic?`<div class="sub" style="margin:4px 0 0;font-size:.78rem">${t('related')}: ${issueName(v.related_topic)}</div>`:''}<div>${ext(v.url,t('source'))}</div></div>`).join('')}</div>`:''}
+   ${(o.upcoming_events||[]).length?`<div class="card"><div class="eyebrow" style="margin-top:0">${t('events')}</div>${o.upcoming_events.map(e=>`<div style="margin-bottom:8px"><b>${esc(e.date)}</b> ${esc(e.title)} ${ext(e.url,'↗')}</div>`).join('')}</div>`:''}
+   ${o.contact?`<div class="card note"><b>${t('contact')}:</b> ${esc(o.contact)}</div>`:''}`; },
+
+ updates(){ const fol=Object.keys(S.following); const reps=REPS.officials.filter(o=>fol.includes(o.id)); const cands=fol.filter(id=>!REPS.officials.some(o=>o.id===id)).map(id=>({id,f:S.following[id],hit:findCandidate(id)}));
+   const items=(D.updates&&(D.updates[S.state]||[]).concat(D.updates.all||[]))||[];
+   return `<div class="row between"><h2>${t('tab_updates')}</h2><span class="pill navy">${esc(locShort())}</span></div>
+   <div class="eyebrow">${t('upd_follow')}</div>
+   ${(!reps.length&&!cands.length)?`<div class="card note">${t('nofollow')}</div>`:''}
+   <div class="feed">${reps.map(o=>`<button class="card click" style="width:100%;text-align:left;font:inherit" onclick="go('record',{id:'${esc(o.id)}'})"><div class="row between"><h3>${esc(o.name)}</h3><span class="pill">${esc(o.office)}</span></div>${(o.votes||[]).slice(0,2).map(v=>`<div class="sub" style="margin:4px 0 0"><b>${esc(v.date)}</b> ${esc(v.title)} — <b>${esc(v.vote)}</b></div>`).join('')}${(o.upcoming_events||[])[0]?`<div class="sub" style="margin:4px 0 0">📅 ${esc(o.upcoming_events[0].date)} ${esc(o.upcoming_events[0].title)}</div>`:''}</button>`).join('')}
+   ${cands.map(c=>`<button class="card click" style="width:100%;text-align:left;font:inherit" onclick="${c.hit?`go('candidate',{id:'${esc(c.id)}'})`:''}"><div class="row between"><h3>${esc(c.f.name)}</h3>${c.hit?`<span class="pill">${esc(L(c.hit.r.office))}</span>`:''}</div><div class="sub" style="margin:4px 0 0">${S.lang==='es'?'Publicaciones y eventos de campaña llegarán con la conexión a redes. Por ahora, visita su sitio.':'Campaign posts and events arrive once social feeds are connected. For now, visit their site.'}</div>${c.hit?socialLinks(c.hit.c):''}</button>`).join('')}</div>
+   <div class="eyebrow">${t('upd_all')}</div>
+   <div class="feed">${items.map(i=>`<div class="card ${i.hot?'alert':''}"><time>${esc(i.date)}</time><h3 style="margin-top:4px">${esc(L(i.title))}</h3><p style="margin:0;font-size:.92rem;color:var(--ink-2)">${esc(L(i.body))}</p>${ext(i.url,'↗')}</div>`).join('')||`<div class="card note">—</div>`}</div>`; },
+
+ profile(){ const ints=interestSummary(); return `
+   <h2>${t('prof_t')}</h2>
+   <div class="card"><div class="row between"><div><div class="eyebrow" style="margin-top:0">${t('loc')}</div><b>${esc(locShort()||'—')}</b> <span class="sub" style="margin:0">${esc(S.zip)}${S.cd?' · '+cdLabel(S.cd):''}</span></div><button class="btn small ghost" onclick="go('setup')">${t('change')}</button></div></div>
+   <div class="card"><div class="eyebrow" style="margin-top:0">${t('interests')}</div>${ints.length?`<div class="chips" style="margin:0">${ints.map(i=>`<span class="chip on" style="cursor:default">${issueName(i)}</span>`).join('')}</div>`:`<div class="sub" style="margin:0">${t('no_interests')}</div>`}</div>
+   <div class="card"><div class="eyebrow" style="margin-top:0">${t('lang')}</div><div class="seg"><button class="${S.lang==='en'?'on':''}" onclick="setLang('en')">English</button><button class="${S.lang==='es'?'on':''}" onclick="setLang('es')">Español</button></div></div>
+   <div class="card stack"><div class="eyebrow" style="margin:0">${t('settings')}</div>
+     <div class="row between"><span>${t('textsize')}</span><button class="toggle ${S.large?'on':''}" aria-label="${t('textsize')}" onclick="S.large=!S.large;save();render()"></button></div>
+     <div class="row between"><span>${t('notif')}</span><button class="toggle ${S.notif?'on':''}" aria-label="${t('notif')}" onclick="S.notif=!S.notif;save();if(S.notif)askNotify();this.classList.toggle('on')"></button></div></div>
+   <div class="card" style="border-color:var(--marigold)"><div class="row between"><span class="pill premium">${t('premium')}</span><button class="toggle ${S.premium?'on':''}" aria-label="${t('premium')}" onclick="S.premium=!S.premium;save();render()"></button></div><p style="margin:8px 0 0">${t('premium_s')}</p><div class="sub" style="margin:4px 0 0">${S.premium?t('on_demo'):t('price')}</div></div>
+   <button class="btn ghost center" onclick="showSources()">${t('srcs')}</button>
+   <button class="btn ghost center" onclick="localStorage.removeItem('bb-state');localStorage.removeItem('bb-fec');location.reload()">${t('reset')}</button>`; },
+
+ bot(){ const es=S.lang==='es'; const sug=es?['¿Estoy registrado?','¿Qué medidas hay en mi boleta?','¿Necesito identificación?']:['Am I registered?','What measures are on my ballot?','Do I need ID?'];
+   return `
+   ${back('home')}
+   <div class="row between"><h2>BallotBot</h2><span class="pill premium">${t('premium')}</span></div>
+   <div class="chat" id="chat" style="margin-top:12px">${S.chat.length?S.chat.map(m=>`<div class="msg ${m.role==='user'?'me':'bot'}">${esc(m.content)}</div>`).join(''):`<div class="msg bot">${t('bot_hi')}</div>`}</div>
+   <div class="suggest">${sug.map(s=>`<button class="chip" onclick="askBot(${JSON.stringify(s).replace(/"/g,'&quot;')})">${s}</button>`).join('')}</div>
+   <form class="chatbar" onsubmit="event.preventDefault();askBot(this.q.value);this.q.value=''"><input name="q" type="text" autocomplete="off" placeholder="${t('placeholder')}"><button class="btn" type="submit" id="askbtn">${t('ask')}</button></form>`; }
+};
+
+/* ---------- candidate list + positions ---------- */
+function normPos(c){ if(c.positions&&Array.isArray(c.positions)) return c.positions.map(p=>({topic:p.topic||'other',statement:p.statement,url:p.url})); if(c.pos) return Object.entries(c.pos).map(([k,v])=>({topic:k,statement:v,url:c.src})); return []; }
+function candList(r){ const cs=r.candidates||[]; if(!cs.length) return `<div class="card note">${t('nopos')}</div>`;
+  return cs.map(c=>{ const id=candId(r,c); c.id=id; return `<button class="card click row" style="width:100%;text-align:left;font:inherit" onclick="go('candidate',{id:'${esc(id)}'})"><div class="avatar ${c.cls||''}">${initials(c.name)}</div><div style="flex:1"><h3>${esc(c.name)} <span class="pill" style="margin-left:4px">${partyOf(c)}</span>${c.inc==='Incumbent'?` <span class="pill navy">${t('incumbent')}</span>`:''}</h3><div class="sub" style="margin:0">${c.nopos&&!normPos(c).length?(c.fec?'':t('nopos_s')):esc(L(c.summary)||'')}</div></div>${ICON.arrow.replace('<svg','<svg style="width:18px;height:18px;stroke:var(--muted);fill:none;stroke-width:2;flex:none"')}</button>`; }).join(''); }
+async function fillFEC(){ for(const r of myRaces()){ if(!r.fec) continue; const el=document.getElementById('fec-'+r.id); if(!el) continue;
+  try{ const cs=await loadFEC(S.cd); r.candidates=cs; const race=myRaces().find(x=>x.id===r.id); if(race) race.candidates=cs; D.races.house=D.races.house||{}; D.races.house[S.cd]=D.races.house[S.cd]||{candidates:cs,fec:true};
+    el.outerHTML=(cs.length?candList(Object.assign({},r,{candidates:cs})):`<div class="card note">${t('fec_none')}</div>`)+`<div class="card warn">${t('fec_note')}</div>`; }
+  catch(e){ el.outerHTML=`<div class="card warn">${t('fec_fail')} ${ext('https://www.fec.gov/data/elections/house/'+S.cd.slice(0,2)+'/'+S.cd.slice(2)+'/2026/','FEC')}</div>`; } } }
+
+/* ---------- swipe logic ---------- */
+function swipePool(){ const pool=[]; for(const r of myRaces()){ if(!r.candidates) continue; for(const c of r.candidates){ const id=candId(r,c); c.id=id; normPos(c).forEach((p,i)=>{ if(p.statement) pool.push({key:id+'#'+i,cid:id,name:c.name,party:partyOf(c),office:r.office,topic:p.topic,statement:p.statement}); }); } }
+  // stable shuffle by key hash so order is consistent per user
+  const h=s=>{let x=0;for(const ch of s)x=(x*31+ch.charCodeAt(0))>>>0;return x;}; return pool.sort((a,b)=>h(a.key+S.zip)-h(b.key+S.zip)).slice(0,24); }
+function swipe(v){ const el=document.getElementById('swtop'); if(!el) return; const key=el.dataset.key; S.swipes[key]=v; save();
+  el.style.transform=`translateX(${v>0?120:v<0?-120:0}%) rotate(${v*15}deg)`; el.style.opacity='0'; setTimeout(()=>render(),220); }
+function attachSwipe(){ const el=document.getElementById('swtop'); if(!el) return; let x0=null, dx=0;
+  const yes=el.querySelector('.stamp.yes'), no=el.querySelector('.stamp.no');
+  el.onpointerdown=e=>{ x0=e.clientX; el.setPointerCapture(e.pointerId); el.style.transition='none'; };
+  el.onpointermove=e=>{ if(x0===null) return; dx=e.clientX-x0; el.style.transform=`translateX(${dx}px) rotate(${dx/18}deg)`; yes.style.opacity=Math.min(1,Math.max(0,dx/80)); no.style.opacity=Math.min(1,Math.max(0,-dx/80)); };
+  el.onpointerup=el.onpointercancel=e=>{ if(x0===null) return; el.style.transition=''; if(dx>90) swipe(1); else if(dx<-90) swipe(-1); else { el.style.transform=''; yes.style.opacity=0; no.style.opacity=0; } x0=null; dx=0; }; }
+function matchResults(){ const pool=swipePool(); const by={}; for(const p of pool){ const v=S.swipes[p.key]; if(v===undefined||v===0) continue; by[p.cid]=by[p.cid]||{id:p.cid,name:p.name,party:p.party,office:p.office,n:0,agree:0}; by[p.cid].n++; if(v===1) by[p.cid].agree++; }
+  return Object.values(by).map(r=>Object.assign(r,{pct:Math.round(100*r.agree/r.n)})).sort((a,b)=>b.pct-a.pct||b.n-a.n); }
+function interestSummary(){ const pool=swipePool(); const c={}; for(const p of pool){ if(S.swipes[p.key]===1) c[p.topic]=(c[p.topic]||0)+1; } return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,6).map(e=>e[0]); }
+
+/* ---------- actions ---------- */
+function previewZip(v){ const el=document.getElementById('zipprev'); const pick=document.getElementById('cdpick'); const st=v.length===5?zipToState(v):''; const cds=v.length===5?cdsFor(v):[];
+  el.textContent=st?`${countyFor(v)?countyFor(v)+', ':''}${STATE_NAMES[st]}${cds.length===1?' · '+cdLabel(cds[0]):''}`:(v.length===5?(S.lang==='es'?'Código no reconocido':'ZIP not recognized'):'');
+  pick.innerHTML=cds.length>1?`<div class="sub" style="margin:8px 0 4px">${t('pick_cd')}</div><div class="chips">${cds.map(cd=>`<button class="chip ${S.cd===cd?'on':''}" onclick="S.cd='${cd}';save();previewZip('${v}')">${cdLabel(cd)}</button>`).join('')}</div>`:''; }
+function finishSetup(){ const v=document.getElementById('zip').value.trim(); const st=/^\d{5}$/.test(v)?zipToState(v):''; if(!st){ toast(t('zip_err')); return; }
+  const cds=cdsFor(v); if(S.zip!==v){ S.cd=''; S.swipes={}; S.matchDone=false; } S.zip=v; S.state=st; S.county=countyFor(v); S.cdOptions=cds; if(cds.length===1) S.cd=cds[0]; if(cds.length>1&&!cds.includes(S.cd)) S.cd=cds[0]; S.setup=true; save(); go(S.params.next||'home'); toast((S.lang==='es'?'Boleta lista: ':'Ballot ready: ')+STATE_NAMES[st]); }
+function setLang(l){ const z=document.getElementById('zip'); const v=z?z.value:null; S.lang=l; save(); render(); if(v!==null){ const n=document.getElementById('zip'); if(n){ n.value=v; previewZip(v); } } }
+function setReminder(id){ S.reminders[id]=!S.reminders[id]; save(); if(S.reminders[id]) askNotify(); render(); toast(S.reminders[id]?t('reminded'):t('unreminded')); }
+function askNotify(){ if('Notification' in window && Notification.permission==='default'){ try{ Notification.requestPermission(); }catch(e){} } }
+function openFollowed(id){ if(REPS.officials.some(o=>o.id===id)) go('record',{id}); else if(findCandidate(id)) go('candidate',{id}); else go('updates'); }
+
+/* ---------- BallotBot ---------- */
+let sampleFn=null, ctl=null;
+(async()=>{ try{ if(window.claude&&claude.use) sampleFn=await claude.use('sample'); }catch(e){ sampleFn=null; } })();
+function canned(q){ const s=q.toLowerCase(); const es=S.lang==='es'; const ms=myMeasures(); const races=myRaces();
+  if(/regist/.test(s)) return es?`Revisa tu registro en ${S.state==='CA'?'voterstatus.sos.ca.gov':'vote.gov'}; toma un minuto. Abre Fechas límite para ver la fecha de tu estado.`:`Check your registration at ${S.state==='CA'?'voterstatus.sos.ca.gov':'vote.gov'}; it takes a minute. Open Deadlines for your state’s date.`;
+  if(/\bid\b|identif/.test(s)) return es?'Depende del estado. En California la mayoría no necesita mostrar identificación. Revisa vote.gov para tu estado.':'It depends on your state. In California most registered voters don’t need to show ID. Check vote.gov for your state.';
+  if(/measure|prop|medida|propuesta/.test(s)) return ms.length?(es?`Tu boleta tiene ${ms.length} medidas estatales: ${ms.slice(0,4).map(m=>m.number).join(', ')}${ms.length>4?'…':''}. Abre Medidas para cada una en lenguaje sencillo.`:`Your ballot has ${ms.length} statewide measures: ${ms.slice(0,4).map(m=>m.number).join(', ')}${ms.length>4?'…':''}. Open Measures for each one in plain English.`):(es?'No hay medidas estatales en tu boleta este año.':'No statewide measures are on your ballot this year.');
+  if(/governor|gobernador|senate|senado|congress|house|who.*running|quién/.test(s)) return races.length?(es?`Tus contiendas: ${races.map(r=>L(r.office)).join('; ')}. Abre Candidatos para las posturas de cada uno, tomadas de sus propios sitios. No te diré por quién votar.`:`Your races: ${races.map(r=>L(r.office)).join('; ')}. Open Candidates for each person’s positions, taken from their own sites. I won’t tell you who to vote for.`):(es?'Aún no tengo contiendas cargadas para tu estado.':'I don’t have races loaded for your state yet.');
+  return es?'Buena pregunta. Revisa Medidas, Candidatos y Fechas límite, o el sitio electoral de tu estado.':'Good question. Check Measures, Candidates, and Deadlines, or your state’s election site.'; }
+async function askBot(q){ q=(q||'').trim(); if(!q) return; S.chat.push({role:'user',content:q}); save(); render();
+  const chat=document.getElementById('chat'); const bubble=document.createElement('div'); bubble.className='msg bot'; bubble.textContent=t('thinking'); chat.appendChild(bubble); bubble.scrollIntoView({block:'end'});
+  const btn=document.getElementById('askbtn'); if(btn) btn.disabled=true;
+  let text='';
+  if(sampleFn){
+    const races=myRaces(), ms=myMeasures(), ints=interestSummary(), fol=Object.values(S.following).map(f=>f.name);
+    const rules=`You are BallotBot, a strictly nonpartisan voter-education assistant inside the BallotBuddy app for voters aged 18-29. Answer in ${S.lang==='es'?'Spanish':'English'}, in plain language at about an 8th-grade reading level, in at most 3 short sentences. Never tell the user who or what to vote for, never characterize parties, candidates, or measures as good or bad, and never add facts about candidates beyond the data below. If asked for a recommendation, explain how to weigh the choice instead. Tailor answers to this voter: ZIP ${S.zip||'unknown'} (${STATE_NAMES[S.state]||'unknown state'}${S.cd?', '+cdLabel(S.cd):''}). Their swiped interests: ${ints.map(issueName).join(', ')||'none yet'}. They follow: ${fol.join(', ')||'no one yet'}. Election Day: Tuesday, Nov 3, 2026. If a question needs state rules you don't have, point to vote.gov/register/${(S.state||'').toLowerCase()}.\nDEADLINES: ${deadlines().map(d=>L(d.title)+(d.date?' '+d.date.toDateString():'')).join('; ')}\nRACES ON THEIR BALLOT:\n${races.map(r=>`- ${L(r.office)}: ${(r.candidates||[]).map(c=>c.name+' ['+partyOf(c)+']'+(normPos(c).length?': '+normPos(c).map(p=>L(p.statement)).join(' / '):' (no published positions)')).join('; ')||'(loading)'}`).join('\n')}\nSTATEWIDE MEASURES:\n${ms.map(m=>`- ${m.number} ${L(m.title)}: ${(m.ballot_label||'').slice(0,200)} YES: ${L(m.yes)} NO: ${L(m.no)}`).join('\n')}`.slice(0,60000);
+    const turns=S.chat.slice(-8);
+    ctl=new AbortController();
+    try{ const res=await sampleFn([{role:'user',content:rules},{role:'assistant',content:'Understood.'},...turns],{cache:false,modelTier:'quick',signal:ctl.signal,onText:({text:tx})=>{bubble.textContent=tx;}}); text=res.text; }
+    catch(e){ text=e&&e.text?e.text:(e&&e.code==='rate_limited'?(S.lang==='es'?'Demasiadas preguntas seguidas. Intenta en un momento.':'Too many questions at once. Try again in a moment.'):canned(q)); }
+  } else { await new Promise(r=>setTimeout(r,500)); text=canned(q); }
+  S.chat.push({role:'assistant',content:text}); save(); render(); const c2=document.getElementById('chat'); if(c2) c2.lastElementChild.scrollIntoView({block:'end'}); }
+
+/* ---------- render ---------- */
+function render(){
+  if(speaking){ try{ speechSynthesis.cancel(); }catch(e){} speaking=false; }
+  const v=document.getElementById('view'); v.classList.toggle('large',S.large);
+  v.innerHTML=SCREENS[S.screen]?SCREENS[S.screen]():SCREENS.welcome();
+  document.querySelectorAll('[data-i]').forEach(el=>el.textContent=t(el.dataset.i));
+  const tabFor={home:'home',candidates:'home',candidate:'home',compare:'home',measures:'home',measure:'home',deadlines:'home',learn:'home',bot:'home',match:'match',updates:'updates',record:'updates',profile:'profile'};
+  document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab===tabFor[S.screen]));
+  document.getElementById('tabs').style.display=(S.screen==='welcome'||S.screen==='setup')?'none':'flex';
+  if(S.screen==='setup'){ const z=document.getElementById('zip'); if(z&&z.value) previewZip(z.value); }
+  if(S.screen==='bot'){ const c=document.getElementById('chat'); if(c&&c.lastElementChild) c.lastElementChild.scrollIntoView({block:'end'}); }
+  if(S.screen==='candidates') fillFEC();
+  if(S.screen==='match') attachSwipe();
+}
+function tick(){ const d=new Date(); document.getElementById('clock').textContent=d.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'}).replace(/ ?[AP]M/,''); }
+tick(); setInterval(tick,30000);
+function fit(){ const ph=document.querySelector('.phone'); if(innerWidth<=820){ ph.style.transform=''; ph.style.marginTop=''; ph.style.marginBottom=''; return; } const sc=Math.min(1,(innerHeight-48)/800); ph.style.transform=sc<1?`scale(${sc})`:''; ph.style.marginTop=sc<1?`${-(800-800*sc)/2}px`:''; ph.style.marginBottom=ph.style.marginTop; }
+fit(); addEventListener('resize',fit);
+document.querySelector('[data-tab="home"]').onclick=()=>go(S.setup?'home':'welcome');
+if(!S.setup) S.screen='welcome';
+render(); loadAll().then(checkReminders);
+</script>

@@ -216,7 +216,7 @@
 <div class="stage">
   <div class="stage-side">
     <h1>Use your buddy to cast your ballot.</h1>
-    <p>Tap around. Free, nonpartisan, for voters 18–29.</p>
+    <p>Tap around. Free, nonpartisan, for voters 18+.</p>
   </div>
 
   <div class="phone">
@@ -275,7 +275,7 @@ let FECCACHE = {}; try{ FECCACHE=JSON.parse(localStorage.getItem('bb-fec')||'{}'
 
 /* ---------- strings ---------- */
 const T = {
-  en:{tab_home:'Home',tab_match:'Match',tab_updates:'Updates',tab_profile:'Profile',welcome:'Welcome to',start:'Get started',tagline:'Your ballot, explained. Free. Nonpartisan. For voters 18–29.',
+  en:{tab_home:'Home',tab_match:'Match',tab_updates:'Updates',tab_profile:'Profile',welcome:'Welcome to',start:'Get started',tagline:'Your ballot, explained. Free. Nonpartisan. For voters 18+.',
     setup_t:'Where do you vote?',setup_s:'Your ZIP finds your ballot. Nothing is shared.',zip:'ZIP code',lang:'Language',save:'Show my ballot',zip_err:'Enter a 5-digit ZIP.',pick_cd:'Your ZIP spans more than one congressional district. Pick yours:',
     home_t:'Your ballot',days:'days to Election Day',next:'Next',cands:'Candidates',measures:'Measures',deadlines:'Deadlines',learn:'Learn',bot:'BallotBot',srcs:'Sources',match:'Find your match',match_s:'Swipe on real candidate positions',match_done:'Your matches',following:'Following',follow:'Follow',unfollow:'Following ✓',nofollow:'Follow candidates and officials to see their votes and updates here.',
     races:'races',measures_n:'measures',reminders_n:'reminders',
@@ -297,7 +297,7 @@ const T = {
     rec_t:'Record',rec_s:'Recent recorded votes, shown next to what they said they’d do. We don’t judge which is which.',promises:'What they said',votes:'How they voted',related:'Related to',events:'Upcoming',contact:'Contact',
     upd_follow:'From people you follow',upd_all:'For your area',
   },
-  es:{tab_home:'Inicio',tab_match:'Match',tab_updates:'Avisos',tab_profile:'Perfil',welcome:'Bienvenido a',start:'Comenzar',tagline:'Tu boleta, explicada. Gratis. Imparcial. Para votantes de 18 a 29.',
+  es:{tab_home:'Inicio',tab_match:'Match',tab_updates:'Avisos',tab_profile:'Perfil',welcome:'Bienvenido a',start:'Comenzar',tagline:'Tu boleta, explicada. Gratis. Imparcial. Para votantes de 18 años o más.',
     setup_t:'¿Dónde votas?',setup_s:'Tu código postal encuentra tu boleta. No se comparte nada.',zip:'Código postal',lang:'Idioma',save:'Mostrar mi boleta',zip_err:'Escribe un código postal de 5 dígitos.',pick_cd:'Tu código postal abarca más de un distrito. Elige el tuyo:',
     home_t:'Tu boleta',days:'días para la elección',next:'Próximo',cands:'Candidatos',measures:'Medidas',deadlines:'Fechas límite',learn:'Aprender',bot:'BallotBot',srcs:'Fuentes',match:'Encuentra tu match',match_s:'Desliza sobre posturas reales de candidatos',match_done:'Tus matches',following:'Siguiendo',follow:'Seguir',unfollow:'Siguiendo ✓',nofollow:'Sigue a candidatos y funcionarios para ver sus votos y avisos aquí.',
     races:'contiendas',measures_n:'medidas',reminders_n:'recordatorios',
@@ -684,7 +684,7 @@ async function askBot(q){ q=(q||'').trim(); if(!q) return; S.chat.push({role:'us
   let text='';
   if(sampleFn){
     const races=myRaces(), ms=myMeasures(), ints=interestSummary(), fol=Object.values(S.following).map(f=>f.name);
-    const rules=`You are BallotBot, a strictly nonpartisan voter-education assistant inside the BallotBuddy app for voters aged 18-29. Answer in ${S.lang==='es'?'Spanish':'English'}, in plain language at about an 8th-grade reading level, in at most 3 short sentences. Never tell the user who or what to vote for, never characterize parties, candidates, or measures as good or bad, and never add facts about candidates beyond the data below. If asked for a recommendation, explain how to weigh the choice instead. Tailor answers to this voter: ZIP ${S.zip||'unknown'} (${STATE_NAMES[S.state]||'unknown state'}${S.cd?', '+cdLabel(S.cd):''}). Their swiped interests: ${ints.map(issueName).join(', ')||'none yet'}. They follow: ${fol.join(', ')||'no one yet'}. Election Day: Tuesday, Nov 3, 2026. If a question needs state rules you don't have, point to vote.gov/register/${(S.state||'').toLowerCase()}.\nDEADLINES: ${deadlines().map(d=>L(d.title)+(d.date?' '+d.date.toDateString():'')).join('; ')}\nRACES ON THEIR BALLOT:\n${races.map(r=>`- ${L(r.office)}: ${(r.candidates||[]).map(c=>c.name+' ['+partyOf(c)+']'+(normPos(c).length?': '+normPos(c).map(p=>L(p.statement)).join(' / '):' (no published positions)')).join('; ')||'(loading)'}`).join('\n')}\nSTATEWIDE MEASURES:\n${ms.map(m=>`- ${m.number} ${L(m.title)}: ${(m.ballot_label||'').slice(0,200)} YES: ${L(m.yes)} NO: ${L(m.no)}`).join('\n')}`.slice(0,60000);
+    const rules=`You are BallotBot, a strictly nonpartisan voter-education assistant inside the BallotBuddy app for voters 18+. Answer in ${S.lang==='es'?'Spanish':'English'}, in plain language at about an 8th-grade reading level, in at most 3 short sentences. Never tell the user who or what to vote for, never characterize parties, candidates, or measures as good or bad, and never add facts about candidates beyond the data below. If asked for a recommendation, explain how to weigh the choice instead. Tailor answers to this voter: ZIP ${S.zip||'unknown'} (${STATE_NAMES[S.state]||'unknown state'}${S.cd?', '+cdLabel(S.cd):''}). Their swiped interests: ${ints.map(issueName).join(', ')||'none yet'}. They follow: ${fol.join(', ')||'no one yet'}. Election Day: Tuesday, Nov 3, 2026. If a question needs state rules you don't have, point to vote.gov/register/${(S.state||'').toLowerCase()}.\nDEADLINES: ${deadlines().map(d=>L(d.title)+(d.date?' '+d.date.toDateString():'')).join('; ')}\nRACES ON THEIR BALLOT:\n${races.map(r=>`- ${L(r.office)}: ${(r.candidates||[]).map(c=>c.name+' ['+partyOf(c)+']'+(normPos(c).length?': '+normPos(c).map(p=>L(p.statement)).join(' / '):' (no published positions)')).join('; ')||'(loading)'}`).join('\n')}\nSTATEWIDE MEASURES:\n${ms.map(m=>`- ${m.number} ${L(m.title)}: ${(m.ballot_label||'').slice(0,200)} YES: ${L(m.yes)} NO: ${L(m.no)}`).join('\n')}`.slice(0,60000);
     const turns=S.chat.slice(-8);
     ctl=new AbortController();
     try{ const res=await sampleFn([{role:'user',content:rules},{role:'assistant',content:'Understood.'},...turns],{cache:false,modelTier:'quick',signal:ctl.signal,onText:({text:tx})=>{bubble.textContent=tx;}}); text=res.text; }

@@ -2,7 +2,7 @@
 
 **Use your buddy to cast your ballot.**
 
-A free, nonpartisan voter-education app for voters aged 18–29. Enter any U.S. ZIP code and see your ballot: candidates and measures explained in plain English, the deadlines that matter in your county, and a swipe-to-compare that matches your views to what candidates actually said.
+A free, nonpartisan voter-education app for voters 18+. Enter any U.S. ZIP code and see your ballot: candidates and measures explained in plain English, the deadlines that matter in your county, and a swipe-to-compare that matches your views to what candidates actually said.
 
 Only 23% of voters aged 18–29 turned out in the 2022 midterms. The reason usually isn't apathy. It's confusing ballot language, missed deadlines, and not knowing which sources to trust. Ballot Buddy is built to remove all three.
 

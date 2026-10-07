@@ -90,7 +90,7 @@ Always confirm deadlines with your state or county election office. This is vote
 
 ## Run it yourself
 
-No build step, no framework. One Python file serves the site, the app, and the registration API, and registrations are stored in a SQLite file next to it. Python 3.8 or newer is the only requirement.
+No build step, no framework, no dependencies. Locally, one Python file serves the site, the app, and the registration API, and registrations are stored in a SQLite file next to it. Python 3.9 or newer is the only requirement. The same API code runs on Vercel for the public site (see below).
 
 **1. Set the admin password.** It unlocks the private registrations page.
 
@@ -134,7 +134,10 @@ Options, as environment variables or lines in `.env`: `PORT` (default 8765), `BI
 | `ballot-buddy-site.html` | Marketing website for the venture. |
 | `register.html` | Registration page: first name, last initial, age. |
 | `admin.html` | Private admin page listing registrations, newest first. |
-| `server.py` | Serves everything above and the registration API. Standard library only. |
+| `server.py` | Local server: static files plus the registration API. Standard library only. |
+| `bb_core.py` | The registration API itself: validation, admin sessions, SQLite and Vercel Blob storage. Shared by `server.py` and `api/`. |
+| `api/` | Vercel Functions, one tiny file per route, all delegating to `bb_core.py`. |
+| `vercel.json` | Keeps data and research files out of the function bundles. |
 | `registrations.db` | SQLite database the server creates on first run (gitignored). |
 | `.env.example` | Template for `.env`, which holds the admin password. |
 | `index.html` | Redirects to the app so a bare URL opens it. |
@@ -154,9 +157,19 @@ python3 tools/build.py && python3 tools/validate.py
 
 ---
 
+## Deploy on Vercel (the public site)
+
+The project is deployed on Vercel from the `main` branch, and Vercel runs the files in `api/` as Python functions, so registration works on the public URL. Registrations are stored in a **private Vercel Blob store** (included on the free plan). Two one-time steps in the Vercel dashboard connect everything:
+
+1. **Storage.** Open the project, go to **Storage**, choose **Create Database → Blob**, set access to **Private**, and connect it to the project. Vercel adds `BLOB_READ_WRITE_TOKEN` to the project's environment variables.
+2. **Admin password.** Go to **Settings → Environment Variables** and add `ADMIN_PASSWORD` with the password you want for `admin.html`.
+3. **Redeploy** once (Deployments → ⋯ → Redeploy) so the new variables are picked up.
+
+Until step 1 is done, the registration page says registration isn't set up yet; until step 2 is done, the admin page says admin access isn't configured. Admin sign-ins last 12 hours and are signed with the password, so changing the password signs everyone out.
+
 ## Publish it on GitHub Pages
 
-GitHub Pages can host the site and the app, but not the registration API: `register.html` and `admin.html` need `server.py` running on a host that can run Python (a small VPS, Render, Railway, Fly.io). The steps below publish the static part only.
+GitHub Pages can host the site and the app, but not the registration API: on Pages, `register.html` and `admin.html` show a "not set up" message. Use the Vercel deployment above for the full app. The steps below publish the static part only.
 
 1. Create a repository and push this folder to it.
 2. In the repository, open **Settings → Pages**.

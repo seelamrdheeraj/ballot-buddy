@@ -38,6 +38,7 @@ Type: Archivo (display) + Public Sans (body), loaded from Google Fonts.
 - v4   — any-ZIP architecture: data moved to `data/`, live FEC House lookup, Match/Follow/Record added
 - v5   — research finished (all 36 governor + 35 senate races, measures for all 50 states); repo layout, validator, heading and honesty fixes
 - v6   — registration: Get started opens register.html; server.py (stdlib + SQLite) stores sign-ups; private admin.html lists them; demo copy and external demo links removed
+- v6.1 — API moved into bb_core.py and exposed as Vercel Functions (api/) with a private Vercel Blob store, so registration works on the public Vercel URL
 
 ## Test on your phone (same Wi-Fi as the Mac)
 1. In Terminal on the Mac:  cd ~/Downloads/"Ballot Buddy" && python3 -m http.server 8765 --bind 0.0.0.0
@@ -101,3 +102,10 @@ ballot only — other states' candidate and measure text is English.
 - `admin.html`: password sign-in (`ADMIN_PASSWORD` from `.env`), HttpOnly cookie, 12-hour sessions, 8 failed attempts per 10 minutes per IP. The page is public; the data is not.
 - App: welcome "Get started" sends unregistered visitors to register.html, then on to ZIP setup; Profile shows the account; "Reset" clears the registration too. "Free in this demo" copy is now "free during launch" (there is still no payment flow).
 - Site: viewport meta added; every CTA now points at local pages (register.html / ballot-buddy-app.html) instead of the GitHub Pages demo.
+
+## v6.1 (2026-10-06) — hosted registration on Vercel
+- `bb_core.py` now holds the whole API (validation, sessions, storage, HTTP adapter). `server.py` is a thin static-file wrapper around it; `api/*.py` are five-line Vercel Functions around it.
+- Storage backends: SQLite locally; on Vercel a private Blob store, one JSON blob per registration under `registrations/`. The record is also base64url-encoded into the blob pathname so the admin list needs one `list` call, never a download per blob. Talks the same HTTP as the official SDK (`https://vercel.com/api/blob`, `x-api-version: 11`, `x-vercel-blob-access: private`).
+- Admin sessions are now stateless signed cookies (HMAC over an expiry, keyed by the password) so they survive cold starts; logout only clears the cookie. Login throttling is per process, so on serverless it is best effort.
+- `register.html` shows the server's own error message when the API answers with one (e.g. "not set up yet"), instead of blaming the connection.
+- Setup on Vercel: create a private Blob store and connect it (adds `BLOB_READ_WRITE_TOKEN`), add `ADMIN_PASSWORD`, redeploy. See README.

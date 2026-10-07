@@ -156,7 +156,7 @@
             <p class="status-text" id="status-text"></p>
             <div class="card errcard" id="net-error" hidden>
               <strong>Couldn't save your registration.</strong>
-              <p>Check your connection and try again.</p>
+              <p id="net-error-msg">Check your connection and try again.</p>
               <button type="button" class="cta navy" id="retry">Try again</button>
             </div>
           </div>
@@ -209,6 +209,7 @@
   const submitBtn = $('submit');
   const submitLabel = $('submit-label');
   const netErr = $('net-error');
+  const netErrMsg = $('net-error-msg');
   const retryBtn = $('retry');
   const statusText = $('status-text');
   const welcome = $('welcome');
@@ -273,7 +274,7 @@
   }
 
   function setStatus(msg) { statusText.textContent = msg || ''; }
-  function showNetError() { netErr.hidden = false; }
+  function showNetError(msg) { netErrMsg.textContent = msg || 'Check your connection and try again.'; netErr.hidden = false; }
   function hideNetError() { netErr.hidden = true; }
 
   function setLoading(on) {
@@ -375,6 +376,8 @@
         outcome = { kind: 'ok', reg: data.registration };
       } else if (res.status === 400 && data && typeof data === 'object') {
         outcome = { kind: 'invalid', data: data };
+      } else if (data && typeof data.error === 'string' && data.error) {
+        outcome = { kind: 'error', message: data.error };
       }
     } catch (e) {
       outcome = { kind: 'error' };
@@ -390,7 +393,7 @@
     } else if (outcome.kind === 'invalid') {
       applyServerErrors(outcome.data);
     } else {
-      showNetError();
+      showNetError(outcome.message);
       retryBtn.focus();
     }
   }

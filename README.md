@@ -90,16 +90,36 @@ Always confirm deadlines with your state or county election office. This is vote
 
 ## Run it yourself
 
-No build step, no framework. One HTML file plus a `data/` folder.
+No build step, no framework. One Python file serves the site, the app, and the registration API, and registrations are stored in a SQLite file next to it. Python 3.8 or newer is the only requirement.
 
-**Simplest:** download the repo, then serve the folder (the app fetches its data files, so opening the HTML directly from disk won't load them):
+**1. Set the admin password.** It unlocks the private registrations page.
 
 ```bash
-cd ballot-buddy
-python3 -m http.server 8765 --bind 0.0.0.0
+cp .env.example .env
 ```
 
-Then open `http://localhost:8765`. On a phone on the same Wi-Fi, use your computer's address instead of `localhost`, including the `http://`.
+Open `.env` and replace `change-me`. (`.env` is gitignored. Exporting `ADMIN_PASSWORD` in your shell works too.)
+
+**2. Start the server.**
+
+```bash
+python3 server.py
+```
+
+**3. Open it.**
+
+| Page | URL |
+|---|---|
+| App | `http://localhost:8765/` |
+| Marketing site | `http://localhost:8765/ballot-buddy-site.html` |
+| Registration | `http://localhost:8765/register.html` |
+| Admin (private) | `http://localhost:8765/admin.html` |
+
+**Get started** on the site or in the app opens the registration page. Each registration (first name, last initial, age) is validated in the browser and again on the server, then saved to `registrations.db`. The admin page lists registrations newest first once you sign in with the admin password; the list is never sent to anyone who hasn't signed in.
+
+On a phone on the same Wi-Fi, use your computer's address instead of `localhost`, including the `http://`.
+
+Options, as environment variables or lines in `.env`: `PORT` (default 8765), `BIND` (default 0.0.0.0), `BB_DB` (database path, default `registrations.db`), `BB_SECURE_COOKIE=1` when serving over HTTPS. Admin sign-ins last 12 hours and end when the server restarts.
 
 **Optional:** the FEC lookup uses the shared `DEMO_KEY`, which allows only about 10 requests an hour. For a free key with a higher limit, sign up at api.data.gov/signup and paste it into `FEC_KEY` near the top of the script in `ballot-buddy-app.html`.
 
@@ -112,6 +132,11 @@ Then open `http://localhost:8765`. On a phone on the same Wi-Fi, use your comput
 | `data/zip-cd.json` | ZIP code to congressional district table (33,000 ZIPs). |
 | `data/reps.json` | Followed officials: promises, links, vote records. |
 | `ballot-buddy-site.html` | Marketing website for the venture. |
+| `register.html` | Registration page: first name, last initial, age. |
+| `admin.html` | Private admin page listing registrations, newest first. |
+| `server.py` | Serves everything above and the registration API. Standard library only. |
+| `registrations.db` | SQLite database the server creates on first run (gitignored). |
+| `.env.example` | Template for `.env`, which holds the admin password. |
 | `index.html` | Redirects to the app so a bare URL opens it. |
 | `icon.png`, `manifest.json` | Home-screen icon and install settings. |
 | `research/` | The raw, sourced research each data file was built from. |
@@ -131,7 +156,7 @@ python3 tools/build.py && python3 tools/validate.py
 
 ## Publish it on GitHub Pages
 
-This is a static site, so no build step is needed.
+GitHub Pages can host the site and the app, but not the registration API: `register.html` and `admin.html` need `server.py` running on a host that can run Python (a small VPS, Render, Railway, Fly.io). The steps below publish the static part only.
 
 1. Create a repository and push this folder to it.
 2. In the repository, open **Settings → Pages**.

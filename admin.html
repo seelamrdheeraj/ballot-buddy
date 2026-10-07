@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="icon" href="icon.png">
+<meta name="robots" content="noindex,nofollow">
+<title>Admin · Ballot Buddy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+  :root{
+    --navy:#0F4A6B; --navy-deep:#0B3A55; --red:#D8454F; --red-deep:#B8353E; --coral:#D9737D;
+    --marigold:#F2A65A; --ink:#0B1F2E; --muted:#6B7C87; --line:#E3DCCF;
+    --ground:#0F4A6B; --shape-a:#D9737D; --shape-b:#2F5F7E; --sheet:#FFFFFF; --sheet-2:#F6F1E7; --text:#0B1F2E; --text-2:#3B4C58; --on-ground:#F6F1E7;
+    --display:'Archivo','Arial Narrow',Arial,sans-serif; --body:'Public Sans','Helvetica Neue',Arial,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --ground:#071F2E; --shape-a:#6E3540; --shape-b:#173A50; --sheet:#0F1E29; --sheet-2:#16283A; --text:#F0EAE0; --text-2:#C3B9AA; --muted:#93A3AE; --line:#2A3C4A; --navy:#7FB3D4; --navy-deep:#5E93B5; --on-ground:#F0EAE0; } }
+  :root[data-theme="dark"]{ --ground:#071F2E; --shape-a:#6E3540; --shape-b:#173A50; --sheet:#0F1E29; --sheet-2:#16283A; --text:#F0EAE0; --text-2:#C3B9AA; --muted:#93A3AE; --line:#2A3C4A; --navy:#7FB3D4; --navy-deep:#5E93B5; --on-ground:#F0EAE0; }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto} }
+  body{margin:0;background:var(--ground);color:var(--text);font-family:var(--body);font-size:17px;line-height:1.55}
+  .shapes{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .shapes i{position:absolute;border-radius:50%;display:block}
+  .shapes .a1{width:70vw;height:70vw;left:-30vw;top:-25vw;background:var(--shape-a)}
+  .shapes .a2{width:60vw;height:60vw;right:-25vw;bottom:-30vw;background:var(--shape-a)}
+  .shapes .b1{width:45vw;height:45vw;right:-10vw;top:-20vw;background:var(--shape-b)}
+  .shapes .b2{width:40vw;height:40vw;left:-15vw;bottom:-10vw;background:var(--shape-b)}
+
+  .sheet{position:relative;z-index:1;max-width:1100px;margin:28px auto 40px;background:var(--sheet);border-radius:6px;box-shadow:0 30px 80px rgba(0,0,0,.35);overflow:hidden;min-height:calc(100vh - 68px)}
+  @media (max-width:760px){ .sheet{margin:0;min-height:100vh;border-radius:0} }
+
+  nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 56px;border-bottom:1px solid var(--line)}
+  @media (max-width:760px){ nav{padding:16px} }
+  .logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:900;font-size:1.25rem;color:var(--text);text-decoration:none;letter-spacing:-.01em}
+  .logo svg{width:38px;height:38px;flex:none}
+  #navright{display:flex;align-items:center}
+  #navright .cta{padding:10px 16px;font-size:.92rem}
+  .cta{display:inline-flex;align-items:center;gap:8px;background:var(--red);color:#fff;text-decoration:none;font-weight:700;padding:13px 22px;border-radius:12px;box-shadow:0 2px 0 var(--red-deep);font-size:1rem;border:0;font-family:inherit;cursor:pointer}
+  .cta:hover{background:var(--red-deep)}
+  .cta.navy{background:var(--navy);box-shadow:0 2px 0 var(--navy-deep);color:#fff}
+  .cta.ghost{background:transparent;color:var(--navy);box-shadow:inset 0 0 0 2px var(--navy)}
+  .cta.ghost:hover{background:var(--sheet-2)}
+  .cta:disabled{opacity:.6;cursor:not-allowed;pointer-events:none}
+  .cta:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--marigold);outline-offset:2px}
+
+  h1,h2,h3{font-family:var(--display);font-weight:900;letter-spacing:-.015em;line-height:1.05;margin:0;text-wrap:balance}
+  h1{font-size:clamp(2rem,6vw,3rem);overflow-wrap:anywhere}
+  h2{font-size:clamp(1.9rem,3.6vw,2.8rem)}
+  h3{font-size:1.15rem;font-weight:700;letter-spacing:0}
+  h1:focus{outline:none}
+  p{margin:0 0 14px;max-width:56ch}
+  .eyebrow{display:inline-block;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:14px}
+  .rule{width:90px;height:5px;background:var(--marigold);border-radius:3px;margin:16px 0 22px}
+  .lead{font-size:1.2rem;color:var(--text-2)}
+  .fine{font-size:.88rem;color:var(--muted);margin-top:16px}
+  .sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+  /* Page layout */
+  .col{max-width:760px;margin:0 auto;padding:48px 24px 56px}
+  @media (max-width:760px){ .col{padding:28px 16px 40px} }
+
+  /* Cards, forms */
+  .card{background:var(--sheet);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+  label{display:block;font-size:.78rem;font-weight:700;color:var(--text-2);margin:12px 0 6px;letter-spacing:.02em}
+  input{width:100%;font:inherit;font-size:1.05rem;padding:12px 14px;border-radius:12px;border:2px solid var(--line);background:var(--sheet);color:var(--text)}
+  input:focus{outline:none;border-color:var(--navy)}
+  input:focus-visible{outline:3px solid var(--marigold);outline-offset:2px}
+  input[aria-invalid="true"]{border-color:var(--red)}
+  input[aria-invalid="true"]:focus{border-color:var(--navy)}
+  .signin form{max-width:420px}
+  .err{color:var(--red);font-weight:600;font-size:.95rem;margin:8px 0 0}
+  .err:empty{display:none}
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .err{color:#F0868E} }
+  :root[data-theme="dark"] .err{color:#F0868E}
+  .signin .cta{margin-top:16px}
+
+  /* Checking state */
+  .status{display:flex;align-items:center;gap:10px;margin:18px 0 0}
+  .spin{display:inline-block;flex:none;width:18px;height:18px;border:3px solid var(--line);border-top-color:var(--navy);border-radius:50%;animation:spin .8s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  /* List header + pill */
+  .head{display:flex;flex-wrap:wrap;align-items:center;gap:12px 14px}
+  .head .refresh{margin-left:auto}
+  .pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:var(--marigold);color:#0B1F2E;white-space:nowrap}
+  .pill[hidden]{display:none}
+
+  /* Skeleton */
+  .skel .sk-row{display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+  .skel .sk-row:first-of-type{padding-top:4px}
+  .skel .sk-row:last-child{border-bottom:0;padding-bottom:4px}
+  .sk{display:block;height:16px;border-radius:8px;background:linear-gradient(90deg,var(--sheet-2) 25%,var(--line) 50%,var(--sheet-2) 75%);background-size:200% 100%;animation:shimmer 1.4s ease-in-out infinite}
+  .sk.w40{flex:0 0 40%} .sk.w12{flex:0 0 12%} .sk.w30{flex:0 1 30%}
+  @keyframes shimmer{from{background-position:200% 0}to{background-position:-200% 0}}
+  @media (prefers-reduced-motion:reduce){ .sk{animation:none;background:var(--line);opacity:.6} .spin{animation:none} }
+
+  /* Error + empty */
+  .msg-card p{margin:0 0 14px}
+  .msg-card .strong{font-weight:700;font-size:1.05rem;color:var(--text);margin-bottom:6px}
+  .msg-card .err{margin:0 0 16px}
+  .msg-card .cta{margin-top:2px}
+  .empty{text-align:center;padding:36px 20px}
+  .empty svg{width:48px;height:48px;fill:none;stroke:var(--navy);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;margin:0 auto 12px;display:block}
+  .empty p{margin:0 auto 4px}
+  .empty .strong{font-weight:700;font-size:1.1rem;color:var(--text)}
+  .empty .sub{color:var(--text-2)}
+
+  /* Table */
+  .tbl{width:100%;border-collapse:collapse}
+  .tbl th{text-align:left;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:2px 12px 10px 0;border-bottom:2px solid var(--line)}
+  .tbl td{font-size:1rem;padding:12px 12px 12px 0;border-bottom:1px solid var(--line);color:var(--text);overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+  .tbl tbody tr:last-child td{border-bottom:0}
+  .tbl th:last-child,.tbl td:last-child{padding-right:0}
+  .tbl th:nth-child(2),.tbl td:nth-child(2){width:84px}
+  .tbl td:nth-child(1){font-weight:600}
+  .tbl td:nth-child(3){white-space:nowrap;color:var(--text-2)}
+  @media (max-width:639px){
+    .tbl,.tbl tbody,.tbl tr,.tbl td{display:block;width:100%}
+    .tbl thead{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);border:0}
+    .tbl tr{padding:12px 0;border-bottom:1px solid var(--line)}
+    .tbl tbody tr:first-child{padding-top:0}
+    .tbl tbody tr:last-child{border-bottom:0;padding-bottom:0}
+    .tbl td,.tbl th:nth-child(2),.tbl td:nth-child(2){display:flex;justify-content:space-between;align-items:baseline;gap:16px;width:100%;padding:4px 0;border:0;text-align:right}
+    .tbl td::before{content:attr(data-label);flex:none;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left}
+    .tbl td:nth-child(3){white-space:normal}
+  }
+</style>
+</head>
+<body>
+
+<div class="shapes" aria-hidden="true"><i class="a1"></i><i class="a2"></i><i class="b1"></i><i class="b2"></i></div>
+
+<div class="sheet">
+  <nav>
+    <a class="logo" href="ballot-buddy-site.html" aria-label="Ballot Buddy home">
+      <svg viewBox="0 0 64 64" fill="none" stroke="#D8454F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="10" r="4.5"/><path d="M9 19h10v14a5 5 0 0 1-10 0z"/><path d="M11 33v22M17 33v22"/><path d="M30 6v52"/><path d="M33 10c8-4 14 2 24 0 0 8-4 12-2 20-8 4-14-2-22 0z"/><path d="M38 14l-3 8M46 13l-4 10M53 15l-4 9"/></svg>
+      Ballot Buddy
+    </a>
+    <div id="navright"></div>
+  </nav>
+
+  <div class="col">
+    <main id="app"><noscript><p class="lead">This page needs JavaScript to sign in and load registrations.</p></noscript></main>
+    <div class="fine">Private. Registrations are only visible after signing in.</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  'use strict';
+
+  var TIMEOUT_MS = 15000;
+  var NOT_CONFIGURED = "Admin access isn't configured. Start the server with ADMIN_PASSWORD set.";
+  var UNREACHABLE_BOOT = "Couldn't reach the server. Is it running?";
+  var UNREACHABLE_LOGIN = "Couldn't reach the server. Try again.";
+  var app = document.getElementById('app');
+  var navRight = document.getElementById('navright');
+  // Bumped on every view change so results from older requests are ignored.
+  var token = 0;
+
+  function esc(s){
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+      return { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c];
+    });
+  }
+  function byId(id){ return document.getElementById(id); }
+
+  // JSON-only fetch with a 15s timeout. Rejects on network failure, timeout, or a non-JSON body.
+  async function api(method, path, body){
+    var ctrl = new AbortController();
+    var timer = setTimeout(function(){ ctrl.abort(); }, TIMEOUT_MS);
+    try {
+      var opts = { method: method, credentials: 'same-origin', signal: ctrl.signal, headers: { 'Accept': 'application/json' } };
+      if (body !== undefined) {
+        opts.headers['Content-Type'] = 'application/json';
+        opts.body = JSON.stringify(body);
+      }
+      var res = await fetch(path, opts);
+      var text = await res.text();
+      var data = null;
+      try { data = JSON.parse(text); } catch (e) { data = null; }
+      if (!data || typeof data !== 'object' || Array.isArray(data)) {
+        throw new Error('Non-JSON response');
+      }
+      return { status: res.status, data: data };
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  function setNav(signedIn){
+    if (!signedIn) { navRight.innerHTML = ''; return; }
+    navRight.innerHTML = '<button class="cta ghost" type="button" id="logout">Log out</button>';
+    byId('logout').addEventListener('click', logout);
+  }
+
+  /* ---------- State A: checking ---------- */
+  function renderChecking(){
+    token++;
+    setNav(false);
+    app.innerHTML =
+      '<span class="eyebrow">Private</span>' +
+      '<h1>Admin</h1>' +
+      '<p class="status lead" role="status"><span class="spin" aria-hidden="true"></span><span>Checking access…</span></p>';
+  }
+
+  async function boot(){
+    renderChecking();
+    var t = token;
+    try {
+      var r = await api('GET', '/api/admin/session');
+      if (t !== token) return;
+      var d = r.data;
+      if (r.status !== 200 || d.ok !== true) { showSignIn(UNREACHABLE_BOOT); return; }
+      if (d.authenticated === true) { showList(); return; }
+      if (d.configured === false) { showSignIn(NOT_CONFIGURED); return; }
+      showSignIn();
+    } catch (e) {
+      if (t !== token) return;
+      showSignIn(UNREACHABLE_BOOT);
+    }
+  }
+
+  /* ---------- State B: sign-in ---------- */
+  function showSignIn(message){
+    token++;
+    setNav(false);
+    app.innerHTML =
+      '<div class="card signin">' +
+        '<span class="eyebrow">Private</span>' +
+        '<h1>Admin sign-in</h1>' +
+        '<div class="rule"></div>' +
+        '<p class="lead">Enter the admin password to see registrations.</p>' +
+        '<form id="login" novalidate>' +
+          '<label for="password">Password</label>' +
+          '<input id="password" name="password" type="password" autocomplete="current-password" required aria-describedby="pwerr">' +
+          '<p class="err" id="pwerr" role="alert"></p>' +
+          '<button class="cta" type="submit" id="signin">Sign in</button>' +
+        '</form>' +
+      '</div>';
+
+    var form = byId('login'), input = byId('password'), btn = byId('signin'), err = byId('pwerr');
+    var busy = false;
+
+    function setErr(msg){
+      err.textContent = msg || '';
+      if (msg) input.setAttribute('aria-invalid', 'true'); else input.removeAttribute('aria-invalid');
+    }
+    function setBusy(b){
+      busy = b;
+      btn.disabled = b;
+      btn.textContent = b ? 'Signing in…' : 'Sign in';
+    }
+
+    if (message) setErr(message);
+
+    form.addEventListener('submit', async function(ev){
+      ev.preventDefault();
+      if (busy) return;
+      var pw = input.value;
+      if (!pw) { setErr('Enter the password.'); input.focus(); return; }
+      setErr('');
+      setBusy(true);
+      var t = token;
+      try {
+        var r = await api('POST', '/api/admin/login', { password: pw });
+        if (t !== token) return;
+        if (r.status === 200 && r.data.ok === true) { showList(); return; }
+        setErr(r.data && r.data.error ? String(r.data.error) : 'Sign-in failed. Try again.');
+      } catch (e) {
+        if (t !== token) return;
+        setErr(UNREACHABLE_LOGIN);
+      }
+      setBusy(false);
+      input.focus();
+    });
+
+    input.focus();
+  }
+
+  /* ---------- State C: registrations list ---------- */
+  function skeletonHtml(){
+    var rows = '';
+    for (var i = 0; i < 4; i++) {
+      rows += '<div class="sk-row"><span class="sk w40"></span><span class="sk w12"></span><span class="sk w30"></span></div>';
+    }
+    return '<div class="card skel" role="status"><span class="sr-only">Loading registrations…</span>' + rows + '</div>';
+  }
+
+  function fmtDate(iso){
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return String(iso == null ? '' : iso);
+    return d.toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' });
+  }
+
+  function nameOf(x){
+    var first = x.firstName == null ? '' : String(x.firstName);
+    var last = x.lastInitial == null || x.lastInitial === '' ? '' : String(x.lastInitial) + '.';
+    return [first, last].filter(Boolean).join(' ');
+  }
+
+  function tableHtml(regs){
+    var rows = '';
+    regs.forEach(function(x){
+      rows +=
+        '<tr role="row">' +
+          '<td role="cell" data-label="Name">' + esc(nameOf(x)) + '</td>' +
+          '<td role="cell" data-label="Age">' + esc(x.age) + '</td>' +
+          '<td role="cell" data-label="Registered" title="' + esc(x.createdAt) + '">' + esc(fmtDate(x.createdAt)) + '</td>' +
+        '</tr>';
+    });
+    return '<div class="card"><table class="tbl" role="table">' +
+      '<thead role="rowgroup"><tr role="row">' +
+        '<th role="columnheader" scope="col">Name</th>' +
+        '<th role="columnheader" scope="col">Age</th>' +
+        '<th role="columnheader" scope="col">Registered</th>' +
+      '</tr></thead>' +
+      '<tbody role="rowgroup">' + rows + '</tbody></table></div>';
+  }
+
+  var EMPTY_HTML =
+    '<div class="card empty">' +
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg>' +
+      '<p class="strong">No registrations yet.</p>' +
+      '<p class="sub">New sign-ups will appear here, newest first.</p>' +
+    '</div>';
+
+  function showList(){
+    token++;
+    setNav(true);
+    app.innerHTML =
+      '<div class="head">' +
+        '<h1 id="title" tabindex="-1">Registrations</h1>' +
+        '<span class="pill" id="count" hidden></span>' +
+        '<button class="cta ghost refresh" type="button" id="refresh">Refresh</button>' +
+      '</div>' +
+      '<div class="rule"></div>' +
+      '<div id="list" aria-live="polite"></div>';
+    byId('refresh').addEventListener('click', load);
+    byId('title').focus({ preventScroll: true });
+    load();
+  }
+
+  async function load(){
+    var t = ++token;
+    var btn = byId('refresh'), list = byId('list'), count = byId('count');
+    if (!btn || !list || !count) return;
+    var hadFocus = document.activeElement === btn;
+    btn.disabled = true;
+    count.hidden = true;
+    list.setAttribute('aria-busy', 'true');
+    list.innerHTML = skeletonHtml();
+
+    function done(){
+      btn.disabled = false;
+      list.removeAttribute('aria-busy');
+      if (hadFocus) btn.focus();
+    }
+    function fail(msg){
+      list.innerHTML =
+        '<div class="card msg-card">' +
+          '<p class="strong">Couldn’t load registrations.</p>' +
+          '<p class="err">' + esc(msg) + '</p>' +
+          '<button class="cta navy" type="button" id="retry">Try again</button>' +
+        '</div>';
+      byId('retry').addEventListener('click', load);
+      done();
+    }
+
+    var r;
+    try {
+      r = await api('GET', '/api/registrations');
+    } catch (e) {
+      if (t !== token) return;
+      fail(e && e.name === 'AbortError' ? 'The server took too long to respond.' : UNREACHABLE_BOOT);
+      return;
+    }
+    if (t !== token) return;
+
+    if (r.status === 401) { showSignIn('Your session expired. Sign in again.'); return; }
+    var d = r.data;
+    if (r.status !== 200 || d.ok !== true || !Array.isArray(d.registrations)) {
+      fail(d.error ? String(d.error) : 'The server sent an unexpected response.');
+      return;
+    }
+
+    var regs = d.registrations;
+    var n = typeof d.count === 'number' ? d.count : regs.length;
+    count.textContent = n + ' total';
+    count.hidden = false;
+    list.innerHTML = regs.length === 0 ? EMPTY_HTML : tableHtml(regs);
+    done();
+  }
+
+  async function logout(){
+    var btn = byId('logout');
+    if (btn) btn.disabled = true;
+    token++;
+    try { await api('POST', '/api/admin/logout'); } catch (e) { /* show sign-in regardless */ }
+    showSignIn();
+  }
+
+  // If the browser restores this page from its back/forward cache, re-check access.
+  window.addEventListener('pageshow', function(ev){ if (ev.persisted) boot(); });
+
+  boot();
+})();
+</script>
+</body>
+</html>

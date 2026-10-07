@@ -37,6 +37,7 @@ Type: Archivo (display) + Public Sans (body), loaded from Google Fonts.
 - v3   — real, sourced Nov 3, 2026 ballot for Mountain House replaces fictional sample data
 - v4   — any-ZIP architecture: data moved to `data/`, live FEC House lookup, Match/Follow/Record added
 - v5   — research finished (all 36 governor + 35 senate races, measures for all 50 states); repo layout, validator, heading and honesty fixes
+- v6   — registration: Get started opens register.html; server.py (stdlib + SQLite) stores sign-ups; private admin.html lists them; demo copy and external demo links removed
 
 ## Test on your phone (same Wi-Fi as the Mac)
 1. In Terminal on the Mac:  cd ~/Downloads/"Ballot Buddy" && python3 -m http.server 8765 --bind 0.0.0.0
@@ -93,3 +94,10 @@ Supreme Court on Sept 3, and Florida Amendment 3 carries the court-revised ballo
 California's down-ballot statewide offices (Lt. Gov, AG, SoS, Controller, Treasurer, Insurance Commissioner,
 Board of Equalization, judicial retention) are still not loaded. Spanish covers the app chrome and the California
 ballot only — other states' candidate and measure text is English.
+
+## v6 (2026-10-06) — registration app
+- `server.py` replaces `python3 -m http.server`: same static serving, plus `/api/register`, `/api/registrations` and the admin session routes. SQLite file `registrations.db`, created on first run. No dependencies.
+- `register.html`: first name, last initial, age (13–120; `MIN_AGE`/`MAX_AGE` in both server.py and the page). Validated client- and server-side. Draft is kept in localStorage across refreshes; success is kept under `bb-registration` so the app knows who signed up.
+- `admin.html`: password sign-in (`ADMIN_PASSWORD` from `.env`), HttpOnly cookie, 12-hour sessions, 8 failed attempts per 10 minutes per IP. The page is public; the data is not.
+- App: welcome "Get started" sends unregistered visitors to register.html, then on to ZIP setup; Profile shows the account; "Reset" clears the registration too. "Free in this demo" copy is now "free during launch" (there is still no payment flow).
+- Site: viewport meta added; every CTA now points at local pages (register.html / ballot-buddy-app.html) instead of the GitHub Pages demo.

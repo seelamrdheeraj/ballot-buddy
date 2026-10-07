@@ -16,3 +16,9 @@ venv/
 # Local scratch
 *.log
 tmp/
+
+# Registration server
+.env
+registrations.db
+registrations.db-*
+.frugal-fable/

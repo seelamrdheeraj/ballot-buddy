@@ -341,9 +341,9 @@ const T = {
     prop_s:'Statewide measures, in plain English. Tap one.',no_measures:'No statewide measures on your ballot this year.',meas_notloaded:'We haven’t verified this state’s statewide measures yet, so we’re not showing any. Check your Secretary of State’s site or vote.gov.',simple:'Simple',standard:'More detail',means:'What it means',yes:'A YES vote',no:'A NO vote',cost:'Cost',listen:'Listen',stop:'Stop',
     remind:'Remind me',reminded:'Reminder set',unreminded:'Reminder removed',addcal:'Add to calendar',addall:'Add all to calendar',cal_note:'Reminders alert you when you open the app. Add to calendar for a real phone alert.',verify:'Check your registration at',
     learn_s:'Two-minute reads, then the official sites for your area.',official_t:'Your official sources',official_s:'Primary sources. Everything in this app links back to these.',
-    prof_t:'Profile',loc:'Location',change:'Change',settings:'Settings',textsize:'Larger text',notif:'Deadline reminders',premium:'Premium',premium_s:'BallotBot, candidate comparison, no ads.',price:'$7.99/mo',on_demo:'On — free in this demo',reset:'Reset demo',interests:'Your interests',no_interests:'Swipe in Match to build your interests.',
+    prof_t:'Profile',acct:'Account',age_l:'Age',not_reg:'Not registered yet',register:'Register',loc:'Location',change:'Change',settings:'Settings',textsize:'Larger text',notif:'Deadline reminders',premium:'Premium',premium_s:'BallotBot, candidate comparison, no ads.',price:'$7.99/mo',on_demo:'On — free during launch',reset:'Reset app',interests:'Your interests',no_interests:'Swipe in Match to build your interests.',
     bot_hi:'Hi! Ask me anything about voting or your ballot. I explain. I never tell you who to vote for.',ask:'Ask',thinking:'Thinking…',placeholder:'Ask a question',
-    try:'Turn on Premium — free in this demo',later:'Not now',back:'Back',issues:'Key issues',bio:'Background',party:'Party',nonp:'Nonpartisan office',incumbent:'Incumbent',challenger:'Challenger',
+    try:'Turn on Premium — free during launch',later:'Not now',back:'Back',issues:'Key issues',bio:'Background',party:'Party',nonp:'Nonpartisan office',incumbent:'Incumbent',challenger:'Challenger',
     src_t:'Where this data comes from',src_close:'Got it',
     sw_intro:'Swipe on what candidates say, and on a few votes they actually cast. Names stay hidden until the end.',sw_agree:'Agree',sw_dis:'Disagree',sw_skip:'Skip',sw_says:'A candidate for',sw_says2:'says:',sw_voted2:'voted on this. Would you have voted the same way?',sw_yea:'Voted YES',sw_nay:'Voted NO',sw_none:'No candidate positions are loaded for your races yet, so there’s nothing to swipe. Try ZIP 95391 to see how it works.',
     sw_result:'Your overlap',sw_result_s:'How often you agreed with each candidate’s own stated positions. Overlap isn’t a recommendation.',sw_based:'based on',sw_stmts:'statements',sw_again:'Swipe again',sw_reveal:'What you agreed with',
@@ -363,9 +363,9 @@ const T = {
     prop_s:'Medidas estatales, en lenguaje sencillo. Toca una.',no_measures:'No hay medidas estatales en tu boleta este año.',meas_notloaded:'Todavía no hemos verificado las medidas estatales de este estado, así que no mostramos ninguna. Revisa el sitio de tu Secretario de Estado o vote.gov.',simple:'Sencillo',standard:'Más detalle',means:'Qué significa',yes:'Votar SÍ',no:'Votar NO',cost:'Costo',listen:'Escuchar',stop:'Detener',
     remind:'Recordarme',reminded:'Recordatorio activo',unreminded:'Recordatorio quitado',addcal:'Añadir al calendario',addall:'Añadir todo al calendario',cal_note:'Los recordatorios avisan al abrir la app. Añade al calendario para una alerta real.',verify:'Verifica tu registro en',
     learn_s:'Lecturas de dos minutos y los sitios oficiales de tu zona.',official_t:'Tus fuentes oficiales',official_s:'Fuentes primarias. Todo en esta app remite a ellas.',
-    prof_t:'Perfil',loc:'Ubicación',change:'Cambiar',settings:'Ajustes',textsize:'Texto más grande',notif:'Recordatorios de fechas',premium:'Premium',premium_s:'BallotBot, comparar candidatos, sin anuncios.',price:'$7.99/mes',on_demo:'Activado — gratis en esta demo',reset:'Restablecer demo',interests:'Tus intereses',no_interests:'Desliza en Match para crear tus intereses.',
+    prof_t:'Perfil',acct:'Cuenta',age_l:'Edad',not_reg:'Aún no registrado',register:'Registrarse',loc:'Ubicación',change:'Cambiar',settings:'Ajustes',textsize:'Texto más grande',notif:'Recordatorios de fechas',premium:'Premium',premium_s:'BallotBot, comparar candidatos, sin anuncios.',price:'$7.99/mes',on_demo:'Activado — gratis durante el lanzamiento',reset:'Restablecer app',interests:'Tus intereses',no_interests:'Desliza en Match para crear tus intereses.',
     bot_hi:'¡Hola! Pregúntame sobre votar o tu boleta. Explico. Nunca te digo por quién votar.',ask:'Enviar',thinking:'Pensando…',placeholder:'Escribe una pregunta',
-    try:'Activar Premium — gratis en esta demo',later:'Ahora no',back:'Atrás',issues:'Temas clave',bio:'Trayectoria',party:'Partido',nonp:'Cargo no partidista',incumbent:'Titular',challenger:'Aspirante',
+    try:'Activar Premium — gratis durante el lanzamiento',later:'Ahora no',back:'Atrás',issues:'Temas clave',bio:'Trayectoria',party:'Partido',nonp:'Cargo no partidista',incumbent:'Titular',challenger:'Aspirante',
     src_t:'De dónde vienen estos datos',src_close:'Entendido',
     sw_intro:'Desliza sobre lo que dicen los candidatos y sobre algunos votos que de verdad emitieron. Los nombres se revelan al final.',sw_agree:'De acuerdo',sw_dis:'En desacuerdo',sw_skip:'Saltar',sw_says:'Un candidato a',sw_says2:'dice:',sw_voted2:'votó sobre esto. ¿Habrías votado igual?',sw_yea:'Votó SÍ',sw_nay:'Votó NO',sw_none:'Aún no hay posturas cargadas para tus contiendas. Prueba el código 95391 para ver cómo funciona.',
     sw_result:'Tu coincidencia',sw_result_s:'Cuántas veces coincidiste con las posturas declaradas de cada candidato. No es una recomendación.',sw_based:'según',sw_stmts:'posturas',sw_again:'Deslizar de nuevo',sw_reveal:'Con qué coincidiste',
@@ -529,12 +529,15 @@ function showSources(){ const es=S.lang==='es'; const src=D.sources||{}; openShe
   <li><b>${es?'Votos de funcionarios':'Officials’ votes'}:</b> ${es?'registros oficiales de votación (clerk.house.gov, leginfo.legislature.ca.gov).':'official roll-call records (clerk.house.gov, leginfo.legislature.ca.gov).'}</li></ul>
   <p class="sub">${t('updated')} ${esc(D.generated||'')}.</p><button class="btn center" onclick="closeSheet()">${t('src_close')}</button>`); }
 
+function registration(){ try{ const r=JSON.parse(localStorage.getItem('bb-registration')||'null'); return r&&r.firstName?r:null; }catch(e){ return null; } }
+function startApp(){ if(S.setup) return go('home'); if(registration()) return go('setup',{next:'home'}); location.href='register.html'; }
+
 /* ---------- screens ---------- */
 const SCREENS={
  welcome(){ return `
    <h1 class="brand"><small>${t('welcome')}</small>BallotBuddy!</h1>
    <p class="tagline">${t('tagline')}</p>
-   <button class="btn center" onclick="${S.setup?"go('home')":"go('setup',{next:'home'})"}">${t('start')}${ICON.arrow}</button>`; },
+   <button class="btn center" onclick="startApp()">${t('start')}${ICON.arrow}</button>`; },
 
  setup(){ return `
    ${back(S.setup?'profile':'welcome')}
@@ -687,6 +690,7 @@ const SCREENS={
  profile(){ const ints=interestSummary(); return `
    <h2>${t('prof_t')}</h2>
    <div class="card"><div class="row between"><div><div class="eyebrow" style="margin-top:0">${t('loc')}</div><b>${esc(locShort()||'—')}</b> <span class="sub" style="margin:0">${esc(S.zip)}${S.cd?' · '+cdLabel(S.cd):''}</span></div><button class="btn small ghost" onclick="go('setup')">${t('change')}</button></div></div>
+   ${(r=>r?`<div class="card"><div class="eyebrow" style="margin-top:0">${t('acct')}</div><b>${esc(r.firstName)} ${esc(r.lastInitial)}.</b> <span class="sub" style="margin:0">· ${t('age_l')} ${esc(r.age)}</span></div>`:`<div class="card"><div class="row between"><div><div class="eyebrow" style="margin-top:0">${t('acct')}</div><b>${t('not_reg')}</b></div><a class="btn small ghost" href="register.html" style="text-decoration:none">${t('register')}</a></div></div>`)(registration())}
    <div class="card"><div class="eyebrow" style="margin-top:0">${t('interests')}</div>${ints.length?`<div class="chips" style="margin:0">${ints.map(i=>`<span class="chip on" style="cursor:default">${issueName(i)}</span>`).join('')}</div>`:`<div class="sub" style="margin:0">${t('no_interests')}</div>`}</div>
    <div class="card"><div class="eyebrow" style="margin-top:0">${t('lang')}</div><div class="seg"><button class="${S.lang==='en'?'on':''}" onclick="setLang('en')">English</button><button class="${S.lang==='es'?'on':''}" onclick="setLang('es')">Español</button></div></div>
    <div class="card stack"><div class="eyebrow" style="margin:0">${t('settings')}</div>
@@ -694,7 +698,7 @@ const SCREENS={
      <div class="row between"><span>${t('notif')}</span><button class="toggle ${S.notif?'on':''}" aria-label="${t('notif')}" onclick="S.notif=!S.notif;save();if(S.notif)askNotify();this.classList.toggle('on')"></button></div></div>
    <div class="card" style="border-color:var(--marigold)"><div class="row between"><span class="pill premium">${t('premium')}</span><button class="toggle ${S.premium?'on':''}" aria-label="${t('premium')}" onclick="S.premium=!S.premium;save();render()"></button></div><p style="margin:8px 0 0">${t('premium_s')}</p><div class="sub" style="margin:4px 0 0">${S.premium?t('on_demo'):t('price')}</div></div>
    <button class="btn ghost center" onclick="showSources()">${t('srcs')}</button>
-   <button class="btn ghost center" onclick="localStorage.removeItem('bb-state');localStorage.removeItem('bb-fec');location.reload()">${t('reset')}</button>`; }
+   <button class="btn ghost center" onclick="localStorage.removeItem('bb-state');localStorage.removeItem('bb-fec');localStorage.removeItem('bb-registration');location.reload()">${t('reset')}</button>`; }
 };
 
 function botSheet(){ const es=S.lang==='es'; const sug=es?['¿Estoy registrado?','¿Qué medidas hay en mi boleta?','¿Necesito identificación?']:['Am I registered?','What measures are on my ballot?','Do I need ID?'];

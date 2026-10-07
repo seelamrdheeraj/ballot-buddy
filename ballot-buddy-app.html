@@ -17,29 +17,14 @@
     --navy:#0F4A6B; --navy-deep:#0B3A55; --red:#D8454F; --red-deep:#B8353E; --coral:#D9737D;
     --cream:#F6F1E7; --cream-2:#EFE7D8; --marigold:#F2A65A; --ink:#0B1F2E; --ink-2:#3B4C58; --muted:#6B7C87;
     --line:#DCD2C0; --white:#FFFFFF; --good:#2E8B57; --warn:#C7791B;
-    --stage:#0F4A6B; --stage-shape:#D9737D; --stage-text:#F6F1E7;
     --display:'Archivo','Arial Narrow',Arial,sans-serif; --body:'Public Sans','Helvetica Neue',Arial,sans-serif;
   }
-  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --stage:#071F2E; --stage-shape:#7A3A42; --stage-text:#EFE7D8; } }
-  :root[data-theme="dark"]{ --stage:#071F2E; --stage-shape:#7A3A42; --stage-text:#EFE7D8; }
 
   *{box-sizing:border-box}
-  body{margin:0;background:var(--stage);color:var(--ink);font-family:var(--body);min-height:100vh;
-    background-image:radial-gradient(ellipse 42% 60% at 8% 12%,var(--stage-shape) 0 55%,transparent 56%),
-      radial-gradient(ellipse 40% 55% at 95% 90%,var(--stage-shape) 0 55%,transparent 56%),
-      radial-gradient(ellipse 30% 30% at 88% 8%,var(--navy-deep) 0 55%,transparent 56%);
-  }
-  .stage{min-height:100vh;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:32px;padding:32px 24px}
-  .stage-side{color:var(--stage-text);max-width:300px;justify-self:end}
-  .stage-side h1{font-family:var(--display);font-weight:900;font-size:2.4rem;line-height:1;margin:0 0 12px;letter-spacing:-.01em;text-wrap:balance}
-  .stage-side p{margin:0 0 10px;line-height:1.5;opacity:.9}
-  .stage-right{justify-self:start;max-width:250px;color:var(--stage-text);font-size:.88rem;line-height:1.5;opacity:.85}
-  .stage-right b{color:var(--marigold)}
-
-  .phone{width:390px;height:800px;transform-origin:center center;flex:none;background:#0e1620;border-radius:52px;padding:14px;box-shadow:0 30px 80px rgba(0,0,0,.45),inset 0 0 0 2px #2a3644;position:relative}
-  .phone::before{content:"";position:absolute;top:14px;left:50%;transform:translateX(-50%);width:120px;height:30px;background:#0e1620;border-radius:0 0 20px 20px;z-index:5}
-  .screen{width:100%;height:100%;background:var(--cream);border-radius:40px;overflow:hidden;display:flex;flex-direction:column;position:relative}
-  .status{height:44px;display:flex;justify-content:space-between;align-items:flex-end;padding:0 28px 6px;font-size:.8rem;font-weight:700;color:var(--ink)}
+  body{margin:0;background:var(--cream-2);color:var(--ink);font-family:var(--body)}
+  /* App shell: one full-height column, centered on wide screens, edge-to-edge on phones */
+  .app{height:100vh;height:100dvh;display:flex;justify-content:center;overflow:hidden}
+  .screen{width:100%;max-width:520px;height:100%;background:var(--cream);display:flex;flex-direction:column;position:relative;overflow:hidden;box-shadow:0 0 0 1px var(--line);padding-top:env(safe-area-inset-top)}
   .view{flex:1;overflow-y:auto;overflow-x:hidden;padding:12px 20px 24px;scroll-behavior:smooth}
   .view::-webkit-scrollbar{width:0}
   /* motion: screen changes fade in gently (class re-applied by go()) */
@@ -96,7 +81,7 @@
   .pill.navy{background:#DCEAF3;color:var(--navy)}
   .pill.gold{background:#FDEBD3;color:#8A5210}
   .pill.good{background:#DDF1E4;color:#1F6B41}
-  .pill.premium{background:var(--marigold);color:var(--ink)}
+  .pill.marigold{background:var(--marigold);color:var(--ink)}
   .pill.live{background:#E6F0F7;color:var(--navy)}
   .pillbtn{border:0;font:inherit;cursor:pointer}
   .pillbtn,.seg button,.chip,.follow,.listen,.back{transition:background-color .2s,color .2s,border-color .2s,box-shadow .2s,transform .18s}
@@ -235,12 +220,8 @@
   .view.large .card{padding:16px 18px}
 
   @media (max-width:820px){
-    .stage{grid-template-columns:1fr;padding:0;gap:0}
-    .stage-side,.stage-right{display:none}
-    .phone{width:100%;height:100vh;height:100dvh;border-radius:0;padding:0;box-shadow:none}
-    .phone::before{display:none}
-    .screen{border-radius:0;padding-top:env(safe-area-inset-top)}
-    .status{display:none}
+    body{background:var(--cream)}
+    .screen{max-width:none;box-shadow:none}
     .tabs{padding-bottom:calc(18px + env(safe-area-inset-bottom))}
     .toast{bottom:calc(96px + env(safe-area-inset-bottom))}
     .sheet{padding-bottom:calc(34px + env(safe-area-inset-bottom))}
@@ -265,37 +246,23 @@
   }
 </style>
 
-<div class="stage">
-  <div class="stage-side">
-    <h1>Use your buddy to cast your ballot.</h1>
-    <p>Tap around. Free, nonpartisan, for voters 18+.</p>
-  </div>
-
-  <div class="phone">
-    <div class="screen">
-      <div class="status"><span id="clock">9:41</span><span>●●● ⌒ ▮</span></div>
-      <div class="view" id="view" aria-live="polite"></div>
-      <nav class="tabs" id="tabs" aria-label="Main">
-        <button class="tab" data-tab="home" onclick="go('home')">
-          <svg viewBox="0 0 24 24"><path d="M3 11 12 3l9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><span data-i="tab_home">Home</span></button>
-        <button class="tab" data-tab="match" onclick="go('match')">
-          <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg><span data-i="tab_match">Match</span></button>
-        <button class="tab" data-tab="updates" onclick="go('updates')">
-          <svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21h4"/></svg><span data-i="tab_updates">Updates</span></button>
-        <button class="tab" data-tab="profile" onclick="go('profile')">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span data-i="tab_profile">Profile</span></button>
-      </nav>
-      <div class="toast" id="toast"></div>
-      <button class="mascot" id="mascot" onclick="requirePremium('bot')" aria-label="BallotBot" aria-haspopup="dialog"></button>
-      <div class="sheet-bg" id="sheetbg" onclick="closeSheet()"></div>
-      <div class="sheet" id="sheet"></div>
-    </div>
-  </div>
-
-  <div class="stage-right">
-    <p><b>Any ZIP.</b> Statewide races and measures for all 50 states, live House candidates from the FEC, and the full local ballot for Mountain House, CA (95391).</p>
-    <p><b>Match.</b> Swipe on real candidate positions. We hide who said it until the end.</p>
-    <p><b>Follow.</b> Track your representatives' votes next to what they promised.</p>
+<div class="app">
+  <div class="screen">
+    <div class="view" id="view" aria-live="polite"></div>
+    <nav class="tabs" id="tabs" aria-label="Main">
+      <button class="tab" data-tab="home" onclick="go('home')">
+        <svg viewBox="0 0 24 24"><path d="M3 11 12 3l9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><span data-i="tab_home">Home</span></button>
+      <button class="tab" data-tab="match" onclick="go('match')">
+        <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg><span data-i="tab_match">Match</span></button>
+      <button class="tab" data-tab="updates" onclick="go('updates')">
+        <svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21h4"/></svg><span data-i="tab_updates">Updates</span></button>
+      <button class="tab" data-tab="profile" onclick="go('profile')">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span data-i="tab_profile">Profile</span></button>
+    </nav>
+    <div class="toast" id="toast"></div>
+    <button class="mascot" id="mascot" onclick="openBot()" aria-label="BallotBot" aria-haspopup="dialog"></button>
+    <div class="sheet-bg" id="sheetbg" onclick="closeSheet()"></div>
+    <div class="sheet" id="sheet"></div>
   </div>
 </div>
 
@@ -315,7 +282,7 @@ const DATA_URL='data/ballot-2026.json', ZIP_URL='data/zip-cd.json', REPS_URL='da
 const ELECTION = new Date(2026,10,3);
 
 /* ---------- state ---------- */
-const S = { screen:'welcome', lang:'en', zip:'', state:'', county:'', cd:'', cdOptions:[], setup:false, premium:false, large:false,
+const S = { screen:'welcome', lang:'en', zip:'', state:'', county:'', cd:'', cdOptions:[], setup:false, large:false,
   reminders:{}, notif:true, reading:'simple', following:{}, swipes:{}, matchDone:false, chat:[], params:{} };
 try{ Object.assign(S, JSON.parse(localStorage.getItem('bb-state')||'{}')); }catch(e){}
 for(const k of ['params','reminders','following','swipes']) S[k]=S[k]||{}; S.chat=S.chat||[]; S.cdOptions=S.cdOptions||[];
@@ -341,9 +308,9 @@ const T = {
     prop_s:'Statewide measures, in plain English. Tap one.',no_measures:'No statewide measures on your ballot this year.',meas_notloaded:'We haven’t verified this state’s statewide measures yet, so we’re not showing any. Check your Secretary of State’s site or vote.gov.',simple:'Simple',standard:'More detail',means:'What it means',yes:'A YES vote',no:'A NO vote',cost:'Cost',listen:'Listen',stop:'Stop',
     remind:'Remind me',reminded:'Reminder set',unreminded:'Reminder removed',addcal:'Add to calendar',addall:'Add all to calendar',cal_note:'Reminders alert you when you open the app. Add to calendar for a real phone alert.',verify:'Check your registration at',
     learn_s:'Two-minute reads, then the official sites for your area.',official_t:'Your official sources',official_s:'Primary sources. Everything in this app links back to these.',
-    prof_t:'Profile',acct:'Account',age_l:'Age',not_reg:'Not registered yet',register:'Register',loc:'Location',change:'Change',settings:'Settings',textsize:'Larger text',notif:'Deadline reminders',premium:'Premium',premium_s:'BallotBot, candidate comparison, no ads.',price:'$7.99/mo',on_demo:'On — free during launch',reset:'Reset app',interests:'Your interests',no_interests:'Swipe in Match to build your interests.',
+    prof_t:'Profile',acct:'Account',age_l:'Age',not_reg:'Not registered yet',register:'Register',loc:'Location',change:'Change',settings:'Settings',textsize:'Larger text',notif:'Deadline reminders',reset:'Reset app',interests:'Your interests',no_interests:'Swipe in Match to build your interests.',
     bot_hi:'Hi! Ask me anything about voting or your ballot. I explain. I never tell you who to vote for.',ask:'Ask',thinking:'Thinking…',placeholder:'Ask a question',
-    try:'Turn on Premium — free during launch',later:'Not now',back:'Back',issues:'Key issues',bio:'Background',party:'Party',nonp:'Nonpartisan office',incumbent:'Incumbent',challenger:'Challenger',
+    back:'Back',issues:'Key issues',bio:'Background',party:'Party',nonp:'Nonpartisan office',incumbent:'Incumbent',challenger:'Challenger',
     src_t:'Where this data comes from',src_close:'Got it',
     sw_intro:'Swipe on what candidates say, and on a few votes they actually cast. Names stay hidden until the end.',sw_agree:'Agree',sw_dis:'Disagree',sw_skip:'Skip',sw_says:'A candidate for',sw_says2:'says:',sw_voted2:'voted on this. Would you have voted the same way?',sw_yea:'Voted YES',sw_nay:'Voted NO',sw_none:'No candidate positions are loaded for your races yet, so there’s nothing to swipe. Try ZIP 95391 to see how it works.',
     sw_result:'Your overlap',sw_result_s:'How often you agreed with each candidate’s own stated positions. Overlap isn’t a recommendation.',sw_based:'based on',sw_stmts:'statements',sw_again:'Swipe again',sw_reveal:'What you agreed with',
@@ -363,9 +330,9 @@ const T = {
     prop_s:'Medidas estatales, en lenguaje sencillo. Toca una.',no_measures:'No hay medidas estatales en tu boleta este año.',meas_notloaded:'Todavía no hemos verificado las medidas estatales de este estado, así que no mostramos ninguna. Revisa el sitio de tu Secretario de Estado o vote.gov.',simple:'Sencillo',standard:'Más detalle',means:'Qué significa',yes:'Votar SÍ',no:'Votar NO',cost:'Costo',listen:'Escuchar',stop:'Detener',
     remind:'Recordarme',reminded:'Recordatorio activo',unreminded:'Recordatorio quitado',addcal:'Añadir al calendario',addall:'Añadir todo al calendario',cal_note:'Los recordatorios avisan al abrir la app. Añade al calendario para una alerta real.',verify:'Verifica tu registro en',
     learn_s:'Lecturas de dos minutos y los sitios oficiales de tu zona.',official_t:'Tus fuentes oficiales',official_s:'Fuentes primarias. Todo en esta app remite a ellas.',
-    prof_t:'Perfil',acct:'Cuenta',age_l:'Edad',not_reg:'Aún no registrado',register:'Registrarse',loc:'Ubicación',change:'Cambiar',settings:'Ajustes',textsize:'Texto más grande',notif:'Recordatorios de fechas',premium:'Premium',premium_s:'BallotBot, comparar candidatos, sin anuncios.',price:'$7.99/mes',on_demo:'Activado — gratis durante el lanzamiento',reset:'Restablecer app',interests:'Tus intereses',no_interests:'Desliza en Match para crear tus intereses.',
+    prof_t:'Perfil',acct:'Cuenta',age_l:'Edad',not_reg:'Aún no registrado',register:'Registrarse',loc:'Ubicación',change:'Cambiar',settings:'Ajustes',textsize:'Texto más grande',notif:'Recordatorios de fechas',reset:'Restablecer app',interests:'Tus intereses',no_interests:'Desliza en Match para crear tus intereses.',
     bot_hi:'¡Hola! Pregúntame sobre votar o tu boleta. Explico. Nunca te digo por quién votar.',ask:'Enviar',thinking:'Pensando…',placeholder:'Escribe una pregunta',
-    try:'Activar Premium — gratis durante el lanzamiento',later:'Ahora no',back:'Atrás',issues:'Temas clave',bio:'Trayectoria',party:'Partido',nonp:'Cargo no partidista',incumbent:'Titular',challenger:'Aspirante',
+    back:'Atrás',issues:'Temas clave',bio:'Trayectoria',party:'Partido',nonp:'Cargo no partidista',incumbent:'Titular',challenger:'Aspirante',
     src_t:'De dónde vienen estos datos',src_close:'Entendido',
     sw_intro:'Desliza sobre lo que dicen los candidatos y sobre algunos votos que de verdad emitieron. Los nombres se revelan al final.',sw_agree:'De acuerdo',sw_dis:'En desacuerdo',sw_skip:'Saltar',sw_says:'Un candidato a',sw_says2:'dice:',sw_voted2:'votó sobre esto. ¿Habrías votado igual?',sw_yea:'Votó SÍ',sw_nay:'Votó NO',sw_none:'Aún no hay posturas cargadas para tus contiendas. Prueba el código 95391 para ver cómo funciona.',
     sw_result:'Tu coincidencia',sw_result_s:'Cuántas veces coincidiste con las posturas declaradas de cada candidato. No es una recomendación.',sw_based:'según',sw_stmts:'posturas',sw_again:'Deslizar de nuevo',sw_reveal:'Con qué coincidiste',
@@ -488,7 +455,7 @@ const listenBtn = (text) => `<button class="listen" onclick="speak(${JSON.string
 function toast(m){ const el=document.getElementById('toast'); el.textContent=m; el.classList.add('show'); clearTimeout(el._t); el._t=setTimeout(()=>el.classList.remove('show'),2000); }
 function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function initials(n){ return (n||'?').split(' ').filter(Boolean).map(w=>w[0]).join('').slice(0,2).toUpperCase(); }
-const ICON={user:'<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>',doc:'<svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>',cal:'<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h2M12 14h2M16 14h2"/></svg>',bot:'<svg viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><circle cx="9" cy="14" r="1.5"/><circle cx="15" cy="14" r="1.5"/><path d="M12 8V4M9 4h6"/></svg>',book:'<svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h6v18H6a2 2 0 0 1-2-2zM12 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-6"/></svg>',lock:'<svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>',arrow:'<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',heart:'<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg>',check:'<svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg>',x:'<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>'};
+const ICON={user:'<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>',doc:'<svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>',cal:'<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h2M12 14h2M16 14h2"/></svg>',bot:'<svg viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><circle cx="9" cy="14" r="1.5"/><circle cx="15" cy="14" r="1.5"/><path d="M12 8V4M9 4h6"/></svg>',book:'<svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h6v18H6a2 2 0 0 1-2-2zM12 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-6"/></svg>',arrow:'<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',heart:'<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg>',check:'<svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg>',x:'<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>'};
 // BallotBot mascot: friendly robot holding the logo's waving flag
 const MASCOT_SVG=`<svg viewBox="0 0 44 44" aria-hidden="true">
   <line x1="17" y1="15" x2="17" y2="8" style="stroke:var(--coral);stroke-width:3;stroke-linecap:round"/>
@@ -511,9 +478,6 @@ const followBtn = (id,name) => `<button class="follow ${S.following[id]?'on':''}
 function toggleFollow(id,name){ if(S.following[id]) delete S.following[id]; else S.following[id]={name,at:Date.now()}; save(); render(); }
 
 function go(screen,params){ S.screen=screen; S.params=params||{}; save(); render(); const v=document.getElementById('view'); v.scrollTop=0; v.classList.remove('enter'); void v.offsetWidth; v.classList.add('enter'); }
-function requirePremium(next,params){ const bot=next==='bot'; if(S.premium) return bot?openBot():go(next,params);
-  const unlock=bot?'openBot()':`go('${next}',${JSON.stringify(params||{}).replace(/"/g,'&quot;')})`;
-  openSheet(`<span class="pill premium">${t('premium')}</span><h2 style="margin-top:12px">${t('premium_s')}</h2><div class="price">$7.99<small>/${S.lang==='es'?'mes':'mo'}</small></div><button class="btn center" style="margin-top:14px" onclick="S.premium=true;save();closeSheet();${unlock}">${t('try')}</button><button class="btn ghost center" onclick="closeSheet()">${t('later')}</button>`); }
 let botOpen=false;
 function openSheet(html){ botOpen=false; const s=document.getElementById('sheet'), bg=document.getElementById('sheetbg'); clearTimeout(s._t); s.classList.remove('hide'); bg.classList.remove('hide'); s.innerHTML=html; s.classList.add('show'); bg.classList.add('show'); }
 function closeSheet(){ botOpen=false; const s=document.getElementById('sheet'), bg=document.getElementById('sheetbg'); if(!s.classList.contains('show')) return;
@@ -540,7 +504,7 @@ const SCREENS={
    <button class="btn center" onclick="startApp()">${t('start')}${ICON.arrow}</button>`; },
 
  setup(){ return `
-   ${back(S.setup?'profile':'welcome')}
+   ${S.setup?back('profile'):''}
    <h2>${t('setup_t')}</h2><p class="sub">${t('setup_s')}</p>
    <label class="f" for="zip">${t('zip')}</label>
    <input id="zip" type="tel" inputmode="numeric" maxlength="5" placeholder="95391" value="${esc(S.zip)}" oninput="previewZip(this.value)">
@@ -559,7 +523,7 @@ const SCREENS={
    <p class="sub">${esc(locShort())}${S.cd?' · '+cdLabel(S.cd):''} · ${fmt(ELECTION)}, 2026</p>
    <div class="card navy"><div class="countdown"><span class="num" style="color:#fff">${daysTo(ELECTION)}</span><span class="lbl" style="color:#fff;opacity:.85">${t('days')}</span></div>
      <div class="sub" style="margin:8px 0 0">${t('next')}: <b>${L(nxt.title)}</b> · ${nxt.date?fmt(nxt.date):L(nxt.approx)}</div></div>
-   ${res&&res.length?`<button class="card click" style="width:100%;text-align:left;font:inherit;border-color:var(--marigold)" onclick="go('match')"><div class="row between"><h3>${t('match_done')}</h3><span class="pill premium">${res[0].pct}%</span></div><div class="sub" style="margin:0">${esc(res[0].name)} · ${t('sw_based')} ${res[0].n} ${t('sw_stmts')}</div></button>`
+   ${res&&res.length?`<button class="card click" style="width:100%;text-align:left;font:inherit;border-color:var(--marigold)" onclick="go('match')"><div class="row between"><h3>${t('match_done')}</h3><span class="pill marigold">${res[0].pct}%</span></div><div class="sub" style="margin:0">${esc(res[0].name)} · ${t('sw_based')} ${res[0].n} ${t('sw_stmts')}</div></button>`
      :`<button class="btn" onclick="go('match')">${ICON.heart}${t('match')} <span class="sub" style="margin:0 0 0 auto;color:#fff;opacity:.85;font-size:.75rem">${t('match_s')}</span></button>`}
    <div class="grid2">
      <button class="card click" onclick="go('candidates')" style="text-align:left;font:inherit"><div style="color:var(--red);width:26px">${ICON.user}</div><h3>${t('cands')}</h3><div class="sub" style="margin:0">${races.length} ${t('races')}</div></button>
@@ -577,7 +541,7 @@ const SCREENS={
    ${races.map(r=>`<div class="eyebrow">${L(r.level)} · ${L(r.office)}${r.fec?` <span class="pill live" style="margin-left:6px">LIVE · FEC</span>`:''}</div>
      ${r.seats>1?`<div class="sub" style="margin:0 0 8px">${t('votefor')} ${r.seats}</div>`:''}${r.note?`<div class="sub" style="margin:0 0 8px">${L(r.note)}</div>`:''}
      ${r.fec&&redistricted()?`<div class="card warn">${t('redistricted')}</div>`:''}${r.fec?`<div id="fec-${r.id}" class="sub">${t('fec_loading')}</div>`:candList(r)}
-     ${r.curated&&r.candidates&&r.candidates.some(c=>c.pos||c.positions)?`<button class="btn ghost center small" style="margin:2px 0 10px;width:100%" onclick="requirePremium('compare',{race:'${r.id}'})">${ICON.lock}${t('compare')}</button>`:''}`).join('')}
+     ${r.curated&&r.candidates&&r.candidates.some(c=>c.pos||c.positions)?`<button class="btn ghost center small" style="margin:2px 0 10px;width:100%" onclick="go('compare',{race:'${r.id}'})">${t('compare')}</button>`:''}`).join('')}
    ${!races.length?`<div class="card note">${t('notloaded')}</div>`:''}
    <div class="card note"><b>${t('also_t')}.</b> ${t('also_s')}</div>`; },
 
@@ -596,7 +560,7 @@ const SCREENS={
  compare(){ const r=myRaces().find(x=>x.id===S.params.race)||myRaces()[0]; if(!r||!r.candidates) return back('candidates'); const cands=r.candidates.filter(c=>normPos(c).length); const keys=[...new Set(cands.flatMap(c=>normPos(c).map(p=>p.topic)))];
    return `
    ${back('candidates')}
-   <div class="row between"><h2>${t('compare')}</h2><span class="pill premium">${t('premium')}</span></div>
+   <h2>${t('compare')}</h2>
    <p class="sub">${L(r.office)}</p>
    <div class="card scrollx"><table class="cmp"><thead><tr><th></th>${cands.map(c=>`<th>${esc(c.name)}</th>`).join('')}</tr></thead>
    <tbody><tr><td><b>${t('party')}</b></td>${cands.map(c=>`<td>${partyOf(c)}</td>`).join('')}</tr>
@@ -696,7 +660,6 @@ const SCREENS={
    <div class="card stack"><div class="eyebrow" style="margin:0">${t('settings')}</div>
      <div class="row between"><span>${t('textsize')}</span><button class="toggle ${S.large?'on':''}" aria-label="${t('textsize')}" onclick="S.large=!S.large;save();render()"></button></div>
      <div class="row between"><span>${t('notif')}</span><button class="toggle ${S.notif?'on':''}" aria-label="${t('notif')}" onclick="S.notif=!S.notif;save();if(S.notif)askNotify();this.classList.toggle('on')"></button></div></div>
-   <div class="card" style="border-color:var(--marigold)"><div class="row between"><span class="pill premium">${t('premium')}</span><button class="toggle ${S.premium?'on':''}" aria-label="${t('premium')}" onclick="S.premium=!S.premium;save();render()"></button></div><p style="margin:8px 0 0">${t('premium_s')}</p><div class="sub" style="margin:4px 0 0">${S.premium?t('on_demo'):t('price')}</div></div>
    <button class="btn ghost center" onclick="showSources()">${t('srcs')}</button>
    <button class="btn ghost center" onclick="localStorage.removeItem('bb-state');localStorage.removeItem('bb-fec');localStorage.removeItem('bb-registration');location.reload()">${t('reset')}</button>`; }
 };
@@ -704,7 +667,7 @@ const SCREENS={
 function botSheet(){ const es=S.lang==='es'; const sug=es?['¿Estoy registrado?','¿Qué medidas hay en mi boleta?','¿Necesito identificación?']:['Am I registered?','What measures are on my ballot?','Do I need ID?'];
   return `
   <div class="row between"><div class="row" style="gap:10px"><span class="mascot-badge">${MASCOT_SVG}</span><h2 style="margin:0">BallotBot</h2></div>
-    <div class="row" style="gap:8px"><span class="pill premium">${t('premium')}</span><button class="back" style="margin:0;padding:6px" onclick="closeSheet()" aria-label="${es?'Cerrar':'Close'}">${ICON.x}</button></div></div>
+    <div class="row" style="gap:8px"><button class="back" style="margin:0;padding:6px" onclick="closeSheet()" aria-label="${es?'Cerrar':'Close'}">${ICON.x}</button></div></div>
   <div class="chat" id="chat" style="margin-top:12px">${S.chat.length?S.chat.map(m=>`<div class="msg ${m.role==='user'?'me':'bot'}">${esc(m.content)}</div>`).join(''):`<div class="msg bot">${t('bot_hi')}</div>`}</div>
   <div class="suggest">${sug.map(s=>`<button class="chip" onclick="askBot(${JSON.stringify(s).replace(/"/g,'&quot;')})">${s}</button>`).join('')}</div>
   <form class="chatbar" onsubmit="event.preventDefault();askBot(this.q.value);this.q.value=''"><input name="q" type="text" autocomplete="off" placeholder="${t('placeholder')}"><button class="btn" type="submit" id="askbtn">${t('ask')}</button></form>`; }
@@ -798,12 +761,9 @@ function render(){
   if(S.screen==='candidates') fillFEC();
   if(S.screen==='match') attachSwipe();
 }
-function tick(){ const d=new Date(); document.getElementById('clock').textContent=d.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'}).replace(/ ?[AP]M/,''); }
-tick(); setInterval(tick,30000);
-function fit(){ const ph=document.querySelector('.phone'); if(innerWidth<=820){ ph.style.transform=''; ph.style.marginTop=''; ph.style.marginBottom=''; return; } const sc=Math.min(1,(innerHeight-48)/800); ph.style.transform=sc<1?`scale(${sc})`:''; ph.style.marginTop=sc<1?`${-(800-800*sc)/2}px`:''; ph.style.marginBottom=ph.style.marginTop; }
-fit(); addEventListener('resize',fit);
 document.getElementById('mascot').innerHTML=MASCOT_SVG;
-document.querySelector('[data-tab="home"]').onclick=()=>go(S.setup?'home':'welcome');
-if(!S.setup) S.screen='welcome';
+function firstScreen(){ return S.setup?'home':(registration()?'setup':'welcome'); }
+document.querySelector('[data-tab="home"]').onclick=()=>go(firstScreen());
+if(!S.setup){ S.screen=firstScreen(); S.params={}; }
 render(); loadAll().then(checkReminders);
 </script>

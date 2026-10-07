@@ -107,7 +107,7 @@ python3 server.py
 | Registration | `http://localhost:8765/register.html` |
 | Admin (private) | `http://localhost:8765/admin.html` |
 
-**Get started** on the site or in the app opens the registration page. Each registration (first name, last initial, age) is validated in the browser and again on the server, then saved to `registrations.db`. The admin page asks you to create a password the first time you open it, then lists registrations newest first; the list is never sent to anyone who hasn't signed in. To fix the password in advance instead, copy `.env.example` to `.env` and set `ADMIN_PASSWORD` (it overrides the stored one).
+**Get started** on the site or in the app opens the registration page; once registered, opening the app goes straight to the ZIP step. Each registration (first name, last initial, age) is validated in the browser and again on the server, then saved to `registrations.db`. The admin page asks you to create a password the first time you open it, then lists registrations newest first; the list is never sent to anyone who hasn't signed in. To fix the password in advance instead, copy `.env.example` to `.env` and set `ADMIN_PASSWORD` (it overrides the stored one).
 
 On a phone on the same Wi-Fi, use your computer's address instead of `localhost`, including the `http://`.
 

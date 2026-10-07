@@ -83,7 +83,6 @@
   .feat .ic{width:44px;height:44px;border-radius:12px;background:var(--sheet-2);display:flex;align-items:center;justify-content:center;margin-bottom:14px;color:var(--navy)}
   .feat .ic svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
   .feat p{font-size:.95rem;color:var(--text-2);margin:8px 0 0}
-  .tag{display:inline-block;font-size:.66rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:4px 8px;border-radius:999px;background:var(--marigold);color:#0B1F2E;margin-left:8px;vertical-align:middle}
   .also{margin-top:22px;color:var(--text-2);font-size:1rem}
 
   .mission{background:var(--ground);color:var(--on-ground);border-radius:24px;padding:48px 44px;margin:0}
@@ -91,16 +90,6 @@
   .mission p{color:var(--on-ground);opacity:.9;font-size:1.15rem;margin:18px 0 0;max-width:52ch}
   .mission .eyebrow{color:var(--marigold)}
 
-  .plans{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:32px;max-width:880px}
-  @media (max-width:760px){ .plans{grid-template-columns:1fr} }
-  .plan{border-radius:22px;padding:30px;border:1px solid var(--line);background:var(--sheet)}
-  .plan.pro{background:var(--sheet-2);border-color:var(--marigold)}
-  .plan .price{font-family:var(--display);font-weight:900;font-size:3rem;line-height:1;margin:12px 0 4px;font-variant-numeric:tabular-nums}
-  .plan .price small{font-size:1rem;font-weight:700;color:var(--muted)}
-  .plan ul{list-style:none;padding:0;margin:20px 0 26px;display:grid;gap:10px}
-  .plan li{display:flex;gap:10px;align-items:flex-start;font-size:1rem}
-  .plan li svg{width:20px;height:20px;flex:none;fill:none;stroke:var(--red);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;margin-top:2px}
-  .plan .cta{width:100%;justify-content:center}
 
   .team{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:32px}
   @media (max-width:900px){ .team{grid-template-columns:1fr 1fr} }
@@ -138,7 +127,7 @@
       <svg viewBox="0 0 64 64" fill="none" stroke="#D8454F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="10" r="4.5"/><path d="M9 19h10v14a5 5 0 0 1-10 0z"/><path d="M11 33v22M17 33v22"/><path d="M30 6v52"/><path d="M33 10c8-4 14 2 24 0 0 8-4 12-2 20-8 4-14-2-22 0z"/><path d="M38 14l-3 8M46 13l-4 10M53 15l-4 9"/></svg>
       Ballot Buddy
     </a>
-    <div class="links"><a href="#what">What it does</a><a href="#pricing">Pricing</a><a href="#team">Team</a></div>
+    <div class="links"><a href="#what">What it does</a><a href="#team">Team</a></div>
     <a class="cta" href="ballot-buddy-app.html">Open the app <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
   </nav>
 
@@ -181,7 +170,7 @@
         <div class="feat"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 21s7-6 7-12a7 7 0 0 0-14 0c0 6 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></div><h3>Your ballot</h3><p>Any ZIP in the U.S. See the candidates and measures you’ll actually vote on.</p></div>
         <div class="feat"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h7"/><path d="m17 15 2 2 4-4"/></svg></div><h3>Plain-English measures</h3><p>Every measure in 3 bullets, plus what a YES and a NO vote mean.</p></div>
         <div class="feat"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21h4"/></svg></div><h3>Deadline reminders</h3><p>Registration, mail-ballot, and Election Day dates. One tap to get a nudge.</p></div>
-        <div class="feat"><div class="ic"><svg viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><circle cx="9" cy="14" r="1.5"/><circle cx="15" cy="14" r="1.5"/><path d="M12 8V4M9 4h6"/></svg></div><h3>BallotBot<span class="tag">Premium</span></h3><p>Ask anything about voting. It explains. It never tells you how to vote.</p></div>
+        <div class="feat"><div class="ic"><svg viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><circle cx="9" cy="14" r="1.5"/><circle cx="15" cy="14" r="1.5"/><path d="M12 8V4M9 4h6"/></svg></div><h3>BallotBot</h3><p>Ask anything about voting. It explains. It never tells you how to vote.</p></div>
       </div>
       <p class="also">Also: <b>Match</b>, a swipe-to-compare on real candidate positions with names hidden until the end. <b>Follow</b> your representatives and see their votes next to their promises. Two-minute civic lessons, English and Spanish, and listen-instead-of-read.</p>
     </section>
@@ -191,37 +180,6 @@
         <span class="eyebrow">Our mission</span>
         <h2>We summarize. You decide.</h2>
         <p>Clear, unbiased information on candidates, propositions, and laws. No endorsements. Every summary comes from the ballot’s own text.</p>
-      </div>
-    </section>
-
-    <section id="pricing">
-      <span class="eyebrow">Pricing</span>
-      <h2>Free for everyone. Premium if you want more.</h2>
-      <div class="rule"></div>
-      <div class="plans">
-        <div class="plan">
-          <span class="eyebrow">Free</span>
-          <div class="price">$0</div>
-          <div style="color:var(--muted);font-size:.9rem">With a few ads</div>
-          <ul>
-            <li><svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg>Your ballot and candidates by ZIP</li>
-            <li><svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg>Plain-English summaries</li>
-            <li><svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg>Deadline reminders</li>
-            <li><svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg>Lessons, in English and Spanish</li>
-          </ul>
-          <a class="cta navy" href="register.html">Get started free</a>
-        </div>
-        <div class="plan pro">
-          <span class="eyebrow">Premium</span>
-          <div class="price">$7.99<small>/month</small></div>
-          <div style="color:var(--muted);font-size:.9rem">Cancel anytime</div>
-          <ul>
-            <li><svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg>BallotBot, an ask-anything helper</li>
-            <li><svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg>Candidate comparison</li>
-            <li><svg viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></svg>No ads</li>
-          </ul>
-          <a class="cta" href="ballot-buddy-app.html">See Premium in the app</a>
-        </div>
       </div>
     </section>
 
@@ -237,7 +195,7 @@
         <div class="member"><div class="av">UH</div><div><b>Udeep Hebbar</b><span>Finance</span></div></div>
       </div>
       <div class="amb">
-        <div><h3>Bring Ballot Buddy to your campus.</h3><p>A paid role, a few hours a week around elections. Free Premium for your club.</p></div>
+        <div><h3>Bring Ballot Buddy to your campus.</h3><p>A paid role, a few hours a week around elections.</p></div>
         <a class="cta navy" href="mailto:contact@ballotbuddyapp.com?subject=Campus%20Ambassador&body=Name%3A%0ASchool%3A%0AWhy%20me%3A%20">Apply by email</a>
       </div>
     </section>
@@ -249,7 +207,7 @@
       <div class="faq">
         <details open><summary>Is it really nonpartisan?</summary><p>Yes. No endorsements, no partisan ads. Summaries come from the measure’s own text and candidates’ own words.</p></details>
         <details><summary>What do you do with my ZIP?</summary><p>Find your ballot. That’s it. We don’t sell data.</p></details>
-        <details><summary>Is it free?</summary><p>Yes, with a few ads. Premium ($7.99/month) removes them and adds BallotBot and candidate comparison.</p></details>
+        <details><summary>Is it free?</summary><p>Yes. Everything is free: your ballot by ZIP, plain-English summaries, BallotBot, candidate comparison, deadline reminders, and lessons in English and Spanish.</p></details>
       </div>
     </section>
   </div>

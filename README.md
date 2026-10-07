@@ -92,21 +92,13 @@ Always confirm deadlines with your state or county election office. This is vote
 
 No build step, no framework, no dependencies. Locally, one Python file serves the site, the app, and the registration API, and registrations are stored in a SQLite file next to it. Python 3.9 or newer is the only requirement. The same API code runs on Vercel for the public site (see below).
 
-**1. Set the admin password.** It unlocks the private registrations page.
-
-```bash
-cp .env.example .env
-```
-
-Open `.env` and replace `change-me`. (`.env` is gitignored. Exporting `ADMIN_PASSWORD` in your shell works too.)
-
-**2. Start the server.**
+**1. Start the server.**
 
 ```bash
 python3 server.py
 ```
 
-**3. Open it.**
+**2. Open it.**
 
 | Page | URL |
 |---|---|
@@ -115,7 +107,7 @@ python3 server.py
 | Registration | `http://localhost:8765/register.html` |
 | Admin (private) | `http://localhost:8765/admin.html` |
 
-**Get started** on the site or in the app opens the registration page. Each registration (first name, last initial, age) is validated in the browser and again on the server, then saved to `registrations.db`. The admin page lists registrations newest first once you sign in with the admin password; the list is never sent to anyone who hasn't signed in.
+**Get started** on the site or in the app opens the registration page. Each registration (first name, last initial, age) is validated in the browser and again on the server, then saved to `registrations.db`. The admin page asks you to create a password the first time you open it, then lists registrations newest first; the list is never sent to anyone who hasn't signed in. To fix the password in advance instead, copy `.env.example` to `.env` and set `ADMIN_PASSWORD` (it overrides the stored one).
 
 On a phone on the same Wi-Fi, use your computer's address instead of `localhost`, including the `http://`.
 
@@ -159,13 +151,12 @@ python3 tools/build.py && python3 tools/validate.py
 
 ## Deploy on Vercel (the public site)
 
-The project is deployed on Vercel from the `main` branch, and Vercel runs the files in `api/` as Python functions, so registration works on the public URL. Registrations are stored in a **private Vercel Blob store** (included on the free plan). Two one-time steps in the Vercel dashboard connect everything:
+The project is deployed on Vercel from the `main` branch, and Vercel runs the files in `api/` as Python functions, so registration works on the public URL. Registrations are stored in a **private Vercel Blob store** (included on the free plan). One-time setup:
 
-1. **Storage.** Open the project, go to **Storage**, choose **Create Database → Blob**, set access to **Private**, and connect it to the project. Vercel adds `BLOB_READ_WRITE_TOKEN` to the project's environment variables.
-2. **Admin password.** Go to **Settings → Environment Variables** and add `ADMIN_PASSWORD` with the password you want for `admin.html`.
-3. **Redeploy** once (Deployments → ⋯ → Redeploy) so the new variables are picked up.
+1. **Connect storage.** Open the project in Vercel, go to **Storage**, choose **Create Database → Blob**, set access to **Private**, and connect it to the project. Vercel adds the store's variables to the project. Then **Redeploy** once (Deployments → ⋯ → Redeploy) so the functions see them.
+2. **Create the admin password.** Open `/admin.html` on the live site. The first visit shows "Create the admin password"; set it and you are in. The password is stored as a salted hash in the same store, and nobody can set it again afterwards. Do this right after step 1, before sharing the link.
 
-Until step 1 is done, the registration page says registration isn't set up yet; until step 2 is done, the admin page says admin access isn't configured. Admin sign-ins last 12 hours and are signed with the password, so changing the password signs everyone out.
+Until step 1 is done, the registration page says registration isn't set up yet, and the admin page says storage isn't connected. Setting an `ADMIN_PASSWORD` environment variable overrides the stored password (useful locally, or to recover if you forget it). Admin sign-ins last 12 hours and are tied to the password, so changing it signs everyone out.
 
 ## Publish it on GitHub Pages
 

@@ -62,7 +62,64 @@ def load_dotenv(path):
 
 
 def admin_password():
+    """Password from the environment. Optional: the admin page can create one on first use instead."""
     return os.environ.get("ADMIN_PASSWORD", "")
+
+
+PBKDF2_ITERATIONS = 200_000
+MIN_PASSWORD = 8
+PASSWORD_CACHE_TTL = 30
+_pw_cache = {"at": 0.0, "record": None}
+
+
+def hash_password(password, salt=None):
+    salt = salt or secrets.token_hex(16)
+    digest = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), bytes.fromhex(salt), PBKDF2_ITERATIONS).hex()
+    return {"salt": salt, "hash": digest, "iterations": PBKDF2_ITERATIONS}
+
+
+def password_matches(password, record):
+    try:
+        digest = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), bytes.fromhex(record["salt"]),
+                                     int(record.get("iterations", PBKDF2_ITERATIONS))).hex()
+        return hmac.compare_digest(digest, record["hash"])
+    except (KeyError, ValueError, TypeError):
+        return False
+
+
+def stored_password(fresh=False):
+    """The password record created from the admin page's first-run setup, or None (cached briefly)."""
+    now = time.time()
+    if not fresh and now - _pw_cache["at"] < PASSWORD_CACHE_TTL:
+        return _pw_cache["record"]
+    store = get_store()
+    if store is None:
+        return None
+    try:
+        raw = store.get_setting("admin_password")
+    except StorageError as e:
+        print(f"admin password read failed: {e}", flush=True)
+        return _pw_cache["record"]
+    record = None
+    if raw:
+        try:
+            record = json.loads(raw)
+        except ValueError:
+            record = None
+    _pw_cache.update(at=now, record=record)
+    return record
+
+
+def admin_configured():
+    return bool(admin_password()) or stored_password() is not None
+
+
+def verify_admin_password(password):
+    env = admin_password()
+    if env:
+        return hmac.compare_digest(password.encode("utf-8"), env.encode("utf-8"))
+    record = stored_password()
+    return record is not None and password_matches(password, record)
 
 
 def on_vercel():
@@ -122,6 +179,9 @@ def validate(data):
 
 def _session_key():
     base = os.environ.get("SESSION_SECRET") or admin_password()
+    if not base:
+        record = stored_password()
+        base = record["hash"] if record else ""
     return hashlib.sha256(("bb-session:" + base).encode("utf-8")).digest()
 
 
@@ -132,7 +192,7 @@ def make_session_token():
 
 
 def session_valid(token):
-    if not token or not admin_password():
+    if not token or not admin_configured():
         return False
     expires, _, sig = token.partition(".")
     if not expires.isdigit() or not sig:
@@ -192,7 +252,28 @@ class SQLiteStore:
                    )"""
             )
             conn.execute("CREATE INDEX IF NOT EXISTS idx_registrations_created ON registrations(created_at DESC, id DESC)")
+            conn.execute("CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY, value TEXT NOT NULL)")
             conn.commit()
+        finally:
+            conn.close()
+
+    def get_setting(self, key):
+        conn = self._connect()
+        try:
+            row = conn.execute("SELECT value FROM settings WHERE key = ?", (key,)).fetchone()
+            return row["value"] if row else None
+        except sqlite3.Error as e:
+            raise StorageError(str(e)) from e
+        finally:
+            conn.close()
+
+    def set_setting(self, key, value):
+        conn = self._connect()
+        try:
+            conn.execute("INSERT INTO settings (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value", (key, value))
+            conn.commit()
+        except sqlite3.Error as e:
+            raise StorageError(str(e)) from e
         finally:
             conn.close()
 
@@ -250,7 +331,7 @@ class BlobStore:
 
     # -- HTTP --
 
-    def _request(self, method, url, headers=None, body=None, timeout=20):
+    def _request(self, method, url, headers=None, body=None, timeout=20, ok404=False):
         req = urlrequest.Request(url, data=body, method=method)
         req.add_header("authorization", f"Bearer {self.token}")
         req.add_header("x-api-version", self.VERSION)
@@ -260,6 +341,8 @@ class BlobStore:
             with urlrequest.urlopen(req, timeout=timeout) as resp:
                 return resp.status, resp.read()
         except urlerror.HTTPError as e:
+            if e.code == 404 and ok404:
+                return 404, b""
             detail = e.read()[:300].decode("utf-8", "replace")
             raise StorageError(f"Blob API {e.code}: {detail}") from e
         except (urlerror.URLError, TimeoutError, OSError) as e:
@@ -288,6 +371,21 @@ class BlobStore:
             return None
         return {"id": pathname, "firstName": first, "lastInitial": initial, "age": age, "createdAt": created,
                 "_sort": (compact, rand)}
+
+    # -- settings (one private blob per key, overwritten in place) --
+
+    def get_setting(self, key):
+        if not self.store_id:
+            raise StorageError("Blob store id unknown; set BLOB_STORE_ID")
+        url = f"https://{self.store_id}.private.blob.vercel-storage.com/settings/{key}.json?cache=0"
+        status, raw = self._request("GET", url, ok404=True)
+        return None if status == 404 else raw.decode("utf-8")
+
+    def set_setting(self, key, value):
+        url = f"{self.API}?{urlparse.urlencode({'pathname': f'settings/{key}.json'})}"
+        headers = {"x-content-type": "application/json", "x-add-random-suffix": "0", "x-allow-overwrite": "1",
+                   "x-vercel-blob-access": "private", "content-type": "application/json"}
+        self._request("PUT", url, headers, value.encode("utf-8"))
 
     # -- operations --
 
@@ -364,16 +462,38 @@ def api_register(data):
 
 
 def api_login(data, ip):
-    if not admin_password():
+    if not admin_configured():
+        if get_store() is not None:
+            return 409, {"ok": False, "error": "No admin password yet. Create one first."}, None
         return 503, {"ok": False, "error": "Admin access isn't configured. Start the server with ADMIN_PASSWORD set."}, None
     if too_many_failures(ip):
         return 429, {"ok": False, "error": "Too many attempts. Try again in a minute."}, None
     password = data.get("password")
     password = password if isinstance(password, str) else ""
-    if not hmac.compare_digest(password.encode("utf-8"), admin_password().encode("utf-8")):
+    if not verify_admin_password(password):
         note_failure(ip)
         time.sleep(0.4)
         return 401, {"ok": False, "error": "Wrong password."}, None
+    return 200, {"ok": True}, cookie_header(make_session_token())
+
+
+def api_setup(data):
+    """First-run: create the admin password when none exists (env or stored)."""
+    store = get_store()
+    if store is None:
+        return 503, {"ok": False, "error": NOT_SET_UP}, None
+    if admin_password() or stored_password(fresh=True) is not None:
+        return 409, {"ok": False, "error": "The admin password was already created."}, None
+    password = data.get("password")
+    password = password if isinstance(password, str) else ""
+    if len(password) < MIN_PASSWORD or len(password) > 200:
+        return 400, {"ok": False, "error": f"Use at least {MIN_PASSWORD} characters."}, None
+    try:
+        store.set_setting("admin_password", json.dumps(hash_password(password)))
+    except StorageError as e:
+        print(f"admin password write failed: {e}", flush=True)
+        return 500, {"ok": False, "error": "Couldn't save the password. Try again."}, None
+    stored_password(fresh=True)
     return 200, {"ok": True}, cookie_header(make_session_token())
 
 
@@ -385,8 +505,10 @@ def api_session(token):
     # "env" lists the NAMES of relevant variables (never values) to make hosting setup debuggable.
     names = sorted(k for k in os.environ
                    if k.startswith(("BLOB", "ADMIN_", "VERCEL_OIDC", "VERCEL_ENV", "VERCEL_BLOB", "SESSION_SECRET")))
-    return 200, {"ok": True, "authenticated": session_valid(token), "configured": bool(admin_password()),
-                 "storage": get_store() is not None, "env": names}
+    storage = get_store() is not None
+    configured = admin_configured()
+    return 200, {"ok": True, "authenticated": session_valid(token), "configured": configured,
+                 "storage": storage, "setupNeeded": storage and not configured, "env": names}
 
 
 def api_list(token):
@@ -476,7 +598,13 @@ class ApiMixin:
         if route == "admin/logout" and method == "POST":
             status, payload, cookie = api_logout()
             return self.send_json(status, payload, cookie)
-        if route in ("register", "registrations", "admin/session", "admin/login", "admin/logout"):
+        if route == "admin/setup" and method == "POST":
+            data, err = self.read_json()
+            if err:
+                return
+            status, payload, cookie = api_setup(data)
+            return self.send_json(status, payload, cookie)
+        if route in ("register", "registrations", "admin/session", "admin/login", "admin/logout", "admin/setup"):
             return self.send_json(405, {"ok": False, "error": "Method not allowed."})
         return self.send_json(404, {"ok": False, "error": "Not found."})
 

@@ -153,6 +153,7 @@
 
   var TIMEOUT_MS = 15000;
   var NOT_CONFIGURED = "Admin access isn't configured. Start the server with ADMIN_PASSWORD set.";
+  var NOT_CONFIGURED_STORAGE = "Registration storage isn't connected yet, so the admin password can't be created. Connect a Blob store to the project in Vercel first.";
   var UNREACHABLE_BOOT = "Couldn't reach the server. Is it running?";
   var UNREACHABLE_LOGIN = "Couldn't reach the server. Try again.";
   var app = document.getElementById('app');
@@ -215,7 +216,8 @@
       var d = r.data;
       if (r.status !== 200 || d.ok !== true) { showSignIn(UNREACHABLE_BOOT); return; }
       if (d.authenticated === true) { showList(); return; }
-      if (d.configured === false) { showSignIn(NOT_CONFIGURED); return; }
+      if (d.setupNeeded === true) { showSetup(); return; }
+      if (d.configured === false) { showSignIn(d.storage === false ? NOT_CONFIGURED_STORAGE : NOT_CONFIGURED); return; }
       showSignIn();
     } catch (e) {
       if (t !== token) return;
@@ -268,6 +270,7 @@
         var r = await api('POST', '/api/admin/login', { password: pw });
         if (t !== token) return;
         if (r.status === 200 && r.data.ok === true) { showList(); return; }
+        if (r.status === 409) { showSetup(); return; }
         setErr(r.data && r.data.error ? String(r.data.error) : 'Sign-in failed. Try again.');
       } catch (e) {
         if (t !== token) return;
@@ -278,6 +281,53 @@
     });
 
     input.focus();
+  }
+
+  /* ---------- State D: first-run password setup ---------- */
+  function showSetup(message){
+    token++;
+    setNav(false);
+    app.innerHTML =
+      '<div class="card signin">' +
+        '<span class="eyebrow">First-time setup</span>' +
+        '<h1>Create the admin password</h1>' +
+        '<div class="rule"></div>' +
+        '<p class="lead">This password protects the registration list. You only do this once.</p>' +
+        '<form id="setup" novalidate>' +
+          '<label for="password">Password (at least 8 characters)</label>' +
+          '<input id="password" name="password" type="password" autocomplete="new-password" required>' +
+          '<label for="confirm">Confirm password</label>' +
+          '<input id="confirm" name="confirm" type="password" autocomplete="new-password" required aria-describedby="pwerr">' +
+          '<p class="err" id="pwerr" role="alert"></p>' +
+          '<button class="cta" type="submit" id="create">Create password</button>' +
+        '</form>' +
+      '</div>';
+    var form = byId('setup'), pw = byId('password'), confirm = byId('confirm'), btn = byId('create'), err = byId('pwerr');
+    var busy = false;
+    function setErr(msg){ err.textContent = msg || ''; }
+    function setBusy(b){ busy = b; btn.disabled = b; btn.textContent = b ? 'Saving…' : 'Create password'; }
+    if (message) setErr(message);
+    form.addEventListener('submit', async function(ev){
+      ev.preventDefault();
+      if (busy) return;
+      if (pw.value.length < 8) { setErr('Use at least 8 characters.'); pw.focus(); return; }
+      if (pw.value !== confirm.value) { setErr("The two passwords don't match."); confirm.focus(); return; }
+      setErr('');
+      setBusy(true);
+      var t = token;
+      try {
+        var r = await api('POST', '/api/admin/setup', { password: pw.value });
+        if (t !== token) return;
+        if (r.status === 200 && r.data.ok === true) { showList(); return; }
+        if (r.status === 409) { showSignIn('The admin password was already created. Sign in.'); return; }
+        setErr(r.data && r.data.error ? String(r.data.error) : 'Setup failed. Try again.');
+      } catch (e) {
+        if (t !== token) return;
+        setErr(UNREACHABLE_LOGIN);
+      }
+      setBusy(false);
+    });
+    pw.focus();
   }
 
   /* ---------- State C: registrations list ---------- */

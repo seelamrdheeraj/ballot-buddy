@@ -382,8 +382,11 @@ def api_logout():
 
 
 def api_session(token):
+    # "env" lists the NAMES of relevant variables (never values) to make hosting setup debuggable.
+    names = sorted(k for k in os.environ
+                   if k.startswith(("BLOB", "ADMIN_", "VERCEL_OIDC", "VERCEL_ENV", "VERCEL_BLOB", "SESSION_SECRET")))
     return 200, {"ok": True, "authenticated": session_valid(token), "configured": bool(admin_password()),
-                 "storage": get_store() is not None}
+                 "storage": get_store() is not None, "env": names}
 
 
 def api_list(token):

@@ -372,17 +372,41 @@ class BlobStore:
         return {"id": pathname, "firstName": first, "lastInitial": initial, "age": age, "createdAt": created,
                 "_sort": (compact, rand)}
 
-    # -- settings (one private blob per key, overwritten in place) --
+    # -- settings --
+    # A private store does not serve blob contents to a plain GET with the token, so (as with
+    # registrations) the value is also encoded into the pathname and read back through the list
+    # API: settings/<key>_<base64url(value)>.json. Legacy settings/<key>.json blobs are ignored.
+
+    SETTINGS_PREFIX = "settings/"
+
+    def _list(self, prefix):
+        params = {"prefix": prefix, "limit": "100", "mode": "expanded"}
+        _, raw = self._request("GET", f"{self.API}?{urlparse.urlencode(params)}")
+        try:
+            return json.loads(raw).get("blobs", [])
+        except ValueError as e:
+            raise StorageError("Blob API returned invalid JSON") from e
 
     def get_setting(self, key):
-        if not self.store_id:
-            raise StorageError("Blob store id unknown; set BLOB_STORE_ID")
-        url = f"https://{self.store_id}.private.blob.vercel-storage.com/settings/{key}.json?cache=0"
-        status, raw = self._request("GET", url, ok404=True)
-        return None if status == 404 else raw.decode("utf-8")
+        best = None
+        for blob in self._list(f"{self.SETTINGS_PREFIX}{key}_"):
+            name = blob.get("pathname", "")
+            if not name.startswith(f"{self.SETTINGS_PREFIX}{key}_") or not name.endswith(".json"):
+                continue
+            b64 = name[len(self.SETTINGS_PREFIX) + len(key) + 1:-5]
+            try:
+                value = base64.urlsafe_b64decode(b64 + "=" * (-len(b64) % 4)).decode("utf-8")
+            except (ValueError, UnicodeDecodeError):
+                continue
+            stamp = blob.get("uploadedAt") or ""
+            if best is None or stamp > best[0]:
+                best = (stamp, value)
+        return best[1] if best else None
 
     def set_setting(self, key, value):
-        url = f"{self.API}?{urlparse.urlencode({'pathname': f'settings/{key}.json'})}"
+        b64 = base64.urlsafe_b64encode(value.encode("utf-8")).decode("ascii").rstrip("=")
+        pathname = f"{self.SETTINGS_PREFIX}{key}_{b64}.json"
+        url = f"{self.API}?{urlparse.urlencode({'pathname': pathname})}"
         headers = {"x-content-type": "application/json", "x-add-random-suffix": "0", "x-allow-overwrite": "1",
                    "x-vercel-blob-access": "private", "content-type": "application/json"}
         self._request("PUT", url, headers, value.encode("utf-8"))

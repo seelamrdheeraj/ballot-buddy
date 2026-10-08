@@ -1274,5 +1274,41 @@
     "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030157"
    }
   ]
+ },
+ "andreagehmlich": {
+  "bio": {
+   "en": "Qualified candidate for Lammersville USD Trustee Area 5 and the only nominee, so the seat is not on the ballot. Not a current trustee: the district lists Area 5 as “to be determined from the 2026 election”. Under Education Code §5328 she is expected to be seated at the board’s organizational meeting in December 2026; no LUSD action naming her had been posted as of Oct 8, 2026.",
+   "es": "Candidata calificada al Área 5 del LUSD y única nominada, por lo que el escaño no está en la boleta. No es miembro actual: el distrito indica que el Área 5 “se determinará en la elección de 2026”. Según el Código de Educación §5328, se espera que tome posesión en la reunión de organización de la junta en diciembre de 2026; al 8 de octubre de 2026 el LUSD no había publicado ninguna acción con su nombre."
+  },
+  "desig": {
+   "en": "Educator/Parent",
+   "es": "Educadora/Madre"
+  },
+  "cls": "b",
+  "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+  "site": null,
+  "site_note": {
+   "en": "The county roster lists no website or email for this candidate, and none was found.",
+   "es": "La lista del condado no indica sitio web ni correo para esta candidata, y no se encontró ninguno."
+  },
+  "review": "none_found",
+  "sources_reviewed": [
+   {
+    "title": "County Local Candidate Roster (Aug 20, 2026), p. 6 — “On Ballot: No”, statement filed 7/28/2026",
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf"
+   },
+   {
+    "title": "County Voter Information Guide, Nov 3, 2026 — her statement is not printed (only contested races appear)",
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf"
+   },
+   {
+    "title": "LUSD Governing Board page (“Area 5 – To be determined from the 2026 Election”)",
+    "url": "https://www.lammersvilleschooldistrict.net/apps/pages/index.jsp?uREC_ID=1245514&type=d&pREC_ID=1471665"
+   },
+   {
+    "title": "LUSD board agendas and minutes, July–Sept 2026 (no action naming her)",
+    "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030157"
+   }
+  ]
  }
 }

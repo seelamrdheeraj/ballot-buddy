@@ -186,9 +186,18 @@ def norm_contest(c, county_key, src, curated):
            'juris': bi(c.get('jurisdiction'), ES_JURIS), 'office': bi(office, ES_OFFICE),
            'district': str(district) if district not in (None, '') else None,
            'seats': int(c.get('seats') or 1), 'term': c.get('term') or '', 'rcv': bool(c.get('rcv')),
-           'office_key': office_key(c), 'src': c.get('src') or src,
+           'office_key': c.get('office_key_override') or office_key(c), 'src': c.get('src') or src,
            'election': {'en': 'November 3, 2026 General Election', 'es': 'Elección general del 3 de noviembre de 2026'},
            'candidates': [norm_candidate(x, cid, c.get('src') or src, curated) for x in (c.get('candidates') or []) if x.get('name')]}
+    n_c = len(out['candidates'])
+    out['on_ballot'] = True if c.get('on_ballot') is None else bool(c.get('on_ballot'))
+    if c.get('status'): out['status'] = c['status']
+    elif not out['on_ballot']: out['status'] = 'not_on_ballot'
+    elif n_c == 0: out['status'] = 'no_candidate'
+    elif jt == 'judicial': out['status'] = 'retention'
+    elif n_c <= out['seats']: out['status'] = 'unopposed'
+    else: out['status'] = 'contested'
+    if c.get('status_note'): out['status_note'] = c['status_note'] if isinstance(c['status_note'], dict) else {'en': c['status_note'], 'es': c.get('status_note_es') or c['status_note']}
     if c.get('notes'):   # county extraction notes are for maintainers; show voters only the short, relevant sentences
         note = c['notes']
         m = re.search(r'not "Filing Completed" \(excluded from candidates\):\s*(.*)', note)
@@ -252,7 +261,13 @@ def load_county(rel, county_key, curated):
         if l.get('url') and not SKIP_LINK.search(l.get('name') or ''): county['official'].append({'name': {'en': l.get('name') or '', 'es': l.get('name_es') or l.get('name') or ''}, 'url': l['url'], 'what': l.get('what') or ''})
     for l in (j.get('lookup_tools') or []):
         if l.get('url'): county['lookup'].append({'name': {'en': l.get('name') or '', 'es': l.get('name_es') or l.get('name') or ''}, 'url': l['url']})
-    contests = [norm_contest(c, county_key, src, curated) for c in (j.get('contests') or []) if c.get('office') and c.get('jurisdiction_type') != 'judicial']   # retention questions come from the SoS list (with question text)
+    rows = [c for c in (j.get('contests') or []) if c.get('office') and c.get('jurisdiction_type') != 'judicial'] + extra_contests(j, county_key)   # retention questions come from the SoS list (with question text)
+    contests = [norm_contest(c, county_key, src, curated) for c in rows]
+    seen = {}
+    for c in contests:
+        if c['id'] in seen:
+            c['id'] = c['id'] + ':' + (c.get('county_id') or str(seen[c['id']]))
+        seen[c['id']] = seen.get(c['id'], 0) + 1
     # Ballot styles: which contests share a ballot (from the county's sample-ballot types). Lets the app hide districts that never appear with the voter's city.
     bs = load_json(rel.replace('.json', '_ballot_styles.json'))
     if bs:
@@ -267,6 +282,63 @@ def load_county(rel, county_key, curated):
         county['styles'] = styles; county['styles_src'] = bs.get('src') or ''
     measures = [norm_measure(m, county_key, src) for m in (j.get('measures') or []) if m.get('letter') or m.get('title')]
     return county, contests, measures
+
+# ---------- San Joaquin roster names ("Lodi USD Trustee Area 4", "Woodbridge Irrigation District, Division 3") ----------
+ABBR = [(r'\bUSD\b', 'Unified School District'), (r'\bESD\b', 'Elementary School District'), (r'\bHSD\b', 'High School District'),
+        (r'\bJoint SD\b', 'Joint School District'), (r'\bSD\b', 'School District'), (r'\bCCD\b', 'Community College District'),
+        (r'\bBOE\b', 'County Board of Education'), (r'\bS\.J\.(?=\s|$)', 'San Joaquin'), (r'\bSJ\b', 'San Joaquin'), (r'\bCSD\b', 'Community Services District')]
+def expand(name):
+    for rx, rep in ABBR: name = re.sub(rx, rep, name)
+    return name
+def parse_roster_name(rn, seats):
+    name = rn.strip(); term = ''
+    m = re.search(r'\s+(Unexpired Term|Unexpired)$', name, re.I)
+    if m: term = 'Unexpired term'; name = name[:m.start()]
+    m = re.match(r'^(.*?),?\s+(?:Trustee )?Area\s+(\d+)$', name)
+    if m:
+        juris = expand(m.group(1)); d = m.group(2); office = f'Board Member Trustee Area {d}'
+    else:
+        m = re.match(r'^(.*?),?\s+Division\s+([\dIVX]+)$', name)
+        if m: juris = expand(m.group(1)); d = m.group(2); office = f'Board Member Division {d}'
+        else: juris = expand(name); d = None; office = 'Board Member'
+    low = juris.lower()
+    if 'community college' in low: jt = 'college'
+    elif 'board of education' in low: jt = 'school'
+    elif 'school district' in low: jt = 'school'
+    else: jt = 'special'
+    if term: office += ' (unexpired term)'
+    return {'jurisdiction_type': jt, 'jurisdiction': juris, 'office': office, 'district': d, 'seats': seats, 'term': term or '4 years'}
+
+SJ_AIL_NOTE_SCHOOL = {'en': 'Not on the ballot. The county roster marks this contest “On Ballot: No”: the number of qualified candidates did not exceed the seats. Under the Education Code (§5328) the nominee is seated at the board’s organizational meeting in December without an election. Confirm with the district.',
+                      'es': 'No está en la boleta. La lista del condado marca esta contienda como “On Ballot: No”: el número de candidatos calificados no superó los escaños. Según el Código de Educación (§5328), la persona nominada toma posesión en la reunión de organización de la junta en diciembre, sin elección. Confírmalo con el distrito.'}
+SJ_AIL_NOTE = {'en': 'Not on the ballot. The county roster marks this contest “On Ballot: No”: the number of qualified candidates did not exceed the seats, so under the Elections Code the governing board appoints the nominee in lieu of an election. Confirm with the district.',
+               'es': 'No está en la boleta. La lista del condado marca esta contienda como “On Ballot: No”: el número de candidatos calificados no superó los escaños, así que según el Código Electoral la junta nombra a la persona nominada en lugar de una elección. Confírmalo con el distrito.'}
+SJ_NOCAND_NOTE = {'en': 'Listed in the county Notice of Election, but no qualified candidate filed by the Aug 20, 2026 roster. The governing body fills the seat by appointment.',
+                  'es': 'Aparece en el Aviso de Elección del condado, pero ningún candidato calificado se registró al 20 de agosto de 2026. El órgano de gobierno cubre el escaño por nombramiento.'}
+ALA_NOB_NOTE = {'en': 'Not on the ballot. The county candidate list marks this race “Not On Ballot” because qualified candidates did not exceed the open seats. School-district nominees are seated at the board’s December organizational meeting (Education Code §5328); city and special-district boards appoint the nominee in lieu of an election (Elections Code). Confirm with the district or city.',
+                'es': 'No está en la boleta. La lista de candidatos del condado marca esta contienda como “Not On Ballot” porque los candidatos calificados no superaron los escaños. En los distritos escolares la persona nominada toma posesión en la reunión de organización de diciembre (Código de Educación §5328); los concejos y distritos especiales la nombran en lugar de una elección (Código Electoral). Confírmalo con el distrito o la ciudad.'}
+def extra_contests(j, county_key):
+    """Contests the county keeps off the ballot (appointment in lieu, no candidate): the directory shows them, the personal ballot does not."""
+    out = []
+    for c in (j.get('appointed_in_lieu') or []):
+        base = parse_roster_name(c.get('roster_name') or '', int(c.get('seats') or 1))
+        note = SJ_AIL_NOTE_SCHOOL if base['jurisdiction_type'] in ('school', 'college') else SJ_AIL_NOTE
+        base.update({'src': c.get('src'), 'candidates': c.get('candidates') or [], 'on_ballot': False, 'status': 'appointed_in_lieu', 'status_note': note, 'id': 'ail-' + str(c.get('county_contest_id') or slug(c.get('roster_name')))})
+        out.append(base)
+    for c in (j.get('no_candidate_contests') or []):
+        if re.search(r'superior court', c.get('contest') or '', re.I):
+            out.append({'jurisdiction_type': 'county_office', 'jurisdiction': f'{county_key} County Superior Court', 'office': f"Judge of the Superior Court ({c.get('seats') or 7} seats)", 'district': None, 'seats': int(c.get('seats') or 7), 'term': '6 years',
+                        'src': c.get('src'), 'candidates': [], 'on_ballot': False, 'status': 'judicial_uncontested', 'id': 'superior-court', 'office_key_override': 'superior_court_judge',
+                        'status_note': {'en': 'Not on the ballot. The county Notice of Election lists these judgeships subject to Elections Code §8203: no one filed to run against the incumbent judges, so the seats do not appear on the ballot and the incumbents are declared elected. The county notice does not print their names.',
+                                        'es': 'No está en la boleta. El Aviso de Elección del condado lista estas judicaturas sujetas al Código Electoral §8203: nadie se postuló contra los jueces titulares, así que los escaños no aparecen en la boleta y los titulares se declaran electos. El aviso del condado no imprime sus nombres.'}})
+            continue
+        base = parse_roster_name(c.get('contest') or '', int(c.get('seats') or 1))
+        base.update({'src': c.get('src'), 'candidates': [], 'on_ballot': False, 'status': 'no_candidate', 'status_note': SJ_NOCAND_NOTE, 'id': 'nocand-' + slug(c.get('contest'))})
+        out.append(base)
+    for c in (j.get('not_on_ballot_contests') or []):
+        base = dict(c); base.update({'on_ballot': False, 'status': 'not_on_ballot', 'status_note': ALA_NOB_NOTE})
+        out.append(base)
+    return out
 
 # ---------- SoS certified list → statewide / house / senate / assembly races ----------
 def load_sos(curated):
@@ -319,7 +391,7 @@ def retention_contests(retention, county_key, src):
         out.append({'id': f'{county_key}:judicial:{key}', 'type': 'judicial', 'level': LEVEL['judicial'],
                     'juris': {'en': 'State of California', 'es': 'Estado de California'},
                     'office': {'en': office, 'es': ('Corte Suprema de California — retención' if key == 'supreme' else f'Corte de Apelaciones, {dist_lbl} — retención')},
-                    'district': None, 'seats': len(cands), 'term': '12 years', 'rcv': False,
+                    'district': None, 'seats': len(cands), 'term': '12 years', 'rcv': False, 'status': 'retention', 'on_ballot': True,
                     'office_key': 'supreme_court_retention' if key == 'supreme' else 'appeals_court_retention', 'src': src,
                     'election': {'en': 'November 3, 2026 General Election', 'es': 'Elección general del 3 de noviembre de 2026'},
                     'note': {'en': 'Retention question: a YES vote keeps the justice for another term; a NO vote removes them. There is no opponent.', 'es': 'Pregunta de retención: un voto SÍ mantiene al juez por otro mandato; un voto NO lo remueve. No hay oponente.'},

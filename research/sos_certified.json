@@ -1,0 +1,1809 @@
+{
+ "source_url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+ "source_page_url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026",
+ "contact_source_url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf",
+ "certified_date": "2026-08-27",
+ "contact_list_date": "2026-09-23",
+ "fetched": "2026-10-08T07:11:42Z",
+ "sha256": {
+  "cert_list_pdf": "0e514ae7b14378b1837bcea99c07e6a05ce35baa9db4c3d3a2297704dc7e6017",
+  "contact_list_pdf": "b5287a7f5fad976ead2d7a79128bc206901c26f3464f5125e8e78ace6ee6df0c"
+ },
+ "election_date": "2026-11-03",
+ "party_note": "party is the printed party preference (\"Non-Partisan\" for Superintendent of Public Instruction).",
+ "contests": [
+  {
+   "office": "Governor",
+   "district": null,
+   "printed_header": "Governor",
+   "source_pdf_page_printed": 1,
+   "covers_counties": [
+    "San Joaquin",
+    "Alameda"
+   ],
+   "counties_in_district": null,
+   "candidates": [
+    {
+     "name": "Xavier Becerra",
+     "party": "Democratic",
+     "ballot_designation": "Voting Rights Attorney",
+     "website": null,
+     "email": null,
+     "incumbent": false
+    },
+    {
+     "name": "Steve Hilton",
+     "party": "Republican",
+     "ballot_designation": "Small Business Owner",
+     "website": "www.stevehiltonforgovernor.com",
+     "email": "teamhilton@stevehiltonforgovernor.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "Lieutenant Governor",
+   "district": null,
+   "printed_header": "Lieutenant Governor",
+   "source_pdf_page_printed": 1,
+   "covers_counties": [
+    "San Joaquin",
+    "Alameda"
+   ],
+   "counties_in_district": null,
+   "candidates": [
+    {
+     "name": "Fiona Ma",
+     "party": "Democratic",
+     "ballot_designation": "State Treasurer/CPA",
+     "website": "www.fionama.com",
+     "email": "fiona@fionama.com",
+     "incumbent": false
+    },
+    {
+     "name": "Gloria Romero",
+     "party": "Republican",
+     "ballot_designation": "Educator/Businesswoman",
+     "website": "https://gloriajromero.com/",
+     "email": "info@gloriajromero.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "Secretary of State",
+   "district": null,
+   "printed_header": "Secretary of State",
+   "source_pdf_page_printed": 1,
+   "covers_counties": [
+    "San Joaquin",
+    "Alameda"
+   ],
+   "counties_in_district": null,
+   "candidates": [
+    {
+     "name": "Shirley N. Weber",
+     "party": "Democratic",
+     "ballot_designation": "California Secretary of State",
+     "website": "www.drshirleyweber.com",
+     "email": "info@drshirleyweber.com",
+     "incumbent": true
+    },
+    {
+     "name": "Donald P. (Don) Wagner",
+     "party": "Republican",
+     "ballot_designation": "Orange County Supervisor",
+     "website": "www.wagnerforcalifornia.com",
+     "email": "donwagner.ca68@gmail.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "Controller",
+   "district": null,
+   "printed_header": "Controller",
+   "source_pdf_page_printed": 1,
+   "covers_counties": [
+    "San Joaquin",
+    "Alameda"
+   ],
+   "counties_in_district": null,
+   "candidates": [
+    {
+     "name": "Malia M. Cohen",
+     "party": "Democratic",
+     "ballot_designation": "State Controller/Mother",
+     "website": "www.maliacohenforca.com",
+     "email": null,
+     "incumbent": true
+    },
+    {
+     "name": "Herb W Morgan",
+     "party": "Republican",
+     "ballot_designation": "Chief Investment Officer",
+     "website": "www.herbmorgan.com",
+     "email": "herb@herbmorgan.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "Treasurer",
+   "district": null,
+   "printed_header": "Treasurer",
+   "source_pdf_page_printed": 1,
+   "covers_counties": [
+    "San Joaquin",
+    "Alameda"
+   ],
+   "counties_in_district": null,
+   "candidates": [
+    {
+     "name": "Eleni Kounalakis",
+     "party": "Democratic",
+     "ballot_designation": "Lieutenant Governor of California",
+     "website": "www.eleniforca.com",
+     "email": "info@eleniforca.com",
+     "incumbent": false
+    },
+    {
+     "name": "Jennifer Hawks",
+     "party": "Republican",
+     "ballot_designation": "Retired Business Executive",
+     "website": "www.hawksforus.com",
+     "email": "info@hawksforus.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "Attorney General",
+   "district": null,
+   "printed_header": "Attorney General",
+   "source_pdf_page_printed": 2,
+   "covers_counties": [
+    "San Joaquin",
+    "Alameda"
+   ],
+   "counties_in_district": null,
+   "candidates": [
+    {
+     "name": "Rob Bonta",
+     "party": "Democratic",
+     "ballot_designation": "California Attorney General",
+     "website": "www.robbonta.com",
+     "email": "info@robbonta.com",
+     "incumbent": true
+    },
+    {
+     "name": "Michael E. Gates",
+     "party": "Republican",
+     "ballot_designation": "Deputy United States Attorney",
+     "website": "www.gates4ag.com",
+     "email": "gates4ag@gmail.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "Insurance Commissioner",
+   "district": null,
+   "printed_header": "Insurance Commissioner",
+   "source_pdf_page_printed": 2,
+   "covers_counties": [
+    "San Joaquin",
+    "Alameda"
+   ],
+   "counties_in_district": null,
+   "candidates": [
+    {
+     "name": "Ben Allen",
+     "party": "Democratic",
+     "ballot_designation": "California State Senator",
+     "website": "www.benallenca.com",
+     "email": "info@benallenca.com",
+     "incumbent": false
+    },
+    {
+     "name": "Jane Kim",
+     "party": "Democratic",
+     "ballot_designation": "Attorney/Consumer Advocate",
+     "website": "www.janekim.org",
+     "email": "info@janekim.org",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "Superintendent of Public Instruction",
+   "district": null,
+   "printed_header": "Superintendent of Public Instruction",
+   "source_pdf_page_printed": 2,
+   "covers_counties": [
+    "San Joaquin",
+    "Alameda"
+   ],
+   "counties_in_district": null,
+   "candidates": [
+    {
+     "name": "Richard Barrera",
+     "party": "Non-Partisan",
+     "ballot_designation": "State Superintendent Advisor",
+     "website": "www.barreraforedu.com",
+     "email": "barreraforedu@gmail.com",
+     "incumbent": false
+    },
+    {
+     "name": "Sonja Shaw",
+     "party": "Non-Partisan",
+     "ballot_designation": "School District President",
+     "website": "www.shawforca.com",
+     "email": "info@shawforca.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "Board of Equalization",
+   "district": "1",
+   "printed_header": "Board of Equalization Member District 1",
+   "source_pdf_page_printed": 2,
+   "covers_counties": [
+    "San Joaquin"
+   ],
+   "counties_in_district": [
+    "Alpine",
+    "Amador",
+    "Butte",
+    "Calaveras",
+    "Colusa",
+    "El Dorado",
+    "Fresno",
+    "Glenn",
+    "Inyo",
+    "Kern",
+    "Kings",
+    "Lassen",
+    "Madera",
+    "Mariposa",
+    "Merced",
+    "Modoc",
+    "Mono",
+    "Nevada",
+    "Placer",
+    "Plumas",
+    "Sacramento",
+    "San Bernardino",
+    "San Joaquin",
+    "Shasta",
+    "Sierra",
+    "Siskiyou",
+    "Solano",
+    "Stanislaus",
+    "Sutter",
+    "Tehama",
+    "Tulare",
+    "Tuolumne",
+    "Yolo",
+    "Yuba"
+   ],
+   "candidates": [
+    {
+     "name": "Nelson Esparza",
+     "party": "Democratic",
+     "ballot_designation": "Teacher/Economist/Councilmember",
+     "website": "www.nelsonesparza.com",
+     "email": "nelson@nelsonesparza.com",
+     "incumbent": false
+    },
+    {
+     "name": "Shannon Grove",
+     "party": "Republican",
+     "ballot_designation": "State Senator/Businesswoman",
+     "website": null,
+     "email": null,
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "Board of Equalization",
+   "district": "2",
+   "printed_header": "Board of Equalization Member District 2",
+   "source_pdf_page_printed": 2,
+   "covers_counties": [
+    "Alameda"
+   ],
+   "counties_in_district": [
+    "Alameda",
+    "Contra Costa",
+    "Del Norte",
+    "Humboldt",
+    "Lake",
+    "Marin",
+    "Mendocino",
+    "Monterey",
+    "Napa",
+    "San Benito",
+    "San Francisco",
+    "San Luis Obispo",
+    "San Mateo",
+    "Santa Barbara",
+    "Santa Clara",
+    "Santa Cruz",
+    "Sonoma",
+    "Trinity",
+    "Ventura"
+   ],
+   "candidates": [
+    {
+     "name": "Sally J. Lieber",
+     "party": "Democratic",
+     "ballot_designation": "Incumbent",
+     "website": "www.sallylieber.org",
+     "email": "vote@sallylieber.org",
+     "incumbent": true
+    },
+    {
+     "name": "John Pimentel",
+     "party": "Democratic",
+     "ballot_designation": "Member, Board of Trustees, San Mateo County Community College District",
+     "website": "www.johnpimentel.com",
+     "email": "john@johnpimentel.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "Board of Equalization",
+   "district": "3",
+   "printed_header": "Board of Equalization Member District 3",
+   "source_pdf_page_printed": 3,
+   "covers_counties": [],
+   "counties_in_district": [
+    "Los Angeles"
+   ],
+   "candidates": [
+    {
+     "name": "Mike Gipson",
+     "party": "Democratic",
+     "ballot_designation": "State Assemblymember/Father",
+     "website": null,
+     "email": null,
+     "incumbent": false
+    },
+    {
+     "name": "Samuel P. Sukaton",
+     "party": "Democratic",
+     "ballot_designation": "Labor Union Organizer",
+     "website": null,
+     "email": null,
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "Board of Equalization",
+   "district": "4",
+   "printed_header": "Board of Equalization Member District 4",
+   "source_pdf_page_printed": 3,
+   "covers_counties": [],
+   "counties_in_district": [
+    "Imperial",
+    "Orange",
+    "Riverside",
+    "San Bernardino",
+    "San Diego"
+   ],
+   "candidates": [
+    {
+     "name": "Tom Umberg",
+     "party": "Democratic",
+     "ballot_designation": "Small Businessman/Senator",
+     "website": "www.tomumberg.com",
+     "email": "info@tomumberg.com",
+     "incumbent": false
+    },
+    {
+     "name": "Denis Bilodeau",
+     "party": "Republican",
+     "ballot_designation": "Councilmember/Civil Engineer",
+     "website": null,
+     "email": null,
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "5",
+   "printed_header": "United States Representative District 5",
+   "source_pdf_page_printed": 4,
+   "covers_counties": [
+    "San Joaquin"
+   ],
+   "counties_in_district": [
+    "Alpine",
+    "Amador",
+    "Calaveras",
+    "El Dorado",
+    "Fresno",
+    "Inyo",
+    "Madera",
+    "Mariposa",
+    "Mono",
+    "San Joaquin",
+    "Stanislaus",
+    "Tuolumne"
+   ],
+   "candidates": [
+    {
+     "name": "Michael Masuda",
+     "party": "Democratic",
+     "ballot_designation": "Foreign Affairs Officer",
+     "website": "www.votemasuda.com",
+     "email": "info@votemasuda.com",
+     "incumbent": null
+    },
+    {
+     "name": "Tom McClintock",
+     "party": "Republican",
+     "ballot_designation": "United States Representative",
+     "website": "www.tommcclintock.com",
+     "email": null,
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "7",
+   "printed_header": "United States Representative District 7",
+   "source_pdf_page_printed": 4,
+   "covers_counties": [
+    "San Joaquin"
+   ],
+   "counties_in_district": [
+    "El Dorado",
+    "Sacramento",
+    "San Joaquin"
+   ],
+   "candidates": [
+    {
+     "name": "Doris Matsui",
+     "party": "Democratic",
+     "ballot_designation": "U.S. Representative",
+     "website": null,
+     "email": "sacramento4doris@gmail.com",
+     "incumbent": null
+    },
+    {
+     "name": "Mai Vang",
+     "party": "Democratic",
+     "ballot_designation": "Teacher/City Councilmember",
+     "website": "www.maiforus.com",
+     "email": "info@maiforus.com",
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "8",
+   "printed_header": "United States Representative District 8",
+   "source_pdf_page_printed": 4,
+   "covers_counties": [
+    "San Joaquin"
+   ],
+   "counties_in_district": [
+    "Contra Costa",
+    "Sacramento",
+    "San Joaquin",
+    "Solano",
+    "Yolo"
+   ],
+   "candidates": [
+    {
+     "name": "John Garamendi",
+     "party": "Democratic",
+     "ballot_designation": "Member of Congress",
+     "website": "www.garamendi.org",
+     "email": "jgaramendi@garamendi.org",
+     "incumbent": null
+    },
+    {
+     "name": "Rudy Recile",
+     "party": "Republican",
+     "ballot_designation": "Business Owner/Consultant",
+     "website": "www.rudyforuscongress.com",
+     "email": "rudy@rudyforuscongress.com",
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "9",
+   "printed_header": "United States Representative District 9",
+   "source_pdf_page_printed": 5,
+   "covers_counties": [
+    "San Joaquin"
+   ],
+   "counties_in_district": [
+    "Contra Costa",
+    "San Joaquin"
+   ],
+   "candidates": [
+    {
+     "name": "Josh Harder",
+     "party": "Democratic",
+     "ballot_designation": "Father/Representative",
+     "website": "www.harderforcongress.com",
+     "email": null,
+     "incumbent": null
+    },
+    {
+     "name": "John McBride",
+     "party": "Republican",
+     "ballot_designation": "Athletic Performance Coach",
+     "website": "www.johnmcbrideforcongress.com",
+     "email": "coachmcb@mac.com",
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "10",
+   "printed_header": "United States Representative District 10",
+   "source_pdf_page_printed": 5,
+   "covers_counties": [
+    "Alameda"
+   ],
+   "counties_in_district": [
+    "Alameda",
+    "Contra Costa"
+   ],
+   "candidates": [
+    {
+     "name": "Mark DeSaulnier",
+     "party": "Democratic",
+     "ballot_designation": "United States Congressman",
+     "website": "www.desaulnierforcongress.com",
+     "email": "teammarkdesaulnier@gmail.com",
+     "incumbent": null
+    },
+    {
+     "name": "Jeff Frese",
+     "party": "Republican",
+     "ballot_designation": "Small Business Owner",
+     "website": "www.freseforcongress.com",
+     "email": "jeff@freseforcongress.com",
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "11",
+   "printed_header": "United States Representative District 11",
+   "source_pdf_page_printed": 5,
+   "covers_counties": [],
+   "counties_in_district": [
+    "San Francisco"
+   ],
+   "candidates": [
+    {
+     "name": "Connie Chan",
+     "party": "Democratic",
+     "ballot_designation": "San Francisco Supervisor",
+     "website": "www.conniechansf.com",
+     "email": "info@conniechansf.com",
+     "incumbent": null
+    },
+    {
+     "name": "Scott Wiener",
+     "party": "Democratic",
+     "ballot_designation": "State Senator",
+     "website": "www.scottwiener.com",
+     "email": "info@scottwiener.com",
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "12",
+   "printed_header": "United States Representative District 12",
+   "source_pdf_page_printed": 5,
+   "covers_counties": [
+    "Alameda"
+   ],
+   "counties_in_district": [
+    "Alameda"
+   ],
+   "candidates": [
+    {
+     "name": "Jamie Joyce",
+     "party": "Democratic",
+     "ballot_designation": "Nonprofit Executive Director",
+     "website": "www.jamiejoyce.com",
+     "email": "rep@jamiejoyce.com",
+     "incumbent": null
+    },
+    {
+     "name": "Lateefah Simon",
+     "party": "Democratic",
+     "ballot_designation": "U.S. Representative",
+     "website": null,
+     "email": "info@lateefahsimon.com",
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "13",
+   "printed_header": "United States Representative District 13",
+   "source_pdf_page_printed": 5,
+   "covers_counties": [
+    "San Joaquin"
+   ],
+   "counties_in_district": [
+    "Fresno",
+    "Madera",
+    "Merced",
+    "San Joaquin",
+    "Stanislaus"
+   ],
+   "candidates": [
+    {
+     "name": "Adam Gray",
+     "party": "Democratic",
+     "ballot_designation": "United States Representative/Educator",
+     "website": null,
+     "email": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Lincoln",
+     "party": "Republican",
+     "ballot_designation": "Small Business Owner",
+     "website": null,
+     "email": null,
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "14",
+   "printed_header": "United States Representative District 14",
+   "source_pdf_page_printed": 6,
+   "covers_counties": [
+    "Alameda"
+   ],
+   "counties_in_district": [
+    "Alameda"
+   ],
+   "candidates": [
+    {
+     "name": "Melissa Hernandez",
+     "party": "Democratic",
+     "ballot_designation": "Healthcare Services Director",
+     "website": "www.melissahernandez2026.com",
+     "email": "melissa@melissahernandez2026.com",
+     "incumbent": null
+    },
+    {
+     "name": "Aisha Wahab",
+     "party": "Democratic",
+     "ballot_designation": "State Senator",
+     "website": "www.aishawahab.com",
+     "email": "wahab.aisha@gmail.com",
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "15",
+   "printed_header": "United States Representative District 15",
+   "source_pdf_page_printed": 6,
+   "covers_counties": [],
+   "counties_in_district": [
+    "San Francisco",
+    "San Mateo"
+   ],
+   "candidates": [
+    {
+     "name": "Kevin Mullin",
+     "party": "Democratic",
+     "ballot_designation": "U.S. Representative",
+     "website": "www.kevinmullinforcongress.com",
+     "email": "kevin@kevinmullinforcongress.com",
+     "incumbent": null
+    },
+    {
+     "name": "Charles Hoelter",
+     "party": "Republican",
+     "ballot_designation": "Retired Training Supervisor",
+     "website": "www.hoelterforuscongress.com",
+     "email": null,
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "16",
+   "printed_header": "United States Representative District 16",
+   "source_pdf_page_printed": 6,
+   "covers_counties": [],
+   "counties_in_district": [
+    "San Mateo",
+    "Santa Clara"
+   ],
+   "candidates": [
+    {
+     "name": "Sam Liccardo",
+     "party": "Democratic",
+     "ballot_designation": "United States Representative",
+     "website": "www.samliccardo.com",
+     "email": "info@samliccardo.com",
+     "incumbent": null
+    },
+    {
+     "name": "Peter Sundin Soulé",
+     "party": "Republican",
+     "ballot_designation": "Investor",
+     "website": "www.souleforcongress.com",
+     "email": "souleforcongress2026@gmail.com",
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "17",
+   "printed_header": "United States Representative District 17",
+   "source_pdf_page_printed": 6,
+   "covers_counties": [
+    "Alameda"
+   ],
+   "counties_in_district": [
+    "Alameda",
+    "Santa Clara"
+   ],
+   "candidates": [
+    {
+     "name": "Ro Khanna",
+     "party": "Democratic",
+     "ballot_designation": "United States Congressmember",
+     "website": "www.rokhanna.com",
+     "email": "ro@rokhanna.com",
+     "incumbent": null
+    },
+    {
+     "name": "Ritesh Tandon",
+     "party": "Republican",
+     "ballot_designation": "CEO/Entrepreneur/Researcher",
+     "website": "www.tandonforcongress.com",
+     "email": "ritesh@tandonforcongress.com",
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "18",
+   "printed_header": "United States Representative District 18",
+   "source_pdf_page_printed": 6,
+   "covers_counties": [],
+   "counties_in_district": [
+    "Fresno",
+    "Kings",
+    "Monterey",
+    "San Benito",
+    "Santa Clara",
+    "Santa Cruz"
+   ],
+   "candidates": [
+    {
+     "name": "Zoe Lofgren",
+     "party": "Democratic",
+     "ballot_designation": "Congresswoman",
+     "website": "www.zoelofgren.com",
+     "email": "jefflarivee@gmail.com",
+     "incumbent": null
+    },
+    {
+     "name": "Shane Lewis",
+     "party": "Republican",
+     "ballot_designation": "Electrical Test Engineer",
+     "website": "www.shanelewisforcongress.com",
+     "email": null,
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "U.S. House",
+   "district": "19",
+   "printed_header": "United States Representative District 19",
+   "source_pdf_page_printed": 7,
+   "covers_counties": [],
+   "counties_in_district": [
+    "Monterey",
+    "San Luis Obispo",
+    "Santa Clara",
+    "Santa Cruz"
+   ],
+   "candidates": [
+    {
+     "name": "Jimmy Panetta",
+     "party": "Democratic",
+     "ballot_designation": "United States Representative",
+     "website": "www.jimmypanetta.com",
+     "email": "info@jimmypanetta.com",
+     "incumbent": null
+    },
+    {
+     "name": "Peter Coe Verbica",
+     "party": "Republican",
+     "ballot_designation": "Business Owner",
+     "website": "www.peterverbica.com",
+     "email": "peter.verbica@gmail.com",
+     "incumbent": null
+    }
+   ]
+  },
+  {
+   "office": "State Senate",
+   "district": "4",
+   "printed_header": "State Senate District 4",
+   "source_pdf_page_printed": 14,
+   "covers_counties": [],
+   "counties_in_district": [
+    "Alpine",
+    "Amador",
+    "Calaveras",
+    "El Dorado",
+    "Inyo",
+    "Madera",
+    "Mariposa",
+    "Merced",
+    "Mono",
+    "Nevada",
+    "Placer",
+    "Stanislaus",
+    "Tuolumne"
+   ],
+   "candidates": [
+    {
+     "name": "Jaron Brandon",
+     "party": "Democratic",
+     "ballot_designation": "County Supervisor",
+     "website": "www.votejaron.com",
+     "email": "jaronbrandon@gmail.com",
+     "incumbent": false
+    },
+    {
+     "name": "Alexandra Duarte",
+     "party": "Republican",
+     "ballot_designation": "Mother/Farmer",
+     "website": "www.alexandraforsenate.com",
+     "email": "alexandra@alexandraforsenate.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "State Senate",
+   "district": "6",
+   "printed_header": "State Senate District 6",
+   "source_pdf_page_printed": 14,
+   "covers_counties": [],
+   "counties_in_district": [
+    "Placer",
+    "Sacramento"
+   ],
+   "candidates": [
+    {
+     "name": "Sean Frame",
+     "party": "Democratic",
+     "ballot_designation": "Small Business Owner",
+     "website": "www.seanframe.com",
+     "email": "team@seanframe.com",
+     "incumbent": false
+    },
+    {
+     "name": "Roger Niello",
+     "party": "Republican",
+     "ballot_designation": "California State Senator",
+     "website": "www.rogerniello.com",
+     "email": null,
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "office": "State Senate",
+   "district": "8",
+   "printed_header": "State Senate District 8",
+   "source_pdf_page_printed": 14,
+   "covers_counties": [],
+   "counties_in_district": [
+    "Sacramento"
+   ],
+   "candidates": [
+    {
+     "name": "Angelique Ashby",
+     "party": "Democratic",
+     "ballot_designation": "California State Senator",
+     "website": "www.ashbyforsenate.com",
+     "email": null,
+     "incumbent": true
+    },
+    {
+     "name": "Susan A Mason",
+     "party": "Republican",
+     "ballot_designation": "Retired Nurse",
+     "website": null,
+     "email": null,
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "State Senate",
+   "district": "10",
+   "printed_header": "State Senate District 10",
+   "source_pdf_page_printed": 14,
+   "covers_counties": [
+    "Alameda"
+   ],
+   "counties_in_district": [
+    "Alameda",
+    "Santa Clara"
+   ],
+   "candidates": [
+    {
+     "name": "Scott Sakakihara",
+     "party": "Democratic",
+     "ballot_designation": "Councilmember/Navy Officer",
+     "website": "www.electscott.com",
+     "email": "scott@electscott.com",
+     "incumbent": false
+    },
+    {
+     "name": "Linda R. Price",
+     "party": "Republican",
+     "ballot_designation": "Businesswoman",
+     "website": null,
+     "email": "linda@lindapriceforsenate.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "State Senate",
+   "district": "12",
+   "printed_header": "State Senate District 12",
+   "source_pdf_page_printed": 14,
+   "covers_counties": [],
+   "counties_in_district": [
+    "Fresno",
+    "Kern",
+    "Tulare"
+   ],
+   "candidates": [
+    {
+     "name": "Nathan Magsig",
+     "party": "Republican",
+     "ballot_designation": "County Supervisor/Businessman",
+     "website": "www.nathanmagsig.com",
+     "email": "nathan@nathanmagsig.com",
+     "incumbent": false
+    },
+    {
+     "name": "William Brown Jr.",
+     "party": "Libertarian",
+     "ballot_designation": "Social Worker/Businessman",
+     "website": null,
+     "email": "will@brownlcsw.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "State Assembly",
+   "district": "9",
+   "printed_header": "State Assembly Member District 9",
+   "source_pdf_page_printed": 19,
+   "covers_counties": [
+    "San Joaquin"
+   ],
+   "counties_in_district": [
+    "Amador",
+    "Calaveras",
+    "Sacramento",
+    "San Joaquin",
+    "Stanislaus"
+   ],
+   "candidates": [
+    {
+     "name": "Matthew Adams",
+     "party": "Democratic",
+     "ballot_designation": "Teacher",
+     "website": "www.adams4assembly.com",
+     "email": "adams4assembly@gmail.com",
+     "incumbent": false
+    },
+    {
+     "name": "Heath Flora",
+     "party": "Republican",
+     "ballot_designation": "Father/Farmer/Assemblyman",
+     "website": "www.heathflora.com",
+     "email": "asmheathflora@gmail.com",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "office": "State Assembly",
+   "district": "13",
+   "printed_header": "State Assembly Member District 13",
+   "source_pdf_page_printed": 19,
+   "covers_counties": [
+    "San Joaquin"
+   ],
+   "counties_in_district": [
+    "San Joaquin"
+   ],
+   "candidates": [
+    {
+     "name": "Rhodesia Ransom",
+     "party": "Democratic",
+     "ballot_designation": "State Assemblymember",
+     "website": "www.voteransom.com",
+     "email": "rhodesia@voteransom.com",
+     "incumbent": true
+    },
+    {
+     "name": "Tom Patti",
+     "party": "Republican",
+     "ballot_designation": "Businessman/Father",
+     "website": null,
+     "email": null,
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "State Assembly",
+   "district": "14",
+   "printed_header": "State Assembly Member District 14",
+   "source_pdf_page_printed": 20,
+   "covers_counties": [
+    "Alameda"
+   ],
+   "counties_in_district": [
+    "Alameda",
+    "Contra Costa"
+   ],
+   "candidates": [
+    {
+     "name": "Buffy Wicks",
+     "party": "Democratic",
+     "ballot_designation": "Assemblymember/Mom",
+     "website": null,
+     "email": null,
+     "incumbent": true
+    },
+    {
+     "name": "Mark Rendon",
+     "party": "Green",
+     "ballot_designation": "Teacher",
+     "website": "www.markrendon4ad14.com",
+     "email": "markrendon4ad14@gmail.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "State Assembly",
+   "district": "16",
+   "printed_header": "State Assembly Member District 16",
+   "source_pdf_page_printed": 20,
+   "covers_counties": [
+    "Alameda"
+   ],
+   "counties_in_district": [
+    "Alameda",
+    "Contra Costa"
+   ],
+   "candidates": [
+    {
+     "name": "Rebecca Bauer-Kahan",
+     "party": "Democratic",
+     "ballot_designation": "Assemblymember/Mother",
+     "website": "www.rebeccabauerkahan.com",
+     "email": "contact@rebeccaforassembly.com",
+     "incumbent": true
+    },
+    {
+     "name": "Joseph A. Rubay",
+     "party": "Republican",
+     "ballot_designation": "Businessman/Father",
+     "website": "www.rubay4assembly.com",
+     "email": "rubay@usa.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "State Assembly",
+   "district": "18",
+   "printed_header": "State Assembly Member District 18",
+   "source_pdf_page_printed": 20,
+   "covers_counties": [
+    "Alameda"
+   ],
+   "counties_in_district": [
+    "Alameda",
+    "San Francisco"
+   ],
+   "candidates": [
+    {
+     "name": "Mia Bonta",
+     "party": "Democratic",
+     "ballot_designation": "California State Assemblymember, Assembly District 18",
+     "website": "www.miabonta.com",
+     "email": "teammia@miabonta.com",
+     "incumbent": true
+    },
+    {
+     "name": "Andre Sandford",
+     "party": "Democratic",
+     "ballot_designation": "Housing Program Director",
+     "website": "www.andresandfordforassembly.com",
+     "email": "andresandfordforassembly@gmail.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "State Assembly",
+   "district": "20",
+   "printed_header": "State Assembly Member District 20",
+   "source_pdf_page_printed": 21,
+   "covers_counties": [
+    "Alameda"
+   ],
+   "counties_in_district": [
+    "Alameda"
+   ],
+   "candidates": [
+    {
+     "name": "Liz Ortega",
+     "party": "Democratic",
+     "ballot_designation": "Assemblymember",
+     "website": "www.ortegaforassembly.com",
+     "email": "liz@ortegaforassembly.com",
+     "incumbent": true
+    },
+    {
+     "name": "Patricia Muga",
+     "party": "Republican",
+     "ballot_designation": "Real Estate Appraiser",
+     "website": "www.mugaforassembly.com",
+     "email": "info@mugaforassembly.com",
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "State Assembly",
+   "district": "22",
+   "printed_header": "State Assembly Member District 22",
+   "source_pdf_page_printed": 21,
+   "covers_counties": [],
+   "counties_in_district": [
+    "Merced",
+    "Stanislaus"
+   ],
+   "candidates": [
+    {
+     "name": "Juan Alanis",
+     "party": "Republican",
+     "ballot_designation": "Assemblyman",
+     "website": "www.alanisforassembly.com",
+     "email": "juanalanisforassembly@gmail.com",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "office": "State Assembly",
+   "district": "24",
+   "printed_header": "State Assembly Member District 24",
+   "source_pdf_page_printed": 21,
+   "covers_counties": [
+    "Alameda"
+   ],
+   "counties_in_district": [
+    "Alameda",
+    "Santa Clara"
+   ],
+   "candidates": [
+    {
+     "name": "Alex Lee",
+     "party": "Democratic",
+     "ballot_designation": "State Assemblymember",
+     "website": "www.votealexlee.com",
+     "email": "alex@votealexlee.com",
+     "incumbent": true
+    },
+    {
+     "name": "Max Hsia",
+     "party": "Republican",
+     "ballot_designation": "Small Business Owner",
+     "website": "www.max4california.com",
+     "email": null,
+     "incumbent": false
+    }
+   ]
+  },
+  {
+   "office": "State Assembly",
+   "district": "26",
+   "printed_header": "State Assembly Member District 26",
+   "source_pdf_page_printed": 22,
+   "covers_counties": [],
+   "counties_in_district": [
+    "Santa Clara"
+   ],
+   "candidates": [
+    {
+     "name": "Patrick Ahrens",
+     "party": "Democratic",
+     "ballot_designation": "State Assemblymember",
+     "website": "www.patrickahrens.com",
+     "email": null,
+     "incumbent": true
+    },
+    {
+     "name": "Tim Gorsulowsky",
+     "party": "Republican",
+     "ballot_designation": "Small Business Owner",
+     "website": null,
+     "email": null,
+     "incumbent": false
+    }
+   ]
+  }
+ ],
+ "district_coverage": {
+  "San Joaquin": {
+   "us_house": [
+    "5",
+    "7",
+    "8",
+    "9",
+    "13"
+   ],
+   "state_senate_on_2026_ballot": [],
+   "state_senate_not_on_2026_ballot": [
+    "5"
+   ],
+   "assembly": [
+    "9",
+    "13"
+   ],
+   "board_of_equalization": [
+    "1"
+   ],
+   "court_of_appeal": "Third Appellate District",
+   "src": [
+    "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/76-us-rep.pdf (SoS certified Statement of Vote, U.S. Rep by district with county breakdown)",
+    "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/90-state-senator.pdf (even-numbered state senate districts; San Joaquin appears in none)",
+    "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/95-state-assembly.pdf",
+    "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/73-boe.pdf",
+    "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/37-state-senator.pdf (odd-numbered senate districts; SD 5 = Alameda + San Joaquin, not on 2026 ballot)",
+    "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/offices-up-for-2026-general-election.pdf (San Joaquin ROV: US Rep 5,7,8,9,13; Assembly 9,13; BOE District 1; no state senate)",
+    "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/statements-of-votes-cast/2026-june---statewide-direct-primary-election/june-2-2026-statement-of-votes-cast.pdf (San Joaquin ROV June 2 2026 SOVC: CD 5,7,8,9,13; AD 9,13; BOE 1; no state senate contest)",
+    "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026 (Court of Appeal district-to-county list is printed in the certified list itself)"
+   ],
+   "primary_votes_cast_in_county_footprint": {
+    "note": "Sum of all candidates' votes for that district contest inside the county in the June 2, 2026 primary (SoS Statement of Vote). Rough footprint indicator only.",
+    "us_house": {
+     "5": 4303,
+     "7": 14276,
+     "8": 6508,
+     "9": 93798,
+     "13": 13769
+    },
+    "state_senate": {},
+    "assembly": {
+     "9": 62567,
+     "13": 68787
+    }
+   },
+   "district_to_counties": {
+    "us_house": {
+     "5": [
+      "Alpine",
+      "Amador",
+      "Calaveras",
+      "El Dorado",
+      "Fresno",
+      "Inyo",
+      "Madera",
+      "Mariposa",
+      "Mono",
+      "San Joaquin",
+      "Stanislaus",
+      "Tuolumne"
+     ],
+     "7": [
+      "El Dorado",
+      "Sacramento",
+      "San Joaquin"
+     ],
+     "8": [
+      "Contra Costa",
+      "Sacramento",
+      "San Joaquin",
+      "Solano",
+      "Yolo"
+     ],
+     "9": [
+      "Contra Costa",
+      "San Joaquin"
+     ],
+     "13": [
+      "Fresno",
+      "Madera",
+      "Merced",
+      "San Joaquin",
+      "Stanislaus"
+     ]
+    },
+    "assembly": {
+     "9": [
+      "Amador",
+      "Calaveras",
+      "Sacramento",
+      "San Joaquin",
+      "Stanislaus"
+     ],
+     "13": [
+      "San Joaquin"
+     ]
+    }
+   }
+  },
+  "Alameda": {
+   "us_house": [
+    "10",
+    "12",
+    "14",
+    "17"
+   ],
+   "state_senate_on_2026_ballot": [
+    "10"
+   ],
+   "state_senate_not_on_2026_ballot": [
+    "5",
+    "7",
+    "9"
+   ],
+   "assembly": [
+    "14",
+    "16",
+    "18",
+    "20",
+    "24"
+   ],
+   "board_of_equalization": [
+    "2"
+   ],
+   "court_of_appeal": "First Appellate District",
+   "src": [
+    "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/76-us-rep.pdf",
+    "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/90-state-senator.pdf",
+    "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/95-state-assembly.pdf",
+    "https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/73-boe.pdf",
+    "https://elections.cdn.sos.ca.gov/sov/2024-general/sov/37-state-senator.pdf (odd-numbered senate districts; SD 5, 7, 9 include Alameda, not on 2026 ballot)",
+    "https://alamedacountyca.gov/rov_app/candidatelist (Alameda ROV Candidate List, election \"General Election - 11/03/2026\", race dropdown: CD 10,12,14,17; State Senate 10; Assembly 14,16,18,20,24; BOE 2nd District)"
+   ],
+   "primary_votes_cast_in_county_footprint": {
+    "note": "Sum of all candidates' votes for that district contest inside the county in the June 2, 2026 primary (SoS Statement of Vote). Rough footprint indicator only.",
+    "us_house": {
+     "10": 18038,
+     "12": 181841,
+     "14": 154747,
+     "17": 16833
+    },
+    "state_senate": {
+     "10": 95971
+    },
+    "assembly": {
+     "14": 68729,
+     "16": 48459,
+     "18": 109533,
+     "20": 101568,
+     "24": 52613
+    }
+   },
+   "district_to_counties": {
+    "us_house": {
+     "10": [
+      "Alameda",
+      "Contra Costa"
+     ],
+     "12": [
+      "Alameda"
+     ],
+     "14": [
+      "Alameda"
+     ],
+     "17": [
+      "Alameda",
+      "Santa Clara"
+     ]
+    },
+    "state_senate": {
+     "10": [
+      "Alameda",
+      "Santa Clara"
+     ]
+    },
+    "assembly": {
+     "14": [
+      "Alameda",
+      "Contra Costa"
+     ],
+     "16": [
+      "Alameda",
+      "Contra Costa"
+     ],
+     "18": [
+      "Alameda",
+      "San Francisco"
+     ],
+     "20": [
+      "Alameda"
+     ],
+     "24": [
+      "Alameda",
+      "Santa Clara"
+     ]
+    }
+   }
+  }
+ },
+ "retention_justices": [
+  {
+   "name": "Kelli M. Evans",
+   "name_as_printed": "KELLI M. EVANS",
+   "title_in_question": "Associate Justice of the Supreme Court",
+   "court": "Supreme Court of California",
+   "appellate_district": null,
+   "division": null,
+   "ballot_office_label": "For Associate Justice of the Supreme Court",
+   "question_as_printed": "Shall Associate Justice of the Supreme Court KELLI M. EVANS be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "San Joaquin",
+    "Alameda"
+   ],
+   "printed_section_heading": "Supreme Court",
+   "source_pdf_page_printed": 33
+  },
+  {
+   "name": "Joshua Groban",
+   "name_as_printed": "JOSHUA GROBAN",
+   "title_in_question": "Associate Justice of the Supreme Court",
+   "court": "Supreme Court of California",
+   "appellate_district": null,
+   "division": null,
+   "ballot_office_label": "For Associate Justice of the Supreme Court",
+   "question_as_printed": "Shall Associate Justice of the Supreme Court JOSHUA GROBAN be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "San Joaquin",
+    "Alameda"
+   ],
+   "printed_section_heading": "Supreme Court",
+   "source_pdf_page_printed": 33
+  },
+  {
+   "name": "Charles A. Smiley",
+   "name_as_printed": "CHARLES A. SMILEY",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, First District, Division One",
+   "appellate_district": "First",
+   "division": "One",
+   "ballot_office_label": "For Associate Justice, Court of Appeal, First District, Division One",
+   "question_as_printed": "Shall Associate Justice CHARLES A. SMILEY be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "Alameda"
+   ],
+   "printed_section_heading": "First Appellate District",
+   "source_pdf_page_printed": 33
+  },
+  {
+   "name": "Kathleen M. Banke",
+   "name_as_printed": "KATHLEEN M. BANKE",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, First District, Division One",
+   "appellate_district": "First",
+   "division": "One",
+   "ballot_office_label": "For Associate Justice, Court of Appeal, First District, Division One",
+   "question_as_printed": "Shall Associate Justice KATHLEEN M. BANKE be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "Alameda"
+   ],
+   "printed_section_heading": "First Appellate District",
+   "source_pdf_page_printed": 33
+  },
+  {
+   "name": "Monique Langhorne Wilson",
+   "name_as_printed": "MONIQUE LANGHORNE WILSON",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, First District, Division One",
+   "appellate_district": "First",
+   "division": "One",
+   "ballot_office_label": "For Associate Justice, Court of Appeal, First District, Division One",
+   "question_as_printed": "Shall Associate Justice MONIQUE LANGHORNE WILSON be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "Alameda"
+   ],
+   "printed_section_heading": "First Appellate District",
+   "source_pdf_page_printed": 33
+  },
+  {
+   "name": "Therese M. Stewart",
+   "name_as_printed": "THERESE M. STEWART",
+   "title_in_question": "Presiding Justice",
+   "court": "Court of Appeal, First District, Division Two",
+   "appellate_district": "First",
+   "division": "Two",
+   "ballot_office_label": "For Presiding Justice, Court of Appeal, First District, Division Two",
+   "question_as_printed": "Shall Presiding Justice THERESE M. STEWART be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "Alameda"
+   ],
+   "printed_section_heading": "First Appellate District",
+   "source_pdf_page_printed": 33
+  },
+  {
+   "name": "Tara M. Desautels",
+   "name_as_printed": "TARA M. DESAUTELS",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, First District, Division Two",
+   "appellate_district": "First",
+   "division": "Two",
+   "ballot_office_label": "For Associate Justice, Court of Appeal, First District, Division Two",
+   "question_as_printed": "Shall Associate Justice TARA M. DESAUTELS be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "Alameda"
+   ],
+   "printed_section_heading": "First Appellate District",
+   "source_pdf_page_printed": 33
+  },
+  {
+   "name": "Ioana Petrou",
+   "name_as_printed": "IOANA PETROU",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, First District, Division Three",
+   "appellate_district": "First",
+   "division": "Three",
+   "ballot_office_label": "For Associate Justice, Court of Appeal, First District, Division Three",
+   "question_as_printed": "Shall Associate Justice IOANA PETROU be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "Alameda"
+   ],
+   "printed_section_heading": "Second Appellate District",
+   "source_pdf_page_printed": 34
+  },
+  {
+   "name": "Victor A. Rodriguez",
+   "name_as_printed": "VICTOR A. RODRIGUEZ",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, First District, Division Three",
+   "appellate_district": "First",
+   "division": "Three",
+   "ballot_office_label": "For Associate Justice, Court of Appeal, First District, Division Three",
+   "question_as_printed": "Shall Associate Justice VICTOR A. RODRIGUEZ be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "Alameda"
+   ],
+   "printed_section_heading": "Second Appellate District",
+   "source_pdf_page_printed": 34
+  },
+  {
+   "name": "Tracie L. Brown",
+   "name_as_printed": "TRACIE L. BROWN",
+   "title_in_question": "Presiding Justice",
+   "court": "Court of Appeal, First District, Division Four",
+   "appellate_district": "First",
+   "division": "Four",
+   "ballot_office_label": "For Presiding Justice, Court of Appeal, First District, Division Four",
+   "question_as_printed": "Shall Presiding Justice TRACIE L. BROWN be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "Alameda"
+   ],
+   "printed_section_heading": "Second Appellate District",
+   "source_pdf_page_printed": 34
+  },
+  {
+   "name": "Mark Simons",
+   "name_as_printed": "MARK SIMONS",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, First District, Division Five",
+   "appellate_district": "First",
+   "division": "Five",
+   "ballot_office_label": "For Associate Justice, Court of Appeal, First District, Division Five",
+   "question_as_printed": "Shall Associate Justice MARK SIMONS be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "Alameda"
+   ],
+   "printed_section_heading": "Second Appellate District",
+   "source_pdf_page_printed": 34
+  },
+  {
+   "name": "Danny Y. Chou",
+   "name_as_printed": "DANNY Y. CHOU",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, First District, Division Five",
+   "appellate_district": "First",
+   "division": "Five",
+   "ballot_office_label": "For Associate Justice, Court of Appeal, First District, Division Five",
+   "question_as_printed": "Shall Associate Justice DANNY Y. CHOU be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "Alameda"
+   ],
+   "printed_section_heading": "Second Appellate District",
+   "source_pdf_page_printed": 34
+  },
+  {
+   "name": "Gordon Burns",
+   "name_as_printed": "GORDON BURNS",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, First District, Division Five",
+   "appellate_district": "First",
+   "division": "Five",
+   "ballot_office_label": "For Associate Justice, Court of Appeal, First District, Division Five",
+   "question_as_printed": "Shall Associate Justice GORDON BURNS be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "Alameda"
+   ],
+   "printed_section_heading": "Second Appellate District",
+   "source_pdf_page_printed": 34
+  },
+  {
+   "name": "Laurie Earl",
+   "name_as_printed": "LAURIE EARL",
+   "title_in_question": "Administrative Presiding Justice",
+   "court": "Court of Appeal, Third District",
+   "appellate_district": "Third",
+   "division": null,
+   "ballot_office_label": "For Administrative Presiding Justice, Court of Appeal, Third District",
+   "question_as_printed": "Shall Administrative Presiding Justice LAURIE EARL be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "San Joaquin"
+   ],
+   "printed_section_heading": "Third Appellate District",
+   "source_pdf_page_printed": 37
+  },
+  {
+   "name": "Shama Mesiwala",
+   "name_as_printed": "SHAMA MESIWALA",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, Third District",
+   "appellate_district": "Third",
+   "division": null,
+   "ballot_office_label": "For Associate Justice, Court of Appeal, Third District",
+   "question_as_printed": "Shall Associate Justice SHAMA MESIWALA be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "San Joaquin"
+   ],
+   "printed_section_heading": "Third Appellate District",
+   "source_pdf_page_printed": 37
+  },
+  {
+   "name": "David B. Sapp",
+   "name_as_printed": "DAVID B. SAPP",
+   "title_in_question": null,
+   "court": "Court of Appeal, Third District",
+   "appellate_district": "Third",
+   "division": null,
+   "ballot_office_label": "For Associate Justice, Court of Appeal, Third District",
+   "question_as_printed": "Shall DAVID B. SAPP be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "San Joaquin"
+   ],
+   "printed_section_heading": "Third Appellate District",
+   "source_pdf_page_printed": 37
+  },
+  {
+   "name": "Lauri Damrell",
+   "name_as_printed": "LAURI DAMRELL",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, Third District",
+   "appellate_district": "Third",
+   "division": null,
+   "ballot_office_label": "For Associate Justice, Court of Appeal, Third District",
+   "question_as_printed": "Shall Associate Justice LAURI DAMRELL be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "San Joaquin"
+   ],
+   "printed_section_heading": "Third Appellate District",
+   "source_pdf_page_printed": 37
+  },
+  {
+   "name": "Stacy Boulware Eurie",
+   "name_as_printed": "STACY BOULWARE EURIE",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, Third District",
+   "appellate_district": "Third",
+   "division": null,
+   "ballot_office_label": "For Associate Justice, Court of Appeal, Third District",
+   "question_as_printed": "Shall Associate Justice STACY BOULWARE EURIE be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "San Joaquin"
+   ],
+   "printed_section_heading": "Third Appellate District",
+   "source_pdf_page_printed": 37
+  },
+  {
+   "name": "Aimee A. Feinberg",
+   "name_as_printed": "AIMEE A. FEINBERG",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, Third District",
+   "appellate_district": "Third",
+   "division": null,
+   "ballot_office_label": "For Associate Justice, Court of Appeal, Third District",
+   "question_as_printed": "Shall Associate Justice AIMEE A. FEINBERG be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "San Joaquin"
+   ],
+   "printed_section_heading": "Third Appellate District",
+   "source_pdf_page_printed": 37
+  },
+  {
+   "name": "Jonathan Renner",
+   "name_as_printed": "JONATHAN RENNER",
+   "title_in_question": "Associate Justice",
+   "court": "Court of Appeal, Third District",
+   "appellate_district": "Third",
+   "division": null,
+   "ballot_office_label": "For Associate Justice, Court of Appeal, Third District",
+   "question_as_printed": "Shall Associate Justice JONATHAN RENNER be elected to the office for the term provided by law?",
+   "applies_to_counties": [
+    "San Joaquin"
+   ],
+   "printed_section_heading": "Third Appellate District",
+   "source_pdf_page_printed": 37
+  }
+ ],
+ "gaps": [
+  "Certified list (cert-list-candidates.pdf) prints only name, party preference, ballot designation (and * for incumbent on state/legislative offices). It prints NO website or email. Websites/emails were taken from the companion official SoS 'Official Candidate Contact List' (contact-list.pdf, dated 9/23/26, 50 pages). All 324 candidates in the two documents match exactly on name, party and designation. Websites printed for 218 of 324 candidates; emails for 227. null = nothing printed. Websites are stored exactly as printed (217 have no http(s):// scheme; 1 has https://).",
+  "Contact list is dated 9/23/26 (later than the 8/27/26 certification). It was matched against the certified list and no candidate-level differences were found, but contact details can change after 9/23/26; re-check before publishing.",
+  "Incumbent flag: the certified list marks incumbents with * only for statewide-office, State Senate and State Assembly contests. It does NOT mark incumbents for U.S. House, so incumbent is null for every U.S. House candidate. For all other contests, incumbent=false means no * was printed.",
+  "Ballot designation is stored exactly as printed; where the list prints 'No Ballot Designation' that literal text is kept (not converted to null). Sally J. Lieber (BOE 2) and LaShae Sharp-Collins (AD 79) have the single word 'Incumbent' printed as their designation.",
+  "San Joaquin County has NO even-numbered State Senate district on the 2026 ballot (its senate district is SD 5, odd-numbered, last elected 2024). Alameda County: only SD 10 is on the 2026 ballot.",
+  "Requested-but-not-covering districts are still included in contests[] (flagged by covers_counties=[]): U.S. House 11, 15, 16, 18, 19; State Senate 4, 6, 8, 12; State Assembly 22, 26; BOE 3 and 4. They do not touch San Joaquin or Alameda per the SoS June 2026 Statement of Vote.",
+  "District coverage is county-level overlap from certified vote returns, not voter-level. Several districts only touch a sliver of a county (e.g. CD5 and CD8 in San Joaquin; CD10 and CD17 in Alameda; AD9 spans San Joaquin plus Sacramento/Stanislaus/Amador/Calaveras). A given voter's districts need an address lookup (Alameda: https://alamedacountyca.gov/rovapps/districtlookup/ ; San Joaquin ROV 'Find Your Elected Officials and Districts' page currently says 'Coming soon').",
+  "Prop 50 boundary files/maps were not downloaded or independently checked. Coverage was derived from certified counts of the June 2, 2026 primary (which used the post-Prop 50 congressional map) and cross-checked against both county Registrars' own 2026 documents; all three agree.",
+  "Alameda ROV also lists 'Congressional District 14 Special Primary Election 06/16/2026' and 'Congressional District 14 Special General Election 08/18/2026' (separate vacancy-filling elections). They are not part of the Nov 3 certified list and were not researched.",
+  "Retention section layout anomaly in the certified PDF: First District Division Three, Four and Five justices (Petrou, Rodriguez, Brown, Simons, Chou, Burns) are printed on page 34 under the heading 'Court of Appeal - Second Appellate District' (heading placement only; each item's own label says First District). Similarly Fourth District Div 2/3 justices print under the Fifth District heading (outside requested scope). Division membership here follows each item's own label, not the section heading. Treat as a possible SoS layout error; verify the 1st District roster before publishing.",
+  "Retention question for DAVID B. SAPP (Third District) is printed without the 'Associate Justice' title in the question text ('Shall DAVID B. SAPP be elected...'); the office label above it says Associate Justice, Court of Appeal, Third District. Kept as printed.",
+  "Single-candidate Assembly contests printed on the certified list: AD 4, AD 8, AD 22, AD 32 (AD 22 is in the requested set). Several contests have two candidates of the same party, as printed (e.g. CD7, CD11, CD12, CD14, Insurance Commissioner, AD12, AD18).",
+  "Candidate mailing addresses and phone numbers are printed in the contact list but were deliberately NOT captured (not requested; may be residences).",
+  "The task-supplied SoS page URL .../general-election-nov-3-2026 returns 404; the working page is https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026 (it links the same cert-list PDF, last-modified Fri 28 Aug 2026 00:38:33 GMT).",
+  "Alameda ROV online Candidate List (rov_app/candidatelist) did not return candidate rows to a plain scripted POST; it was used only for its race list. Not used for candidate data."
+ ]
+}

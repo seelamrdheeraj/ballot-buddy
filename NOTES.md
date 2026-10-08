@@ -41,6 +41,7 @@ Type: Archivo (display) + Public Sans (body), loaded from Google Fonts.
 - v6.1 — API moved into bb_core.py and exposed as Vercel Functions (api/) with a private Vercel Blob store, so registration works on the public Vercel URL
 - v6.2 — app page is a plain full-height app shell (phone bezel, fake status bar and side copy removed); registered visitors open straight on ZIP setup, no welcome/Get started screen
 - v6.3 — Premium removed: BallotBot and candidate comparison open directly, no paywall sheet or Profile toggle; site pricing section, Premium tags and $7.99 copy gone
+- v7   — San Joaquin + Alameda County coverage from the county Registrars' official lists; CA statewide offices and judicial retention from the SoS certified list; candidate-link audit; Olsen/Daniel profiles corrected; "Candidate website" shown only when official or verified
 
 ## Test on your phone (same Wi-Fi as the Mac)
 1. In Terminal on the Mac:  cd ~/Downloads/"Ballot Buddy" && python3 -m http.server 8765 --bind 0.0.0.0
@@ -116,6 +117,41 @@ ballot only — other states' candidate and measure text is English.
 ## v6.2 (2026-10-07) — app shell, no demo framing
 - `ballot-buddy-app.html` no longer renders inside a fake phone (bezel, notch, "9:41" status bar) on a navy stage with "Tap around" copy. The app is one full-height column: edge-to-edge on phones, centered at 520px with a hairline border on wider screens. The `fit()` scaler and `tick()` clock are gone with it.
 - Boot picks the first screen from state: set up → last screen; registered but not set up → ZIP setup; not registered → welcome ("Get started" → register.html). So after registering and tapping "Open the app" the first thing shown is "Where do you vote?". The ZIP step has no Back button during first-time setup (there is nothing to go back to); it still has one when reached from Profile → Change.
+
+## v7 (2026-10-08) — San Joaquin and Alameda counties, audited links
+
+### What changed for voters
+- Any ZIP in San Joaquin or Alameda County now shows every contest on that county's Nov 3, 2026 ballot, grouped Federal → Statewide → State → City → Schools → Special district, each with jurisdiction, election, seats, term, ranked-choice flag where the county says so, and a "What this office does" description with a source.
+- Statewide offices that were missing (Lt. Governor through Board of Equalization, plus Supreme Court / Court of Appeal retention) are loaded for every California ZIP.
+- Candidate screens separate **Candidate website** (shown only when an official list printed it or we verified it) from **Official candidate list** (the source). When no site is verified the screen says so. Positions carry a kind label (stated / public record / independent reporting), a source link, date and context. Candidates we have not researched say "Not yet reviewed"; those researched with nothing found say "No public position found in the sources reviewed."
+- Districts a ZIP only partly overlaps are listed under **Districts to confirm** with the county lookup tool; "On my ballot" pins one. In San Joaquin County the county's 131 ballot styles hide districts that never share a ballot with the voter's city.
+- Deadlines and official links come from the county (vote centers for Alameda, polling places for San Joaquin), merged with the state rows.
+
+### Pipeline
+`research/counties/sjc.json` and `alameda.json` (county Registrar extractions), `research/sos_certified.json` (SoS certified list + official contact list), `research/offices.json`, `research/zips_local.json` (Census ZCTA → county/place/AD/SD), `research/local_curated.json` (sourced bios, positions, verified sites; replaces the dicts that used to live in build.py). `tools/counties.py` normalizes them; `build.py` writes `data/ballot-2026.json` (now without county blobs) and `data/local/<county>.json`, fetched on demand. `validate.py` checks the county files too.
+
+### Corrections from the audit (2026-10-08)
+- **Stephanie Olsen** (LUSD Trustee Area 4): the app's only link was the county landing page, labelled "Official site" via `c.site||c.src`. Fixed in the app. The county roster prints olsen4area4.com, which does not resolve (registered July 2026, on registrar hold), and her 2020 site has no DNS; no verified site, and the app says so. Bio corrected from LUSD records: prior term Dec 2020–Dec 2024 (board president 2024), appointed Nov 13, 2024 to an at-large seat through Dec 2026, board clerk 2026, State Bar admitted Aug 2024. Four statements from her county candidate statement (VIG p. 556) and three board actions from LUSD minutes.
+- **Vanitha Daniel**: "since 2022" was wrong; appointed June 5, 2021, elected Nov 2022. "Educator" and "Entrepreneur" are self-described (ballot designation / statement) and marked as such. Four statements from her candidate statement; three board actions.
+- **Tom Patti**: positions were cited to the county's June primary guide PDF, which was also surfacing as his "Official site". Now labelled as his official candidate statement (primary guide, p. 105); his printed site TomPatti13.com is NXDOMAIN and tompatti.com is a different person, so no site is shown.
+- **Ronna Green**: the "streets / public safety / housing / downtown" claim was not on the cited page and was removed. Her bio claims "former CSD board member" (she ran in 2022 and lost) and "chaired the Delta Protection Commission" (no evidence; the DPC roster shows no Green) were removed. Bio now: current council member and Vice Mayor (city roster, 8/26/2026 minutes). Four stated positions from ronnagreen.org; three council votes from 2026 minutes.
+- **Happy Grewal**: the app called him "Current council member (since 2024)". He is a challenger (city roster: Su, Green, King Tingle, Disko, Harrison; candidate log filing 7/22/2026). The LUSD-board claim had no evidence and was removed. Four stated positions from his county statement (VIG PDF p. 576).
+- **Juturu, Shareghi, King Tingle, Vuyyuru**: bios reduced to verified facts (self-reported occupations marked as such); statements from the county guide for Juturu, Shareghi and King Tingle; Vuyyuru filed no statement and has no live site, so he shows "No public position found in the sources reviewed". Council votes/public comments from 2026 minutes.
+- **Websites printed on official lists that did not resolve on Oct 8, 2026** are not linked; the screen says which address was printed: adams4assembly.com (AD-9), hawksforus.com (Treasurer), hoelterforuscongress.com (CD-15), and four Alameda local candidates. 403 responses (rokhanna.com, rogerniello.com, sofiaforschoolboard.com, Bird4larpd.com) are bot-blocks and stay linked.
+- **Six Mountain House / LUSD candidates**: source now the county Local Candidate Roster PDF (names them) instead of the generic ROV page.
+- **AD-13 race source**: SoS certified list instead of the June primary Statement of Vote. Ransom's official site updated to its final URL; Harder's unverifiable Facebook/Instagram links dropped (X kept).
+- `countyFor()` no longer guesses counties from ZIP prefixes (953 is also Modesto); counties come from the Census-derived ZIP table and only the two covered counties are labelled.
+
+### Verified
+- All 48 URLs in the curated data were fetched; 36 load and were content-checked for person/race/election. Harder's 8 clerk.house.gov roll calls match. Ransom's 8 leginfo roll calls sit behind a Cloudflare challenge for scripts (unverified by automation; fine in a browser). mountainhouseca.gov never answered a scripted request.
+- 61 candidate websites printed on the SoS contact list for our districts were probed: 57 load; adams4assembly.com and hawksforus.com do not resolve; rokhanna.com and rogerniello.com answer 403 to scripts.
+- SoS certified list (Aug 27) and the SoS contact list (Sept 23) agree on all 324 candidates; county sample ballots agree with the SJ roster on all 37 contested local contests; Alameda's 134-office list reconciles with its candidate list.
+
+### Still open
+- Positions exist only for Governor, CA-9, AD-13, Mountain House council and LUSD TA4. Every other candidate is "Not yet reviewed". Candidate statements for both counties are in the county guides (SJ composite PDF pp. 540–577; Alameda composite) and could be extracted next.
+- ZIP → district is approximate (Census land shares; 25 ZIPs span Assembly districts, 17 span Senate districts); ZIP → school district is not available from the Census, so school contests are "confirm" unless the ballot-style table resolves them. Alameda ballot styles are pending. A population-weighted ZIP table needs the 1 GB Census block file or an API key.
+- Both counties state no county offices (supervisor, DA, sheriff) are on the Nov ballot; that is read from their contest lists, not an explicit statement.
+- Spanish: county office and jurisdiction titles are rule-translated; ballot designations and county notes are English.
 
 ## v6.3 (2026-10-07) — everything is free
 - App: `requirePremium()` and the $7.99 sheet are gone. The mascot opens BallotBot directly, Compare opens directly (no lock icon), and the Profile no longer has a Premium card. `S.premium` is no longer read; the strings `premium`, `premium_s`, `price`, `on_demo`, `try`, `later` were dropped in both languages. The marigold pill style the Match result uses is now `.pill.marigold`.

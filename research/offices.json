@@ -1,0 +1,662 @@
+{
+  "offices": {
+    "governor": {
+      "title": {
+        "en": "Governor",
+        "es": "Gobernador"
+      },
+      "desc": {
+        "en": "The Governor is California's chief executive. The Governor sees that state laws are carried out, proposes the state budget, can sign or veto bills from the Legislature, and appoints many state officials and judges to fill vacancies. Voters statewide elect the Governor, who can serve up to two terms.",
+        "es": "El Gobernador es el jefe del poder ejecutivo de California. Vela por que se cumplan las leyes estatales, propone el presupuesto del estado, puede firmar o vetar los proyectos de ley de la Legislatura y nombra a muchos funcionarios estatales y a jueces para cubrir vacantes. Los votantes de todo el estado lo eligen, y puede servir hasta dos períodos."
+      },
+      "term": "4 years",
+      "src": "https://admin.cdn.sos.ca.gov/ca-roster/2026/constitutional-officers.pdf",
+      "src_title": "California Roster 2026: Constitutional Officers (California Secretary of State)"
+    },
+    "lt_governor": {
+      "title": {
+        "en": "Lieutenant Governor",
+        "es": "Vicegobernador"
+      },
+      "desc": {
+        "en": "The Lieutenant Governor becomes Governor if the Governor leaves office and acts as Governor when the Governor is out of state. The Lieutenant Governor also presides over the State Senate, voting only to break ties, and sits on several state boards, including the University of California Regents. Voters statewide elect this office.",
+        "es": "El Vicegobernador asume como Gobernador si este deja el cargo y actúa como Gobernador cuando el Gobernador está fuera del estado. También preside el Senado estatal, donde solo vota para romper empates, y forma parte de varias juntas estatales, como la Junta de Regentes de la Universidad de California. Los votantes de todo el estado eligen este cargo."
+      },
+      "term": "4 years",
+      "src": "https://admin.cdn.sos.ca.gov/ca-roster/2026/constitutional-officers.pdf",
+      "src_title": "California Roster 2026: Constitutional Officers (California Secretary of State)"
+    },
+    "secretary_of_state": {
+      "title": {
+        "en": "Secretary of State",
+        "es": "Secretario de Estado"
+      },
+      "desc": {
+        "en": "The Secretary of State is California's chief elections officer. The office oversees and certifies elections, keeps the statewide voter registration database, and publishes the Voter Information Guide. It also keeps business filings, campaign and lobbying records, and the state archives. Voters statewide elect the Secretary of State.",
+        "es": "El Secretario de Estado es el principal funcionario electoral de California. La oficina supervisa y certifica las elecciones, mantiene la base de datos estatal de votantes registrados y publica la Guía de Información para el Votante. También guarda los registros de empresas, de campañas y de cabildeo, y los archivos del estado. Los votantes de todo el estado lo eligen."
+      },
+      "term": "4 years",
+      "src": "https://admin.cdn.sos.ca.gov/ca-roster/2026/constitutional-officers.pdf",
+      "src_title": "California Roster 2026: Constitutional Officers (California Secretary of State)"
+    },
+    "controller": {
+      "title": {
+        "en": "State Controller",
+        "es": "Contralor del Estado"
+      },
+      "desc": {
+        "en": "The State Controller is California's chief fiscal officer. The Controller pays the state's bills and state employee payroll, audits claims against the state, reports on state and local government finances, and safeguards unclaimed property until owners claim it. Voters statewide elect the Controller.",
+        "es": "El Contralor del Estado es el principal funcionario fiscal de California. Paga las cuentas y la nómina de los empleados del estado, audita los reclamos contra el estado, informa sobre las finanzas de los gobiernos estatal y locales, y resguarda la propiedad no reclamada hasta que sus dueños la reclamen. Los votantes de todo el estado lo eligen."
+      },
+      "term": "4 years",
+      "src": "https://admin.cdn.sos.ca.gov/ca-roster/2026/constitutional-officers.pdf",
+      "src_title": "California Roster 2026: Constitutional Officers (California Secretary of State)"
+    },
+    "treasurer": {
+      "title": {
+        "en": "State Treasurer",
+        "es": "Tesorero del Estado"
+      },
+      "desc": {
+        "en": "The State Treasurer is the state's banker and lead investor. The Treasurer invests state money, sells state bonds (including voter-approved bonds), and sits on the boards of the CalPERS and CalSTRS pension funds. Voters statewide elect the Treasurer.",
+        "es": "El Tesorero del Estado es el banquero y principal inversionista del estado. Invierte el dinero del estado, vende los bonos estatales (incluidos los aprobados por los votantes) y forma parte de las juntas de los fondos de pensiones CalPERS y CalSTRS. Los votantes de todo el estado lo eligen."
+      },
+      "term": "4 years",
+      "src": "https://admin.cdn.sos.ca.gov/ca-roster/2026/constitutional-officers.pdf",
+      "src_title": "California Roster 2026: Constitutional Officers (California Secretary of State)"
+    },
+    "attorney_general": {
+      "title": {
+        "en": "Attorney General",
+        "es": "Fiscal General"
+      },
+      "desc": {
+        "en": "The Attorney General leads the California Department of Justice. The office enforces state laws, represents the people in civil and criminal court cases, serves as legal counsel to state officers and most state agencies, and assists local district attorneys and law enforcement. Voters statewide elect the Attorney General.",
+        "es": "El Fiscal General dirige el Departamento de Justicia de California. La oficina hace cumplir las leyes estatales, representa al pueblo en casos civiles y penales ante los tribunales, sirve como asesor legal de los funcionarios y de la mayoría de las agencias del estado, y ayuda a los fiscales de distrito y a las fuerzas del orden locales. Los votantes de todo el estado lo eligen."
+      },
+      "term": "4 years",
+      "src": "https://admin.cdn.sos.ca.gov/ca-roster/2026/constitutional-officers.pdf",
+      "src_title": "California Roster 2026: Constitutional Officers (California Secretary of State)"
+    },
+    "insurance_commissioner": {
+      "title": {
+        "en": "Insurance Commissioner",
+        "es": "Comisionado de Seguros"
+      },
+      "desc": {
+        "en": "The Insurance Commissioner leads the California Department of Insurance. The Commissioner regulates the insurance industry, regulates rates for auto, home, and other property and casualty insurance, licenses insurance agents and brokers, and handles consumer complaints. Voters statewide elect the Commissioner.",
+        "es": "El Comisionado de Seguros dirige el Departamento de Seguros de California. Regula la industria de seguros, regula las tarifas de los seguros de automóvil, de vivienda y otros seguros de propiedad y responsabilidad, otorga licencias a agentes y corredores de seguros y atiende las quejas de los consumidores. Los votantes de todo el estado lo eligen."
+      },
+      "term": "4 years",
+      "src": "https://admin.cdn.sos.ca.gov/ca-roster/2026/constitutional-officers.pdf",
+      "src_title": "California Roster 2026: Constitutional Officers (California Secretary of State)"
+    },
+    "superintendent_public_instruction": {
+      "title": {
+        "en": "State Superintendent of Public Instruction",
+        "es": "Superintendente Estatal de Instrucción Pública"
+      },
+      "desc": {
+        "en": "The State Superintendent of Public Instruction is the only nonpartisan statewide constitutional officer. The Superintendent heads the California Department of Education, administers and enforces state education laws, and serves as executive officer of the State Board of Education. Voters statewide elect the Superintendent.",
+        "es": "El Superintendente Estatal de Instrucción Pública es el único funcionario constitucional estatal sin afiliación partidista. Dirige el Departamento de Educación de California, administra y hace cumplir las leyes estatales de educación y es el funcionario ejecutivo de la Junta Estatal de Educación. Los votantes de todo el estado lo eligen."
+      },
+      "term": "4 years",
+      "src": "https://admin.cdn.sos.ca.gov/ca-roster/2026/constitutional-officers.pdf",
+      "src_title": "California Roster 2026: Constitutional Officers (California Secretary of State)"
+    },
+    "board_of_equalization": {
+      "title": {
+        "en": "State Board of Equalization Member",
+        "es": "Miembro de la Junta Estatal de Igualación"
+      },
+      "desc": {
+        "en": "The Board of Equalization has five members: four elected from regional districts across the state, plus the State Controller. The Board oversees how county assessors value property for tax purposes, administers the alcohol and insurer taxes, and hears certain tax appeals. Voters in each district elect its member.",
+        "es": "La Junta Estatal de Igualación tiene cinco miembros: cuatro elegidos en distritos regionales de todo el estado, más el Contralor del Estado. La Junta supervisa cómo los asesores del condado valoran las propiedades para fines de impuestos, administra los impuestos sobre bebidas alcohólicas y sobre aseguradoras, y atiende ciertas apelaciones de impuestos. Los votantes de cada distrito eligen a su miembro."
+      },
+      "term": "4 years",
+      "src": "https://www.boe.ca.gov/info/about.htm",
+      "src_title": "About BOE (California State Board of Equalization)"
+    },
+    "us_house": {
+      "title": {
+        "en": "U.S. Representative (Congress)",
+        "es": "Representante de EE. UU. (Congreso)"
+      },
+      "desc": {
+        "en": "The U.S. House of Representatives is one of the two chambers of Congress. Representatives write and pass federal laws, introduce bills, and serve on committees. Each Representative serves a specific congressional district and is elected by its voters every two years.",
+        "es": "La Cámara de Representantes de EE. UU. es una de las dos cámaras del Congreso. Los representantes elaboran y aprueban leyes federales, presentan proyectos de ley y trabajan en comités. Cada representante sirve a un distrito congresional específico y es elegido por sus votantes cada dos años."
+      },
+      "term": "2 years",
+      "src": "https://www.house.gov/the-house-explained",
+      "src_title": "The House Explained (U.S. House of Representatives)"
+    },
+    "state_senate": {
+      "title": {
+        "en": "State Senator",
+        "es": "Senador Estatal"
+      },
+      "desc": {
+        "en": "The California State Senate is one of the two houses of the Legislature, which makes state laws. The Senate has 40 members, each elected from a district. Terms are four years, and half of the seats are up for election every two years.",
+        "es": "El Senado del Estado de California es una de las dos cámaras de la Legislatura, que elabora las leyes estatales. El Senado tiene 40 miembros, cada uno elegido por un distrito. Los períodos son de cuatro años y la mitad de los escaños se somete a elección cada dos años."
+      },
+      "term": "4 years",
+      "src": "https://capitolmuseum.ca.gov/engage/about-the-government/branches-of-government/",
+      "src_title": "Branches of Government (California State Capitol Museum)"
+    },
+    "assembly": {
+      "title": {
+        "en": "State Assembly Member",
+        "es": "Miembro de la Asamblea Estatal"
+      },
+      "desc": {
+        "en": "The California State Assembly is one of the two houses of the Legislature, which makes state laws. The Assembly has 80 members, each elected from a district. Members serve two-year terms, so all 80 seats are on the ballot every two years.",
+        "es": "La Asamblea del Estado de California es una de las dos cámaras de la Legislatura, que elabora las leyes estatales. La Asamblea tiene 80 miembros, cada uno elegido por un distrito. Los miembros cumplen períodos de dos años, por lo que los 80 escaños se someten a elección cada dos años."
+      },
+      "term": "2 years",
+      "src": "https://capitolmuseum.ca.gov/engage/about-the-government/branches-of-government/",
+      "src_title": "Branches of Government (California State Capitol Museum)"
+    },
+    "supreme_court_retention": {
+      "title": {
+        "en": "California Supreme Court Justice (Retention)",
+        "es": "Juez de la Corte Suprema de California (Retención)"
+      },
+      "desc": {
+        "en": "You do not choose between candidates for this office. Instead, you vote Yes or No on whether a Supreme Court justice should stay in office. Justices are nominated by the Governor, confirmed by a commission, and serve 12-year terms. The office is nonpartisan, and all California voters vote on these justices.",
+        "es": "No se elige entre candidatos para este cargo. En cambio, se vota Sí o No sobre si un juez de la Corte Suprema debe continuar en su cargo. Los jueces son propuestos por el Gobernador, confirmados por una comisión y cumplen períodos de 12 años. El cargo no es partidista y todos los votantes de California votan sobre estos jueces."
+      },
+      "term": "12 years",
+      "src": "https://vig.cdn.sos.ca.gov/2026/general/pdf/justices.pdf",
+      "src_title": "Justices of the Supreme Court: The Electoral Procedure (Official Voter Information Guide, Nov. 3, 2026, California Secretary of State)"
+    },
+    "appeals_court_retention": {
+      "title": {
+        "en": "Court of Appeal Justice (Retention)",
+        "es": "Juez de la Corte de Apelaciones (Retención)"
+      },
+      "desc": {
+        "en": "You do not choose between candidates for this office. Instead, voters in the court's district vote Yes or No on whether an appeals court justice should stay in office. If a majority votes Yes, the justice serves another term. Justices serve 12-year terms, and the office is nonpartisan.",
+        "es": "No se elige entre candidatos para este cargo. En cambio, los votantes del distrito de la corte votan Sí o No sobre si un juez de la Corte de Apelaciones debe continuar en su cargo. Si la mayoría vota Sí, el juez cumple otro período. Los jueces cumplen períodos de 12 años y el cargo no es partidista."
+      },
+      "term": "12 years",
+      "src": "https://appellate.courts.ca.gov/about-courts/appellate-retention-elections",
+      "src_title": "Appellate Retention Elections (California Courts of Appeal)"
+    },
+    "county_supervisor": {
+      "title": {
+        "en": "County Supervisor",
+        "es": "Supervisor del Condado"
+      },
+      "desc": {
+        "en": "The Board of Supervisors is a county's main governing body. Its five members adopt county laws and the county budget and oversee county departments. Each supervisor is elected by the voters of one district and serves a four-year term.",
+        "es": "La Junta de Supervisores es el principal órgano de gobierno de un condado. Sus cinco miembros aprueban las ordenanzas y el presupuesto del condado y supervisan los departamentos del condado. Cada supervisor es elegido por los votantes de un distrito y cumple un período de cuatro años."
+      },
+      "term": "4 years",
+      "src": "https://www.counties.org/counties/role-of-counties/",
+      "src_title": "Role of Counties (California State Association of Counties)"
+    },
+    "county_assessor": {
+      "title": {
+        "en": "County Assessor",
+        "es": "Asesor del Condado"
+      },
+      "desc": {
+        "en": "The County Assessor decides the value of property in the county for property tax purposes. The Assessor keeps the yearly assessment roll, values new construction and ownership changes, and handles assessment appeals. A separate office, the Tax Collector, bills and collects the tax. Voters countywide elect the Assessor.",
+        "es": "El Asesor del Condado determina el valor de las propiedades del condado para fines del impuesto a la propiedad. Mantiene el padrón anual de valoración, valora las construcciones nuevas y los cambios de propietario, y atiende las apelaciones de valoración. Otra oficina, el Recaudador de Impuestos, emite y cobra el impuesto. Los votantes de todo el condado eligen al Asesor."
+      },
+      "term": "4 years (current cycle varies by county)",
+      "src": "https://www.counties.org/counties/role-of-counties/",
+      "src_title": "Role of Counties (California State Association of Counties)"
+    },
+    "county_auditor_controller": {
+      "title": {
+        "en": "County Auditor-Controller",
+        "es": "Auditor-Contralor del Condado"
+      },
+      "desc": {
+        "en": "The Auditor-Controller is the county's chief accounting officer. The office controls the county budget, issues payments and payroll, prepares financial reports, oversees audits, and calculates and distributes property tax revenue to local agencies. Voters countywide elect this office in most counties.",
+        "es": "El Auditor-Contralor es el principal funcionario de contabilidad del condado. La oficina controla el presupuesto del condado, emite pagos y nóminas, prepara informes financieros, supervisa auditorías y calcula y distribuye los ingresos del impuesto a la propiedad a las agencias locales. En la mayoría de los condados, los votantes de todo el condado eligen este cargo."
+      },
+      "term": "4 years (current cycle varies by county)",
+      "src": "https://www.counties.org/counties/role-of-counties/",
+      "src_title": "Role of Counties (California State Association of Counties)"
+    },
+    "county_clerk_recorder": {
+      "title": {
+        "en": "County Clerk-Recorder",
+        "es": "Secretario-Registrador del Condado"
+      },
+      "desc": {
+        "en": "The County Clerk issues marriage licenses and files public documents such as fictitious business name statements. The Recorder keeps land and property records and records of births, deaths, and marriages. Some counties combine these duties with other offices. In most counties, voters countywide elect this office.",
+        "es": "El Secretario del Condado expide licencias de matrimonio y archiva documentos públicos, como las declaraciones de nombre comercial ficticio. El Registrador conserva los registros de terrenos y propiedades y los registros de nacimientos, defunciones y matrimonios. Algunos condados combinan estas funciones con otras oficinas. En la mayoría de los condados, los votantes de todo el condado eligen este cargo."
+      },
+      "term": "4 years (current cycle varies by county)",
+      "src": "https://www.counties.org/counties/role-of-counties/",
+      "src_title": "Role of Counties (California State Association of Counties)"
+    },
+    "district_attorney": {
+      "title": {
+        "en": "District Attorney",
+        "es": "Fiscal de Distrito"
+      },
+      "desc": {
+        "en": "The District Attorney is the county's elected public prosecutor. The office investigates and prosecutes crimes under state law and county ordinances, advises the grand jury, and enforces child support. The Board of Supervisors sets the office's budget but does not direct its prosecutions. Voters countywide elect the District Attorney.",
+        "es": "El Fiscal de Distrito es el fiscal público electo del condado. La oficina investiga y procesa delitos conforme a las leyes estatales y las ordenanzas del condado, asesora al gran jurado y hace cumplir la manutención de menores. La Junta de Supervisores fija el presupuesto de la oficina, pero no dirige sus procesos penales. Los votantes de todo el condado eligen al Fiscal de Distrito."
+      },
+      "term": "4 years (current terms elected in 2022 run 6 years)",
+      "src": "https://www.counties.org/counties/role-of-counties/",
+      "src_title": "Role of Counties (California State Association of Counties)"
+    },
+    "sheriff": {
+      "title": {
+        "en": "Sheriff",
+        "es": "Alguacil (Sheriff)"
+      },
+      "desc": {
+        "en": "The Sheriff is the county's elected law enforcement officer. The Sheriff's office provides patrol and investigation, runs the county jails, and provides court services. In many counties, including Alameda and San Joaquin, the Sheriff also serves as coroner. Voters countywide elect the Sheriff.",
+        "es": "El Sheriff es el funcionario electo de aplicación de la ley del condado. La oficina del Sheriff realiza patrullaje e investigaciones, administra las cárceles del condado y presta servicios a los tribunales. En muchos condados, incluidos Alameda y San Joaquín, el Sheriff también actúa como médico forense (coroner). Los votantes de todo el condado eligen al Sheriff."
+      },
+      "term": "4 years (current terms elected in 2022 run 6 years)",
+      "src": "https://www.counties.org/counties/role-of-counties/",
+      "src_title": "Role of Counties (California State Association of Counties)"
+    },
+    "county_treasurer_tax_collector": {
+      "title": {
+        "en": "County Treasurer-Tax Collector",
+        "es": "Tesorero-Recaudador de Impuestos del Condado"
+      },
+      "desc": {
+        "en": "The Treasurer-Tax Collector manages the county's money and collects property taxes. The office bills and collects property taxes for the county, cities, schools, and special districts, invests public funds, and oversees sales of properties with long-unpaid taxes. In most counties, voters countywide elect this office.",
+        "es": "El Tesorero-Recaudador de Impuestos administra el dinero del condado y cobra los impuestos a la propiedad. La oficina emite y cobra los impuestos a la propiedad del condado, las ciudades, las escuelas y los distritos especiales, invierte fondos públicos y supervisa las ventas de propiedades con impuestos sin pagar por mucho tiempo. En la mayoría de los condados, los votantes de todo el condado eligen este cargo."
+      },
+      "term": "4 years (current cycle varies by county)",
+      "src": "https://www.counties.org/counties/role-of-counties/",
+      "src_title": "Role of Counties (California State Association of Counties)"
+    },
+    "county_superintendent_schools": {
+      "title": {
+        "en": "County Superintendent of Schools",
+        "es": "Superintendente de Escuelas del Condado"
+      },
+      "desc": {
+        "en": "The County Superintendent of Schools leads the county office of education, which supports and oversees the county's school districts and acts as a link between districts and the state. In most counties, including Alameda and San Joaquin, voters elect the Superintendent.",
+        "es": "El Superintendente de Escuelas del Condado dirige la oficina de educación del condado, que apoya y supervisa los distritos escolares del condado y sirve de enlace entre los distritos y el estado. En la mayoría de los condados, incluidos Alameda y San Joaquín, los votantes eligen al Superintendente."
+      },
+      "term": "4 years",
+      "src": "https://www.sjcoe.org/about/superintendent",
+      "src_title": "Superintendent (San Joaquin County Office of Education)"
+    },
+    "county_board_of_education": {
+      "title": {
+        "en": "County Board of Education Member",
+        "es": "Miembro de la Junta de Educación del Condado"
+      },
+      "desc": {
+        "en": "The County Board of Education is the elected governing body of the county office of education. It sets policy, approves the budget, hears appeals on student expulsions and transfers between districts, and reviews charter school petitions. Members are elected by trustee area. Terms: four years in Alameda County, six in San Joaquin County.",
+        "es": "La Junta de Educación del Condado es el órgano de gobierno electo de la oficina de educación del condado. Establece políticas, aprueba el presupuesto, atiende apelaciones sobre expulsiones de estudiantes y traslados entre distritos, y revisa las peticiones de escuelas chárter. Los miembros se eligen por área de fideicomisarios. Períodos: cuatro años en el condado de Alameda y seis en el de San Joaquín."
+      },
+      "term": "4 years (Alameda County) or 6 years (San Joaquin County)",
+      "src": "https://www.sjcoe.org/boe",
+      "src_title": "Board of Education (San Joaquin County Office of Education)"
+    },
+    "mayor": {
+      "title": {
+        "en": "Mayor",
+        "es": "Alcalde"
+      },
+      "desc": {
+        "en": "The mayor is a city's chief elected official. The mayor provides policy leadership to the city council and represents it in public meetings. In some cities voters elect the mayor directly; in others, the council chooses the mayor from among its own members.",
+        "es": "El alcalde es el principal funcionario electo de una ciudad. Ofrece liderazgo en políticas al concejo municipal y lo representa en las reuniones públicas. En algunas ciudades los votantes eligen directamente al alcalde; en otras, el concejo elige al alcalde entre sus propios miembros."
+      },
+      "term": "2 or 4 years if elected by voters (varies by city)",
+      "src": "https://www.calcities.org/docs/default-source/new-mayors-and-council-members-academy-session-materials/11.-understanding-city's-departments.pdf?sfvrsn=8e709311_3",
+      "src_title": "Understanding Your City's Departments, Mayors and Council Members Resource Guide (League of California Cities)"
+    },
+    "city_council": {
+      "title": {
+        "en": "City Council Member",
+        "es": "Miembro del Concejo Municipal"
+      },
+      "desc": {
+        "en": "The city council is a city's governing body. Council members are elected by city voters to make local laws, set policy, and approve the city budget. A city manager hired by the council usually runs daily operations. Voters elect members citywide or by district, depending on the city.",
+        "es": "El concejo municipal es el órgano de gobierno de una ciudad. Los votantes de la ciudad eligen a sus miembros para elaborar leyes locales, fijar políticas y aprobar el presupuesto municipal. Un administrador municipal contratado por el concejo suele dirigir las operaciones diarias. Los votantes eligen a los miembros en toda la ciudad o por distrito, según la ciudad."
+      },
+      "term": "4 years (typical)",
+      "src": "https://www.calcities.org/docs/default-source/new-mayors-and-council-members-academy-session-materials/11.-understanding-city's-departments.pdf?sfvrsn=8e709311_3",
+      "src_title": "Understanding Your City's Departments, Mayors and Council Members Resource Guide (League of California Cities)"
+    },
+    "city_attorney": {
+      "title": {
+        "en": "City Attorney",
+        "es": "Abogado Municipal"
+      },
+      "desc": {
+        "en": "The city attorney is the city's lawyer. The office advises the council and staff, drafts and reviews ordinances and contracts, and represents the city in court. Many city attorneys are hired by the council, as staff or by contract. In a few cities, such as Oakland, voters elect the city attorney.",
+        "es": "El abogado municipal es el abogado de la ciudad. La oficina asesora al concejo y al personal, redacta y revisa ordenanzas y contratos, y representa a la ciudad ante los tribunales. Muchos abogados municipales son contratados por el concejo, como empleados o por contrato. En unas pocas ciudades, como Oakland, los votantes eligen al abogado municipal."
+      },
+      "term": "Varies by city; 4 years where elected",
+      "src": "https://www.calcities.org/docs/default-source/new-mayors-and-council-members-academy-session-materials/11.-understanding-city's-departments.pdf?sfvrsn=8e709311_3",
+      "src_title": "Understanding Your City's Departments, Mayors and Council Members Resource Guide (League of California Cities)"
+    },
+    "city_auditor": {
+      "title": {
+        "en": "City Auditor",
+        "es": "Auditor Municipal"
+      },
+      "desc": {
+        "en": "A city auditor checks how a city spends money and runs its programs. The office does independent audits and investigations and reports the results publicly. Only some cities elect an auditor, including Oakland, Berkeley, and Alameda. An elected auditor is independent of the mayor, council, and city staff.",
+        "es": "Un auditor municipal revisa cómo gasta el dinero una ciudad y cómo administra sus programas. La oficina realiza auditorías e investigaciones independientes y publica los resultados. Solo algunas ciudades eligen a un auditor, entre ellas Oakland, Berkeley y Alameda. Un auditor electo es independiente del alcalde, del concejo y del personal de la ciudad."
+      },
+      "term": "4 years where elected",
+      "src": "https://www.oaklandauditor.com/about/our-purpose/",
+      "src_title": "Our Purpose: Responsibility, Authority and Standards (Office of the City Auditor, City of Oakland)"
+    },
+    "city_clerk": {
+      "title": {
+        "en": "City Clerk",
+        "es": "Secretario Municipal"
+      },
+      "desc": {
+        "en": "The city clerk is the city's official record keeper and local elections official. The clerk keeps council records and ordinances, handles public records requests, and oversees city elections and candidate filings. Depending on the city, voters elect the clerk, or the city council or city manager appoints the clerk.",
+        "es": "El secretario municipal es el encargado oficial de los registros de la ciudad y el funcionario electoral local. Mantiene los registros y ordenanzas del concejo, atiende las solicitudes de registros públicos y supervisa las elecciones municipales y la presentación de candidaturas. Según la ciudad, los votantes eligen al secretario, o bien lo nombra el concejo municipal o el administrador municipal."
+      },
+      "term": "Varies by city; 4 years where elected",
+      "src": "https://www.calcities.org/docs/default-source/new-mayors-and-council-members-academy-session-materials/11.-understanding-city's-departments.pdf?sfvrsn=8e709311_3",
+      "src_title": "Understanding Your City's Departments, Mayors and Council Members Resource Guide (League of California Cities)"
+    },
+    "city_treasurer": {
+      "title": {
+        "en": "City Treasurer",
+        "es": "Tesorero Municipal"
+      },
+      "desc": {
+        "en": "The city treasurer safeguards the city's money. State law has the treasurer keep all money received, follow the rules for depositing and protecting public funds, pay out money only on proper warrants, and send monthly reports to the city clerk and council. Depending on the city, voters elect the treasurer or the council appoints one.",
+        "es": "El tesorero municipal resguarda el dinero de la ciudad. La ley estatal dispone que el tesorero conserve todo el dinero que recibe, cumpla las reglas para depositar y proteger fondos públicos, pague solo con órdenes de pago válidas y envíe informes mensuales al secretario y al concejo. Según la ciudad, los votantes eligen al tesorero o el concejo nombra a uno."
+      },
+      "term": "Varies by city; 4 years where elected",
+      "src": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=GOV&division=3.&title=4.&part=3.&chapter=3.&article=",
+      "src_title": "California Government Code, Title 4, Division 3, Part 3, Chapter 3: City Treasurer (Sections 41001-41007)"
+    },
+    "school_board": {
+      "title": {
+        "en": "School Board Member (Trustee)",
+        "es": "Miembro de la Junta Escolar (Fideicomisario)"
+      },
+      "desc": {
+        "en": "A school district is led by an elected board that appoints a superintendent. The board can change district policies and can modify the superintendent's contract or remove the superintendent. The superintendent runs daily operations and carries out the board's policies. Voters hold the board accountable. Terms are four years, staggered.",
+        "es": "Un distrito escolar está dirigido por una junta electa que nombra a un superintendente. La junta puede cambiar las políticas del distrito y puede modificar el contrato del superintendente o destituirlo. El superintendente dirige las operaciones diarias y aplica las políticas de la junta. Los votantes responsabilizan a la junta. Los períodos son de cuatro años y escalonados."
+      },
+      "term": "4 years",
+      "src": "https://lao.ca.gov/Publications/Report/5165",
+      "src_title": "The 2026-27 Budget: Re-Envisioning State Education Governance (Legislative Analyst's Office)"
+    },
+    "community_college_trustee": {
+      "title": {
+        "en": "Community College Trustee",
+        "es": "Fideicomisario de Colegio Comunitario"
+      },
+      "desc": {
+        "en": "A community college district is governed by an elected board of trustees. Trustees are locally elected officials who govern the district, adapt its mission to community needs, and work to keep the colleges strong and financially sound. Many districts, including San Joaquin Delta and Peralta, elect trustees by area. Terms are four years.",
+        "es": "Un distrito de colegios comunitarios es gobernado por una junta electa de fideicomisarios. Los fideicomisarios son funcionarios electos localmente que gobiernan el distrito, adaptan su misión a las necesidades de la comunidad y procuran mantener los colegios sólidos y financieramente estables. Muchos distritos, incluidos San Joaquin Delta y Peralta, eligen a los fideicomisarios por área. Los períodos son de cuatro años."
+      },
+      "term": "4 years",
+      "src": "https://www.ccleague.org/trustees/",
+      "src_title": "Trustees (Community College League of California)"
+    },
+    "special_district_director": {
+      "title": {
+        "en": "Special District Director",
+        "es": "Director de Distrito Especial"
+      },
+      "desc": {
+        "en": "Special districts are local governments that provide a specific service, such as water, fire protection, parks, healthcare, or sanitation, within set boundaries. Most are overseen by a board of directors elected by the people the district serves. In some cases a city council or county board appoints the directors. Terms are usually four years.",
+        "es": "Los distritos especiales son gobiernos locales que prestan un servicio específico, como agua, protección contra incendios, parques, atención médica o saneamiento, dentro de límites definidos. La mayoría está supervisada por una junta de directores elegida por las personas a quienes sirve el distrito. En algunos casos, un concejo municipal o una junta del condado nombra a los directores. Los períodos suelen ser de cuatro años."
+      },
+      "term": "4 years (typical)",
+      "src": "https://www.csda.net/about-special-districts/learn-about",
+      "src_title": "Learn About Districts (California Special Districts Association)"
+    },
+    "bart_director": {
+      "title": {
+        "en": "BART Director",
+        "es": "Director de BART"
+      },
+      "desc": {
+        "en": "The BART Board of Directors is the policymaking board for Bay Area Rapid Transit. Its nine directors are each elected by voters in one of nine districts across Alameda, Contra Costa, and San Francisco counties. Directors serve four-year terms, with about half of the seats on the ballot every two years.",
+        "es": "La Junta Directiva de BART es la junta que fija las políticas de Bay Area Rapid Transit. Cada uno de sus nueve directores es elegido por los votantes de uno de nueve distritos en los condados de Alameda, Contra Costa y San Francisco. Los directores cumplen períodos de cuatro años y cerca de la mitad de los escaños se somete a elección cada dos años."
+      },
+      "term": "4 years",
+      "src": "https://www.bart.gov/about/bod",
+      "src_title": "Board of Directors (Bay Area Rapid Transit)"
+    },
+    "ac_transit_director": {
+      "title": {
+        "en": "AC Transit Director",
+        "es": "Director de AC Transit"
+      },
+      "desc": {
+        "en": "The AC Transit Board of Directors sets policy for the Alameda-Contra Costa Transit District bus system. Its seven directors serve four-year terms. The district is moving from five wards plus two at-large seats to seven wards, with the change complete after the November 2026 election.",
+        "es": "La Junta Directiva de AC Transit fija las políticas del sistema de autobuses del Distrito de Tránsito Alameda-Contra Costa. Sus siete directores cumplen períodos de cuatro años. El distrito está pasando de cinco zonas más dos escaños generales a siete zonas, y el cambio quedará completo después de la elección de noviembre de 2026."
+      },
+      "term": "4 years",
+      "src": "https://www.actransit.org/candidate-information",
+      "src_title": "Candidate Information, 2026 Board of Directors Election (AC Transit)"
+    },
+    "east_bay_mud_director": {
+      "title": {
+        "en": "EBMUD Director",
+        "es": "Director de EBMUD"
+      },
+      "desc": {
+        "en": "The EBMUD Board of Directors governs the East Bay Municipal Utility District, which supplies water and treats wastewater in parts of Alameda and Contra Costa counties. Its seven directors are each elected by voters in one ward and set the district's policies. They serve staggered four-year terms.",
+        "es": "La Junta Directiva de EBMUD gobierna el Distrito Municipal de Servicios Públicos del Este de la Bahía, que suministra agua y trata aguas residuales en partes de los condados de Alameda y Contra Costa. Cada uno de sus siete directores es elegido por los votantes de una zona y fija las políticas del distrito. Cumplen períodos escalonados de cuatro años."
+      },
+      "term": "4 years",
+      "src": "https://www.ebmud.com/about-us/board-directors/board-elections",
+      "src_title": "Board Elections (East Bay Municipal Utility District)"
+    },
+    "east_bay_regional_park_director": {
+      "title": {
+        "en": "East Bay Regional Park District Director",
+        "es": "Director del Distrito de Parques Regionales del Este de la Bahía"
+      },
+      "desc": {
+        "en": "The East Bay Regional Park District is governed by a seven-member Board of Directors. Each director represents a ward and is elected by voters in that ward. The district covers all of Alameda and Contra Costa counties. Directors serve four-year terms, with three or four seats on the ballot every two years.",
+        "es": "El Distrito de Parques Regionales del Este de la Bahía es gobernado por una Junta Directiva de siete miembros. Cada director representa una zona y es elegido por los votantes de esa zona. El distrito abarca todos los condados de Alameda y Contra Costa. Los directores cumplen períodos de cuatro años, con tres o cuatro escaños en la boleta cada dos años."
+      },
+      "term": "4 years",
+      "src": "https://www.ebparks.org/board-and-staff/board",
+      "src_title": "Board of Directors (East Bay Regional Park District)"
+    }
+  },
+  "concepts": {
+    "ranked_choice_voting": {
+      "title": {
+        "en": "Ranked-Choice Voting",
+        "es": "Votación por orden de preferencia"
+      },
+      "desc": {
+        "en": "Ranked-choice voting lets you rank up to five candidates for one office. If no one wins a majority of first choices, the last-place candidate is dropped and those votes go to each voter's next choice, until someone has a majority. It is used for most local offices in Albany, Berkeley, Oakland, and San Leandro.",
+        "es": "La votación por orden de preferencia permite clasificar hasta cinco candidatos para un cargo. Si nadie obtiene la mayoría de las primeras opciones, se elimina al último lugar y esos votos pasan a la siguiente opción de cada votante, hasta que alguien tenga la mayoría. Se usa en la mayoría de los cargos locales de Albany, Berkeley, Oakland y San Leandro."
+      },
+      "src": "https://acvote.alamedacountyca.gov/voting/rcv"
+    },
+    "top_two_primary_to_general": {
+      "title": {
+        "en": "Top-Two Primary",
+        "es": "Elección primaria de los dos primeros"
+      },
+      "desc": {
+        "en": "For state and federal offices, all candidates appear on one primary ballot and any voter can vote for any candidate. Only the two with the most votes advance to the November election, whatever their party, even if one wins a majority. That is why only two names appear for these offices in November.",
+        "es": "Para los cargos estatales y federales, todos los candidatos aparecen en una sola boleta primaria y cualquier votante puede votar por cualquier candidato. Solo los dos con más votos avanzan a la elección de noviembre, sin importar su partido, aunque uno obtenga la mayoría. Por eso en noviembre solo aparecen dos nombres para estos cargos."
+      },
+      "src": "https://vig.cdn.sos.ca.gov/2026/general/pdf/voter-info.pdf"
+    },
+    "trustee_area_vs_at_large": {
+      "title": {
+        "en": "Trustee Area vs. At-Large Elections",
+        "es": "Elección por área de fideicomisarios o a nivel general"
+      },
+      "desc": {
+        "en": "In an at-large election, every voter in the district votes for every open seat. In a by-trustee-area election, the district is split into areas, candidates must live in the area they seek to represent, and only voters who live in that area elect that seat.",
+        "es": "En una elección a nivel general (at-large), todos los votantes del distrito votan por todos los escaños disponibles. En una elección por área de fideicomisarios, el distrito se divide en áreas, los candidatos deben vivir en el área que buscan representar y solo los votantes que viven en esa área eligen ese escaño."
+      },
+      "src": "https://www.cccco.edu/wp-content/uploads/2019/05/Legal-Advisory-16-02-Change-in-Local-Election-System-pdf.pdf"
+    },
+    "vote_for_up_to_n": {
+      "title": {
+        "en": "Vote for Up to N",
+        "es": "Vote por hasta N"
+      },
+      "desc": {
+        "en": "Some contests have more than one open seat, shown as \"Vote for no more than 2\" (or 3, and so on). You may vote for that many candidates or fewer. If you mark more than allowed, your votes in that contest are not counted, but your other choices on the ballot still count.",
+        "es": "Algunas contiendas tienen más de un escaño disponible y dicen, por ejemplo, \"Vote por no más de 2\" (o 3, etc.). Puede votar por esa cantidad de candidatos o por menos. Si marca más de lo permitido, sus votos en esa contienda no se cuentan, pero sus demás selecciones en la boleta sí se cuentan."
+      },
+      "src": "https://www.sos.ca.gov/administration/regulations/current-regulations/elections/ballot-counting"
+    },
+    "nonpartisan_office": {
+      "title": {
+        "en": "Nonpartisan Offices",
+        "es": "Cargos no partidistas"
+      },
+      "desc": {
+        "en": "Judicial, school, county, and city offices are nonpartisan. Political parties cannot nominate candidates for them, and candidates cannot list a party preference on the ballot, so you will not see party labels next to these names. Any voter may vote for any candidate.",
+        "es": "Los cargos judiciales, escolares, de condado y municipales son no partidistas. Los partidos políticos no pueden nominar candidatos para ellos y los candidatos no pueden indicar una preferencia de partido en la boleta, por lo que no verá etiquetas de partido junto a estos nombres. Cualquier votante puede votar por cualquier candidato."
+      },
+      "src": "https://vig.cdn.sos.ca.gov/2026/general/pdf/voter-info.pdf"
+    },
+    "measure_threshold_majority_vs_two_thirds_vs_55": {
+      "title": {
+        "en": "Local Tax and Bond Vote Thresholds",
+        "es": "Umbrales de votos para impuestos y bonos locales"
+      },
+      "desc": {
+        "en": "A general tax from a city or county needs a simple majority (50% plus one). A special tax, one for a specific purpose, needs two-thirds. Bonds paid by property taxes generally need two-thirds, but school facility bonds that meet certain conditions need 55%. The ballot measure text states which threshold applies.",
+        "es": "Un impuesto general de una ciudad o condado necesita una mayoría simple (50% más uno). Un impuesto especial, para un fin específico, necesita dos tercios. Los bonos pagados con impuestos a la propiedad generalmente necesitan dos tercios, pero los bonos para instalaciones escolares que cumplen ciertas condiciones necesitan 55%. El texto de la medida en la boleta indica qué umbral aplica."
+      },
+      "src": "https://lao.ca.gov/reports/2014/finance/local-taxes/voter-approval-032014.aspx"
+    },
+    "retention_election": {
+      "title": {
+        "en": "Judicial Retention Election",
+        "es": "Elección de retención de jueces"
+      },
+      "desc": {
+        "en": "For California Supreme Court and Court of Appeal justices, there is no opponent. Voters simply vote Yes or No on whether each justice should stay in office for another term. Supreme Court justices are on every voter's ballot; appeals court justices appear only for voters in that court's district.",
+        "es": "Para los jueces de la Corte Suprema y de la Corte de Apelaciones de California no hay oponente. Los votantes simplemente votan Sí o No sobre si cada juez debe continuar en su cargo por otro período. Los jueces de la Corte Suprema aparecen en la boleta de todos los votantes; los de la Corte de Apelaciones solo aparecen para los votantes del distrito de esa corte."
+      },
+      "src": "https://appellate.courts.ca.gov/about-courts/appellate-retention-elections"
+    },
+    "vca_vote_center_county_vs_polling_place_county": {
+      "title": {
+        "en": "Vote Centers vs. Polling Places",
+        "es": "Centros de votación y lugares de votación"
+      },
+      "desc": {
+        "en": "Under the Voter's Choice Act, vote centers open for in-person voting up to 10 days before Election Day, and you can use any vote center in the county. Alameda County uses vote centers. San Joaquin County uses traditional polling places that are open on Election Day, plus a limited number of early voting locations.",
+        "es": "Bajo la Ley de Elección del Votante (Voter's Choice Act), los centros de votación abren para votar en persona hasta 10 días antes del día de la elección y se puede usar cualquier centro del condado. El condado de Alameda usa centros de votación. El condado de San Joaquín usa lugares de votación tradicionales que abren el día de la elección, además de un número limitado de lugares de votación anticipada."
+      },
+      "src": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/voting-location-number-method.pdf"
+    }
+  },
+  "notes": [
+    {
+      "key": "mountain_house_city_council",
+      "title": {
+        "en": "Mountain House City Council",
+        "es": "Concejo Municipal de Mountain House"
+      },
+      "desc": {
+        "en": "Mountain House became a city in July 2024, so its five-member City Council is now the local governing body. It sets policy, adopts the city budget, and oversees local services. Members serve four-year terms and are elected at large. Two seats are on the November 2026 ballot.",
+        "es": "Mountain House se convirtió en ciudad en julio de 2024, por lo que su Concejo Municipal de cinco miembros es ahora el órgano de gobierno local. Establece políticas, adopta el presupuesto de la ciudad y supervisa los servicios locales. Los miembros cumplen períodos de cuatro años y se eligen a nivel general (at-large). Dos escaños están en la boleta de noviembre de 2026."
+      },
+      "src": "https://www.mountainhouseca.gov/178/City-Council",
+      "src_title": "City Council (City of Mountain House)"
+    },
+    {
+      "key": "lammersville_usd_trustee_area",
+      "title": {
+        "en": "Lammersville USD Trustee Areas",
+        "es": "Áreas de fideicomisarios del Distrito Escolar Unificado de Lammersville"
+      },
+      "desc": {
+        "en": "Lammersville Unified School District, which serves Mountain House, now elects its board by trustee area. Only voters who live in a trustee area vote for that area's seat. Areas 1, 2, and 3 were elected in 2024. Areas 4 and 5 are on the November 2026 ballot.",
+        "es": "El Distrito Escolar Unificado de Lammersville, que sirve a Mountain House, ahora elige a su junta por área de fideicomisarios. Solo los votantes que viven en un área votan por el escaño de esa área. Las áreas 1, 2 y 3 se eligieron en 2024. Las áreas 4 y 5 están en la boleta de noviembre de 2026."
+      },
+      "src": "https://www.lammersvilleschooldistrict.net/apps/pages/index.jsp?uREC_ID=4307242&type=d&pREC_ID=2528948",
+      "src_title": "California Voting Rights Act (Lammersville Unified School District)"
+    },
+    {
+      "key": "research_note:scope",
+      "note": "All keys requested were written; none omitted. Each src was fetched and read this session. Prose is a plain-language paraphrase of the cited page."
+    },
+    {
+      "key": "research_note:county_terms",
+      "note": "County term lengths: standard cycle is 4 years, but AB 759 (Stats. 2022, ch. 743) moved DA and sheriff elections to presidential-primary years; those elected in 2022 serve 6 years (next election March 2028). Alameda ROV lists assessor, auditor-controller, sheriff-coroner and treasurer-tax collector terms as 2023-2028; San Joaquin ROV had assessor-recorder-clerk, auditor-controller and treasurer-tax collector on the June 2026 ballot. Term strings flag this; confirm per-county dates with each Registrar of Voters before showing next-election years."
+    },
+    {
+      "key": "research_note:measure_threshold_majority_vs_two_thirds_vs_55",
+      "note": "LAO source is a 2014 report (rules re-checked against LAO's Nov 2026 Prop 43 analysis). Statewide Proposition 43 on the Nov 3, 2026 ballot (LAO: https://lao.ca.gov/ballot/2026/prop43-110326.pdf) would, beginning Jan 1, 2027, require two-thirds approval for new, increased or extended local special taxes proposed by voters (courts had allowed majority). If the app ships after the election, re-check this concept."
+    },
+    {
+      "key": "research_note:sources_blocked_or_dead",
+      "note": "Not usable (not cited): leginfo.legislature.ca.gov blocks plain HTTP fetch (read via browser pane only); cacities.org (old League domain) and old csba.org media links are dead; oaklandca.gov, alamedaca.gov and cityoftracy.org return access-denied to scripted fetches."
+    },
+    {
+      "key": "research_note:ac_transit_director",
+      "note": "AC Transit is mid-transition to seven wards (ordinance adopted Dec 13, 2023; complete after Nov 2026). Re-check after the election."
+    },
+    {
+      "key": "research_note:county_board_of_education",
+      "note": "Term differs by county: Alameda County Board of Education 4 years (https://acoe.org/48374_2); San Joaquin County Board of Education 6 years (cited src). Alameda has 7 trustee areas, San Joaquin 5."
+    },
+    {
+      "key": "research_note:mayor",
+      "note": "Mayor term evidence: San Joaquin ROV Nov 2026 offices list shows Lathrop and Tracy mayors 2 years, Manteca 4 years; Alameda County ROV elected-officials list shows Berkeley mayor 4 years."
+    },
+    {
+      "key": "research_note:city_council",
+      "note": "4-year terms evidenced by San Joaquin ROV Nov 2026 offices list (Stockton, Lodi, Manteca, Ripon, Tracy, Escalon, Lathrop, Mountain House) and Mountain House Elections page; charter cities can differ."
+    },
+    {
+      "key": "research_note:city_clerk_city_treasurer",
+      "note": "Elected-or-appointed rule: Gov. Code 36501 (general law city officers include clerk and treasurer) and 36508 (council may ask voters whether elective officers other than council members become appointed). Elected examples: Tracy and Alameda elect a city treasurer. League of California Cities guide supports clerk elected-or-appointed."
+    },
+    {
+      "key": "research_note:city_attorney_city_auditor",
+      "note": "Elected examples from Alameda County ROV elected-officials list (https://alamedacountyca.gov/rov_app/electedofficials): Oakland city attorney (4 yrs), city auditors in Oakland, Berkeley and Alameda. Oakland Charter 403 (https://www.oaklandauditor.com/about/charter/) gives auditor the same term as the mayor."
+    },
+    {
+      "key": "research_note:school_board",
+      "note": "Four-year staggered terms: Education Code 35012 (https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EDC&sectionNum=35012) and CSBA (https://blog.csba.org/new-member-oaths/). Role statement is from LAO. Some small elementary districts have 3 members; unified districts may have 7."
+    },
+    {
+      "key": "research_note:community_college_trustee",
+      "note": "4-year terms evidenced by San Joaquin ROV Nov 2026 offices list (San Joaquin Delta CCD) and Delta/Peralta board pages. Mountain House voters are in Delta trustee areas 4 and 6 (https://www.deltacollege.edu/about/offices/board-trustees)."
+    },
+    {
+      "key": "research_note:special_district_director",
+      "note": "Terms: all special districts in the San Joaquin ROV Nov 2026 offices list are 4 years (https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/candidates/2026-primary-offices-up-for-election.pdf). Some districts elect directors by division (candidate lives in division, all district voters vote), e.g., Stockton East Water District."
+    },
+    {
+      "key": "research_note:bart_ac_transit_ebmud_ebrpd",
+      "note": "Supporting pages: https://www.bart.gov/about/bod/elections (BART 'policymaking' board); https://www.ebmud.com/about-us/board-directors; https://www.actransit.org/redistricting. These four districts are in Alameda (and Contra Costa) counties, not San Joaquin."
+    },
+    {
+      "key": "research_note:vca",
+      "note": "Source lists Nov 3, 2026 election method by county as of Oct 2, 2026: Alameda = Vote Center, San Joaquin = Polling Place (both verified). 'Any vote center in the county' is from https://vca.sos.ca.gov/ and https://acvote.alamedacountyca.gov/vca. Ballots are mailed to all active voters statewide in both counties, so mail ballots are not a VCA difference."
+    },
+    {
+      "key": "research_note:nonpartisan_office",
+      "note": "List of nonpartisan offices (judicial, school, county, municipal) is from the SOS Elections Officers Digest definitions: https://www.sos.ca.gov/elections/publications-and-resources/elections-officers-digest/introduction"
+    },
+    {
+      "key": "research_note:us_house_state_leg",
+      "note": "Senate/Assembly term-limit (12 years total) is in the SOS qualification sheets (https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/qualifications-requirements/2026-state-senate.pdf) but not stated in the descriptions."
+    },
+    {
+      "key": "research_note:no_people",
+      "note": "Descriptions name no officeholder or candidate."
+    }
+  ]
+}

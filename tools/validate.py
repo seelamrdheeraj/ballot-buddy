@@ -93,8 +93,46 @@ for zipc, races in D['local'].items():
 print(f'{path}')
 print(f'  governor {len(D["races"]["governor"])} states · senate {len(D["races"]["senate"])} states · '
       f'measures {total} in {len([k for k,v in D["measures"].items() if v])} states · '
-      f'local {len(D["local"])} ZIPs')
+      f'local {len(D.get("local_index") or {})} counties, {len(D.get("zips") or {})} ZIPs')
 for w in warnings: print(f'  WARN  {w}')
+# ---------- county files (San Joaquin, Alameda): what a local voter would see ----------
+for key, idx in (D.get('local_index') or {}).items():
+    lp = os.path.join(ROOT, idx['file'])
+    if not os.path.exists(lp): err(f'{key}: county file {idx["file"]} missing'); continue
+    LJ = json.load(open(lp, encoding='utf-8'))
+    C, contests, measures = LJ.get('county') or {}, LJ.get('contests') or [], LJ.get('local_measures') or []
+    if not C.get('registrar', {}).get('url'): err(f'{key}: registrar URL missing')
+    if not any(d.get('id') == 'eday' for d in C.get('dates', [])): warn(f'{key}: no Election Day row in county dates (state row will be used)')
+    if C.get('vca') is None: warn(f'{key}: Voter\'s Choice Act status unknown')
+    if not C.get('lookup'): warn(f'{key}: no district/sample-ballot lookup tool link')
+    seen_ids = set()
+    for c in contests:
+        cid = c.get('id', '?')
+        if cid in seen_ids: err(f'{key}: duplicate contest id {cid}')
+        seen_ids.add(cid)
+        if not text_of(c.get('office')): err(f'{key}: contest {cid} has no office title')
+        if not text_of(c.get('juris')): err(f'{key}: contest {cid} has no jurisdiction')
+        if not c.get('src'): err(f'{key}: contest {cid} has no source link')
+        if not c.get('office_key'): warn(f'{key}: contest {cid} has no office description key')
+        if not c.get('candidates'): warn(f'{key}: contest {cid} lists no candidates')
+        for cand in c.get('candidates') or []:
+            n = cand.get('name') or '?'
+            if not cand.get('src'): err(f'{key}: {n} ({cid}) has no official source link')
+            if cand.get('site'):
+                if not re.match(r'^https?://', cand['site']): err(f'{key}: {n} website lacks a scheme: {cand["site"]}')
+                if cand.get('site_src') not in ('official_list', 'verified'): err(f'{key}: {n} website is not from an official list or verified research')
+            if cand.get('review') not in ('reviewed', 'unreviewed', 'none_found'): err(f'{key}: {n} has an unknown review status {cand.get("review")!r}')
+            for pos in cand.get('positions') or []:
+                if not pos.get('url'): err(f'{key}: {n} position "{text_of(pos.get("statement"))[:40]}" has no source URL')
+                if pos.get('kind') not in ('stated', 'record', 'reporting'): err(f'{key}: {n} position kind {pos.get("kind")!r} is not stated/record/reporting')
+            if cand.get('nopos'): err(f'{key}: {n} still carries the retired nopos flag')
+    for m in measures:
+        if not m.get('id') or not m.get('src'): err(f'{key}: local measure {m.get("id")!r} lacks a letter or a source link')
+        if not m.get('question') and not m.get('title'): warn(f'{key}: measure {m.get("id")} has no question text')
+    print(f'  {key}: {len(contests)} contests, {sum(len(c.get("candidates") or []) for c in contests)} candidates, {len(measures)} local measures')
+for z, v in (D.get('zips') or {}).items():
+    if v.get('county') not in (D.get('local_index') or {}): err(f'ZIP {z} maps to uncovered county {v.get("county")!r}')
+
 for e in errors:  print(f'  ERROR {e}')
 print(f'\n{len(errors)} errors, {len(warnings)} warnings')
 sys.exit(1 if errors else 0)

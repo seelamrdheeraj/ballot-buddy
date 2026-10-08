@@ -1,0 +1,3031 @@
+{
+ "generated": "2026-10-08",
+ "sources": [
+  {
+   "name": "Census 2020 ZCTA-to-County relationship file",
+   "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
+   "vintage": "2020 Census (2020 ZCTAs, 2020 county boundaries)"
+  },
+  {
+   "name": "Census 2020 ZCTA-to-Place relationship file",
+   "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_place20_natl.txt",
+   "vintage": "2020 Census (2020 ZCTAs, 2020 place boundaries; Mountain House still a CDP)"
+  },
+  {
+   "name": "Census ZCTA-to-State Legislative District (Lower/Assembly), California",
+   "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/cd-sld/tab20_sldl202420_zcta520_st06.txt",
+   "vintage": "SLDL 2024 vintage on 2020 ZCTAs = CA Citizens Redistricting Commission 2021 map"
+  },
+  {
+   "name": "Census ZCTA-to-State Legislative District (Upper/Senate), California",
+   "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/cd-sld/tab20_sldu202420_zcta520_st06.txt",
+   "vintage": "SLDU 2024 vintage on 2020 ZCTAs = CA Citizens Redistricting Commission 2021 map"
+  },
+  {
+   "name": "Cross-check only: Census SLDL/SLDU 2022 vintage files (identical results)",
+   "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/cd-sld/tab20_sldl202220_zcta520_st06.txt , https://www2.census.gov/geo/docs/maps-data/data/rel2020/cd-sld/tab20_sldu202220_zcta520_st06.txt",
+   "vintage": "SLD 2022"
+  }
+ ],
+ "zips": {
+  "94501": {
+   "county": "Alameda",
+   "county_share": 0.994,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.994
+    }
+   ],
+   "places": [
+    {
+     "name": "Alameda",
+     "type": "city",
+     "share": 0.994
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94502": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Alameda",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94505": {
+   "county": "Contra Costa",
+   "county_share": 0.96,
+   "other_county": "Alameda",
+   "other_county_share": 0.039,
+   "counties": [
+    {
+     "name": "Contra Costa",
+     "fips": "06013",
+     "share": 0.96
+    },
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.039
+    }
+   ],
+   "places": [
+    {
+     "name": "Discovery Bay",
+     "type": "cdp",
+     "share": 0.334
+    }
+   ],
+   "unincorporated_share": 0.666,
+   "assembly": [
+    "15",
+    "11",
+    "16"
+   ],
+   "senate": [
+    "3",
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94514": {
+   "county": "Contra Costa",
+   "county_share": 0.825,
+   "other_county": "Alameda",
+   "other_county_share": 0.175,
+   "counties": [
+    {
+     "name": "Contra Costa",
+     "fips": "06013",
+     "share": 0.825
+    },
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.175
+    }
+   ],
+   "places": [
+    {
+     "name": "Byron",
+     "type": "cdp",
+     "share": 0.191
+    }
+   ],
+   "unincorporated_share": 0.809,
+   "assembly": [
+    "15",
+    "11",
+    "16"
+   ],
+   "senate": [
+    "9",
+    "3",
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94536": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Fremont",
+     "type": "city",
+     "share": 0.999
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "24"
+   ],
+   "senate": [
+    "10"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94538": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Fremont",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "24"
+   ],
+   "senate": [
+    "10"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94539": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Fremont",
+     "type": "city",
+     "share": 0.923
+    }
+   ],
+   "unincorporated_share": 0.077,
+   "assembly": [
+    "24",
+    "16"
+   ],
+   "senate": [
+    "10",
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94541": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Hayward",
+     "type": "city",
+     "share": 0.481
+    },
+    {
+     "name": "Fairview",
+     "type": "cdp",
+     "share": 0.248
+    },
+    {
+     "name": "Cherryland",
+     "type": "cdp",
+     "share": 0.158
+    },
+    {
+     "name": "San Lorenzo",
+     "type": "cdp",
+     "share": 0.071
+    },
+    {
+     "name": "Ashland",
+     "type": "cdp",
+     "share": 0.041
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "20"
+   ],
+   "senate": [
+    "10",
+    "9"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94542": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Hayward",
+     "type": "city",
+     "share": 0.714
+    },
+    {
+     "name": "Fairview",
+     "type": "cdp",
+     "share": 0.125
+    }
+   ],
+   "unincorporated_share": 0.16,
+   "assembly": [
+    "20"
+   ],
+   "senate": [
+    "10",
+    "9"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94544": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Hayward",
+     "type": "city",
+     "share": 0.865
+    }
+   ],
+   "unincorporated_share": 0.113,
+   "assembly": [
+    "20"
+   ],
+   "senate": [
+    "10"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94545": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Hayward",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "20"
+   ],
+   "senate": [
+    "10"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94546": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Castro Valley",
+     "type": "cdp",
+     "share": 0.429
+    }
+   ],
+   "unincorporated_share": 0.565,
+   "assembly": [
+    "20",
+    "18",
+    "16"
+   ],
+   "senate": [
+    "9"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94550": {
+   "county": "Alameda",
+   "county_share": 0.612,
+   "other_county": "Santa Clara",
+   "other_county_share": 0.388,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.612
+    },
+    {
+     "name": "Santa Clara",
+     "fips": "06085",
+     "share": 0.388
+    }
+   ],
+   "places": [
+    {
+     "name": "Livermore",
+     "type": "city",
+     "share": 0.05
+    }
+   ],
+   "unincorporated_share": 0.95,
+   "assembly": [
+    "16",
+    "25"
+   ],
+   "senate": [
+    "5",
+    "15"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94551": {
+   "county": "Alameda",
+   "county_share": 0.63,
+   "other_county": "Contra Costa",
+   "other_county_share": 0.37,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.63
+    },
+    {
+     "name": "Contra Costa",
+     "fips": "06013",
+     "share": 0.37
+    }
+   ],
+   "places": [
+    {
+     "name": "Livermore",
+     "type": "city",
+     "share": 0.157
+    }
+   ],
+   "unincorporated_share": 0.843,
+   "assembly": [
+    "16",
+    "15"
+   ],
+   "senate": [
+    "5",
+    "9"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94552": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Castro Valley",
+     "type": "cdp",
+     "share": 0.159
+    },
+    {
+     "name": "Union City",
+     "type": "city",
+     "share": 0.128
+    },
+    {
+     "name": "Hayward",
+     "type": "city",
+     "share": 0.043
+    }
+   ],
+   "unincorporated_share": 0.659,
+   "assembly": [
+    "20",
+    "16"
+   ],
+   "senate": [
+    "9",
+    "10",
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94555": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Fremont",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "24"
+   ],
+   "senate": [
+    "10"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94560": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Newark",
+     "type": "city",
+     "share": 0.693
+    },
+    {
+     "name": "Fremont",
+     "type": "city",
+     "share": 0.307
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "24"
+   ],
+   "senate": [
+    "10"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94566": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Pleasanton",
+     "type": "city",
+     "share": 0.669
+    },
+    {
+     "name": "Sunol",
+     "type": "cdp",
+     "share": 0.031
+    }
+   ],
+   "unincorporated_share": 0.3,
+   "assembly": [
+    "16",
+    "20",
+    "24"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94568": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Dublin",
+     "type": "city",
+     "share": 0.923
+    }
+   ],
+   "unincorporated_share": 0.07,
+   "assembly": [
+    "16",
+    "20"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94577": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "San Leandro",
+     "type": "city",
+     "share": 0.995
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "20"
+   ],
+   "senate": [
+    "9"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94578": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "San Leandro",
+     "type": "city",
+     "share": 0.462
+    },
+    {
+     "name": "Castro Valley",
+     "type": "cdp",
+     "share": 0.372
+    },
+    {
+     "name": "Ashland",
+     "type": "cdp",
+     "share": 0.166
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "20"
+   ],
+   "senate": [
+    "9"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94579": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "San Leandro",
+     "type": "city",
+     "share": 0.999
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "20"
+   ],
+   "senate": [
+    "9"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94580": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "San Lorenzo",
+     "type": "cdp",
+     "share": 0.757
+    },
+    {
+     "name": "Ashland",
+     "type": "cdp",
+     "share": 0.233
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "20"
+   ],
+   "senate": [
+    "9"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94586": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Sunol",
+     "type": "cdp",
+     "share": 0.487
+    }
+   ],
+   "unincorporated_share": 0.489,
+   "assembly": [
+    "24",
+    "16",
+    "20"
+   ],
+   "senate": [
+    "5",
+    "10"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94587": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Union City",
+     "type": "city",
+     "share": 0.627
+    },
+    {
+     "name": "Hayward",
+     "type": "city",
+     "share": 0.373
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "20"
+   ],
+   "senate": [
+    "10"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94588": {
+   "county": "Alameda",
+   "county_share": 0.509,
+   "other_county": "Contra Costa",
+   "other_county_share": 0.491,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.509
+    },
+    {
+     "name": "Contra Costa",
+     "fips": "06013",
+     "share": 0.491
+    }
+   ],
+   "places": [
+    {
+     "name": "Pleasanton",
+     "type": "city",
+     "share": 0.317
+    },
+    {
+     "name": "Hayward",
+     "type": "city",
+     "share": 0.036
+    }
+   ],
+   "unincorporated_share": 0.633,
+   "assembly": [
+    "16",
+    "20"
+   ],
+   "senate": [
+    "9",
+    "5",
+    "10"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94601": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94602": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 0.999
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94603": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94605": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94606": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94607": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94608": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 0.537
+    },
+    {
+     "name": "Emeryville",
+     "type": "city",
+     "share": 0.463
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94609": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18",
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94610": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 0.85
+    },
+    {
+     "name": "Piedmont",
+     "type": "city",
+     "share": 0.15
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18",
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94611": {
+   "county": "Alameda",
+   "county_share": 0.95,
+   "other_county": "Contra Costa",
+   "other_county_share": 0.05,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.95
+    },
+    {
+     "name": "Contra Costa",
+     "fips": "06013",
+     "share": 0.05
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 0.767
+    },
+    {
+     "name": "Piedmont",
+     "type": "city",
+     "share": 0.183
+    }
+   ],
+   "unincorporated_share": 0.05,
+   "assembly": [
+    "14",
+    "18"
+   ],
+   "senate": [
+    "7",
+    "9"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94612": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94613": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94618": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 0.978
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94619": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 0.501
+    }
+   ],
+   "unincorporated_share": 0.499,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7",
+    "9"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94621": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "18"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94702": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Berkeley",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94703": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Berkeley",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94704": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Berkeley",
+     "type": "city",
+     "share": 0.946
+    },
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 0.054
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94705": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 0.685
+    },
+    {
+     "name": "Berkeley",
+     "type": "city",
+     "share": 0.315
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94706": {
+   "county": "Alameda",
+   "county_share": 0.997,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.997
+    }
+   ],
+   "places": [
+    {
+     "name": "Albany",
+     "type": "city",
+     "share": 0.921
+    },
+    {
+     "name": "Berkeley",
+     "type": "city",
+     "share": 0.076
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94707": {
+   "county": "Alameda",
+   "county_share": 0.648,
+   "other_county": "Contra Costa",
+   "other_county_share": 0.352,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.648
+    },
+    {
+     "name": "Contra Costa",
+     "fips": "06013",
+     "share": 0.352
+    }
+   ],
+   "places": [
+    {
+     "name": "Berkeley",
+     "type": "city",
+     "share": 0.63
+    },
+    {
+     "name": "Kensington",
+     "type": "cdp",
+     "share": 0.352
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94708": {
+   "county": "Contra Costa",
+   "county_share": 0.584,
+   "other_county": "Alameda",
+   "other_county_share": 0.416,
+   "counties": [
+    {
+     "name": "Contra Costa",
+     "fips": "06013",
+     "share": 0.584
+    },
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.416
+    }
+   ],
+   "places": [
+    {
+     "name": "Berkeley",
+     "type": "city",
+     "share": 0.416
+    },
+    {
+     "name": "Kensington",
+     "type": "cdp",
+     "share": 0.102
+    }
+   ],
+   "unincorporated_share": 0.482,
+   "assembly": [
+    "14"
+   ],
+   "senate": [
+    "7",
+    "9"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94709": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Berkeley",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94710": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Berkeley",
+     "type": "city",
+     "share": 0.957
+    },
+    {
+     "name": "Albany",
+     "type": "city",
+     "share": 0.043
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "94720": {
+   "county": "Alameda",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Berkeley",
+     "type": "city",
+     "share": 0.903
+    },
+    {
+     "name": "Oakland",
+     "type": "city",
+     "share": 0.097
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "14"
+   ],
+   "senate": [
+    "7"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95202": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "13"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95203": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 0.975
+    }
+   ],
+   "unincorporated_share": 0.025,
+   "assembly": [
+    "13"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95204": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 0.615
+    },
+    {
+     "name": "Country Club",
+     "type": "cdp",
+     "share": 0.362
+    }
+   ],
+   "unincorporated_share": 0.023,
+   "assembly": [
+    "13"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95205": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 0.538
+    },
+    {
+     "name": "August",
+     "type": "cdp",
+     "share": 0.14
+    },
+    {
+     "name": "Kennedy",
+     "type": "cdp",
+     "share": 0.063
+    }
+   ],
+   "unincorporated_share": 0.26,
+   "assembly": [
+    "13",
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95206": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 0.111
+    }
+   ],
+   "unincorporated_share": 0.88,
+   "assembly": [
+    "13"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95207": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 0.876
+    },
+    {
+     "name": "Lincoln Village",
+     "type": "cdp",
+     "share": 0.101
+    }
+   ],
+   "unincorporated_share": 0.023,
+   "assembly": [
+    "13"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95209": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 0.616
+    }
+   ],
+   "unincorporated_share": 0.384,
+   "assembly": [
+    "13",
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95210": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 0.59
+    }
+   ],
+   "unincorporated_share": 0.41,
+   "assembly": [
+    "13",
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95211": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 1.0
+    }
+   ],
+   "unincorporated_share": 0.0,
+   "assembly": [
+    "13"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95212": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 0.171
+    },
+    {
+     "name": "Morada",
+     "type": "cdp",
+     "share": 0.141
+    }
+   ],
+   "unincorporated_share": 0.688,
+   "assembly": [
+    "9",
+    "13"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95215": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Waterloo",
+     "type": "cdp",
+     "share": 0.059
+    }
+   ],
+   "unincorporated_share": 0.885,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95219": {
+   "county": "San Joaquin",
+   "county_share": 0.836,
+   "other_county": "Contra Costa",
+   "other_county_share": 0.164,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 0.836
+    },
+    {
+     "name": "Contra Costa",
+     "fips": "06013",
+     "share": 0.164
+    }
+   ],
+   "places": [
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 0.083
+    }
+   ],
+   "unincorporated_share": 0.917,
+   "assembly": [
+    "13",
+    "9",
+    "11"
+   ],
+   "senate": [
+    "5",
+    "3"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95220": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Dogtown",
+     "type": "cdp",
+     "share": 0.205
+    },
+    {
+     "name": "Collierville",
+     "type": "cdp",
+     "share": 0.07
+    }
+   ],
+   "unincorporated_share": 0.708,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95227": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [],
+   "unincorporated_share": 1.0,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95230": {
+   "county": "Stanislaus",
+   "county_share": 0.49,
+   "other_county": "San Joaquin",
+   "other_county_share": 0.216,
+   "counties": [
+    {
+     "name": "Stanislaus",
+     "fips": "06099",
+     "share": 0.49
+    },
+    {
+     "name": "Calaveras",
+     "fips": "06009",
+     "share": 0.293
+    },
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 0.216
+    }
+   ],
+   "places": [],
+   "unincorporated_share": 0.985,
+   "assembly": [
+    "9",
+    "8"
+   ],
+   "senate": [
+    "4",
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95231": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "French Camp",
+     "type": "cdp",
+     "share": 0.282
+    },
+    {
+     "name": "Lathrop",
+     "type": "city",
+     "share": 0.119
+    },
+    {
+     "name": "Stockton",
+     "type": "city",
+     "share": 0.034
+    }
+   ],
+   "unincorporated_share": 0.566,
+   "assembly": [
+    "9",
+    "13"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95236": {
+   "county": "San Joaquin",
+   "county_share": 0.981,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 0.981
+    }
+   ],
+   "places": [
+    {
+     "name": "Linden",
+     "type": "cdp",
+     "share": 0.058
+    }
+   ],
+   "unincorporated_share": 0.922,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95237": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Lockeford",
+     "type": "cdp",
+     "share": 0.875
+    }
+   ],
+   "unincorporated_share": 0.125,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95240": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Lodi",
+     "type": "city",
+     "share": 0.108
+    }
+   ],
+   "unincorporated_share": 0.855,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95242": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Lodi",
+     "type": "city",
+     "share": 0.069
+    }
+   ],
+   "unincorporated_share": 0.92,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95253": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Victor",
+     "type": "cdp",
+     "share": 0.382
+    }
+   ],
+   "unincorporated_share": 0.618,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95258": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Woodbridge",
+     "type": "cdp",
+     "share": 0.933
+    }
+   ],
+   "unincorporated_share": 0.066,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95304": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Tracy",
+     "type": "city",
+     "share": 0.034
+    }
+   ],
+   "unincorporated_share": 0.965,
+   "assembly": [
+    "13",
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95320": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [],
+   "unincorporated_share": 0.974,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95330": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Lathrop",
+     "type": "city",
+     "share": 0.85
+    }
+   ],
+   "unincorporated_share": 0.139,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95336": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Manteca",
+     "type": "city",
+     "share": 0.22
+    }
+   ],
+   "unincorporated_share": 0.771,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95337": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Manteca",
+     "type": "city",
+     "share": 0.274
+    }
+   ],
+   "unincorporated_share": 0.726,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95366": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Ripon",
+     "type": "city",
+     "share": 0.155
+    }
+   ],
+   "unincorporated_share": 0.837,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95376": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Tracy",
+     "type": "city",
+     "share": 0.941
+    }
+   ],
+   "unincorporated_share": 0.059,
+   "assembly": [
+    "13"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95377": {
+   "county": "San Joaquin",
+   "county_share": 0.893,
+   "other_county": "Alameda",
+   "other_county_share": 0.107,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 0.893
+    },
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.107
+    }
+   ],
+   "places": [
+    {
+     "name": "Tracy",
+     "type": "city",
+     "share": 0.123
+    }
+   ],
+   "unincorporated_share": 0.877,
+   "assembly": [
+    "13",
+    "16"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95391": {
+   "county": "Alameda",
+   "county_share": 0.695,
+   "other_county": "San Joaquin",
+   "other_county_share": 0.305,
+   "counties": [
+    {
+     "name": "Alameda",
+     "fips": "06001",
+     "share": 0.695
+    },
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 0.305
+    }
+   ],
+   "places": [
+    {
+     "name": "Mountain House",
+     "type": "city",
+     "share": 0.17
+    }
+   ],
+   "unincorporated_share": 0.83,
+   "assembly": [
+    "16",
+    "13"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95632": {
+   "county": "Sacramento",
+   "county_share": 0.694,
+   "other_county": "San Joaquin",
+   "other_county_share": 0.306,
+   "counties": [
+    {
+     "name": "Sacramento",
+     "fips": "06067",
+     "share": 0.694
+    },
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 0.306
+    }
+   ],
+   "places": [
+    {
+     "name": "Galt",
+     "type": "city",
+     "share": 0.063
+    }
+   ],
+   "unincorporated_share": 0.871,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "6",
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95641": {
+   "county": "Sacramento",
+   "county_share": 0.966,
+   "other_county": "San Joaquin",
+   "other_county_share": 0.034,
+   "counties": [
+    {
+     "name": "Sacramento",
+     "fips": "06067",
+     "share": 0.966
+    },
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 0.034
+    }
+   ],
+   "places": [
+    {
+     "name": "Walnut Grove",
+     "type": "cdp",
+     "share": 0.048
+    }
+   ],
+   "unincorporated_share": 0.941,
+   "assembly": [
+    "9",
+    "11"
+   ],
+   "senate": [
+    "3",
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  },
+  "95686": {
+   "county": "San Joaquin",
+   "county_share": 1.0,
+   "other_county": null,
+   "other_county_share": null,
+   "counties": [
+    {
+     "name": "San Joaquin",
+     "fips": "06077",
+     "share": 1.0
+    }
+   ],
+   "places": [
+    {
+     "name": "Thornton",
+     "type": "cdp",
+     "share": 0.045
+    }
+   ],
+   "unincorporated_share": 0.955,
+   "assembly": [
+    "9"
+   ],
+   "senate": [
+    "5"
+   ],
+   "us_house": null,
+   "usd": null,
+   "elsd": null,
+   "scsd": null,
+   "county_share_basis": "land"
+  }
+ },
+ "notes": [
+  "Shares are fractions of the ZCTA's LAND AREA (AREALAND_PART / AREALAND_ZCTA5), not population; only targets with >= 3% share are kept, largest first.",
+  "'county' is the county with the largest land share of the ZCTA (it may not be a target county for ZIPs mostly in a neighbouring county); 'other_county' is the largest other county with >= 3% (if 'county' is not San Joaquin/Alameda, the largest target county instead); 'counties' lists all of them. A land-majority county can differ from where most residents live (e.g. 95391 Mountain House).",
+  "'unincorporated_share' is the share of the ZCTA's land not inside any Census place.",
+  "'Mountain House CDP' is reported as the city of Mountain House (type 'city'); it incorporated in July 2024, after the 2020 relationship files.",
+  "Assembly/Senate districts: California's 2021 Citizens Redistricting Commission maps (2022-2030).",
+  "us_house is null for every ZIP: Census publishes no ZCTA relationship file for California's 2026 (Prop 50) congressional map; its cd119 file reflects the old map and was not used.",
+  "BASIS: all shares are LAND area. Population weighting was requested but is blocked: the Census Data API (api.census.gov/data/2020/dec/pl) now requires an API key (302 to missing_key.html) and BlockAssign_ST06_CA.zip contains no ZCTA file, so there is no block-to-ZCTA mapping in it. usd/elsd/scsd (school districts) are null for the same reason. See notes.md for the unblock plan.",
+  "ZCTAs approximate ZIP Codes; PO-box-only and some unique-ZIP codes have no ZCTA and are absent.",
+  "Place and county boundaries are as of 2020; later annexations are not reflected."
+ ]
+}

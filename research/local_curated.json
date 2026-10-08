@@ -1,0 +1,1278 @@
+{
+ "xavierbecerra": {
+  "background": {
+   "en": "Former U.S. Secretary of Health and Human Services; former California Attorney General.",
+   "es": "Ex secretario de Salud de EE. UU.; ex fiscal general de California."
+  },
+  "summary": {
+   "en": "Housing emergency, price-gouging crackdown, lower drug prices.",
+   "es": "Emergencia de vivienda, freno a precios abusivos, medicinas más baratas."
+  },
+  "cls": "",
+  "desig": {
+   "en": "Voting Rights Attorney",
+   "es": "Abogado de derechos electorales"
+  },
+  "party": "Democratic",
+  "positions": [
+   {
+    "topic": "housing",
+    "statement": {
+     "en": "Declare the housing shortage a state emergency; reform building fees statewide.",
+     "es": "Declarar emergencia estatal por la escasez de vivienda; reformar las tarifas de construcción."
+    },
+    "url": "https://www.xavierbecerra2026.com/priorities/housing/",
+    "kind": "stated"
+   },
+   {
+    "topic": "cost",
+    "statement": {
+     "en": "Stand up to price gouging and unjustified rate hikes; expand child-care help.",
+     "es": "Enfrentar precios abusivos y alzas injustificadas; ampliar ayuda para cuidado infantil."
+    },
+    "url": "https://www.xavierbecerra2026.com/priorities/economy-and-affordability/",
+    "kind": "stated"
+   },
+   {
+    "topic": "health",
+    "statement": {
+     "en": "Protect everyone’s coverage; negotiate lower drug prices for state programs.",
+     "es": "Proteger la cobertura de todos; negociar medicinas más baratas en programas estatales."
+    },
+    "url": "https://www.xavierbecerra2026.com/priorities/health-care/",
+    "kind": "stated"
+   }
+  ],
+  "review": "reviewed",
+  "site": "https://www.xavierbecerra2026.com/",
+  "site_src": "verified",
+  "src": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf"
+ },
+ "stevehilton": {
+  "background": {
+   "en": "Former senior adviser to a British prime minister; former Fox News host.",
+   "es": "Ex asesor de un primer ministro británico; ex presentador de Fox News."
+  },
+  "summary": {
+   "en": "No income tax on first $150K, $3 gas, starter homes.",
+   "es": "Sin impuesto sobre los primeros $150K, gasolina a $3, casas iniciales."
+  },
+  "cls": "b",
+  "desig": {
+   "en": "Small Business Owner",
+   "es": "Dueño de pequeño negocio"
+  },
+  "party": "Republican",
+  "positions": [
+   {
+    "topic": "taxes",
+    "statement": {
+     "en": "No state income tax on the first $150,000 you earn.",
+     "es": "Sin impuesto estatal sobre los primeros $150,000 que ganes."
+    },
+    "url": "https://stevehiltonforgovernor.com/plan",
+    "kind": "stated"
+   },
+   {
+    "topic": "energy",
+    "statement": {
+     "en": "End the rules and fees behind high gas prices; cut utility bills in half.",
+     "es": "Eliminar las reglas y tarifas que encarecen la gasolina; reducir a la mitad las facturas de servicios."
+    },
+    "url": "https://stevehiltonforgovernor.com/plan",
+    "kind": "stated"
+   },
+   {
+    "topic": "housing",
+    "statement": {
+     "en": "Clear red tape and fees so starter homes for young families get built.",
+     "es": "Eliminar trabas y tarifas para que se construyan casas iniciales para familias jóvenes."
+    },
+    "url": "https://stevehiltonforgovernor.com/plan",
+    "kind": "stated"
+   }
+  ],
+  "review": "reviewed",
+  "site": "https://stevehiltonforgovernor.com/",
+  "site_src": "verified",
+  "src": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf"
+ },
+ "joshharder": {
+  "background": {
+   "en": "Current U.S. Representative (since 2019); former venture-capital executive.",
+   "es": "Representante actual (desde 2019); ex ejecutivo de capital de riesgo."
+  },
+  "summary": {
+   "en": "Cheaper prescriptions, repeal gas taxes, homelessness as an emergency.",
+   "es": "Medicinas más baratas, eliminar impuestos a la gasolina, emergencia por personas sin hogar."
+  },
+  "cls": "c",
+  "desig": {
+   "en": "Father/Representative",
+   "es": "Padre/Representante"
+  },
+  "party": "Democratic",
+  "inc": "Incumbent",
+  "positions": [
+   {
+    "topic": "cost",
+    "statement": {
+     "en": "Cut prescription drug costs, repeal gas taxes, get housing costs under control.",
+     "es": "Bajar el costo de las medicinas, eliminar impuestos a la gasolina, controlar el costo de la vivienda."
+    },
+    "url": "https://harderforcongress.com/issues/",
+    "kind": "stated"
+   },
+   {
+    "topic": "health",
+    "statement": {
+     "en": "A $35 monthly cap on insulin; bring more doctors to the Valley.",
+     "es": "Tope de $35 al mes para la insulina; más médicos para el Valle."
+    },
+    "url": "https://harderforcongress.com/issues/",
+    "kind": "stated"
+   },
+   {
+    "topic": "homeless",
+    "statement": {
+     "en": "Treat homelessness as an emergency: mental health, addiction services, job training.",
+     "es": "Tratar la falta de vivienda como emergencia: salud mental, adicciones, capacitación laboral."
+    },
+    "url": "https://harderforcongress.com/issues/",
+    "kind": "stated"
+   }
+  ],
+  "review": "reviewed",
+  "site": "https://harderforcongress.com/",
+  "site_src": "verified",
+  "src": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf"
+ },
+ "johnmcbride": {
+  "background": {
+   "en": "Strength and conditioning coach; ran in the 2024 primary.",
+   "es": "Entrenador de fuerza y acondicionamiento; candidato en la primaria de 2024."
+  },
+  "summary": {
+   "en": "Lower taxes, smaller government, no tax on Social Security.",
+   "es": "Menos impuestos, gobierno más pequeño, sin impuesto al Seguro Social."
+  },
+  "cls": "",
+  "desig": {
+   "en": "Athletic Performance Coach",
+   "es": "Entrenador de rendimiento deportivo"
+  },
+  "party": "Republican",
+  "positions": [
+   {
+    "topic": "taxes",
+    "statement": {
+     "en": "Reduce taxes, shrink government spending, no tax on Social Security.",
+     "es": "Reducir impuestos, recortar el gasto público, sin impuesto al Seguro Social."
+    },
+    "url": "https://www.johnmcbrideforcongress.com/",
+    "kind": "stated"
+   },
+   {
+    "topic": "health",
+    "statement": {
+     "en": "Remove dangerous chemicals from food and water.",
+     "es": "Eliminar químicos peligrosos de los alimentos y el agua."
+    },
+    "url": "https://www.johnmcbrideforcongress.com/",
+    "kind": "stated"
+   },
+   {
+    "topic": "safety",
+    "statement": {
+     "en": "Support local police, a stronger border, water rights, less regulation on small farms.",
+     "es": "Apoyar a la policía local, frontera más fuerte, derechos de agua, menos regulación a granjas pequeñas."
+    },
+    "url": "https://www.johnmcbrideforcongress.com/",
+    "kind": "stated"
+   }
+  ],
+  "review": "reviewed",
+  "site": "https://www.johnmcbrideforcongress.com/",
+  "site_src": "verified",
+  "src": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf"
+ },
+ "rhodesiaransom": {
+  "bio": {
+   "en": "Current Assemblymember (since 2024); former Tracy City Councilmember.",
+   "es": "Asambleísta actual (desde 2024); ex concejal de Tracy."
+  },
+  "summary": {
+   "en": "Local jobs, renters’ internet costs, Family Justice Centers.",
+   "es": "Empleos locales, internet para inquilinos, Centros de Justicia Familiar."
+  },
+  "cls": "d",
+  "desig": {
+   "en": "State Assemblymember",
+   "es": "Asambleísta estatal"
+  },
+  "party": "Democratic",
+  "inc": "Incumbent",
+  "positions": [
+   {
+    "topic": "cost",
+    "statement": {
+     "en": "Protected 1,000+ local manufacturing jobs; ended forced high-cost internet contracts for renters.",
+     "es": "Protegió más de 1,000 empleos de manufactura; eliminó contratos de internet caros y obligatorios para inquilinos."
+    },
+    "url": "https://voteransom.com/results",
+    "kind": "stated"
+   },
+   {
+    "topic": "safety",
+    "statement": {
+     "en": "$10 million for Family Justice Centers; tougher penalties for trafficking and drunk driving.",
+     "es": "$10 millones para Centros de Justicia Familiar; penas más duras por trata y conducir ebrio."
+    },
+    "url": "https://voteransom.com/results",
+    "kind": "stated"
+   },
+   {
+    "topic": "emerg",
+    "statement": {
+     "en": "Improved wildfire response; $20 million to protect the Delta from invasive species.",
+     "es": "Mejoró la respuesta a incendios; $20 millones para proteger el Delta de especies invasoras."
+    },
+    "url": "https://voteransom.com/results",
+    "kind": "stated"
+   }
+  ],
+  "review": "reviewed",
+  "site": "https://voteransom.com/",
+  "site_src": "verified",
+  "src": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf"
+ },
+ "tompatti": {
+  "bio": {
+   "en": "Former San Joaquin County Supervisor (2017–2025); business owner.",
+   "es": "Ex supervisor del condado de San Joaquin (2017–2025); empresario."
+  },
+  "summary": {
+   "en": "Suspend gas taxes, parents’ rights, backed Prop 36.",
+   "es": "Suspender impuestos a la gasolina, derechos de los padres, apoyó la Prop 36."
+  },
+  "cls": "b",
+  "desig": {
+   "en": "Businessman/Father",
+   "es": "Empresario/Padre"
+  },
+  "party": "Republican",
+  "positions": [
+   {
+    "topic": "energy",
+    "statement": {
+     "en": "Lower energy costs and suspend gas taxes.",
+     "es": "Bajar los costos de energía y suspender los impuestos a la gasolina."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/candidates/historical-county-voter-information-guides/2026-primary-composite-civg-(english).pdf",
+    "kind": "stated",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for the June 2, 2026 primary, p. 105",
+     "es": "Declaración oficial del candidato, Guía del Votante del condado de San Joaquin para la primaria del 2 de junio de 2026, p. 105"
+    }
+   },
+   {
+    "topic": "education",
+    "statement": {
+     "en": "Protect parents’ rights in schools; girls’ sports for girls only.",
+     "es": "Proteger los derechos de los padres en las escuelas; deportes femeninos solo para niñas."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/candidates/historical-county-voter-information-guides/2026-primary-composite-civg-(english).pdf",
+    "kind": "stated",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for the June 2, 2026 primary, p. 105",
+     "es": "Declaración oficial del candidato, Guía del Votante del condado de San Joaquin para la primaria del 2 de junio de 2026, p. 105"
+    }
+   },
+   {
+    "topic": "housing",
+    "statement": {
+     "en": "Smart growth for affordable housing without government overreach; backed Prop 36 on retail theft.",
+     "es": "Crecimiento inteligente para vivienda asequible sin exceso de gobierno; apoyó la Prop 36 contra el robo en tiendas."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/candidates/historical-county-voter-information-guides/2026-primary-composite-civg-(english).pdf",
+    "kind": "stated",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for the June 2, 2026 primary, p. 105",
+     "es": "Declaración oficial del candidato, Guía del Votante del condado de San Joaquin para la primaria del 2 de junio de 2026, p. 105"
+    }
+   }
+  ],
+  "review": "reviewed",
+  "src": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+  "sources_reviewed": [
+   {
+    "title": "County Voter Information Guide, June 2026 primary (candidate statement, p. 105)",
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/candidates/historical-county-voter-information-guides/2026-primary-composite-civg-(english).pdf"
+   },
+   {
+    "title": "SoS Official Candidate Contact List (no website printed)",
+    "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf"
+   }
+  ],
+  "site_note": {
+   "en": "The website printed in his candidate statement (www.TomPatti13.com) did not resolve when checked on Oct 8, 2026.",
+   "es": "El sitio impreso en su declaración (www.TomPatti13.com) no respondía al verificarlo el 8 de octubre de 2026."
+  }
+ },
+ "ronnagreen": {
+  "bio": {
+   "en": "Current council member and the city’s Vice Mayor (2026). Ran for the Mountain House CSD board in 2022.",
+   "es": "Concejal actual y vicealcaldesa de la ciudad (2026). Fue candidata a la junta del CSD de Mountain House en 2022."
+  },
+  "cls": "",
+  "desig": {
+   "en": "City of Mountain House Council Member",
+   "es": "Concejal de Mountain House"
+  },
+  "party": "nonp",
+  "positions": [
+   {
+    "topic": "safety",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she wants a community that feels like home, where families feel safe and every person belongs.",
+     "es": "Dice que quiere una comunidad que se sienta como un hogar, donde las familias se sientan seguras y cada persona pertenezca."
+    },
+    "url": "https://ronnagreen.org/",
+    "date": "2026-10-08",
+    "context": {
+     "en": "Campaign website, accessed Oct 8, 2026. Self-reported.",
+     "es": "Sitio web de campaña, consultado el 8 de octubre de 2026. Autodeclarado."
+    }
+   },
+   {
+    "topic": "roads",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she advocates in Washington, D.C. for safer roads and better connectivity, and pledges to fight for strong roads.",
+     "es": "Dice que aboga en Washington, D.C. por carreteras más seguras y mejor conectividad, y promete luchar por carreteras sólidas."
+    },
+    "url": "https://ronnagreen.org/",
+    "date": "2026-10-08",
+    "context": {
+     "en": "Campaign website, accessed Oct 8, 2026. Self-reported.",
+     "es": "Sitio web de campaña, consultado el 8 de octubre de 2026. Autodeclarado."
+    }
+   },
+   {
+    "topic": "water",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she is working with state and federal leaders to put Mountain House on the map for critical water infrastructure investment and grant funding.",
+     "es": "Dice que trabaja con líderes estatales y federales para colocar a Mountain House en el mapa de la inversión en infraestructura hídrica crítica y de los fondos de subvenciones."
+    },
+    "url": "https://ronnagreen.org/",
+    "date": "2026-10-08",
+    "context": {
+     "en": "Campaign website, accessed Oct 8, 2026. Self-reported.",
+     "es": "Sitio web de campaña, consultado el 8 de octubre de 2026. Autodeclarado."
+    }
+   },
+   {
+    "topic": "growth",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she supports thoughtful growth and cites investment in parks and trails.",
+     "es": "Dice que apoya un crecimiento reflexivo y menciona la inversión en parques y senderos."
+    },
+    "url": "https://ronnagreen.org/about/",
+    "date": "2026-10-08",
+    "context": {
+     "en": "Campaign website, accessed Oct 8, 2026. Self-reported.",
+     "es": "Sitio web de campaña, consultado el 8 de octubre de 2026. Autodeclarado."
+    }
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "As Vice Mayor, cast the only 'Against' vote on Resolution 2026-72, adding Section 5.16 'Political Activities of Council Members' to the Council Policies and Procedures (carried 4-1). The minutes note it includes language excluding all City parks from the defined City facilities.",
+     "es": "Como vicealcaldesa, emitió el único voto en contra ('Against') sobre la Resolución 2026-72, que agrega la Sección 5.16 'Political Activities of Council Members' a las Políticas y Procedimientos del Concejo Municipal (aprobada 4-1). Las actas señalan que incluye lenguaje que excluye a todos los parques de la ciudad de las instalaciones municipales definidas."
+    },
+    "url": "https://pub-mountainhouse.escribemeetings.com/Meeting.aspx?Id=ed351578-87fb-4e6d-bb48-d39712baf15f&Agenda=PostMinutes&lang=English",
+    "date": "2026-08-12"
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "Voted for Resolution 2026-76 authorizing special tax bonds for Improvement Areas 8 and 13 of Community Facilities District 2024-1 (carried 3-1; King Tingle against; Mayor Su absent). Green chaired the meeting as Vice Mayor.",
+     "es": "Votó a favor de la Resolución 2026-76, que autoriza bonos de impuestos especiales para las Áreas de Mejora 8 y 13 del Community Facilities District 2024-1 (aprobada 3-1; King Tingle en contra; ausente Su, titular de la alcaldía). Green presidió la reunión como vicealcaldesa."
+    },
+    "url": "https://pub-mountainhouse.escribemeetings.com/Meeting.aspx?Id=6f95c909-8cb7-458d-9c16-888e14e3a3bf&Agenda=PostMinutes&lang=English",
+    "date": "2026-08-26"
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "Voted for General Plan, Master Plan, Specific Plan and zoning amendments and four subdivision approvals for the MHD C-R project north of Byron Road (Resolutions 2026-77 to 2026-85; carried 4-0; Mayor Su absent).",
+     "es": "Votó a favor de enmiendas al Plan General, al Plan Maestro, al Plan Específico y a la zonificación, y de cuatro aprobaciones de subdivisión para el proyecto MHD C-R al norte de Byron Road (Resoluciones 2026-77 a 2026-85; aprobadas 4-0; ausente Su, titular de la alcaldía)."
+    },
+    "url": "https://pub-mountainhouse.escribemeetings.com/Meeting.aspx?Id=6f95c909-8cb7-458d-9c16-888e14e3a3bf&Agenda=PostMinutes&lang=English",
+    "date": "2026-08-26"
+   }
+  ],
+  "review": "reviewed",
+  "site": "https://ronnagreen.org/",
+  "site_src": "verified",
+  "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+  "sources_reviewed": [
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+    "title": "county roster, print date 8/20/2026, PDF page 15 of 24: designations, statement-filed dates, website/email fields"
+   },
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "title": "County Voter Information Guide; council sample ballot p.137 (BT 031); council statements p.576"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/445/November-3-2026-Candidate-Log",
+    "title": "city Candidate Log: papers pulled/filed, all six Qualified; lists no designations or websites"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)",
+    "title": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)",
+    "title": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)"
+   },
+   {
+    "url": "https://pub-mountainhouse.escribemeetings.com/?Year=2026",
+    "title": "city eScribe portal; minutes for 2026-04-29, 05-14, 05-27, 06-09, 07-22, 08-12, 08-26 read; meetings before May 2025 are not online per city; 9/9/2026 minutes not yet posted"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/county-certifies-2022-election-results/article_70c3eb6e-7742-11ed-8871-27b430b795a0.html",
+    "title": "Tracy Press, Dec 9, 2022, certified 2022 results"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/rickman-su-solidify-leads-in-local-election-results/article_758eebd0-e7d0-11ee-9917-3744ae15b170.html",
+    "title": "Tracy Press, Mar 22, 2024, March 2024 council results"
+   }
+  ],
+  "inc": "Incumbent",
+  "summary": null
+ },
+ "happygrewal": {
+  "bio": {
+   "en": "Challenger; filed for council in July 2026. Describes himself as a business owner and farmer (ballot designation).",
+   "es": "Aspirante; se postuló al concejo en julio de 2026. Se describe como empresario y agricultor (designación en la boleta)."
+  },
+  "cls": "b",
+  "desig": {
+   "en": "Business Owner/Farmer",
+   "es": "Empresario/Agricultor"
+  },
+  "party": "nonp",
+  "positions": [
+   {
+    "topic": "safety",
+    "kind": "stated",
+    "statement": {
+     "en": "Says he will work to strengthen public safety.",
+     "es": "Dice que trabajará para fortalecer la seguridad pública."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "community",
+    "kind": "stated",
+    "statement": {
+     "en": "Says he will expand opportunities for youth and invest in quality parks and community programs.",
+     "es": "Dice que ampliará las oportunidades para los jóvenes e invertirá en parques de calidad y programas comunitarios."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "growth",
+    "kind": "stated",
+    "statement": {
+     "en": "Says he supports thoughtful growth that preserves quality of life, with responsible planning and a clear vision.",
+     "es": "Dice que apoya un crecimiento reflexivo que preserve la calidad de vida, con planificación responsable y una visión clara."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "budget",
+    "kind": "stated",
+    "statement": {
+     "en": "Says he will protect taxpayer dollars and stresses accountability and fiscal responsibility, drawing on managing budgets as a business owner.",
+     "es": "Dice que protegerá el dinero de los contribuyentes y subraya la rendición de cuentas y la responsabilidad fiscal, apoyándose en su experiencia administrando presupuestos como dueño de un negocio."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   }
+  ],
+  "review": "reviewed",
+  "site": "https://happygrewal.pages.dev/",
+  "site_src": "verified",
+  "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+  "sources_reviewed": [
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+    "title": "county roster, print date 8/20/2026, PDF page 15 of 24: designations, statement-filed dates, website/email fields"
+   },
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "title": "County Voter Information Guide; council sample ballot p.137 (BT 031); council statements p.576"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/445/November-3-2026-Candidate-Log",
+    "title": "city Candidate Log: papers pulled/filed, all six Qualified; lists no designations or websites"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)",
+    "title": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)",
+    "title": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)"
+   },
+   {
+    "url": "https://pub-mountainhouse.escribemeetings.com/?Year=2026",
+    "title": "city eScribe portal; minutes for 2026-04-29, 05-14, 05-27, 06-09, 07-22, 08-12, 08-26 read; meetings before May 2025 are not online per city; 9/9/2026 minutes not yet posted"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/county-certifies-2022-election-results/article_70c3eb6e-7742-11ed-8871-27b430b795a0.html",
+    "title": "Tracy Press, Dec 9, 2022, certified 2022 results"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/rickman-su-solidify-leads-in-local-election-results/article_758eebd0-e7d0-11ee-9917-3744ae15b170.html",
+    "title": "Tracy Press, Mar 22, 2024, March 2024 council results"
+   }
+  ],
+  "summary": null
+ },
+ "arjunjuturu": {
+  "bio": {
+   "en": "Challenger; filed a county candidate statement (July 2026). Describes himself as an engineer with more than 20 years of experience and a business owner (self-reported).",
+   "es": "Aspirante; presentó una declaración de candidato al condado (julio de 2026). Se describe como ingeniero con más de 20 años de experiencia y empresario (autodeclarado)."
+  },
+  "cls": "c",
+  "desig": {
+   "en": "Engineer/Business Owner",
+   "es": "Ingeniero/Empresario"
+  },
+  "party": "nonp",
+  "review": "reviewed",
+  "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+  "site": null,
+  "positions": [
+   {
+    "topic": "budget",
+    "kind": "stated",
+    "statement": {
+     "en": "Says he will protect taxpayer dollars through balanced budgets and transparent contracts.",
+     "es": "Dice que protegerá el dinero de los contribuyentes mediante presupuestos equilibrados y contratos transparentes."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "growth",
+    "kind": "stated",
+    "statement": {
+     "en": "Says he supports responsible growth and economic development.",
+     "es": "Dice que apoya el crecimiento responsable y el desarrollo económico."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "water",
+    "kind": "stated",
+    "statement": {
+     "en": "Lists infrastructure, including water security, as a priority.",
+     "es": "Enumera la infraestructura, incluida la seguridad hídrica, como una prioridad."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "safety",
+    "kind": "stated",
+    "statement": {
+     "en": "Lists public safety and public schools as priorities and promises collaborative, accountable leadership.",
+     "es": "Enumera la seguridad pública y las escuelas públicas como prioridades y promete un liderazgo colaborativo y con rendición de cuentas."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "comment",
+    "kind": "record",
+    "statement": {
+     "en": "Spoke as a resident at the public hearing on the Grant Line Road Roundabouts EIR, saying roundabouts would not fix the traffic problem and signals should be considered. The council approved the project 5-0.",
+     "es": "Habló como residente en la audiencia pública sobre el informe de impacto ambiental (EIR) de las Rotondas de Grant Line Road, diciendo que las rotondas no resolverían el problema del tráfico y que se deberían considerar semáforos. El concejo aprobó el proyecto 5-0."
+    },
+    "url": "https://pub-mountainhouse.escribemeetings.com/Meeting.aspx?Id=e21c558a-0dca-46c3-97fa-f4e9b7e84696&Agenda=PostMinutes&lang=English",
+    "date": "2026-04-29"
+   },
+   {
+    "topic": "comment",
+    "kind": "record",
+    "statement": {
+     "en": "Spoke as a resident in favor of moving the pledged facilities debt service charge to the property tax bill, citing transparency and predictable payments.",
+     "es": "Habló como residente a favor de trasladar el cargo comprometido para el servicio de la deuda de las instalaciones a la factura del impuesto a la propiedad, citando transparencia y pagos predecibles."
+    },
+    "url": "https://pub-mountainhouse.escribemeetings.com/Meeting.aspx?Id=9ec7fc01-615a-450f-8376-b1d7df8f5073&Agenda=PostMinutes&lang=English",
+    "date": "2026-05-14"
+   },
+   {
+    "topic": "result",
+    "kind": "reporting",
+    "statement": {
+     "en": "Finished third of three in the 2022 Lammersville USD board race (1,549 votes, 19.23%), per certified results reported by Tracy Press.",
+     "es": "Quedó en tercer lugar entre tres en la contienda de 2022 por la junta del Lammersville USD (1,549 votos, 19.23%), según los resultados certificados reportados por Tracy Press."
+    },
+    "url": "https://www.ttownmedia.com/tracy_press/county-certifies-2022-election-results/article_70c3eb6e-7742-11ed-8871-27b430b795a0.html",
+    "date": "2022-12-09"
+   }
+  ],
+  "sources_reviewed": [
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+    "title": "county roster, print date 8/20/2026, PDF page 15 of 24: designations, statement-filed dates, website/email fields"
+   },
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "title": "County Voter Information Guide; council sample ballot p.137 (BT 031); council statements p.576"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/445/November-3-2026-Candidate-Log",
+    "title": "city Candidate Log: papers pulled/filed, all six Qualified; lists no designations or websites"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)",
+    "title": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)",
+    "title": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)"
+   },
+   {
+    "url": "https://pub-mountainhouse.escribemeetings.com/?Year=2026",
+    "title": "city eScribe portal; minutes for 2026-04-29, 05-14, 05-27, 06-09, 07-22, 08-12, 08-26 read; meetings before May 2025 are not online per city; 9/9/2026 minutes not yet posted"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/county-certifies-2022-election-results/article_70c3eb6e-7742-11ed-8871-27b430b795a0.html",
+    "title": "Tracy Press, Dec 9, 2022, certified 2022 results"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/rickman-su-solidify-leads-in-local-election-results/article_758eebd0-e7d0-11ee-9917-3744ae15b170.html",
+    "title": "Tracy Press, Mar 22, 2024, March 2024 council results"
+   }
+  ]
+ },
+ "nadershareghi": {
+  "bio": {
+   "en": "Former Mountain House CSD Public Works Director (2002–2024); before that a City of Stockton engineer from 1986 to 2002.",
+   "es": "Ex director de obras públicas del CSD de Mountain House (2002–2024); antes, ingeniero de la ciudad de Stockton de 1986 a 2002."
+  },
+  "cls": "d",
+  "desig": {
+   "en": "Engineer/Assistant Manager",
+   "es": "Ingeniero/Subgerente"
+  },
+  "party": "nonp",
+  "review": "reviewed",
+  "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+  "site": null,
+  "positions": [
+   {
+    "topic": "budget",
+    "kind": "stated",
+    "statement": {
+     "en": "Lists fiscal responsibility as a top priority.",
+     "es": "Enumera la responsabilidad fiscal como una de sus principales prioridades."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "growth",
+    "kind": "stated",
+    "statement": {
+     "en": "Says remaining development should be consistent with the Master Plan, citing his knowledge of the plan, development agreements, design standards and financing frameworks.",
+     "es": "Dice que el desarrollo restante debe ser coherente con el Plan Maestro, citando su conocimiento del plan, los acuerdos de desarrollo, las normas de diseño y los marcos de financiamiento."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "water",
+    "kind": "stated",
+    "statement": {
+     "en": "Says the city should secure backup and alternative water sources rather than depend on a single supply line.",
+     "es": "Dice que la ciudad debería asegurar fuentes de agua de respaldo y alternativas en lugar de depender de una sola línea de suministro."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "record",
+    "kind": "reporting",
+    "statement": {
+     "en": "Local reporting says the City Council presented him a Certificate of Appreciation at its Sept 11, 2024 meeting on his retirement as Public Works Director. (Council minutes before May 2025 are not online; not verified in minutes.)",
+     "es": "Según informes locales, el Concejo Municipal le entregó un Certificado de Agradecimiento en su reunión del 11 de sept. de 2024, con motivo de su jubilación como director de Obras Públicas. (Las actas del concejo anteriores a mayo de 2025 no están en línea; no se verificó en las actas.)"
+    },
+    "url": "https://www.mhmatters.net/pdf/2024/2409_MHMatters_126s.pdf",
+    "date": "2024-09-11"
+   }
+  ],
+  "sources_reviewed": [
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+    "title": "county roster, print date 8/20/2026, PDF page 15 of 24: designations, statement-filed dates, website/email fields"
+   },
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "title": "County Voter Information Guide; council sample ballot p.137 (BT 031); council statements p.576"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/445/November-3-2026-Candidate-Log",
+    "title": "city Candidate Log: papers pulled/filed, all six Qualified; lists no designations or websites"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)",
+    "title": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)",
+    "title": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)"
+   },
+   {
+    "url": "https://pub-mountainhouse.escribemeetings.com/?Year=2026",
+    "title": "city eScribe portal; minutes for 2026-04-29, 05-14, 05-27, 06-09, 07-22, 08-12, 08-26 read; meetings before May 2025 are not online per city; 9/9/2026 minutes not yet posted"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/county-certifies-2022-election-results/article_70c3eb6e-7742-11ed-8871-27b430b795a0.html",
+    "title": "Tracy Press, Dec 9, 2022, certified 2022 results"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/rickman-su-solidify-leads-in-local-election-results/article_758eebd0-e7d0-11ee-9917-3744ae15b170.html",
+    "title": "Tracy Press, Mar 22, 2024, March 2024 council results"
+   }
+  ]
+ },
+ "bernicekingtingle": {
+  "bio": {
+   "en": "Current council member. Elected to the original Mountain House CSD board in 2008 (board president for three terms); the city’s first Vice Mayor.",
+   "es": "Concejal actual. Elegida a la junta original del CSD de Mountain House en 2008 (presidenta de la junta por tres mandatos); primera vicealcaldesa de la ciudad."
+  },
+  "cls": "",
+  "desig": {
+   "en": "City of Mountain House Council Member",
+   "es": "Concejal de Mountain House"
+  },
+  "party": "nonp",
+  "review": "reviewed",
+  "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+  "site": null,
+  "positions": [
+   {
+    "topic": "growth",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she supports the City's Master Plan and wants housing and population growth aligned with it and its CC&Rs, while adapting to unanticipated modern challenges.",
+     "es": "Dice que apoya el Plan Maestro de la Ciudad y quiere que el crecimiento de la vivienda y la población esté alineado con este y con sus CC&Rs, adaptándose al mismo tiempo a desafíos modernos imprevistos."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "budget",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she advocates governance aligned with strategic plans and a balanced budget.",
+     "es": "Dice que aboga por una gobernanza alineada con los planes estratégicos y un presupuesto equilibrado."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "safety",
+    "kind": "stated",
+    "statement": {
+     "en": "Lists public safety, transportation and water among her governance priorities.",
+     "es": "Enumera la seguridad pública, el transporte y el agua entre sus prioridades de gobierno."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "other",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she supports intentional growth of commerce and recreation that reflects community values.",
+     "es": "Dice que apoya el crecimiento intencional del comercio y la recreación que refleje los valores de la comunidad."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 576). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 576). Autodeclarado."
+    }
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "Voted against Resolution 2026-76 authorizing special tax bonds for CFD 2024-1 Improvement Areas 8 and 13 (carried 3-1; she was the only 'Against'; Mayor Su absent).",
+     "es": "Votó en contra de la Resolución 2026-76, que autoriza bonos de impuestos especiales para las Áreas de Mejora 8 y 13 del CFD 2024-1 (aprobada 3-1; fue la única en contra ('Against'); ausente Su, titular de la alcaldía)."
+    },
+    "url": "https://pub-mountainhouse.escribemeetings.com/Meeting.aspx?Id=6f95c909-8cb7-458d-9c16-888e14e3a3bf&Agenda=PostMinutes&lang=English",
+    "date": "2026-08-26"
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "Voted for Resolution 2026-72 adding Section 5.16 'Political Activities of Council Members' to the Council Policies and Procedures (carried 4-1; Green against).",
+     "es": "Votó a favor de la Resolución 2026-72, que agrega la Sección 5.16 'Political Activities of Council Members' a las Políticas y Procedimientos del Concejo Municipal (aprobada 4-1; Green en contra)."
+    },
+    "url": "https://pub-mountainhouse.escribemeetings.com/Meeting.aspx?Id=ed351578-87fb-4e6d-bb48-d39712baf15f&Agenda=PostMinutes&lang=English",
+    "date": "2026-08-12"
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "Moved approval of the consent calendar, which included Resolution 2026-73 (Altamont Neighborhood Park playground purchase and installation, not to exceed $1,168,860.28); carried 4-0.",
+     "es": "Presentó la moción para aprobar la agenda de consentimiento, que incluía la Resolución 2026-73 (compra e instalación de juegos infantiles en el Altamont Neighborhood Park, por un monto máximo de $1,168,860.28); aprobada 4-0."
+    },
+    "url": "https://pub-mountainhouse.escribemeetings.com/Meeting.aspx?Id=6f95c909-8cb7-458d-9c16-888e14e3a3bf&Agenda=PostMinutes&lang=English",
+    "date": "2026-08-26"
+   }
+  ],
+  "sources_reviewed": [
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+    "title": "county roster, print date 8/20/2026, PDF page 15 of 24: designations, statement-filed dates, website/email fields"
+   },
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "title": "County Voter Information Guide; council sample ballot p.137 (BT 031); council statements p.576"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/445/November-3-2026-Candidate-Log",
+    "title": "city Candidate Log: papers pulled/filed, all six Qualified; lists no designations or websites"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)",
+    "title": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)",
+    "title": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)"
+   },
+   {
+    "url": "https://pub-mountainhouse.escribemeetings.com/?Year=2026",
+    "title": "city eScribe portal; minutes for 2026-04-29, 05-14, 05-27, 06-09, 07-22, 08-12, 08-26 read; meetings before May 2025 are not online per city; 9/9/2026 minutes not yet posted"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/county-certifies-2022-election-results/article_70c3eb6e-7742-11ed-8871-27b430b795a0.html",
+    "title": "Tracy Press, Dec 9, 2022, certified 2022 results"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/rickman-su-solidify-leads-in-local-election-results/article_758eebd0-e7d0-11ee-9917-3744ae15b170.html",
+    "title": "Tracy Press, Mar 22, 2024, March 2024 council results"
+   }
+  ],
+  "inc": "Incumbent"
+ },
+ "sureshvuyyuru": {
+  "bio": {
+   "en": "Challenger; ran for the Mountain House CSD board in 2022 and for city council in 2024. Describes himself as a parent, engineer and farmer (ballot designation).",
+   "es": "Aspirante; fue candidato a la junta del CSD de Mountain House en 2022 y al concejo en 2024. Se describe como padre, ingeniero y agricultor (designación en la boleta)."
+  },
+  "cls": "b",
+  "desig": {
+   "en": "Parent/Engineer/Farmer",
+   "es": "Padre/Ingeniero/Agricultor"
+  },
+  "party": "nonp",
+  "review": "none_found",
+  "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+  "site": null,
+  "positions": [
+   {
+    "topic": "comment",
+    "kind": "record",
+    "statement": {
+     "en": "Spoke as a resident in public comment asking for an update on the status of the Public Safety, Transportation, Recreation and Planning bodies and for residents to be included in public committees.",
+     "es": "Habló como residente en el comentario público pidiendo una actualización sobre el estado de los órganos de Seguridad Pública, Transporte, Recreación y Planificación, y que se incluya a los residentes en los comités públicos."
+    },
+    "url": "https://pub-mountainhouse.escribemeetings.com/Meeting.aspx?Id=6f95c909-8cb7-458d-9c16-888e14e3a3bf&Agenda=PostMinutes&lang=English",
+    "date": "2026-08-26"
+   },
+   {
+    "topic": "result",
+    "kind": "reporting",
+    "statement": {
+     "en": "Finished third of six in the 2022 Mountain House CSD board race (1,340 votes, 16.30%), per certified results reported by Tracy Press.",
+     "es": "Quedó en tercer lugar entre seis en la contienda de 2022 por la junta del CSD de Mountain House (1,340 votos, 16.30%), según los resultados certificados reportados por Tracy Press."
+    },
+    "url": "https://www.ttownmedia.com/tracy_press/county-certifies-2022-election-results/article_70c3eb6e-7742-11ed-8871-27b430b795a0.html",
+    "date": "2022-12-09"
+   }
+  ],
+  "sources_reviewed": [
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+    "title": "county roster, print date 8/20/2026, PDF page 15 of 24: designations, statement-filed dates, website/email fields"
+   },
+   {
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "title": "County Voter Information Guide; council sample ballot p.137 (BT 031); council statements p.576"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/445/November-3-2026-Candidate-Log",
+    "title": "city Candidate Log: papers pulled/filed, all six Qualified; lists no designations or websites"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)",
+    "title": "https://www.mountainhouseca.gov/government/board-of-directors and https://www.mountainhouseca.gov/178/City-Council (current council roster)"
+   },
+   {
+    "url": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)",
+    "title": "https://www.mountainhouseca.gov/m/directory/employee?eid=8 , https://www.mountainhouseca.gov/m/directory/employee?eid=7 , https://www.mountainhouseca.gov/m/newsflash/Home/Detail/74 (city bios and news)"
+   },
+   {
+    "url": "https://pub-mountainhouse.escribemeetings.com/?Year=2026",
+    "title": "city eScribe portal; minutes for 2026-04-29, 05-14, 05-27, 06-09, 07-22, 08-12, 08-26 read; meetings before May 2025 are not online per city; 9/9/2026 minutes not yet posted"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/county-certifies-2022-election-results/article_70c3eb6e-7742-11ed-8871-27b430b795a0.html",
+    "title": "Tracy Press, Dec 9, 2022, certified 2022 results"
+   },
+   {
+    "url": "https://www.ttownmedia.com/tracy_press/rickman-su-solidify-leads-in-local-election-results/article_758eebd0-e7d0-11ee-9917-3744ae15b170.html",
+    "title": "Tracy Press, Mar 22, 2024, March 2024 council results"
+   }
+  ],
+  "site_note": {
+   "en": "No live campaign website was found (his 2024 site is no longer registered).",
+   "es": "No se encontró un sitio de campaña activo (su sitio de 2024 ya no está registrado)."
+  }
+ },
+ "vanithadaniel": {
+  "bio": {
+   "en": "Current LUSD trustee: appointed June 5, 2021 to fill an unexpired term, then elected in November 2022 (term through Dec 2026). Describes herself as an educator and a mother of two former LUSD students.",
+   "es": "Miembro actual de la junta del LUSD: nombrada el 5 de junio de 2021 para completar un mandato y elegida en noviembre de 2022 (mandato hasta dic. 2026). Se describe como educadora y madre de dos exalumnos del LUSD."
+  },
+  "desig": {
+   "en": "Mother/Educator/Entrepreneur",
+   "es": "Madre/Educadora/Emprendedora"
+  },
+  "cls": "c",
+  "inc": "Incumbent",
+  "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+  "site": null,
+  "site_note": {
+   "en": "The county roster lists no website for this candidate.",
+   "es": "La lista del condado no indica un sitio web para esta candidata."
+  },
+  "review": "reviewed",
+  "positions": [
+   {
+    "topic": "education",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she is committed to academic excellence and that state test scores in English, science and math improved during her service. (Score claim is hers; not checked here.)",
+     "es": "Dice que está comprometida con la excelencia académica y que los resultados estatales en inglés, ciencias y matemáticas mejoraron durante su servicio. (La afirmación es suya; no se verificó aquí.)"
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 556). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 556). Autodeclarado."
+    }
+   },
+   {
+    "topic": "education",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she is committed to student wellness and safe, inclusive schools, citing the district’s Wellness Center and EPIC Academy Golden Bell Awards.",
+     "es": "Dice que está comprometida con el bienestar estudiantil y escuelas seguras e inclusivas, citando el Centro de Bienestar del distrito y los premios Golden Bell de EPIC Academy."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 556). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 556). Autodeclarado."
+    }
+   },
+   {
+    "topic": "education",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she is committed to supporting educators.",
+     "es": "Dice que está comprometida con apoyar a los educadores."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 556). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 556). Autodeclarado."
+    }
+   },
+   {
+    "topic": "budget",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she is committed to fiscal responsibility and to expanding opportunities for every student as the district grows.",
+     "es": "Dice que está comprometida con la responsabilidad fiscal y con ampliar oportunidades para cada estudiante a medida que crece el distrito."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 556). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 556). Autodeclarado."
+    }
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "Appointed to an at-large seat for an unexpired term in June 2021; won the seat in the November 2022 election.",
+     "es": "Nombrada a un escaño general para un mandato incompleto en junio de 2021; ganó el escaño en la elección de noviembre de 2022."
+    },
+    "url": "https://www.lammersvilleschooldistrict.net/apps/pages/index.jsp?uREC_ID=1245514&type=d&pREC_ID=1471665",
+    "date": "2021-06-05"
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "At the annual reorganization she was nominated for board clerk; the board elected Olsen 3–1–1 and Daniel abstained.",
+     "es": "En la reorganización anual fue nominada para secretaria; la junta eligió a Olsen 3–1–1 y Daniel se abstuvo."
+    },
+    "url": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030157&MID=44777&Tab=Minutes",
+    "date": "2025-12-17"
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "Voted yes on a four-year contract extension for the superintendent (July 2026–June 2030); carried 5–0.",
+     "es": "Votó a favor de una extensión de contrato de cuatro años para el superintendente (julio 2026–junio 2030); aprobada 5–0."
+    },
+    "url": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030157&MID=51185&Tab=Minutes",
+    "date": "2026-06-17"
+   }
+  ],
+  "sources_reviewed": [
+   {
+    "title": "County Local Candidate Roster (Aug 20, 2026), p. 6",
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf"
+   },
+   {
+    "title": "County Voter Information Guide, Nov 3, 2026 (candidate statements, p. 556)",
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf"
+   },
+   {
+    "title": "LUSD Governing Board page",
+    "url": "https://www.lammersvilleschooldistrict.net/apps/pages/index.jsp?uREC_ID=1245514&type=d&pREC_ID=1471665"
+   },
+   {
+    "title": "LUSD board meeting minutes (Simbli)",
+    "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030157"
+   }
+  ]
+ },
+ "stephanieolsen": {
+  "bio": {
+   "en": "Current LUSD trustee: served a prior term (Dec 2020–Dec 2024; board president in 2024), then appointed on Nov 13, 2024 to an at-large seat running through Dec 2026. Board clerk for 2026. Attorney admitted to the State Bar of California in 2024, practicing education law.",
+   "es": "Miembro actual de la junta del LUSD: cumplió un mandato previo (dic. 2020–dic. 2024; presidenta en 2024) y fue nombrada el 13 de nov. de 2024 a un escaño general hasta dic. 2026. Secretaria de la junta en 2026. Abogada admitida al Colegio de Abogados de California en 2024, especializada en derecho educativo."
+  },
+  "desig": {
+   "en": "Education Attorney/Parent",
+   "es": "Abogada de educación/Madre"
+  },
+  "cls": "d",
+  "inc": "Incumbent",
+  "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf",
+  "site": null,
+  "site_note": {
+   "en": "The county roster lists olsen4area4.com, which did not resolve when checked on Oct 8, 2026.",
+   "es": "La lista del condado indica olsen4area4.com, que no respondía al verificarlo el 8 de octubre de 2026."
+  },
+  "review": "reviewed",
+  "positions": [
+   {
+    "topic": "education",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she is a credentialed special education teacher, was chief negotiator for her local teachers’ union, and is now an education law attorney.",
+     "es": "Dice que es maestra acreditada de educación especial, fue negociadora principal de su sindicato local de maestros y ahora es abogada de derecho educativo."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 556). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 556). Autodeclarado."
+    }
+   },
+   {
+    "topic": "community",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she has given almost two decades of service in Mountain House, including as Questa PTO president, athletic boosters president, and in youth league and swim club roles.",
+     "es": "Dice que ha dado casi dos décadas de servicio en Mountain House, incluso como presidenta del PTO de Questa, presidenta de boosters deportivos y en ligas juveniles y el club de natación."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 556). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 556). Autodeclarado."
+    }
+   },
+   {
+    "topic": "education",
+    "kind": "stated",
+    "statement": {
+     "en": "Says she addresses student needs through service on the wellness, safety, policy, English-learner and facilities committees. (Dec 2025 minutes list her on the DELAC, Facilities and Safety committees.)",
+     "es": "Dice que atiende las necesidades estudiantiles mediante los comités de bienestar, seguridad, políticas, aprendices de inglés e instalaciones. (Las actas de dic. 2025 la listan en los comités DELAC, Instalaciones y Seguridad.)"
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 556). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 556). Autodeclarado."
+    }
+   },
+   {
+    "topic": "education",
+    "kind": "stated",
+    "statement": {
+     "en": "Says the district won three Golden Bell Awards and was recognized for student achievement during her tenure, and that she wants to continue in the role. Her statement does not list policy goals beyond continuing her work.",
+     "es": "Dice que el distrito ganó tres premios Golden Bell y fue reconocido por el logro estudiantil durante su mandato, y que quiere continuar en el cargo. Su declaración no enumera metas de política más allá de continuar su trabajo."
+    },
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf",
+    "date": "2026-09-11",
+    "context": {
+     "en": "Official candidate statement, San Joaquin County Voter Information Guide for Nov 3, 2026 (PDF p. 556). Self-reported.",
+     "es": "Declaración oficial del candidato, Guía de Información para el Votante del condado de San Joaquin, 3 de nov. de 2026 (PDF p. 556). Autodeclarado."
+    }
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "Appointed by the board (3–0) to the provisional at-large seat through December 2026, effective Dec 18, 2024.",
+     "es": "Nombrada por la junta (3–0) al escaño provisional general hasta diciembre de 2026, a partir del 18 de dic. de 2024."
+    },
+    "url": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030157&MID=34624&Tab=Minutes",
+    "date": "2024-11-13"
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "Elected board clerk for 2026 at the annual reorganization: 3 ayes, 1 nay, 1 abstention.",
+     "es": "Elegida secretaria de la junta para 2026 en la reorganización anual: 3 a favor, 1 en contra, 1 abstención."
+    },
+    "url": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030157&MID=44777&Tab=Minutes",
+    "date": "2025-12-17"
+   },
+   {
+    "topic": "record",
+    "kind": "record",
+    "statement": {
+     "en": "Moved approval of a four-year contract extension for the superintendent (July 2026–June 2030); carried 5–0.",
+     "es": "Propuso aprobar una extensión de contrato de cuatro años para el superintendente (julio 2026–junio 2030); aprobada 5–0."
+    },
+    "url": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030157&MID=51185&Tab=Minutes",
+    "date": "2026-06-17"
+   }
+  ],
+  "sources_reviewed": [
+   {
+    "title": "County Local Candidate Roster (Aug 20, 2026), p. 6",
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/candidate-roster-(35).pdf"
+   },
+   {
+    "title": "County Voter Information Guide, Nov 3, 2026 (candidate statements, p. 556)",
+    "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/sj-composite-eng-(1).pdf"
+   },
+   {
+    "title": "LUSD Governing Board page",
+    "url": "https://www.lammersvilleschooldistrict.net/apps/pages/index.jsp?uREC_ID=1245514&type=d&pREC_ID=1471665"
+   },
+   {
+    "title": "State Bar of California licensee record",
+    "url": "https://apps.calbar.ca.gov/attorney/Licensee/Detail/360238"
+   },
+   {
+    "title": "LUSD board meeting minutes (Simbli)",
+    "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030157"
+   }
+  ]
+ }
+}

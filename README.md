@@ -12,7 +12,7 @@ Only 23% of voters aged 18–29 turned out in the 2022 midterms. The reason usua
 
 **Live demo:** https://seelamrdheeraj.github.io/ballot-buddy/
 
-Enter ZIP **95391** (Mountain House, California) to see a complete November 3, 2026 ballot, or try any ZIP to see your U.S. House race pulled live from the Federal Election Commission.
+Enter any ZIP in **San Joaquin County or Alameda County, California** (for example **95391**, Mountain House, or **94601**, Oakland) to see every contest on the November 3, 2026 ballot there, from Governor down to school boards and special districts, with the county's own dates and official links. Any other U.S. ZIP shows the statewide races and the U.S. House race pulled live from the Federal Election Commission.
 
 On a phone, open that link and tap **Share → Add to Home Screen** (iPhone) or **menu → Install app** (Android). It runs full screen, like a native app.
 
@@ -41,7 +41,8 @@ Every state on the November 3, 2026 ballot, verified against official sources as
 | **U.S. Senate** | All **35** races — the 33 Class 2 seats plus the Florida and Ohio specials |
 | **U.S. House** | Any district, live from the FEC |
 | **Statewide measures** | All **50** states checked: **145 measures across 39 states**, and 11 states confirmed to have none |
-| **Local races** | Mountain House and Tracy, California |
+| **California statewide** | Governor plus Lieutenant Governor, Secretary of State, Controller, Treasurer, Attorney General, Insurance Commissioner, Superintendent of Public Instruction, Board of Equalization, and the Supreme Court and Court of Appeal retention questions, from the Secretary of State's certified list |
+| **Local races** | **San Joaquin County** (55 contests, 131 candidates, 4 local measures) and **Alameda County** (106 contests, 279 candidates, 28 local measures): every city, school, college, special-district, Assembly, Senate and House contest on each county's November 3, 2026 ballot, from the county Registrars' official lists |
 
 The 11 states with no statewide measures this year are Connecticut, Delaware, Illinois, Maine, Mississippi, New Jersey, New York, Oregon, Pennsylvania, South Carolina, and Texas. The app says "no statewide measures on your ballot" there — and says something different, on purpose, if a state were ever left unverified.
 
@@ -57,7 +58,11 @@ Every candidate, measure, and date traces back to a source. Nothing is invented.
 | U.S. House candidates (any district) | Federal Election Commission public API, live |
 | California Governor and CA-9 House candidates | CA Secretary of State certified list (Aug 27, 2026) |
 | Governor and U.S. Senate candidates in every other state | Each state's Secretary of State or election-division certified candidate list |
-| Candidate positions | Each candidate's own campaign website or official county statement, with a link on every position |
+| San Joaquin and Alameda County contests and measures | San Joaquin County Registrar of Voters (Local Candidate Roster, Aug 20, 2026; County Voter Information Guide sample ballots) and Alameda County Registrar of Voters (Candidate List, Measures list, County Voter Information Guide) |
+| Candidate websites | Only as printed on the Secretary of State's Official Candidate Contact List or the county's candidate list, or verified by us as belonging to that candidate for that race. Otherwise the app says no verified website was found. It never guesses an address. |
+| Candidate positions | Each candidate's own campaign website or official candidate statement, with a link, date and context on every position, labelled "Candidate's stated position". Board and roll-call votes are labelled "Public record" and link to the minutes or roll call. |
+| What each office does | Plain-language descriptions, each citing an official or civic source (state, county, city, school-board association) |
+| ZIP → county, city, Assembly and Senate districts | U.S. Census Bureau 2020 ZCTA relationship files (county, place, 2021 legislative districts); ZIPs that span districts ask the voter to pick |
 | Statewide ballot measures | Each state's official ballot-measure page, voter guide, and legislative fiscal note |
 | California propositions | Official Voter Information Guide (certified Aug 10, 2026) and the Legislative Analyst's Office |
 | Deadlines | CA Secretary of State and the San Joaquin County Registrar of Voters |
@@ -76,10 +81,13 @@ Stated honestly here, and flagged inside the app too.
 
 - **FEC data lists everyone who filed**, including candidates who lost their primary. The app says so. Your state's certified list is the final word.
 - **Six states redrew districts for 2026** (CA, TX, MO, NC, OH, UT). The Census table reflects the older map, so the app shows a warning in those states. Mountain House and Tracy are verified against the new California map.
-- **Six Mountain House candidates have no published positions yet.** Their official statements arrive with the county Voter Guide mailed by October 5, 2026.
+- **Positions are loaded for a small set of candidates.** Governor, U.S. House CA-9, Assembly District 13, Mountain House City Council and Lammersville USD Trustee Area 4 have sourced positions. Every other candidate in both counties shows name, party where the office is partisan, ballot designation, incumbency where the county printed it, and a website only where an official list printed one. Those candidates are marked **Not yet reviewed**, with a link to the official list. Nothing is inferred from social media.
+- **Your exact districts need your address.** A ZIP can span several Assembly, Senate, supervisor, school or special districts. The app shows the ones your ZIP touches, asks you to pick where it can, and puts the rest under **Districts to confirm** with a link to your county's own lookup tool. In San Joaquin County, the county's ballot-style table is used to hide districts that never share a ballot with your city.
+- **Mountain House (95391) is placed in San Joaquin County by rule.** The Census ZIP area is mostly unpopulated Alameda County hills; the community itself is in San Joaquin County, so the app uses that.
 - **Vote records** are loaded for Josh Harder and Rhodesia Ransom, the two officials Mountain House voters can follow today. Other officials show promises and links until their records are compiled.
 - **Spanish covers the app itself and the California ballot.** Buttons, labels, and every California candidate and proposition are translated. Candidate and measure text for other states is currently English only, so in Spanish mode you'll see Spanish around English content there.
-- **California's down-ballot statewide offices aren't loaded** — Lieutenant Governor, Attorney General, Secretary of State, Controller, Treasurer, Insurance Commissioner, Board of Equalization, and judicial retention. The app says so on the Candidates screen.
+- **Two candidate websites printed on official lists did not resolve when checked on October 8, 2026** (Stephanie Olsen's olsen4area4.com and Tom Patti's TomPatti13.com). The app says so rather than linking to a dead or unrelated page.
+- **Assembly District 13 candidate Tom Patti's positions come from his official candidate statement in the June 2026 primary guide**, because no live campaign site could be verified.
 - **A few measure details are still unconfirmed**, and each says so where it appears. Ohio's Secretary of State blocked automated reading, so Issue 3 carries a notice that its exact certified wording wasn't verified. Rhode Island's five bond questions aren't numbered yet, so they're listed by name. Louisiana's amendment numbering comes from two news listings that agree, not from the state. Every one of these is recorded in `research/` with the reason.
 - **Notifications** on a static site can't push to a locked phone. Calendar export gives you a real alert instead.
 - **BallotBot** answers from built-in responses unless the app is opened through Claude, which supplies live AI answers.
@@ -120,7 +128,8 @@ Options, as environment variables or lines in `.env`: `PORT` (default 8765), `BI
 | File | What it is |
 |---|---|
 | `ballot-buddy-app.html` | The app. Single file, vanilla JavaScript. |
-| `data/ballot-2026.json` | Verified candidates, measures, deadlines, and official links. |
+| `data/ballot-2026.json` | Verified candidates, measures, deadlines, official links, office descriptions and the ZIP table for the two covered counties. |
+| `data/local/*.json` | One file per covered county (contests, candidates, local measures, dates, links, ballot styles), fetched when a voter's ZIP is in that county. |
 | `data/zip-cd.json` | ZIP code to congressional district table (33,000 ZIPs). |
 | `data/reps.json` | Followed officials: promises, links, vote records. |
 | `ballot-buddy-site.html` | Marketing website for the venture. |
@@ -134,7 +143,8 @@ Options, as environment variables or lines in `.env`: `PORT` (default 8765), `BI
 | `.env.example` | Template for `.env`, which holds the admin password. |
 | `index.html` | Redirects to the app so a bare URL opens it. |
 | `icon.png`, `manifest.json` | Home-screen icon and install settings. |
-| `research/` | The raw, sourced research each data file was built from. |
+| `research/` | The raw, sourced research each data file was built from. `counties/` holds each county Registrar's lists, `sos_certified.json` the state certified list, `offices.json` the office descriptions, `zips_local.json` the ZIP table, and `local_curated.json` the sourced bios, positions and verified websites. |
+| `tools/counties.py` | Normalizes the county and state lists into the app's shape (used by `build.py`). |
 | `tools/build.py` | Merges `research/` into `data/`. Run it after adding research. |
 | `tools/validate.py` | Checks the merged data for missing sources, empty fields, and bad dates. |
 | `NOTES.md` | Build notes, data pipeline, version history. |
@@ -145,7 +155,7 @@ Options, as environment variables or lines in `.env`: `PORT` (default 8765), `BI
 python3 tools/build.py && python3 tools/validate.py
 ```
 
-`build.py` rebuilds `data/ballot-2026.json` and `data/reps.json` from everything in `research/`, and refreshes the California seed embedded in the app so ZIP 95391 works even if the data fetch fails. `validate.py` exits non-zero if anything is broken, so it can gate a deploy.
+`build.py` rebuilds `data/ballot-2026.json`, `data/local/*.json` and `data/reps.json` from everything in `research/`, and refreshes the California seed embedded in the app (statewide races, ZIP table, office descriptions) so the app renders even if a data fetch fails; county contests load from `data/local/`. `validate.py` checks every candidate for an official source, every website for a scheme and an official or verified origin, and every position for a source link, and exits non-zero if anything is broken, so it can gate a deploy.
 
 ---
 
@@ -185,4 +195,4 @@ Contact: contact@ballotbuddyapp.com · Instagram: @BallotBuddy
 
 ---
 
-*Ballot data verified September 18–22, 2026.*
+*Statewide data verified September 18–22, 2026; San Joaquin and Alameda County data verified against the county Registrars' lists on October 8, 2026.*

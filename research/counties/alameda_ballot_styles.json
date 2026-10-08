@@ -1,0 +1,3801 @@
+{
+ "src": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf (pdf pages 40-631 = sample ballots; ballot type printed in each page footer as \"BT<n>\")",
+ "note": "The county Composite VIG prints one bilingual (English/Spanish) sample ballot per ballot type: 46 ballot types, labeled BT1..BT263 (numbers are not contiguous). Each ballot type occupies 12 consecutive PDF pages (Cards A, B, C front and back plus blanks) or 16 pages when it has a ranked-choice card (Albany, Berkeley, Oakland). The first page of each group lacks the BT footer but starts the group; page groups are contiguous. Each footer also prints a 6-digit number (e.g., \"475700 (0361) - BT1\") that is the Precinct_ID of a Nov 3 2026 consolidated precinct in the county GIS layer (all 46 verified among the 627 precincts); I treat it as the representative precinct the sample ballot was generated for. Contest_ids are county_race_id values from contests.json. Contests were assigned to a ballot type when ALL of the contest's qualified candidates' names appear in that ballot type's decoded page text (the sample-ballot text uses an obfuscated font; fallback by surname for two accented-name contests); measures were assigned by matching the county question text. All 9 statewide offices, exactly 1 US House and 1 Assembly contest appear on every ballot type, State Senate (10th District) on 17 of 46, and RCV contests appear exactly on the 10 types that have an RCV card. All 28 measures were found. The VIG and the county pages I checked do NOT map ballot types to cities, areas, or precincts, so `areas` is empty for every type. As hints only, `areas_derived_from_contents` and `districts_derived_from_contents` list jurisdictions/districts of the contests and measures printed on that ballot (derived, not county-stated), and `sample_precinct_gis` gives the city(ies) for the single sample precinct from the county ROV city-boundary and precinct GIS layers (a hint for that one precinct, not a coverage list). Unplaced: contest 28 (Peralta CCD Trustee Area 1 Short Term) is on no ballot type. Measure RTM (regional) is printed on all 46 types. Judicial retention items (Supreme Court and First District Court of Appeal) and state propositions are identical on all ballot types and are not in contest_ids.",
+ "ballot_style_count": 46,
+ "measure_universe": {
+  "RTM_on_all": true,
+  "note": "RTM is the regional transit measure; others are local."
+ },
+ "unplaced_contest_ids": [
+  "28"
+ ],
+ "statewide_contest_ids_on_every_type": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "19"
+ ],
+ "contest_index": {
+  "1": {
+   "office": "Governor",
+   "jurisdiction": "State of California",
+   "jurisdiction_type": "statewide",
+   "district": null
+  },
+  "2": {
+   "office": "Lieutenant Governor",
+   "jurisdiction": "State of California",
+   "jurisdiction_type": "statewide",
+   "district": null
+  },
+  "3": {
+   "office": "Secretary Of State",
+   "jurisdiction": "State of California",
+   "jurisdiction_type": "statewide",
+   "district": null
+  },
+  "4": {
+   "office": "Controller",
+   "jurisdiction": "State of California",
+   "jurisdiction_type": "statewide",
+   "district": null
+  },
+  "5": {
+   "office": "Treasurer",
+   "jurisdiction": "State of California",
+   "jurisdiction_type": "statewide",
+   "district": null
+  },
+  "6": {
+   "office": "Attorney General",
+   "jurisdiction": "State of California",
+   "jurisdiction_type": "statewide",
+   "district": null
+  },
+  "7": {
+   "office": "Insurance Commissioner",
+   "jurisdiction": "State of California",
+   "jurisdiction_type": "statewide",
+   "district": null
+  },
+  "8": {
+   "office": "Member, State Board Of Equalization, 2nd District",
+   "jurisdiction": "State of California",
+   "jurisdiction_type": "statewide",
+   "district": "2"
+  },
+  "9": {
+   "office": "10th Congressional District",
+   "jurisdiction": "United States House of Representatives",
+   "jurisdiction_type": "us_house",
+   "district": "10"
+  },
+  "10": {
+   "office": "12th Congressional District",
+   "jurisdiction": "United States House of Representatives",
+   "jurisdiction_type": "us_house",
+   "district": "12"
+  },
+  "11": {
+   "office": "14th Congressional District",
+   "jurisdiction": "United States House of Representatives",
+   "jurisdiction_type": "us_house",
+   "district": "14"
+  },
+  "12": {
+   "office": "17th Congressional District",
+   "jurisdiction": "United States House of Representatives",
+   "jurisdiction_type": "us_house",
+   "district": "17"
+  },
+  "13": {
+   "office": "10th State Senate District",
+   "jurisdiction": "California State Senate",
+   "jurisdiction_type": "state_senate",
+   "district": "10"
+  },
+  "14": {
+   "office": "14th Assembly District",
+   "jurisdiction": "California State Assembly",
+   "jurisdiction_type": "assembly",
+   "district": "14"
+  },
+  "15": {
+   "office": "16th Assembly District",
+   "jurisdiction": "California State Assembly",
+   "jurisdiction_type": "assembly",
+   "district": "16"
+  },
+  "16": {
+   "office": "18th Assembly District",
+   "jurisdiction": "California State Assembly",
+   "jurisdiction_type": "assembly",
+   "district": "18"
+  },
+  "17": {
+   "office": "20th Assembly District",
+   "jurisdiction": "California State Assembly",
+   "jurisdiction_type": "assembly",
+   "district": "20"
+  },
+  "18": {
+   "office": "24th Assembly District",
+   "jurisdiction": "California State Assembly",
+   "jurisdiction_type": "assembly",
+   "district": "24"
+  },
+  "19": {
+   "office": "State Superintendent Of Public Instruction",
+   "jurisdiction": "State of California",
+   "jurisdiction_type": "statewide",
+   "district": null
+  },
+  "23": {
+   "office": "Ohlone Community College District Trustee, Area 6",
+   "jurisdiction": "Ohlone Community College District",
+   "jurisdiction_type": "college",
+   "district": "6"
+  },
+  "25": {
+   "office": "Chabot - Las Positas Community College District Trustee, Area 2",
+   "jurisdiction": "Chabot - Las Positas Community College District",
+   "jurisdiction_type": "college",
+   "district": "2"
+  },
+  "26": {
+   "office": "Chabot - Las Positas Community College District Trustee, Area 3",
+   "jurisdiction": "Chabot - Las Positas Community College District",
+   "jurisdiction_type": "college",
+   "district": "3"
+  },
+  "27": {
+   "office": "Chabot - Las Positas Community College District Trustee, Area 6",
+   "jurisdiction": "Chabot - Las Positas Community College District",
+   "jurisdiction_type": "college",
+   "district": "6"
+  },
+  "28": {
+   "office": "Peralta Community College District Trustee, Area 1, Short Term",
+   "jurisdiction": "Peralta Community College District",
+   "jurisdiction_type": "college",
+   "district": "1"
+  },
+  "30": {
+   "office": "Peralta Community College District Trustee, Area 5",
+   "jurisdiction": "Peralta Community College District",
+   "jurisdiction_type": "college",
+   "district": "5"
+  },
+  "32": {
+   "office": "Alameda Unified School District Governing Board Member, Full Term",
+   "jurisdiction": "Alameda Unified School District",
+   "jurisdiction_type": "school",
+   "district": null
+  },
+  "34": {
+   "office": "Castro Valley Unified School District Governing Board Member, Area 2, Short Term",
+   "jurisdiction": "Castro Valley Unified School District",
+   "jurisdiction_type": "school",
+   "district": "2"
+  },
+  "35": {
+   "office": "Castro Valley Unified School District Governing Board Member, Area 3",
+   "jurisdiction": "Castro Valley Unified School District",
+   "jurisdiction_type": "school",
+   "district": "3"
+  },
+  "36": {
+   "office": "Castro Valley Unified School District Governing Board Member, Area 4",
+   "jurisdiction": "Castro Valley Unified School District",
+   "jurisdiction_type": "school",
+   "district": "4"
+  },
+  "38": {
+   "office": "Dublin Unified School District Governing Board Members, Area 3, Short Term",
+   "jurisdiction": "Dublin Unified School District",
+   "jurisdiction_type": "school",
+   "district": "3"
+  },
+  "39": {
+   "office": "Dublin Unified School District Governing Board Members, Area 5",
+   "jurisdiction": "Dublin Unified School District",
+   "jurisdiction_type": "school",
+   "district": "5"
+  },
+  "40": {
+   "office": "Emery Unified School District Governing Board Members",
+   "jurisdiction": "Emery Unified School District",
+   "jurisdiction_type": "school",
+   "district": null
+  },
+  "43": {
+   "office": "Hayward Unified School District Governing Board Member, Area 2",
+   "jurisdiction": "Hayward Unified School District",
+   "jurisdiction_type": "school",
+   "district": "2"
+  },
+  "44": {
+   "office": "Hayward Unified School District Governing Board Member, Area 4",
+   "jurisdiction": "Hayward Unified School District",
+   "jurisdiction_type": "school",
+   "district": "4"
+  },
+  "83": {
+   "office": "Livermore Valley Joint Unified School District Governing Board Member, Area #2",
+   "jurisdiction": "Livermore Valley Joint Unified School District",
+   "jurisdiction_type": "school",
+   "district": "2"
+  },
+  "84": {
+   "office": "Livermore Valley Joint Unified School District Governing Board Member, Area #3",
+   "jurisdiction": "Livermore Valley Joint Unified School District",
+   "jurisdiction_type": "school",
+   "district": "3"
+  },
+  "85": {
+   "office": "Livermore Valley Joint Unified School District Governing Board Member, Area #5",
+   "jurisdiction": "Livermore Valley Joint Unified School District",
+   "jurisdiction_type": "school",
+   "district": "5"
+  },
+  "46": {
+   "office": "New Haven Unified School District Governing Board Member, Area 4",
+   "jurisdiction": "New Haven Unified School District",
+   "jurisdiction_type": "school",
+   "district": "4"
+  },
+  "47": {
+   "office": "New Haven Unified School District Governing Board Member, Area 5",
+   "jurisdiction": "New Haven Unified School District",
+   "jurisdiction_type": "school",
+   "district": "5"
+  },
+  "50": {
+   "office": "Pleasanton Unified School District Governing Board Member, Area 5",
+   "jurisdiction": "Pleasanton Unified School District",
+   "jurisdiction_type": "school",
+   "district": "5"
+  },
+  "56": {
+   "office": "Sunol Glen Unified School District Governing Board Member",
+   "jurisdiction": "Sunol Glen Unified School District",
+   "jurisdiction_type": "school",
+   "district": null
+  },
+  "89": {
+   "office": "For Mayor, Alameda",
+   "jurisdiction": "City of Alameda",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "90": {
+   "office": "For Members of City Council, Alameda",
+   "jurisdiction": "City of Alameda",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "93": {
+   "office": "For Rent Stabilization Board Commissioners, Berkeley",
+   "jurisdiction": "City of Berkeley",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "94": {
+   "office": "For School Directors, Berkeley",
+   "jurisdiction": "City of Berkeley",
+   "jurisdiction_type": "school",
+   "district": null
+  },
+  "112": {
+   "office": "For Mayor, Dublin",
+   "jurisdiction": "City of Dublin",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "113": {
+   "office": "For Members Of City Council #2, Dublin",
+   "jurisdiction": "City of Dublin",
+   "jurisdiction_type": "city",
+   "district": "2"
+  },
+  "114": {
+   "office": "For Members Of City Council #4, Dublin",
+   "jurisdiction": "City of Dublin",
+   "jurisdiction_type": "city",
+   "district": "4"
+  },
+  "96": {
+   "office": "For Members of City Council, Emeryville",
+   "jurisdiction": "City of Emeryville",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "115": {
+   "office": "For Member Of City Council #2, Fremont",
+   "jurisdiction": "City of Fremont",
+   "jurisdiction_type": "city",
+   "district": "2"
+  },
+  "116": {
+   "office": "For Member Of City Council #3, Fremont",
+   "jurisdiction": "City of Fremont",
+   "jurisdiction_type": "city",
+   "district": "3"
+  },
+  "117": {
+   "office": "For Member Of City Council #4, Fremont",
+   "jurisdiction": "City of Fremont",
+   "jurisdiction_type": "city",
+   "district": "4"
+  },
+  "97": {
+   "office": "For Mayor, Hayward",
+   "jurisdiction": "City of Hayward",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "137": {
+   "office": "For Members Of City Council District #1, Hayward",
+   "jurisdiction": "City of Hayward",
+   "jurisdiction_type": "city",
+   "district": "1"
+  },
+  "138": {
+   "office": "For Members Of City Council District #6, Hayward",
+   "jurisdiction": "City of Hayward",
+   "jurisdiction_type": "city",
+   "district": "6"
+  },
+  "120": {
+   "office": "For Member Of City Council #2, Livermore",
+   "jurisdiction": "City of Livermore",
+   "jurisdiction_type": "city",
+   "district": "2"
+  },
+  "99": {
+   "office": "For Mayor, Newark",
+   "jurisdiction": "City of Newark",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "100": {
+   "office": "For Members Of City Council, Newark",
+   "jurisdiction": "City of Newark",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "106": {
+   "office": "For Members of City Council, Piedmont",
+   "jurisdiction": "City of Piedmont",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "104": {
+   "office": "For Mayor, Pleasanton",
+   "jurisdiction": "City of Pleasanton",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "129": {
+   "office": "For Members Of City Council #1, Pleasanton",
+   "jurisdiction": "City of Pleasanton",
+   "jurisdiction_type": "city",
+   "district": "1"
+  },
+  "130": {
+   "office": "For Members Of City Council #3, Pleasanton",
+   "jurisdiction": "City of Pleasanton",
+   "jurisdiction_type": "city",
+   "district": "3"
+  },
+  "124": {
+   "office": "For Mayor, San Leandro",
+   "jurisdiction": "City of San Leandro",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "125": {
+   "office": "For Member Of City Council #1, San Leandro",
+   "jurisdiction": "City of San Leandro",
+   "jurisdiction_type": "city",
+   "district": "1"
+  },
+  "126": {
+   "office": "For Member Of City Council #2, San Leandro - Short Term",
+   "jurisdiction": "City of San Leandro",
+   "jurisdiction_type": "city",
+   "district": "2"
+  },
+  "127": {
+   "office": "For Member Of City Council #3, San Leandro",
+   "jurisdiction": "City of San Leandro",
+   "jurisdiction_type": "city",
+   "district": "3"
+  },
+  "128": {
+   "office": "For Member Of City Council #5, San Leandro",
+   "jurisdiction": "City of San Leandro",
+   "jurisdiction_type": "city",
+   "district": "5"
+  },
+  "134": {
+   "office": "For Member Of City Council #2, Union City",
+   "jurisdiction": "City of Union City",
+   "jurisdiction_type": "city",
+   "district": "2"
+  },
+  "135": {
+   "office": "For Member Of City Council #3, Union City",
+   "jurisdiction": "City of Union City",
+   "jurisdiction_type": "city",
+   "district": "3"
+  },
+  "136": {
+   "office": "For Member Of City Council #4, Union City",
+   "jurisdiction": "City of Union City",
+   "jurisdiction_type": "city",
+   "district": "4"
+  },
+  "58": {
+   "office": "AC Transit District Director, Ward 3",
+   "jurisdiction": "AC Transit District",
+   "jurisdiction_type": "transit",
+   "district": "3"
+  },
+  "59": {
+   "office": "AC Transit District Director, Ward 4",
+   "jurisdiction": "AC Transit District",
+   "jurisdiction_type": "transit",
+   "district": "4"
+  },
+  "60": {
+   "office": "AC Transit District Director, Ward 5",
+   "jurisdiction": "AC Transit District",
+   "jurisdiction_type": "transit",
+   "district": "5"
+  },
+  "62": {
+   "office": "Alameda County Water District Director, Ward 2",
+   "jurisdiction": "Alameda County Water District",
+   "jurisdiction_type": "special",
+   "district": "2"
+  },
+  "63": {
+   "office": "Alameda County Water District Director, Ward 3",
+   "jurisdiction": "Alameda County Water District",
+   "jurisdiction_type": "special",
+   "district": "3"
+  },
+  "64": {
+   "office": "BART Director, District 4",
+   "jurisdiction": "BART",
+   "jurisdiction_type": "transit",
+   "district": "4"
+  },
+  "67": {
+   "office": "Castro Valley Sanitary District Directors",
+   "jurisdiction": "Castro Valley Sanitary District",
+   "jurisdiction_type": "special",
+   "district": null
+  },
+  "73": {
+   "office": "EBMUD Director, Ward 3",
+   "jurisdiction": "East Bay Municipal Utility District (EBMUD)",
+   "jurisdiction_type": "special",
+   "district": "3"
+  },
+  "75": {
+   "office": "EBMUD Director, Ward 7",
+   "jurisdiction": "East Bay Municipal Utility District (EBMUD)",
+   "jurisdiction_type": "special",
+   "district": "7"
+  },
+  "76": {
+   "office": "East Bay Regional Park District Director, Ward 3",
+   "jurisdiction": "East Bay Regional Park District",
+   "jurisdiction_type": "special",
+   "district": "3"
+  },
+  "77": {
+   "office": "East Bay Regional Park District Director, Ward 5",
+   "jurisdiction": "East Bay Regional Park District",
+   "jurisdiction_type": "special",
+   "district": "5"
+  },
+  "70": {
+   "office": "Eden Township Healthcare District Director, Area 3",
+   "jurisdiction": "Eden Township Healthcare District",
+   "jurisdiction_type": "special",
+   "district": "3"
+  },
+  "78": {
+   "office": "Fairview Fire Protection District Directors",
+   "jurisdiction": "Fairview Fire Protection District",
+   "jurisdiction_type": "special",
+   "district": null
+  },
+  "79": {
+   "office": "Hayward Area Recreation & Park District Director, Area 2",
+   "jurisdiction": "Hayward Area Recreation & Park District",
+   "jurisdiction_type": "special",
+   "district": "2"
+  },
+  "80": {
+   "office": "Hayward Area Recreation & Park District Director, Area 4",
+   "jurisdiction": "Hayward Area Recreation & Park District",
+   "jurisdiction_type": "special",
+   "district": "4"
+  },
+  "81": {
+   "office": "Livermore Area Recreation & Park District Directors",
+   "jurisdiction": "Livermore Area Recreation & Park District",
+   "jurisdiction_type": "special",
+   "district": null
+  },
+  "86": {
+   "office": "Member, Board Of Director, Oro Loma Sanitary Dist #1",
+   "jurisdiction": "Oro Loma Sanitary District",
+   "jurisdiction_type": "special",
+   "district": "1"
+  },
+  "87": {
+   "office": "Member, Board Of Director, Oro Loma Sanitary Dist #3",
+   "jurisdiction": "Oro Loma Sanitary District",
+   "jurisdiction_type": "special",
+   "district": "3"
+  },
+  "88": {
+   "office": "Member, Board Of Director, Oro Loma Sanitary Dist #5",
+   "jurisdiction": "Oro Loma Sanitary District",
+   "jurisdiction_type": "special",
+   "district": "5"
+  },
+  "91": {
+   "office": "For Members Of City Council, Albany",
+   "jurisdiction": "City of Albany",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "92": {
+   "office": "Members Of The Board Of Education, Albany",
+   "jurisdiction": "City of Albany",
+   "jurisdiction_type": "school",
+   "district": null
+  },
+  "108": {
+   "office": "For Member Of City Council District #1, Berkeley",
+   "jurisdiction": "City of Berkeley",
+   "jurisdiction_type": "city",
+   "district": "1"
+  },
+  "109": {
+   "office": "For Member Of City Council District #4, Berkeley",
+   "jurisdiction": "City of Berkeley",
+   "jurisdiction_type": "city",
+   "district": "4"
+  },
+  "110": {
+   "office": "For Member Of City Council District #7, Berkeley",
+   "jurisdiction": "City of Berkeley",
+   "jurisdiction_type": "city",
+   "district": "7"
+  },
+  "111": {
+   "office": "For Member Of City Council District #8, Berkeley",
+   "jurisdiction": "City of Berkeley",
+   "jurisdiction_type": "city",
+   "district": "8"
+  },
+  "95": {
+   "office": "For Auditor, Berkeley",
+   "jurisdiction": "City of Berkeley",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "101": {
+   "office": "For Mayor, Oakland",
+   "jurisdiction": "City of Oakland",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "131": {
+   "office": "For Councilmember, District No. 2, Oakland",
+   "jurisdiction": "City of Oakland",
+   "jurisdiction_type": "city",
+   "district": "2"
+  },
+  "132": {
+   "office": "For Councilmember, District No. 4, Oakland",
+   "jurisdiction": "City of Oakland",
+   "jurisdiction_type": "city",
+   "district": "4"
+  },
+  "133": {
+   "office": "For Councilmember, District No. 6, Oakland",
+   "jurisdiction": "City of Oakland",
+   "jurisdiction_type": "city",
+   "district": "6"
+  },
+  "103": {
+   "office": "For Auditor, Oakland",
+   "jurisdiction": "City of Oakland",
+   "jurisdiction_type": "city",
+   "district": null
+  },
+  "121": {
+   "office": "For School Director, District No. 2, Oakland",
+   "jurisdiction": "City of Oakland",
+   "jurisdiction_type": "school",
+   "district": "2"
+  },
+  "122": {
+   "office": "For School Director, District No. 4, Oakland",
+   "jurisdiction": "City of Oakland",
+   "jurisdiction_type": "school",
+   "district": "4"
+  },
+  "123": {
+   "office": "For School Director, District No. 6, Oakland",
+   "jurisdiction": "City of Oakland",
+   "jurisdiction_type": "school",
+   "district": "6"
+  }
+ },
+ "ballot_styles": [
+  {
+   "ballot_type": "BT1",
+   "ballot_type_number": 1,
+   "vig_pdf_pages": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "475700",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "15",
+    "19",
+    "35",
+    "60",
+    "67",
+    "70",
+    "76"
+   ],
+   "measures": [
+    "RTM"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Castro Valley Unified School District",
+    "AC Transit District",
+    "Castro Valley Sanitary District",
+    "Eden Township Healthcare District",
+    "East Bay Regional Park District"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 10",
+    "Assembly District 16"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": null,
+    "polygon_intersects_cities": []
+   },
+   "rcv_card": false,
+   "contest_count": 16,
+   "measure_count": 1
+  },
+  {
+   "ballot_type": "BT10",
+   "ballot_type_number": 10,
+   "vig_pdf_pages": [
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "464000",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "16",
+    "19",
+    "36",
+    "60",
+    "70"
+   ],
+   "measures": [
+    "RTM"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Castro Valley Unified School District",
+    "AC Transit District",
+    "Eden Township Healthcare District"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 10",
+    "Assembly District 18"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": null,
+    "polygon_intersects_cities": [
+     "City of Oakland"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 14,
+   "measure_count": 1
+  },
+  {
+   "ballot_type": "BT11",
+   "ballot_type_number": 11,
+   "vig_pdf_pages": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "454510",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "17",
+    "19",
+    "25",
+    "60",
+    "64",
+    "75",
+    "86",
+    "124",
+    "125",
+    "126",
+    "127",
+    "128"
+   ],
+   "measures": [
+    "RTM",
+    "J"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Chabot - Las Positas Community College District",
+    "AC Transit District",
+    "BART",
+    "East Bay Municipal Utility District (EBMUD)",
+    "Oro Loma Sanitary District",
+    "City of San Leandro",
+    "San Lorenzo Unified School District"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of San Leandro",
+    "polygon_intersects_cities": [
+     "City of San Leandro"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 21,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT19",
+   "ballot_type_number": 19,
+   "vig_pdf_pages": [
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "442810",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "17",
+    "19",
+    "27",
+    "60",
+    "64",
+    "75",
+    "87"
+   ],
+   "measures": [
+    "RTM",
+    "J"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Chabot - Las Positas Community College District",
+    "AC Transit District",
+    "BART",
+    "East Bay Municipal Utility District (EBMUD)",
+    "Oro Loma Sanitary District",
+    "San Lorenzo Unified School District"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": null,
+    "polygon_intersects_cities": [
+     "City of San Leandro"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 16,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT20",
+   "ballot_type_number": 20,
+   "vig_pdf_pages": [
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "447710",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "17",
+    "19",
+    "34",
+    "60",
+    "64",
+    "75",
+    "88"
+   ],
+   "measures": [
+    "RTM"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Castro Valley Unified School District",
+    "AC Transit District",
+    "BART",
+    "East Bay Municipal Utility District (EBMUD)",
+    "Oro Loma Sanitary District"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": null,
+    "polygon_intersects_cities": []
+   },
+   "rcv_card": false,
+   "contest_count": 16,
+   "measure_count": 1
+  },
+  {
+   "ballot_type": "BT41",
+   "ballot_type_number": 41,
+   "vig_pdf_pages": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C",
+    "RCV"
+   ],
+   "sample_precinct_id": "262000",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "14",
+    "19",
+    "91",
+    "92"
+   ],
+   "measures": [
+    "RTM",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "City of Albany"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 14"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Albany",
+    "polygon_intersects_cities": [
+     "City of Berkeley",
+     "City of Albany"
+    ]
+   },
+   "rcv_card": true,
+   "contest_count": 13,
+   "measure_count": 7
+  },
+  {
+   "ballot_type": "BT42",
+   "ballot_type_number": 42,
+   "vig_pdf_pages": [
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C",
+    "RCV"
+   ],
+   "sample_precinct_id": "209700",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "14",
+    "19",
+    "93",
+    "94",
+    "95",
+    "108"
+   ],
+   "measures": [
+    "RTM",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "AA"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "City of Berkeley"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 14"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Berkeley",
+    "polygon_intersects_cities": [
+     "City of Berkeley",
+     "City of Albany"
+    ]
+   },
+   "rcv_card": true,
+   "contest_count": 15,
+   "measure_count": 8
+  },
+  {
+   "ballot_type": "BT43",
+   "ballot_type_number": 43,
+   "vig_pdf_pages": [
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C",
+    "RCV"
+   ],
+   "sample_precinct_id": "208010",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "14",
+    "19",
+    "93",
+    "94",
+    "95",
+    "109"
+   ],
+   "measures": [
+    "RTM",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "AA"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "City of Berkeley"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 14"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Berkeley",
+    "polygon_intersects_cities": [
+     "City of Berkeley"
+    ]
+   },
+   "rcv_card": true,
+   "contest_count": 15,
+   "measure_count": 8
+  },
+  {
+   "ballot_type": "BT44",
+   "ballot_type_number": 44,
+   "vig_pdf_pages": [
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C",
+    "RCV"
+   ],
+   "sample_precinct_id": "204900",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "14",
+    "19",
+    "93",
+    "94",
+    "95",
+    "110"
+   ],
+   "measures": [
+    "RTM",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "AA"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "City of Berkeley"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 14"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Berkeley",
+    "polygon_intersects_cities": [
+     "City of Berkeley"
+    ]
+   },
+   "rcv_card": true,
+   "contest_count": 15,
+   "measure_count": 8
+  },
+  {
+   "ballot_type": "BT45",
+   "ballot_type_number": 45,
+   "vig_pdf_pages": [
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C",
+    "RCV"
+   ],
+   "sample_precinct_id": "203890",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "14",
+    "19",
+    "58",
+    "93",
+    "94",
+    "95",
+    "111"
+   ],
+   "measures": [
+    "RTM",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "AA"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "AC Transit District",
+    "City of Berkeley"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 14"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Berkeley",
+    "polygon_intersects_cities": [
+     "City of Berkeley"
+    ]
+   },
+   "rcv_card": true,
+   "contest_count": 16,
+   "measure_count": 8
+  },
+  {
+   "ballot_type": "BT48",
+   "ballot_type_number": 48,
+   "vig_pdf_pages": [
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C",
+    "RCV"
+   ],
+   "sample_precinct_id": "245300",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "14",
+    "19",
+    "58",
+    "73",
+    "101",
+    "103",
+    "122",
+    "132"
+   ],
+   "measures": [
+    "RTM",
+    "EE",
+    "FF"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "AC Transit District",
+    "East Bay Municipal Utility District (EBMUD)",
+    "City of Oakland"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 14"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Oakland",
+    "polygon_intersects_cities": [
+     "City of Oakland",
+     "City of Piedmont"
+    ]
+   },
+   "rcv_card": true,
+   "contest_count": 17,
+   "measure_count": 3
+  },
+  {
+   "ballot_type": "BT50",
+   "ballot_type_number": 50,
+   "vig_pdf_pages": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C",
+    "RCV"
+   ],
+   "sample_precinct_id": "223010",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "14",
+    "19",
+    "30",
+    "58",
+    "73",
+    "101",
+    "103"
+   ],
+   "measures": [
+    "RTM",
+    "EE",
+    "FF"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Peralta Community College District",
+    "AC Transit District",
+    "East Bay Municipal Utility District (EBMUD)",
+    "City of Oakland"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 14"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Oakland",
+    "polygon_intersects_cities": [
+     "City of Oakland",
+     "City of Piedmont"
+    ]
+   },
+   "rcv_card": true,
+   "contest_count": 16,
+   "measure_count": 3
+  },
+  {
+   "ballot_type": "BT54",
+   "ballot_type_number": 54,
+   "vig_pdf_pages": [
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "280700",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "14",
+    "19",
+    "30",
+    "58",
+    "73",
+    "106"
+   ],
+   "measures": [
+    "RTM",
+    "GG"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Peralta Community College District",
+    "AC Transit District",
+    "East Bay Municipal Utility District (EBMUD)",
+    "City of Piedmont"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 14"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Piedmont",
+    "polygon_intersects_cities": [
+     "City of Oakland",
+     "City of Piedmont"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 15,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT55",
+   "ballot_type_number": 55,
+   "vig_pdf_pages": [
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "305700",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "16",
+    "19",
+    "32",
+    "58",
+    "89",
+    "90"
+   ],
+   "measures": [
+    "RTM",
+    "L",
+    "M",
+    "N"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Alameda Unified School District",
+    "AC Transit District",
+    "City of Alameda"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 18"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Alameda",
+    "polygon_intersects_cities": [
+     "City of Alameda"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 15,
+   "measure_count": 4
+  },
+  {
+   "ballot_type": "BT56",
+   "ballot_type_number": 56,
+   "vig_pdf_pages": [
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "380400",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "16",
+    "19",
+    "40",
+    "96"
+   ],
+   "measures": [
+    "RTM",
+    "BB"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Emery Unified School District",
+    "City of Emeryville"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 18"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Emeryville",
+    "polygon_intersects_cities": [
+     "City of Berkeley",
+     "City of Oakland",
+     "City of Emeryville"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 13,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT57",
+   "ballot_type_number": 57,
+   "vig_pdf_pages": [
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C",
+    "RCV"
+   ],
+   "sample_precinct_id": "225900",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "16",
+    "19",
+    "30",
+    "58",
+    "73",
+    "101",
+    "103",
+    "121",
+    "131"
+   ],
+   "measures": [
+    "RTM",
+    "EE",
+    "FF"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Peralta Community College District",
+    "AC Transit District",
+    "East Bay Municipal Utility District (EBMUD)",
+    "City of Oakland"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 18"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Oakland",
+    "polygon_intersects_cities": [
+     "City of Oakland",
+     "City of Piedmont"
+    ]
+   },
+   "rcv_card": true,
+   "contest_count": 18,
+   "measure_count": 3
+  },
+  {
+   "ballot_type": "BT60",
+   "ballot_type_number": 60,
+   "vig_pdf_pages": [
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C",
+    "RCV"
+   ],
+   "sample_precinct_id": "354610",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "16",
+    "19",
+    "59",
+    "64",
+    "101",
+    "103",
+    "121",
+    "131"
+   ],
+   "measures": [
+    "RTM",
+    "EE",
+    "FF"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "AC Transit District",
+    "BART",
+    "City of Oakland"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 18"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Oakland",
+    "polygon_intersects_cities": [
+     "City of Oakland"
+    ]
+   },
+   "rcv_card": true,
+   "contest_count": 17,
+   "measure_count": 3
+  },
+  {
+   "ballot_type": "BT69",
+   "ballot_type_number": 69,
+   "vig_pdf_pages": [
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C",
+    "RCV"
+   ],
+   "sample_precinct_id": "345710",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10",
+    "16",
+    "19",
+    "30",
+    "59",
+    "73",
+    "101",
+    "103",
+    "123",
+    "133"
+   ],
+   "measures": [
+    "RTM",
+    "EE",
+    "FF"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Peralta Community College District",
+    "AC Transit District",
+    "East Bay Municipal Utility District (EBMUD)",
+    "City of Oakland"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 12",
+    "Assembly District 18"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Oakland",
+    "polygon_intersects_cities": [
+     "City of Oakland"
+    ]
+   },
+   "rcv_card": true,
+   "contest_count": 18,
+   "measure_count": 3
+  },
+  {
+   "ballot_type": "BT94",
+   "ballot_type_number": 94,
+   "vig_pdf_pages": [
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "546200",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "15",
+    "19",
+    "38",
+    "77",
+    "112",
+    "113"
+   ],
+   "measures": [
+    "RTM",
+    "I"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Dublin Unified School District",
+    "East Bay Regional Park District",
+    "City of Dublin"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "Assembly District 16"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Dublin",
+    "polygon_intersects_cities": [
+     "City of Dublin"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 15,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT96",
+   "ballot_type_number": 96,
+   "vig_pdf_pages": [
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "547720",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "15",
+    "19",
+    "39",
+    "77",
+    "112",
+    "114"
+   ],
+   "measures": [
+    "RTM",
+    "I"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Dublin Unified School District",
+    "East Bay Regional Park District",
+    "City of Dublin"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "Assembly District 16"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Dublin",
+    "polygon_intersects_cities": [
+     "City of Dublin"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 15,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT100",
+   "ballot_type_number": 100,
+   "vig_pdf_pages": [
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "547930",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "15",
+    "19",
+    "77",
+    "112"
+   ],
+   "measures": [
+    "RTM",
+    "I"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "East Bay Regional Park District",
+    "City of Dublin",
+    "Dublin Unified School District"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "Assembly District 16"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Dublin",
+    "polygon_intersects_cities": [
+     "City of Dublin"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 13,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT101",
+   "ballot_type_number": 101,
+   "vig_pdf_pages": [
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "502600",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "15",
+    "19",
+    "77",
+    "81",
+    "83"
+   ],
+   "measures": [
+    "RTM"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "East Bay Regional Park District",
+    "Livermore Area Recreation & Park District",
+    "Livermore Valley Joint Unified School District"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "Assembly District 16"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Livermore",
+    "polygon_intersects_cities": [
+     "City of Livermore"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 14,
+   "measure_count": 1
+  },
+  {
+   "ballot_type": "BT103",
+   "ballot_type_number": 103,
+   "vig_pdf_pages": [
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "502220",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "15",
+    "19",
+    "77",
+    "81",
+    "83",
+    "120"
+   ],
+   "measures": [
+    "RTM"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "East Bay Regional Park District",
+    "Livermore Area Recreation & Park District",
+    "Livermore Valley Joint Unified School District",
+    "City of Livermore"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "Assembly District 16"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Livermore",
+    "polygon_intersects_cities": [
+     "City of Livermore"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 15,
+   "measure_count": 1
+  },
+  {
+   "ballot_type": "BT104",
+   "ballot_type_number": 104,
+   "vig_pdf_pages": [
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "502320",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "15",
+    "19",
+    "77",
+    "81",
+    "84",
+    "120"
+   ],
+   "measures": [
+    "RTM"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "East Bay Regional Park District",
+    "Livermore Area Recreation & Park District",
+    "Livermore Valley Joint Unified School District",
+    "City of Livermore"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "Assembly District 16"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Livermore",
+    "polygon_intersects_cities": [
+     "City of Livermore"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 15,
+   "measure_count": 1
+  },
+  {
+   "ballot_type": "BT106",
+   "ballot_type_number": 106,
+   "vig_pdf_pages": [
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "500800",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "15",
+    "19",
+    "77",
+    "81",
+    "85"
+   ],
+   "measures": [
+    "RTM"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "East Bay Regional Park District",
+    "Livermore Area Recreation & Park District",
+    "Livermore Valley Joint Unified School District"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "Assembly District 16"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Livermore",
+    "polygon_intersects_cities": [
+     "City of Livermore"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 14,
+   "measure_count": 1
+  },
+  {
+   "ballot_type": "BT108",
+   "ballot_type_number": 108,
+   "vig_pdf_pages": [
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "520860",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "15",
+    "19",
+    "77",
+    "104",
+    "129"
+   ],
+   "measures": [
+    "RTM",
+    "HH"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "East Bay Regional Park District",
+    "City of Pleasanton"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "Assembly District 16"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Pleasanton",
+    "polygon_intersects_cities": [
+     "City of Pleasanton",
+     "City of Dublin"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 14,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT109",
+   "ballot_type_number": 109,
+   "vig_pdf_pages": [
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "520640",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "15",
+    "19",
+    "50",
+    "77",
+    "104",
+    "130"
+   ],
+   "measures": [
+    "RTM",
+    "HH"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Pleasanton Unified School District",
+    "East Bay Regional Park District",
+    "City of Pleasanton"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "Assembly District 16"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Pleasanton",
+    "polygon_intersects_cities": [
+     "City of Pleasanton"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 15,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT120",
+   "ballot_type_number": 120,
+   "vig_pdf_pages": [
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "867310",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "15",
+    "19",
+    "56",
+    "77"
+   ],
+   "measures": [
+    "RTM",
+    "K"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Sunol Glen Unified School District",
+    "East Bay Regional Park District"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "Assembly District 16"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": null,
+    "polygon_intersects_cities": [
+     "City of Fremont"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 13,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT123",
+   "ballot_type_number": 123,
+   "vig_pdf_pages": [
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "438300",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "35",
+    "76",
+    "80",
+    "97",
+    "137"
+   ],
+   "measures": [
+    "RTM",
+    "CC"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Castro Valley Unified School District",
+    "East Bay Regional Park District",
+    "Hayward Area Recreation & Park District",
+    "City of Hayward"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Hayward",
+    "polygon_intersects_cities": [
+     "City of Hayward"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 17,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT124",
+   "ballot_type_number": 124,
+   "vig_pdf_pages": [
+    428,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436,
+    437,
+    438,
+    439
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "430720",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "67",
+    "75",
+    "76",
+    "79",
+    "97",
+    "137"
+   ],
+   "measures": [
+    "RTM",
+    "CC"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Castro Valley Sanitary District",
+    "East Bay Municipal Utility District (EBMUD)",
+    "East Bay Regional Park District",
+    "Hayward Area Recreation & Park District",
+    "City of Hayward"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Hayward",
+    "polygon_intersects_cities": [
+     "City of Hayward"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 18,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT125",
+   "ballot_type_number": 125,
+   "vig_pdf_pages": [
+    440,
+    441,
+    442,
+    443,
+    444,
+    445,
+    446,
+    447,
+    448,
+    449,
+    450,
+    451
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "431500",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "75",
+    "76",
+    "79",
+    "88",
+    "97",
+    "137"
+   ],
+   "measures": [
+    "RTM",
+    "CC"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "East Bay Municipal Utility District (EBMUD)",
+    "East Bay Regional Park District",
+    "Hayward Area Recreation & Park District",
+    "Oro Loma Sanitary District",
+    "City of Hayward"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Hayward",
+    "polygon_intersects_cities": [
+     "City of Hayward"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 18,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT135",
+   "ballot_type_number": 135,
+   "vig_pdf_pages": [
+    452,
+    453,
+    454,
+    455,
+    456,
+    457,
+    458,
+    459,
+    460,
+    461,
+    462,
+    463
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "423610",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "26",
+    "43",
+    "76",
+    "97",
+    "138"
+   ],
+   "measures": [
+    "RTM",
+    "CC"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Chabot - Las Positas Community College District",
+    "Hayward Unified School District",
+    "East Bay Regional Park District",
+    "City of Hayward"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Hayward",
+    "polygon_intersects_cities": [
+     "City of Hayward"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 17,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT136",
+   "ballot_type_number": 136,
+   "vig_pdf_pages": [
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "423710",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "26",
+    "44",
+    "76",
+    "97",
+    "138"
+   ],
+   "measures": [
+    "RTM",
+    "CC"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Chabot - Las Positas Community College District",
+    "Hayward Unified School District",
+    "East Bay Regional Park District",
+    "City of Hayward"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Hayward",
+    "polygon_intersects_cities": [
+     "City of Hayward"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 17,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT141",
+   "ballot_type_number": 141,
+   "vig_pdf_pages": [
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "422950",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "26",
+    "43",
+    "62",
+    "76",
+    "97"
+   ],
+   "measures": [
+    "RTM",
+    "CC"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Chabot - Las Positas Community College District",
+    "Hayward Unified School District",
+    "Alameda County Water District",
+    "East Bay Regional Park District",
+    "City of Hayward"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Hayward",
+    "polygon_intersects_cities": [
+     "City of Hayward"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 17,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT144",
+   "ballot_type_number": 144,
+   "vig_pdf_pages": [
+    488,
+    489,
+    490,
+    491,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "422940",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "26",
+    "47",
+    "62",
+    "76",
+    "97"
+   ],
+   "measures": [
+    "RTM",
+    "CC"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Chabot - Las Positas Community College District",
+    "New Haven Unified School District",
+    "Alameda County Water District",
+    "East Bay Regional Park District",
+    "City of Hayward"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Hayward",
+    "polygon_intersects_cities": [
+     "City of Fremont",
+     "City of Hayward",
+     "City of Union City"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 17,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT145",
+   "ballot_type_number": 145,
+   "vig_pdf_pages": [
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "420510",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "27",
+    "43",
+    "62",
+    "64",
+    "76",
+    "97"
+   ],
+   "measures": [
+    "RTM",
+    "CC"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Chabot - Las Positas Community College District",
+    "Hayward Unified School District",
+    "Alameda County Water District",
+    "BART",
+    "East Bay Regional Park District",
+    "City of Hayward"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Hayward",
+    "polygon_intersects_cities": [
+     "City of Hayward"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 18,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT168",
+   "ballot_type_number": 168,
+   "vig_pdf_pages": [
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "823300",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "26",
+    "76",
+    "134"
+   ],
+   "measures": [
+    "RTM",
+    "II"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Chabot - Las Positas Community College District",
+    "East Bay Regional Park District",
+    "City of Union City"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Union City",
+    "polygon_intersects_cities": [
+     "City of Union City"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 15,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT171",
+   "ballot_type_number": 171,
+   "vig_pdf_pages": [
+    524,
+    525,
+    526,
+    527,
+    528,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534,
+    535
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "823710",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "26",
+    "46",
+    "76",
+    "135"
+   ],
+   "measures": [
+    "RTM",
+    "II"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Chabot - Las Positas Community College District",
+    "New Haven Unified School District",
+    "East Bay Regional Park District",
+    "City of Union City"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Union City",
+    "polygon_intersects_cities": [
+     "City of Hayward",
+     "City of Union City"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 16,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT175",
+   "ballot_type_number": 175,
+   "vig_pdf_pages": [
+    536,
+    537,
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545,
+    546,
+    547
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "824100",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "26",
+    "46",
+    "76",
+    "136"
+   ],
+   "measures": [
+    "RTM",
+    "II"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Chabot - Las Positas Community College District",
+    "New Haven Unified School District",
+    "East Bay Regional Park District",
+    "City of Union City"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Union City",
+    "polygon_intersects_cities": [
+     "City of Hayward",
+     "City of Union City"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 16,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT180",
+   "ballot_type_number": 180,
+   "vig_pdf_pages": [
+    548,
+    549,
+    550,
+    551,
+    552,
+    553,
+    554,
+    555,
+    556,
+    557,
+    558,
+    559
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "476130",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "17",
+    "19",
+    "35",
+    "70",
+    "75",
+    "76",
+    "78",
+    "80",
+    "88"
+   ],
+   "measures": [
+    "RTM"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Castro Valley Unified School District",
+    "Eden Township Healthcare District",
+    "East Bay Municipal Utility District (EBMUD)",
+    "East Bay Regional Park District",
+    "Fairview Fire Protection District",
+    "Hayward Area Recreation & Park District",
+    "Oro Loma Sanitary District"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": null,
+    "polygon_intersects_cities": []
+   },
+   "rcv_card": false,
+   "contest_count": 19,
+   "measure_count": 1
+  },
+  {
+   "ballot_type": "BT194",
+   "ballot_type_number": 194,
+   "vig_pdf_pages": [
+    560,
+    561,
+    562,
+    563,
+    564,
+    565,
+    566,
+    567,
+    568,
+    569,
+    570,
+    571
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "545500",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "17",
+    "19",
+    "77",
+    "112",
+    "113"
+   ],
+   "measures": [
+    "RTM",
+    "I"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "East Bay Regional Park District",
+    "City of Dublin",
+    "Dublin Unified School District"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "Assembly District 20"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Dublin",
+    "polygon_intersects_cities": [
+     "City of Dublin"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 14,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT241",
+   "ballot_type_number": 241,
+   "vig_pdf_pages": [
+    572,
+    573,
+    574,
+    575,
+    576,
+    577,
+    578,
+    579,
+    580,
+    581,
+    582,
+    583
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "822030",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "18",
+    "19",
+    "47",
+    "62",
+    "76",
+    "136"
+   ],
+   "measures": [
+    "RTM",
+    "II"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "New Haven Unified School District",
+    "Alameda County Water District",
+    "East Bay Regional Park District",
+    "City of Union City"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 24"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Union City",
+    "polygon_intersects_cities": [
+     "City of Hayward",
+     "City of Union City"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 16,
+   "measure_count": 2
+  },
+  {
+   "ballot_type": "BT242",
+   "ballot_type_number": 242,
+   "vig_pdf_pages": [
+    584,
+    585,
+    586,
+    587,
+    588,
+    589,
+    590,
+    591,
+    592,
+    593,
+    594,
+    595
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "839230",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "18",
+    "19",
+    "76",
+    "115"
+   ],
+   "measures": [
+    "RTM"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "East Bay Regional Park District",
+    "City of Fremont"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 24"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Fremont",
+    "polygon_intersects_cities": [
+     "City of Fremont",
+     "City of Union City"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 14,
+   "measure_count": 1
+  },
+  {
+   "ballot_type": "BT243",
+   "ballot_type_number": 243,
+   "vig_pdf_pages": [
+    596,
+    597,
+    598,
+    599,
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "835200",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "18",
+    "19",
+    "76",
+    "116"
+   ],
+   "measures": [
+    "RTM"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "East Bay Regional Park District",
+    "City of Fremont"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 24"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Fremont",
+    "polygon_intersects_cities": [
+     "City of Fremont"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 14,
+   "measure_count": 1
+  },
+  {
+   "ballot_type": "BT245",
+   "ballot_type_number": 245,
+   "vig_pdf_pages": [
+    608,
+    609,
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "836500",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "18",
+    "19",
+    "23",
+    "63",
+    "77",
+    "117"
+   ],
+   "measures": [
+    "RTM"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Ohlone Community College District",
+    "Alameda County Water District",
+    "East Bay Regional Park District",
+    "City of Fremont"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 14",
+    "State Senate District 10",
+    "Assembly District 24"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Fremont",
+    "polygon_intersects_cities": [
+     "City of Fremont"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 16,
+   "measure_count": 1
+  },
+  {
+   "ballot_type": "BT263",
+   "ballot_type_number": 263,
+   "vig_pdf_pages": [
+    620,
+    621,
+    622,
+    623,
+    624,
+    625,
+    626,
+    627,
+    628,
+    629,
+    630,
+    631
+   ],
+   "cards": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sample_precinct_id": "852010",
+   "contest_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "12",
+    "13",
+    "18",
+    "19",
+    "62",
+    "77",
+    "99",
+    "100"
+   ],
+   "measures": [
+    "RTM",
+    "DD"
+   ],
+   "areas": [],
+   "areas_derived_from_contents": [
+    "Alameda County Water District",
+    "East Bay Regional Park District",
+    "City of Newark"
+   ],
+   "districts_derived_from_contents": [
+    "Board of Equalization District 2",
+    "U.S. House District 17",
+    "State Senate District 10",
+    "Assembly District 24"
+   ],
+   "sample_precinct_gis": {
+    "centroid_city": "City of Newark",
+    "polygon_intersects_cities": [
+     "City of Newark"
+    ]
+   },
+   "rcv_card": false,
+   "contest_count": 16,
+   "measure_count": 2
+  }
+ ]
+}

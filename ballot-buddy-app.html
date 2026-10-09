@@ -294,12 +294,15 @@ const ELECTION = new Date(2026,10,3);
 /* ---------- state ---------- */
 /* Everything a voter sets up lives in S. `user` is the signed-in account (from the server, never trusted from the client); the rest is synced to that account after every save, so it survives a cleared browser, the Home Screen app's separate storage, or a new phone. */
 function fresh(){ return { screen:'welcome', lang:'en', zip:'', pickZip:'', state:'', county:'', cd:'', cdOptions:[], city:'', cityOptions:[], ad:'', adOptions:[], sd:'', sdOptions:[], sup:'', usd:'', usdOptions:[], pinned:{}, setup:false, large:false,
-  reminders:{}, notif:true, reading:'simple', following:{}, swipes:{}, matchDone:false, chat:[], params:{}, user:null, updatedAt:0 }; }
+  reminders:{}, notif:true, reading:'simple', following:{}, swipes:{}, matchDone:false, chat:[], params:{}, user:null, updatedAt:0, rev:0 }; }
 const S = fresh();
 try{ Object.assign(S, JSON.parse(localStorage.getItem('bb-state')||'{}')); }catch(e){}
-function normalize(){ for(const k of ['params','reminders','following','swipes','pinned']) S[k]=S[k]||{}; S.chat=S.chat||[]; for(const k of ['cdOptions','cityOptions','adOptions','sdOptions','usdOptions']) S[k]=S[k]||[]; }
+function normalize(){ for(const k of ['params','reminders','following','swipes','pinned']) S[k]=(S[k]&&typeof S[k]==='object')?S[k]:{}; S.chat=Array.isArray(S.chat)?S.chat:[]; for(const k of ['cdOptions','cityOptions','adOptions','sdOptions','usdOptions']) S[k]=Array.isArray(S[k])?S[k]:[];
+  /* Restored state is data, not trusted markup: every scalar the screens print is forced to its expected type. */
+  for(const k of ['screen','lang','zip','pickZip','state','county','cd','city','ad','sd','sup','usd','reading']) if(typeof S[k]!=='string') S[k]=''; if(S.lang!=='es') S.lang='en'; for(const k of ['setup','large','notif','matchDone']) S[k]=!!S[k]; if(typeof S.rev!=='number') S.rev=0; }
 normalize();
-function save(){ S.updatedAt=Date.now(); try{ localStorage.setItem('bb-state', JSON.stringify(S)); }catch(e){} scheduleSync(); }
+function save(){ S.updatedAt=Date.now(); persist(); scheduleSync(); }
+function persist(){ try{ localStorage.setItem('bb-state', JSON.stringify(S)); }catch(e){} }
 
 let D = { races:{governor:{},senate:{},house:{},statewide:{},ssenate:{},assembly:{}}, measures:{}, local:{}, deadlines:{}, sources:{}, counties:{}, contests:{}, local_measures:{}, zips:{}, offices:{}, concepts:{}, generated:'' };   // curated
 let ZIPCD = null;      // {zip: ["CA09", ...]}
@@ -392,7 +395,7 @@ function setupOptions(z){ const i=(D.zips||{})[z]||{}; const key=(i.county||'');
   const ads=(i.ad||[]).map(String), sds=(i.sd||[]).map(String), usds=(i.usd||[]).map(String);
   return {cds,cities,ads,sds,usds,county:key}; }
 function cdsFor(z){ if(!ZIPCD) return []; const v=ZIPCD[z]; return Array.isArray(v)?v:(v?[v]:[]); }
-const cdLabel = cd => cd ? cd.slice(0,2)+'-'+cd.slice(2) : '';
+const cdLabel = cd => cd ? esc(String(cd).slice(0,2)+'-'+String(cd).slice(2)) : '';
 const redistricted = () => !!(ZIPCD&&ZIPCD._meta&&(ZIPCD._meta.redistricted_for_2026||[]).includes(S.state)&&!(ZIPCD._meta.overrides||{})[S.zip]);
 
 /* ---------- data loading ---------- */
@@ -566,7 +569,7 @@ const socialLinks = c => { const s=c.social||{}; const items=[['site',c.site,t('
 const followBtn = (id,name) => `<button class="follow ${S.following[id]?'on':''}" onclick="toggleFollow('${esc(id)}',${JSON.stringify(name).replace(/"/g,'&quot;')});event.stopPropagation()">${S.following[id]?t('unfollow'):t('follow')}</button>`;
 function toggleFollow(id,name){ if(S.following[id]) delete S.following[id]; else S.following[id]={name,at:Date.now()}; save(); render(); }
 
-function go(screen,params){ S.screen=screen; S.params=params||{}; save(); render(); const v=document.getElementById('view'); v.scrollTop=0; v.classList.remove('enter'); void v.offsetWidth; v.classList.add('enter'); }
+function go(screen,params){ S.screen=screen; S.params=params||{}; navOnly=true; save(); navOnly=false; render(); const v=document.getElementById('view'); v.scrollTop=0; v.classList.remove('enter'); void v.offsetWidth; v.classList.add('enter'); }
 let botOpen=false;
 function openSheet(html){ botOpen=false; const s=document.getElementById('sheet'), bg=document.getElementById('sheetbg'); clearTimeout(s._t); s.classList.remove('hide'); bg.classList.remove('hide'); s.innerHTML=html; s.classList.add('show'); bg.classList.add('show'); }
 function closeSheet(){ botOpen=false; const s=document.getElementById('sheet'), bg=document.getElementById('sheetbg'); if(!s.classList.contains('show')) return;
@@ -917,25 +920,36 @@ function adopt(state){ const keep={lang:S.lang,large:S.large}; for(const k of Ob
 /* Ask the server who is signed in. Signed out: this device forgets any previous signed-in voter. Signed in: the server copy wins when it is newer or belongs to someone else; a device that already had a ballot set up before accounts existed keeps it and uploads it. Offline: keep what we have. */
 async function auth(){
   let me=null; try{ const r=await fetch(API.me,{credentials:'same-origin',cache:'no-store'}); if(r.ok) me=await r.json(); }catch(e){}
-  if(!me||!me.ok) return;
-  if(!me.authenticated){ if(S.user) resetLocal(); return; }   // ballot data set up before accounts existed stays until an account claims it
-  const mine=S.user&&S.user.uid===me.user.uid, serverState=me.state||{}, serverEmpty=!Object.keys(serverState).length;
-  if(mine){ if((me.updatedAt||0)>(S.updatedAt||0)) adopt(serverState); }
+  if(!me||!me.ok) return false;                                  // offline or server trouble: keep what this device has
+  if(!me.authenticated){ if(S.user) resetLocal(); return false; }   // ballot data set up before accounts existed stays until an account claims it
+  const mine=S.user&&S.user.uid===me.user.uid, serverState=me.state||{}, serverEmpty=!Object.keys(serverState).length, rev=me.rev||0;
+  if(mine){ if(rev!==(S.rev||0)) adopt(serverState); }           // another device wrote since this one last synced: the server copy wins
   else if(!(!S.user&&S.setup&&serverEmpty)) adopt(serverState);
-  S.user=me.user; }
-let syncT=null, syncing=false, syncDirty=false;
-function stateForServer(){ const o=Object.assign({},S); delete o.user; o.chat=(o.chat||[]).slice(-40); return o; }
-function scheduleSync(){ if(!S.user||S.screen==='loading') return; syncDirty=true; clearTimeout(syncT); syncT=setTimeout(syncNow,1500); }
-async function syncNow(leaving){ if(!S.user||!syncDirty||syncing) return; syncing=true; syncDirty=false; const body=JSON.stringify({state:stateForServer()});
-  try{ const r=await fetch(API.me,{method:'PUT',headers:{'Content-Type':'application/json'},credentials:'same-origin',keepalive:!!leaving,body}); if(r.status===401){ signedOut(); return; } if(!r.ok) syncDirty=true; }
+  S.rev=rev; S.user=me.user; return true; }
+let syncT=null, syncP=null, syncDirty=false, syncHeavy=false, syncFails=0, navOnly=false;
+function stateForServer(){ const o=Object.assign({},S); delete o.user; delete o.rev; o.chat=(o.chat||[]).slice(-40); return o; }
+/* Real changes go up after 1.5 s. A change of screen alone waits 12 s (and is flushed when the app is hidden), so browsing does not write to the store on every tap. */
+function scheduleSync(){ if(!S.user||S.screen==='loading') return; syncDirty=true; if(!navOnly) syncHeavy=true; clearTimeout(syncT); syncT=setTimeout(syncNow, syncHeavy?1500:12000); }
+function syncNow(leaving){ if(!S.user||!syncDirty) return syncP||Promise.resolve(); if(syncP) return syncP; syncP=doSync(leaving).finally(()=>{ syncP=null; }); return syncP; }
+/* Each write names the revision it was based on and the account it belongs to. 409 conflict: another device wrote first, so its copy replaces ours (keeping the screen we are on). 409 wrongUser: a different account signed in on this device, so start over. */
+async function doSync(leaving){ syncDirty=false; syncHeavy=false; const body=JSON.stringify({state:stateForServer(),baseRev:S.rev||0,uid:S.user.uid});
+  try{ const r=await fetch(API.me,{method:'PUT',headers:{'Content-Type':'application/json'},credentials:'same-origin',keepalive:!!leaving,body}); const j=await r.json().catch(()=>({}));
+    if(r.ok){ syncFails=0; S.rev=j.rev||S.rev; persist(); return; }
+    if(r.status===401){ signedOut(); return; }
+    if(r.status===409&&j.wrongUser){ location.reload(); return; }
+    if(r.status===409&&j.conflict){ const u=S.user, sc=S.screen, pa=S.params; adopt(j.state||{}); S.user=u; S.rev=j.rev||0; if(SCREENS[sc]&&sc!=='loading'){ S.screen=sc; S.params=pa; } persist(); render(); navOnly=true; scheduleSync(); navOnly=false; return; }
+    syncDirty=true; }
   catch(e){ syncDirty=true; }
-  finally{ syncing=false; if(syncDirty&&!leaving){ clearTimeout(syncT); syncT=setTimeout(syncNow,15000); } } }
+  if(syncDirty&&!leaving&&syncFails<8){ syncFails++; clearTimeout(syncT); syncT=setTimeout(syncNow, Math.min(15000*Math.pow(2,syncFails-1), 300000)); } }
 document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='hidden'){ clearTimeout(syncT); syncNow(true); } });
 addEventListener('pagehide',()=>{ clearTimeout(syncT); syncNow(true); });
+/* Another tab signed in or out: this tab must not keep showing, or syncing, the previous account. */
+addEventListener('storage',e=>{ if(e.key!=='bb-state'&&e.key!==null) return; let uid=null; try{ const v=JSON.parse(e.newValue||'null'); uid=v&&v.user?v.user.uid:null; }catch(err){} if(uid!==(S.user?S.user.uid:null)) location.reload(); });
 function signedOut(){ resetLocal(); S.screen='welcome'; S.params={}; render(); toast(t('session_ended')); }
-async function signOut(){ clearTimeout(syncT); await syncNow(); S.user=null; try{ await fetch(API.logout,{method:'POST',credentials:'same-origin'}); }catch(e){} try{ localStorage.removeItem('bb-state'); localStorage.removeItem('bb-fec'); localStorage.removeItem('bb-registration'); }catch(e){} location.replace('ballot-buddy-app.html'); }
+async function signOut(){ clearTimeout(syncT); await syncNow(); const r=await fetch(API.logout,{method:'POST',credentials:'same-origin'}).catch(()=>null); if(!r||!r.ok){ toast(t('offline_err')); return; }
+  S.user=null; try{ localStorage.removeItem('bb-state'); localStorage.removeItem('bb-fec'); localStorage.removeItem('bb-registration'); }catch(e){} location.replace('ballot-buddy-app.html'); }
 async function saveAccount(){ const g=id=>document.getElementById(id); const err=g('acErr'); err.textContent='';
-  const body={firstName:g('acFirst').value.trim(),lastInitial:g('acInit').value.trim(),age:g('acAge').value.trim(),email:g('acEmail').value.trim().toLowerCase()};
+  const body={uid:(S.user||{}).uid,firstName:g('acFirst').value.trim(),lastInitial:g('acInit').value.trim(),age:g('acAge').value.trim(),email:g('acEmail').value.trim().toLowerCase()};
   const cur=g('acCur').value, nw=g('acNew').value; const u=S.user||{};
   if((body.email!==(u.email||'')||nw)&&!cur){ err.textContent=t('pw_needed'); g('acCur').focus(); return; }
   if(cur) body.currentPassword=cur; if(nw) body.newPassword=nw;
@@ -943,6 +957,7 @@ async function saveAccount(){ const g=id=>document.getElementById(id); const err
   g('acSave').disabled=true;
   try{ const r=await fetch(API.me,{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'same-origin',body:JSON.stringify(body)}); const j=await r.json().catch(()=>({}));
     if(r.status===401){ signedOut(); return; }
+    if(r.status===409&&j.wrongUser){ location.reload(); return; }
     if(!r.ok){ const first=Object.keys(j.fields||{})[0]; err.textContent=r.status===409?t('err_email_taken'):r.status===403?t('err_pw_wrong'):(first&&t('err_'+first)!=='err_'+first?t('err_'+first):(j.error||t('acct_err'))); if(first&&g(map[first])) g(map[first]).focus(); return; }
     S.user=j.user; save(); toast(t('saved')); go('profile'); }
   catch(e){ err.textContent=t('offline_err'); }
@@ -974,9 +989,9 @@ document.querySelector('[data-tab="home"]').onclick=()=>go('home');
   if(!known){ S.screen='loading'; S.params={}; }
   else if(!SCREENS[S.screen]||S.screen==='loading'||S.screen==='welcome'){ S.screen='home'; S.params={}; }
   render();
-  const dataP=loadData(); await auth(); await dataP;
+  const dataP=loadData(); const authOk=await auth(); await dataP;
   const next=firstScreen(); if(next!==S.screen){ S.screen=next; S.params={}; }
-  if(S.user) save();
+  if(authOk) save(); else persist();
   await settle(); checkReminders();
 })();
 </script>

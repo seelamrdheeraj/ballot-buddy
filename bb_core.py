@@ -12,17 +12,19 @@ Routes (JSON in, JSON out):
   POST  /api/login            {email, password}               -> 200 {ok, user, state} + HttpOnly cookie
   POST  /api/logout                                           -> 200, cookie cleared
   GET   /api/me               (user cookie)                   -> {authenticated, user, state, updatedAt}; refreshes the cookie
-  PUT   /api/me               {state}                         -> saves the app's state for this user
+  PUT   /api/me               {state, baseRev, uid}           -> saves the app's state; 409 when baseRev is stale
   PATCH /api/me               {firstName?, lastInitial?, age?, email?, currentPassword?, newPassword?} -> {ok, user}
   POST  /api/admin/login      {password}                      -> 200 + HttpOnly cookie
   POST  /api/admin/logout                                     -> 200, cookie cleared
   GET   /api/admin/session                                    -> {authenticated, configured}
   GET   /api/registrations    (admin cookie required)         -> newest first
 
-Accounts: one record per user (profile, PBKDF2 password hash, saved app state) keyed by a random
-uid, plus an email -> uid index. The user session is a signed, stateless cookie (uid.expires.sig)
-whose key comes from SESSION_SECRET or a secret created once and kept in the store, so nothing
-about the admin password affects voters' sign-ins.
+Accounts: one record per user (profile, PBKDF2 password hash) keyed by a random uid, a separate
+state document per user (the app's saved state with a revision counter, so a state write can never
+clobber a credential change), plus an email -> uid index. The user session is a signed, stateless
+cookie (uid.sv.expires.sig; sv changes with the password, which signs other devices out) whose key
+comes from SESSION_SECRET or a secret created once and kept in the store, so nothing about the
+admin password affects voters' sign-ins.
 """
 import base64
 import hashlib
@@ -191,7 +193,7 @@ def validate(data, fields=PROFILE_FIELDS):
         if isinstance(age, bool):
             age = None
         elif isinstance(age, str):
-            age = int(age.strip()) if age.strip().isdecimal() else None
+            age = int(age.strip()) if age.strip().isdecimal() and len(age.strip()) <= 4 else None
         elif isinstance(age, float):
             age = int(age) if age.is_integer() else None
         if not isinstance(age, int) or not (MIN_AGE <= age <= MAX_AGE):
@@ -265,7 +267,11 @@ _secret_cache = {"value": None}
 
 
 def session_secret():
-    """SESSION_SECRET from the environment, else a random secret created once and kept in the store."""
+    """SESSION_SECRET from the environment, else a random secret created once and kept in the store.
+
+    Raises StorageError when the store cannot be read, so a hiccup never looks like 'signed out'.
+    Returns "" only when no store is configured at all.
+    """
     env = os.environ.get("SESSION_SECRET")
     if env:
         return env
@@ -274,40 +280,46 @@ def session_secret():
     store = get_store()
     if store is None:
         return ""
-    try:
-        value = store.get_setting("session_secret")
-        if not value:
-            store.set_setting("session_secret", secrets.token_hex(32))
-            value = store.get_setting("session_secret")   # read back so every instance agrees
-    except StorageError as e:
-        print(f"session secret read failed: {e}", flush=True)
-        return ""
-    _secret_cache["value"] = value or ""
-    return _secret_cache["value"]
+    value = store.get_secret()
+    if not value:
+        store.create_secret(secrets.token_hex(32))   # create-once; a losing racer reads the winner's
+        value = store.get_secret()
+    if not value:
+        raise StorageError("session secret could not be created")
+    _secret_cache["value"] = value
+    return value
 
 
 def _user_session_key():
     return hashlib.sha256(("bb-user-session:" + session_secret()).encode("utf-8")).digest()
 
 
-def make_user_token(uid):
+def session_version(record):
+    """Part of the password salt; baked into tokens so a password change signs every other device out."""
+    return str((record.get("pw") or {}).get("salt", ""))[:8] or "0"
+
+
+def make_user_token(record):
+    uid, sv = record["uid"], session_version(record)
     expires = str(int(time.time()) + USER_SESSION_TTL)
-    sig = hmac.new(_user_session_key(), f"{uid}.{expires}".encode("ascii"), hashlib.sha256).hexdigest()
-    return f"{uid}.{expires}.{sig}"
+    sig = hmac.new(_user_session_key(), f"{uid}.{sv}.{expires}".encode("ascii"), hashlib.sha256).hexdigest()
+    return f"{uid}.{sv}.{expires}.{sig}"
 
 
-def uid_from_token(token):
-    """The uid a valid, unexpired user token names, else None."""
-    if not token or not session_secret():
+def parse_user_token(token):
+    """(uid, sv) for a well-formed, correctly signed, unexpired token, else None. May raise StorageError."""
+    if not token:
         return None
-    uid, _, rest = token.partition(".")
-    expires, _, sig = rest.partition(".")
-    if not uid.isalnum() or not expires.isdigit() or not sig:
+    parts = token.split(".")
+    if len(parts) != 4:
         return None
-    expected = hmac.new(_user_session_key(), f"{uid}.{expires}".encode("ascii"), hashlib.sha256).hexdigest()
+    uid, sv, expires, sig = parts
+    if not uid.isalnum() or not sv.isalnum() or not expires.isdigit() or not sig or not session_secret():
+        return None
+    expected = hmac.new(_user_session_key(), f"{uid}.{sv}.{expires}".encode("ascii"), hashlib.sha256).hexdigest()
     if not hmac.compare_digest(sig, expected) or int(expires) <= time.time():
         return None
-    return uid
+    return uid, sv
 
 
 def user_cookie_header(token):
@@ -364,6 +376,7 @@ class SQLiteStore:
             conn.execute("CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY, value TEXT NOT NULL)")
             conn.execute("CREATE TABLE IF NOT EXISTS users (uid TEXT PRIMARY KEY, record TEXT NOT NULL)")
             conn.execute("CREATE TABLE IF NOT EXISTS emails (email_key TEXT PRIMARY KEY, uid TEXT NOT NULL)")
+            conn.execute("CREATE TABLE IF NOT EXISTS states (uid TEXT PRIMARY KEY, doc TEXT NOT NULL)")
             conn.commit()
         finally:
             conn.close()
@@ -385,6 +398,40 @@ class SQLiteStore:
         try:
             conn.execute("INSERT INTO users (uid, record) VALUES (?, ?) ON CONFLICT(uid) DO UPDATE SET record = excluded.record",
                          (uid, json.dumps(record, ensure_ascii=False)))
+            conn.commit()
+        except sqlite3.Error as e:
+            raise StorageError(str(e)) from e
+        finally:
+            conn.close()
+
+    def get_state(self, uid):
+        conn = self._connect()
+        try:
+            row = conn.execute("SELECT doc FROM states WHERE uid = ?", (uid,)).fetchone()
+            return json.loads(row["doc"]) if row else None
+        except (sqlite3.Error, ValueError) as e:
+            raise StorageError(str(e)) from e
+        finally:
+            conn.close()
+
+    def put_state(self, uid, doc):
+        conn = self._connect()
+        try:
+            conn.execute("INSERT INTO states (uid, doc) VALUES (?, ?) ON CONFLICT(uid) DO UPDATE SET doc = excluded.doc",
+                         (uid, json.dumps(doc, ensure_ascii=False)))
+            conn.commit()
+        except sqlite3.Error as e:
+            raise StorageError(str(e)) from e
+        finally:
+            conn.close()
+
+    def get_secret(self):
+        return self.get_setting("session_secret")
+
+    def create_secret(self, value):
+        conn = self._connect()
+        try:
+            conn.execute("INSERT OR IGNORE INTO settings (key, value) VALUES ('session_secret', ?)", (value,))
             conn.commit()
         except sqlite3.Error as e:
             raise StorageError(str(e)) from e
@@ -574,13 +621,31 @@ class BlobStore:
     # resolved through the list API so a login costs one list plus one GET.
 
     USERS_PREFIX = "users/"
+    STATES_PREFIX = "states/"
     EMAILS_PREFIX = "emails/"
+    SECRET_PATH = "settings/session_secret.json"
 
     def get_user(self, uid):
         return self.get_doc(f"{self.USERS_PREFIX}{uid}.json")
 
     def put_user(self, uid, record):
         self.put_doc(f"{self.USERS_PREFIX}{uid}.json", record)
+
+    def get_state(self, uid):
+        return self.get_doc(f"{self.STATES_PREFIX}{uid}.json")
+
+    def put_state(self, uid, doc):
+        self.put_doc(f"{self.STATES_PREFIX}{uid}.json", doc)
+
+    def get_secret(self):
+        doc = self.get_doc(self.SECRET_PATH)
+        return doc.get("value") if isinstance(doc, dict) else None
+
+    def create_secret(self, value):
+        try:
+            self.put_doc(self.SECRET_PATH, {"value": value}, overwrite=False)
+        except StorageError as e:   # already created by another instance: the caller reads it back
+            print(f"session secret create skipped: {e}", flush=True)
 
     def uid_for_email(self, key):
         best = None
@@ -702,18 +767,49 @@ def public_user(record):
     return {k: record.get(k) for k in ("uid", "firstName", "lastInitial", "age", "email", "createdAt")}
 
 
-def me_payload(record):
+EMPTY_STATE = {"state": {}, "rev": 0, "updatedAt": 0}
+
+
+def me_payload(record, sdoc):
+    sdoc = sdoc or EMPTY_STATE
     return {"ok": True, "authenticated": True, "user": public_user(record),
-            "state": record.get("state") or {}, "updatedAt": record.get("stateUpdatedAt") or 0}
+            "state": sdoc.get("state") or {}, "rev": int(sdoc.get("rev") or 0), "updatedAt": sdoc.get("updatedAt") or 0}
 
 
 def load_user(token):
-    """(store, record) for a valid user cookie; record is None when signed out or unknown."""
-    uid = uid_from_token(token)
+    """(store, record) for a valid user cookie; record is None when signed out, unknown, or the
+    password changed since the token was issued. May raise StorageError."""
     store = get_store()
-    if not uid or store is None:
+    if store is None:
+        return None, None
+    parsed = parse_user_token(token)
+    if not parsed:
         return store, None
-    return store, store.get_user(uid)
+    uid, sv = parsed
+    record = store.get_user(uid)
+    if record is None or not hmac.compare_digest(sv, session_version(record)):
+        return store, None
+    return store, record
+
+
+def email_taken(store, key, email, uid=None):
+    """True when the index maps this email to a live account other than uid. A stale index entry
+    (its record is gone or now carries another email) does not count and gets overwritten."""
+    other = store.uid_for_email(key)
+    if not other or other == uid:
+        return False
+    rec = store.get_user(other)
+    return bool(rec) and rec.get("email") == email
+
+
+def wrong_user(data, record):
+    """The client names the uid it believes it is syncing; a tab left open after another sign-in must not
+    write one person's data into another's account."""
+    uid = data.get("uid")
+    return isinstance(uid, str) and uid != "" and uid != record["uid"]
+
+
+WRONG_USER = {"ok": False, "wrongUser": True, "error": "A different account is signed in on this device."}
 
 
 SIGNED_OUT = {"ok": True, "authenticated": False}
@@ -729,16 +825,17 @@ def api_register(data):
         return 503, {"ok": False, "error": NOT_SET_UP}, None
     key = email_key(clean["email"])
     try:
-        if store.uid_for_email(key):
+        if email_taken(store, key, clean["email"]):
             return 409, {"ok": False, "error": "That email already has an account. Sign in instead.",
                          "fields": {"email": "Already registered. Sign in instead."}}, None
         now = utc_now_iso()
         uid = secrets.token_hex(12)
         record = {"uid": uid, "email": clean["email"], "firstName": clean["firstName"],
                   "lastInitial": clean["lastInitial"], "age": clean["age"], "pw": hash_password(clean["password"]),
-                  "createdAt": now, "updatedAt": now, "state": {}, "stateUpdatedAt": 0}
+                  "createdAt": now, "updatedAt": now}
         store.put_user(uid, record)
         store.index_email(key, uid)
+        cookie = user_cookie_header(make_user_token(record))
         try:   # the admin page's sign-up log keeps working unchanged
             store.add(clean["firstName"], clean["lastInitial"], clean["age"], now)
         except StorageError as e:
@@ -746,7 +843,7 @@ def api_register(data):
     except StorageError as e:
         print(f"account create failed: {e}", flush=True)
         return 500, {"ok": False, "error": "Couldn't create your account. Try again."}, None
-    return 201, {"ok": True, "user": public_user(record)}, user_cookie_header(make_user_token(uid))
+    return 201, {"ok": True, "user": public_user(record)}, cookie
 
 
 def api_login_user(data, ip):
@@ -764,14 +861,16 @@ def api_login_user(data, ip):
     try:
         uid = store.uid_for_email(email_key(email))
         record = store.get_user(uid) if uid else None
+        if not record or record.get("email") != email or not password_matches(password, record.get("pw") or {}):
+            note_failure("u:" + ip)
+            time.sleep(0.4)
+            return wrong
+        sdoc = store.get_state(record["uid"])
+        cookie = user_cookie_header(make_user_token(record))
     except StorageError as e:
         print(f"login read failed: {e}", flush=True)
         return 500, STORAGE_DOWN, None
-    if not record or record.get("email") != email or not password_matches(password, record.get("pw") or {}):
-        note_failure("u:" + ip)
-        time.sleep(0.4)
-        return wrong
-    return 200, me_payload(record), user_cookie_header(make_user_token(record["uid"]))
+    return 200, me_payload(record, sdoc), cookie
 
 
 def api_logout_user():
@@ -781,36 +880,45 @@ def api_logout_user():
 def api_me(token):
     try:
         store, record = load_user(token)
+        if store is None:
+            return 503, {"ok": False, "error": NOT_SET_UP}, None
+        if record is None:
+            return 200, SIGNED_OUT, clear_user_cookie_header() if token else None
+        sdoc = store.get_state(record["uid"])
+        cookie = user_cookie_header(make_user_token(record))   # sliding expiry
     except StorageError as e:
         print(f"account read failed: {e}", flush=True)
-        return 500, STORAGE_DOWN, None
-    if store is None:
-        return 503, {"ok": False, "error": NOT_SET_UP}, None
-    if record is None:
-        return 200, SIGNED_OUT, clear_user_cookie_header() if token else None
-    return 200, me_payload(record), user_cookie_header(make_user_token(record["uid"]))   # sliding expiry
+        return 500, STORAGE_DOWN, None   # never clears the cookie: the session may well be fine
+    return 200, me_payload(record, sdoc), cookie
 
 
 def api_me_put(token, data):
     state = data.get("state")
     if not isinstance(state, dict):
         return 400, {"ok": False, "error": "Send {state: {...}}."}
+    base = data.get("baseRev")
+    if base is not None and (isinstance(base, bool) or not isinstance(base, int) or base < 0):
+        return 400, {"ok": False, "error": "baseRev must be a non-negative integer."}
     try:
         store, record = load_user(token)
         if store is None:
             return 503, {"ok": False, "error": NOT_SET_UP}
         if record is None:
             return 401, {"ok": False, "authenticated": False, "error": "Sign in again."}
+        if wrong_user(data, record):
+            return 409, WRONG_USER
+        current = store.get_state(record["uid"]) or EMPTY_STATE
+        if base is not None and base != int(current.get("rev") or 0):
+            # Another device (or tab) wrote first: hand back the newer copy instead of overwriting it.
+            return 409, {"ok": False, "conflict": True, "state": current.get("state") or {},
+                         "rev": int(current.get("rev") or 0), "updatedAt": current.get("updatedAt") or 0}
         state.pop("user", None)
-        now = utc_now_iso()
-        record["state"] = state
-        record["stateUpdatedAt"] = int(time.time() * 1000)
-        record["updatedAt"] = now
-        store.put_user(record["uid"], record)
+        doc = {"state": state, "rev": int(current.get("rev") or 0) + 1, "updatedAt": int(time.time() * 1000)}
+        store.put_state(record["uid"], doc)
     except StorageError as e:
         print(f"state write failed: {e}", flush=True)
         return 500, STORAGE_DOWN
-    return 200, {"ok": True, "updatedAt": record["stateUpdatedAt"]}
+    return 200, {"ok": True, "rev": doc["rev"], "updatedAt": doc["updatedAt"]}
 
 
 def api_me_patch(token, data):
@@ -824,43 +932,46 @@ def api_me_patch(token, data):
         else:
             clean["newPassword"] = pw_clean["password"]
     if errors:
-        return 400, {"ok": False, "error": "Please fix the highlighted fields.", "fields": errors}
+        return 400, {"ok": False, "error": "Please fix the highlighted fields.", "fields": errors}, None
     try:
         store, record = load_user(token)
         if store is None:
-            return 503, {"ok": False, "error": NOT_SET_UP}
+            return 503, {"ok": False, "error": NOT_SET_UP}, None
         if record is None:
-            return 401, {"ok": False, "authenticated": False, "error": "Sign in again."}
+            return 401, {"ok": False, "authenticated": False, "error": "Sign in again."}, None
+        if wrong_user(data, record):
+            return 409, WRONG_USER, None
         email_change = "email" in clean and clean["email"] != record.get("email")
         if email_change or "newPassword" in clean:
             current = data.get("currentPassword")
             if not isinstance(current, str) or not password_matches(current, record.get("pw") or {}):
                 return 403, {"ok": False, "error": "Your current password is incorrect.",
-                             "fields": {"currentPassword": "Enter your current password."}}
+                             "fields": {"currentPassword": "Enter your current password."}}, None
         old_key = email_key(record["email"])
         if email_change:
             new_key = email_key(clean["email"])
-            other = store.uid_for_email(new_key)
-            if other and other != record["uid"]:
+            if email_taken(store, new_key, clean["email"], record["uid"]):
                 return 409, {"ok": False, "error": "That email already has an account.",
-                             "fields": {"email": "Already in use by another account."}}
+                             "fields": {"email": "Already in use by another account."}}, None
             store.index_email(new_key, record["uid"])
         for k in ("firstName", "lastInitial", "age", "email"):
             if k in clean:
                 record[k] = clean[k]
+        cookie = None
         if "newPassword" in clean:
-            record["pw"] = hash_password(clean["newPassword"])
+            record["pw"] = hash_password(clean["newPassword"])   # new salt: every other device's token stops verifying
+            cookie = user_cookie_header(make_user_token(record))
         record["updatedAt"] = utc_now_iso()
         store.put_user(record["uid"], record)
         if email_change:
             try:
                 store.unindex_email(old_key, record["uid"])
             except StorageError as e:
-                print(f"old email unindex failed: {e}", flush=True)   # login re-checks the record's email
+                print(f"old email unindex failed: {e}", flush=True)   # a stale index entry is ignored by email_taken and login
     except StorageError as e:
         print(f"profile write failed: {e}", flush=True)
-        return 500, STORAGE_DOWN
-    return 200, {"ok": True, "user": public_user(record)}
+        return 500, STORAGE_DOWN, None
+    return 200, {"ok": True, "user": public_user(record)}, cookie
 
 
 def api_login(data, ip):
@@ -957,20 +1068,26 @@ class ApiMixin:
             return None, self.send_json(400, {"ok": False, "error": "Bad request."})
         if length > limit:
             return None, self.send_json(413, {"ok": False, "error": "Request too large."})
+        ctype = (self.headers.get("Content-Type") or "").split(";")[0].strip().lower()
+        if length and ctype != "application/json":
+            # A plain HTML form cannot send this type, so a cross-site form post can never reach a handler.
+            self.drain_body(length)
+            return None, self.send_json(415, {"ok": False, "error": "Send JSON (Content-Type: application/json)."})
         try:
             data = json.loads(self.rfile.read(length).decode("utf-8") or "{}")
-        except (ValueError, UnicodeDecodeError):
+        except (ValueError, UnicodeDecodeError, RecursionError):
             return None, self.send_json(400, {"ok": False, "error": "Send a JSON body."})
         if not isinstance(data, dict):
             return None, self.send_json(400, {"ok": False, "error": "Send a JSON object."})
         return data, None
 
-    def drain_body(self):
+    def drain_body(self, length=None):
         """Consume a request body a route does not need, so a keep-alive connection stays in sync."""
-        try:
-            length = int(self.headers.get("Content-Length") or 0)
-        except ValueError:
-            length = 0
+        if length is None:
+            try:
+                length = int(self.headers.get("Content-Length") or 0)
+            except ValueError:
+                length = 0
         if 0 < length <= MAX_STATE_BODY:
             self.rfile.read(length)
 
@@ -994,6 +1111,9 @@ class ApiMixin:
 
     def handle_api(self, method):
         route = self.route or urlparse.urlsplit(self.path).path.removeprefix("/api/").strip("/")
+        if method != "GET" and (self.headers.get("Sec-Fetch-Site") or "").strip().lower() == "cross-site":
+            self.drain_body()
+            return self.send_json(403, {"ok": False, "error": "Cross-site requests are not allowed."})
         if route == "register" and method == "POST":
             data, err = self.read_json()
             if err:
@@ -1018,7 +1138,8 @@ class ApiMixin:
             data, err = self.read_json()
             if err:
                 return
-            return self.send_json(*api_me_patch(self.user_token(), data))
+            status, payload, cookie = api_me_patch(self.user_token(), data)
+            return self.send_json(status, payload, cookie)
         if route == "registrations" and method == "GET":
             return self.send_json(*api_list(self.session_token()))
         if route == "admin/session" and method == "GET":

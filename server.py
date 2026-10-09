@@ -14,9 +14,10 @@ Standard library only. The API itself lives in bb_core.py and is shared with
 the Vercel functions in api/, so local and hosted behave the same.
 """
 import os
+import posixpath
 import sys
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
-from urllib.parse import urlsplit
+from urllib.parse import unquote, urlsplit
 
 import bb_core
 from bb_core import ApiMixin, ROOT
@@ -43,7 +44,11 @@ class Handler(ApiMixin, SimpleHTTPRequestHandler):
         super().__init__(*args, directory=ROOT, **kwargs)
 
     def is_private(self, path):
-        p = os.path.normpath(path).replace(os.sep, "/").lower()
+        # Check the same decoded, normalised path the file server resolves, so "%2eenv" cannot slip past;
+        # every dot-file and dot-directory is private as well.
+        p = posixpath.normpath("/" + unquote(path).lstrip("/")).lower()   # one leading slash: normpath keeps "//"
+        if any(seg.startswith(".") for seg in p.split("/") if seg):
+            return True
         return any(p == pre or p.startswith(pre + "/") or p.startswith(pre + "-") or p.startswith(pre + ".")
                    for pre in PRIVATE_PREFIXES)
 

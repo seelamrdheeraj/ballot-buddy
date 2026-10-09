@@ -87,6 +87,13 @@
   .errcard{border:2px solid var(--red);margin-top:16px;padding:14px 16px}
   .errcard strong{display:block;color:var(--text)}
   .errcard p{color:var(--text-2);margin:4px 0 12px}
+  .agenote{margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--sheet-2);border:1px solid var(--line);font-size:.92rem;line-height:1.5;color:var(--text-2)}
+  .agenote strong{color:var(--text)}
+  .agenote p{margin:6px 0 0;max-width:none}
+  .agenote a.inl{color:var(--navy);font-weight:700}
+  .agenote .cta{margin-top:12px}
+  #age-continue{margin-top:16px}
+  #notreg{margin-top:14px}
   #submit{margin-top:20px}
   #submit[disabled]{opacity:.8;cursor:progress}
   #submit[disabled]:hover{background:var(--red)}
@@ -135,14 +142,30 @@
 
       <div id="view-form">
         <div class="intro">
-          <span class="eyebrow">Free · Nonpartisan · For voters 18+</span>
+          <span class="eyebrow">Free · Nonpartisan · Voter education for all ages</span>
           <h1 id="intro-title">Get started.</h1>
           <div class="rule"></div>
           <p class="lead" id="intro-lead">A few quick fields and your ballot is one tap away. Your account keeps your ballot and settings when you come back.</p>
         </div>
 
         <form id="reg" class="card" data-mode="create" novalidate>
-          <div id="create-fields">
+          <div id="age-gate">
+            <div class="field" id="f-age">
+              <label for="age">How old are you?</label>
+              <input id="age" name="age" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="3" autocomplete="off" style="max-width:140px" aria-invalid="false" aria-describedby="age-hint">
+              <div class="hint" id="age-hint">We ask this first so we never collect account details from anyone under 13.</div>
+              <div class="err" id="age-err"></div>
+            </div>
+            <div class="agenote" id="age-note" hidden aria-live="polite"></div>
+            <div class="agenote" id="under13" hidden>
+              <strong>You can use Ballot Buddy without an account.</strong>
+              <p>Explore elections and candidates as a guest. Nothing about you is collected or sent anywhere; the ZIP you enter stays on this device. In California, eligible teens can preregister to vote at 16 or 17 and vote at 18.</p>
+              <a class="cta navy" id="guest-link" href="ballot-buddy-app.html#guest=u13">Explore as a guest <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
+            <button type="button" class="cta navy" id="age-continue">Continue <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </div>
+
+          <div id="create-fields" hidden>
             <div class="field" id="f-firstName">
               <label for="firstName">First name</label>
               <input id="firstName" name="firstName" type="text" autocomplete="given-name" maxlength="40" autocapitalize="words" aria-invalid="false">
@@ -156,20 +179,15 @@
               <div class="err" id="lastInitial-err"></div>
             </div>
 
-            <div class="field" id="f-age">
-              <label for="age">Age</label>
-              <input id="age" name="age" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="3" autocomplete="off" style="max-width:140px" aria-invalid="false">
-              <div class="err" id="age-err"></div>
-            </div>
           </div>
 
-          <div class="field" id="f-email">
+          <div class="field" id="f-email" hidden>
             <label for="email">Email</label>
             <input id="email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="254" autocapitalize="none" spellcheck="false" aria-invalid="false">
             <div class="err" id="email-err"></div>
           </div>
 
-          <div class="field" id="f-password">
+          <div class="field" id="f-password" hidden>
             <label for="password">Password</label>
             <input id="password" name="password" type="password" autocomplete="new-password" minlength="8" maxlength="200" aria-invalid="false" aria-describedby="password-hint">
             <div class="hint" id="password-hint">At least 8 characters.</div>
@@ -186,7 +204,8 @@
             </div>
           </div>
 
-          <button class="cta" id="submit" type="submit"><span class="spin" aria-hidden="true"></span><span id="submit-label">Create account</span> <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <button class="cta" id="submit" type="submit" hidden><span class="spin" aria-hidden="true"></span><span id="submit-label">Create account</span> <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <p class="fine" id="notreg">A Ballot Buddy account is <strong>not</strong> voter registration. To register or preregister to vote, use <a href="https://registertovote.ca.gov/" target="_blank" rel="noopener">registertovote.ca.gov</a>.</p>
           <p class="fine"><span id="sw-create">Already have an account? <a href="#signin" id="to-signin">Sign in</a>.</span><span id="sw-signin" hidden>New here? <a href="#" id="to-create">Create an account</a>.</span></p>
         </form>
       </div>
@@ -197,6 +216,7 @@
         <h1 id="welcome" tabindex="-1"></h1>
         <p class="lead" id="registered"></p>
         <a class="cta" href="ballot-buddy-app.html">Open the app <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <p class="fine">Your account is set up. It is not voter registration: to register or preregister to vote, use <a href="https://registertovote.ca.gov/" target="_blank" rel="noopener">registertovote.ca.gov</a>.</p>
         <div><button type="button" class="linkbtn" id="again">Not you? Sign out</button></div>
         <p class="status-text" id="out-status" aria-live="polite"></p>
       </div>
@@ -231,12 +251,12 @@
   const FIELDS = ['firstName', 'lastInitial', 'age', 'email', 'password'];
   const DRAFT_FIELDS = ['firstName', 'lastInitial', 'age', 'email']; // never the password
   const MODE_FIELDS = { create: FIELDS, signin: ['email', 'password'] };
-  const HINTS = { firstName: [], lastInitial: ['lastInitial-hint'], age: [], email: [], password: ['password-hint'] };
+  const HINTS = { firstName: [], lastInitial: ['lastInitial-hint'], age: ['age-hint'], email: [], password: ['password-hint'] };
   const COPY = {
     create: {
       pageTitle: 'Create account · Ballot Buddy',
       title: 'Get started.',
-      lead: 'A few quick fields and your ballot is one tap away. Your account keeps your ballot and settings when you come back.',
+      lead: 'Your age comes first, so we never collect account details from anyone under 13. Then a few quick fields and your ballot is one tap away.',
       submit: 'Create account',
       busy: 'Creating…',
       failTitle: "Couldn't create your account.",
@@ -268,6 +288,13 @@
   const introTitle = $('intro-title');
   const introLead = $('intro-lead');
   const createFields = $('create-fields');
+  const ageGate = $('age-gate');
+  const ageNote = $('age-note');
+  const under13 = $('under13');
+  const ageContinue = $('age-continue');
+  const guestLink = $('guest-link');
+  const fEmail = $('f-email');
+  const fPassword = $('f-password');
   const passwordHint = $('password-hint');
   const submitBtn = $('submit');
   const submitLabel = $('submit-label');
@@ -288,6 +315,7 @@
   const outStatus = $('out-status');
 
   let mode = 'create';
+  let gatePassed = false; // create mode only: the account fields stay hidden until an age of 13+ is entered
   let submitting = false;
   let signingOut = false;
   let sessionResolved = false;
@@ -299,6 +327,8 @@
 
   // Drafts hold the non-secret fields only. The password is never written anywhere.
   function saveDraft() {
+    const a = ageValue();
+    if (mode === 'create' && a === a && a < MIN_AGE) { lsDel(DRAFT_KEY); return; }
     const d = {};
     DRAFT_FIELDS.forEach((n) => { d[n] = input[n].value; });
     lsSet(DRAFT_KEY, JSON.stringify(d));
@@ -331,6 +361,81 @@
     if (!s || typeof s !== 'object' || !s.user || typeof s.user !== 'object') return;
     const prev = s.user.uid;
     if (prev !== undefined && prev !== null && prev !== '' && String(prev) !== String(uid)) lsDel(STATE_KEY);
+  }
+
+  /* ---------- age gate ---------- */
+  const LINK_REG = 'https://registertovote.ca.gov/';
+  const LINK_WHO = 'https://www.sos.ca.gov/elections/voting-resources/voting-california/who-can-vote-california';
+  const LINK_FAQ = 'https://www.sos.ca.gov/elections/pre-register-16-vote-18/pre-reg-faqs/';
+  function ageValue() {
+    const v = input.age.value.trim();
+    return AGE_RE.test(v) ? Number(v) : NaN;
+  }
+  function link(href, label) {
+    const a = document.createElement('a');
+    a.href = href; a.target = '_blank'; a.rel = 'noopener'; a.className = 'inl'; a.textContent = label + ' \u2197';
+    return a;
+  }
+  // The note never decides eligibility; it says what California allows at each age and links to the state's own pages.
+  function renderAgeNote(age) {
+    ageNote.textContent = '';
+    const strong = document.createElement('strong');
+    const p = document.createElement('p');
+    const links = document.createElement('p');
+    if (age < 16) {
+      strong.textContent = 'You can explore Ballot Buddy to learn about elections and candidates.';
+      p.textContent = 'You cannot vote yet. When you turn 16, eligible Californians can preregister to vote; registration becomes active at 18.';
+      links.appendChild(link(LINK_FAQ, 'Preregistration FAQ (Secretary of State)'));
+    } else if (age < 18) {
+      strong.textContent = 'Eligible Californians can preregister to vote at 16 or 17. Your voter registration becomes active at 18.';
+      p.textContent = 'Voting generally requires being 18 by Election Day and meeting the other eligibility requirements; the state decides who is eligible, not your age alone.';
+      links.appendChild(link(LINK_REG, 'Preregister to vote'));
+      links.appendChild(document.createTextNode('  '));
+      links.appendChild(link(LINK_FAQ, 'Preregistration FAQ'));
+    } else {
+      strong.textContent = 'Voting generally requires being 18 by Election Day and meeting California\u2019s other eligibility requirements.';
+      p.textContent = 'Your age alone doesn\u2019t decide it. Check the state\u2019s guidance, and register (or confirm your registration) with the state, not here.';
+      links.appendChild(link(LINK_REG, 'Register to vote'));
+    }
+    links.appendChild(document.createTextNode('  '));
+    links.appendChild(link(LINK_WHO, 'Who can vote in California (official)'));
+    const note = document.createElement('p');
+    note.textContent = 'Creating a Ballot Buddy account does not register you to vote.';
+    ageNote.appendChild(strong); ageNote.appendChild(p); ageNote.appendChild(links); ageNote.appendChild(note);
+  }
+  function applyGate() {
+    const create = mode === 'create';
+    const show = !create || gatePassed;
+    ageGate.hidden = !create;
+    ageContinue.hidden = gatePassed;
+    createFields.hidden = !show;
+    fEmail.hidden = !show;
+    fPassword.hidden = !show;
+    submitBtn.hidden = !show;
+  }
+  function runGate(focusNext) {
+    const age = ageValue();
+    if (!(age >= 1 && age <= MAX_AGE)) {
+      setFieldError('age', 'Enter your age in years.');
+      gatePassed = false; under13.hidden = true; ageNote.hidden = true; applyGate();
+      input.age.focus();
+      return;
+    }
+    setFieldError('age', '');
+    if (age < MIN_AGE) {
+      // Under 13: no account, no personal information. The guest link carries only the age band.
+      gatePassed = false; ageNote.hidden = true; under13.hidden = false; applyGate();
+      lsDel(DRAFT_KEY);
+      if (focusNext) guestLink.focus();
+      return;
+    }
+    under13.hidden = true;
+    renderAgeNote(age);
+    ageNote.hidden = false;
+    gatePassed = true;
+    applyGate();
+    saveDraft();
+    if (focusNext) input.firstName.focus();
   }
 
   /* ---------- UI helpers ---------- */
@@ -385,7 +490,7 @@
     const signin = mode === 'signin';
     const c = COPY[mode];
     form.setAttribute('data-mode', mode);
-    createFields.hidden = signin;
+    applyGate();
     passwordHint.hidden = signin;
     swCreate.hidden = signin;
     swSignin.hidden = !signin;
@@ -409,7 +514,7 @@
     try {
       history.replaceState(null, '', next === 'signin' ? '#signin' : location.pathname + location.search);
     } catch (e) { /* ignore */ }
-    (next === 'signin' ? input.email : input.firstName).focus();
+    (next === 'signin' ? input.email : (gatePassed ? input.firstName : input.age)).focus();
   }
 
   function showSuccess(user, kind, moveFocus) {
@@ -468,6 +573,7 @@
 
       const ageStr = input.age.value.trim();
       const age = AGE_RE.test(ageStr) ? Number(ageStr) : NaN;
+      if (age >= 1 && age < MIN_AGE) { runGate(true); return null; }
       if (!(age >= MIN_AGE && age <= MAX_AGE)) {
         errors.age = 'Enter an age between ' + MIN_AGE + ' and ' + MAX_AGE + '.';
       }
@@ -649,10 +755,11 @@
     lsDel(REG_KEY);
     lsDel(DRAFT_KEY);
     resetForm();
+    gatePassed = false; ageNote.hidden = true; under13.hidden = true;
     setMode('create');
     try { history.replaceState(null, '', location.pathname + location.search); } catch (e) { /* ignore */ }
     showForm();
-    input.firstName.focus();
+    input.age.focus();
   }
 
   /* ---------- wiring ---------- */
@@ -665,7 +772,11 @@
     });
   });
 
-  form.addEventListener('submit', (e) => { e.preventDefault(); submit(); });
+  form.addEventListener('submit', (e) => { e.preventDefault(); if (mode === 'create' && !gatePassed) { runGate(true); return; } submit(); });
+  ageContinue.addEventListener('click', () => runGate(true));
+  input.age.addEventListener('keydown', (e) => { if (e.key === 'Enter' && !gatePassed) { e.preventDefault(); runGate(true); } });
+  // Changing the age after the gate passed re-runs it, so an age under 13 hides the account fields again.
+  input.age.addEventListener('change', () => { if (mode === 'create' && (gatePassed || !under13.hidden)) runGate(false); });
   retryBtn.addEventListener('click', submit);
   againBtn.addEventListener('click', signOut);
 

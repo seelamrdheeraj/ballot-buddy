@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """End-to-end check of the account API against a running server.py.
 
-Usage: python3 tools/test_accounts.py [http://localhost:8768]
+Usage: python3 tools/test_accounts.py [http://localhost:8768] [--hosted]
 Creates one throwaway account (random email), exercises every route, and prints PASS/FAIL per step.
+--hosted skips the server.py-only checks (private file paths) when pointed at the Vercel deployment.
 """
 import json
 import secrets
@@ -11,7 +12,9 @@ import urllib.error
 import urllib.request
 from http.cookiejar import CookieJar
 
-BASE = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:8768"
+ARGS = [a for a in sys.argv[1:] if not a.startswith("--")]
+HOSTED = "--hosted" in sys.argv
+BASE = ARGS[0] if ARGS else "http://localhost:8768"
 
 
 class Client:
@@ -89,7 +92,7 @@ except urllib.error.HTTPError as e:
     s = e.code
 check("cross-site POST is refused", s == 403, s)
 
-for path in ("/.env", "/%2eenv", "/registrations%2edb", "/%2egit/config", "/bb_core.py", "/%62b_core.py"):
+for path in () if HOSTED else ("/.env", "/%2eenv", "/registrations%2edb", "/%2egit/config", "/bb_core.py", "/%62b_core.py"):
     req = urllib.request.Request(BASE + path)
     try:
         with Client().open(req) as r:

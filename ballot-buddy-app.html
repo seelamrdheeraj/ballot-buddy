@@ -59,7 +59,7 @@
   .btn svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
   .btn{transition:transform .18s,opacity .2s}
   .btn:active{transform:translateY(1px)}
-  .btn:focus-visible,.card:focus-visible,input:focus-visible,select:focus-visible,.chip:focus-visible,summary:focus-visible,.pillbtn:focus-visible,.follow:focus-visible{outline:3px solid var(--marigold);outline-offset:2px}
+  .btn:focus-visible,.card:focus-visible,input:focus-visible,select:focus-visible,.chip:focus-visible,.opt:focus-visible,summary:focus-visible,.pillbtn:focus-visible,.follow:focus-visible{outline:3px solid var(--marigold);outline-offset:2px}
   .btn:disabled{opacity:.5;cursor:not-allowed}
   .card svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 
@@ -109,6 +109,12 @@
   .chips{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 12px}
   .chip{border:2px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;font:inherit;font-size:.82rem;font-weight:700;color:var(--ink-2);cursor:pointer}
   .chip.on{border-color:var(--navy);background:var(--navy);color:#fff}
+  .opts{display:flex;flex-direction:column;gap:8px;margin:6px 0 10px}
+  .opt{display:block;width:100%;text-align:left;border:2px solid var(--line);background:#fff;border-radius:14px;padding:10px 12px;font:inherit;color:var(--ink-2);cursor:pointer}
+  .opt b{display:block;font-size:.92rem;font-weight:700;color:var(--navy)}
+  .opt span{display:block;font-size:.8rem;line-height:1.4;margin-top:3px;color:var(--muted)}
+  .opt.on{border-color:var(--navy);background:var(--navy)}
+  .opt.on b,.opt.on span{color:#fff}
 
   .toggle{position:relative;width:46px;height:26px;border-radius:999px;background:#C9C0AE;border:0;cursor:pointer;flex:none;padding:0;transition:background-color .2s}
   .toggle::after{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:#fff;transition:left .2s ease-out}
@@ -286,7 +292,7 @@ const DATA_URL='data/ballot-2026.json', ZIP_URL='data/zip-cd.json', REPS_URL='da
 const ELECTION = new Date(2026,10,3);
 
 /* ---------- state ---------- */
-const S = { screen:'welcome', lang:'en', zip:'', state:'', county:'', cd:'', cdOptions:[], city:'', cityOptions:[], ad:'', adOptions:[], sd:'', sdOptions:[], sup:'', usd:'', usdOptions:[], pinned:{}, setup:false, large:false,
+const S = { screen:'welcome', lang:'en', zip:'', pickZip:'', state:'', county:'', cd:'', cdOptions:[], city:'', cityOptions:[], ad:'', adOptions:[], sd:'', sdOptions:[], sup:'', usd:'', usdOptions:[], pinned:{}, setup:false, large:false,
   reminders:{}, notif:true, reading:'simple', following:{}, swipes:{}, matchDone:false, chat:[], params:{} };
 try{ Object.assign(S, JSON.parse(localStorage.getItem('bb-state')||'{}')); }catch(e){}
 for(const k of ['params','reminders','following','swipes','pinned']) S[k]=S[k]||{}; S.chat=S.chat||[]; for(const k of ['cdOptions','cityOptions','adOptions','sdOptions','usdOptions']) S[k]=S[k]||[];
@@ -300,7 +306,7 @@ let FECCACHE = {}; try{ FECCACHE=JSON.parse(localStorage.getItem('bb-fec')||'{}'
 /* ---------- strings ---------- */
 const T = {
   en:{tab_home:'Home',tab_match:'Match',tab_updates:'Updates',tab_profile:'Profile',welcome:'Welcome to',start:'Get started',tagline:'Your ballot, explained. Free. Nonpartisan. For voters 18+.',
-    setup_t:'Where do you vote?',setup_s:'Your ZIP finds your ballot. Nothing is shared.',zip:'ZIP code',lang:'Language',save:'Show my ballot',zip_err:'Enter a 5-digit ZIP.',pick_cd:'Your ZIP spans more than one congressional district. Pick yours:',pick_city:'Your ZIP covers more than one city. Pick yours:',pick_ad:'Your ZIP spans more than one State Assembly district. Pick yours:',pick_sd:'Your ZIP spans more than one State Senate district. Pick yours:',pick_usd:'Your ZIP spans more than one school district. Pick yours:',unincorp:'Outside any city',
+    setup_t:'Where do you vote?',setup_s:'Your ZIP finds your ballot. Nothing is shared.',zip:'ZIP code',lang:'Language',save:'Show my ballot',zip_err:'Enter a 5-digit ZIP.',pick_cd:'Your ZIP spans more than one congressional district. Pick yours:',pick_city:'Your ZIP covers more than one city. Pick yours:',pick_ad:'Your ZIP crosses a State Assembly district line, so more than one district is listed. You vote in only one; your street address decides which. Pick yours:',ad_name:'State Assembly District {n}',ad_desc:'This district elects a representative to the California State Assembly.',ad_why:'Listed because part of ZIP {zip} is inside it.',ad_on_county:'It appears on {county} ballots.',ad_off_county:'It does not appear on {county} ballots, so it applies only to addresses in this ZIP that are outside the county.',ad_help:'Not sure which one is yours? Your county sample ballot names your district.',pick_sd:'Your ZIP spans more than one State Senate district. Pick yours:',pick_usd:'Your ZIP spans more than one school district. Pick yours:',unincorp:'Outside any city',
     confirm_t:'Districts to confirm',confirm_s:'Your ZIP may or may not fall inside these districts. Check your sample ballot, then tap “On my ballot” to keep the ones that apply.',on_ballot:'On my ballot',lookup:'Look up my districts',sd_off:'Your State Senate district ({n}) is not on the ballot this year; it is next up in 2028.',
     office_what:'What this office does',term_l:'Term:',rcv:'Ranked-choice voting',cand_site:'Candidate website',src_list:'Official candidate list',no_site:'No verified campaign website found. We never guess web addresses.',
     kind_stated:'Candidate’s stated position',kind_record:'Public record',kind_reporting:'Independent reporting',
@@ -330,7 +336,7 @@ const T = {
     upd_follow:'From people you follow',upd_all:'For your area',
   },
   es:{tab_home:'Inicio',tab_match:'Match',tab_updates:'Avisos',tab_profile:'Perfil',welcome:'Bienvenido a',start:'Comenzar',tagline:'Tu boleta, explicada. Gratis. Imparcial. Para votantes de 18 años o más.',
-    setup_t:'¿Dónde votas?',setup_s:'Tu código postal encuentra tu boleta. No se comparte nada.',zip:'Código postal',lang:'Idioma',save:'Mostrar mi boleta',zip_err:'Escribe un código postal de 5 dígitos.',pick_cd:'Tu código postal abarca más de un distrito. Elige el tuyo:',pick_city:'Tu código postal cubre más de una ciudad. Elige la tuya:',pick_ad:'Tu código postal abarca más de un distrito de la Asamblea. Elige el tuyo:',pick_sd:'Tu código postal abarca más de un distrito del Senado estatal. Elige el tuyo:',pick_usd:'Tu código postal abarca más de un distrito escolar. Elige el tuyo:',unincorp:'Fuera de cualquier ciudad',
+    setup_t:'¿Dónde votas?',setup_s:'Tu código postal encuentra tu boleta. No se comparte nada.',zip:'Código postal',lang:'Idioma',save:'Mostrar mi boleta',zip_err:'Escribe un código postal de 5 dígitos.',pick_cd:'Tu código postal abarca más de un distrito. Elige el tuyo:',pick_city:'Tu código postal cubre más de una ciudad. Elige la tuya:',pick_ad:'Tu código postal cruza un límite entre distritos de la Asamblea Estatal, por eso aparece más de uno. Votas solo en uno; tu dirección determina cuál. Elige el tuyo:',ad_name:'Distrito {n} de la Asamblea Estatal',ad_desc:'Este distrito elige a un representante en la Asamblea Estatal de California.',ad_why:'Aparece porque parte del código postal {zip} está dentro de él.',ad_on_county:'Aparece en las boletas del {county}.',ad_off_county:'No aparece en las boletas del {county}, así que solo aplica a direcciones de este código postal fuera del condado.',ad_help:'¿No sabes cuál es el tuyo? Tu boleta de muestra del condado indica tu distrito.',pick_sd:'Tu código postal abarca más de un distrito del Senado estatal. Elige el tuyo:',pick_usd:'Tu código postal abarca más de un distrito escolar. Elige el tuyo:',unincorp:'Fuera de cualquier ciudad',
     confirm_t:'Distritos por confirmar',confirm_s:'Tu código postal puede o no estar dentro de estos distritos. Revisa tu boleta de muestra y toca “En mi boleta” para conservar los que apliquen.',on_ballot:'En mi boleta',lookup:'Buscar mis distritos',sd_off:'Tu distrito del Senado estatal ({n}) no está en la boleta este año; se elige en 2028.',
     office_what:'Qué hace este cargo',term_l:'Mandato:',rcv:'Votación por orden de preferencia',cand_site:'Sitio del candidato',src_list:'Lista oficial de candidatos',no_site:'No se encontró un sitio de campaña verificado. Nunca adivinamos direcciones web.',
     kind_stated:'Postura declarada por el candidato',kind_record:'Registro público',kind_reporting:'Reportaje independiente',
@@ -832,14 +838,24 @@ function matchResults(){ const pool=swipePool(); const by={}; for(const p of poo
 function interestSummary(){ const pool=swipePool(); const c={}; for(const p of pool){ if(S.swipes[p.key]===1) c[p.topic]=(c[p.topic]||0)+1; } return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,6).map(e=>e[0]); }
 
 /* ---------- actions ---------- */
-function chipGroup(label,opts,cur,field,fmtf,v){ return opts.length>1?`<div class="sub" style="margin:8px 0 4px">${label}</div><div class="chips">${opts.map(o=>`<button class="chip ${cur===o?'on':''}" onclick="S.${field}='${esc(o).replace(/'/g,'&#39;')}';save();previewZip('${esc(v)}')">${fmtf(o)}</button>`).join('')}</div>`:''; }
+function chipGroup(label,opts,cur,field,fmtf,v){ return opts.length>1?`<div class="sub" style="margin:8px 0 4px">${label}</div><div class="chips">${opts.map(o=>`<button class="chip ${cur===o?'on':''}" onclick="S.${field}='${esc(o).replace(/'/g,'&#39;')}';S.pickZip='${esc(v)}';save();previewZip('${esc(v)}')">${fmtf(o)}</button>`).join('')}</div>`:''; }
+/* State Assembly districts get their full name and a one-line explanation: a ZIP can cross a district line, and a voter is in only one. Once the county's contest list is loaded (fetched here on demand, as it would be after setup) each entry also says whether it appears on that county's ballots. */
+function adGroup(opts,cur,v,county){ if(opts.length<2) return '';
+  const contests=(D.contests||{})[county]; if(county&&!contests) loadCounty(county).then(ok=>{ const z=document.getElementById('zip'); if(ok&&z&&z.value===v) previewZip(v); });
+  const onBallot=contests?new Set(contests.filter(c=>c.type==='assembly'&&c.district).map(c=>String(parseInt(c.district,10)))):new Set();
+  const cname=S.lang==='es'?'condado de '+county:county+' County';
+  const entry=o=>{ let why=t('ad_why').replace('{zip}',esc(v)); if(onBallot.size) why+=' '+t(onBallot.has(o)?'ad_on_county':'ad_off_county').replace('{county}',esc(cname));
+    return `<button class="opt ${cur===o?'on':''}" aria-pressed="${cur===o}" onclick="S.ad='${esc(o)}';S.pickZip='${esc(v)}';save();previewZip('${esc(v)}')"><b>${t('ad_name').replace('{n}',esc(o))}</b><span>${t('ad_desc')} ${why}</span></button>`; };
+  return `<div class="sub" style="margin:8px 0 4px">${t('pick_ad')}</div><div class="opts">${opts.map(entry).join('')}</div><div class="sub" style="margin:0 0 8px">${t('ad_help')}</div>`; }
 function previewZip(v){ const el=document.getElementById('zipprev'); const pick=document.getElementById('cdpick'); const st=v.length===5?zipToState(v):''; const o=v.length===5?setupOptions(v):{cds:[],cities:[],ads:[],sds:[],usds:[]};
   const bits=[]; if(st){ if(countyFor(v)) bits.push(countyFor(v)); bits.push(STATE_NAMES[st]); if(o.cities.length===1) bits.push(o.cities[0]); else if(o.county&&!o.cities.length&&zipInfo(v)) bits.push(t('unincorp')); if(o.cds.length===1) bits.push(cdLabel(o.cds[0])); if(o.ads.length===1) bits.push('AD-'+o.ads[0]); if(o.sds.length===1) bits.push('SD-'+o.sds[0]); }
   el.textContent=st?bits.join(' · '):(v.length===5?(S.lang==='es'?'Código no reconocido':'ZIP not recognized'):'');
-  pick.innerHTML=chipGroup(t('pick_cd'),o.cds,S.cd,'cd',cdLabel,v)+chipGroup(t('pick_city'),o.cities,S.city,'city',x=>esc(x),v)+chipGroup(t('pick_ad'),o.ads,S.ad,'ad',x=>'AD-'+x,v)+chipGroup(t('pick_sd'),o.sds,S.sd,'sd',x=>'SD-'+x,v)+chipGroup(t('pick_usd'),o.usds,S.usd,'usd',x=>esc(x),v); }
+  const P=(S.zip===v||S.pickZip===v)?S:{};   // picks belong to the saved ZIP or to the one just typed; otherwise nothing is pre-selected
+  pick.innerHTML=chipGroup(t('pick_cd'),o.cds,P.cd||'','cd',cdLabel,v)+chipGroup(t('pick_city'),o.cities,P.city||'','city',x=>esc(x),v)+adGroup(o.ads,P.ad||'',v,o.county)+chipGroup(t('pick_sd'),o.sds,P.sd||'','sd',x=>'SD-'+x,v)+chipGroup(t('pick_usd'),o.usds,P.usd||'','usd',x=>esc(x),v); }
 /* Apply a ZIP to state: county, and each district type (single option → set; several → keep the user's pick if still valid, else leave for the pick list). `keep` is used on reload so saved picks survive. */
 function applyZip(v,keep){ const st=zipToState(v); if(!st) return false; const o=setupOptions(v);
-  if(S.zip!==v){ S.cd=''; S.city=''; S.ad=''; S.sd=''; S.sup=''; S.usd=''; S.pinned={}; S.swipes={}; S.matchDone=false; }
+  /* A new ZIP clears the old ZIP's picks, pins and swipes. District picks the voter just made on the setup screen for this ZIP (S.pickZip) survive and are validated below. */
+  if(S.zip!==v){ if(S.pickZip!==v){ S.cd=''; S.city=''; S.ad=''; S.sd=''; S.usd=''; } S.sup=''; S.pinned={}; S.swipes={}; S.matchDone=false; }
   const pick=(cur,opts)=>opts.length===1?opts[0]:(opts.includes(cur)?cur:'');
   S.zip=v; S.state=st; S.county=countyFor(v); S.cd=pick(S.cd,o.cds); S.city=pick(S.city,o.cities); S.ad=pick(S.ad,o.ads); S.sd=pick(S.sd,o.sds); S.usd=pick(S.usd,o.usds);
   if(!o.county&&!S.cd&&o.cds.length) S.cd=o.cds[0];   // outside covered counties keep the old behaviour: largest Census district by default

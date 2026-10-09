@@ -99,9 +99,9 @@
   .back svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round}
 
   label.f{display:block;font-size:.78rem;font-weight:700;color:var(--ink-2);margin:12px 0 6px;letter-spacing:.02em}
-  input[type=text],input[type=tel],select{width:100%;font:inherit;font-size:1.05rem;padding:12px 14px;border-radius:12px;border:2px solid var(--line);background:#fff;color:var(--ink)}
-  input[type=text],input[type=tel],select{transition:border-color .2s}
-  input[type=text]:focus,input[type=tel]:focus{border-color:var(--navy)}
+  input[type=text],input[type=tel],input[type=email],input[type=password],select{width:100%;font:inherit;font-size:1.05rem;padding:12px 14px;border-radius:12px;border:2px solid var(--line);background:#fff;color:var(--ink)}
+  input[type=text],input[type=tel],input[type=email],input[type=password],select{transition:border-color .2s}
+  input[type=text]:focus,input[type=tel]:focus,input[type=email]:focus,input[type=password]:focus{border-color:var(--navy)}
   a.src,.links a{transition:border-color .2s,background-color .2s}
   .seg{display:flex;background:var(--cream-2);border-radius:12px;padding:4px;gap:4px}
   .seg button{flex:1;border:0;background:transparent;font:inherit;font-weight:700;font-size:.85rem;padding:8px;border-radius:9px;color:var(--ink-2);cursor:pointer}
@@ -292,11 +292,14 @@ const DATA_URL='data/ballot-2026.json', ZIP_URL='data/zip-cd.json', REPS_URL='da
 const ELECTION = new Date(2026,10,3);
 
 /* ---------- state ---------- */
-const S = { screen:'welcome', lang:'en', zip:'', pickZip:'', state:'', county:'', cd:'', cdOptions:[], city:'', cityOptions:[], ad:'', adOptions:[], sd:'', sdOptions:[], sup:'', usd:'', usdOptions:[], pinned:{}, setup:false, large:false,
-  reminders:{}, notif:true, reading:'simple', following:{}, swipes:{}, matchDone:false, chat:[], params:{} };
+/* Everything a voter sets up lives in S. `user` is the signed-in account (from the server, never trusted from the client); the rest is synced to that account after every save, so it survives a cleared browser, the Home Screen app's separate storage, or a new phone. */
+function fresh(){ return { screen:'welcome', lang:'en', zip:'', pickZip:'', state:'', county:'', cd:'', cdOptions:[], city:'', cityOptions:[], ad:'', adOptions:[], sd:'', sdOptions:[], sup:'', usd:'', usdOptions:[], pinned:{}, setup:false, large:false,
+  reminders:{}, notif:true, reading:'simple', following:{}, swipes:{}, matchDone:false, chat:[], params:{}, user:null, updatedAt:0 }; }
+const S = fresh();
 try{ Object.assign(S, JSON.parse(localStorage.getItem('bb-state')||'{}')); }catch(e){}
-for(const k of ['params','reminders','following','swipes','pinned']) S[k]=S[k]||{}; S.chat=S.chat||[]; for(const k of ['cdOptions','cityOptions','adOptions','sdOptions','usdOptions']) S[k]=S[k]||[];
-function save(){ try{ localStorage.setItem('bb-state', JSON.stringify(S)); }catch(e){} }
+function normalize(){ for(const k of ['params','reminders','following','swipes','pinned']) S[k]=S[k]||{}; S.chat=S.chat||[]; for(const k of ['cdOptions','cityOptions','adOptions','sdOptions','usdOptions']) S[k]=S[k]||[]; }
+normalize();
+function save(){ S.updatedAt=Date.now(); try{ localStorage.setItem('bb-state', JSON.stringify(S)); }catch(e){} scheduleSync(); }
 
 let D = { races:{governor:{},senate:{},house:{},statewide:{},ssenate:{},assembly:{}}, measures:{}, local:{}, deadlines:{}, sources:{}, counties:{}, contests:{}, local_measures:{}, zips:{}, offices:{}, concepts:{}, generated:'' };   // curated
 let ZIPCD = null;      // {zip: ["CA09", ...]}
@@ -306,7 +309,7 @@ let FECCACHE = {}; try{ FECCACHE=JSON.parse(localStorage.getItem('bb-fec')||'{}'
 /* ---------- strings ---------- */
 const T = {
   en:{tab_home:'Home',tab_match:'Match',tab_updates:'Updates',tab_profile:'Profile',welcome:'Welcome to',start:'Get started',tagline:'Your ballot, explained. Free. Nonpartisan. For voters 18+.',
-    setup_t:'Where do you vote?',setup_s:'Your ZIP finds your ballot. Nothing is shared.',zip:'ZIP code',lang:'Language',save:'Show my ballot',zip_err:'Enter a 5-digit ZIP.',pick_cd:'Your ZIP spans more than one congressional district. Pick yours:',pick_city:'Your ZIP covers more than one city. Pick yours:',pick_ad:'Your ZIP crosses a State Assembly district line, so more than one district is listed. You vote in only one; your street address decides which. Pick yours:',ad_name:'State Assembly District {n}',ad_desc:'This district elects a representative to the California State Assembly.',ad_why:'Listed because part of ZIP {zip} is inside it.',ad_on_county:'It appears on {county} ballots.',ad_off_county:'It does not appear on {county} ballots, so it applies only to addresses in this ZIP that are outside the county.',ad_help:'Not sure which one is yours? Your county sample ballot names your district.',pick_sd:'Your ZIP spans more than one State Senate district. Pick yours:',pick_usd:'Your ZIP spans more than one school district. Pick yours:',unincorp:'Outside any city',
+    setup_t:'Where do you vote?',setup_s:'Your ZIP finds your ballot. Nothing is shared.',zip:'ZIP code',lang:'Language',save:'Show my ballot',zip_err:'Enter a 5-digit ZIP.',pick_cd:'Your ZIP spans more than one congressional district. Pick yours:',pick_city:'Your ZIP covers more than one city. Pick yours:',pick_ad:'Your street address determines your district.',ad_name:'State Assembly District {n}',ad_desc:'Elects your representative to California’s Assembly.',pick_sd:'Your ZIP spans more than one State Senate district. Pick yours:',pick_usd:'Your ZIP spans more than one school district. Pick yours:',unincorp:'Outside any city',
     confirm_t:'Districts to confirm',confirm_s:'Your ZIP may or may not fall inside these districts. Check your sample ballot, then tap “On my ballot” to keep the ones that apply.',on_ballot:'On my ballot',lookup:'Look up my districts',sd_off:'Your State Senate district ({n}) is not on the ballot this year; it is next up in 2028.',
     office_what:'What this office does',term_l:'Term:',rcv:'Ranked-choice voting',cand_site:'Candidate website',src_list:'Official candidate list',no_site:'No verified campaign website found. We never guess web addresses.',
     kind_stated:'Candidate’s stated position',kind_record:'Public record',kind_reporting:'Independent reporting',
@@ -326,7 +329,7 @@ const T = {
     prop_s:'Statewide measures, in plain English. Tap one.',no_measures:'No statewide measures on your ballot this year.',meas_notloaded:'We haven’t verified this state’s statewide measures yet, so we’re not showing any. Check your Secretary of State’s site or vote.gov.',simple:'Simple',standard:'More detail',means:'What it means',yes:'A YES vote',no:'A NO vote',cost:'Cost',listen:'Listen',stop:'Stop',
     remind:'Remind me',reminded:'Reminder set',unreminded:'Reminder removed',addcal:'Add to calendar',addall:'Add all to calendar',cal_note:'Reminders alert you when you open the app. Add to calendar for a real phone alert.',verify:'Check your registration at',
     learn_s:'Two-minute reads, then the official sites for your area.',official_t:'Your official sources',official_s:'Primary sources. Everything in this app links back to these.',
-    prof_t:'Profile',acct:'Account',age_l:'Age',not_reg:'Not registered yet',register:'Register',loc:'Location',change:'Change',settings:'Settings',textsize:'Larger text',notif:'Deadline reminders',reset:'Reset app',interests:'Your interests',no_interests:'Swipe in Match to build your interests.',
+    prof_t:'Profile',acct:'Account',age_l:'Age',loc:'Location',change:'Change',settings:'Settings',textsize:'Larger text',notif:'Deadline reminders',interests:'Your interests',no_interests:'Swipe in Match to build your interests.',signin:'Sign in',signout:'Sign out',loading:'Loading your ballot…',edit:'Edit',acct_t:'Your account',acct_s:'Update your details. Your email and password are only used to sign in.',first_l:'First name',init_l:'Last initial',email_l:'Email',pw_t:'Password',pw_s:'To change your email or password, enter your current password.',pw_cur:'Current password',pw_new:'New password (optional)',pw_needed:'Enter your current password to change your email or password.',save_changes:'Save changes',saved:'Saved',acct_err:'Couldn’t save. Try again.',offline_err:'You seem to be offline. Try again when connected.',session_ended:'You were signed out. Sign in again.',err_firstName:'Enter your first name (letters only).',err_lastInitial:'Enter one letter.',err_age:'Enter an age between 13 and 120.',err_email:'Enter a valid email address.',err_newPassword:'Use at least 8 characters.',err_email_taken:'That email already has an account.',err_pw_wrong:'Your current password is incorrect.',
     bot_hi:'Hi! Ask me anything about voting or your ballot. I explain. I never tell you who to vote for.',ask:'Ask',thinking:'Thinking…',placeholder:'Ask a question',
     back:'Back',issues:'Key issues',bio:'Background',party:'Party',nonp:'Nonpartisan office',incumbent:'Incumbent',challenger:'Challenger',
     src_t:'Where this data comes from',src_close:'Got it',
@@ -336,7 +339,7 @@ const T = {
     upd_follow:'From people you follow',upd_all:'For your area',
   },
   es:{tab_home:'Inicio',tab_match:'Match',tab_updates:'Avisos',tab_profile:'Perfil',welcome:'Bienvenido a',start:'Comenzar',tagline:'Tu boleta, explicada. Gratis. Imparcial. Para votantes de 18 años o más.',
-    setup_t:'¿Dónde votas?',setup_s:'Tu código postal encuentra tu boleta. No se comparte nada.',zip:'Código postal',lang:'Idioma',save:'Mostrar mi boleta',zip_err:'Escribe un código postal de 5 dígitos.',pick_cd:'Tu código postal abarca más de un distrito. Elige el tuyo:',pick_city:'Tu código postal cubre más de una ciudad. Elige la tuya:',pick_ad:'Tu código postal cruza un límite entre distritos de la Asamblea Estatal, por eso aparece más de uno. Votas solo en uno; tu dirección determina cuál. Elige el tuyo:',ad_name:'Distrito {n} de la Asamblea Estatal',ad_desc:'Este distrito elige a un representante en la Asamblea Estatal de California.',ad_why:'Aparece porque parte del código postal {zip} está dentro de él.',ad_on_county:'Aparece en las boletas del {county}.',ad_off_county:'No aparece en las boletas del {county}, así que solo aplica a direcciones de este código postal fuera del condado.',ad_help:'¿No sabes cuál es el tuyo? Tu boleta de muestra del condado indica tu distrito.',pick_sd:'Tu código postal abarca más de un distrito del Senado estatal. Elige el tuyo:',pick_usd:'Tu código postal abarca más de un distrito escolar. Elige el tuyo:',unincorp:'Fuera de cualquier ciudad',
+    setup_t:'¿Dónde votas?',setup_s:'Tu código postal encuentra tu boleta. No se comparte nada.',zip:'Código postal',lang:'Idioma',save:'Mostrar mi boleta',zip_err:'Escribe un código postal de 5 dígitos.',pick_cd:'Tu código postal abarca más de un distrito. Elige el tuyo:',pick_city:'Tu código postal cubre más de una ciudad. Elige la tuya:',pick_ad:'Tu dirección determina tu distrito.',ad_name:'Distrito {n} de la Asamblea Estatal',ad_desc:'Elige a tu representante en la Asamblea de California.',pick_sd:'Tu código postal abarca más de un distrito del Senado estatal. Elige el tuyo:',pick_usd:'Tu código postal abarca más de un distrito escolar. Elige el tuyo:',unincorp:'Fuera de cualquier ciudad',
     confirm_t:'Distritos por confirmar',confirm_s:'Tu código postal puede o no estar dentro de estos distritos. Revisa tu boleta de muestra y toca “En mi boleta” para conservar los que apliquen.',on_ballot:'En mi boleta',lookup:'Buscar mis distritos',sd_off:'Tu distrito del Senado estatal ({n}) no está en la boleta este año; se elige en 2028.',
     office_what:'Qué hace este cargo',term_l:'Mandato:',rcv:'Votación por orden de preferencia',cand_site:'Sitio del candidato',src_list:'Lista oficial de candidatos',no_site:'No se encontró un sitio de campaña verificado. Nunca adivinamos direcciones web.',
     kind_stated:'Postura declarada por el candidato',kind_record:'Registro público',kind_reporting:'Reportaje independiente',
@@ -356,7 +359,7 @@ const T = {
     prop_s:'Medidas estatales, en lenguaje sencillo. Toca una.',no_measures:'No hay medidas estatales en tu boleta este año.',meas_notloaded:'Todavía no hemos verificado las medidas estatales de este estado, así que no mostramos ninguna. Revisa el sitio de tu Secretario de Estado o vote.gov.',simple:'Sencillo',standard:'Más detalle',means:'Qué significa',yes:'Votar SÍ',no:'Votar NO',cost:'Costo',listen:'Escuchar',stop:'Detener',
     remind:'Recordarme',reminded:'Recordatorio activo',unreminded:'Recordatorio quitado',addcal:'Añadir al calendario',addall:'Añadir todo al calendario',cal_note:'Los recordatorios avisan al abrir la app. Añade al calendario para una alerta real.',verify:'Verifica tu registro en',
     learn_s:'Lecturas de dos minutos y los sitios oficiales de tu zona.',official_t:'Tus fuentes oficiales',official_s:'Fuentes primarias. Todo en esta app remite a ellas.',
-    prof_t:'Perfil',acct:'Cuenta',age_l:'Edad',not_reg:'Aún no registrado',register:'Registrarse',loc:'Ubicación',change:'Cambiar',settings:'Ajustes',textsize:'Texto más grande',notif:'Recordatorios de fechas',reset:'Restablecer app',interests:'Tus intereses',no_interests:'Desliza en Match para crear tus intereses.',
+    prof_t:'Perfil',acct:'Cuenta',age_l:'Edad',loc:'Ubicación',change:'Cambiar',settings:'Ajustes',textsize:'Texto más grande',notif:'Recordatorios de fechas',interests:'Tus intereses',no_interests:'Desliza en Match para crear tus intereses.',signin:'Iniciar sesión',signout:'Cerrar sesión',loading:'Cargando tu boleta…',edit:'Editar',acct_t:'Tu cuenta',acct_s:'Actualiza tus datos. Tu correo y contraseña solo sirven para iniciar sesión.',first_l:'Nombre',init_l:'Inicial del apellido',email_l:'Correo electrónico',pw_t:'Contraseña',pw_s:'Para cambiar tu correo o contraseña, escribe tu contraseña actual.',pw_cur:'Contraseña actual',pw_new:'Nueva contraseña (opcional)',pw_needed:'Escribe tu contraseña actual para cambiar el correo o la contraseña.',save_changes:'Guardar cambios',saved:'Guardado',acct_err:'No se pudo guardar. Intenta de nuevo.',offline_err:'Parece que no tienes conexión. Intenta cuando estés en línea.',session_ended:'Se cerró tu sesión. Inicia sesión de nuevo.',err_firstName:'Escribe tu nombre (solo letras).',err_lastInitial:'Escribe una letra.',err_age:'Escribe una edad entre 13 y 120.',err_email:'Escribe un correo válido.',err_newPassword:'Usa al menos 8 caracteres.',err_email_taken:'Ese correo ya tiene una cuenta.',err_pw_wrong:'Tu contraseña actual no es correcta.',
     bot_hi:'¡Hola! Pregúntame sobre votar o tu boleta. Explico. Nunca te digo por quién votar.',ask:'Enviar',thinking:'Pensando…',placeholder:'Escribe una pregunta',
     back:'Atrás',issues:'Temas clave',bio:'Trayectoria',party:'Partido',nonp:'Cargo no partidista',incumbent:'Titular',challenger:'Aspirante',
     src_t:'De dónde vienen estos datos',src_close:'Entendido',
@@ -401,16 +404,20 @@ async function loadCounty(key){ const idx=(D.local_index||{})[key]; if(!key||!id
   catch(e){ LOCAL_LOADING[key]='failed'; return false; } }
 function localState(){ const key=countyKey(); if(!key||!(D.local_index||{})[key]) return 'none'; if(D.contests[key]) return 'ready'; return LOCAL_LOADING[key]==='failed'?'failed':'loading'; }
 try{ const seed=JSON.parse(document.getElementById('seed').textContent||'{}'); applyData(seed); }catch(e){}
-async function loadAll(){
+async function loadData(){
   const j = async u => { try{ const r=await fetch(u,{cache:'no-cache'}); if(!r.ok) throw 0; return await r.json(); }catch(e){ return null; } };
   const [d,z,r] = await Promise.all([j(DATA_URL), j(ZIP_URL), j(REPS_URL)]);
   if(d) applyData(d);
   if(z) ZIPCD=z;
   if(r&&r.officials) REPS=r;
+}
+/* Apply the saved ZIP to the loaded data and fetch the county file. Runs once the account check has settled which state this device shows. */
+async function settle(){
   if(S.setup && S.zip){ applyZip(S.zip, true); save(); }
   render();
   if(S.setup && countyKey()){ if(await loadCounty(countyKey())){ applyZip(S.zip,true); save(); render(); } else if(localState()==='failed') render(); }
 }
+async function loadAll(){ await loadData(); await settle(); }
 
 /* ---------- what's on THIS voter's ballot ---------- */
 const ISSUE={housing:{en:'Housing',es:'Vivienda'},cost:{en:'Cost of living',es:'Costo de vida'},health:{en:'Health care',es:'Salud'},taxes:{en:'Taxes',es:'Impuestos'},energy:{en:'Gas & energy',es:'Gasolina y energía'},safety:{en:'Public safety',es:'Seguridad'},homeless:{en:'Homelessness',es:'Personas sin hogar'},emerg:{en:'Emergencies & Delta',es:'Emergencias y Delta'},education:{en:'Education',es:'Educación'},streets:{en:'Streets & safety',es:'Calles y seguridad'},water:{en:'Water',es:'Agua'},roads:{en:'Roads',es:'Carreteras'},growth:{en:'Growth',es:'Crecimiento'},community:{en:'Community',es:'Comunidad'},immigration:{en:'Immigration',es:'Inmigración'},economy:{en:'Economy',es:'Economía'},environment:{en:'Environment',es:'Medio ambiente'},abortion:{en:'Abortion',es:'Aborto'},guns:{en:'Guns',es:'Armas'},crime:{en:'Crime',es:'Delincuencia'},jobs:{en:'Jobs',es:'Empleos'},agriculture:{en:'Agriculture',es:'Agricultura'},veterans:{en:'Veterans',es:'Veteranos'},elections:{en:'Elections',es:'Elecciones'},budget:{en:'Budget',es:'Presupuesto'},finance:{en:'Campaign money',es:'Dinero de campaña'},endorse:{en:'Endorsements',es:'Respaldos'},childcare:{en:'Child care',es:'Cuidado infantil'},record:{en:'Voting record',es:'Historial de votos'},comment:{en:'Public comment',es:'Comentario público'},result:{en:'Election history',es:'Historial electoral'},other:{en:'Other',es:'Otro'}};
@@ -576,15 +583,32 @@ function showSources(){ const es=S.lang==='es'; const src=D.sources||{}; openShe
   <li><b>${es?'Votos de funcionarios':'Officials’ votes'}:</b> ${es?'registros oficiales de votación (clerk.house.gov, leginfo.legislature.ca.gov).':'official roll-call records (clerk.house.gov, leginfo.legislature.ca.gov).'}</li></ul>
   <p class="sub">${t('updated')} ${esc(D.generated||'')}.</p><button class="btn center" onclick="closeSheet()">${t('src_close')}</button>`); }
 
-function registration(){ try{ const r=JSON.parse(localStorage.getItem('bb-registration')||'null'); return r&&r.firstName?r:null; }catch(e){ return null; } }
-function startApp(){ if(S.setup) return go('home'); if(registration()) return go('setup',{next:'home'}); location.href='register.html'; }
+function startApp(){ if(S.user) return go(S.setup?'home':'setup',{next:'home'}); location.href='register.html'; }
 
 /* ---------- screens ---------- */
 const SCREENS={
  welcome(){ return `
    <h1 class="brand"><small>${t('welcome')}</small>BallotBuddy!</h1>
    <p class="tagline">${t('tagline')}</p>
-   <button class="btn center" onclick="startApp()">${t('start')}${ICON.arrow}</button>`; },
+   <button class="btn center" onclick="startApp()">${t('start')}${ICON.arrow}</button>
+   <button class="btn ghost center" onclick="location.href='register.html#signin'">${t('signin')}</button>`; },
+
+ loading(){ return `
+   <h1 class="brand"><small>${t('welcome')}</small>BallotBuddy!</h1>
+   <p class="tagline">${t('loading')}</p>`; },
+
+ account(){ const u=S.user||{}; return `
+   ${back('profile')}
+   <h2>${t('acct_t')}</h2><p class="sub">${t('acct_s')}</p>
+   <label class="f" for="acFirst">${t('first_l')}</label><input id="acFirst" type="text" autocomplete="given-name" autocapitalize="words" maxlength="40" value="${esc(u.firstName||'')}">
+   <label class="f" for="acInit">${t('init_l')}</label><input id="acInit" type="text" maxlength="1" autocapitalize="characters" autocomplete="off" style="max-width:120px" value="${esc(u.lastInitial||'')}">
+   <label class="f" for="acAge">${t('age_l')}</label><input id="acAge" type="tel" inputmode="numeric" maxlength="3" autocomplete="off" style="max-width:140px" value="${esc(u.age??'')}">
+   <label class="f" for="acEmail">${t('email_l')}</label><input id="acEmail" type="email" autocomplete="email" inputmode="email" maxlength="254" value="${esc(u.email||'')}">
+   <div class="eyebrow">${t('pw_t')}</div><p class="sub" style="margin-top:0">${t('pw_s')}</p>
+   <label class="f" for="acCur">${t('pw_cur')}</label><input id="acCur" type="password" autocomplete="current-password">
+   <label class="f" for="acNew">${t('pw_new')}</label><input id="acNew" type="password" autocomplete="new-password" minlength="8">
+   <div id="acErr" class="sub" style="color:var(--red-deep);min-height:1.2em;margin-top:10px" aria-live="polite"></div>
+   <button class="btn center" id="acSave" style="margin-top:14px" onclick="saveAccount()">${t('save_changes')}${ICON.arrow}</button>`; },
 
  setup(){ return `
    ${S.setup?back('profile'):''}
@@ -762,14 +786,14 @@ const SCREENS={
  profile(){ const ints=interestSummary(); return `
    <h2>${t('prof_t')}</h2>
    <div class="card"><div class="row between"><div><div class="eyebrow" style="margin-top:0">${t('loc')}</div><b>${esc(locShort()||'—')}</b> <span class="sub" style="margin:0">${esc(S.zip)}${S.city?' · '+esc(S.city):''}${S.cd?' · '+cdLabel(S.cd):''}${S.ad?' · AD-'+esc(S.ad):''}${S.sd?' · SD-'+esc(S.sd):''}${S.sup?' · '+(S.lang==='es'?'Supervisor D':'Supervisor D')+esc(S.sup):''}</span></div><button class="btn small ghost" onclick="go('setup')">${t('change')}</button></div></div>
-   ${(r=>r?`<div class="card"><div class="eyebrow" style="margin-top:0">${t('acct')}</div><b>${esc(r.firstName)} ${esc(r.lastInitial)}.</b> <span class="sub" style="margin:0">· ${t('age_l')} ${esc(r.age)}</span></div>`:`<div class="card"><div class="row between"><div><div class="eyebrow" style="margin-top:0">${t('acct')}</div><b>${t('not_reg')}</b></div><a class="btn small ghost" href="register.html" style="text-decoration:none">${t('register')}</a></div></div>`)(registration())}
+   ${(u=>u?`<div class="card"><div class="row between"><div style="min-width:0"><div class="eyebrow" style="margin-top:0">${t('acct')}</div><b>${esc(u.firstName)} ${esc(u.lastInitial)}.</b> <span class="sub" style="margin:0">· ${t('age_l')} ${esc(u.age)}</span><div class="sub" style="margin:2px 0 0;overflow-wrap:anywhere">${esc(u.email||'')}</div></div><button class="btn small ghost" onclick="go('account')">${t('edit')}</button></div></div>`:`<div class="card"><div class="row between"><div><div class="eyebrow" style="margin-top:0">${t('acct')}</div><b>${t('signin')}</b></div><a class="btn small ghost" href="register.html#signin" style="text-decoration:none">${t('signin')}</a></div></div>`)(S.user)}
    <div class="card"><div class="eyebrow" style="margin-top:0">${t('interests')}</div>${ints.length?`<div class="chips" style="margin:0">${ints.map(i=>`<span class="chip on" style="cursor:default">${issueName(i)}</span>`).join('')}</div>`:`<div class="sub" style="margin:0">${t('no_interests')}</div>`}</div>
    <div class="card"><div class="eyebrow" style="margin-top:0">${t('lang')}</div><div class="seg"><button class="${S.lang==='en'?'on':''}" onclick="setLang('en')">English</button><button class="${S.lang==='es'?'on':''}" onclick="setLang('es')">Español</button></div></div>
    <div class="card stack"><div class="eyebrow" style="margin:0">${t('settings')}</div>
      <div class="row between"><span>${t('textsize')}</span><button class="toggle ${S.large?'on':''}" aria-label="${t('textsize')}" onclick="S.large=!S.large;save();render()"></button></div>
      <div class="row between"><span>${t('notif')}</span><button class="toggle ${S.notif?'on':''}" aria-label="${t('notif')}" onclick="S.notif=!S.notif;save();if(S.notif)askNotify();this.classList.toggle('on')"></button></div></div>
    <button class="btn ghost center" onclick="showSources()">${t('srcs')}</button>
-   <button class="btn ghost center" onclick="localStorage.removeItem('bb-state');localStorage.removeItem('bb-fec');localStorage.removeItem('bb-registration');location.reload()">${t('reset')}</button>`; }
+   <button class="btn ghost center" onclick="signOut()">${t('signout')}</button>`; }
 };
 
 function botSheet(){ const es=S.lang==='es'; const sug=es?['¿Estoy registrado?','¿Qué medidas hay en mi boleta?','¿Necesito identificación?']:['Am I registered?','What measures are on my ballot?','Do I need ID?'];
@@ -839,19 +863,15 @@ function interestSummary(){ const pool=swipePool(); const c={}; for(const p of p
 
 /* ---------- actions ---------- */
 function chipGroup(label,opts,cur,field,fmtf,v){ return opts.length>1?`<div class="sub" style="margin:8px 0 4px">${label}</div><div class="chips">${opts.map(o=>`<button class="chip ${cur===o?'on':''}" onclick="S.${field}='${esc(o).replace(/'/g,'&#39;')}';S.pickZip='${esc(v)}';save();previewZip('${esc(v)}')">${fmtf(o)}</button>`).join('')}</div>`:''; }
-/* State Assembly districts get their full name and a one-line explanation: a ZIP can cross a district line, and a voter is in only one. Once the county's contest list is loaded (fetched here on demand, as it would be after setup) each entry also says whether it appears on that county's ballots. */
-function adGroup(opts,cur,v,county){ if(opts.length<2) return '';
-  const contests=(D.contests||{})[county]; if(county&&!contests) loadCounty(county).then(ok=>{ const z=document.getElementById('zip'); if(ok&&z&&z.value===v) previewZip(v); });
-  const onBallot=contests?new Set(contests.filter(c=>c.type==='assembly'&&c.district).map(c=>String(parseInt(c.district,10)))):new Set();
-  const cname=S.lang==='es'?'condado de '+county:county+' County';
-  const entry=o=>{ let why=t('ad_why').replace('{zip}',esc(v)); if(onBallot.size) why+=' '+t(onBallot.has(o)?'ad_on_county':'ad_off_county').replace('{county}',esc(cname));
-    return `<button class="opt ${cur===o?'on':''}" aria-pressed="${cur===o}" onclick="S.ad='${esc(o)}';S.pickZip='${esc(v)}';save();previewZip('${esc(v)}')"><b>${t('ad_name').replace('{n}',esc(o))}</b><span>${t('ad_desc')} ${why}</span></button>`; };
-  return `<div class="sub" style="margin:8px 0 4px">${t('pick_ad')}</div><div class="opts">${opts.map(entry).join('')}</div><div class="sub" style="margin:0 0 8px">${t('ad_help')}</div>`; }
+/* State Assembly districts: full name plus a one-line description. A ZIP can cross a district line; the voter's street address decides which one applies, so the group carries that single note. */
+function adGroup(opts,cur,v){ if(opts.length<2) return '';
+  const entry=o=>`<button class="opt ${cur===o?'on':''}" aria-pressed="${cur===o}" onclick="S.ad='${esc(o)}';S.pickZip='${esc(v)}';save();previewZip('${esc(v)}')"><b>${t('ad_name').replace('{n}',esc(o))}</b><span>${t('ad_desc')}</span></button>`;
+  return `<div class="sub" style="margin:8px 0 4px">${t('pick_ad')}</div><div class="opts">${opts.map(entry).join('')}</div>`; }
 function previewZip(v){ const el=document.getElementById('zipprev'); const pick=document.getElementById('cdpick'); const st=v.length===5?zipToState(v):''; const o=v.length===5?setupOptions(v):{cds:[],cities:[],ads:[],sds:[],usds:[]};
   const bits=[]; if(st){ if(countyFor(v)) bits.push(countyFor(v)); bits.push(STATE_NAMES[st]); if(o.cities.length===1) bits.push(o.cities[0]); else if(o.county&&!o.cities.length&&zipInfo(v)) bits.push(t('unincorp')); if(o.cds.length===1) bits.push(cdLabel(o.cds[0])); if(o.ads.length===1) bits.push('AD-'+o.ads[0]); if(o.sds.length===1) bits.push('SD-'+o.sds[0]); }
   el.textContent=st?bits.join(' · '):(v.length===5?(S.lang==='es'?'Código no reconocido':'ZIP not recognized'):'');
   const P=(S.zip===v||S.pickZip===v)?S:{};   // picks belong to the saved ZIP or to the one just typed; otherwise nothing is pre-selected
-  pick.innerHTML=chipGroup(t('pick_cd'),o.cds,P.cd||'','cd',cdLabel,v)+chipGroup(t('pick_city'),o.cities,P.city||'','city',x=>esc(x),v)+adGroup(o.ads,P.ad||'',v,o.county)+chipGroup(t('pick_sd'),o.sds,P.sd||'','sd',x=>'SD-'+x,v)+chipGroup(t('pick_usd'),o.usds,P.usd||'','usd',x=>esc(x),v); }
+  pick.innerHTML=chipGroup(t('pick_cd'),o.cds,P.cd||'','cd',cdLabel,v)+chipGroup(t('pick_city'),o.cities,P.city||'','city',x=>esc(x),v)+adGroup(o.ads,P.ad||'',v)+chipGroup(t('pick_sd'),o.sds,P.sd||'','sd',x=>'SD-'+x,v)+chipGroup(t('pick_usd'),o.usds,P.usd||'','usd',x=>esc(x),v); }
 /* Apply a ZIP to state: county, and each district type (single option → set; several → keep the user's pick if still valid, else leave for the pick list). `keep` is used on reload so saved picks survive. */
 function applyZip(v,keep){ const st=zipToState(v); if(!st) return false; const o=setupOptions(v);
   /* A new ZIP clears the old ZIP's picks, pins and swipes. District picks the voter just made on the setup screen for this ZIP (S.pickZip) survive and are validated below. */
@@ -890,6 +910,44 @@ async function askBot(q){ q=(q||'').trim(); if(!q) return; S.chat.push({role:'us
   } else { await new Promise(r=>setTimeout(r,500)); text=canned(q); }
   S.chat.push({role:'assistant',content:text}); save(); render(); const c2=document.getElementById('chat'); if(c2) c2.lastElementChild.scrollIntoView({block:'end'}); }
 
+/* ---------- account: who is signed in, and the server copy of their data ---------- */
+const API={me:'/api/me',logout:'/api/logout'};
+function resetLocal(){ const keep={lang:S.lang,large:S.large}; for(const k of Object.keys(S)) delete S[k]; Object.assign(S,fresh(),keep); try{ localStorage.removeItem('bb-state'); localStorage.removeItem('bb-registration'); }catch(e){} }
+function adopt(state){ const keep={lang:S.lang,large:S.large}; for(const k of Object.keys(S)) delete S[k]; Object.assign(S,fresh(),keep,state); delete S.user; normalize(); }
+/* Ask the server who is signed in. Signed out: this device forgets any previous signed-in voter. Signed in: the server copy wins when it is newer or belongs to someone else; a device that already had a ballot set up before accounts existed keeps it and uploads it. Offline: keep what we have. */
+async function auth(){
+  let me=null; try{ const r=await fetch(API.me,{credentials:'same-origin',cache:'no-store'}); if(r.ok) me=await r.json(); }catch(e){}
+  if(!me||!me.ok) return;
+  if(!me.authenticated){ if(S.user) resetLocal(); return; }   // ballot data set up before accounts existed stays until an account claims it
+  const mine=S.user&&S.user.uid===me.user.uid, serverState=me.state||{}, serverEmpty=!Object.keys(serverState).length;
+  if(mine){ if((me.updatedAt||0)>(S.updatedAt||0)) adopt(serverState); }
+  else if(!(!S.user&&S.setup&&serverEmpty)) adopt(serverState);
+  S.user=me.user; }
+let syncT=null, syncing=false, syncDirty=false;
+function stateForServer(){ const o=Object.assign({},S); delete o.user; o.chat=(o.chat||[]).slice(-40); return o; }
+function scheduleSync(){ if(!S.user||S.screen==='loading') return; syncDirty=true; clearTimeout(syncT); syncT=setTimeout(syncNow,1500); }
+async function syncNow(leaving){ if(!S.user||!syncDirty||syncing) return; syncing=true; syncDirty=false; const body=JSON.stringify({state:stateForServer()});
+  try{ const r=await fetch(API.me,{method:'PUT',headers:{'Content-Type':'application/json'},credentials:'same-origin',keepalive:!!leaving,body}); if(r.status===401){ signedOut(); return; } if(!r.ok) syncDirty=true; }
+  catch(e){ syncDirty=true; }
+  finally{ syncing=false; if(syncDirty&&!leaving){ clearTimeout(syncT); syncT=setTimeout(syncNow,15000); } } }
+document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='hidden'){ clearTimeout(syncT); syncNow(true); } });
+addEventListener('pagehide',()=>{ clearTimeout(syncT); syncNow(true); });
+function signedOut(){ resetLocal(); S.screen='welcome'; S.params={}; render(); toast(t('session_ended')); }
+async function signOut(){ clearTimeout(syncT); await syncNow(); S.user=null; try{ await fetch(API.logout,{method:'POST',credentials:'same-origin'}); }catch(e){} try{ localStorage.removeItem('bb-state'); localStorage.removeItem('bb-fec'); localStorage.removeItem('bb-registration'); }catch(e){} location.replace('ballot-buddy-app.html'); }
+async function saveAccount(){ const g=id=>document.getElementById(id); const err=g('acErr'); err.textContent='';
+  const body={firstName:g('acFirst').value.trim(),lastInitial:g('acInit').value.trim(),age:g('acAge').value.trim(),email:g('acEmail').value.trim().toLowerCase()};
+  const cur=g('acCur').value, nw=g('acNew').value; const u=S.user||{};
+  if((body.email!==(u.email||'')||nw)&&!cur){ err.textContent=t('pw_needed'); g('acCur').focus(); return; }
+  if(cur) body.currentPassword=cur; if(nw) body.newPassword=nw;
+  const map={firstName:'acFirst',lastInitial:'acInit',age:'acAge',email:'acEmail',currentPassword:'acCur',newPassword:'acNew'};
+  g('acSave').disabled=true;
+  try{ const r=await fetch(API.me,{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'same-origin',body:JSON.stringify(body)}); const j=await r.json().catch(()=>({}));
+    if(r.status===401){ signedOut(); return; }
+    if(!r.ok){ const first=Object.keys(j.fields||{})[0]; err.textContent=r.status===409?t('err_email_taken'):r.status===403?t('err_pw_wrong'):(first&&t('err_'+first)!=='err_'+first?t('err_'+first):(j.error||t('acct_err'))); if(first&&g(map[first])) g(map[first]).focus(); return; }
+    S.user=j.user; save(); toast(t('saved')); go('profile'); }
+  catch(e){ err.textContent=t('offline_err'); }
+  finally{ if(g('acSave')) g('acSave').disabled=false; } }
+
 /* ---------- render ---------- */
 function render(){
   if(speaking){ try{ speechSynthesis.cancel(); }catch(e){} speaking=false; }
@@ -897,9 +955,9 @@ function render(){
   const v=document.getElementById('view'); v.classList.toggle('large',S.large); v.classList.toggle('home-view',S.screen==='home');
   v.innerHTML=SCREENS[S.screen]?SCREENS[S.screen]():SCREENS.welcome();
   document.querySelectorAll('[data-i]').forEach(el=>el.textContent=t(el.dataset.i));
-  const tabFor={home:'home',candidates:'home',candidate:'home',compare:'home',measures:'home',measure:'home',lmeasure:'home',directory:'home',deadlines:'home',learn:'home',match:'match',updates:'updates',record:'updates',profile:'profile'};
+  const tabFor={home:'home',candidates:'home',candidate:'home',compare:'home',measures:'home',measure:'home',lmeasure:'home',directory:'home',deadlines:'home',learn:'home',match:'match',updates:'updates',record:'updates',profile:'profile',account:'profile'};
   document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab===tabFor[S.screen]));
-  const onboarding=S.screen==='welcome'||S.screen==='setup';
+  const onboarding=S.screen==='welcome'||S.screen==='setup'||S.screen==='loading';
   document.getElementById('tabs').style.display=onboarding?'none':'flex';
   document.getElementById('mascot').style.display=onboarding?'none':'flex';
   if(botOpen){ document.getElementById('sheet').innerHTML=botSheet(); scrollChat(); }
@@ -908,8 +966,17 @@ function render(){
   if(S.screen==='match') attachSwipe();
 }
 document.getElementById('mascot').innerHTML=MASCOT_SVG;
-function firstScreen(){ return S.setup?'home':(registration()?'setup':'welcome'); }
-document.querySelector('[data-tab="home"]').onclick=()=>go(firstScreen());
-if(!S.setup){ S.screen=firstScreen(); S.params={}; }
-render(); loadAll().then(checkReminders);
+function firstScreen(){ if(!S.user) return 'welcome'; if(!S.setup) return 'setup'; return SCREENS[S.screen]&&S.screen!=='welcome'&&S.screen!=='loading'?S.screen:'home'; }
+document.querySelector('[data-tab="home"]').onclick=()=>go('home');
+/* Boot: a device that already holds this voter's ballot shows it at once and reconciles with the server in the background; anything else waits for the account check, then opens where the voter left off. */
+(async()=>{
+  const known=S.user&&S.setup;
+  if(!known){ S.screen='loading'; S.params={}; }
+  else if(!SCREENS[S.screen]||S.screen==='loading'||S.screen==='welcome'){ S.screen='home'; S.params={}; }
+  render();
+  const dataP=loadData(); await auth(); await dataP;
+  const next=firstScreen(); if(next!==S.screen){ S.screen=next; S.params={}; }
+  if(S.user) save();
+  await settle(); checkReminders();
+})();
 </script>

@@ -114,14 +114,14 @@ python3 server.py
 |---|---|
 | App | `http://localhost:8765/` |
 | Marketing site | `http://localhost:8765/ballot-buddy-site.html` |
-| Registration | `http://localhost:8765/register.html` |
+| Create account / sign in | `http://localhost:8765/register.html` (add `#signin` for the sign-in form) |
 | Admin (private) | `http://localhost:8765/admin.html` |
 
-**Get started** on the site or in the app opens the registration page; once registered, opening the app goes straight to the ZIP step. Each registration (first name, last initial, age) is validated in the browser and again on the server, then saved to `registrations.db`. The admin page asks you to create a password the first time you open it, then lists registrations newest first; the list is never sent to anyone who hasn't signed in. To fix the password in advance instead, copy `.env.example` to `.env` and set `ADMIN_PASSWORD` (it overrides the stored one).
+**Get started** on the site or in the app opens the account page: first name, last initial, age, email and a password (8+ characters), validated in the browser and again on the server. Signing in sets a 30-day HttpOnly cookie that renews on every visit, so the app stays signed in until **Sign out** in Profile. Your ZIP, district picks, language, text size, reminders, swipes, follows and the screen you were on are saved to your account after every change and restored when you open the app again, on the same phone or a new one. Profile lets you edit name, age, email and password (email and password changes ask for the current password) and change location without redoing setup. The admin page asks you to create a password the first time you open it, then lists sign-ups newest first; the list is never sent to anyone who hasn't signed in. To fix the admin password in advance instead, copy `.env.example` to `.env` and set `ADMIN_PASSWORD` (it overrides the stored one).
 
 On a phone on the same Wi-Fi, use your computer's address instead of `localhost`, including the `http://`.
 
-Options, as environment variables or lines in `.env`: `PORT` (default 8765), `BIND` (default 0.0.0.0), `BB_DB` (database path, default `registrations.db`), `BB_SECURE_COOKIE=1` when serving over HTTPS. Admin sign-ins last 12 hours and end when the server restarts.
+Options, as environment variables or lines in `.env`: `PORT` (default 8765), `BIND` (default 0.0.0.0), `BB_DB` (database path, default `registrations.db`), `BB_SECURE_COOKIE=1` when serving over HTTPS, `SESSION_SECRET` to pin the key that signs voter sessions (otherwise one is generated once and kept in the store). Admin sign-ins last 12 hours. `python3 tools/test_accounts.py http://localhost:8765` exercises every account route against a running server.
 
 **Optional:** the FEC lookup uses the shared `DEMO_KEY`, which allows only about 10 requests an hour. For a free key with a higher limit, sign up at api.data.gov/signup and paste it into `FEC_KEY` near the top of the script in `ballot-buddy-app.html`.
 
@@ -135,13 +135,13 @@ Options, as environment variables or lines in `.env`: `PORT` (default 8765), `BI
 | `data/zip-cd.json` | ZIP code to congressional district table (33,000 ZIPs). |
 | `data/reps.json` | Followed officials: promises, links, vote records. |
 | `ballot-buddy-site.html` | Marketing website for the venture. |
-| `register.html` | Registration page: first name, last initial, age. |
-| `admin.html` | Private admin page listing registrations, newest first. |
-| `server.py` | Local server: static files plus the registration API. Standard library only. |
-| `bb_core.py` | The registration API itself: validation, admin sessions, SQLite and Vercel Blob storage. Shared by `server.py` and `api/`. |
+| `register.html` | Create account / sign in: first name, last initial, age, email, password. |
+| `admin.html` | Private admin page listing sign-ups, newest first. |
+| `server.py` | Local server: static files plus the account API. Standard library only. |
+| `bb_core.py` | The account API itself: validation, password hashing, voter and admin sessions, saved app state, SQLite and Vercel Blob storage. Shared by `server.py` and `api/`. |
 | `api/` | Vercel Functions, one tiny file per route, all delegating to `bb_core.py`. |
 | `vercel.json` | Keeps data and research files out of the function bundles. |
-| `registrations.db` | SQLite database the server creates on first run (gitignored). |
+| `registrations.db` | SQLite database the server creates on first run: accounts, saved state, sign-up log (gitignored). |
 | `.env.example` | Template for `.env`, which holds the admin password. |
 | `index.html` | Redirects to the app so a bare URL opens it. |
 | `icon.png`, `manifest.json` | Home-screen icon and install settings. |
@@ -163,7 +163,7 @@ python3 tools/build.py && python3 tools/validate.py
 
 ## Deploy on Vercel (the public site)
 
-The project is deployed on Vercel from the `main` branch, and Vercel runs the files in `api/` as Python functions, so registration works on the public URL. Registrations are stored in a **private Vercel Blob store** (included on the free plan). One-time setup:
+The project is deployed on Vercel from the `main` branch, and Vercel runs the files in `api/` as Python functions, so accounts work on the public URL. Accounts, saved state and the sign-up log are stored in a **private Vercel Blob store** (included on the free plan). One-time setup:
 
 1. **Connect storage.** Open the project in Vercel, go to **Storage**, choose **Create Database → Blob**, set access to **Private**, and connect it to the project. Vercel adds the store's variables to the project. Then **Redeploy** once (Deployments → ⋯ → Redeploy) so the functions see them.
 2. **Create the admin password.** Open `/admin.html` on the live site. The first visit shows "Create the admin password"; set it and you are in. The password is stored as a salted hash in the same store, and nobody can set it again afterwards. Do this right after step 1, before sharing the link.

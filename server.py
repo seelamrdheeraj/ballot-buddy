@@ -2,6 +2,7 @@
 """Ballot Buddy local server: serves the static site and app, plus the registration API.
 
 Run:   python3 server.py            (reads .env next to this file, if present)
+       Voter accounts (register / sign in / saved app state) and the admin page share one store.
 Env:   ADMIN_PASSWORD   unlocks the private admin page (required for sign-in)
        PORT             default 8765
        BIND             default 0.0.0.0 (so a phone on the same Wi-Fi can connect)
@@ -68,9 +69,18 @@ class Handler(ApiMixin, SimpleHTTPRequestHandler):
         return super().do_HEAD()
 
     def do_POST(self):
+        return self._api_only("POST")
+
+    def do_PUT(self):
+        return self._api_only("PUT")
+
+    def do_PATCH(self):
+        return self._api_only("PATCH")
+
+    def _api_only(self, method):
         path = urlsplit(self.path).path
         if path.startswith("/api/"):
-            return self.handle_api("POST")
+            return self.handle_api(method)
         return self.send_json(404, {"ok": False, "error": "Not found."})
 
 

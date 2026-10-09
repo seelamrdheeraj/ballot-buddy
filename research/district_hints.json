@@ -1,0 +1,603 @@
+{
+ "generated": "2026-10-08",
+ "sources": [
+  "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+  "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+  "https://www2.census.gov/geo/tiger/TIGER2020/TABBLOCK20/tl_2020_06_tabblock20.zip",
+  "https://www2.census.gov/geo/tiger/GENZ2020/shp/cb_2020_us_zcta520_500k.zip",
+  "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_place_500k.zip"
+ ],
+ "method": "Census 2020 block population (tabblock20) located by block internal point inside ZCTA, 2022 State Assembly/Senate district and place boundaries; shares are share of residents. No congressional split found (us_house is empty for every ZIP in zips_local.json).",
+ "hints": {
+  "94539": {
+   "ad": {
+    "24": {
+     "en": "Most of the ZIP: nearly all of this part of Fremont",
+     "es": "Casi todo el código postal: casi toda esta parte de Fremont",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "16": {
+     "en": "Only empty hills at the far southeast edge; no homes counted",
+     "es": "Solo colinas vacías en el extremo sureste; sin viviendas",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    }
+   },
+   "sd": {
+    "10": {
+     "en": "Most of the ZIP: nearly all of this part of Fremont",
+     "es": "Casi todo el código postal: casi toda esta parte de Fremont",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "5": {
+     "en": "Only empty hills at the far southeast edge; no homes counted",
+     "es": "Solo colinas vacías en el extremo sureste; sin viviendas",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "medium"
+    }
+   }
+  },
+  "94541": {
+   "ad": {},
+   "sd": {
+    "10": {
+     "en": "Hayward and Fairview, in the south and east of the ZIP",
+     "es": "Hayward y Fairview, en el sur y este del código postal",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Cherryland, San Lorenzo and Ashland, in the northwest",
+     "es": "Cherryland, San Lorenzo y Ashland, en el noroeste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    }
+   }
+  },
+  "94542": {
+   "ad": {},
+   "sd": {
+    "10": {
+     "en": "Most of the ZIP: nearly all of this part of Hayward",
+     "es": "Casi todo el código postal: casi toda esta parte de Hayward",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Only a few homes at the far northeast edge",
+     "es": "Solo unas pocas viviendas en el extremo noreste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "medium"
+    }
+   }
+  },
+  "94546": {
+   "ad": {
+    "20": {
+     "en": "Most of the ZIP: the town of Castro Valley",
+     "es": "Casi todo el código postal: la zona de Castro Valley",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "18": {
+     "en": "Only hills and parkland in the northwest; almost no homes",
+     "es": "Solo colinas y parques al noroeste; casi sin viviendas",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "low"
+    },
+    "16": {
+     "en": "Only a tiny rural edge in the northeast; almost no homes",
+     "es": "Solo un borde rural pequeño al noreste; casi sin viviendas",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "low"
+    }
+   },
+   "sd": {
+    "9": {
+     "en": "Most of the ZIP: the town of Castro Valley",
+     "es": "Casi todo el código postal: la zona de Castro Valley",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "10": {
+     "en": "Only a small southwest corner next to Hayward",
+     "es": "Solo una pequeña esquina suroeste junto a Hayward",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "medium"
+    }
+   }
+  },
+  "94550": {
+   "ad": {
+    "16": {
+     "en": "Most of the ZIP: the city of Livermore and nearby rural land",
+     "es": "Casi todo el código postal: la ciudad de Livermore y terreno rural",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "25": {
+     "en": "Only remote rural land far to the southeast; almost no homes",
+     "es": "Solo terreno rural remoto al sureste; casi sin viviendas",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    }
+   },
+   "sd": {
+    "5": {
+     "en": "Most of the ZIP: the city of Livermore and nearby rural land",
+     "es": "Casi todo el código postal: la ciudad de Livermore y terreno rural",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "15": {
+     "en": "Only remote rural land far to the southeast; almost no homes",
+     "es": "Solo terreno rural remoto al sureste; casi sin viviendas",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "medium"
+    }
+   }
+  },
+  "94551": {
+   "ad": {
+    "16": {
+     "en": "Most of the ZIP: the city of Livermore",
+     "es": "Casi todo el código postal: la ciudad de Livermore",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "15": {
+     "en": "Only a few rural homes at the far north edge",
+     "es": "Solo unas pocas casas rurales en el extremo norte",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    }
+   },
+   "sd": {
+    "5": {
+     "en": "Most of the ZIP: the city of Livermore",
+     "es": "Casi todo el código postal: la ciudad de Livermore",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Only a few rural homes at the far north edge",
+     "es": "Solo unas pocas casas rurales en el extremo norte",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "medium"
+    }
+   }
+  },
+  "94552": {
+   "ad": {
+    "20": {
+     "en": "Most of the ZIP: the Castro Valley area",
+     "es": "Casi todo el código postal: la zona de Castro Valley",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "16": {
+     "en": "Only a few rural homes at the north edge",
+     "es": "Solo unas pocas casas rurales en el borde norte",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    },
+    "24": {
+     "en": "Only empty hill land at the far southeast edge; no homes counted",
+     "es": "Solo colinas vacías en el extremo sureste; sin viviendas",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "low"
+    }
+   },
+   "sd": {
+    "9": {
+     "en": "Most of the ZIP: the Castro Valley area",
+     "es": "Casi todo el código postal: la zona de Castro Valley",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "10": {
+     "en": "Only a few homes at the far southeast edge",
+     "es": "Solo unas pocas viviendas en el extremo sureste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "medium"
+    },
+    "5": {
+     "en": "Only a few rural homes at the east edge",
+     "es": "Solo unas pocas casas rurales en el borde este",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "medium"
+    }
+   }
+  },
+  "94566": {
+   "ad": {
+    "16": {
+     "en": "Most of the ZIP: nearly all of Pleasanton in this ZIP",
+     "es": "Casi todo el código postal: casi todo Pleasanton aquí",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "20": {
+     "en": "Only a small southwest corner of Pleasanton",
+     "es": "Solo una pequeña esquina suroeste de Pleasanton",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    },
+    "24": {
+     "en": "Only a handful of homes near Sunol, at the southwest edge",
+     "es": "Solo unas pocas casas cerca de Sunol, al suroeste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "low"
+    }
+   },
+   "sd": {}
+  },
+  "94568": {
+   "ad": {
+    "16": {
+     "en": "Central and eastern Dublin (about 6 in 10 residents)",
+     "es": "Centro y este de Dublin (cerca de 6 de cada 10 residentes)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "20": {
+     "en": "Western Dublin (about 4 in 10 residents)",
+     "es": "Oeste de Dublin (cerca de 4 de cada 10 residentes)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    }
+   },
+   "sd": {}
+  },
+  "94586": {
+   "ad": {
+    "24": {
+     "en": "Most of the ZIP: the small community of Sunol",
+     "es": "Casi todo el código postal: la pequeña comunidad de Sunol",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "16": {
+     "en": "Only a few rural homes at the far southeast",
+     "es": "Solo unas pocas casas rurales en el extremo sureste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    },
+    "20": {
+     "en": "Only empty hills at the far northwest edge; no homes counted",
+     "es": "Solo colinas vacías en el extremo noroeste; sin viviendas",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "low"
+    }
+   },
+   "sd": {
+    "5": {
+     "en": "Most of the ZIP: the small community of Sunol",
+     "es": "Casi todo el código postal: la pequeña comunidad de Sunol",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "10": {
+     "en": "Only empty hills at the far northwest edge; no homes counted",
+     "es": "Solo colinas vacías en el extremo noroeste; sin viviendas",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "low"
+    }
+   }
+  },
+  "94588": {
+   "ad": {
+    "16": {
+     "en": "Northeast Pleasanton (about 6 in 10 residents)",
+     "es": "Noreste de Pleasanton (cerca de 6 de cada 10 residentes)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "20": {
+     "en": "Southwest Pleasanton (about 4 in 10 residents)",
+     "es": "Suroeste de Pleasanton (cerca de 4 de cada 10 residentes)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "24": {
+     "en": "Only empty land near Sunol at the far southwest; no homes",
+     "es": "Solo terreno vacío cerca de Sunol al suroeste; sin viviendas",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "low"
+    }
+   },
+   "sd": {
+    "5": {
+     "en": "Most of the ZIP: nearly all of Pleasanton in this ZIP",
+     "es": "Casi todo el código postal: casi todo Pleasanton aquí",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Only a few rural homes at the far north edge",
+     "es": "Solo unas pocas casas rurales en el extremo norte",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "medium"
+    },
+    "10": {
+     "en": "Only a few homes at the far southwest edge, near Hayward",
+     "es": "Solo unas pocas viviendas al suroeste, cerca de Hayward",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "low"
+    }
+   }
+  },
+  "94609": {
+   "ad": {
+    "18": {
+     "en": "The south and west of the ZIP in Oakland (about 3 in 4 residents)",
+     "es": "Sur y oeste del código postal en Oakland (3 de cada 4 residentes)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "14": {
+     "en": "The north and northeast of the ZIP in Oakland (about 1 in 4)",
+     "es": "Norte y noreste del código postal en Oakland (1 de cada 4)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    }
+   },
+   "sd": {}
+  },
+  "94610": {
+   "ad": {
+    "18": {
+     "en": "Most of the ZIP: nearly all of the Oakland part",
+     "es": "Casi todo el código postal: casi toda la parte de Oakland",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "14": {
+     "en": "Only the city of Piedmont, in the northeast corner",
+     "es": "Solo la ciudad de Piedmont, en la esquina noreste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    }
+   },
+   "sd": {}
+  },
+  "94611": {
+   "ad": {
+    "14": {
+     "en": "Most of the ZIP: Piedmont and the northern/eastern Oakland hills",
+     "es": "Casi todo: Piedmont y el norte y este de las colinas de Oakland",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "18": {
+     "en": "The southwest corner of the ZIP, in Oakland (about 1 in 5)",
+     "es": "La esquina suroeste del código postal, en Oakland (1 de cada 5)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    }
+   },
+   "sd": {
+    "7": {
+     "en": "Most of the ZIP: nearly all of Oakland and Piedmont here",
+     "es": "Casi todo el código postal: casi todo Oakland y Piedmont aquí",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Only a few homes at the far northeast edge",
+     "es": "Solo unas pocas viviendas en el extremo noreste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "low"
+    }
+   }
+  },
+  "94619": {
+   "ad": {},
+   "sd": {
+    "7": {
+     "en": "Most of the ZIP: nearly all of this part of Oakland",
+     "es": "Casi todo el código postal: casi toda esta parte de Oakland",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Only a few homes at the far east edge",
+     "es": "Solo unas pocas viviendas en el extremo este",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "low"
+    }
+   }
+  },
+  "94708": {
+   "ad": {},
+   "sd": {
+    "7": {
+     "en": "Most of the ZIP: Berkeley and Kensington",
+     "es": "Casi todo el código postal: Berkeley y Kensington",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Only a few homes at the far north edge",
+     "es": "Solo unas pocas viviendas en el extremo norte",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "low"
+    }
+   }
+  },
+  "95205": {
+   "ad": {
+    "13": {
+     "en": "Most of the ZIP: Stockton, August and nearby areas",
+     "es": "Casi todo el código postal: Stockton, August y zonas cercanas",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Only a few rural homes at the north edge",
+     "es": "Solo unas pocas casas rurales en el borde norte",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    }
+   },
+   "sd": {}
+  },
+  "95209": {
+   "ad": {
+    "13": {
+     "en": "Most of the ZIP: nearly all of this part of Stockton",
+     "es": "Casi todo el código postal: casi toda esta parte de Stockton",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Only a few homes at the far northwest edge",
+     "es": "Solo unas pocas viviendas en el extremo noroeste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    }
+   },
+   "sd": {}
+  },
+  "95210": {
+   "ad": {
+    "13": {
+     "en": "Most of the ZIP: nearly all of this part of Stockton",
+     "es": "Casi todo el código postal: casi toda esta parte de Stockton",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Only a few homes at the far north edge",
+     "es": "Solo unas pocas viviendas en el extremo norte",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    }
+   },
+   "sd": {}
+  },
+  "95212": {
+   "ad": {
+    "13": {
+     "en": "Southwest and central Stockton (about 8 in 10 residents)",
+     "es": "Suroeste y centro de Stockton (cerca de 8 de cada 10)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Northeast side, including Morada (about 2 in 10 residents)",
+     "es": "Lado noreste, incluida Morada (cerca de 2 de cada 10)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    }
+   },
+   "sd": {}
+  },
+  "95219": {
+   "ad": {
+    "13": {
+     "en": "Most of the ZIP: Stockton and the land around it",
+     "es": "Casi todo el código postal: Stockton y el terreno alrededor",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Only a few rural homes at the northeast edge",
+     "es": "Solo unas pocas casas rurales en el borde noreste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    },
+    "11": {
+     "en": "Only a few rural homes at the far northwest edge",
+     "es": "Solo unas pocas casas rurales en el extremo noroeste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "low"
+    }
+   },
+   "sd": {
+    "5": {
+     "en": "Most of the ZIP: Stockton and the land around it",
+     "es": "Casi todo el código postal: Stockton y el terreno alrededor",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "high"
+    },
+    "3": {
+     "en": "Only a few rural homes at the far northwest edge",
+     "es": "Solo unas pocas casas rurales en el extremo noroeste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldu_500k.zip",
+     "confidence": "low"
+    }
+   }
+  },
+  "95231": {
+   "ad": {
+    "13": {
+     "en": "The French Camp area, in the north and northeast (about 8 in 10)",
+     "es": "Zona de French Camp, norte y noreste (cerca de 8 de cada 10)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "The rural southwest part of the ZIP, near Lathrop (about 2 in 10)",
+     "es": "Parte rural suroeste, cerca de Lathrop (cerca de 2 de cada 10)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    }
+   },
+   "sd": {}
+  },
+  "95304": {
+   "ad": {
+    "13": {
+     "en": "The west of the ZIP, including the Tracy part (about 7 in 10)",
+     "es": "El oeste del código postal, con la parte de Tracy (7 de cada 10)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "9": {
+     "en": "Rural unincorporated land in the east of the ZIP (about 3 in 10)",
+     "es": "Terreno rural sin incorporar en el este (cerca de 3 de cada 10)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    }
+   },
+   "sd": {}
+  },
+  "95377": {
+   "ad": {
+    "13": {
+     "en": "Most of the ZIP: nearly all of this part of Tracy",
+     "es": "Casi todo el código postal: casi toda esta parte de Tracy",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "16": {
+     "en": "Only a few rural homes at the far west edge",
+     "es": "Solo unas pocas casas rurales en el extremo oeste",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    }
+   },
+   "sd": {}
+  },
+  "95391": {
+   "ad": {
+    "13": {
+     "en": "Most of the ZIP: the city of Mountain House",
+     "es": "Casi todo el código postal: la ciudad de Mountain House",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "high"
+    },
+    "16": {
+     "en": "Only a few rural homes in the Alameda County hills to the southwest",
+     "es": "Solo unas pocas casas rurales en las colinas del suroeste (Condado de Alameda)",
+     "src": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_06_sldl_500k.zip",
+     "confidence": "medium"
+    }
+   },
+   "sd": {}
+  }
+ }
+}

@@ -411,6 +411,8 @@ ZIP_OVERRIDES = {
 def load_zips():
     j = load_json('zips_local.json') or {}
     zips = j.get('zips') or {}
+    # research/district_hints.json: for a ZIP that crosses a district line, which part of the ZIP each district covers (en/es), so the picker can say more than a number.
+    hints = (load_json('district_hints.json') or {}).get('hints') or {}
     out = {}
     for z, v in zips.items():
         places = [p for p in (v.get('places') or []) if p.get('name')]
@@ -427,5 +429,11 @@ def load_zips():
         ov = ZIP_OVERRIDES.get(z)
         if ov:
             o['county'] = ov.get('county', o['county']); o['ad'] = ov.get('assembly', o['ad']); o['note'] = ov.get('note', '')
+        h = hints.get(z) or {}
+        hz = {}
+        for kind in ('cd', 'ad', 'sd'):
+            kept = {d: {'en': t['en'], 'es': t.get('es') or t['en']} for d, t in (h.get(kind) or {}).items() if t.get('en')}
+            if kept: hz[kind] = kept
+        if hz: o['hints'] = hz
         if o['county'] in CITY_COUNTY: out[z] = o   # only ZIPs whose ballot county is covered
     return out

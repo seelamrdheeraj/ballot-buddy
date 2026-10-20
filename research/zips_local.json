@@ -2657,7 +2657,12 @@
      "share": 1.0
     }
    ],
-   "places": [],
+   "places": [
+    {
+     "name": "Escalon",
+     "type": "city"
+    }
+   ],
    "unincorporated_share": 0.974,
    "assembly": [
     "9"
@@ -2669,7 +2674,8 @@
    "usd": null,
    "elsd": null,
    "scsd": null,
-   "county_share_basis": "land"
+   "county_share_basis": "land",
+   "note": "Place set by hand on 2026-10-20: 95320 is the City of Escalon’s ZIP (USPS); the Census ZCTA→place share table listed no place."
   },
   "95330": {
    "county": "San Joaquin",

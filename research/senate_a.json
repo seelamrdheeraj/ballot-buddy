@@ -728,22 +728,22 @@
           "background": "Incumbent U.S. senator since 2021.",
           "background_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
           "summary": "Incumbent Republican senator seeking second term",
-          "site": "https://docmarshall.com/",
+          "site": "https://kansansformarshall.com/",
           "positions": [
             {
               "topic": "Agriculture",
               "statement": "Fertilizer relief legislation projected at $150 per ton for Kansas farmers.",
-              "url": "https://docmarshall.com/record/agriculture"
+              "url": "https://kansansformarshall.com/record/agriculture"
             },
             {
               "topic": "Rural health care",
               "statement": "Protect Critical Access hospitals; 72-hour cap on Medicare prior-authorization denials.",
-              "url": "https://docmarshall.com/record/rural-healthcare"
+              "url": "https://kansansformarshall.com/record/rural-healthcare"
             },
             {
               "topic": "Energy",
               "statement": "Support oil, gas, wind, and ethanol without restrictions.",
-              "url": "https://docmarshall.com/record/energy"
+              "url": "https://kansansformarshall.com/record/energy"
             }
           ]
         },
@@ -789,7 +789,7 @@
           "positions": []
         }
       ],
-      "notes": "Primaries held Aug 4, 2026. Hamilton won the Democratic primary with 34.9%. Marshall's kansansformarshall.com serves content from docmarshall.com. Hamilton's site (hamiltonforkansas.com) not fetched (budget)."
+      "notes": "Primaries held Aug 4, 2026. Hamilton won the Democratic primary with 34.9%. Marshall's site is kansansformarshall.com (docmarshall.com, printed earlier, stopped resolving on Oct 20, 2026). Hamilton's site (hamiltonforkansas.com) not fetched (budget)."
     },
     "KY": {
       "special": false,

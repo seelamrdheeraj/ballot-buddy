@@ -1,0 +1,454 @@
+{
+ "Alameda:RTM": {
+  "news": [
+   {
+    "date": "2026-10-09",
+    "url": "https://www.masstransitmag.com/management/news/55410777/ca-voters-are-split-on-whether-or-not-to-save-bay-area-public-transit",
+    "title": {
+     "en": "Poll finds Regional Transit Measure below 50% support",
+     "es": "Encuesta halla apoyo a la Medida Regional de Transporte por debajo del 50%"
+    },
+    "body": {
+     "en": "An Embold Research poll for Joint Venture Silicon Valley and the Bay Area News Group found 48% support, 34% opposed and 18% undecided, as reported by SFGate.",
+     "es": "Una encuesta de Embold Research para Joint Venture Silicon Valley y Bay Area News Group halló 48% a favor, 34% en contra y 18% indecisos, según SFGate."
+    },
+    "source": "Mass Transit (SFGate via Tribune Content Agency)",
+    "kind": "claim"
+   }
+  ]
+ },
+ "Alameda:U": {
+  "news": [
+   {
+    "date": "2026-10-14",
+    "url": "https://localnewsmatters.org/2026/10/14/berkeley-measure-u-infrastructure-bonds/",
+    "title": {
+     "en": "Berkeley Measure U would authorize $300 million in bonds",
+     "es": "La Medida U de Berkeley autorizaría bonos por $300 millones"
+    },
+    "body": {
+     "en": "Bay City News reports Measure U would let Berkeley issue bonds for infrastructure, including emergency response, fire facilities, climate resiliency and parks.",
+     "es": "Bay City News informa que la Medida U permitiría a Berkeley emitir bonos para infraestructura, incluida la respuesta a emergencias, instalaciones de bomberos, resiliencia climática y parques."
+    },
+    "source": "Local News Matters (Bay City News)",
+    "kind": "claim"
+   }
+  ]
+ },
+ "Alameda:FF": {
+  "news": [
+   {
+    "date": "2026-09-27",
+    "url": "https://localnewsmatters.org/2026/09/27/measure-ff-would-eliminate-real-estate-transfer-tax-loophole-for-foreclosed-oakland-properties/",
+    "title": {
+     "en": "Oakland Measure FF would change foreclosure transfer tax",
+     "es": "La Medida FF de Oakland cambiaría el impuesto sobre propiedades embargadas"
+    },
+    "body": {
+     "en": "Bay City News reports Oakland voters are asked to change how the city collects taxes on foreclosed properties.",
+     "es": "Bay City News informa que se pide a los votantes de Oakland cambiar la forma en que la ciudad cobra impuestos sobre propiedades embargadas."
+    },
+    "source": "Local News Matters (Bay City News)",
+    "kind": "claim"
+   }
+  ]
+ },
+ "Alameda:I": {
+  "news": [
+   {
+    "date": "2026-09-16",
+    "url": "https://localnewsmatters.org/2026/09/16/measure-i-would-raise-existing-dublin-school-parcel-tax-to-retain-teachers-limit-class-sizes/",
+    "title": {
+     "en": "Dublin schools ask voters to renew and raise parcel tax",
+     "es": "Las escuelas de Dublin piden a los votantes renovar y aumentar el impuesto parcelario"
+    },
+    "body": {
+     "en": "Local News Matters reports Measure I would renew an expiring $96 tax and add $48, for $144 per parcel a year, and needs a two-thirds vote.",
+     "es": "Local News Matters informa que la Medida I renovaría un impuesto de $96 que vence y añadiría $48, para un total de $144 por parcela al año, y requiere dos tercios de los votos."
+    },
+    "source": "Local News Matters",
+    "kind": "claim"
+   }
+  ]
+ },
+ "CA:Prop 1": {
+  "news": [
+   {
+    "date": "2026-10-02",
+    "url": "https://www.kpbs.org/news/politics/2026/10/02/proposition-1-borrow-11-25-billion-for-housing",
+    "title": {
+     "en": "Prop 1 would sell $11.25 billion in housing bonds",
+     "es": "La Prop 1 vendería bonos de vivienda por $11,250 millones"
+    },
+    "body": {
+     "en": "KPBS reports Prop 1 would let the state sell $11.25 billion in bonds. Supporters say it would help the state's homeless residents.",
+     "es": "KPBS informa que la Prop 1 permitiría al estado vender bonos por $11,250 millones. Los partidarios dicen que ayudaría a las personas sin hogar del estado."
+    },
+    "source": "KPBS",
+    "kind": "claim"
+   }
+  ]
+ },
+ "CA:Prop 2": {
+  "news": [
+   {
+    "date": "2026-10-02",
+    "url": "https://www.kpbs.org/news/politics/2026/10/02/proposition-2-raise-limit-on-rainy-day-fund-deposits",
+    "title": {
+     "en": "Prop 2 would raise the Rainy Day Fund deposit limit to 20%",
+     "es": "La Prop 2 subiría el límite de depósitos del Fondo para Días Lluviosos al 20%"
+    },
+    "body": {
+     "en": "KPBS reports Prop 2 would let the state deposit up to 20% of general fund tax revenue in reserves. Opponents say lawmakers could use it as a discretionary fund.",
+     "es": "KPBS informa que la Prop 2 permitiría al estado depositar hasta el 20% de los ingresos del fondo general en reservas. Los opositores dicen que los legisladores podrían usarlo como fondo discrecional."
+    },
+    "source": "KPBS",
+    "kind": "claim"
+   }
+  ]
+ },
+ "CA:Prop 4": {
+  "news": [
+   {
+    "date": "2026-10-15",
+    "url": "https://calmatters.org/politics/2026/10/california-proposition-4-explainer/",
+    "title": {
+     "en": "Poll: more likely voters oppose Prop 4 than support it",
+     "es": "Encuesta: más votantes probables se oponen a la Prop 4"
+    },
+    "body": {
+     "en": "CalMatters reports a September PPIC poll found 53% of likely voters would oppose Prop 4 and 42% would vote yes.",
+     "es": "CalMatters informa que una encuesta de PPIC de septiembre halló que el 53% de los votantes probables se opondría a la Prop 4 y el 42% votaría sí."
+    },
+    "source": "CalMatters",
+    "kind": "confirmed"
+   }
+  ]
+ },
+ "CA:Prop 5": {
+  "news": [
+   {
+    "date": "2026-10-02",
+    "url": "https://calmatters.org/politics/2026/10/california-election-proposition-5-explainer/",
+    "title": {
+     "en": "Poll: most likely voters say no to Prop 5",
+     "es": "Encuesta: la mayoría de votantes probables dice no a la Prop 5"
+    },
+    "body": {
+     "en": "CalMatters reports 59% of likely voters said they would vote no on Prop 5 and 35% said yes. Prop 5 removes the 'who replaces' question from recalls.",
+     "es": "CalMatters informa que el 59% de los votantes probables dijo que votaría no a la Prop 5 y el 35% sí. La Prop 5 elimina la pregunta de quién reemplaza en las revocaciones."
+    },
+    "source": "CalMatters",
+    "kind": "claim"
+   }
+  ]
+ },
+ "CA:Prop 37": {
+  "news": [
+   {
+    "date": "2026-10-02",
+    "url": "https://www.kpbs.org/news/politics/2026/10/02/proposition-37-create-low-cost-mortgages-for-homebuyers",
+    "title": {
+     "en": "Prop 37 would let state back loans for new-home buyers",
+     "es": "La Prop 37 permitiría préstamos respaldados por el estado para compradores de casas nuevas"
+    },
+    "body": {
+     "en": "CalMatters reports the measure lets the state housing agency borrow up to $25 billion. Buyers would repay private lenders. The official summary lists no direct state or local costs.",
+     "es": "CalMatters informa que la medida permite a la agencia estatal de vivienda pedir prestado hasta $25 mil millones. Los compradores pagarían a prestamistas privados. El resumen oficial no indica costos estatales ni locales directos."
+    },
+    "source": "CalMatters via KPBS",
+    "kind": "confirmed"
+   }
+  ]
+ },
+ "CA:Prop 38": {
+  "news": [
+   {
+    "date": "2026-10-14",
+    "url": "https://abc30.com/post/californias-proposition-38-would-fund-immunology-research-opponents-call-bad-deal-taxpayers/19936199/",
+    "title": {
+     "en": "Prop 38 campaigns split on $8.4 billion research bond",
+     "es": "Las campañas de la Prop 38 se dividen sobre el bono de investigación de $8.4 mil millones"
+    },
+    "body": {
+     "en": "ABC30 reports the measure would authorize $8.4 billion in bonds for immunology research. The Yes campaign says it fills a funding gap. The No campaign calls it a bad deal.",
+     "es": "ABC30 informa que la medida autorizaría $8.4 mil millones en bonos para investigación en inmunología. La campaña del Sí dice que cubre un vacío de fondos. La campaña del No dice que es un mal trato."
+    },
+    "source": "ABC30",
+    "kind": "claim"
+   }
+  ]
+ },
+ "CA:Prop 39": {
+  "news": [
+   {
+    "date": "2026-09-26",
+    "url": "https://abc7.com/post/what-know-proposition-39-californias-voter-id-measure/19872464/",
+    "title": {
+     "en": "Prop 39 voter ID: parties split, ABC7 reports",
+     "es": "Prop 39 sobre identificación de votantes: los partidos están divididos, según ABC7"
+    },
+    "body": {
+     "en": "ABC7 reports the California Republican Party backs the ID requirement. Democrats, including Xavier Becerra and Sen. Adam Schiff, say it could keep eligible voters from voting.",
+     "es": "ABC7 informa que el Partido Republicano de California apoya el requisito de identificación. Los demócratas, incluidos Xavier Becerra y el senador Adam Schiff, dicen que podría impedir votar a personas elegibles."
+    },
+    "source": "ABC7",
+    "kind": "claim"
+   }
+  ]
+ },
+ "CA:Prop 40": {
+  "news": [
+   {
+    "date": "2026-09-28",
+    "url": "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/",
+    "title": {
+     "en": "Prop 40, 41 and 42 are linked; only one can prevail",
+     "es": "Las Props 40, 41 y 42 están vinculadas; solo una puede prevalecer"
+    },
+    "body": {
+     "en": "CalMatters reports that if Prop 41 or 42 gets more votes than Prop 40, the billionaire tax does not take effect. It says PPIC polling shows slim majorities for all three.",
+     "es": "CalMatters informa que si la Prop 41 o la 42 obtiene más votos que la Prop 40, el impuesto a multimillonarios no entra en vigor. Dice que las encuestas del PPIC muestran mayorías escasas para las tres."
+    },
+    "source": "CalMatters",
+    "kind": "confirmed"
+   }
+  ]
+ },
+ "CA:Prop 41": {
+  "news": [
+   {
+    "date": "2026-10-01",
+    "url": "https://www.kpbs.org/news/politics/2026/10/01/proposition-41-require-audits-of-new-tax-programs",
+    "title": {
+     "en": "Prop 41 backers and SEIU clash over audits and Prop 40",
+     "es": "Defensores de la Prop 41 y SEIU chocan por las auditorías y la Prop 40"
+    },
+    "body": {
+     "en": "CalMatters reports Prop 41 would add state audits of new special taxes. The union that sponsored Prop 40 argues Prop 41 is meant to block the wealth tax.",
+     "es": "CalMatters informa que la Prop 41 añadiría auditorías estatales a los nuevos impuestos especiales. El sindicato que patrocinó la Prop 40 dice que la Prop 41 busca bloquear el impuesto a la riqueza."
+    },
+    "source": "CalMatters via KPBS",
+    "kind": "claim"
+   }
+  ]
+ },
+ "CA:Prop 42": {
+  "news": [
+   {
+    "date": "2026-10-12",
+    "url": "https://www.kpbs.org/news/politics/2026/10/12/gavin-newsom-backs-measure-to-kill-the-billionaire-tax-and-ban-future-wealth-taxes",
+    "title": {
+     "en": "Newsom endorses Prop 42, which would cancel Prop 40",
+     "es": "Newsom respalda la Prop 42, que anularía la Prop 40"
+    },
+    "body": {
+     "en": "KPBS reports Gov. Gavin Newsom endorsed Prop 42. A SEIU-UHW vice president, an opponent, criticized the endorsement.",
+     "es": "KPBS informa que el gobernador Gavin Newsom respaldó la Prop 42. Una vicepresidenta de SEIU-UHW, que se opone, criticó el respaldo."
+    },
+    "source": "KPBS",
+    "kind": "claim"
+   }
+  ]
+ },
+ "CA:Prop 43": {
+  "news": [
+   {
+    "date": "2026-10-09",
+    "url": "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+    "title": {
+     "en": "Poll: more likely voters lean No than Yes on Prop 43",
+     "es": "Encuesta: más votantes probables se inclinan por No que por Sí en la Prop 43"
+    },
+    "body": {
+     "en": "CalMatters reports a September PPIC survey found 51% of likely voters would vote no and 43% yes.",
+     "es": "CalMatters informa que una encuesta de PPIC de septiembre halló que 51% de los votantes probables votaría No y 43% Sí."
+    },
+    "source": "CalMatters",
+    "kind": "claim"
+   },
+   {
+    "date": "2026-10-09",
+    "url": "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+    "title": {
+     "en": "Supporters of Prop 43 have raised almost $15 million",
+     "es": "Los partidarios de la Prop 43 han recaudado casi $15 millones"
+    },
+    "body": {
+     "en": "CalMatters reports supporters have put almost $15 million into the measure, mostly from the California Business Roundtable PAC. Local officials, unions and housing advocates oppose it.",
+     "es": "CalMatters informa que los partidarios han aportado casi $15 millones, la mayor parte del PAC de la California Business Roundtable. Funcionarios locales, sindicatos y defensores de la vivienda se oponen."
+    },
+    "source": "CalMatters",
+    "kind": "claim"
+   }
+  ]
+ },
+ "CA:Prop 44": {
+  "news": [
+   {
+    "date": "2026-10-07",
+    "url": "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "title": {
+     "en": "Prop 44 opponents report $37.6 million raised",
+     "es": "Opositores de la Prop 44 reportan $37.6 millones recaudados"
+    },
+    "body": {
+     "en": "CalMatters reports opponents, including clinic, doctor and hospital groups, have raised about $37.6 million against the measure.",
+     "es": "CalMatters informa que los opositores, incluidos grupos de clínicas, médicos y hospitales, han recaudado unos $37.6 millones en contra."
+    },
+    "source": "CalMatters",
+    "kind": "claim"
+   },
+   {
+    "date": "2026-10-07",
+    "url": "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "title": {
+     "en": "PPIC poll: one in three likely voters back Prop 44",
+     "es": "Encuesta PPIC: uno de cada tres votantes probables apoya la Prop 44"
+    },
+    "body": {
+     "en": "CalMatters cites a September Public Policy Institute of California survey showing about one in three likely voters support the initiative.",
+     "es": "CalMatters cita una encuesta de septiembre del Instituto de Políticas Públicas de California que muestra que cerca de uno de cada tres votantes probables apoya la iniciativa."
+    },
+    "source": "CalMatters",
+    "kind": "claim"
+   },
+   {
+    "date": "2026-10-07",
+    "url": "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+    "title": {
+     "en": "Earlier lawsuit to keep Prop 44 off ballot dismissed",
+     "es": "Se desestimó una demanda para sacar la Prop 44 de la boleta"
+    },
+    "body": {
+     "en": "CalMatters reports a judge dismissed an earlier lawsuit by the primary care association seeking to keep the initiative off the ballot.",
+     "es": "CalMatters informa que un juez desestimó una demanda anterior de la asociación de atención primaria para sacar la iniciativa de la boleta."
+    },
+    "source": "CalMatters",
+    "kind": "claim"
+   }
+  ]
+ },
+ "CA:Prop 45": {
+  "news": [
+   {
+    "date": "2026-10-13",
+    "url": "https://hoodline.com/2026/10/six-california-gop-county-committees-recommend-no-on-prop-45/",
+    "title": {
+     "en": "Six county Republican committees recommend No on Prop 45",
+     "es": "Seis comités republicanos de condado recomiendan votar No en la Prop 45"
+    },
+    "body": {
+     "en": "Hoodline reports six county Republican central committees voted to recommend a No vote on Prop 45.",
+     "es": "Hoodline informa que seis comités centrales republicanos de condado votaron por recomendar un voto No en la Prop 45."
+    },
+    "source": "Hoodline",
+    "kind": "claim"
+   },
+   {
+    "date": "2026-10-09",
+    "url": "https://calmatters.org/environment/2026/10/prop-45-california-ceqa-explained/",
+    "title": {
+     "en": "CalMatters explains Prop 45; Chamber of Commerce is sponsor",
+     "es": "CalMatters explica la Prop 45; la Cámara de Comercio es la patrocinadora"
+    },
+    "body": {
+     "en": "CalMatters reports the California Chamber of Commerce sponsors the measure and says it would cut costs by speeding up building. Opponents say it would tilt unclear language toward applicants.",
+     "es": "CalMatters informa que la Cámara de Comercio de California patrocina la medida y dice que reduciría costos al acelerar la construcción. Los opositores dicen que favorecería a los solicitantes."
+    },
+    "source": "CalMatters",
+    "kind": "claim"
+   }
+  ]
+ },
+ "San Joaquin:T": {
+  "news": [
+   {
+    "date": "2026-09-29",
+    "url": "https://hoodline.com/2026/09/lodi-schools-ask-voters-for-195-million-promise-no-tax-rate-hike/",
+    "title": {
+     "en": "Lodi Unified asks voters for $195 million school bond",
+     "es": "Lodi Unified pide a los votantes un bono escolar de $195 millones"
+    },
+    "body": {
+     "en": "Hoodline reports the district's bond would pay for roof, plumbing, electrical and heating repairs and school security. The ballot description says no estimated increase in current tax rates.",
+     "es": "Hoodline informa que el bono del distrito pagaría reparaciones de techos, plomería, electricidad y calefacción, y la seguridad escolar. La descripción de la boleta dice que no se estima un aumento en las tasas de impuestos actuales."
+    },
+    "source": "Hoodline",
+    "kind": "claim"
+   }
+  ]
+ },
+ "AR:Issue 1": {
+  "news": [
+   {
+    "date": "2026-10-07",
+    "url": "https://www.uaex.uada.edu/media-resources/news/2026/october/10-07-2026-ark-ballot-guide-26.aspx",
+    "title": {
+     "en": "Arkansas voter guide lists four statewide issues",
+     "es": "La guía de electores de Arkansas enumera cuatro asuntos estatales"
+    },
+    "body": {
+     "en": "The University of Arkansas Division of Agriculture's 2026 voter guide lists Issue 1 as defining who is eligible to vote in Arkansas. The guide is available online.",
+     "es": "La guía de electores de 2026 de la División de Agricultura de la Universidad de Arkansas incluye el Asunto 1, que define quién puede votar en Arkansas. La guía está disponible en línea."
+    },
+    "source": "University of Arkansas Division of Agriculture",
+    "kind": "claim"
+   }
+  ]
+ },
+ "AR:Issue 2": {
+  "news": [
+   {
+    "date": "2026-10-07",
+    "url": "https://www.uaex.uada.edu/media-resources/news/2026/october/10-07-2026-ark-ballot-guide-26.aspx",
+    "title": {
+     "en": "Arkansas voter guide lists four statewide issues",
+     "es": "La guía de electores de Arkansas enumera cuatro asuntos estatales"
+    },
+    "body": {
+     "en": "The University of Arkansas Division of Agriculture's 2026 voter guide lists Issue 2 as the right to keep and bear arms. The guide is available online.",
+     "es": "La guía de electores de 2026 de la División de Agricultura de la Universidad de Arkansas incluye el Asunto 2, sobre el derecho a portar armas. La guía está disponible en línea."
+    },
+    "source": "University of Arkansas Division of Agriculture",
+    "kind": "claim"
+   }
+  ]
+ },
+ "AR:Issue 3": {
+  "news": [
+   {
+    "date": "2026-10-07",
+    "url": "https://www.uaex.uada.edu/media-resources/news/2026/october/10-07-2026-ark-ballot-guide-26.aspx",
+    "title": {
+     "en": "Arkansas voter guide lists four statewide issues",
+     "es": "La guía de electores de Arkansas enumera cuatro asuntos estatales"
+    },
+    "body": {
+     "en": "The University of Arkansas Division of Agriculture's 2026 voter guide lists Issue 3 as allowing the Legislature to create economic development programs, loans, grants and districts using public money.",
+     "es": "La guía de electores de 2026 de la División de Agricultura de la Universidad de Arkansas incluye el Asunto 3, que permite a la Legislatura crear programas, préstamos, subvenciones y distritos de desarrollo económico con dinero público."
+    },
+    "source": "University of Arkansas Division of Agriculture",
+    "kind": "claim"
+   }
+  ]
+ },
+ "AR:Issue 4": {
+  "news": [
+   {
+    "date": "2026-10-07",
+    "url": "https://www.uaex.uada.edu/media-resources/news/2026/october/10-07-2026-ark-ballot-guide-26.aspx",
+    "title": {
+     "en": "Arkansas voter guide lists four statewide issues",
+     "es": "La guía de electores de Arkansas enumera cuatro asuntos estatales"
+    },
+    "body": {
+     "en": "The University of Arkansas Division of Agriculture's 2026 voter guide lists Issue 4 as issuing up to $500 million in water, waste disposal and pollution abatement bonds.",
+     "es": "La guía de electores de 2026 de la División de Agricultura de la Universidad de Arkansas incluye el Asunto 4, sobre la emisión de hasta 500 millones de dólares en bonos para agua, desechos y control de la contaminación."
+    },
+    "source": "University of Arkansas Division of Agriculture",
+    "kind": "claim"
+   }
+  ]
+ }
+}

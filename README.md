@@ -21,6 +21,7 @@ On a phone, open that link and tap **Share → Add to Home Screen** (iPhone) or 
 ## What it does
 
 - **Your ballot by ZIP.** Any ZIP in the U.S. Your congressional district is looked up from Census data; House candidates load live from the FEC.
+- **Recent developments.** Candidate and measure screens carry dated items added after the profile was written: polls, campaign-finance filings, endorsements, forums, lawsuits and status changes (a candidate who withdrew but stays on the ballot). Each names its source and publication date and is marked **Confirmed** (an official record, or two independent outlets) or **Claim** (a candidate, campaign or single outlet). Every item's supporting quote was checked against the cited page by script before publication.
 - **Match.** Swipe agree or disagree on real statements from candidates on your ballot, with names hidden. At the end you see how often you overlapped with each candidate. Overlap is shown as a number, never as a recommendation.
 - **Follow.** Follow your representatives and see their recorded votes next to what they promised in their own words. We show both; you decide.
 - **County directory.** Every contest and candidate the county lists, searchable, each labeled *Contested*, *Running unopposed*, *Not on the ballot · appointment in lieu of election*, *Not on the ballot* or *No candidate filed*, with the county's own wording for why. A candidate is never dropped for lacking an opponent, a website, or a statement.

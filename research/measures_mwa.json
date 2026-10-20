@@ -97,7 +97,7 @@
    ]
   },
   "MI": {
-   "source_url": "https://www.michigan.gov/sos/elections/voting/voters/candidatesproposals/current-proposals",
+   "source_url": "https://www.michigan.gov/sos/elections",
    "official_guide_published": true,
    "notes": "Michigan's November 3, 2026 statewide ballot was finalized in early September 2026 with two statewide proposals. A third proposed constitutional amendment - the Americans for Citizen Voting proof-of-citizenship measure - will NOT appear: the Board of State Canvassers deadlocked over affidavits offered to cure signature problems and the Michigan Supreme Court declined to order it onto the ballot in early September 2026. The Board of State Canvassers approved the 100-word ballot summary for Proposal 2 on August 17, 2026, and a last-minute challenge to Proposal 2 failed at the Michigan Supreme Court the week of September 1, 2026. michigan.gov returned HTTP 403 to automated fetching, so the official ballot wording below was confirmed from Michigan public-media reporting of the Board of State Canvassers' approved language rather than read directly off the state page.",
    "measures": [
@@ -114,7 +114,7 @@
      "no": "A no vote means no constitutional convention is held and the current Michigan Constitution remains in effect unchanged.",
      "fiscal": "Michigan does not print an official fiscal estimate with statewide ballot proposals, and no official state fiscal estimate for this proposal was published as of Sept 22, 2026.",
      "urls": [
-      "https://www.michigan.gov/sos/elections/voting/voters/candidatesproposals/current-proposals",
+      "https://www.michigan.gov/sos/elections",
       "https://www.michiganpublic.org/politics-government/2026-09-04/michigans-november-2026-ballot-is-official-includes-two-questions-for-all-voters",
       "https://www.votebeat.org/michigan/2026/09/16/midterm-election-2026-whats-on-your-ballot-voter-guide/",
       "https://ballotpedia.org/Michigan_Constitutional_Convention_Question_(2026)"
@@ -133,7 +133,7 @@
      "no": "A no vote rejects the initiated law and leaves Michigan's current campaign finance and disclosure rules unchanged.",
      "fiscal": "Michigan does not print an official fiscal estimate with statewide ballot proposals, and no official state fiscal estimate for this proposal was published as of Sept 22, 2026.",
      "urls": [
-      "https://www.michigan.gov/sos/elections/voting/voters/candidatesproposals/current-proposals",
+      "https://www.michigan.gov/sos/elections",
       "https://www.votebeat.org/michigan/2026/09/16/midterm-election-2026-whats-on-your-ballot-voter-guide/",
       "https://michiganadvance.com/2026/08/17/board-of-state-canvassers-approves-ballot-language-for-money-out-of-politics-proposal/",
       "https://ballotpedia.org/Michigan_2026_ballot_measures"

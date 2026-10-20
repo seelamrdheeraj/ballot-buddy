@@ -76,8 +76,8 @@ def norm_candidate(c, race_id, i):
 SJC = 'https://www.sjgov.org/department/rov/election-information/current_election'
 
 DEADLINES_CA = [
- {'id':'mail','date':'2026-10-05','title':{'en':'Mail ballots go out','es':'Se envían las boletas por correo'},'sub':{'en':'Every registered voter is mailed one. Ballot drop boxes and early voting at the county Registrar’s office open the same day.','es':'Cada votante registrado recibe una. Los buzones y la votación anticipada en la oficina del Registro abren el mismo día.'}},
- {'id':'reg','date':'2026-10-19','title':{'en':'Register to vote','es':'Regístrate para votar'},'sub':{'en':'Missed it? From Oct 20 through Election Day you can register and vote in person at any polling place.','es':'¿Se te pasó? Del 20 de octubre al día de la elección puedes registrarte y votar en persona en cualquier lugar de votación.'}},
+ {'id':'mail','date':'2026-10-05','title':{'en':'Mail ballots go out','es':'Se envían las boletas por correo'},'sub':{'en':'Every active registered voter is mailed one. Ballot drop boxes and early voting at the county Registrar’s office are open by this date.','es':'Cada votante registrado activo recibe una. Los buzones y la votación anticipada en la oficina del Registro ya están abiertos para esta fecha.'}},
+ {'id':'reg','date':'2026-10-19','title':{'en':'Register to vote','es':'Regístrate para votar'},'sub':{'en':'Missed it? From Oct 20 through Election Day you can still register and vote a provisional ballot in person: at your county elections office, and at polling places or vote centers on the days they are open.','es':'¿Se te pasó? Del 20 de octubre al día de la elección aún puedes registrarte y votar con boleta provisional en persona: en la oficina electoral de tu condado y en los lugares o centros de votación los días que estén abiertos.'}},
  {'id':'req','date':'2026-10-27','title':{'en':'Last day to request a mail ballot','es':'Último día para pedir boleta por correo'},'sub':{'en':'If yours never arrived, ask the county Registrar by today.','es':'Si la tuya no llegó, pídela al Registro del condado hoy.'}},
  {'id':'eday','date':'2026-11-03','title':{'en':'Election Day','es':'Día de la elección'},'sub':{'en':'Polls open 7 a.m. to 8 p.m. Mail ballots must be postmarked today, or dropped in a box by 8 p.m.','es':'Las urnas abren de 7 a.m. a 8 p.m. Las boletas por correo deben tener matasellos de hoy o ir al buzón antes de las 8 p.m.'}},
  {'id':'recv','date':'2026-11-10','title':{'en':'Mailed ballots must arrive','es':'Deben llegar las boletas por correo'},'sub':{'en':'A ballot postmarked by Nov 3 counts if the county receives it by today.','es':'Una boleta con matasellos del 3 de nov cuenta si el condado la recibe hoy.'}},
@@ -127,6 +127,10 @@ for f in sorted(glob.glob(os.path.join(DATA_IN, 'measures_*.json'))):
             if not m.get('number'): continue
             plain = m.get('plain') or []
             ms.append({'number': m['number'], 'title': m.get('title',''), 'ballot_label': m.get('ballot_label',''), 'plain': (plain[:3] if isinstance(plain, list) else (plain if isinstance(plain, dict) else [str(plain)])), 'yes': m.get('yes',''), 'no': m.get('no',''), 'fiscal': m.get('fiscal',''), 'urls': m.get('urls') or ([m['url']] if m.get('url') else [])})
+        for m in ms:
+            mn = CO.MEASURE_NEWS.get(f"{st}:{m['number']}") or {}
+            for k in ('news', 'status_change'):
+                if mn.get(k): m[k] = mn[k]
         if ms: D['measures'][st] = ms; n += len(ms)
         # Keep the researcher's state-level caveats (pending litigation, a source that
         # could only be read secondhand) rather than dropping them at the merge.
@@ -169,8 +173,8 @@ def enrich_from_sos(contest):
     for c in contest['candidates']:
         m = by.get(CO.slug(c['name']))
         if not m: contest.setdefault('gaps', []).append(f"{c['name']} not on the SoS certified list"); continue
-        for k in ('party', 'inc', 'site', 'site_src', 'bio', 'background', 'summary', 'cls', 'positions', 'review', 'sources_reviewed', 'social', 'record'):
-            if m.get(k) is not None and (k in ('party', 'inc', 'positions', 'review', 'sources_reviewed', 'bio', 'background', 'summary', 'cls', 'social', 'record') or not c.get(k)): c[k] = m[k]
+        for k in ('party', 'inc', 'site', 'site_src', 'bio', 'background', 'summary', 'cls', 'positions', 'review', 'sources_reviewed', 'social', 'record', 'news', 'status_change'):
+            if m.get(k) is not None and (k in ('party', 'inc', 'positions', 'review', 'sources_reviewed', 'bio', 'background', 'summary', 'cls', 'social', 'record', 'news', 'status_change') or not c.get(k)): c[k] = m[k]
         if not c['desig'].get('en') and m.get('desig'): c['desig'] = m['desig']
     missing = [c for s_, c in by.items() if s_ not in {CO.slug(x['name']) for x in contest['candidates']}]
     for c in missing: contest.setdefault('gaps', []).append(f"{c['name']} is on the SoS list but not the county list")

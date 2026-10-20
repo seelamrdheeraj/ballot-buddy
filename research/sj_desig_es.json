@@ -1,0 +1,437 @@
+{
+ "source": "San Joaquin County Voter Information Guide, Spanish composite (sj-composite-spa.pdf), sample-ballot pages; extracted 2026-10-20",
+ "designations": {
+  "San Joaquin:us_house:ushouseofrepresentatives:unitedstatesrepresentativecongressionaldistrict5:tommcclintock": {
+   "es": "Representante de los Estados Unidos",
+   "page": 304
+  },
+  "San Joaquin:us_house:ushouseofrepresentatives:unitedstatesrepresentativecongressionaldistrict5:michaelmasuda": {
+   "es": "Funcionario de Asuntos Exteriores",
+   "page": 304
+  },
+  "San Joaquin:us_house:ushouseofrepresentatives:unitedstatesrepresentativecongressionaldistrict7:dorismatsui": {
+   "es": "Representante de los Estados Unidos",
+   "page": 196
+  },
+  "San Joaquin:us_house:ushouseofrepresentatives:unitedstatesrepresentativecongressionaldistrict7:maivang": {
+   "es": "Maestra/Concejala Municipal",
+   "page": 196
+  },
+  "San Joaquin:us_house:ushouseofrepresentatives:unitedstatesrepresentativecongressionaldistrict8:johngaramendi": {
+   "es": "Miembro del Congreso",
+   "page": 192
+  },
+  "San Joaquin:us_house:ushouseofrepresentatives:unitedstatesrepresentativecongressionaldistrict8:rudyrecile": {
+   "es": "Propietario de Negocio/Consultor",
+   "page": 192
+  },
+  "San Joaquin:us_house:ushouseofrepresentatives:unitedstatesrepresentativecongressionaldistrict13:kevinlincoln": {
+   "es": "Propietario de Pequeño Negocio",
+   "page": 16
+  },
+  "San Joaquin:us_house:ushouseofrepresentatives:unitedstatesrepresentativecongressionaldistrict13:adamgray": {
+   "es": "Representante de los Estados Unidos/Educador",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:attorneygeneral:robbonta": {
+   "es": "Procurador General de California",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:attorneygeneral:michaelegates": {
+   "es": "Fiscal Adjunto de los Estados Unidos",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:controller:maliamcohen": {
+   "es": "Contralora del Estado/Madre",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:controller:herbwmorgan": {
+   "es": "Director de Inversiones",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:insurancecommissioner:janekim": {
+   "es": "Abogada/Defensora del Consumidor",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:insurancecommissioner:benallen": {
+   "es": "Senador Estatal de California",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:lieutenantgovernor:gloriaromero": {
+   "es": "Educadora/Empresaria",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:lieutenantgovernor:fionama": {
+   "es": "Tesorera Estatal/Contadora Pública Certificada",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:secretaryofstate:donaldpdonwagner": {
+   "es": "Supervisor del Condado de Orange",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:secretaryofstate:shirleynweber": {
+   "es": "Secretaria de Estado de California",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:superintendentofpublicinstruction:sonjashaw": {
+   "es": "Presidenta de Distrito Escolar",
+   "page": 17
+  },
+  "San Joaquin:statewide:stateofcalifornia:superintendentofpublicinstruction:richardbarrera": {
+   "es": "Asesor del Superintendente Estatal",
+   "page": 17
+  },
+  "San Joaquin:statewide:stateofcalifornia:treasurer:jenniferhawks": {
+   "es": "Ejecutiva de Negocio Jubilada",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:treasurer:elenikounalakis": {
+   "es": "Vicegobernadora de California",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:memberstateboardofequalizationdistrict1:shannongrove": {
+   "es": "Senadora Estatal/Empresaria",
+   "page": 16
+  },
+  "San Joaquin:statewide:stateofcalifornia:memberstateboardofequalizationdistrict1:nelsonesparza": {
+   "es": "Maestro/Economista/Concejal",
+   "page": 16
+  },
+  "San Joaquin:assembly:californiastateassembly:memberofthestateassemblyassemblydistrict9:matthewadams": {
+   "es": "Maestro",
+   "page": 76
+  },
+  "San Joaquin:assembly:californiastateassembly:memberofthestateassemblyassemblydistrict9:heathflora": {
+   "es": "Padre/Agricultor/Asambleísta",
+   "page": 76
+  },
+  "San Joaquin:city:cityofescalon:membercitycouncil:andrewthagan": {
+   "es": "Titular",
+   "page": 305
+  },
+  "San Joaquin:city:cityofescalon:membercitycouncil:malindawalker": {
+   "es": "Titular",
+   "page": 305
+  },
+  "San Joaquin:city:cityofescalon:membercitycouncil:jasonperruquet": {
+   "es": "Padre",
+   "page": 305
+  },
+  "San Joaquin:city:cityofescalon:membercitycouncil:jeremyengle": {
+   "es": "Titular",
+   "page": 305
+  },
+  "San Joaquin:city:cityoflathrop:mayor:paulakinjo": {
+   "es": "Alcalde de la Ciudad de Lathrop",
+   "page": 321
+  },
+  "San Joaquin:city:cityoflathrop:mayor:minniecottondiallo": {
+   "es": "Concejal de la Ciudad de Lathrop",
+   "page": 321
+  },
+  "San Joaquin:city:cityoflathrop:membercitycouncil:shelitajefferson": {
+   "es": "Agente de Bienes Raíces/Madre",
+   "page": 321
+  },
+  "San Joaquin:city:cityoflathrop:membercitycouncil:stevedresser": {
+   "es": "Titular Designado",
+   "page": 321
+  },
+  "San Joaquin:city:cityoflathrop:membercitycouncil:leandrovicua": {
+   "es": "Ejecutivo Bancario/Padre",
+   "page": 321
+  },
+  "San Joaquin:city:cityoflathrop:membercitycouncil:danielmacneilage": {
+   "es": "Superintendente de Construcción",
+   "page": 321
+  },
+  "San Joaquin:city:cityoflodi:membercitycouncildistrict1:dawsonhayre": {
+   "es": "Supervisor de Seguridad",
+   "page": 193
+  },
+  "San Joaquin:city:cityoflodi:membercitycouncildistrict1:michaelcarouba": {
+   "es": "Propietario de Negocio",
+   "page": 193
+  },
+  "San Joaquin:city:cityoflodi:membercitycouncildistrict1:brandonsywassink": {
+   "es": "Agricultor/Propietario de Negocio",
+   "page": 193
+  },
+  "San Joaquin:city:cityoflodi:membercitycouncildistrict2:lisacraighensley": {
+   "es": "Titular",
+   "page": 197
+  },
+  "San Joaquin:city:cityoflodi:membercitycouncildistrict2:jordanduncan": {
+   "es": "Padre/Policial",
+   "page": 197
+  },
+  "San Joaquin:city:cityoflodi:membercitycouncildistrict3:christophersanderson": {
+   "es": "Maestro Jubilado",
+   "page": 209
+  },
+  "San Joaquin:city:cityoflodi:membercitycouncildistrict3:deannebarth": {
+   "es": "Directora de Finanzas",
+   "page": 209
+  },
+  "San Joaquin:city:cityoflodi:membercitycouncildistrict3:cameronbregman": {
+   "es": "Empresario/Concejal de Lodi",
+   "page": 209
+  },
+  "San Joaquin:city:cityofmanteca:mayor:jacobnaven": {
+   "es": "Propietario de Pequeño Negocio",
+   "page": 273
+  },
+  "San Joaquin:city:cityofmanteca:mayor:garysingh": {
+   "es": "Empresario de Manteca/Alcalde",
+   "page": 273
+  },
+  "San Joaquin:city:cityofmanteca:membercitycouncildistrict3:leiannvarlettalarson": {
+   "es": "Ama de Casa",
+   "page": 273
+  },
+  "San Joaquin:city:cityofmanteca:membercitycouncildistrict3:davidbreitenbucher": {
+   "es": "Concejal/Bombero Jubilado",
+   "page": 273
+  },
+  "San Joaquin:city:cityofmanteca:membercitycouncildistrict4:danibettencourt": {
+   "es": "Empresaria/Asesora de Ventas",
+   "page": 281
+  },
+  "San Joaquin:city:cityofmanteca:membercitycouncildistrict4:roggerfgutierrez": {
+   "es": "Padre/Analista de Gestión",
+   "page": 281
+  },
+  "San Joaquin:city:cityofmanteca:membercitycouncildistrict4:mikemorowit": {
+   "es": "Empresario de Manteca/Concejal",
+   "page": 281
+  },
+  "San Joaquin:city:cityofripon:membercitycouncil:michaelrestuccia": {
+   "es": "Titular",
+   "page": 309
+  },
+  "San Joaquin:city:cityofripon:membercitycouncil:franklmadrigal": {
+   "es": "Consultor de Cumplimiento",
+   "page": 309
+  },
+  "San Joaquin:city:cityofripon:membercitycouncil:deanduecker": {
+   "es": "Titular",
+   "page": 309
+  },
+  "San Joaquin:city:cityofstockton:membercitycouncildistrict1:michelepadilla": {
+   "es": "Concejal de Stockton/Educadora",
+   "page": 53
+  },
+  "San Joaquin:city:cityofstockton:membercitycouncildistrict1:tamicasmall": {
+   "es": "Policial Jubilada",
+   "page": 53
+  },
+  "San Joaquin:city:cityofstockton:membercitycouncildistrict3:michaelblower": {
+   "es": "Concejal/Propietario de Negocio",
+   "page": 49
+  },
+  "San Joaquin:city:cityofstockton:membercitycouncildistrict3:jessicatoccoli": {
+   "es": "Educadora",
+   "page": 49
+  },
+  "San Joaquin:city:cityofstockton:membercitycouncildistrict5:desireelynch": {
+   "es": "Enfermera de Recuperación Postoperatoria",
+   "page": 17
+  },
+  "San Joaquin:city:cityofstockton:membercitycouncildistrict5:brandovillapudua": {
+   "es": "Concejal Municipal",
+   "page": 17
+  },
+  "San Joaquin:city:cityoftracy:mayor:uyiosafelixoviawe": {
+   "es": "Director de Mantenimiento/Contratista",
+   "page": 145
+  },
+  "San Joaquin:city:cityoftracy:mayor:danarriola": {
+   "es": "Fiscal Adjunto del Distrito",
+   "page": 145
+  },
+  "San Joaquin:city:cityoftracy:mayor:mateobedolla": {
+   "es": "Maestro/Concejal de Tracy",
+   "page": 145
+  },
+  "San Joaquin:city:cityoftracy:membercitycouncildistrict1:robincole": {
+   "es": "Gerente de Proyectos",
+   "page": 145
+  },
+  "San Joaquin:city:cityoftracy:membercitycouncildistrict1:jasssangha": {
+   "es": "Empresaria/Madre",
+   "page": 145
+  },
+  "San Joaquin:city:cityoftracy:membercitycouncildistrict3:amenialexander": {
+   "es": "Director Financiero de Organización sin Fines de Lucro",
+   "page": 165
+  },
+  "San Joaquin:city:cityoftracy:membercitycouncildistrict3:ametriusvsidney": {
+   "es": "Ejecutivo de Seguridad Pública",
+   "page": 165
+  },
+  "San Joaquin:city:cityoftracy:membercitycouncildistrict3:danevans": {
+   "es": "Miembro del Concejo",
+   "page": 165
+  },
+  "San Joaquin:college:sanjoaquindeltacommunitycollegedistrict:boardmembertrusteearea4:charlesrjennings": {
+   "es": "Fideicomisario del Colegio Delta",
+   "page": 97
+  },
+  "San Joaquin:college:sanjoaquindeltacommunitycollegedistrict:boardmembertrusteearea4:tonyshah": {
+   "es": "Administrador de Escuela Jubilado",
+   "page": 97
+  },
+  "San Joaquin:college:yosemitecommunitycollegedistrict:boardmembertrusteearea1:dondavis": {
+   "es": "Titular",
+   "page": 509
+  },
+  "San Joaquin:college:yosemitecommunitycollegedistrict:boardmembertrusteearea1:williamandrewdunn": {
+   "es": "Consultor Educativo",
+   "page": 509
+  },
+  "San Joaquin:school:jeffersonelementaryschooldistrict:boardmembertrusteearea4:toddwetherell": {
+   "es": "Titular",
+   "page": 185
+  },
+  "San Joaquin:school:jeffersonelementaryschooldistrict:boardmembertrusteearea4:larkinfleckner": {
+   "es": "Analista de Software/Madre",
+   "page": 185
+  },
+  "San Joaquin:school:lindenunifiedschooldistrict:boardmembertrusteearea4:kylebeadles": {
+   "es": "Propietario de Negocio/Padre",
+   "page": 333
+  },
+  "San Joaquin:school:lindenunifiedschooldistrict:boardmembertrusteearea4:jennifertrotter": {
+   "es": "Titular",
+   "page": 333
+  },
+  "San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea3:katherineking": {
+   "es": "Madre",
+   "page": 201
+  },
+  "San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea3:sherryalexander": {
+   "es": "Fideicomisaria de la Junta Escolar",
+   "page": 201
+  },
+  "San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea5:ronheberle": {
+   "es": "Educador de Ciencias",
+   "page": 197
+  },
+  "San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea5:jeffstroh": {
+   "es": "Fideicomisario de la Junta Escolar",
+   "page": 197
+  },
+  "San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea4:rupindersinghjagpal": {
+   "es": "Profesor",
+   "page": 273
+  },
+  "San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea4:veronicasalazar": {
+   "es": "Maestra",
+   "page": 273
+  },
+  "San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea4:mariefreitas": {
+   "es": "Fideicomisaria",
+   "page": 273
+  },
+  "San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea6:barrykeith": {
+   "es": "Maestro Jubilado",
+   "page": 281
+  },
+  "San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea6:stephenjschluer": {
+   "es": "Fideicomisario/Jefe de Policía",
+   "page": 281
+  },
+  "San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea2:aliciahernandez": {
+   "es": "Educadora/Estudiante Universitaria",
+   "page": 29
+  },
+  "San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea2:samcarpenter": {
+   "es": "Propietario de Pequeño Negocio",
+   "page": 29
+  },
+  "San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea2:patrickmartin": {
+   "es": "Titular Designado",
+   "page": 29
+  },
+  "San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea5:donalddonaire": {
+   "es": "Fideicomisario de la Junta Escolar",
+   "page": 25
+  },
+  "San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea5:malinasanchez": {
+   "es": "Estudiante/Maestra de Natación",
+   "page": 25
+  },
+  "San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea6:sofiacoln": {
+   "es": "Fideicomisaria/Profesional de la Salud",
+   "page": 41
+  },
+  "San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea6:christinabaccamcbrian": {
+   "es": "Maestra",
+   "page": 41
+  },
+  "San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea7:davidpadilla": {
+   "es": "Maestro",
+   "page": 49
+  },
+  "San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea7:kennethastevens": {
+   "es": "Fideicomisaria/Educadora de Padres",
+   "page": 49
+  },
+  "San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea4:aliciarcorrales": {
+   "es": "Madre/Consultora Sin Fines de Lucro",
+   "page": 157
+  },
+  "San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea4:olingayarberalexander": {
+   "es": "Titular",
+   "page": 157
+  },
+  "San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea6:devaughnjones": {
+   "es": "Farmacéutico Clínico/Padre",
+   "page": 161
+  },
+  "San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea6:rgfagin": {
+   "es": "Titular",
+   "page": 161
+  },
+  "San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea7:vijaypasapula": {
+   "es": "Padre/Programador Estadístico",
+   "page": 149
+  },
+  "San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea7:barbarabobbieetcheverry": {
+   "es": "Especialista de Comunicaciones",
+   "page": 149
+  },
+  "San Joaquin:special:southsanjoaquinirrigationdistrict:boardmemberdivision2:glennspyksma": {
+   "es": "Director de la Junta de SSJID",
+   "page": 277
+  },
+  "San Joaquin:special:southsanjoaquinirrigationdistrict:boardmemberdivision2:mikesonke": {
+   "es": "Agricultor/Propietario de Negocio",
+   "page": 277
+  },
+  "San Joaquin:special:stocktoneastwaterdistrict:boardmemberdivision2:andrewwatkins": {
+   "es": "Titular",
+   "page": 17
+  },
+  "San Joaquin:special:stocktoneastwaterdistrict:boardmemberdivision2:mattgandolfo": {
+   "es": "Agricultor",
+   "page": 17
+  },
+  "San Joaquin:special:stocktoneastwaterdistrict:boardmemberdivision3shortterm:ryanghansen": {
+   "es": "Titular Designado",
+   "page": 17
+  },
+  "San Joaquin:special:stocktoneastwaterdistrict:boardmemberdivision3shortterm:wayneswatanabe": {
+   "es": "Agricultor",
+   "page": 17
+  },
+  "San Joaquin:special:stocktoneastwaterdistrict:boardmemberdivision7:maryelizabeth": {
+   "es": "Científica/R.E.H.S.",
+   "page": 17
+  },
+  "San Joaquin:special:stocktoneastwaterdistrict:boardmemberdivision7:thomasmcgurk": {
+   "es": "Agricultor",
+   "page": 17
+  }
+ }
+}

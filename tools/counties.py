@@ -19,8 +19,18 @@ def load_json(rel):
 
 def slug(s): return re.sub(r'[^a-z0-9]', '', (s or '').lower())
 SITE_STATUS = {}
+DESIG_ES = {}   # research/sj_desig_es.json: official Spanish ballot designations by candidate id (county Spanish guide)
+MEASURE_NEWS = {}   # research/measure_news.json: {'<County or state>:<measure letter/number>': {'news': [...], 'status_change': ...}}
 try:
     SITE_STATUS = json.load(open(os.path.join(RES, 'site_status.json'), encoding='utf-8'))
+except Exception: pass
+try:
+    if os.path.exists(os.path.join(RES, 'sj_desig_es.json')):
+        DESIG_ES = json.load(open(os.path.join(RES, 'sj_desig_es.json'), encoding='utf-8')).get('designations') or {}
+except Exception: pass
+try:
+    if os.path.exists(os.path.join(RES, 'measure_news.json')):
+        MEASURE_NEWS = json.load(open(os.path.join(RES, 'measure_news.json'), encoding='utf-8'))
 except Exception: pass
 
 SMALL = {'de', 'la', 'del', 'van', 'von', 'der', 'y', 'e'}
@@ -128,6 +138,11 @@ ES_JURIS = [(r'^City of (.+)$', r'Ciudad de \1'), (r'^County of (.+)$', r'Condad
             (r'(?i)^(.+?) municipal utility district( \(EBMUD\))?$', r'Distrito Municipal de Servicios \1'), (r'(?i)^AC Transit District$', 'Distrito AC Transit'),
             (r'(?i)^California State Assembly$', 'Asamblea Estatal de California'), (r'(?i)^California State Senate$', 'Senado Estatal de California'),
             (r'(?i)^(United States|U\.S\.) House of Representatives$', 'Cámara de Representantes de EE. UU.'), (r'(?i)^State of California$', 'Estado de California')]
+def clean_url(u):
+    """County extractions sometimes annotate a source ("<url> (p.7)", "<url> ; <url2>", "<url> and <url2>"). A link must be a bare URL: keep the first one."""
+    if not isinstance(u, str): return u
+    m = re.search(r'https?://\S+', u)   # URLs may contain parentheses (sjgov prints "candidate-roster-(35).pdf"); only whitespace ends one
+    return m.group(0).rstrip('.,;') if m else u.strip()
 def es_of(text, rules):
     t = text or ''
     for rx, rep in rules:
@@ -143,6 +158,7 @@ def norm_candidate(c, cid_prefix, src, curated=None):
     out = {'id': cid, 'name': name, 'party': party if party else 'nonp',
            'desig': {'en': c.get('ballot_designation') or '', 'es': c.get('ballot_designation_es') or c.get('ballot_designation') or ''},
            'src': c.get('src') or src, 'review': 'unreviewed'}
+    if DESIG_ES.get(cid) and DESIG_ES[cid].get('es'): out['desig']['es'] = DESIG_ES[cid]['es']   # the county's printed Spanish designation beats the English fallback
     if c.get('incumbent'): out['inc'] = 'Incumbent'
     if c.get('website'):
         w = c['website'].strip()
@@ -164,10 +180,12 @@ def norm_candidate(c, cid_prefix, src, curated=None):
         if cur.get('positions'): out['positions'] = cur['positions']
         if cur.get('record'): out['record'] = cur['record']
         if cur.get('review'): out['review'] = cur['review']
-        if cur.get('sources_reviewed'): out['sources_reviewed'] = cur['sources_reviewed']
+        if cur.get('sources_reviewed'): out['sources_reviewed'] = [dict(x, url=clean_url(x.get('url'))) if isinstance(x, dict) else clean_url(x) for x in cur['sources_reviewed']]
         if cur.get('social'): out['social'] = cur['social']
         if cur.get('site_note'): out['site_note'] = cur['site_note']
         if cur.get('src'): out['src'] = cur['src']
+        for k in ('news', 'status_change'):   # dated, sourced developments since the profile was written (see research/news pipeline)
+            if cur.get(k): out[k] = cur[k]
     return out
 
 SCHOOL_CITY = {'City of Oakland': 'Oakland Unified School District', 'City of Berkeley': 'Berkeley Unified School District', 'City of Albany': 'Albany Unified School District'}
@@ -219,8 +237,12 @@ def norm_contest(c, county_key, src, curated):
     return out
 
 def norm_measure(m, county_key, src):
-    return {'id': m.get('letter') or '', 'juris': bi(m.get('jurisdiction'), ES_JURIS), 'type': m.get('jurisdiction_type') or 'special',
-            'title': m.get('title') or '', 'question': m.get('question') or '', 'threshold': m.get('threshold') or '', 'src': m.get('src') or src}
+    out = {'id': m.get('letter') or '', 'juris': bi(m.get('jurisdiction'), ES_JURIS), 'type': m.get('jurisdiction_type') or 'special',
+           'title': m.get('title') or '', 'question': m.get('question') or '', 'threshold': m.get('threshold') or '', 'src': clean_url(m.get('src') or src)}
+    mn = MEASURE_NEWS.get(f"{county_key}:{out['id']}") or {}
+    for k in ('news', 'status_change'):
+        if mn.get(k): out[k] = mn[k]
+    return out
 
 DATE_TITLES = {
  'mail': {'en': 'Mail ballots go out', 'es': 'Se envían las boletas por correo'},
@@ -244,8 +266,8 @@ def load_county(rel, county_key, curated):
     reg = j.get('registrar') or {}
     county = {'name': j.get('county') or county_key, 'fips': j.get('fips'), 'state': 'CA',
               'election': j.get('election') or {'date': '2026-11-03', 'name': 'November 3, 2026 General Election'},
-              'registrar': {'name': reg.get('name') or '', 'url': reg.get('url') or '', 'phone': reg.get('phone') or '', 'address': reg.get('address') or ''},
-              'vca': (str(reg.get('vca')).lower() == 'true') if reg.get('vca') is not None else None, 'vca_src': reg.get('vca_src') or '',
+              'registrar': {'name': reg.get('name') or '', 'url': clean_url(reg.get('url') or ''), 'phone': reg.get('phone') or '', 'address': reg.get('address') or ''},
+              'vca': (str(reg.get('vca')).lower() == 'true') if reg.get('vca') is not None else None, 'vca_src': clean_url(reg.get('vca_src') or ''),
               'dates': [], 'official': [], 'lookup': [], 'sources': j.get('sources') or [], 'gaps': j.get('gaps') or []}
     VOTER_DATES = {'mail', 'reg', 'sameday', 'req', 'early', 'vc11', 'vc4', 'eday', 'recv'}
     for d in (j.get('dates') or []):
@@ -255,7 +277,7 @@ def load_county(rel, county_key, curated):
         if did not in VOTER_DATES and did != 'drop': continue   # canvass, nomination period, testing: administrative, not voter deadlines
         county['dates'].append({'id': did if did != 'other' else 'x' + slug(d.get('label'))[:12], 'date': d['date'],
                                 'title': {'en': d.get('label') or DATE_TITLES.get(did, {}).get('en', ''), 'es': d.get('label_es') or DATE_TITLES.get(did, {}).get('es', d.get('label') or '')},
-                                'sub': {'en': d.get('detail') or '', 'es': d.get('detail_es') or d.get('detail') or ''}, 'src': d.get('src') or ''})
+                                'sub': {'en': d.get('detail') or '', 'es': d.get('detail_es') or d.get('detail') or ''}, 'src': clean_url(d.get('src') or '')})
     SKIP_LINK = re.compile(r'precinct association|camera|media tool kit|drive up|write-in|statements? of vote|campaign finance|logic|canvass|facsimile|election results', re.I)
     for l in (j.get('official_links') or []):
         if l.get('url') and not SKIP_LINK.search(l.get('name') or ''): county['official'].append({'name': {'en': l.get('name') or '', 'es': l.get('name_es') or l.get('name') or ''}, 'url': l['url'], 'what': l.get('what') or ''})
@@ -279,7 +301,7 @@ def load_county(rel, county_key, curated):
             ids = [str(i) for i in (b.get('contest_ids') or []) if str(i) in known]
             ms = [str(m) for m in (b.get('measures') or b.get('measure_letters') or [])]
             if ids: styles.append({'c': ids, 'm': ms, 'a': b.get('areas') or []})
-        county['styles'] = styles; county['styles_src'] = bs.get('src') or ''
+        county['styles'] = styles; county['styles_src'] = clean_url(bs.get('src') or '')
     measures = [norm_measure(m, county_key, src) for m in (j.get('measures') or []) if m.get('letter') or m.get('title')]
     return county, contests, measures
 

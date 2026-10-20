@@ -66,7 +66,7 @@
   },
   {
    "title": "Abbreviated November 3, 2026 General Election Calendar",
-   "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/abbreviated-november-3-2026-general-election-calendar-(1).pdf?sfvrsn=40294f1a_6",
+   "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/upcoming-election-documents/nov-26-abbreviated-election-calendar.pdf?sfvrsn=9fa6462_6",
    "fetched": "2026-10-08",
    "status": "ok",
    "local_file": "raw/abbreviated-calendar.pdf"
@@ -244,7 +244,7 @@
   },
   {
    "title": "ROV home \"Sample Ballot\" quick link",
-   "url": "https://www.sjgov.org/department/rov/voting/sample-ballot-options",
+   "url": "https://www.sjgov.org/department/rov/election-information/current_election",
    "fetched": "2026-10-08",
    "status": "not_found",
    "local_file": "raw/page_voting_sample-ballot-options.html",
@@ -307,7 +307,7 @@
    "date": "2026-09-24",
    "label": "County Voter Information Guides begin mailing",
    "detail": "ROV begins mailing the County Voter Information Guide (E-40).",
-   "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/abbreviated-november-3-2026-general-election-calendar-(1).pdf?sfvrsn=40294f1a_6",
+   "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/upcoming-election-documents/nov-26-abbreviated-election-calendar.pdf?sfvrsn=9fa6462_6",
    "label_es": "Comienza el envío por correo de las Guías de Información para el Votante del condado",
    "detail_es": "El Registro de Votantes (ROV) comienza a enviar por correo la Guía de Información para el Votante del condado (E-40)."
   },
@@ -333,17 +333,17 @@
    "id": "other",
    "date": "2026-10-05",
    "label": "Official ballot drop boxes available",
-   "detail": "27 official drop boxes, Oct 5 through Nov 3, 8:00 p.m. per the County VIG and ROV calendar; NOTE the ROV drop-box web page says \"starting October 2, 2026\". Many boxes are 24 hours; others have limited hours. On Election Day all boxes are open 7 a.m.-8 p.m. and are locked at 8 p.m.",
+   "detail": "27 official drop boxes, open through Nov 3 at 8:00 p.m. (the county guide lists Oct 5 as the first day; the ROV drop-box page says Oct 2). Many boxes are 24 hours; others have limited hours. On Election Day all boxes are open 7 a.m.-8 p.m. and are locked at 8 p.m.",
    "src": "https://www.sjgov.org/department/rov/election-information/current_election/ballot-drop-box-locations",
    "label_es": "Buzones oficiales para boletas disponibles",
-   "detail_es": "27 buzones oficiales, del 5 de oct. al 3 de nov., 8:00 p.m., según la Guía de Información para el Votante del condado y el calendario del Registro de Votantes (ROV); NOTA: la página web de buzones del ROV dice \"a partir del 2 de octubre de 2026\". Muchos buzones están abiertos las 24 horas; otros tienen horario limitado. El Día de la Elección todos los buzones están abiertos de 7 a.m. a 8 p.m. y se cierran con llave a las 8 p.m."
+   "detail_es": "27 buzones oficiales, abiertos hasta el 3 de nov. a las 8:00 p.m. (la guía del condado indica el 5 de oct. como primer día; la página de buzones del ROV dice el 2 de oct.). Muchos buzones están abiertos las 24 horas; otros tienen horario limitado. El Día de la Elección todos los buzones están abiertos de 7 a.m. a 8 p.m. y se cierran con llave a las 8 p.m."
   },
   {
    "id": "reg",
    "date": "2026-10-19",
    "label": "Last day to register to vote (15 days before)",
    "detail": "Postmarks, DMV submissions and ROV delivery/drop-off acceptable. Online at registertovote.ca.gov.",
-   "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/abbreviated-november-3-2026-general-election-calendar-(1).pdf?sfvrsn=40294f1a_6",
+   "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/upcoming-election-documents/nov-26-abbreviated-election-calendar.pdf?sfvrsn=9fa6462_6",
    "label_es": "Último día para registrarse para votar (15 días antes)",
    "detail_es": "Se aceptan sellos postales, envíos a través del DMV y entrega o depósito en el Registro de Votantes (ROV). En línea en registertovote.ca.gov."
   },
@@ -361,7 +361,7 @@
    "date": "2026-10-20",
    "label": "Last day to file as a write-in candidate",
    "detail": "Write-in candidacy papers due; SOS certifies list of nonpartisan write-in candidates Oct 23.",
-   "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/abbreviated-november-3-2026-general-election-calendar-(1).pdf?sfvrsn=40294f1a_6",
+   "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/upcoming-election-documents/nov-26-abbreviated-election-calendar.pdf?sfvrsn=9fa6462_6",
    "label_es": "Último día para presentarse como candidato por escrito (write-in)",
    "detail_es": "Vencen los documentos de candidatura por escrito; la Secretaría de Estado (SOS) certifica la lista de candidatos por escrito no partidistas el 23 de oct."
   },
@@ -397,7 +397,7 @@
    "date": "2026-11-04",
    "label": "Official canvass begins",
    "detail": "8:00 a.m. at ROV; ballot cure period begins (voters notified of signature problems; cure statement due by 5 p.m. two days before certification).",
-   "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/abbreviated-november-3-2026-general-election-calendar-(1).pdf?sfvrsn=40294f1a_6",
+   "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/upcoming-election-documents/nov-26-abbreviated-election-calendar.pdf?sfvrsn=9fa6462_6",
    "label_es": "Comienza el escrutinio oficial",
    "detail_es": "8:00 a.m. en el Registro de Votantes (ROV); comienza el período para subsanar boletas (se notifica a los votantes sobre problemas con la firma; la declaración de subsanación debe presentarse a más tardar a las 5 p.m., dos días antes de la certificación)."
   },
@@ -406,7 +406,7 @@
    "date": "2026-12-03",
    "label": "Certification deadline",
    "detail": "ROV must certify results by Dec 3, 2026 (E+30); results posted at www.sjcrov.org.",
-   "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/abbreviated-november-3-2026-general-election-calendar-(1).pdf?sfvrsn=40294f1a_6",
+   "src": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/upcoming-election-documents/nov-26-abbreviated-election-calendar.pdf?sfvrsn=9fa6462_6",
    "label_es": "Fecha límite de certificación",
    "detail_es": "El Registro de Votantes (ROV) debe certificar los resultados a más tardar el 3 de dic. de 2026 (E+30); los resultados se publican en www.sjcrov.org."
   }
@@ -454,7 +454,7 @@
   },
   {
    "name": "Abbreviated Election Calendar",
-   "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/candidate-services/abbreviated-november-3-2026-general-election-calendar-(1).pdf?sfvrsn=40294f1a_6",
+   "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/upcoming-election-documents/nov-26-abbreviated-election-calendar.pdf?sfvrsn=9fa6462_6",
    "what": "Key dates E-169 through E+97"
   },
   {
@@ -531,6 +531,12 @@
    "name": "Election Results (Statements of Vote Cast)",
    "url": "https://www.sjgov.org/department/rov/results",
    "what": "Results pages (post-election)"
+  },
+  {
+   "name": "Polling places and election officers (list of Oct 9, 2026, PDF)",
+   "name_es": "Lugares de votación y funcionarios electorales (lista del 9 de oct. de 2026, PDF)",
+   "url": "https://www.sjgov.org/docs/default-source/registrar-of-voters-documents/elections/gubernatorial-general-election-2026/current-election/podr014_publication-10-9-2026.pdf?sfvrsn=a5ecfa46_3",
+   "what": "Where to vote on Election Day"
   }
  ],
  "lookup_tools": [

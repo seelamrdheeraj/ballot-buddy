@@ -643,5 +643,25 @@
   "status": 200,
   "checked": "2026-10-08",
   "err": ""
+ },
+ "https://renu2renew.us": {
+  "status": 0,
+  "checked": "2026-10-20",
+  "err": "DNS: could not resolve host"
+ },
+ "https://sandhuforactransit": {
+  "status": 0,
+  "checked": "2026-10-20",
+  "err": "printed without a domain suffix; does not resolve"
+ },
+ "https://www.electdirectorhernandez.com": {
+  "status": 0,
+  "checked": "2026-10-20",
+  "err": "DNS: could not resolve host"
+ },
+ "https://voteleosheridan.com": {
+  "status": 0,
+  "checked": "2026-10-20",
+  "err": "HTTP 503 on three tries; only a hosting placeholder"
  }
 }

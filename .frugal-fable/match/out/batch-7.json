@@ -1,0 +1,391 @@
+{
+ "contests": [
+  {
+   "contest": "## alameda/school | office=Board of Education Member | id=Alameda:school:albanyunifiedschooldistrict:boardofeducationmember | status=contested",
+   "questions": [
+    {
+     "id": "local-school-taxes",
+     "topic": "education",
+     "q": {
+      "en": "The school district should ask local voters to approve parcel taxes or bonds for school funding.",
+      "es": "El distrito escolar debería pedir a los votantes locales que aprueben impuestos o bonos para las escuelas."
+     },
+     "tradeoff": {
+      "en": "Property owners would pay more each year in local taxes.",
+      "es": "Los dueños de propiedades pagarían más impuestos locales cada año."
+     },
+     "sides": {
+      "beckyhopwood": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Helped lead successful parcel tax and bond measure campaigns to provide critical funding for Albany students"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member | id=Alameda:city:cityofpiedmont:citycouncilmember | status=contested",
+   "questions": [
+    {
+     "id": "home-electrification",
+     "topic": "energy",
+     "q": {
+      "en": "The city should push homes and buildings to switch to all-electric power to cut carbon.",
+      "es": "La ciudad debería impulsar que casas y edificios usen solo energía eléctrica para reducir el carbono."
+     },
+     "tradeoff": {
+      "en": "Switching can mean high upfront costs for owners.",
+      "es": "El cambio puede tener altos costos iniciales para los dueños."
+     },
+     "sides": {
+      "adamhundt": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Supports affordable home and building electrification to reduce costs, carbon footprint, and increase home values"
+      }
+     }
+    },
+    {
+     "id": "swim-lessons-schools",
+     "topic": "education",
+     "q": {
+      "en": "Swimming lessons should be taught in all schools.",
+      "es": "Todas las escuelas deberían enseñar clases de natación."
+     },
+     "tradeoff": {
+      "en": "Pools, staff and class time cost money that could go elsewhere.",
+      "es": "Las piscinas, el personal y el tiempo de clase cuestan dinero."
+     },
+     "sides": {
+      "sunnybostromfleming": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Lifetime advocate for swimming education in all schools"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member | id=Alameda:city:cityofemeryville:citycouncilmember | status=contested",
+   "questions": [
+    {
+     "id": "flock-cameras",
+     "topic": "safety",
+     "q": {
+      "en": "The city should keep using license plate reader cameras, like Flock, to help police.",
+      "es": "La ciudad debería seguir usando cámaras lectoras de placas, como Flock, para ayudar a la policía."
+     },
+     "tradeoff": {
+      "en": "Data on where people drive could be shared with other agencies, like ICE.",
+      "es": "Los datos de por dónde maneja la gente podrían compartirse con otras agencias, como ICE."
+     },
+     "sides": {
+      "corryfrydlewicz": {
+       "side": -1,
+       "idx": 0,
+       "quote": "Opposes Flock camera surveillance that the city approved in 2023"
+      }
+     }
+    },
+    {
+     "id": "corporate-campaign-money",
+     "topic": "elections",
+     "q": {
+      "en": "City council candidates should refuse campaign money from corporations.",
+      "es": "Los candidatos al concejo municipal deberían rechazar dinero de campaña de corporaciones."
+     },
+     "tradeoff": {
+      "en": "Candidates may have less money to reach voters.",
+      "es": "Los candidatos podrían tener menos dinero para llegar a los votantes."
+     },
+     "sides": {
+      "corryfrydlewicz": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Opposes corporate money in politics"
+      }
+     }
+    },
+    {
+     "id": "bike-walk-streets",
+     "topic": "streets",
+     "q": {
+      "en": "The city should build more bike lanes and walkways, even if it takes space from cars.",
+      "es": "La ciudad debería construir más ciclovías y aceras, aunque quite espacio a los autos."
+     },
+     "tradeoff": {
+      "en": "Drivers could lose lanes or parking.",
+      "es": "Los conductores podrían perder carriles o estacionamiento."
+     },
+     "sides": {
+      "davidmourra": {
+       "side": 1,
+       "idx": 1,
+       "quote": "expanded bike and pedestrian infrastructure"
+      },
+      "brandonsoublet": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Supports building walkable and bike-friendly streets"
+      }
+     }
+    },
+    {
+     "id": "electric-city-fleet",
+     "topic": "environment",
+     "q": {
+      "en": "The city should replace its gas-powered vehicles with electric ones.",
+      "es": "La ciudad debería reemplazar sus vehículos de gasolina por vehículos eléctricos."
+     },
+     "tradeoff": {
+      "en": "Electric vehicles and chargers can cost more up front.",
+      "es": "Los vehículos eléctricos y los cargadores pueden costar más al inicio."
+     },
+     "sides": {
+      "davidmourra": {
+       "side": 1,
+       "idx": 2,
+       "quote": "electrifying the municipal vehicle fleet"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## house/CA07 | office= | id=None | status=",
+   "questions": [
+    {
+     "id": "medicare-for-all",
+     "topic": "health",
+     "q": {
+      "en": "The U.S. should create one government health plan for everyone, called Medicare for All.",
+      "es": "EE. UU. debería crear un solo plan de salud del gobierno para todos, llamado Medicare para Todos."
+     },
+     "tradeoff": {
+      "en": "It would mean higher taxes and the end of most private insurance.",
+      "es": "Implicaría impuestos más altos y el fin de la mayoría de los seguros privados."
+     },
+     "sides": {
+      "maivang": {
+       "side": 1,
+       "idx": 3,
+       "quote": "Supports Medicare for All"
+      }
+     }
+    },
+    {
+     "id": "no-corporate-money",
+     "topic": "elections",
+     "q": {
+      "en": "Candidates for Congress should refuse campaign money from corporations.",
+      "es": "Los candidatos al Congreso deberían rechazar dinero de campaña de corporaciones."
+     },
+     "tradeoff": {
+      "en": "Candidates may have less money to reach voters.",
+      "es": "Los candidatos podrían tener menos dinero para llegar a los votantes."
+     },
+     "sides": {
+      "maivang": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Says she takes no money from corporations."
+      }
+     }
+    },
+    {
+     "id": "levee-dam-funding",
+     "topic": "water",
+     "q": {
+      "en": "More federal money should go to strengthening levees and upgrading Folsom Dam.",
+      "es": "Más dinero federal debería destinarse a reforzar diques y modernizar la presa Folsom."
+     },
+     "tradeoff": {
+      "en": "That money would not be available for other federal programs.",
+      "es": "Ese dinero no estaría disponible para otros programas federales."
+     },
+     "sides": {
+      "dorismatsui": {
+       "side": 1,
+       "idx": 4,
+       "quote": "secured over $3 billion to strengthen levees and modernize Folsom Dam"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, Council #4 | id=Alameda:city:cityofunioncity:citycouncilmembercouncil4 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityofsanleandro:citycouncilmembercouncil3 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:dublinunifiedschooldistrict:schoolboardmemberarea5 | status=contested",
+   "questions": [
+    {
+     "id": "end-deficit-spending",
+     "topic": "budget",
+     "q": {
+      "en": "The school district should stop spending more each year than it takes in.",
+      "es": "El distrito escolar debería dejar de gastar cada año más de lo que recibe."
+     },
+     "tradeoff": {
+      "en": "Balancing the budget could mean cuts to staff or programs.",
+      "es": "Equilibrar el presupuesto podría implicar recortes de personal o programas."
+     },
+     "sides": {
+      "dancherrier": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Expresses concern about deficit spending"
+      }
+     }
+    },
+    {
+     "id": "emerald-student-parking",
+     "topic": "education",
+     "q": {
+      "en": "Emerald High School should have enough parking for every student who drives.",
+      "es": "La escuela Emerald High debería tener estacionamiento suficiente para todos los estudiantes que manejan."
+     },
+     "tradeoff": {
+      "en": "Land and money for parking can't be used for classrooms or fields.",
+      "es": "El terreno y el dinero del estacionamiento no se usarían en aulas o campos."
+     },
+     "sides": {
+      "dancherrier": {
+       "side": 1,
+       "idx": 3,
+       "quote": "Advocates for adequate student parking at Emerald High School"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## house/CA09 | office= | id=None | status=",
+   "questions": [
+    {
+     "id": "repeal-gas-tax",
+     "topic": "taxes",
+     "q": {
+      "en": "Gas taxes should be repealed.",
+      "es": "Los impuestos a la gasolina deberían eliminarse."
+     },
+     "tradeoff": {
+      "en": "There would be less money to repair roads and highways.",
+      "es": "Habría menos dinero para reparar calles y carreteras."
+     },
+     "sides": {
+      "joshharder": {
+       "side": 1,
+       "idx": 0,
+       "quote": "repeal gas taxes"
+      }
+     }
+    },
+    {
+     "id": "no-tax-social-security",
+     "topic": "taxes",
+     "q": {
+      "en": "Social Security benefits should not be taxed as income.",
+      "es": "Los beneficios del Seguro Social no deberían pagar impuestos sobre la renta."
+     },
+     "tradeoff": {
+      "en": "Less money would flow into Social Security and Medicare funds.",
+      "es": "Entraría menos dinero a los fondos del Seguro Social y Medicare."
+     },
+     "sides": {
+      "johnmcbride": {
+       "side": 1,
+       "idx": 0,
+       "quote": "no tax on Social Security"
+      }
+     }
+    },
+    {
+     "id": "insulin-price-cap",
+     "topic": "health",
+     "q": {
+      "en": "The price people pay for insulin should be capped at $35 a month.",
+      "es": "El precio que la gente paga por la insulina debería limitarse a $35 al mes."
+     },
+     "tradeoff": {
+      "en": "Insurers or taxpayers may pay more, which could raise premiums.",
+      "es": "Las aseguradoras o los contribuyentes pagarían más, y las primas podrían subir."
+     },
+     "sides": {
+      "joshharder": {
+       "side": 1,
+       "idx": 1,
+       "quote": "A $35 monthly cap on insulin"
+      }
+     }
+    },
+    {
+     "id": "small-farm-rules",
+     "topic": "agriculture",
+     "q": {
+      "en": "Small farms should face fewer government regulations.",
+      "es": "Las granjas pequeñas deberían tener menos regulaciones del gobierno."
+     },
+     "tradeoff": {
+      "en": "Fewer rules could mean weaker protections for water, workers or food safety.",
+      "es": "Menos reglas podrían debilitar la protección del agua, los trabajadores o los alimentos."
+     },
+     "sides": {
+      "johnmcbride": {
+       "side": 1,
+       "idx": 2,
+       "quote": "less regulation on small farms"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 2 | id=Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea2 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/special | office=Director, Area 4 | id=Alameda:special:haywardarearecreationparkdistrict:directorarea4 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 2 (short term) | id=Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea2shortterm | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/special | office=Director, Area 2 | id=Alameda:special:haywardarearecreationparkdistrict:directorarea2 | status=contested",
+   "questions": [
+    {
+     "id": "park-10-minute-walk",
+     "topic": "community",
+     "q": {
+      "en": "Every resident should have a park within a 10-minute walk of home.",
+      "es": "Cada residente debería tener un parque a menos de 10 minutos a pie de su casa."
+     },
+     "tradeoff": {
+      "en": "Buying land and building new parks costs money and takes years.",
+      "es": "Comprar terrenos y construir parques cuesta dinero y toma años."
+     },
+     "sides": {
+      "saralamnin": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Worked to ensure every resident has park access within 10-minute walk"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/transit | office=Director, Ward 5 | id=Alameda:transit:actransitdistrict:directorward5 | status=contested",
+   "questions": []
+  }
+ ]
+}

@@ -1,0 +1,427 @@
+{
+ "contests": [
+  {
+   "contest": "## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityoflodi:membercitycouncildistrict3 | status=contested",
+   "questions": [
+    {
+     "id": "no-new-taxes",
+     "topic": "taxes",
+     "q": {
+      "en": "Lodi should close its budget gap without raising taxes.",
+      "es": "Lodi debería cerrar su déficit presupuestario sin subir impuestos."
+     },
+     "tradeoff": {
+      "en": "The city may need to cut services or wait for growth to bring in money.",
+      "es": "La ciudad podría tener que recortar servicios o esperar ingresos del crecimiento."
+     },
+     "sides": {
+      "christophersanderson": {
+       "side": 1,
+       "idx": 0,
+       "quote": "find new revenue through economic growth, not higher taxes"
+      },
+      "cameronbregman": {
+       "side": 1,
+       "idx": 0,
+       "quote": "no more taxes"
+      }
+     }
+    },
+    {
+     "id": "cannabis-dispensaries",
+     "topic": "economy",
+     "q": {
+      "en": "Lodi should allow cannabis dispensaries to open in the city.",
+      "es": "Lodi debería permitir que abran dispensarios de cannabis en la ciudad."
+     },
+     "tradeoff": {
+      "en": "Some residents may not want cannabis stores in their community.",
+      "es": "Algunos residentes podrían no querer tiendas de cannabis en su comunidad."
+     },
+     "sides": {
+      "cameronbregman": {
+       "side": -1,
+       "idx": 0,
+       "quote": "no cannabis dispensaries in Lodi"
+      }
+     }
+    },
+    {
+     "id": "nonprofit-grants",
+     "topic": "budget",
+     "q": {
+      "en": "The city should give $100,000 a year to local nonprofit groups.",
+      "es": "La ciudad debería dar $100,000 al año a organizaciones locales sin fines de lucro."
+     },
+     "tradeoff": {
+      "en": "That money would not be available for other city services.",
+      "es": "Ese dinero no estaría disponible para otros servicios de la ciudad."
+     },
+     "sides": {
+      "cameronbregman": {
+       "side": -1,
+       "idx": 2,
+       "quote": "was the lone no vote on giving $100,000 a year to non-profits"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/city | office=Member, City Council | id=San Joaquin:city:cityoflathrop:membercitycouncil | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## san-joaquin/city | office=Mayor | id=San Joaquin:city:cityofmanteca:mayor | status=contested",
+   "questions": [
+    {
+     "id": "new-police-station",
+     "topic": "safety",
+     "q": {
+      "en": "Manteca should build a new police station.",
+      "es": "Manteca debería construir una nueva estación de policía."
+     },
+     "tradeoff": {
+      "en": "Building it would cost money that could go to other city needs.",
+      "es": "Construirla costaría dinero que podría usarse en otras necesidades de la ciudad."
+     },
+     "sides": {
+      "garysingh": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Says he will work toward a modern police station."
+      }
+     }
+    },
+    {
+     "id": "aquatic-center",
+     "topic": "community",
+     "q": {
+      "en": "Manteca should build a new public aquatic center.",
+      "es": "Manteca debería construir un nuevo centro acuático público."
+     },
+     "tradeoff": {
+      "en": "A pool center costs money to build and run that could fund other services.",
+      "es": "Un centro acuático cuesta construirlo y operarlo; ese dinero podría ir a otros servicios."
+     },
+     "sides": {
+      "garysingh": {
+       "side": 1,
+       "idx": 4,
+       "quote": "a new community center and an aquatic center among his priorities"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/school | office=Board Member Trustee Area 3 | id=San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea3 | status=contested",
+   "questions": [
+    {
+     "id": "staff-pay",
+     "topic": "education",
+     "q": {
+      "en": "The district should make higher pay for teachers and staff a top budget priority.",
+      "es": "El distrito debería hacer del aumento de sueldo de maestros y personal una prioridad del presupuesto."
+     },
+     "tradeoff": {
+      "en": "Higher pay could leave less money for programs, supplies or other needs.",
+      "es": "Sueldos más altos podrían dejar menos dinero para programas, materiales y más."
+     },
+     "sides": {
+      "katherineking": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Prioritize securing competitive wages and fair contracts for teachers and staff"
+      }
+     }
+    },
+    {
+     "id": "campus-security",
+     "topic": "safety",
+     "q": {
+      "en": "The district should spend more on campus security measures.",
+      "es": "El distrito debería gastar más en medidas de seguridad en las escuelas."
+     },
+     "tradeoff": {
+      "en": "Money spent on security would not be available for classroom needs.",
+      "es": "El dinero gastado en seguridad no estaría disponible para las aulas."
+     },
+     "sides": {
+      "katherineking": {
+       "side": 1,
+       "idx": 3,
+       "quote": "Enhance campus security measures"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/city | office=Member, City Council District 1 | id=San Joaquin:city:cityofstockton:membercitycouncildistrict1 | status=contested",
+   "questions": [
+    {
+     "id": "more-police",
+     "topic": "safety",
+     "q": {
+      "en": "Stockton should hire more police officers.",
+      "es": "Stockton debería contratar más agentes de policía."
+     },
+     "tradeoff": {
+      "en": "More officers would cost money that could fund other city services.",
+      "es": "Más agentes costarían dinero que podría financiar otros servicios de la ciudad."
+     },
+     "sides": {
+      "tamicasmall": {
+       "side": 1,
+       "idx": 0,
+       "quote": "advocate for more police officers"
+      }
+     }
+    },
+    {
+     "id": "clear-encampments",
+     "topic": "homeless",
+     "q": {
+      "en": "Stockton should clear large homeless encampments.",
+      "es": "Stockton debería desalojar los campamentos grandes de personas sin hogar."
+     },
+     "tradeoff": {
+      "en": "People may move to other areas if shelter or services are not ready.",
+      "es": "Las personas podrían mudarse a otras zonas si no hay refugio o servicios listos."
+     },
+     "sides": {
+      "michelepadilla": {
+       "side": 1,
+       "idx": 0,
+       "quote": "her team cleared District 1's largest homeless encampment"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/city | office=Mayor | id=San Joaquin:city:cityoflathrop:mayor | status=contested",
+   "questions": [
+    {
+     "id": "traffic-calming",
+     "topic": "streets",
+     "q": {
+      "en": "Lathrop should spend more on projects that slow traffic and make walking safer.",
+      "es": "Lathrop debería gastar más en proyectos que reduzcan la velocidad del tráfico y hagan más seguro caminar."
+     },
+     "tradeoff": {
+      "en": "Those projects cost money and can make driving trips slower.",
+      "es": "Esos proyectos cuestan dinero y pueden hacer más lentos los viajes en auto."
+     },
+     "sides": {
+      "paulakinjo": {
+       "side": 1,
+       "idx": 1,
+       "quote": "launched Slow Down Lathrop and completed pedestrian safety improvements"
+      }
+     }
+    },
+    {
+     "id": "board-appointments",
+     "topic": "community",
+     "q": {
+      "en": "The mayor's process for picking people for city boards should be changed to be more open.",
+      "es": "El proceso del alcalde para elegir miembros de juntas de la ciudad debería cambiar para ser más abierto."
+     },
+     "tradeoff": {
+      "en": "A longer process could slow down filling open seats.",
+      "es": "Un proceso más largo podría retrasar la ocupación de puestos vacantes."
+     },
+     "sides": {
+      "minniecottondiallo": {
+       "side": 1,
+       "idx": 0,
+       "quote": "reform the mayor's appointment process for boards, commissions and committees"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/school | office=Board Member Trustee Area 5 | id=San Joaquin:school:lammersvilleunifiedschooldistrict:boardmembertrusteearea5 | status=appointed_in_lieu",
+   "questions": [
+    {
+     "id": "expand-gate",
+     "topic": "education",
+     "q": {
+      "en": "The district should expand its GATE program for gifted students.",
+      "es": "El distrito debería ampliar su programa GATE para estudiantes con altas capacidades."
+     },
+     "tradeoff": {
+      "en": "Expanding it would take staff time and money from other programs.",
+      "es": "Ampliarlo requeriría tiempo del personal y dinero de otros programas."
+     },
+     "sides": {
+      "andreagehmlich": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Says the GATE program could be expanded"
+      }
+     }
+    },
+    {
+     "id": "less-screen-time",
+     "topic": "education",
+     "q": {
+      "en": "Young students should spend less class time on screens and more on hands-on learning.",
+      "es": "Los estudiantes pequeños deberían pasar menos tiempo en pantallas y más en aprendizaje práctico."
+     },
+     "tradeoff": {
+      "en": "The district's plan centers on Chromebooks, and changing it may take time.",
+      "es": "El plan del distrito se basa en Chromebooks, y cambiarlo podría tomar tiempo."
+     },
+     "sides": {
+      "andreagehmlich": {
+       "side": 1,
+       "idx": 2,
+       "quote": "wants less screen time and more hands-on learning for young students"
+      }
+     }
+    },
+    {
+     "id": "disability-training",
+     "topic": "education",
+     "q": {
+      "en": "The district should give staff more training on supporting students with disabilities.",
+      "es": "El distrito debería dar al personal más capacitación para apoyar a estudiantes con discapacidades."
+     },
+     "tradeoff": {
+      "en": "Training takes staff time and money away from other uses.",
+      "es": "La capacitación quita tiempo y dinero del personal para otros usos."
+     },
+     "sides": {
+      "andreagehmlich": {
+       "side": 1,
+       "idx": 1,
+       "quote": "she wants more staff and family training in how disability is discussed"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/city | office=Member, City Council District 5 | id=San Joaquin:city:cityofstockton:membercitycouncildistrict5 | status=contested",
+   "questions": [
+    {
+     "id": "measure-a-police",
+     "topic": "safety",
+     "q": {
+      "en": "Stockton's budget should set aside Measure A money for police officers.",
+      "es": "El presupuesto de Stockton debería reservar el dinero de la Medida A para agentes de policía."
+     },
+     "tradeoff": {
+      "en": "Money set aside for police could not be used for other city needs.",
+      "es": "El dinero reservado para la policía no podría usarse en otras necesidades de la ciudad."
+     },
+     "sides": {
+      "desireelynch": {
+       "side": 1,
+       "idx": 0,
+       "quote": "make sure the city budget reflects that commitment to police officers"
+      }
+     }
+    },
+    {
+     "id": "treatment-led-homeless",
+     "topic": "homeless",
+     "q": {
+      "en": "Stockton's homeless programs should be led by addiction and mental health treatment.",
+      "es": "Los programas para personas sin hogar en Stockton deberían basarse en tratar adicciones y salud mental."
+     },
+     "tradeoff": {
+      "en": "People who are not ready for treatment may wait longer for housing.",
+      "es": "Las personas que no estén listas para tratamiento podrían esperar más por vivienda."
+     },
+     "sides": {
+      "desireelynch": {
+       "side": 1,
+       "idx": 1,
+       "quote": "supports a treatment-led recovery approach"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea4 | status=contested",
+   "questions": [
+    {
+     "id": "student-counseling",
+     "topic": "health",
+     "q": {
+      "en": "The district should offer psychological counseling services to students.",
+      "es": "El distrito debería ofrecer servicios de consejería psicológica a los estudiantes."
+     },
+     "tradeoff": {
+      "en": "Paying for counselors could mean less money for other school programs.",
+      "es": "Pagar consejeros podría significar menos dinero para otros programas escolares."
+     },
+     "sides": {
+      "olingayarberalexander": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Supports providing psychological counseling services for students"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/statewide | office=Member, State Board of Equalization, District 1 | id=San Joaquin:statewide:stateofcalifornia:memberstateboardofequalizationdistrict1 | status=contested",
+   "questions": [
+    {
+     "id": "keep-prop-13",
+     "topic": "taxes",
+     "q": {
+      "en": "California should keep Proposition 13's limits on property tax increases.",
+      "es": "California debería mantener los límites de la Proposición 13 a los aumentos del impuesto a la propiedad."
+     },
+     "tradeoff": {
+      "en": "Keeping the limits may mean less property tax money for local services.",
+      "es": "Mantener los límites podría significar menos dinero de impuestos para servicios locales."
+     },
+     "sides": {
+      "shannongrove": {
+       "side": 1,
+       "idx": 0,
+       "quote": "defending Proposition 13"
+      }
+     }
+    },
+    {
+     "id": "close-loopholes",
+     "topic": "taxes",
+     "q": {
+      "en": "The state should close tax loopholes so more money goes to local services.",
+      "es": "El estado debería cerrar vacíos fiscales para que más dinero llegue a servicios locales."
+     },
+     "tradeoff": {
+      "en": "Some people and businesses would pay more in taxes.",
+      "es": "Algunas personas y empresas pagarían más impuestos."
+     },
+     "sides": {
+      "nelsonesparza": {
+       "side": 1,
+       "idx": 0,
+       "quote": "close tax loopholes and crack down on tax evasion"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/college | office=Board Member Trustee Area 4 | id=San Joaquin:college:sanjoaquindeltacommunitycollegedistrict:boardmembertrusteearea4 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## san-joaquin/school | office=Board Member Trustee Area 2 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea2 | status=contested",
+   "questions": []
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+[
+ {
+  "contest": "house/CA13",
+  "id": "river-flows",
+  "slug": "adamgray",
+  "why": "\"water grab\" does not state a position on river flows"
+ },
+ {
+  "contest": "cityofdublin:citycouncilmembercouncil4",
+  "id": "more-housing",
+  "slug": "kashefqaadri",
+  "why": "\"can add housing\" is conditional, not a stance"
+ },
+ {
+  "contest": "assembly/CA16",
+  "id": "repeat-offenders",
+  "slug": "josepharubay",
+  "why": "\"stronger accountability\" is not clearly tougher penalties"
+ },
+ {
+  "contest": "Board of Equalization",
+  "id": "eliminate-boe",
+  "slug": "johnpimentel",
+  "why": "\"considers eliminating\" is not a position"
+ },
+ {
+  "contest": "alamedaunifiedschooldistrict:schoolboardm",
+  "id": "bond-audits",
+  "slug": null,
+  "why": "near-consensus, no real tradeoff"
+ },
+ {
+  "contest": "alamedaunifiedschooldistrict:schoolboardm",
+  "id": "teacher-pay",
+  "slug": "sarahputnam",
+  "why": "\"competitive compensation\" is not a commitment to raise pay"
+ },
+ {
+  "contest": "cityofberkeley:citycouncilmemberdistrict7",
+  "id": "affordable-housing",
+  "slug": "aidanhill",
+  "why": "\"expand permanent affordability\" is not about city money"
+ },
+ {
+  "contest": "cityofoakland:citycouncilmemberdistrict2",
+  "id": "corporate-investors",
+  "slug": "nateadams",
+  "why": "goal statement, not a commitment to limit purchases"
+ },
+ {
+  "contest": "cityofnewark:citycouncilmember",
+  "id": "business-tax",
+  "slug": "noahpatrickgrushkin",
+  "why": "\"without raising taxes\" is not about business taxes"
+ },
+ {
+  "contest": "dublinunifiedschooldistrict:schoolboardmemberarea5",
+  "id": "end-deficit-spending",
+  "slug": "dancherrier",
+  "why": "\"concern\" is not a commitment"
+ },
+ {
+  "contest": "alamedacountywaterdistrict:directorward2",
+  "id": "replace-old-pipes",
+  "slug": "jasonmiguel",
+  "why": "\"supports repairing\" is not a spending priority"
+ },
+ {
+  "contest": "orolomasanitarydistrict:directordist3",
+  "id": "expand-recycling",
+  "slug": "fredsimon",
+  "why": "\"improving\" is not clearly expanding"
+ },
+ {
+  "contest": "citycouncilmembercouncil3",
+  "id": "railroad-crossings",
+  "slug": "cheriscrockerroot",
+  "why": "never says top priority"
+ },
+ {
+  "contest": "cityofoakland:mayor",
+  "id": "speed-cameras",
+  "slug": "mindyruthpechenuk",
+  "why": "never explicitly opposes speed cameras"
+ },
+ {
+  "contest": "cityofberkeley:citycouncilmemberdistrict8",
+  "id": "middle-density",
+  "slug": "marimendonca",
+  "why": "related but different policy"
+ },
+ {
+  "contest": "assembly/CA18",
+  "id": "free-school-meals",
+  "slug": "miabonta",
+  "why": "\"expand\" does not mean universal"
+ },
+ {
+  "contest": "ohlonecommunitycollegedistrict",
+  "id": "plain-language-budget",
+  "slug": null,
+  "why": "near-consensus"
+ },
+ {
+  "contest": "house/CA10",
+  "id": "abortion-access",
+  "slug": "markdesaulnier",
+  "why": "vague priority"
+ },
+ {
+  "contest": "house/CA10",
+  "id": "no-ss-medicare-cuts",
+  "slug": "markdesaulnier",
+  "why": "\"protect\" is a vague priority"
+ },
+ {
+  "contest": "house/CA13",
+  "id": "no-cuts-social-security",
+  "slug": null,
+  "why": "\"protect\" is a vague priority for both candidates"
+ },
+ {
+  "contest": "assembly/CA14",
+  "id": "abortion-access",
+  "slug": "buffywicks",
+  "why": "\"defending reproductive freedom\" is a vague priority"
+ },
+ {
+  "contest": "house/CA07",
+  "id": "levee-dam-funding",
+  "slug": null,
+  "why": "few would disagree; credit for past funding"
+ },
+ {
+  "contest": "cityofmountainhouse:membercitycouncil",
+  "id": "council-political-activity-policy",
+  "slug": null,
+  "why": "policy content unknown to voters; not a policy choice they can judge"
+ },
+ {
+  "contest": "cityofmountainhouse:membercitycouncil",
+  "id": "signals-not-roundabouts",
+  "slug": "arjunjuturu",
+  "why": "\"should be considered\" is conditional"
+ },
+ {
+  "contest": "brandonsywassink",
+  "id": "restore-public-safety-cut",
+  "slug": "michaelcarouba",
+  "why": "vague priority"
+ },
+ {
+  "contest": "katherineking",
+  "id": "campus-security",
+  "slug": "katherineking",
+  "why": "general priority"
+ },
+ {
+  "contest": "andreagehmlich",
+  "id": "expand-gate",
+  "slug": "andreagehmlich",
+  "why": "conditional"
+ },
+ {
+  "contest": "andreagehmlich",
+  "id": "disability-training",
+  "slug": "andreagehmlich",
+  "why": "different policy"
+ },
+ {
+  "contest": "minniecottondiallo",
+  "id": "board-appointments",
+  "slug": null,
+  "why": "\"more open\" is a virtue word with no concrete change"
+ }
+]

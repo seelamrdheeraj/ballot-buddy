@@ -1,0 +1,370 @@
+{
+ "contests": [
+  {
+   "contest": "## san-joaquin/city | office=Member, City Council | id=San Joaquin:city:cityofmountainhouse:membercitycouncil | status=contested",
+   "questions": [
+    {
+     "id": "cfd-special-tax-bonds",
+     "topic": "finance",
+     "q": {
+      "en": "The city should approve special tax bonds to pay for facilities in new improvement areas.",
+      "es": "La ciudad debería aprobar bonos de impuesto especial para pagar instalaciones en nuevas áreas de mejora."
+     },
+     "tradeoff": {
+      "en": "Property owners in those areas repay the bonds through a special tax.",
+      "es": "Los dueños de propiedades en esas áreas pagan los bonos con un impuesto especial."
+     },
+     "sides": {
+      "ronnagreen": {
+       "side": 1,
+       "idx": 5,
+       "quote": "Voted for Resolution 2026-76 authorizing special tax bonds for Improvement Areas 8 and 13"
+      },
+      "bernicekingtingle": {
+       "side": -1,
+       "idx": 4,
+       "quote": "Voted against Resolution 2026-76 authorizing special tax bonds for CFD 2024-1 Improvement Areas 8 and 13"
+      }
+     }
+    },
+    {
+     "id": "council-political-activity-policy",
+     "topic": "elections",
+     "q": {
+      "en": "The council should adopt a written policy on council members' political activities.",
+      "es": "El concejo debería adoptar una política escrita sobre las actividades políticas de sus miembros."
+     },
+     "tradeoff": {
+      "en": "The policy adds new rules on how council members take part in politics.",
+      "es": "La política agrega nuevas reglas sobre cómo los concejales participan en la política."
+     },
+     "sides": {
+      "ronnagreen": {
+       "side": -1,
+       "idx": 4,
+       "quote": "cast the only 'Against' vote on Resolution 2026-72, adding Section 5.16 'Political Activities of Council Members'"
+      },
+      "bernicekingtingle": {
+       "side": 1,
+       "idx": 5,
+       "quote": "Voted for Resolution 2026-72 adding Section 5.16 'Political Activities of Council Members'"
+      }
+     }
+    },
+    {
+     "id": "signals-not-roundabouts",
+     "topic": "roads",
+     "q": {
+      "en": "Grant Line Road should get traffic signals instead of roundabouts.",
+      "es": "Grant Line Road debería tener semáforos en lugar de glorietas."
+     },
+     "tradeoff": {
+      "en": "The council already approved the roundabout project.",
+      "es": "El concejo ya aprobó el proyecto de glorietas."
+     },
+     "sides": {
+      "arjunjuturu": {
+       "side": 1,
+       "idx": 4,
+       "quote": "saying roundabouts would not fix the traffic problem and signals should be considered"
+      }
+     }
+    },
+    {
+     "id": "backup-water-sources",
+     "topic": "water",
+     "q": {
+      "en": "The city should add backup water sources instead of relying on a single supply line.",
+      "es": "La ciudad debería agregar fuentes de agua de respaldo en vez de depender de una sola línea de suministro."
+     },
+     "tradeoff": {
+      "en": "New water sources take money that could go to other projects.",
+      "es": "Nuevas fuentes de agua requieren dinero que podría ir a otros proyectos."
+     },
+     "sides": {
+      "nadershareghi": {
+       "side": 1,
+       "idx": 2,
+       "quote": "secure backup and alternative water sources rather than depend on a single supply line"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/city | office=Member, City Council District 1 | id=San Joaquin:city:cityoflodi:membercitycouncildistrict1 | status=contested",
+   "questions": [
+    {
+     "id": "no-tax-increase",
+     "topic": "taxes",
+     "q": {
+      "en": "Lodi should balance its budget without raising taxes.",
+      "es": "Lodi debería equilibrar su presupuesto sin subir los impuestos."
+     },
+     "tradeoff": {
+      "en": "The city may have to cut services to make the budget work.",
+      "es": "La ciudad podría tener que recortar servicios para equilibrar el presupuesto."
+     },
+     "sides": {
+      "dawsonhayre": {
+       "side": 1,
+       "idx": 2,
+       "quote": "through responsible growth and smart investment, not higher taxes"
+      }
+     }
+    },
+    {
+     "id": "restore-public-safety-cut",
+     "topic": "safety",
+     "q": {
+      "en": "Lodi should undo the nearly $3 million cut to public safety in the city budget.",
+      "es": "Lodi debería revertir el recorte de casi $3 millones a la seguridad pública en el presupuesto."
+     },
+     "tradeoff": {
+      "en": "That money would have to come from other city services.",
+      "es": "Ese dinero tendría que salir de otros servicios de la ciudad."
+     },
+     "sides": {
+      "michaelcarouba": {
+       "side": 1,
+       "idx": 0,
+       "quote": "the city budget cuts almost $3 million from public safety, and he would vote to protect public safety"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/city | office=Member, City Council District 4 | id=San Joaquin:city:cityofmanteca:membercitycouncildistrict4 | status=contested",
+   "questions": [
+    {
+     "id": "police-fire-promised-funds",
+     "topic": "safety",
+     "q": {
+      "en": "Police and Fire should receive all the funds they were promised, even if other budgets shrink.",
+      "es": "La policía y los bomberos deberían recibir todos los fondos prometidos, aunque otros presupuestos se reduzcan."
+     },
+     "tradeoff": {
+      "en": "Other city programs could get less money.",
+      "es": "Otros programas de la ciudad podrían recibir menos dinero."
+     },
+     "sides": {
+      "danibettencourt": {
+       "side": 1,
+       "idx": 2,
+       "quote": "ensure the Police and Fire Departments get the funds they were promised"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/city | office=Member, City Council District 2 | id=San Joaquin:city:cityoflodi:membercitycouncildistrict2 | status=contested",
+   "questions": [
+    {
+     "id": "no-marijuana-dispensaries",
+     "topic": "other",
+     "q": {
+      "en": "Lodi should not allow marijuana dispensaries.",
+      "es": "Lodi no debería permitir dispensarios de marihuana."
+     },
+     "tradeoff": {
+      "en": "The city gives up possible tax money from dispensary sales.",
+      "es": "La ciudad renuncia a posibles ingresos fiscales de las ventas de dispensarios."
+     },
+     "sides": {
+      "jordanduncan": {
+       "side": 1,
+       "idx": 0,
+       "quote": "no marijuana dispensaries"
+      }
+     }
+    },
+    {
+     "id": "enforce-anti-camping",
+     "topic": "homeless",
+     "q": {
+      "en": "Lodi should enforce its anti-camping laws as part of its homelessness plan.",
+      "es": "Lodi debería hacer cumplir sus leyes contra acampar como parte de su plan sobre personas sin hogar."
+     },
+     "tradeoff": {
+      "en": "Enforcement can move people without giving them a place to go.",
+      "es": "Hacer cumplir la ley puede desplazar a personas sin darles un lugar adonde ir."
+     },
+     "sides": {
+      "lisacraighensley": {
+       "side": 1,
+       "idx": 2,
+       "quote": "enforcement of anti-camping laws"
+      }
+     }
+    },
+    {
+     "id": "no-business-license-tax",
+     "topic": "taxes",
+     "q": {
+      "en": "Lodi should not charge a business license tax.",
+      "es": "Lodi no debería cobrar un impuesto de licencia comercial."
+     },
+     "tradeoff": {
+      "en": "The city collects less money for its services.",
+      "es": "La ciudad recauda menos dinero para sus servicios."
+     },
+     "sides": {
+      "lisacraighensley": {
+       "side": 1,
+       "idx": 1,
+       "quote": "she helped repeal the business license tax"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/school | office=Board Member Trustee Area 6 | id=San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea6 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## san-joaquin/school | office=Board Member Trustee Area 5 | id=San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea5 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityofstockton:membercitycouncildistrict3 | status=contested",
+   "questions": [
+    {
+     "id": "campaign-disclosure-rules",
+     "topic": "elections",
+     "q": {
+      "en": "Stockton should adopt stricter campaign disclosure rules for city officials.",
+      "es": "Stockton debería adoptar reglas más estrictas de divulgación de campañas para funcionarios."
+     },
+     "tradeoff": {
+      "en": "More rules add paperwork for candidates and city staff.",
+      "es": "Más reglas agregan trámites para candidatos y personal de la ciudad."
+     },
+     "sides": {
+      "michaelblower": {
+       "side": 1,
+       "idx": 3,
+       "quote": "calls for strict accountability standards, transparency requirements and campaign disclosure rules"
+      }
+     }
+    },
+    {
+     "id": "homeless-enforcement",
+     "topic": "homeless",
+     "q": {
+      "en": "Stockton's homelessness response should include enforcement, not only services.",
+      "es": "La respuesta de Stockton a la falta de vivienda debería incluir el cumplimiento de la ley, no solo servicios."
+     },
+     "tradeoff": {
+      "en": "Enforcement can move people without giving them a place to go.",
+      "es": "Hacer cumplir la ley puede desplazar a personas sin darles un lugar adonde ir."
+     },
+     "sides": {
+      "michaelblower": {
+       "side": 1,
+       "idx": 1,
+       "quote": "addressing homelessness through resources, rehabilitation and enforcement"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/school | office=Board Member Trustee Area 7 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea7 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## san-joaquin/special | office=Board Member Division 2 | id=San Joaquin:special:southsanjoaquinirrigationdistrict:boardmemberdivision2 | status=contested",
+   "questions": [
+    {
+     "id": "acquire-pge-assets",
+     "topic": "energy",
+     "q": {
+      "en": "SSJID should buy PG&E's local electric assets and run the power system itself.",
+      "es": "SSJID debería comprar los bienes eléctricos locales de PG&E y operar el sistema eléctrico."
+     },
+     "tradeoff": {
+      "en": "Buying and running the system could be costly for the district.",
+      "es": "Comprar y operar el sistema podría ser costoso para el distrito."
+     },
+     "sides": {
+      "glennspyksma": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Supports local acquisition of PG&E assets"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:jeffersonelementaryschooldistrict:boardmembertrusteearea4 | status=contested",
+   "questions": [
+    {
+     "id": "reading-intervention",
+     "topic": "education",
+     "q": {
+      "en": "The district should expand reading intervention programs staffed by credentialed teachers.",
+      "es": "El distrito debería ampliar los programas de apoyo en lectura con maestros acreditados."
+     },
+     "tradeoff": {
+      "en": "Money for more staff could come from other programs.",
+      "es": "El dinero para más personal podría salir de otros programas."
+     },
+     "sides": {
+      "larkinfleckner": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Supports expanding reading intervention programs with credentialed staff"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## san-joaquin/school | office=Board Member Trustee Area 5 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea5 | status=contested",
+   "questions": [
+    {
+     "id": "ethnic-studies",
+     "topic": "education",
+     "q": {
+      "en": "The district should expand ethnic studies courses.",
+      "es": "El distrito debería ampliar los cursos de estudios étnicos."
+     },
+     "tradeoff": {
+      "en": "Class time and funds could go to other subjects instead.",
+      "es": "El tiempo de clase y los fondos podrían destinarse a otras materias."
+     },
+     "sides": {
+      "donalddonaire": {
+       "side": 1,
+       "idx": 2,
+       "quote": "ethnic studies advancement"
+      }
+     }
+    },
+    {
+     "id": "restorative-practices",
+     "topic": "education",
+     "q": {
+      "en": "Schools should use restorative practices to handle student discipline.",
+      "es": "Las escuelas deberían usar prácticas restaurativas para manejar la disciplina estudiantil."
+     },
+     "tradeoff": {
+      "en": "Some say it can be less firm than suspensions for serious behavior.",
+      "es": "Algunos dicen que puede ser menos firme que las suspensiones ante conductas graves."
+     },
+     "sides": {
+      "donalddonaire": {
+       "side": 1,
+       "idx": 2,
+       "quote": "restorative practices"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+[
+ {
+  "contest": "Member, City Council",
+  "sig": "arjunjuturu|bernicekingtingle|happygrewal|nadershareghi|ronnagreen|sureshvuyyuru",
+  "id": "signals-not-roundabouts",
+  "slug": "arjunjuturu",
+  "severity": "drop",
+  "reason": "Saying signals 'should be considered' (as a resident at a hearing) is a conditional, not a clear position that signals should replace roundabouts."
+ },
+ {
+  "contest": "Member, City Council",
+  "sig": "arjunjuturu|bernicekingtingle|happygrewal|nadershareghi|ronnagreen|sureshvuyyuru",
+  "id": "signals-not-roundabouts",
+  "slug": null,
+  "severity": "fix",
+  "reason": "The tradeoff only states the project was already approved, which is a status fact rather than a cost or counter-consideration of choosing signals.",
+  "suggest": "TRADEOFF: Changing the design now could delay the project and add costs."
+ },
+ {
+  "contest": "Member, City Council District 1",
+  "sig": "brandonsywassink|dawsonhayre|michaelcarouba",
+  "id": "restore-public-safety-cut",
+  "slug": "michaelcarouba",
+  "severity": "drop",
+  "reason": "'Would vote to protect public safety' is a vague priority and does not clearly commit to reversing the cut."
+ },
+ {
+  "contest": "Member, City Council District 4",
+  "sig": "danibettencourt|mikemorowit|roggerfgutierrez",
+  "id": "police-fire-promised-funds",
+  "slug": null,
+  "severity": "fix",
+  "reason": "'Promised' frames full funding as keeping a commitment, making the 'agree' side sound obligatory.",
+  "suggest": "Police and Fire should receive their full budgeted funding, even if other city budgets shrink."
+ },
+ {
+  "contest": "Board Member Trustee Area 3",
+  "sig": "katherineking|sherryalexander",
+  "id": "campus-security",
+  "slug": "katherineking",
+  "severity": "drop",
+  "reason": "'Enhance campus security measures' is a general priority that does not say the district should spend more."
+ },
+ {
+  "contest": "Board Member Trustee Area 3",
+  "sig": "katherineking|sherryalexander",
+  "id": "staff-pay",
+  "slug": null,
+  "severity": "fix",
+  "reason": "ES drops 'top' (EN: top budget priority) and ends the tradeoff with a vague 'y más'.",
+  "suggest": "El distrito debería hacer del aumento de sueldo de maestros y personal una de las principales prioridades del presupuesto. TRADEOFF: Sueldos más altos podrían dejar menos dinero para programas, materiales u otras necesidades."
+ },
+ {
+  "contest": "Mayor",
+  "sig": "minniecottondiallo|paulakinjo",
+  "id": "board-appointments",
+  "slug": null,
+  "severity": "fix",
+  "reason": "'More open' is a virtue-laden framing that almost everyone would endorse without saying what changes.",
+  "suggest": "The mayor's process for appointing people to city boards should be changed to add public notice and published selection criteria."
+ },
+ {
+  "contest": "Board Member Trustee Area 5",
+  "sig": "andreagehmlich",
+  "id": "expand-gate",
+  "slug": "andreagehmlich",
+  "severity": "drop",
+  "reason": "'GATE program could be expanded' is conditional, not a commitment to expand it."
+ },
+ {
+  "contest": "Board Member Trustee Area 5",
+  "sig": "andreagehmlich",
+  "id": "disability-training",
+  "slug": "andreagehmlich",
+  "severity": "drop",
+  "reason": "Training in 'how disability is discussed' is a related but different policy from training staff to support students with disabilities."
+ },
+ {
+  "contest": "Member, State Board of Equalization, District 1",
+  "sig": "nelsonesparza|shannongrove",
+  "id": "close-loopholes",
+  "slug": null,
+  "severity": "fix",
+  "reason": "'Loopholes' is a pejorative label and nobody defends loopholes, so the question has little real choice.",
+  "suggest": "The state should eliminate certain tax exemptions and deductions in order to raise more money for local services."
+ }
+]

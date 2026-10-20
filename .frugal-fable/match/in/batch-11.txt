@@ -1,0 +1,130 @@
+Each contest starts with '## '. Lines starting with '- ' are candidates: id | name | party | review | counts. Indented '[n] kind/topic: text' lines are that candidate's documented positions; n is the statement index.
+
+## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityoflodi:membercitycouncildistrict3 | status=contested
+- San Joaquin:city:cityoflodi:membercitycouncildistrict3:christophersanderson | Christopher S. Anderson | nonp | review=reviewed | stated=4 other=0
+    [0] stated/budget: Says Lodi has a structural budget deficit and that the city should find new revenue through economic growth, not higher taxes, while protecting public safety and city services.
+    [1] stated/roads: Says he will work to repair roads, reform the permit process, support small businesses and attract employers that create local jobs.
+    [2] stated/homeless: Names homelessness, along with the budget deficit and aging infrastructure, as one of the problems Lodi faces.
+    [3] stated/growth: Lists transparent leadership, responsible budgeting and thoughtful growth that protects community character as his priorities.
+- San Joaquin:city:cityoflodi:membercitycouncildistrict3:deannebarth | Deanne Barth | nonp | review=reviewed | stated=4 other=0
+    [0] stated/budget: Says the city's own forecasts show significant financial challenges over five years, and that responsible financial management and a business-friendly environment are needed to restore roads and parks.
+    [1] stated/safety: Says she will work to strengthen Lodi's financial future, support public safety, maintain aging infrastructure and create opportunities for local businesses to grow.
+    [2] stated/economy: Lists public safety and quality of life, responsible growth, fiscal responsibility, and accountability as key priorities.
+    [3] stated/endorse: Lists endorsements from the Police Officers' Association of Lodi and the Lodi Chamber of Commerce PAC.
+- San Joaquin:city:cityoflodi:membercitycouncildistrict3:cameronbregman | Cameron Bregman | nonp | review=reviewed | stated=3 other=0
+    [0] stated/taxes: Says no more taxes and no cannabis dispensaries in Lodi.
+    [1] stated/roads: Describes his vision as an efficient permit and development department, better roads, more police officers and firefighters, and a declining homeless population.
+    [2] stated/budget: Says that in his mayoral year he passed a budget with no deficit, was the lone no vote on giving $100,000 a year to non-profits, and voted against waste management increases.
+
+## san-joaquin/city | office=Member, City Council | id=San Joaquin:city:cityoflathrop:membercitycouncil | status=contested
+- San Joaquin:city:cityoflathrop:membercitycouncil:shelitajefferson | Shelita Jefferson | nonp | review=reviewed | stated=2 other=0
+    [0] stated/community: Says a strong city invests in its youth, values its seniors, supports local businesses, and creates safe neighborhoods.
+    [1] stated/budget: Says she would bring fiscal responsibility, transparency, collaboration, and servant leadership to the City Council.
+- San Joaquin:city:cityoflathrop:membercitycouncil:stevedresser | Steve Dresser | nonp | review=reviewed | stated=3 other=0
+    [0] stated/growth: Says Lathrop has become one of the most financially secure and fastest-growing cities in the state during his tenure, with commercial development aligning with population growth.
+    [1] stated/safety: Says Lathrop's police and fire services are recognized as innovative and top-tier, and credits deliberate planning and strong leadership.
+    [2] stated/other: Says a vote for him is a vote to maintain the city's current trajectory, citing the principle "If it's not broken, don't fix it."
+- San Joaquin:city:cityoflathrop:membercitycouncil:leandrovicua | Leandro Vicuña | nonp | review=reviewed | stated=2 other=0
+    [0] stated/economy: Lists attracting quality jobs, supporting small businesses, improving public safety, and investing in infrastructure as his priorities.
+    [1] stated/growth: Says Lathrop needs leadership that balances economic development with the needs of neighborhoods and families as the city grows.
+- San Joaquin:city:cityoflathrop:membercitycouncil:danielmacneilage | Daniel MacNeilage | nonp | review=reviewed | stated=2 other=0
+    [0] stated/community: Says he is passionate about enriching the lives of children and protecting seniors, and lists volunteer board and leadership roles with several nonprofits.
+    [1] stated/roads: Says his construction experience includes land urbanization, building, infrastructure, road and utility development, and that he focuses on the community's structural and functional needs.
+
+## san-joaquin/city | office=Mayor | id=San Joaquin:city:cityofmanteca:mayor | status=contested
+- San Joaquin:city:cityofmanteca:mayor:jacobnaven | Jacob Naven | nonp | review=reviewed | stated=4 other=0
+    [0] stated/roads: Says he would rebuild broken infrastructure and repair roads.
+    [1] stated/safety: Says he would fully equip first responders to guarantee public safety.
+    [2] stated/growth: Says he would support smart, responsible growth that helps local families and businesses.
+    [3] stated/budget: Says he would bring honest leadership and strict fiscal responsibility to the city.
+- San Joaquin:city:cityofmanteca:mayor:garysingh | Gary Singh | nonp | review=reviewed | stated=5 other=0
+    [0] stated/safety: Says the city added police officers and firefighters, strengthened emergency services and opened a new fire station. Says he will work toward a modern police station.
+    [1] stated/homeless: Says he will continue to advance compassionate and effective solutions to homelessness.
+    [2] stated/jobs: Lists responsible growth and quality jobs and businesses among his goals.
+    [3] stated/endorse: Lists endorsements from the San Joaquin County District Attorney, the County Superintendent of Schools and the Manteca Police Officers Association.
+    [4] stated/community: Lists a new police station, a new fire station, an expanded animal shelter, a new community center and an aquatic center among his priorities.
+
+## san-joaquin/school | office=Board Member Trustee Area 3 | id=San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea3 | status=contested
+- San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea3:katherineking | Katherine King | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Support improving student literacy and academic achievement with college and career readiness pathways.
+    [1] stated/jobs: Prioritize securing competitive wages and fair contracts for teachers and staff to retain talent and fill vacant positions.
+    [2] stated/budget: Ensure taxpayer dollars are managed responsibly and transparently, directed to areas that matter most.
+    [3] stated/safety: Enhance campus security measures and prioritize mental health resources and student well-being.
+- San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea3:sherryalexander | Sherry Alexander | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Bring over 40 years of education experience to strengthen schools with professionalism, integrity, and collaboration.
+    [1] stated/jobs: Support all district employees as a priority in school leadership.
+    [2] stated/budget: Act as responsible steward of taxpayer dollars in all board decisions.
+    [3] stated/community: Support leadership that values transparency and works to build trust with the community.
+
+## san-joaquin/city | office=Member, City Council District 1 | id=San Joaquin:city:cityofstockton:membercitycouncildistrict1 | status=contested
+- San Joaquin:city:cityofstockton:membercitycouncildistrict1:michelepadilla | Michele Padilla | nonp | review=reviewed | stated=4 other=1
+    [0] stated/homeless: Says her team cleared District 1's largest homeless encampment and launched a citywide Safe Grounds Initiative to keep streets clean and connect unsheltered people to services.
+    [1] stated/safety: Says crime is down but work remains. Supports dedicated police units to protect neighborhoods and says she worked on mailbox theft cases.
+    [2] stated/other: Describes herself as independent leadership that answers to residents, not wealthy donors, and says special interests want to sell Stockton to the highest bidder.
+    [3] stated/endorse: Lists an endorsement from Stockton Professional Firefighters Local 456.
+    [4] record/record: City website lists her as a first-term District 1 councilmember beginning January 2023 and a Stockton Unified School District teacher.
+- San Joaquin:city:cityofstockton:membercitycouncildistrict1:tamicasmall | Tamica Small | nonp | review=reviewed | stated=3 other=1
+    [0] stated/safety: Says she will advocate for more police officers and make public safety the top priority from day one.
+    [1] stated/homeless: Says homelessness continues to grow and that she will implement real solutions to it.
+    [2] stated/community: Says infighting at City Hall has left residents frustrated and unheard, and that she would restore civic pride.
+    [3] reporting/safety: Stocktonia reports she cites her law enforcement record as giving her the experience to address public safety.
+
+## san-joaquin/city | office=Mayor | id=San Joaquin:city:cityoflathrop:mayor | status=contested
+- San Joaquin:city:cityoflathrop:mayor:paulakinjo | Paul Akinjo | nonp | review=reviewed | stated=3 other=0
+    [0] stated/record: Lists accomplishments as mayor, including transit funding, a second high school, wastewater plant expansion, new business investments, and a balanced budget with healthy reserves.
+    [1] stated/safety: Says he launched Slow Down Lathrop and completed pedestrian safety improvements.
+    [2] stated/growth: Lists future priorities: improving infrastructure, expanding local shopping and dining, protecting neighborhoods, and supporting schools.
+- San Joaquin:city:cityoflathrop:mayor:minniecottondiallo | Minnie "Cotton" Diallo | nonp | review=reviewed | stated=2 other=0
+    [0] stated/community: Says she will reform the mayor's appointment process for boards, commissions and committees to be more open, transparent and merit-based.
+    [1] stated/record: Says that during COVID-19 she partnered with community organizations to provide thousands of food and water boxes, and helped secure student bus transportation.
+
+## san-joaquin/school | office=Board Member Trustee Area 5 | id=San Joaquin:school:lammersvilleunifiedschooldistrict:boardmembertrusteearea5 | status=appointed_in_lieu
+- San Joaquin:school:lammersvilleunifiedschooldistrict:boardmembertrusteearea5:andreagehmlich | Andrea Gehmlich | nonp | review=reviewed | stated=5 other=1
+    [0] record/finance: Filed a candidate-intention statement and a Form 470 with the county on July 28, 2026, declaring she expects to raise and spend under $2,000. No committee or contributions were on file as of Oct 8, 2026.
+    [1] stated/education: Says her top priority is accommodations and opportunities for students of every ability level. As a parent of children with 504 plans and IEPs, she wants more staff and family training in how disability is discussed.
+    [2] stated/education: Says the GATE program could be expanded, and wants less screen time and more hands-on learning for young students, while acknowledging the Chromebook focus is part of the district’s vision and that mandated minutes constrain teachers.
+    [3] stated/community: Says she ran because she wanted more influence on the classroom experience than school fundraising allows, and because nobody else filed for Area 5.
+    [4] stated/record: Says she has attended only a handful of board meetings, read the latest agenda, has not followed policy debates closely, and expects a steep learning curve.
+    [5] stated/education: Says decision-makers should spend time in classrooms and listen to teachers. Supports the Sept 16 growth framework as a resourceful use of existing resources.
+
+## san-joaquin/city | office=Member, City Council District 5 | id=San Joaquin:city:cityofstockton:membercitycouncildistrict5 | status=contested
+- San Joaquin:city:cityofstockton:membercitycouncildistrict5:desireelynch | Desiree Lynch | nonp | review=reviewed | stated=3 other=2
+    [0] stated/safety: Says she would implement Measure A as voters intended and make sure the city budget reflects that commitment to police officers.
+    [1] stated/homeless: Says she would reduce homelessness through expanded treatment options and affordable housing, and supports a treatment-led recovery approach.
+    [2] stated/community: Lists transparency and stronger citizen input as priorities.
+    [3] reporting/crime: Stocktonia lists homelessness, crime reduction and accountability as her campaign priorities for District 5.
+    [4] reporting/record: Stocktonia reported in August 2026 that she was booked on suspicion of five felony counts, including perjury, voter registration violations and filing a false declaration of candidacy. A suspicion is not a conviction.
+- San Joaquin:city:cityofstockton:membercitycouncildistrict5:brandovillapudua | Brando Villapudua | nonp | review=reviewed | stated=1 other=2
+    [0] record/record: The city lists him as chair of the Water Committee and the San Joaquin Area Flood Control Agency, and vice chair of two other committees.
+    [1] stated/community: His city page says he is focused on a strong community, jobs and business development, and a safe place to raise a family.
+    [2] reporting/safety: Stocktonia lists his priorities as public safety, local business support, blight and illegal dumping, infrastructure, and responsible use of taxpayer dollars.
+
+## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea4 | status=contested
+- San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea4:aliciarcorrales | Alicia R. Corrales | nonp | review=unreviewed | stated=0 other=0
+- San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea4:olingayarberalexander | Olinga Yarber-Alexander | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Supports improving education quality and addressing low reading scores across grades k-12
+    [1] stated/health: Supports providing psychological counseling services for students
+    [2] stated/safety: Wants to provide students a safe environment and is concerned about gun violence and bullying
+    [3] stated/community: History of volunteer work including youth mentoring, scholarships, and community service
+
+## san-joaquin/statewide | office=Member, State Board of Equalization, District 1 | id=San Joaquin:statewide:stateofcalifornia:memberstateboardofequalizationdistrict1 | status=contested
+- San Joaquin:statewide:stateofcalifornia:memberstateboardofequalizationdistrict1:shannongrove | Shannon Grove | Republican | review=reviewed | stated=1 other=0
+    [0] stated/taxes: Says she wants to act as a taxpayer watchdog on the Board of Equalization and lists protecting homeowners and businesses from overtaxation and defending Proposition 13 as focuses.
+- San Joaquin:statewide:stateofcalifornia:memberstateboardofequalizationdistrict1:nelsonesparza | Nelson Esparza | Democratic | review=reviewed | stated=2 other=0
+    [0] stated/taxes: Says he will work to close tax loopholes and crack down on tax evasion so local governments can fund public safety, infrastructure, education, healthcare and economic development.
+    [1] stated/budget: Says his goal is to protect Californians, their values and tax dollars so the state can invest in people.
+
+## san-joaquin/college | office=Board Member Trustee Area 4 | id=San Joaquin:college:sanjoaquindeltacommunitycollegedistrict:boardmembertrusteearea4 | status=contested
+- San Joaquin:college:sanjoaquindeltacommunitycollegedistrict:boardmembertrusteearea4:charlesrjennings | Charles R. Jennings | nonp | review=unreviewed | stated=0 other=0
+- San Joaquin:college:sanjoaquindeltacommunitycollegedistrict:boardmembertrusteearea4:tonyshah | Tony Shah | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports equitable access to affordable education with meaningful support and clear pathways to goals.
+    [1] stated/economy: Says community colleges are essential to strong economy, vibrant communities, and healthy democracy.
+    [2] stated/education: Reports proven record of improving student achievement while promoting equity and access.
+
+## san-joaquin/school | office=Board Member Trustee Area 2 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea2 | status=contested
+- San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea2:aliciahernandez | Alicia Hernandez | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports safe schools, strong teachers, honest leadership, and college/career preparation
+    [1] stated/education: Says school board should focus on students and classrooms, not adult scandals
+    [2] stated/budget: Says district waste and corruption divert resources that should support students
+- San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea2:samcarpenter | Sam Carpenter | nonp | review=unreviewed | stated=0 other=0
+- San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea2:patrickmartin | Patrick Martin | nonp | review=unreviewed | stated=0 other=0

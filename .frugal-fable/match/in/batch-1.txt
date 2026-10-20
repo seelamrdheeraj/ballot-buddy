@@ -1,0 +1,171 @@
+Each contest starts with '## '. Lines starting with '- ' are candidates: id | name | party | review | counts. Indented '[n] kind/topic: text' lines are that candidate's documented positions; n is the statement index.
+
+## alameda/city | office=Rent Stabilization Board Commissioner | id=Alameda:city:cityofberkeley:rentstabilizationboardcommissioner | status=contested
+- Alameda:city:cityofberkeley:rentstabilizationboardcommissioner:averyarbaugh | Avery Arbaugh | nonp | review=reviewed | stated=3 other=0
+    [0] stated/housing: Says the aim is to hold landlords accountable for poor conditions and make housing more affordable in Berkeley.
+    [1] stated/endorse: Lists endorsements from the East Bay Democratic Socialists of America and the Berkeley Tenants Union.
+    [2] stated/endorse: Slate website describes the group of five candidates as progressive organizers running for tenant protections and affordability.
+- Alameda:city:cityofberkeley:rentstabilizationboardcommissioner:carolemarasovic | Carole Marasovic | nonp | review=reviewed | stated=3 other=0
+    [0] stated/housing: Says she supports rent control and plans to focus on anti-displacement, disability and anti-discrimination issues.
+    [1] stated/community: Says the Rent Board must be client-friendly to tenants and small landlords and offer education and outreach.
+    [2] stated/endorse: Lists an endorsement from State Senator Jesse Arreguin.
+- Alameda:city:cityofberkeley:rentstabilizationboardcommissioner:idamartinac | Ida Martinac | nonp | review=reviewed | stated=4 other=0
+    [0] stated/environment: Says her main goal is making housing more climate resilient, and supports extending energy efficiency and weatherization programs to all housing.
+    [1] stated/housing: Says she has fought to protect and expand rent control.
+    [2] stated/endorse: Lists endorsements from the East Bay Democratic Socialists of America and the Berkeley Tenants Union.
+    [3] stated/endorse: Slate website describes the group of five candidates as progressive organizers running for tenant protections and affordability.
+- Alameda:city:cityofberkeley:rentstabilizationboardcommissioner:nathanmizell | Nathan Mizell | nonp | review=reviewed | stated=4 other=0
+    [0] stated/housing: Says he will prioritize tenant rights awareness and stronger protections from discrimination, substandard conditions and illegal evictions.
+    [1] stated/record: Says he fought for passage of Berkeley Measure BB, the Tenant Protection and Right to Organize Act.
+    [2] stated/endorse: Lists endorsements from the East Bay Democratic Socialists of America and the Berkeley Tenants Union.
+    [3] stated/endorse: Slate website describes the group of five candidates as progressive organizers running for tenant protections and affordability.
+- Alameda:city:cityofberkeley:rentstabilizationboardcommissioner:vylmaortiz | Vylma Ortiz | nonp | review=reviewed | stated=3 other=0
+    [0] stated/housing: Says she will protect tenants, preserve existing affordable housing and fund new affordable homes, especially for seniors, people with disabilities, workers and students.
+    [1] stated/endorse: Lists endorsements from the East Bay Democratic Socialists of America and the Berkeley Tenants Union.
+    [2] stated/endorse: Slate website describes the group of five candidates as progressive organizers running for tenant protections and affordability.
+- Alameda:city:cityofberkeley:rentstabilizationboardcommissioner:derekrodriguez | Derek Rodriguez | nonp | review=reviewed | stated=3 other=0
+    [0] stated/housing: Says he will expand tenant organizing power, fight wrongful evictions and make sure rent protections work in practice.
+    [1] stated/endorse: Lists endorsements from the East Bay Democratic Socialists of America and the Berkeley Tenants Union.
+    [2] stated/endorse: Slate website describes the group of five candidates as progressive organizers running for tenant protections and affordability.
+
+## alameda/city | office=City Council Member, District 1 | id=Alameda:city:cityofhayward:citycouncilmemberdistrict1 | status=contested
+- Alameda:city:cityofhayward:citycouncilmemberdistrict1:brianmschott | Brian M. Schott | nonp | review=reviewed | stated=5 other=0
+    [0] stated/safety: Lists safer neighborhoods as a priority, through fast 911 response, effective police protection and crime prevention.
+    [1] stated/streets: Lists properly maintaining streets and sidewalks as a priority.
+    [2] stated/homeless: Lists monitoring and addressing homeless encampments as a priority.
+    [3] stated/housing: Lists increasing housing that is affordable for all as a priority.
+    [4] stated/budget: Says core essential services should be City Hall's top priority and cites experience balancing a budget and living within means.
+- Alameda:city:cityofhayward:citycouncilmemberdistrict1:georgesyrop | George Syrop | nonp | review=reviewed | stated=7 other=0
+    [0] stated/housing: Says he will work to expand renter protections and affordable housing, and says 500+ affordable, senior and supportive units were built.
+    [1] stated/homeless: Says homelessness is down 17% since 2019 and lists reducing homelessness, graffiti, speeding and illegal dumping as a goal.
+    [2] stated/safety: Says crime is down 30% since 2023 and lists improving public safety and wildfire preparedness as a goal.
+    [3] stated/budget: Says he will work to solve the structural budget deficit to restore social services.
+    [4] stated/environment: Lists protecting the environment from data centers as a goal.
+    [5] stated/finance: Says his campaign has refused corporate money from day one.
+    [6] stated/endorse: Says he is endorsed by over 60 organizations, local leaders and elected officials.
+
+## assembly/CA14 | office=State Assembly, District 14 | id=None | status=
+- stateassembly:14:buffywicks | Buffy Wicks | Democratic | review=reviewed | stated=5 other=0
+    [0] stated/housing: Says the housing crisis must be solved and that costs are still too high. Lists lowering housing costs as a goal if re-elected.
+    [1] stated/record: Says that over eight years she and others strengthened housing law, streamlined permitting and secured funding for affordable housing.
+    [2] stated/energy: Lists cutting red tape for clean energy and wildfire resilience as a priority if re-elected.
+    [3] stated/other: Lists protecting kids online by taking on big tech, and defending reproductive freedom, as priorities if re-elected.
+    [4] stated/endorse: Lists endorsements from Attorney General Rob Bonta, SEIU California and California Professional Firefighters.
+- stateassembly:14:markrendon | Mark Rendon | Green | review=reviewed | stated=5 other=0
+    [0] stated/health: Says he would enact CalCare, a health care system he describes as affordable and first-rate.
+    [1] stated/energy: Says he would move the energy grid fully to renewable energy, turn oil refineries into green jobs for workers, and block the Oakland coal port plan.
+    [2] stated/taxes: Supports progressive taxation so the wealthy pay their fair share, and says he would reject corporate and PAC contributions.
+    [3] stated/immigration: Says he would shut down all ICE detention centers and not cooperate with ICE.
+    [4] stated/housing: Lists housing as a campaign priority under the slogan "Homes not handcuffs."
+
+## alameda/city | office=Mayor | id=Alameda:city:cityofalameda:mayor | status=contested
+- Alameda:city:cityofalameda:mayor:tonydaysog | Tony Daysog | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Says he would end the City Council's police hiring freeze and fill 88 officer positions, saying the city has the revenue.
+    [1] stated/community: Says he would keep City Hall welcoming to all, citing his past work for the LGBTQ community, transgender youth and faith communities.
+    [2] stated/streets: Proposes a new infrastructure and sea level rise commission to oversee streets, sidewalks, sewers and shoreline strategies.
+- Alameda:city:cityofalameda:mayor:tracyjensen | Tracy Jensen | nonp | review=reviewed | stated=3 other=0
+    [0] stated/growth: Lists responsible development, living-wage jobs, emergency preparedness and environmental resiliency as her mayoral priorities.
+    [1] stated/record: Says that in 3.5 years on the Council she improved pedestrian safety, expanded low-income housing and ended city investments in weapons and polluters.
+    [2] stated/endorse: Lists endorsements from Alameda County Supervisor Lena Tam, District Attorney Nancy O'Malley and former State Senator Don Perata.
+- Alameda:city:cityofalameda:mayor:maliavella | Malia Vella | nonp | review=reviewed | stated=3 other=0
+    [0] stated/housing: Says she would expand housing affordability for all, keep neighborhoods distinct, and improve pedestrian and bike safety.
+    [1] stated/safety: Lists protecting the shoreline, natural disaster preparedness, maintaining police and fire response times, and economic development as priorities.
+    [2] stated/endorse: Lists support from Mayor Marilyn Ezzy Ashcraft and Councilmembers Michelle Pryor and Greg Boller, working families and local leaders.
+
+## house/CA13 | office= | id=None | status=
+- ushouse:13:adamgray | Adam Gray | Democratic | review=reviewed | stated=5 other=1
+    [0] stated/water: Says he led the fight against the state water grab, won more than $3 billion for storage and repairs, and wrote a plan to cut water-project red tape.
+    [1] stated/health: Says he worked with both parties to secure more than $200 million for a UC Merced medical school, and says Social Security and Medicare should be protected.
+    [2] stated/safety: Says he secured millions to crack down on gangs, traffickers and drug dealers, and funding for flood protection, safer roads and clean water.
+    [3] stated/other: Lists lower food, housing and utility costs, more water, and less red tape on infrastructure projects as campaign priorities.
+    [4] stated/endorse: Campaign website lists endorsements from the California Fraternal Order of Police and the Modesto Police Officers' Association.
+    [5] record/record: His House site says he announced a 'Delivering for the Valley' tour highlighting over $16 million in federal funding he secured for community projects (Sept. 3, 2026).
+- ushouse:13:kevinlincoln | Kevin Lincoln | Republican | review=reviewed | stated=3 other=1
+    [0] stated/economy: Says he will fight to lower taxes, address inflation and create good-paying Valley jobs to make California more affordable.
+    [1] stated/health: Says he will work to lower prescription drug costs and protect Social Security and Medicare.
+    [2] stated/record: Says that as mayor he brought people together to create jobs, lower crime, balance budgets and address homelessness.
+    [3] reporting/endorse: Stocktonia reports President Donald Trump endorsed Lincoln on Truth Social in December 2025.
+
+## house/CA05 | office= | id=None | status=
+- ushouse:5:michaelmasuda | Michael Masuda | Democratic | review=reviewed | stated=3 other=1
+    [0] stated/cost: Lists rising costs, wildfires, health care access, struggling farms and small businesses, and jobs as the issues he would address.
+    [1] stated/elections: Says he has refused corporate PAC money.
+    [2] stated/economy: Says he supports smart investments that create opportunities, improve safety and make life more affordable.
+    [3] reporting/housing: Turlock Journal reports he criticizes failures in health care, housing and immigration and opposes gerrymandering.
+- ushouse:5:tommcclintock | Tom McClintock | Republican | review=reviewed | stated=4 other=0
+    [0] stated/budget: Says he has worked to reduce wasteful spending and abolish congressional earmarks.
+    [1] stated/immigration: Says he guided border security legislation through the House as chairman of the Immigration Sub-Committee.
+    [2] stated/water: Says he has fought for forest management and water development bills and that they are moving toward the President.
+    [3] stated/other: Lists fiscal reform, forest policy, water policy, constitutional governance, healthcare, defense and transportation as issue priorities.
+
+## alameda/city | office=City Council Member, Council #2 | id=Alameda:city:cityoffremont:citycouncilmembercouncil2 | status=contested
+- Alameda:city:cityoffremont:citycouncilmembercouncil2:desriecampbell | Desrie Campbell | nonp | review=reviewed | stated=4 other=0
+    [0] stated/housing: Says she has championed affordable housing solutions and a compassionate response to homelessness on the City Council.
+    [1] stated/roads: Says she will work on smart solutions to fix roads and pedestrian infrastructure and increase access to parks and open space.
+    [2] stated/economy: Says she will keep supporting local businesses and Fremont's manufacturing economy, and lists public safety and climate sustainability as goals.
+    [3] stated/endorse: Lists endorsements from Congressman Ro Khanna, Assemblymember Alex Lee, local leaders and District 2 neighbors.
+- Alameda:city:cityoffremont:citycouncilmembercouncil2:keithparker | Keith Parker | nonp | review=reviewed | stated=3 other=0
+    [0] stated/homeless: Says he will use individualized solutions for unhoused residents instead of one-size-fits-all programs.
+    [1] stated/safety: Says he will work with the Police Department to increase staffing and protect property.
+    [2] stated/economy: Says he will streamline processes to attract new businesses.
+
+## assembly/CA13 | office=State Assembly, District 13 | id=None | status=
+- stateassembly:13:rhodesiaransom | Rhodesia Ransom | Democratic | review=reviewed | stated=3 other=0
+    [0] stated/cost: Protected 1,000+ local manufacturing jobs; ended forced high-cost internet contracts for renters.
+    [1] stated/safety: $10 million for Family Justice Centers; tougher penalties for trafficking and drunk driving.
+    [2] stated/emerg: Improved wildfire response; $20 million to protect the Delta from invasive species.
+- stateassembly:13:tompatti | Tom Patti | Republican | review=reviewed | stated=3 other=0
+    [0] stated/energy: Lower energy costs and suspend gas taxes.
+    [1] stated/education: Protect parents’ rights in schools; girls’ sports for girls only.
+    [2] stated/housing: Smart growth for affordable housing without government overreach; backed Prop 36 on retail theft.
+
+## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:newhavenunifiedschooldistrict:schoolboardmemberarea5 | status=contested
+- Alameda:school:newhavenunifiedschooldistrict:schoolboardmemberarea5:deeptigarg | Deepti Garg | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Says strong schools prepare students for success and strengthen communities.
+    [1] stated/budget: Has multimillion-dollar budget management experience with emphasis on transparency and accountability.
+    [2] stated/community: Prioritizes voting decisions that benefit family, neighbors, and all students.
+- Alameda:school:newhavenunifiedschooldistrict:schoolboardmemberarea5:francisrojas | Francis Rojas | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Prioritizes academic excellence, student well-being, and collaboration with school staff and families.
+    [1] stated/jobs: Supports expanding STEAM programs and college and career readiness opportunities.
+    [2] stated/community: Emphasizes building partnerships with families, businesses, and the community.
+
+## alameda/special | office=Director, Dist #5 | id=Alameda:special:orolomasanitarydistrict:directordist5 | status=contested
+- Alameda:special:orolomasanitarydistrict:directordist5:ritaduncan | Rita Duncan | nonp | review=reviewed | stated=3 other=0
+    [0] stated/water: Championed replacing 271 miles of aging sewer pipelines to improve reliability for district residents.
+    [1] stated/budget: Promotes fiscal accountability, transparency, responsible infrastructure investment, and rate management through committee leadership.
+    [2] stated/environment: Committed to environmental stewardship through public education, responsible waste disposal, and community partnerships.
+- Alameda:special:orolomasanitarydistrict:directordist5:koroushcyrusfarsaei | Koroush "Cyrus" Farsaei | nonp | review=reviewed | stated=3 other=0
+    [0] stated/water: As a certified wastewater operator, brings technical expertise to address aging infrastructure and climate challenges including rising sea levels.
+    [1] stated/budget: Supports fiscally responsible investments to improve reliability and resilience while keeping rates low and delivering excellent service.
+    [2] stated/environment: Addresses climate change and environmental protection through investments responding to rising sea levels and increasing regulatory requirements.
+
+## alameda/city | office=City Council Member, Council #4 | id=Alameda:city:cityofdublin:citycouncilmembercouncil4 | status=contested
+- Alameda:city:cityofdublin:citycouncilmembercouncil4:kashefqaadri | Kashef Qaadri | nonp | review=reviewed | stated=3 other=0
+    [0] stated/growth: Says Dublin can add new housing and business opportunities without losing the character residents love.
+    [1] stated/roads: Lists traffic and infrastructure as a priority; says he is focused on infrastructure that eases daily congestion.
+    [2] stated/safety: Says he supports public safety partners and wants to expand parks, programs and services for families, seniors and youth.
+- Alameda:city:cityofdublin:citycouncilmembercouncil4:shivrajsingh | Shivraj Singh | nonp | review=reviewed | stated=1 other=0
+    [0] stated/safety: Lists enhancing public safety, supporting schools, helping local businesses, maintaining parks and neighborhoods, and responsible planning as priorities.
+
+## assembly/CA09 | office=State Assembly, District 9 | id=None | status=
+- stateassembly:9:matthewadams | Matthew Adams | Democratic | review=reviewed | stated=0 other=3
+    [0] reporting/housing: The Ballot Brief lists expanding affordable housing and tenant protections, while holding developers accountable, as a top priority for Adams.
+    [1] reporting/safety: The Ballot Brief says Adams favors a prevention-focused approach to public safety built around housing, mental health care and homelessness services.
+    [2] reporting/education: LGBTQ+ Victory Fund's profile lists a fully funded public school system among Adams's stated priorities, along with affordable housing and tenant protections.
+- stateassembly:9:heathflora | Heath Flora | Republican | review=reviewed | stated=3 other=0
+    [0] stated/agriculture: Says he has worked to educate other Assembly members on the challenges farmers face and the importance of agriculture to the state economy.
+    [1] stated/environment: Says he has fought for better management of forests.
+    [2] stated/economy: Says he has stood up for small businesses.
+
+## alameda/statewide | office=State Superintendent of Public Instruction | id=Alameda:statewide:stateofcalifornia:statesuperintendentofpublicinstruction | status=contested
+- Alameda:statewide:stateofcalifornia:statesuperintendentofpublicinstruction:richardbarrera | Richard Barrera | Non-Partisan | review=reviewed | stated=1 other=0
+    [0] stated/endorse: Campaign site features a statement from former Deputy Secretary of Education Cindy Marten praising his work on the San Diego Unified school board.
+- Alameda:statewide:stateofcalifornia:statesuperintendentofpublicinstruction:sonjashaw | Sonja Shaw | Non-Partisan | review=reviewed | stated=2 other=0
+    [0] stated/education: Says half of students cannot read or write at grade level and wants schools to focus on reading, writing and math.
+    [1] stated/other: Lists parental rights as a priority and says some state policies left parents out of decisions.
+
+## alameda/city | office=City Council Member, District 4 | id=Alameda:city:cityofoakland:citycouncilmemberdistrict4 | status=unopposed
+- Alameda:city:cityofoakland:citycouncilmemberdistrict4:jananiramachandran | Janani Ramachandran | nonp | review=reviewed | stated=3 other=0
+    [0] stated/budget: Says she has made responsible decisions that have drastically improved city finances and wants tax dollars spent effectively to restore basic city services.
+    [1] stated/safety: Says that as Finance Committee chair she led city investments in evidence-based solutions to improve public safety.
+    [2] stated/streets: Lists paved streets, business development, wildfire prevention, parks and affordable housing among the areas where she says she led city investments.

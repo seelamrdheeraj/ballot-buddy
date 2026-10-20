@@ -1,0 +1,305 @@
+{
+  "contests": [
+    {
+      "contest": "## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:lammersvilleunifiedschooldistrict:boardmembertrusteearea4 | status=contested",
+      "questions": [
+        {
+          "id": "cordes-annex",
+          "topic": "education",
+          "q": {
+            "en": "Lammersville should add about 1,000 high-school seats by turning the Cordes campus into an annex.",
+            "es": "Lammersville debería sumar unos 1,000 lugares de preparatoria convirtiendo el campus Cordes en un anexo."
+          },
+          "tradeoff": {
+            "en": "Some high-school students would attend a separate annex campus.",
+            "es": "Algunos estudiantes de preparatoria irían a un campus anexo aparte."
+          },
+          "sides": {
+            "stephanieolsen": {
+              "side": 1,
+              "idx": 12,
+              "quote": "Supports the Sept 16 framework (a developer-funded K-8 in Cordes Village, with the current Cordes campus becoming a high"
+            },
+            "vanithadaniel": {
+              "side": 1,
+              "idx": 14,
+              "quote": "Supports the Sept 16 framework as a creative plan that adds about 1,000 high-school seats without cutting programs."
+            }
+          }
+        },
+        {
+          "id": "engineering-pathway",
+          "topic": "education",
+          "q": {
+            "en": "The district should expand its engineering career pathway for high-school students.",
+            "es": "El distrito debería ampliar su programa de carrera en ingeniería para estudiantes de preparatoria."
+          },
+          "tradeoff": {
+            "en": "Space and staff are limited, so other programs could get less.",
+            "es": "El espacio y el personal son limitados, así que otros programas podrían recibir menos."
+          },
+          "sides": {
+            "vanithadaniel": {
+              "side": 1,
+              "idx": 14,
+              "quote": "Wants an engineering pathway expanded"
+            }
+          }
+        },
+        {
+          "id": "sped-inclusion",
+          "topic": "education",
+          "q": {
+            "en": "More special-education students should be taught in general classrooms.",
+            "es": "Más estudiantes de educación especial deberían recibir clases en salones generales."
+          },
+          "tradeoff": {
+            "en": "Some students may get less specialized support than in separate classes.",
+            "es": "Algunos estudiantes podrían recibir menos apoyo especializado que en clases separadas."
+          },
+          "sides": {
+            "vanithadaniel": {
+              "side": 1,
+              "idx": 15,
+              "quote": "she hopes for more inclusion in general classes"
+            }
+          }
+        },
+        {
+          "id": "absence-doctor-note",
+          "topic": "education",
+          "q": {
+            "en": "Families should need a doctor's note only after 10 school absences, not after 5.",
+            "es": "Las familias solo deberían necesitar una nota médica después de 10 ausencias escolares, no después de 5."
+          },
+          "tradeoff": {
+            "en": "It could be harder to spot students who are missing too much school.",
+            "es": "Podría ser más difícil detectar a estudiantes que faltan demasiado a la escuela."
+          },
+          "sides": {
+            "stephanieolsen": {
+              "side": 1,
+              "idx": 16,
+              "quote": "relax the attendance policy to require a doctor’s note after 10 absences instead of 5"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityoftracy:membercitycouncildistrict3 | status=contested",
+      "questions": [
+        {
+          "id": "vacant-home-occupants",
+          "topic": "housing",
+          "q": {
+            "en": "Tracy should push for stronger laws to help owners remove unauthorized occupants from vacant homes.",
+            "es": "Tracy debería impulsar leyes más duras para que los dueños saquen a ocupantes no autorizados de casas vacías."
+          },
+          "tradeoff": {
+            "en": "Stricter rules could affect people with real disputes over their right to stay.",
+            "es": "Reglas más estrictas podrían afectar a quienes disputan de verdad su derecho a quedarse."
+          },
+          "sides": {
+            "amenialexander": {
+              "side": 1,
+              "idx": 1,
+              "quote": "will advocate for laws that protect homeowners while respecting due process"
+            }
+          }
+        },
+        {
+          "id": "bowling-alley",
+          "topic": "community",
+          "q": {
+            "en": "The city should work to bring a bowling alley back to Tracy.",
+            "es": "La ciudad debería trabajar para traer de vuelta un boliche a Tracy."
+          },
+          "tradeoff": {
+            "en": "City staff time and money could go to other priorities instead.",
+            "es": "El tiempo y el dinero de la ciudad podrían usarse en otras prioridades."
+          },
+          "sides": {
+            "amenialexander": {
+              "side": 1,
+              "idx": 0,
+              "quote": "will work to bring a bowling alley back to Tracy"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## san-joaquin/school | office=Board Member Trustee Area 6 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea6 | status=contested",
+      "questions": [
+        {
+          "id": "free-science-camp",
+          "topic": "education",
+          "q": {
+            "en": "Stockton Unified should make Science Camp free for all students.",
+            "es": "Stockton Unified debería hacer que el Campamento de Ciencias sea gratis para todos los estudiantes."
+          },
+          "tradeoff": {
+            "en": "The district would pay more, leaving less for other programs.",
+            "es": "El distrito pagaría más y quedaría menos para otros programas."
+          },
+          "sides": {
+            "christinabaccamcbrian": {
+              "side": 1,
+              "idx": 2,
+              "quote": "make Science Camp free for all students"
+            }
+          }
+        },
+        {
+          "id": "sped-aides",
+          "topic": "education",
+          "q": {
+            "en": "Stockton Unified should hire more aides for special-education classes.",
+            "es": "Stockton Unified debería contratar más asistentes para las clases de educación especial."
+          },
+          "tradeoff": {
+            "en": "Hiring more aides costs money that could fund other needs.",
+            "es": "Contratar más asistentes cuesta dinero que podría usarse en otras necesidades."
+          },
+          "sides": {
+            "christinabaccamcbrian": {
+              "side": 1,
+              "idx": 1,
+              "quote": "Special Education Department to add more paraprofessionals"
+            }
+          }
+        },
+        {
+          "id": "after-school-expand",
+          "topic": "education",
+          "q": {
+            "en": "Stockton Unified should expand its after-school programs.",
+            "es": "Stockton Unified debería ampliar sus programas después de clases."
+          },
+          "tradeoff": {
+            "en": "Expanding programs costs money and staff the district would need to find.",
+            "es": "Ampliar programas cuesta dinero y personal que el distrito tendría que conseguir."
+          },
+          "sides": {
+            "christinabaccamcbrian": {
+              "side": 1,
+              "idx": 2,
+              "quote": "Pledges to expand after-school programs"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## san-joaquin/city | office=Member, City Council District 1 | id=San Joaquin:city:cityoftracy:membercitycouncildistrict1 | status=contested",
+      "questions": []
+    },
+    {
+      "contest": "## san-joaquin/city | office=Mayor | id=San Joaquin:city:cityoftracy:mayor | status=contested",
+      "questions": []
+    },
+    {
+      "contest": "## san-joaquin/city | office=Member, City Council | id=San Joaquin:city:cityofripon:membercitycouncil | status=contested",
+      "questions": []
+    },
+    {
+      "contest": "## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:lindenunifiedschooldistrict:boardmembertrusteearea4 | status=contested",
+      "questions": []
+    },
+    {
+      "contest": "## san-joaquin/school | office=Board Member Trustee Area 7 | id=San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea7 | status=contested",
+      "questions": []
+    },
+    {
+      "contest": "## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityofmanteca:membercitycouncildistrict3 | status=contested",
+      "questions": [
+        {
+          "id": "navigation-center",
+          "topic": "homeless",
+          "q": {
+            "en": "Manteca should build a permanent homeless navigation center.",
+            "es": "Manteca debería construir un centro de navegación permanente para personas sin hogar."
+          },
+          "tradeoff": {
+            "en": "Building and running it would use city money.",
+            "es": "Construirlo y operarlo usaría dinero de la ciudad."
+          },
+          "sides": {
+            "davidbreitenbucher": {
+              "side": 1,
+              "idx": 2,
+              "quote": "committed to completing a permanent navigation center"
+            }
+          }
+        },
+        {
+          "id": "sixth-fire-station",
+          "topic": "safety",
+          "q": {
+            "en": "Manteca should build a sixth fire station.",
+            "es": "Manteca debería construir una sexta estación de bomberos."
+          },
+          "tradeoff": {
+            "en": "Building and staffing it would use city money.",
+            "es": "Construirla y darle personal usaría dinero de la ciudad."
+          },
+          "sides": {
+            "davidbreitenbucher": {
+              "side": 1,
+              "idx": 0,
+              "quote": "wants to complete a new police headquarters and a sixth fire station"
+            }
+          }
+        },
+        {
+          "id": "aquatics-center",
+          "topic": "community",
+          "q": {
+            "en": "Manteca should move forward with building an aquatics center.",
+            "es": "Manteca debería seguir adelante con la construcción de un centro acuático."
+          },
+          "tradeoff": {
+            "en": "The city would have less money for other projects.",
+            "es": "La ciudad tendría menos dinero para otros proyectos."
+          },
+          "sides": {
+            "davidbreitenbucher": {
+              "side": 1,
+              "idx": 1,
+              "quote": "move forward with an aquatics center"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea4 | status=contested",
+      "questions": [
+        {
+          "id": "campus-expansion",
+          "topic": "education",
+          "q": {
+            "en": "Manteca Unified should remodel and expand campuses to make room for more students.",
+            "es": "Manteca Unified debería remodelar y ampliar sus planteles para dar cabida a más estudiantes."
+          },
+          "tradeoff": {
+            "en": "Construction costs could take money from other school needs.",
+            "es": "Los costos de construcción podrían quitar dinero a otras necesidades escolares."
+          },
+          "sides": {
+            "mariefreitas": {
+              "side": 1,
+              "idx": 2,
+              "quote": "Supports campus remodeling and expansion initiatives to accommodate district growth"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## san-joaquin/school | office=Board Member Trustee Area 6 | id=San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea6 | status=contested",
+      "questions": []
+    }
+  ]
+}

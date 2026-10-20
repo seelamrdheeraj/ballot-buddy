@@ -1,0 +1,598 @@
+{
+ "contests": [
+  {
+   "contest": "## alameda/city | office=City Council Member, District 1 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict1 | status=contested",
+   "questions": [
+    {
+     "id": "flock-cameras",
+     "topic": "safety",
+     "q": {
+      "en": "Berkeley police should use license-plate reader cameras, like Flock, to help solve crimes.",
+      "es": "La policía de Berkeley debería usar cámaras lectoras de placas, como Flock, para resolver delitos."
+     },
+     "tradeoff": {
+      "en": "The cameras collect data on many drivers who did nothing wrong.",
+      "es": "Las cámaras recopilan datos de muchos conductores que no hicieron nada malo."
+     },
+     "sides": {
+      "monigangopadhyay": {
+       "side": -1,
+       "idx": 0,
+       "quote": "keep Flock (license-plate camera technology) out of Berkeley"
+      }
+     }
+    },
+    {
+     "id": "tenant-protections",
+     "topic": "housing",
+     "q": {
+      "en": "Berkeley should add stronger protections for renters.",
+      "es": "Berkeley debería agregar protecciones más fuertes para los inquilinos."
+     },
+     "tradeoff": {
+      "en": "Some landlords may rent out or build fewer units.",
+      "es": "Algunos dueños podrían rentar o construir menos viviendas."
+     },
+     "sides": {
+      "monigangopadhyay": {
+       "side": 1,
+       "idx": 2,
+       "quote": "improve tenant protections"
+      },
+      "dariawrubel": {
+       "side": 1,
+       "idx": 0,
+       "quote": "build housing and protect tenants"
+      }
+     }
+    },
+    {
+     "id": "housing-all-incomes",
+     "topic": "housing",
+     "q": {
+      "en": "Berkeley should allow more new housing at all income levels, including market-rate homes.",
+      "es": "Berkeley debería permitir más viviendas nuevas para todos los niveles de ingreso, incluso a precio de mercado."
+     },
+     "tradeoff": {
+      "en": "More building can mean more density, traffic and change in neighborhoods.",
+      "es": "Construir más puede traer más densidad, tráfico y cambios en los vecindarios."
+     },
+     "sides": {
+      "rossbernet": {
+       "side": 1,
+       "idx": 0,
+       "quote": "create more housing at all income levels"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=Mayor | id=Alameda:city:cityofoakland:mayor | status=contested",
+   "questions": [
+    {
+     "id": "speed-cameras",
+     "topic": "streets",
+     "q": {
+      "en": "Oakland should use speed cameras to give out speeding tickets.",
+      "es": "Oakland debería usar cámaras de velocidad para poner multas por exceso de velocidad."
+     },
+     "tradeoff": {
+      "en": "Without cameras, more drivers may speed and cause crashes.",
+      "es": "Sin cámaras, más conductores podrían ir rápido y causar choques."
+     },
+     "sides": {
+      "mindyruthpechenuk": {
+       "side": -1,
+       "idx": 3,
+       "quote": "Opposes treating drivers as a source of revenue and cites Oakland's camera speeding tickets"
+      }
+     }
+    },
+    {
+     "id": "no-new-taxes",
+     "topic": "taxes",
+     "q": {
+      "en": "Oakland should be open to raising taxes to pay for city services.",
+      "es": "Oakland debería estar abierta a subir impuestos para pagar servicios de la ciudad."
+     },
+     "tradeoff": {
+      "en": "Higher taxes cost residents and businesses more.",
+      "es": "Impuestos más altos les cuestan más a residentes y negocios."
+     },
+     "sides": {
+      "mindyruthpechenuk": {
+       "side": -1,
+       "idx": 1,
+       "quote": "cut wasteful spending without raising taxes"
+      }
+     }
+    },
+    {
+     "id": "reopen-fire-stations",
+     "topic": "emerg",
+     "q": {
+      "en": "Oakland should reopen fire stations that were closed.",
+      "es": "Oakland debería reabrir las estaciones de bomberos que se cerraron."
+     },
+     "tradeoff": {
+      "en": "Staffing stations costs money that could go to other services.",
+      "es": "Mantener estaciones cuesta dinero que podría ir a otros servicios."
+     },
+     "sides": {
+      "barbaralee": {
+       "side": 1,
+       "idx": 3,
+       "quote": "reopening fire stations"
+      }
+     }
+    },
+    {
+     "id": "independent-audit",
+     "topic": "budget",
+     "q": {
+      "en": "Oakland should pay for an independent audit of all city spending.",
+      "es": "Oakland debería pagar una auditoría independiente de todo el gasto de la ciudad."
+     },
+     "tradeoff": {
+      "en": "A full audit costs money and staff time.",
+      "es": "Una auditoría completa cuesta dinero y tiempo del personal."
+     },
+     "sides": {
+      "mindyruthpechenuk": {
+       "side": 1,
+       "idx": 1,
+       "quote": "require an independent audit"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, Council #4 | id=Alameda:city:cityoffremont:citycouncilmembercouncil4 | status=contested",
+   "questions": [
+    {
+     "id": "fully-staff-police",
+     "topic": "safety",
+     "q": {
+      "en": "Fremont should spend more to fully staff its police department.",
+      "es": "Fremont debería gastar más para tener su departamento de policía con personal completo."
+     },
+     "tradeoff": {
+      "en": "Money spent on police can't go to other city services.",
+      "es": "El dinero para la policía no puede ir a otros servicios de la ciudad."
+     },
+     "sides": {
+      "yingminli": {
+       "side": 1,
+       "idx": 0,
+       "quote": "fully staff the Police Department"
+      }
+     }
+    },
+    {
+     "id": "build-affordable-housing",
+     "topic": "housing",
+     "q": {
+      "en": "Fremont should build more affordable housing for working families and seniors.",
+      "es": "Fremont debería construir más vivienda asequible para familias trabajadoras y personas mayores."
+     },
+     "tradeoff": {
+      "en": "New housing can add density and traffic, and subsidies cost money.",
+      "es": "Más vivienda puede traer densidad y tráfico, y los subsidios cuestan dinero."
+     },
+     "sides": {
+      "azizakbari": {
+       "side": 1,
+       "idx": 0,
+       "quote": "he will build affordable housing so working families and seniors can live in Fremont"
+      }
+     }
+    },
+    {
+     "id": "expand-green-space",
+     "topic": "environment",
+     "q": {
+      "en": "Fremont should expand parks and green spaces across the city.",
+      "es": "Fremont debería ampliar los parques y áreas verdes en toda la ciudad."
+     },
+     "tradeoff": {
+      "en": "Land used for parks can't be used for housing or business.",
+      "es": "El terreno para parques no se puede usar para vivienda o negocios."
+     },
+     "sides": {
+      "azizakbari": {
+       "side": 1,
+       "idx": 1,
+       "quote": "he will expand green spaces"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=Mayor | id=Alameda:city:cityofsanleandro:mayor | status=contested",
+   "questions": [
+    {
+     "id": "easier-housing",
+     "topic": "housing",
+     "q": {
+      "en": "San Leandro should make it easier to build new housing.",
+      "es": "San Leandro debería facilitar la construcción de vivienda nueva."
+     },
+     "tradeoff": {
+      "en": "Faster approvals can mean less neighborhood input on projects.",
+      "es": "Aprobar más rápido puede dar menos voz a los vecinos sobre los proyectos."
+     },
+     "sides": {
+      "jamesmaes": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Wants to make it easier to provide housing and revenue."
+      }
+     }
+    },
+    {
+     "id": "renter-protections",
+     "topic": "housing",
+     "q": {
+      "en": "San Leandro should have strong protections for renters.",
+      "es": "San Leandro debería tener protecciones fuertes para los inquilinos."
+     },
+     "tradeoff": {
+      "en": "Some landlords may rent out or build fewer units.",
+      "es": "Algunos dueños podrían rentar o construir menos viviendas."
+     },
+     "sides": {
+      "juangonzleziii": {
+       "side": 1,
+       "idx": 1,
+       "quote": "strengthened renter protections"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Director | id=Alameda:school:berkeleyunifiedschooldistrict:schooldirector | status=unopposed",
+   "questions": [
+    {
+     "id": "gender-neutral-bathrooms",
+     "topic": "education",
+     "q": {
+      "en": "Schools should offer gender-neutral bathrooms.",
+      "es": "Las escuelas deberían ofrecer baños de género neutro."
+     },
+     "tradeoff": {
+      "en": "Some families have privacy concerns, and changes cost money.",
+      "es": "Algunas familias tienen dudas de privacidad, y los cambios cuestan dinero."
+     },
+     "sides": {
+      "jennifershanoski": {
+       "side": 1,
+       "idx": 2,
+       "quote": "gender neutral bathrooms"
+      }
+     }
+    },
+    {
+     "id": "local-measures-teacher-pay",
+     "topic": "education",
+     "q": {
+      "en": "The district should ask voters to pass local measures that raise teacher pay.",
+      "es": "El distrito debería pedir a los votantes aprobar medidas locales para subir el sueldo de maestros."
+     },
+     "tradeoff": {
+      "en": "Local measures usually mean higher taxes for property owners.",
+      "es": "Las medidas locales suelen significar más impuestos para los propietarios."
+     },
+     "sides": {
+      "jennifershanoski": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Co-chaired committees that passed in 2022 and 2024 for teacher salaries and school facilities"
+      }
+     }
+    },
+    {
+     "id": "ai-privacy-rules",
+     "topic": "education",
+     "q": {
+      "en": "The district should adopt new AI and technology rules to protect student privacy.",
+      "es": "El distrito debería adoptar nuevas reglas de IA y tecnología para proteger la privacidad estudiantil."
+     },
+     "tradeoff": {
+      "en": "Strict rules could limit useful learning tools in class.",
+      "es": "Reglas estrictas podrían limitar herramientas útiles en clase."
+     },
+     "sides": {
+      "sandypark": {
+       "side": 1,
+       "idx": 0,
+       "quote": "establishing forward-thinking AI and technology policies that safeguard student privacy"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 3 (short term) | id=Alameda:school:dublinunifiedschooldistrict:schoolboardmemberarea3shortterm | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/special | office=Director, Dist #3 | id=Alameda:special:orolomasanitarydistrict:directordist3 | status=contested",
+   "questions": [
+    {
+     "id": "replace-sewer-pipes",
+     "topic": "water",
+     "q": {
+      "en": "The district should replace old sewer pipes with new ones now, not wait until they fail.",
+      "es": "El distrito debería cambiar ya las tuberías viejas de drenaje, sin esperar a que fallen."
+     },
+     "tradeoff": {
+      "en": "Faster pipe replacement could raise sewer rates.",
+      "es": "Cambiar tuberías más rápido podría subir las tarifas de drenaje."
+     },
+     "sides": {
+      "bennylee": {
+       "side": 1,
+       "idx": 1,
+       "quote": "replacing aged sewer infrastructure with modern pipes"
+      }
+     }
+    },
+    {
+     "id": "recycled-water",
+     "topic": "water",
+     "q": {
+      "en": "The district should expand use of recycled water for landscaping and industry.",
+      "es": "El distrito debería usar más agua reciclada para jardines públicos e industria."
+     },
+     "tradeoff": {
+      "en": "Recycled water systems need costly new pipes and treatment.",
+      "es": "Los sistemas de agua reciclada necesitan tuberías y tratamiento costosos."
+     },
+     "sides": {
+      "fredsimon": {
+       "side": 1,
+       "idx": 1,
+       "quote": "using recycled water for public landscaping and industry"
+      }
+     }
+    },
+    {
+     "id": "expand-recycling",
+     "topic": "environment",
+     "q": {
+      "en": "The district should expand its paper, plastic and glass recycling programs.",
+      "es": "El distrito debería ampliar sus programas de reciclaje de papel, plástico y vidrio."
+     },
+     "tradeoff": {
+      "en": "Bigger recycling programs could raise garbage fees.",
+      "es": "Programas de reciclaje más grandes podrían subir las tarifas de basura."
+     },
+     "sides": {
+      "fredsimon": {
+       "side": 1,
+       "idx": 2,
+       "quote": "improving paper, plastic, and glass recycling programs"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/statewide | office=Insurance Commissioner | id=Alameda:statewide:stateofcalifornia:insurancecommissioner | status=contested",
+   "questions": [
+    {
+     "id": "block-rate-hikes",
+     "topic": "cost",
+     "q": {
+      "en": "The insurance commissioner should block most insurance rate increases.",
+      "es": "El comisionado de seguros debería bloquear la mayoría de los aumentos de tarifas."
+     },
+     "tradeoff": {
+      "en": "Insurers may stop selling new policies or leave the state.",
+      "es": "Las aseguradoras podrían dejar de vender pólizas o irse del estado."
+     },
+     "sides": {
+      "janekim": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Says she will stop insurers from raising rates"
+      }
+     }
+    },
+    {
+     "id": "refuse-insurer-money",
+     "topic": "elections",
+     "q": {
+      "en": "Candidates for insurance commissioner should refuse campaign money from insurance companies.",
+      "es": "Los candidatos a comisionado de seguros deberían rechazar dinero de campaña de aseguradoras."
+     },
+     "tradeoff": {
+      "en": "Candidates may have less money to reach voters.",
+      "es": "Los candidatos podrían tener menos dinero para llegar a los votantes."
+     },
+     "sides": {
+      "benallen": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Lists refusing insurance industry money as one of his commitments."
+      },
+      "janekim": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Says she has not taken insurance company money in this election"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityofunioncity:citycouncilmembercouncil3 | status=contested",
+   "questions": [
+    {
+     "id": "railroad-crossings",
+     "topic": "roads",
+     "q": {
+      "en": "Union City should make fixing railroad crossings a top transportation project.",
+      "es": "Union City debería hacer del arreglo de los cruces de tren un proyecto principal de transporte."
+     },
+     "tradeoff": {
+      "en": "Crossing projects are costly and can take money from other roads.",
+      "es": "Los proyectos de cruces son caros y pueden quitar dinero a otras calles."
+     },
+     "sides": {
+      "cheriscrockerroot": {
+       "side": 1,
+       "idx": 2,
+       "quote": "improve railroad crossings"
+      }
+     }
+    },
+    {
+     "id": "more-police",
+     "topic": "safety",
+     "q": {
+      "en": "Union City should keep adding police officers.",
+      "es": "Union City debería seguir contratando más policías."
+     },
+     "tradeoff": {
+      "en": "More officers cost money that could go to other services.",
+      "es": "Más policías cuestan dinero que podría ir a otros servicios."
+     },
+     "sides": {
+      "jeffwang": {
+       "side": 1,
+       "idx": 0,
+       "quote": "strengthened public safety by increasing police staffing"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, District 6 | id=Alameda:city:cityofhayward:citycouncilmemberdistrict6 | status=unopposed",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, District 6 | id=Alameda:city:cityofoakland:citycouncilmemberdistrict6 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/statewide | office=Member, State Board of Equalization, 2nd District | id=Alameda:statewide:stateofcalifornia:memberstateboardofequalization2nddistrict | status=contested",
+   "questions": [
+    {
+     "id": "billionaires-tax",
+     "topic": "taxes",
+     "q": {
+      "en": "California should pass a new tax on billionaires.",
+      "es": "California debería aprobar un nuevo impuesto a los multimillonarios."
+     },
+     "tradeoff": {
+      "en": "Without it, the state has less money for programs.",
+      "es": "Sin él, el estado tiene menos dinero para programas."
+     },
+     "sides": {
+      "johnpimentel": {
+       "side": -1,
+       "idx": 1,
+       "quote": "would oppose broad tax increases such as the proposed Billionaires Tax"
+      }
+     }
+    },
+    {
+     "id": "end-food-sales-tax",
+     "topic": "taxes",
+     "q": {
+      "en": "California should end the sales tax on food.",
+      "es": "California debería eliminar el impuesto sobre las ventas de alimentos."
+     },
+     "tradeoff": {
+      "en": "State and local governments would collect less money.",
+      "es": "Los gobiernos estatales y locales recaudarían menos dinero."
+     },
+     "sides": {
+      "johnpimentel": {
+       "side": 1,
+       "idx": 1,
+       "quote": "would seek to end the sales tax on food"
+      }
+     }
+    },
+    {
+     "id": "eliminate-boe",
+     "topic": "budget",
+     "q": {
+      "en": "California should eliminate the elected State Board of Equalization.",
+      "es": "California debería eliminar la Junta Estatal de Igualación elegida por votantes."
+     },
+     "tradeoff": {
+      "en": "Voters would lose elected officials who oversee some tax matters.",
+      "es": "Los votantes perderían funcionarios electos que supervisan asuntos de impuestos."
+     },
+     "sides": {
+      "johnpimentel": {
+       "side": 1,
+       "idx": 0,
+       "quote": "considers eliminating the organization"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member | id=Alameda:school:emeryunifiedschooldistrict:schoolboardmember | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/statewide | office=Secretary of State | id=Alameda:statewide:stateofcalifornia:secretaryofstate | status=contested",
+   "questions": [
+    {
+     "id": "voter-id",
+     "topic": "elections",
+     "q": {
+      "en": "Voters should have to show ID at the polls.",
+      "es": "Los votantes deberían tener que mostrar identificación en las urnas."
+     },
+     "tradeoff": {
+      "en": "Some eligible voters without ID could find it harder to vote.",
+      "es": "Algunos votantes elegibles sin identificación podrían tener más dificultad para votar."
+     },
+     "sides": {
+      "donaldpdonwagner": {
+       "side": 1,
+       "idx": 1,
+       "quote": "supports requiring voter ID at polls"
+      }
+     }
+    },
+    {
+     "id": "faster-certification",
+     "topic": "elections",
+     "q": {
+      "en": "California should count ballots and certify results faster.",
+      "es": "California debería contar los votos y certificar los resultados más rápido."
+     },
+     "tradeoff": {
+      "en": "Faster counts leave less time to check ballots and fix errors.",
+      "es": "Contar más rápido deja menos tiempo para revisar votos y corregir errores."
+     },
+     "sides": {
+      "donaldpdonwagner": {
+       "side": 1,
+       "idx": 1,
+       "quote": "wants faster ballot certification"
+      },
+      "shirleynweber": {
+       "side": -1,
+       "idx": 1,
+       "quote": "says accuracy matters more than counting speed"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

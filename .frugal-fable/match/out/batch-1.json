@@ -1,0 +1,653 @@
+{
+ "contests": [
+  {
+   "contest": "## alameda/city | office=Rent Stabilization Board Commissioner | id=Alameda:city:cityofberkeley:rentstabilizationboardcommissioner | status=contested",
+   "questions": [
+    {
+     "id": "keep-rent-control",
+     "topic": "housing",
+     "q": {
+      "en": "Berkeley should keep rent control, which limits how much landlords can raise rent.",
+      "es": "Berkeley debería mantener el control de rentas, que limita cuánto pueden subir la renta los dueños."
+     },
+     "tradeoff": {
+      "en": "Some say rent limits reduce new building and upkeep of rentals.",
+      "es": "Algunos dicen que los límites reducen la construcción y el mantenimiento."
+     },
+     "sides": {
+      "carolemarasovic": {
+       "side": 1,
+       "idx": 0,
+       "quote": "she supports rent control"
+      },
+      "idamartinac": {
+       "side": 1,
+       "idx": 1,
+       "quote": "fought to protect and expand rent control"
+      }
+     }
+    },
+    {
+     "id": "weatherize-all-housing",
+     "topic": "energy",
+     "q": {
+      "en": "Energy efficiency and weatherization programs should be extended to all housing in Berkeley.",
+      "es": "Los programas de eficiencia energética y climatización deberían extenderse a todas las viviendas de Berkeley."
+     },
+     "tradeoff": {
+      "en": "The cost could fall on public funds, owners or tenants.",
+      "es": "El costo podría recaer en fondos públicos, dueños o inquilinos."
+     },
+     "sides": {
+      "idamartinac": {
+       "side": 1,
+       "idx": 0,
+       "quote": "supports extending energy efficiency and weatherization programs to all housing"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, District 1 | id=Alameda:city:cityofhayward:citycouncilmemberdistrict1 | status=contested",
+   "questions": [
+    {
+     "id": "limit-data-centers",
+     "topic": "environment",
+     "q": {
+      "en": "Hayward should limit new data centers because of their impact on the environment.",
+      "es": "Hayward debería limitar los nuevos centros de datos por su impacto en el medio ambiente."
+     },
+     "tradeoff": {
+      "en": "Data centers can bring jobs and tax money to the city.",
+      "es": "Los centros de datos pueden traer empleos e impuestos a la ciudad."
+     },
+     "sides": {
+      "georgesyrop": {
+       "side": 1,
+       "idx": 4,
+       "quote": "protecting the environment from data centers"
+      }
+     }
+    },
+    {
+     "id": "expand-renter-protections",
+     "topic": "housing",
+     "q": {
+      "en": "Hayward should expand legal protections for renters.",
+      "es": "Hayward debería ampliar las protecciones legales para los inquilinos."
+     },
+     "tradeoff": {
+      "en": "Landlords would face more rules, which may affect rental supply.",
+      "es": "Los dueños tendrían más reglas, lo que podría afectar la oferta de alquiler."
+     },
+     "sides": {
+      "georgesyrop": {
+       "side": 1,
+       "idx": 0,
+       "quote": "expand renter protections"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## assembly/CA14 | office=State Assembly, District 14 | id=None | status=",
+   "questions": [
+    {
+     "id": "calcare",
+     "topic": "health",
+     "q": {
+      "en": "California should create one state-run health insurance plan for everyone, called CalCare.",
+      "es": "California debería crear un solo plan de seguro médico estatal para todos, llamado CalCare."
+     },
+     "tradeoff": {
+      "en": "It would likely need large new taxes and replace private plans.",
+      "es": "Probablemente requeriría nuevos impuestos grandes y reemplazaría planes privados."
+     },
+     "sides": {
+      "markrendon": {
+       "side": 1,
+       "idx": 0,
+       "quote": "he would enact CalCare"
+      }
+     }
+    },
+    {
+     "id": "no-ice-cooperation",
+     "topic": "immigration",
+     "q": {
+      "en": "California should not cooperate with federal immigration enforcement (ICE).",
+      "es": "California no debería cooperar con las autoridades federales de inmigración (ICE)."
+     },
+     "tradeoff": {
+      "en": "It could raise conflict with federal law and risk federal funding.",
+      "es": "Podría crear conflictos con la ley federal y poner en riesgo fondos federales."
+     },
+     "sides": {
+      "markrendon": {
+       "side": 1,
+       "idx": 3,
+       "quote": "not cooperate with ICE"
+      }
+     }
+    },
+    {
+     "id": "streamline-housing-permits",
+     "topic": "housing",
+     "q": {
+      "en": "The state should speed up housing permits, even if it limits local review.",
+      "es": "El estado debería acelerar los permisos de vivienda, aunque se limite la revisión local."
+     },
+     "tradeoff": {
+      "en": "Cities and neighbors would have less say over new buildings.",
+      "es": "Las ciudades y los vecinos tendrían menos voz sobre nuevos edificios."
+     },
+     "sides": {
+      "buffywicks": {
+       "side": 1,
+       "idx": 1,
+       "quote": "streamlined permitting"
+      }
+     }
+    },
+    {
+     "id": "abortion-access",
+     "topic": "abortion",
+     "q": {
+      "en": "California should keep abortion legal and available.",
+      "es": "California debería mantener el aborto legal y disponible."
+     },
+     "tradeoff": {
+      "en": "Some people believe abortion should be limited or banned.",
+      "es": "Algunas personas creen que el aborto debería limitarse o prohibirse."
+     },
+     "sides": {
+      "buffywicks": {
+       "side": 1,
+       "idx": 3,
+       "quote": "defending reproductive freedom"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=Mayor | id=Alameda:city:cityofalameda:mayor | status=contested",
+   "questions": [
+    {
+     "id": "end-police-hiring-freeze",
+     "topic": "safety",
+     "q": {
+      "en": "Alameda should end its police hiring freeze and fill open officer jobs.",
+      "es": "Alameda debería terminar la congelación de contrataciones de policía y llenar las plazas vacantes."
+     },
+     "tradeoff": {
+      "en": "Money spent on police would not be available for other services.",
+      "es": "El dinero para la policía no estaría disponible para otros servicios."
+     },
+     "sides": {
+      "tonydaysog": {
+       "side": 1,
+       "idx": 0,
+       "quote": "end the City Council's police hiring freeze and fill 88 officer positions"
+      }
+     }
+    },
+    {
+     "id": "divest-weapons-polluters",
+     "topic": "finance",
+     "q": {
+      "en": "The city should not invest its money in weapons makers or polluting companies.",
+      "es": "La ciudad no debería invertir su dinero en fabricantes de armas ni en empresas contaminantes."
+     },
+     "tradeoff": {
+      "en": "Fewer investment choices could mean lower returns for the city.",
+      "es": "Menos opciones de inversión podrían dar menores ganancias a la ciudad."
+     },
+     "sides": {
+      "tracyjensen": {
+       "side": 1,
+       "idx": 1,
+       "quote": "ended city investments in weapons and polluters"
+      }
+     }
+    },
+    {
+     "id": "sea-level-commission",
+     "topic": "streets",
+     "q": {
+      "en": "Alameda should create a new commission to oversee infrastructure and sea level rise plans.",
+      "es": "Alameda debería crear una nueva comisión para supervisar la infraestructura y el aumento del nivel del mar."
+     },
+     "tradeoff": {
+      "en": "A new commission adds staff time and another layer of review.",
+      "es": "Una nueva comisión requiere tiempo del personal y otro nivel de revisión."
+     },
+     "sides": {
+      "tonydaysog": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Proposes a new infrastructure and sea level rise commission"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## house/CA13 | office= | id=None | status=",
+   "questions": [
+    {
+     "id": "river-flows",
+     "topic": "water",
+     "q": {
+      "en": "The state should require more river water to stay in rivers for fish, even if farms get less.",
+      "es": "El estado debería exigir que más agua se quede en los ríos para los peces, aunque las granjas reciban menos."
+     },
+     "tradeoff": {
+      "en": "Farms and towns in the Valley would have less water to use.",
+      "es": "Las granjas y pueblos del Valle tendrían menos agua para usar."
+     },
+     "sides": {
+      "adamgray": {
+       "side": -1,
+       "idx": 0,
+       "quote": "led the fight against the state water grab"
+      }
+     }
+    },
+    {
+     "id": "water-project-red-tape",
+     "topic": "water",
+     "q": {
+      "en": "Permit rules for water projects like storage and repairs should be cut back.",
+      "es": "Las reglas de permisos para proyectos de agua, como almacenamiento y reparaciones, deberían reducirse."
+     },
+     "tradeoff": {
+      "en": "Fewer rules could mean less review of effects on the environment.",
+      "es": "Menos reglas podrían significar menos revisión del impacto ambiental."
+     },
+     "sides": {
+      "adamgray": {
+       "side": 1,
+       "idx": 0,
+       "quote": "wrote a plan to cut water-project red tape"
+      }
+     }
+    },
+    {
+     "id": "lower-taxes",
+     "topic": "taxes",
+     "q": {
+      "en": "Congress should lower federal taxes.",
+      "es": "El Congreso debería bajar los impuestos federales."
+     },
+     "tradeoff": {
+      "en": "Lower taxes could mean less money for programs or more debt.",
+      "es": "Menos impuestos podrían significar menos dinero para programas o más deuda."
+     },
+     "sides": {
+      "kevinlincoln": {
+       "side": 1,
+       "idx": 0,
+       "quote": "he will fight to lower taxes"
+      }
+     }
+    },
+    {
+     "id": "no-cuts-social-security",
+     "topic": "health",
+     "q": {
+      "en": "Social Security and Medicare benefits should not be cut.",
+      "es": "Los beneficios del Seguro Social y Medicare no deberían recortarse."
+     },
+     "tradeoff": {
+      "en": "Keeping benefits may require higher taxes or more federal debt.",
+      "es": "Mantener los beneficios podría requerir más impuestos o más deuda federal."
+     },
+     "sides": {
+      "adamgray": {
+       "side": 1,
+       "idx": 1,
+       "quote": "says Social Security and Medicare should be protected"
+      },
+      "kevinlincoln": {
+       "side": 1,
+       "idx": 1,
+       "quote": "protect Social Security and Medicare"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## house/CA05 | office= | id=None | status=",
+   "questions": [
+    {
+     "id": "ban-earmarks",
+     "topic": "budget",
+     "q": {
+      "en": "Congress should ban earmarks, where members send federal money to projects back home.",
+      "es": "El Congreso debería prohibir las asignaciones especiales que los miembros envían a proyectos locales."
+     },
+     "tradeoff": {
+      "en": "Local projects like roads and clinics could lose a source of funding.",
+      "es": "Proyectos locales como carreteras y clínicas podrían perder una fuente de fondos."
+     },
+     "sides": {
+      "tommcclintock": {
+       "side": 1,
+       "idx": 0,
+       "quote": "abolish congressional earmarks"
+      }
+     }
+    },
+    {
+     "id": "border-security-laws",
+     "topic": "immigration",
+     "q": {
+      "en": "Congress should pass stricter border security laws.",
+      "es": "El Congreso debería aprobar leyes más estrictas de seguridad fronteriza."
+     },
+     "tradeoff": {
+      "en": "Stricter laws cost money and may affect legal travel and trade.",
+      "es": "Leyes más estrictas cuestan dinero y podrían afectar viajes y comercio legales."
+     },
+     "sides": {
+      "tommcclintock": {
+       "side": 1,
+       "idx": 1,
+       "quote": "he guided border security legislation through the House"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, Council #2 | id=Alameda:city:cityoffremont:citycouncilmembercouncil2 | status=contested",
+   "questions": [
+    {
+     "id": "more-police-staff",
+     "topic": "safety",
+     "q": {
+      "en": "Fremont should increase the number of police officers.",
+      "es": "Fremont debería aumentar el número de policías."
+     },
+     "tradeoff": {
+      "en": "More officers cost money that could go to other city services.",
+      "es": "Más policías cuestan dinero que podría ir a otros servicios."
+     },
+     "sides": {
+      "keithparker": {
+       "side": 1,
+       "idx": 1,
+       "quote": "work with the Police Department to increase staffing"
+      }
+     }
+    },
+    {
+     "id": "streamline-business-permits",
+     "topic": "economy",
+     "q": {
+      "en": "Fremont should simplify its permit process to attract new businesses.",
+      "es": "Fremont debería simplificar su proceso de permisos para atraer nuevos negocios."
+     },
+     "tradeoff": {
+      "en": "Faster approvals may mean less review of impacts on neighbors.",
+      "es": "Aprobaciones más rápidas podrían significar menos revisión del impacto en vecinos."
+     },
+     "sides": {
+      "keithparker": {
+       "side": 1,
+       "idx": 2,
+       "quote": "streamline processes to attract new businesses"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## assembly/CA13 | office=State Assembly, District 13 | id=None | status=",
+   "questions": [
+    {
+     "id": "suspend-gas-tax",
+     "topic": "taxes",
+     "q": {
+      "en": "California should suspend its state gas tax for a time.",
+      "es": "California debería suspender temporalmente su impuesto estatal a la gasolina."
+     },
+     "tradeoff": {
+      "en": "Gas tax money pays for road and highway repairs.",
+      "es": "El impuesto a la gasolina paga reparaciones de calles y carreteras."
+     },
+     "sides": {
+      "tompatti": {
+       "side": 1,
+       "idx": 0,
+       "quote": "suspend gas taxes"
+      }
+     }
+    },
+    {
+     "id": "girls-sports",
+     "topic": "education",
+     "q": {
+      "en": "Only students born female should play on girls' school sports teams.",
+      "es": "Solo las estudiantes nacidas mujeres deberían jugar en equipos deportivos escolares de niñas."
+     },
+     "tradeoff": {
+      "en": "Transgender girls would be kept off girls' teams.",
+      "es": "Las niñas transgénero quedarían fuera de los equipos de niñas."
+     },
+     "sides": {
+      "tompatti": {
+       "side": 1,
+       "idx": 1,
+       "quote": "girls’ sports for girls only"
+      }
+     }
+    },
+    {
+     "id": "prop36-retail-theft",
+     "topic": "crime",
+     "q": {
+      "en": "Repeat retail theft should carry tougher penalties, as Prop 36 set.",
+      "es": "El robo repetido en tiendas debería tener penas más duras, como estableció la Prop 36."
+     },
+     "tradeoff": {
+      "en": "More people in jail or prison raises state and county costs.",
+      "es": "Más personas en cárceles o prisiones aumenta los costos estatales y del condado."
+     },
+     "sides": {
+      "tompatti": {
+       "side": 1,
+       "idx": 2,
+       "quote": "backed Prop 36 on retail theft"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:newhavenunifiedschooldistrict:schoolboardmemberarea5 | status=contested",
+   "questions": [
+    {
+     "id": "expand-steam",
+     "topic": "education",
+     "q": {
+      "en": "The district should expand STEAM programs (science, technology, engineering, arts and math).",
+      "es": "El distrito debería ampliar los programas STEAM (ciencia, tecnología, ingeniería, artes y matemáticas)."
+     },
+     "tradeoff": {
+      "en": "Money for new programs could come from other school needs.",
+      "es": "El dinero para nuevos programas podría salir de otras necesidades escolares."
+     },
+     "sides": {
+      "francisrojas": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Supports expanding STEAM programs"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/special | office=Director, Dist #5 | id=Alameda:special:orolomasanitarydistrict:directordist5 | status=contested",
+   "questions": [
+    {
+     "id": "replace-sewer-pipes",
+     "topic": "water",
+     "q": {
+      "en": "The district should keep replacing aging sewer pipes on a large scale.",
+      "es": "El distrito debería seguir reemplazando tuberías de alcantarillado viejas a gran escala."
+     },
+     "tradeoff": {
+      "en": "Large pipe projects can raise sewer rates for residents.",
+      "es": "Los grandes proyectos de tuberías pueden subir las tarifas de alcantarillado."
+     },
+     "sides": {
+      "ritaduncan": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Championed replacing 271 miles of aging sewer pipelines"
+      }
+     }
+    },
+    {
+     "id": "sea-level-upgrades",
+     "topic": "environment",
+     "q": {
+      "en": "The district should invest in upgrades to prepare for rising sea levels.",
+      "es": "El distrito debería invertir en mejoras para prepararse para el aumento del nivel del mar."
+     },
+     "tradeoff": {
+      "en": "Upgrades cost money that could raise rates.",
+      "es": "Las mejoras cuestan dinero que podría subir las tarifas."
+     },
+     "sides": {
+      "koroushcyrusfarsaei": {
+       "side": 1,
+       "idx": 2,
+       "quote": "investments responding to rising sea levels"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, Council #4 | id=Alameda:city:cityofdublin:citycouncilmembercouncil4 | status=contested",
+   "questions": [
+    {
+     "id": "more-housing",
+     "topic": "growth",
+     "q": {
+      "en": "Dublin should allow more new housing to be built.",
+      "es": "Dublin debería permitir que se construyan más viviendas nuevas."
+     },
+     "tradeoff": {
+      "en": "More homes can add traffic and strain schools and services.",
+      "es": "Más viviendas pueden aumentar el tráfico y presionar escuelas y servicios."
+     },
+     "sides": {
+      "kashefqaadri": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Dublin can add new housing and business opportunities without losing the character"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## assembly/CA09 | office=State Assembly, District 9 | id=None | status=",
+   "questions": [
+    {
+     "id": "tenant-protections",
+     "topic": "housing",
+     "q": {
+      "en": "The state should add more legal protections for renters.",
+      "es": "El estado debería agregar más protecciones legales para los inquilinos."
+     },
+     "tradeoff": {
+      "en": "Landlords would face more rules, which may affect rental supply.",
+      "es": "Los dueños tendrían más reglas, lo que podría afectar la oferta de alquiler."
+     },
+     "sides": {
+      "matthewadams": {
+       "side": 1,
+       "idx": 0,
+       "quote": "expanding affordable housing and tenant protections"
+      }
+     }
+    },
+    {
+     "id": "prevention-safety",
+     "topic": "safety",
+     "q": {
+      "en": "Public safety plans should focus on prevention, like mental health care and housing.",
+      "es": "Los planes de seguridad pública deberían enfocarse en la prevención, como salud mental y vivienda."
+     },
+     "tradeoff": {
+      "en": "Money for prevention may mean less for police and enforcement.",
+      "es": "El dinero para prevención podría significar menos para la policía."
+     },
+     "sides": {
+      "matthewadams": {
+       "side": 1,
+       "idx": 1,
+       "quote": "favors a prevention-focused approach to public safety"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/statewide | office=State Superintendent of Public Instruction | id=Alameda:statewide:stateofcalifornia:statesuperintendentofpublicinstruction | status=contested",
+   "questions": [
+    {
+     "id": "focus-basics",
+     "topic": "education",
+     "q": {
+      "en": "Schools should spend more class time on reading, writing and math.",
+      "es": "Las escuelas deberían dedicar más tiempo de clase a lectura, escritura y matemáticas."
+     },
+     "tradeoff": {
+      "en": "Less time could be left for arts, science and other subjects.",
+      "es": "Podría quedar menos tiempo para artes, ciencias y otras materias."
+     },
+     "sides": {
+      "sonjashaw": {
+       "side": 1,
+       "idx": 0,
+       "quote": "wants schools to focus on reading, writing and math"
+      }
+     }
+    },
+    {
+     "id": "parent-say",
+     "topic": "education",
+     "q": {
+      "en": "Parents should have more say in state school policies that affect their children.",
+      "es": "Los padres deberían tener más voz en las políticas escolares estatales que afectan a sus hijos."
+     },
+     "tradeoff": {
+      "en": "Some worry this could limit student privacy or teacher judgment.",
+      "es": "A algunos les preocupa que limite la privacidad estudiantil o el criterio docente."
+     },
+     "sides": {
+      "sonjashaw": {
+       "side": 1,
+       "idx": 1,
+       "quote": "some state policies left parents out of decisions"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, District 4 | id=Alameda:city:cityofoakland:citycouncilmemberdistrict4 | status=unopposed",
+   "questions": []
+  }
+ ]
+}

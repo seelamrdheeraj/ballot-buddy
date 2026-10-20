@@ -1,0 +1,632 @@
+{
+  "contests": [
+    {
+      "contest": "## alameda/special | office=Director | id=Alameda:special:livermorearearecreationparkdistrict:director | status=contested",
+      "questions": [
+        {
+          "id": "camp-shelly",
+          "topic": "community",
+          "q": {
+            "en": "The park district should keep running Camp Shelly, its campground at Lake Tahoe.",
+            "es": "El distrito de parques debería seguir operando Camp Shelly, su campamento en el lago Tahoe."
+          },
+          "tradeoff": {
+            "en": "Money spent on a faraway campground can't go to parks in town.",
+            "es": "El dinero para un campamento lejano no se puede usar en parques locales."
+          },
+          "sides": {
+            "mikeralph": {
+              "side": 1,
+              "idx": 3,
+              "quote": "Committed to preserving Camp Shelly for future generations"
+            }
+          }
+        },
+        {
+          "id": "new-facilities",
+          "topic": "community",
+          "q": {
+            "en": "The park district should build new facilities like spray parks and bike tracks.",
+            "es": "El distrito de parques debería construir instalaciones nuevas, como parques de agua y pistas de bicicleta."
+          },
+          "tradeoff": {
+            "en": "New facilities cost money to build and to maintain every year.",
+            "es": "Las instalaciones nuevas cuestan dinero para construirlas y mantenerlas cada año."
+          },
+          "sides": {
+            "maryalicesummersfaltings": {
+              "side": 1,
+              "idx": 0,
+              "quote": "promote innovative facilities like spray parks, pickleball, bike tracks"
+            },
+            "mikeralph": {
+              "side": 1,
+              "idx": 0,
+              "quote": "Long-time advocate for Sunken Gardens Pump Track"
+            }
+          }
+        },
+        {
+          "id": "ebike-rules",
+          "topic": "streets",
+          "q": {
+            "en": "The park district should set clear e-bike rules on its trails and enforce them.",
+            "es": "El distrito debería fijar reglas claras para bicicletas eléctricas en sus senderos y hacerlas cumplir."
+          },
+          "tradeoff": {
+            "en": "Enforcement takes staff time, and some riders could face fines.",
+            "es": "Hacer cumplir las reglas requiere personal, y algunos ciclistas podrían recibir multas."
+          },
+          "sides": {
+            "mikeralph": {
+              "side": 1,
+              "idx": 2,
+              "quote": "Supports safe, responsible e-bike use through education, clear regulations, and appropriate enforcement"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## alameda/school | office=School Director, District 4 | id=Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict4 | status=contested",
+      "questions": [
+        {
+          "id": "career-pathways",
+          "topic": "education",
+          "q": {
+            "en": "Oakland high schools should expand career pathway programs for students.",
+            "es": "Las preparatorias de Oakland deberían ampliar los programas de preparación para carreras."
+          },
+          "tradeoff": {
+            "en": "Money for career programs could otherwise go to core academic classes.",
+            "es": "El dinero para programas de carreras podría usarse en clases académicas básicas."
+          },
+          "sides": {
+            "kathryncamp": {
+              "side": 1,
+              "idx": 1,
+              "quote": "Supports expanded career pathways for students"
+            }
+          }
+        },
+        {
+          "id": "adult-ed",
+          "topic": "education",
+          "q": {
+            "en": "The school district should make adult education programs a priority.",
+            "es": "El distrito escolar debería dar prioridad a los programas de educación para adultos."
+          },
+          "tradeoff": {
+            "en": "Money for adult classes could otherwise go to K-12 students.",
+            "es": "El dinero para clases de adultos podría usarse en estudiantes de kínder a 12.º grado."
+          },
+          "sides": {
+            "sylviapfeifferwilliams": {
+              "side": 1,
+              "idx": 2,
+              "quote": "Prioritizes safe schools, community schools, and adult education"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## alameda/school | office=School Board Member, Area 4 | id=Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea4 | status=contested",
+      "questions": [
+        {
+          "id": "no-min-grade",
+          "topic": "education",
+          "q": {
+            "en": "Students who skip an assignment should get a zero, not an automatic 50% score.",
+            "es": "Quien no entrega una tarea debería recibir un cero, no un 50% automático."
+          },
+          "tradeoff": {
+            "en": "One zero can make it very hard for a student to recover and pass a class.",
+            "es": "Un solo cero puede hacer muy difícil que un estudiante se recupere y apruebe."
+          },
+          "sides": {
+            "brianafoster": {
+              "side": 1,
+              "idx": 1,
+              "quote": "Opposes 50% credit for no work and supports honest grading"
+            }
+          }
+        },
+        {
+          "id": "more-ap",
+          "topic": "education",
+          "q": {
+            "en": "The district should offer more Advanced Placement (AP) courses.",
+            "es": "El distrito debería ofrecer más cursos de Colocación Avanzada (AP)."
+          },
+          "tradeoff": {
+            "en": "Teachers and money for AP classes could go to other programs.",
+            "es": "Los maestros y el dinero para clases AP podrían destinarse a otros programas."
+          },
+          "sides": {
+            "brianafoster": {
+              "side": 1,
+              "idx": 0,
+              "quote": "offer more Advanced Placement courses"
+            },
+            "josephgrcar": {
+              "side": 1,
+              "idx": 0,
+              "quote": "Wants to expand access to Advanced Placement courses"
+            }
+          }
+        },
+        {
+          "id": "trades-equal",
+          "topic": "education",
+          "q": {
+            "en": "Schools should support trades and apprenticeship paths as much as college prep.",
+            "es": "Las escuelas deberían apoyar los oficios y aprendizajes tanto como la preparación universitaria."
+          },
+          "tradeoff": {
+            "en": "Spreading funds across many paths can leave less for advanced academics.",
+            "es": "Repartir fondos entre muchas opciones puede dejar menos para lo académico avanzado."
+          },
+          "sides": {
+            "faithcarroll": {
+              "side": 1,
+              "idx": 0,
+              "quote": "Values trades, apprenticeships, career training, the arts, and college degrees equally"
+            }
+          }
+        },
+        {
+          "id": "school-choice",
+          "topic": "education",
+          "q": {
+            "en": "The district should keep school choice options so families can pick their school.",
+            "es": "El distrito debería mantener opciones para que las familias elijan su escuela."
+          },
+          "tradeoff": {
+            "en": "Choice can pull students and funding away from some neighborhood schools.",
+            "es": "La elección puede quitar estudiantes y fondos a algunas escuelas del vecindario."
+          },
+          "sides": {
+            "josephgrcar": {
+              "side": 1,
+              "idx": 2,
+              "quote": "maintaining school choice to sustain enrollment and resources"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityoffremont:citycouncilmembercouncil3 | status=contested",
+      "questions": []
+    },
+    {
+      "contest": "## assembly/CA16 | office=State Assembly, District 16 | id=None | status=",
+      "questions": [
+        {
+          "id": "abortion-access",
+          "topic": "abortion",
+          "q": {
+            "en": "The state should help make abortion care affordable and easy to get.",
+            "es": "El estado debería ayudar a que el aborto sea accesible y asequible."
+          },
+          "tradeoff": {
+            "en": "Some people object to public support for abortion on moral grounds.",
+            "es": "Algunas personas se oponen por razones morales al apoyo público al aborto."
+          },
+          "sides": {
+            "rebeccabauerkahan": {
+              "side": 1,
+              "idx": 3,
+              "quote": "affordable access to pregnancy, abortion and menopause care"
+            }
+          }
+        },
+        {
+          "id": "gun-laws",
+          "topic": "guns",
+          "q": {
+            "en": "California should pass stricter gun safety laws.",
+            "es": "California debería aprobar leyes más estrictas sobre armas."
+          },
+          "tradeoff": {
+            "en": "Some gun owners say more rules limit their rights without cutting crime.",
+            "es": "Algunos dueños de armas dicen que más reglas limitan sus derechos sin reducir el crimen."
+          },
+          "sides": {
+            "rebeccabauerkahan": {
+              "side": 1,
+              "idx": 2,
+              "quote": "worked with public safety officials to strengthen gun safety and hate crimes laws"
+            }
+          }
+        },
+        {
+          "id": "repeat-offenders",
+          "topic": "crime",
+          "q": {
+            "en": "People who commit crimes again and again should face tougher penalties.",
+            "es": "Quienes cometen delitos una y otra vez deberían recibir castigos más duros."
+          },
+          "tradeoff": {
+            "en": "Longer sentences cost more for jails and may not lower crime.",
+            "es": "Las condenas más largas cuestan más en cárceles y quizá no reduzcan el crimen."
+          },
+          "sides": {
+            "josepharubay": {
+              "side": 1,
+              "idx": 0,
+              "quote": "wants stronger accountability for repeat offenders"
+            }
+          }
+        },
+        {
+          "id": "parents-final-say",
+          "topic": "education",
+          "q": {
+            "en": "Parents, not schools, should have the final say on their child's education.",
+            "es": "Los padres, no las escuelas, deberían tener la última palabra sobre la educación de sus hijos."
+          },
+          "tradeoff": {
+            "en": "Schools could find it harder to keep one shared plan for all students.",
+            "es": "A las escuelas les podría costar más mantener un plan común para todos."
+          },
+          "sides": {
+            "josepharubay": {
+              "side": 1,
+              "idx": 2,
+              "quote": "parents should have the final say on their child’s education"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## house/CA14 | office= | id=None | status=",
+      "questions": [
+        {
+          "id": "insulin-cap",
+          "topic": "health",
+          "q": {
+            "en": "The government should cap how much people pay for insulin.",
+            "es": "El gobierno debería poner un límite a lo que la gente paga por la insulina."
+          },
+          "tradeoff": {
+            "en": "Price caps can shift costs elsewhere or reduce drug research.",
+            "es": "Los límites de precio pueden pasar costos a otros lados o reducir la investigación."
+          },
+          "sides": {
+            "aishawahab": {
+              "side": 1,
+              "idx": 1,
+              "quote": "capped insulin costs, secured $11 insulin pens"
+            }
+          }
+        },
+        {
+          "id": "down-payment-aid",
+          "topic": "housing",
+          "q": {
+            "en": "The government should help first-time buyers pay the down payment on a home.",
+            "es": "El gobierno debería ayudar a quienes compran su primera casa a pagar el enganche."
+          },
+          "tradeoff": {
+            "en": "It uses tax money for some buyers and may push home prices higher.",
+            "es": "Usa dinero público para algunos compradores y puede subir los precios."
+          },
+          "sides": {
+            "aishawahab": {
+              "side": 1,
+              "idx": 1,
+              "quote": "funded first-time homebuyer down payments"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## alameda/city | office=City Council Member, Council #2 | id=Alameda:city:cityoflivermore:citycouncilmembercouncil2 | status=contested",
+      "questions": [
+        {
+          "id": "growth-boundary",
+          "topic": "growth",
+          "q": {
+            "en": "Livermore should keep its Urban Growth Boundary, which limits building on open land.",
+            "es": "Livermore debería mantener su límite de crecimiento urbano, que restringe construir en terrenos abiertos."
+          },
+          "tradeoff": {
+            "en": "Limiting where homes can go may keep housing scarce and costly.",
+            "es": "Limitar dónde se construye puede mantener la vivienda escasa y cara."
+          },
+          "sides": {
+            "benbarrientos": {
+              "side": 1,
+              "idx": 1,
+              "quote": "supported incentives for energy and water conservation and the Urban Growth Boundary"
+            }
+          }
+        },
+        {
+          "id": "worker-housing",
+          "topic": "housing",
+          "q": {
+            "en": "Livermore should add more affordable housing for workers like teachers and nurses.",
+            "es": "Livermore debería crear más vivienda asequible para trabajadores como maestros y enfermeras."
+          },
+          "tradeoff": {
+            "en": "It may need city money or denser building in neighborhoods.",
+            "es": "Podría requerir dinero de la ciudad o más densidad en los vecindarios."
+          },
+          "sides": {
+            "benbarrientos": {
+              "side": 1,
+              "idx": 0,
+              "quote": "supports more affordable housing, especially for seniors, nurses, teachers"
+            }
+          }
+        },
+        {
+          "id": "conservation-incentives",
+          "topic": "environment",
+          "q": {
+            "en": "The city should pay incentives to people who save energy and water.",
+            "es": "La ciudad debería dar incentivos a quienes ahorran energía y agua."
+          },
+          "tradeoff": {
+            "en": "Incentive programs cost city money that could fund other needs.",
+            "es": "Los incentivos cuestan dinero que podría usarse en otras necesidades."
+          },
+          "sides": {
+            "benbarrientos": {
+              "side": 1,
+              "idx": 1,
+              "quote": "supported incentives for energy and water conservation"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## assembly/CA18 | office=State Assembly, District 18 | id=None | status=",
+      "questions": [
+        {
+          "id": "rent-caps",
+          "topic": "housing",
+          "q": {
+            "en": "California should cap how much rent can go up each year.",
+            "es": "California debería limitar cuánto puede subir la renta cada año."
+          },
+          "tradeoff": {
+            "en": "Rent caps can discourage building new rental housing.",
+            "es": "Los límites a la renta pueden desalentar la construcción de viviendas de alquiler."
+          },
+          "sides": {
+            "andresandford": {
+              "side": 1,
+              "idx": 0,
+              "quote": "Lists housing cost reduction, rent caps, childcare access and universal health coverage as affordability priorities."
+            }
+          }
+        },
+        {
+          "id": "universal-health",
+          "topic": "health",
+          "q": {
+            "en": "California should provide health coverage for every resident.",
+            "es": "California debería dar cobertura médica a todos sus residentes."
+          },
+          "tradeoff": {
+            "en": "It would cost the state a great deal and may require higher taxes.",
+            "es": "Le costaría mucho al estado y podría requerir impuestos más altos."
+          },
+          "sides": {
+            "andresandford": {
+              "side": 1,
+              "idx": 0,
+              "quote": "universal health coverage as affordability priorities"
+            }
+          }
+        },
+        {
+          "id": "free-school-meals",
+          "topic": "education",
+          "q": {
+            "en": "Public schools should offer free meals to all students, no matter their family income.",
+            "es": "Las escuelas públicas deberían dar comida gratis a todos los estudiantes, sin importar el ingreso familiar."
+          },
+          "tradeoff": {
+            "en": "Paying for families who can afford meals costs the state more.",
+            "es": "Pagar por familias que pueden costear la comida le cuesta más al estado."
+          },
+          "sides": {
+            "miabonta": {
+              "side": 1,
+              "idx": 2,
+              "quote": "helped expand childcare, free school meals and universal pre-K"
+            }
+          }
+        },
+        {
+          "id": "abandoned-rvs",
+          "topic": "streets",
+          "q": {
+            "en": "Cities should remove and dispose of abandoned RVs parked on streets.",
+            "es": "Las ciudades deberían retirar y desechar las casas rodantes abandonadas en las calles."
+          },
+          "tradeoff": {
+            "en": "Removal costs money, and some RVs may be someone's only shelter.",
+            "es": "Retirarlas cuesta dinero, y algunas pueden ser el único refugio de alguien."
+          },
+          "sides": {
+            "miabonta": {
+              "side": 1,
+              "idx": 3,
+              "quote": "properly dispose of abandoned RVs"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityofpleasanton:citycouncilmembercouncil3 | status=contested",
+      "questions": [
+        {
+          "id": "no-tax-rate-hike",
+          "topic": "taxes",
+          "q": {
+            "en": "Pleasanton should not raise local tax rates, even to pay for more services.",
+            "es": "Pleasanton no debería subir las tasas de impuestos locales, ni siquiera para pagar más servicios."
+          },
+          "tradeoff": {
+            "en": "Without new taxes, some services or repairs may be cut or delayed.",
+            "es": "Sin impuestos nuevos, algunos servicios o reparaciones podrían recortarse o retrasarse."
+          },
+          "sides": {
+            "reenagupta": {
+              "side": 1,
+              "idx": 0,
+              "quote": "wants to grow the revenue base, not the tax rate"
+            }
+          }
+        },
+        {
+          "id": "stoneridge-redevelop",
+          "topic": "growth",
+          "q": {
+            "en": "The city should support redeveloping Stoneridge Mall.",
+            "es": "La ciudad debería apoyar la remodelación del centro comercial Stoneridge."
+          },
+          "tradeoff": {
+            "en": "Redevelopment can bring more traffic and change the area's feel.",
+            "es": "La remodelación puede traer más tráfico y cambiar el carácter de la zona."
+          },
+          "sides": {
+            "reenagupta": {
+              "side": 1,
+              "idx": 1,
+              "quote": "support Stoneridge Mall redevelopment"
+            }
+          }
+        },
+        {
+          "id": "library-hours",
+          "topic": "community",
+          "q": {
+            "en": "Pleasanton should restore library hours that were cut.",
+            "es": "Pleasanton debería recuperar los horarios de biblioteca que se recortaron."
+          },
+          "tradeoff": {
+            "en": "Longer hours cost money that could go to other city needs.",
+            "es": "Más horas cuestan dinero que podría usarse en otras necesidades de la ciudad."
+          },
+          "sides": {
+            "reenagupta": {
+              "side": 1,
+              "idx": 2,
+              "quote": "restoring library hours"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## alameda/school | office=School Director, District 2 | id=Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict2 | status=contested",
+      "questions": [
+        {
+          "id": "teacher-pay",
+          "topic": "education",
+          "q": {
+            "en": "Oakland schools should raise educator pay to keep good teachers.",
+            "es": "Las escuelas de Oakland deberían subir el sueldo de los educadores para retener buenos maestros."
+          },
+          "tradeoff": {
+            "en": "Higher pay may mean cuts elsewhere in a tight district budget.",
+            "es": "Sueldos más altos pueden obligar a recortar en otras áreas de un presupuesto ajustado."
+          },
+          "sides": {
+            "jenniferbrouhard": {
+              "side": 1,
+              "idx": 2,
+              "quote": "Supports retaining excellent educators through competitive compensation"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## alameda/transit | office=Director, Ward 4 | id=Alameda:transit:actransitdistrict:directorward4 | status=contested",
+      "questions": [
+        {
+          "id": "broadway-service",
+          "topic": "roads",
+          "q": {
+            "en": "AC Transit should restore bus service on Broadway.",
+            "es": "AC Transit debería restablecer el servicio de autobús en Broadway."
+          },
+          "tradeoff": {
+            "en": "Money for this route could otherwise go to other routes.",
+            "es": "El dinero para esta ruta podría destinarse a otras rutas."
+          },
+          "sides": {
+            "sarahsyed": {
+              "side": 1,
+              "idx": 0,
+              "quote": "restored Broadway service"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## alameda/statewide | office=Controller | id=Alameda:statewide:stateofcalifornia:controller | status=contested",
+      "questions": [
+        {
+          "id": "auto-return-assets",
+          "topic": "finance",
+          "q": {
+            "en": "The state should send unclaimed money straight to owners it finds in state records.",
+            "es": "El estado debería enviar el dinero no reclamado directamente a los dueños que encuentre en sus registros."
+          },
+          "tradeoff": {
+            "en": "Automatic matching could pay the wrong person by mistake.",
+            "es": "Cruzar registros automáticamente podría pagarle por error a otra persona."
+          },
+          "sides": {
+            "herbwmorgan": {
+              "side": 1,
+              "idx": 1,
+              "quote": "cross-referencing state records and speeding direct payments"
+            }
+          }
+        },
+        {
+          "id": "audit-social-services",
+          "topic": "budget",
+          "q": {
+            "en": "The Controller should make auditing social services spending a top priority.",
+            "es": "El Contralor debería dar máxima prioridad a auditar el gasto en servicios sociales."
+          },
+          "tradeoff": {
+            "en": "More audits there means less attention on other state spending.",
+            "es": "Más auditorías ahí significan menos atención a otros gastos del estado."
+          },
+          "sides": {
+            "herbwmorgan": {
+              "side": 1,
+              "idx": 0,
+              "quote": "auditing government spending, especially the social services system"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "contest": "## alameda/college | office=Community College District Trustee, Area 2 | id=Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea2 | status=contested",
+      "questions": []
+    },
+    {
+      "contest": "## alameda/city | office=Auditor | id=Alameda:city:cityofoakland:auditor | status=unopposed",
+      "questions": []
+    }
+  ]
+}

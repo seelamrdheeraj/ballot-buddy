@@ -1,0 +1,837 @@
+{
+"stevehilton|xavierbecerra": {
+"keys": [
+"## governor/CA | office= | id=None | status=",
+"## alameda/statewide | office=Governor | id=Alameda:statewide:stateofcalifornia:governor | status=contested"
+],
+"n": 2
+},
+"michaelmasuda|tommcclintock": {
+"keys": [
+"## house/CA05 | office= | id=None | status="
+],
+"n": 2
+},
+"dorismatsui|maivang": {
+"keys": [
+"## house/CA07 | office= | id=None | status="
+],
+"n": 2
+},
+"johngaramendi|rudyrecile": {
+"keys": [
+"## house/CA08 | office= | id=None | status="
+],
+"n": 2
+},
+"johnmcbride|joshharder": {
+"keys": [
+"## house/CA09 | office= | id=None | status="
+],
+"n": 2
+},
+"jefffrese|markdesaulnier": {
+"keys": [
+"## house/CA10 | office= | id=None | status=",
+"## alameda/us_house | office=U.S. Representative, 10th Congressional District | id=Alameda:us_house:unitedstateshouseofrepresentatives:usrepresentative10thcongressionaldistrict | status=contested"
+],
+"n": 2
+},
+"jamiejoyce|lateefahsimon": {
+"keys": [
+"## house/CA12 | office= | id=None | status=",
+"## alameda/us_house | office=U.S. Representative, 12th Congressional District | id=Alameda:us_house:unitedstateshouseofrepresentatives:usrepresentative12thcongressionaldistrict | status=contested"
+],
+"n": 2
+},
+"adamgray|kevinlincoln": {
+"keys": [
+"## house/CA13 | office= | id=None | status="
+],
+"n": 2
+},
+"aishawahab|melissahernandez": {
+"keys": [
+"## house/CA14 | office= | id=None | status=",
+"## alameda/us_house | office=U.S. Representative, 14th Congressional District | id=Alameda:us_house:unitedstateshouseofrepresentatives:usrepresentative14thcongressionaldistrict | status=contested"
+],
+"n": 2
+},
+"riteshtandon|rokhanna": {
+"keys": [
+"## house/CA17 | office= | id=None | status=",
+"## alameda/us_house | office=U.S. Representative, 17th Congressional District | id=Alameda:us_house:unitedstateshouseofrepresentatives:usrepresentative17thcongressionaldistrict | status=contested"
+],
+"n": 2
+},
+"lindarprice|scottsakakihara": {
+"keys": [
+"## ssenate/CA10 | office=State Senator, District 10 | id=None | status=",
+"## alameda/state_senate | office=State Senator, 10th State Senate District | id=Alameda:state_senate:californiastatesenate:statesenator10thstatesenatedistrict | status=contested"
+],
+"n": 2
+},
+"heathflora|matthewadams": {
+"keys": [
+"## assembly/CA09 | office=State Assembly, District 9 | id=None | status="
+],
+"n": 2
+},
+"rhodesiaransom|tompatti": {
+"keys": [
+"## assembly/CA13 | office=State Assembly, District 13 | id=None | status="
+],
+"n": 2
+},
+"buffywicks|markrendon": {
+"keys": [
+"## assembly/CA14 | office=State Assembly, District 14 | id=None | status=",
+"## alameda/assembly | office=Member of the State Assembly, 14th Assembly District | id=Alameda:assembly:californiastateassembly:memberofthestateassembly14thassemblydistrict | status=contested"
+],
+"n": 2
+},
+"josepharubay|rebeccabauerkahan": {
+"keys": [
+"## assembly/CA16 | office=State Assembly, District 16 | id=None | status=",
+"## alameda/assembly | office=Member of the State Assembly, 16th Assembly District | id=Alameda:assembly:californiastateassembly:memberofthestateassembly16thassemblydistrict | status=contested"
+],
+"n": 2
+},
+"andresandford|miabonta": {
+"keys": [
+"## assembly/CA18 | office=State Assembly, District 18 | id=None | status=",
+"## alameda/assembly | office=Member of the State Assembly, 18th Assembly District | id=Alameda:assembly:californiastateassembly:memberofthestateassembly18thassemblydistrict | status=contested"
+],
+"n": 2
+},
+"lizortega|patriciamuga": {
+"keys": [
+"## assembly/CA20 | office=State Assembly, District 20 | id=None | status=",
+"## alameda/assembly | office=Member of the State Assembly, 20th Assembly District | id=Alameda:assembly:californiastateassembly:memberofthestateassembly20thassemblydistrict | status=contested"
+],
+"n": 2
+},
+"alexlee|maxhsia": {
+"keys": [
+"## assembly/CA24 | office=State Assembly, District 24 | id=None | status=",
+"## alameda/assembly | office=Member of the State Assembly, 24th Assembly District | id=Alameda:assembly:californiastateassembly:memberofthestateassembly24thassemblydistrict | status=contested"
+],
+"n": 2
+},
+"fionama|gloriaromero": {
+"keys": [
+"## alameda/statewide | office=Lieutenant Governor | id=Alameda:statewide:stateofcalifornia:lieutenantgovernor | status=contested"
+],
+"n": 2
+},
+"donaldpdonwagner|shirleynweber": {
+"keys": [
+"## alameda/statewide | office=Secretary of State | id=Alameda:statewide:stateofcalifornia:secretaryofstate | status=contested"
+],
+"n": 2
+},
+"herbwmorgan|maliamcohen": {
+"keys": [
+"## alameda/statewide | office=Controller | id=Alameda:statewide:stateofcalifornia:controller | status=contested"
+],
+"n": 2
+},
+"elenikounalakis|jenniferhawks": {
+"keys": [
+"## alameda/statewide | office=Treasurer | id=Alameda:statewide:stateofcalifornia:treasurer | status=contested"
+],
+"n": 2
+},
+"michaelegates|robbonta": {
+"keys": [
+"## alameda/statewide | office=Attorney General | id=Alameda:statewide:stateofcalifornia:attorneygeneral | status=contested"
+],
+"n": 2
+},
+"benallen|janekim": {
+"keys": [
+"## alameda/statewide | office=Insurance Commissioner | id=Alameda:statewide:stateofcalifornia:insurancecommissioner | status=contested"
+],
+"n": 2
+},
+"johnpimentel|sallyjlieber": {
+"keys": [
+"## alameda/statewide | office=Member, State Board of Equalization, 2nd District | id=Alameda:statewide:stateofcalifornia:memberstateboardofequalization2nddistrict | status=contested"
+],
+"n": 2
+},
+"richardbarrera|sonjashaw": {
+"keys": [
+"## alameda/statewide | office=State Superintendent of Public Instruction | id=Alameda:statewide:stateofcalifornia:statesuperintendentofpublicinstruction | status=contested"
+],
+"n": 2
+},
+"soniasalwan|suzannesueleechan": {
+"keys": [
+"## alameda/college | office=Community College District Trustee, Area 6 | id=Alameda:college:ohlonecommunitycollegedistrict:communitycollegedistricttrusteearea6 | status=contested"
+],
+"n": 2
+},
+"cindyrocha|lindagranger": {
+"keys": [
+"## alameda/college | office=Community College District Trustee, Area 2 | id=Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea2 | status=contested"
+],
+"n": 2
+},
+"harrismojadedi|markfay|wendyhuang": {
+"keys": [
+"## alameda/college | office=Community College District Trustee, Area 3 | id=Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea3 | status=contested"
+],
+"n": 3
+},
+"halggin|joeorlandoramos": {
+"keys": [
+"## alameda/college | office=Community College District Trustee, Area 6 | id=Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea6 | status=contested"
+],
+"n": 2
+},
+"cindireiss|sandraweese": {
+"keys": [
+"## alameda/college | office=Community College District Trustee, Area 5 | id=Alameda:college:peraltacommunitycollegedistrict:communitycollegedistricttrusteearea5 | status=contested"
+],
+"n": 2
+},
+"carriehahnel|garylym|joyceboyd|mikemcmahon|sarahputnam": {
+"keys": [
+"## alameda/school | office=School Board Member (full term) | id=Alameda:school:alamedaunifiedschooldistrict:schoolboardmemberfullterm | status=contested"
+],
+"n": 5
+},
+"frederickregala|jesusjacobo|mylalong": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 2 (short term) | id=Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea2shortterm | status=contested"
+],
+"n": 3
+},
+"danjacowitz|erykanmathewscain|glennamiller|karawong": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 3 | id=Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea3 | status=contested"
+],
+"n": 4
+},
+"brianafoster|faithcarroll|josephgrcar": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 4 | id=Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea4 | status=contested"
+],
+"n": 3
+},
+"shalinibhandari|tannerfrye": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 3 (short term) | id=Alameda:school:dublinunifiedschooldistrict:schoolboardmemberarea3shortterm | status=contested"
+],
+"n": 2
+},
+"dancherrier|seemabadar": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:dublinunifiedschooldistrict:schoolboardmemberarea5 | status=contested"
+],
+"n": 2
+},
+"briandonahue|christopherkeithallen|davidridlehuber|kimberlysolis|reginachagolla": {
+"keys": [
+"## alameda/school | office=School Board Member | id=Alameda:school:emeryunifiedschooldistrict:schoolboardmember | status=contested"
+],
+"n": 5
+},
+"joannguzman|joeorlandoramos": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 2 | id=Alameda:school:haywardunifiedschooldistrict:schoolboardmemberarea2 | status=contested"
+],
+"n": 2
+},
+"mariaaraceliorozco|michellefernelius": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 4 | id=Alameda:school:haywardunifiedschooldistrict:schoolboardmemberarea4 | status=contested"
+],
+"n": 2
+},
+"stephenrorgain|taraboyce": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 2 | id=Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea2 | status=contested"
+],
+"n": 2
+},
+"angelambrady|deborahgibson": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 3 | id=Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea3 | status=contested"
+],
+"n": 2
+},
+"christiaanvandenheuvel|deenakaplanis|samphelps": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea5 | status=contested"
+],
+"n": 3
+},
+"charandeepsinghtatlah|kashifwasim|shrutikumar": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 4 | id=Alameda:school:newhavenunifiedschooldistrict:schoolboardmemberarea4 | status=contested"
+],
+"n": 3
+},
+"deeptigarg|francisrojas": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:newhavenunifiedschooldistrict:schoolboardmemberarea5 | status=contested"
+],
+"n": 2
+},
+"brettgeraldmartinez|karenfletcher|thomaschoi": {
+"keys": [
+"## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:pleasantonunifiedschooldistrict:schoolboardmemberarea5 | status=contested"
+],
+"n": 3
+},
+"gaganbassi|jenniferkavouniaris|karenruthnewcomb|renturnbull": {
+"keys": [
+"## alameda/school | office=School Board Member | id=Alameda:school:sunolglenunifiedschooldistrict:schoolboardmember | status=contested"
+],
+"n": 4
+},
+"maliavella|tonydaysog|tracyjensen": {
+"keys": [
+"## alameda/city | office=Mayor | id=Alameda:city:cityofalameda:mayor | status=contested"
+],
+"n": 3
+},
+"amoswhite|marciejohnson|marialbondonno|steveslauson|thushanamarasiriwardena|tylersavage": {
+"keys": [
+"## alameda/city | office=City Council Member | id=Alameda:city:cityofalameda:citycouncilmember | status=contested"
+],
+"n": 6
+},
+"averyarbaugh|carolemarasovic|derekrodriguez|idamartinac|nathanmizell|vylmaortiz": {
+"keys": [
+"## alameda/city | office=Rent Stabilization Board Commissioner | id=Alameda:city:cityofberkeley:rentstabilizationboardcommissioner | status=contested"
+],
+"n": 6
+},
+"jennifershanoski|kadijahabrown|sandypark": {
+"keys": [
+"## alameda/school | office=School Director | id=Alameda:school:berkeleyunifiedschooldistrict:schooldirector | status=unopposed"
+],
+"n": 3
+},
+"kiranmohammad|michaelmccorriston|sherryhu": {
+"keys": [
+"## alameda/city | office=Mayor | id=Alameda:city:cityofdublin:mayor | status=contested"
+],
+"n": 3
+},
+"danielhor|richardthornbury|stevelorey|tejpreetsingh": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #2 | id=Alameda:city:cityofdublin:citycouncilmembercouncil2 | status=contested"
+],
+"n": 4
+},
+"kashefqaadri|shivrajsingh": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #4 | id=Alameda:city:cityofdublin:citycouncilmembercouncil4 | status=contested"
+],
+"n": 2
+},
+"brandonsoublet|corryfrydlewicz|davidmourra|kalimahatreyupriforce": {
+"keys": [
+"## alameda/city | office=City Council Member | id=Alameda:city:cityofemeryville:citycouncilmember | status=contested"
+],
+"n": 4
+},
+"desriecampbell|keithparker": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #2 | id=Alameda:city:cityoffremont:citycouncilmembercouncil2 | status=contested"
+],
+"n": 2
+},
+"kathykimberlin|vipinsharma": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityoffremont:citycouncilmembercouncil3 | status=contested"
+],
+"n": 2
+},
+"anuragmishra|azizakbari|manishapathak|yingminli": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #4 | id=Alameda:city:cityoffremont:citycouncilmembercouncil4 | status=contested"
+],
+"n": 4
+},
+"marksalinas|tomwong": {
+"keys": [
+"## alameda/city | office=Mayor | id=Alameda:city:cityofhayward:mayor | status=contested"
+],
+"n": 2
+},
+"brianmschott|georgesyrop": {
+"keys": [
+"## alameda/city | office=City Council Member, District 1 | id=Alameda:city:cityofhayward:citycouncilmemberdistrict1 | status=contested"
+],
+"n": 2
+},
+"julieroche": {
+"keys": [
+"## alameda/city | office=City Council Member, District 6 | id=Alameda:city:cityofhayward:citycouncilmemberdistrict6 | status=unopposed"
+],
+"n": 1
+},
+"benbarrientos|narayantadimeti": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #2 | id=Alameda:city:cityoflivermore:citycouncilmembercouncil2 | status=contested"
+],
+"n": 2
+},
+"michaelkhannon": {
+"keys": [
+"## alameda/city | office=Mayor | id=Alameda:city:cityofnewark:mayor | status=unopposed"
+],
+"n": 1
+},
+"evemarielittle|matthewjorgens|noahpatrickgrushkin|tonyaconnolly": {
+"keys": [
+"## alameda/city | office=City Council Member | id=Alameda:city:cityofnewark:citycouncilmember | status=contested"
+],
+"n": 4
+},
+"adamhundt|billreichle|nancybeninati|sunnybostromfleming|tomramsey": {
+"keys": [
+"## alameda/city | office=City Council Member | id=Alameda:city:cityofpiedmont:citycouncilmember | status=contested"
+],
+"n": 5
+},
+"jackbalch|julietesta": {
+"keys": [
+"## alameda/city | office=Mayor | id=Alameda:city:cityofpleasanton:mayor | status=contested"
+],
+"n": 2
+},
+"kathynarum|vinkruttiventi": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #1 | id=Alameda:city:cityofpleasanton:citycouncilmembercouncil1 | status=contested"
+],
+"n": 2
+},
+"jamieyee|reenagupta": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityofpleasanton:citycouncilmembercouncil3 | status=contested"
+],
+"n": 2
+},
+"jamesmaes|juangonzleziii": {
+"keys": [
+"## alameda/city | office=Mayor | id=Alameda:city:cityofsanleandro:mayor | status=contested"
+],
+"n": 2
+},
+"sbeydehviveroswalton": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #1 | id=Alameda:city:cityofsanleandro:citycouncilmembercouncil1 | status=unopposed"
+],
+"n": 1
+},
+"josephtrujillo|leethomas": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityofsanleandro:citycouncilmembercouncil3 | status=contested"
+],
+"n": 2
+},
+"xouhoabowen": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #5 | id=Alameda:city:cityofsanleandro:citycouncilmembercouncil5 | status=unopposed"
+],
+"n": 1
+},
+"jaimepatino|victorlopezpulido": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #2 | id=Alameda:city:cityofunioncity:citycouncilmembercouncil2 | status=contested"
+],
+"n": 2
+},
+"cheriscrockerroot|jeffwang": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityofunioncity:citycouncilmembercouncil3 | status=contested"
+],
+"n": 2
+},
+"annyapjequinto|qasimlodhi|sarabjitkaurcheema|vipansbajwa": {
+"keys": [
+"## alameda/city | office=City Council Member, Council #4 | id=Alameda:city:cityofunioncity:citycouncilmembercouncil4 | status=contested"
+],
+"n": 4
+},
+"adrianavalencia|joelbyoung": {
+"keys": [
+"## alameda/transit | office=Director, Ward 3 | id=Alameda:transit:actransitdistrict:directorward3 | status=contested"
+],
+"n": 2
+},
+"gabrielmorales|sarahsyed": {
+"keys": [
+"## alameda/transit | office=Director, Ward 4 | id=Alameda:transit:actransitdistrict:directorward4 | status=contested"
+],
+"n": 2
+},
+"josephgrcar|luisreynoso|murphymccalley": {
+"keys": [
+"## alameda/transit | office=Director, Ward 5 | id=Alameda:transit:actransitdistrict:directorward5 | status=contested"
+],
+"n": 3
+},
+"jasonmiguel|judychuang": {
+"keys": [
+"## alameda/special | office=Director, Ward 2 | id=Alameda:special:alamedacountywaterdistrict:directorward2 | status=contested"
+],
+"n": 2
+},
+"paulsethy|yangshao": {
+"keys": [
+"## alameda/special | office=Director, Ward 3 | id=Alameda:special:alamedacountywaterdistrict:directorward3 | status=contested"
+],
+"n": 2
+},
+"luisreynoso|robertraburn": {
+"keys": [
+"## alameda/transit | office=Director, District 4 | id=Alameda:transit:bart:directordistrict4 | status=contested"
+],
+"n": 2
+},
+"darshansaini|josephgrcar|kenowen|kristydoomanwoerz|ralphjohnson": {
+"keys": [
+"## alameda/special | office=Director | id=Alameda:special:castrovalleysanitarydistrict:director | status=contested"
+],
+"n": 5
+},
+"dongray|margueriteyoung": {
+"keys": [
+"## alameda/special | office=Director, Ward 3 | id=Alameda:special:eastbaymunicipalutilitydistrictebmud:directorward3 | status=contested"
+],
+"n": 2
+},
+"aprilchan|garywolff|josephgrcar|luisreynoso": {
+"keys": [
+"## alameda/special | office=Director, Ward 7 | id=Alameda:special:eastbaymunicipalutilitydistrictebmud:directorward7 | status=contested"
+],
+"n": 4
+},
+"josephgrcar|rebeccalewington|williamyragui": {
+"keys": [
+"## alameda/special | office=Director, Ward 3 | id=Alameda:special:eastbayregionalparkdistrict:directorward3 | status=contested"
+],
+"n": 3
+},
+"brucehenry|oliviasanwong": {
+"keys": [
+"## alameda/special | office=Director, Ward 5 | id=Alameda:special:eastbayregionalparkdistrict:directorward5 | status=contested"
+],
+"n": 2
+},
+"josephgrcar|nargesdillon": {
+"keys": [
+"## alameda/special | office=Director, Area 3 | id=Alameda:special:edentownshiphealthcaredistrict:directorarea3 | status=contested"
+],
+"n": 2
+},
+"michaeldjustice|michellebiche|vandanasinghgautam": {
+"keys": [
+"## alameda/special | office=Director | id=Alameda:special:fairviewfireprotectiondistrict:director | status=contested"
+],
+"n": 3
+},
+"amandaalysiadaniels|saralamnin": {
+"keys": [
+"## alameda/special | office=Director, Area 2 | id=Alameda:special:haywardarearecreationparkdistrict:directorarea2 | status=contested"
+],
+"n": 2
+},
+"josephjoegiltner|paulwhodgesjr": {
+"keys": [
+"## alameda/special | office=Director, Area 4 | id=Alameda:special:haywardarearecreationparkdistrict:directorarea4 | status=contested"
+],
+"n": 2
+},
+"larrybird|laureenturner|maryalicesummersfaltings|mattbogdanowicz|mikeralph|philippierpont|timothybarry": {
+"keys": [
+"## alameda/special | office=Director | id=Alameda:special:livermorearearecreationparkdistrict:director | status=contested"
+],
+"n": 7
+},
+"sheliayoung|tiarepea": {
+"keys": [
+"## alameda/special | office=Director, Dist #1 | id=Alameda:special:orolomasanitarydistrict:directordist1 | status=contested"
+],
+"n": 2
+},
+"bennylee|fredsimon": {
+"keys": [
+"## alameda/special | office=Director, Dist #3 | id=Alameda:special:orolomasanitarydistrict:directordist3 | status=contested"
+],
+"n": 2
+},
+"koroushcyrusfarsaei|ritaduncan": {
+"keys": [
+"## alameda/special | office=Director, Dist #5 | id=Alameda:special:orolomasanitarydistrict:directordist5 | status=contested"
+],
+"n": 2
+},
+"aarontiedemann|chrismcdaniels|jondestin|katherineenos|robindlpez": {
+"keys": [
+"## alameda/city | office=City Council Member | id=Alameda:city:cityofalbany:citycouncilmember | status=contested"
+],
+"n": 5
+},
+"beckyhopwood|davidmckinney|joshmahoney|margaretallen|melissaboyd": {
+"keys": [
+"## alameda/school | office=Board of Education Member | id=Alameda:school:albanyunifiedschooldistrict:boardofeducationmember | status=contested"
+],
+"n": 5
+},
+"dariawrubel|laurababitt|monigangopadhyay|rossbernet|stevekromer": {
+"keys": [
+"## alameda/city | office=City Council Member, District 1 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict1 | status=contested"
+],
+"n": 5
+},
+"igoratregub|majdigaithabuhamdieh": {
+"keys": [
+"## alameda/city | office=City Council Member, District 4 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict4 | status=contested"
+],
+"n": 2
+},
+"aidanhill|syrakmicael": {
+"keys": [
+"## alameda/city | office=City Council Member, District 7 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict7 | status=contested"
+],
+"n": 2
+},
+"fredmfeller|marimendonca|markhumbert|michaelwallman": {
+"keys": [
+"## alameda/city | office=City Council Member, District 8 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict8 | status=contested"
+],
+"n": 4
+},
+"jennywong": {
+"keys": [
+"## alameda/city | office=Auditor | id=Alameda:city:cityofberkeley:auditor | status=unopposed"
+],
+"n": 1
+},
+"barbaralee|brendafgrisham|juliusrobinson|mindyruthpechenuk": {
+"keys": [
+"## alameda/city | office=Mayor | id=Alameda:city:cityofoakland:mayor | status=contested"
+],
+"n": 4
+},
+"charlenewang|nateadams": {
+"keys": [
+"## alameda/city | office=City Council Member, District 2 | id=Alameda:city:cityofoakland:citycouncilmemberdistrict2 | status=contested"
+],
+"n": 2
+},
+"jananiramachandran": {
+"keys": [
+"## alameda/city | office=City Council Member, District 4 | id=Alameda:city:cityofoakland:citycouncilmemberdistrict4 | status=unopposed"
+],
+"n": 1
+},
+"kevinejenkins|nancyssidebotham": {
+"keys": [
+"## alameda/city | office=City Council Member, District 6 | id=Alameda:city:cityofoakland:citycouncilmemberdistrict6 | status=contested"
+],
+"n": 2
+},
+"michaelchouston": {
+"keys": [
+"## alameda/city | office=Auditor | id=Alameda:city:cityofoakland:auditor | status=unopposed"
+],
+"n": 1
+},
+"ariellefleisher|jenniferbrouhard": {
+"keys": [
+"## alameda/school | office=School Director, District 2 | id=Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict2 | status=contested"
+],
+"n": 2
+},
+"kathryncamp|mikehutchinson|sylviapfeifferwilliams": {
+"keys": [
+"## alameda/school | office=School Director, District 4 | id=Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict4 | status=contested"
+],
+"n": 3
+},
+"alexandrawilliams|leanapowell|valariebachelor": {
+"keys": [
+"## alameda/school | office=School Director, District 6 | id=Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict6 | status=contested"
+],
+"n": 3
+},
+"nelsonesparza|shannongrove": {
+"keys": [
+"## san-joaquin/statewide | office=Member, State Board of Equalization, District 1 | id=San Joaquin:statewide:stateofcalifornia:memberstateboardofequalizationdistrict1 | status=contested"
+]
+},
+"minniecottondiallo|paulakinjo": {
+"keys": [
+"## san-joaquin/city | office=Mayor | id=San Joaquin:city:cityoflathrop:mayor | status=contested"
+]
+},
+"danielmacneilage|leandrovicua|shelitajefferson|stevedresser": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council | id=San Joaquin:city:cityoflathrop:membercitycouncil | status=contested"
+]
+},
+"brandonsywassink|dawsonhayre|michaelcarouba": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council District 1 | id=San Joaquin:city:cityoflodi:membercitycouncildistrict1 | status=contested"
+]
+},
+"jordanduncan|lisacraighensley": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council District 2 | id=San Joaquin:city:cityoflodi:membercitycouncildistrict2 | status=contested"
+]
+},
+"cameronbregman|christophersanderson|deannebarth": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityoflodi:membercitycouncildistrict3 | status=contested"
+]
+},
+"garysingh|jacobnaven": {
+"keys": [
+"## san-joaquin/city | office=Mayor | id=San Joaquin:city:cityofmanteca:mayor | status=contested"
+]
+},
+"davidbreitenbucher|leiannvarlettalarson": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityofmanteca:membercitycouncildistrict3 | status=contested"
+]
+},
+"danibettencourt|mikemorowit|roggerfgutierrez": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council District 4 | id=San Joaquin:city:cityofmanteca:membercitycouncildistrict4 | status=contested"
+]
+},
+"arjunjuturu|bernicekingtingle|happygrewal|nadershareghi|ronnagreen|sureshvuyyuru": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council | id=San Joaquin:city:cityofmountainhouse:membercitycouncil | status=contested"
+]
+},
+"deanduecker|franklmadrigal|michaelrestuccia": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council | id=San Joaquin:city:cityofripon:membercitycouncil | status=contested"
+]
+},
+"michelepadilla|tamicasmall": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council District 1 | id=San Joaquin:city:cityofstockton:membercitycouncildistrict1 | status=contested"
+]
+},
+"jessicatoccoli|michaelblower": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityofstockton:membercitycouncildistrict3 | status=contested"
+]
+},
+"brandovillapudua|desireelynch": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council District 5 | id=San Joaquin:city:cityofstockton:membercitycouncildistrict5 | status=contested"
+]
+},
+"danarriola|mateobedolla|uyiosafelixoviawe": {
+"keys": [
+"## san-joaquin/city | office=Mayor | id=San Joaquin:city:cityoftracy:mayor | status=contested"
+]
+},
+"jasssangha|robincole": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council District 1 | id=San Joaquin:city:cityoftracy:membercitycouncildistrict1 | status=contested"
+]
+},
+"amenialexander|ametriusvsidney|danevans": {
+"keys": [
+"## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityoftracy:membercitycouncildistrict3 | status=contested"
+]
+},
+"charlesrjennings|tonyshah": {
+"keys": [
+"## san-joaquin/college | office=Board Member Trustee Area 4 | id=San Joaquin:college:sanjoaquindeltacommunitycollegedistrict:boardmembertrusteearea4 | status=contested"
+]
+},
+"larkinfleckner|toddwetherell": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:jeffersonelementaryschooldistrict:boardmembertrusteearea4 | status=contested"
+]
+},
+"stephanieolsen|vanithadaniel": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:lammersvilleunifiedschooldistrict:boardmembertrusteearea4 | status=contested"
+]
+},
+"jennifertrotter|kylebeadles": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:lindenunifiedschooldistrict:boardmembertrusteearea4 | status=contested"
+]
+},
+"katherineking|sherryalexander": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 3 | id=San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea3 | status=contested"
+]
+},
+"jeffstroh|ronheberle": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 5 | id=San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea5 | status=contested"
+]
+},
+"mariefreitas|rupindersinghjagpal|veronicasalazar": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea4 | status=contested"
+]
+},
+"barrykeith|stephenjschluer": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 6 | id=San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea6 | status=contested"
+]
+},
+"aliciahernandez|patrickmartin|samcarpenter": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 2 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea2 | status=contested"
+]
+},
+"donalddonaire|malinasanchez": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 5 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea5 | status=contested"
+]
+},
+"christinabaccamcbrian|sofiacoln": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 6 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea6 | status=contested"
+]
+},
+"davidpadilla|kennethastevens": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 7 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea7 | status=contested"
+]
+},
+"aliciarcorrales|olingayarberalexander": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea4 | status=contested"
+]
+},
+"devaughnjones|rgfagin": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 6 | id=San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea6 | status=contested"
+]
+},
+"barbarabobbieetcheverry|vijaypasapula": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 7 | id=San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea7 | status=contested"
+]
+},
+"glennspyksma|mikesonke": {
+"keys": [
+"## san-joaquin/special | office=Board Member Division 2 | id=San Joaquin:special:southsanjoaquinirrigationdistrict:boardmemberdivision2 | status=contested"
+]
+},
+"andreagehmlich": {
+"keys": [
+"## san-joaquin/school | office=Board Member Trustee Area 5 | id=San Joaquin:school:lammersvilleunifiedschooldistrict:boardmembertrusteearea5 | status=appointed_in_lieu"
+]
+}
+}

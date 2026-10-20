@@ -21,4 +21,5 @@ tmp/
 .env
 registrations.db
 registrations.db-*
-.frugal-fable/
+.frugal-fable/*
+!.frugal-fable/match/

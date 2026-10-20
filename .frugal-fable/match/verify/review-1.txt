@@ -1,0 +1,746 @@
+
+## CONTEST: Rent Stabilization Board Commissioner  [sig=averyarbaugh|carolemarasovic|derekrodriguez|idamartinac|nathanmizell|vylmaortiz]
+  Q id=keep-rent-control topic=housing
+    EN: Berkeley should keep rent control, which limits how much landlords can raise rent.
+    ES: Berkeley debería mantener el control de rentas, que limita cuánto pueden subir la renta los dueños.
+    TRADEOFF EN: Some say rent limits reduce new building and upkeep of rentals. | ES: Algunos dicen que los límites reducen la construcción y el mantenimiento.
+    MAP carolemarasovic: side=AGREE quote="she supports rent control"
+        full statement [0] (stated/housing): Says she supports rent control and plans to focus on anti-displacement, disability and anti-discrimination issues.
+    MAP idamartinac: side=AGREE quote="fought to protect and expand rent control"
+        full statement [1] (stated/housing): Says she has fought to protect and expand rent control.
+  Q id=weatherize-all-housing topic=energy
+    EN: Energy efficiency and weatherization programs should be extended to all housing in Berkeley.
+    ES: Los programas de eficiencia energética y climatización deberían extenderse a todas las viviendas de Berkeley.
+    TRADEOFF EN: The cost could fall on public funds, owners or tenants. | ES: El costo podría recaer en fondos públicos, dueños o inquilinos.
+    MAP idamartinac: side=AGREE quote="supports extending energy efficiency and weatherization programs to all housing"
+        full statement [0] (stated/environment): Says her main goal is making housing more climate resilient, and supports extending energy efficiency and weatherization programs to all housing.
+
+## CONTEST: State Assembly, District 14  [sig=buffywicks|markrendon]
+  Q id=calcare topic=health
+    EN: California should create one state-run health insurance plan for everyone, called CalCare.
+    ES: California debería crear un solo plan de seguro médico estatal para todos, llamado CalCare.
+    TRADEOFF EN: It would likely need large new taxes and replace private plans. | ES: Probablemente requeriría nuevos impuestos grandes y reemplazaría planes privados.
+    MAP markrendon: side=AGREE quote="he would enact CalCare"
+        full statement [0] (stated/health): Says he would enact CalCare, a health care system he describes as affordable and first-rate.
+  Q id=no-ice-cooperation topic=immigration
+    EN: California should not cooperate with federal immigration enforcement (ICE).
+    ES: California no debería cooperar con las autoridades federales de inmigración (ICE).
+    TRADEOFF EN: It could raise conflict with federal law and risk federal funding. | ES: Podría crear conflictos con la ley federal y poner en riesgo fondos federales.
+    MAP markrendon: side=AGREE quote="not cooperate with ICE"
+        full statement [3] (stated/immigration): Says he would shut down all ICE detention centers and not cooperate with ICE.
+  Q id=streamline-housing-permits topic=housing
+    EN: The state should speed up housing permits, even if it limits local review.
+    ES: El estado debería acelerar los permisos de vivienda, aunque se limite la revisión local.
+    TRADEOFF EN: Cities and neighbors would have less say over new buildings. | ES: Las ciudades y los vecinos tendrían menos voz sobre nuevos edificios.
+    MAP buffywicks: side=AGREE quote="streamlined permitting"
+        full statement [1] (stated/record): Says that over eight years she and others strengthened housing law, streamlined permitting and secured funding for affordable housing.
+  Q id=abortion-access topic=abortion
+    EN: California should keep abortion legal and available.
+    ES: California debería mantener el aborto legal y disponible.
+    TRADEOFF EN: Some people believe abortion should be limited or banned. | ES: Algunas personas creen que el aborto debería limitarse o prohibirse.
+    MAP buffywicks: side=AGREE quote="defending reproductive freedom"
+        full statement [3] (stated/other): Lists protecting kids online by taking on big tech, and defending reproductive freedom, as priorities if re-elected.
+
+## CONTEST: house/CA13  [sig=adamgray|kevinlincoln]
+  Q id=river-flows topic=water
+    EN: The state should require more river water to stay in rivers for fish, even if farms get less.
+    ES: El estado debería exigir que más agua se quede en los ríos para los peces, aunque las granjas reciban menos.
+    TRADEOFF EN: Farms and towns in the Valley would have less water to use. | ES: Las granjas y pueblos del Valle tendrían menos agua para usar.
+    MAP adamgray: side=DISAGREE quote="led the fight against the state water grab"
+        full statement [0] (stated/water): Says he led the fight against the state water grab, won more than $3 billion for storage and repairs, and wrote a plan to cut water-project red tape.
+  Q id=water-project-red-tape topic=water
+    EN: Permit rules for water projects like storage and repairs should be cut back.
+    ES: Las reglas de permisos para proyectos de agua, como almacenamiento y reparaciones, deberían reducirse.
+    TRADEOFF EN: Fewer rules could mean less review of effects on the environment. | ES: Menos reglas podrían significar menos revisión del impacto ambiental.
+    MAP adamgray: side=AGREE quote="wrote a plan to cut water-project red tape"
+        full statement [0] (stated/water): Says he led the fight against the state water grab, won more than $3 billion for storage and repairs, and wrote a plan to cut water-project red tape.
+  Q id=lower-taxes topic=taxes
+    EN: Congress should lower federal taxes.
+    ES: El Congreso debería bajar los impuestos federales.
+    TRADEOFF EN: Lower taxes could mean less money for programs or more debt. | ES: Menos impuestos podrían significar menos dinero para programas o más deuda.
+    MAP kevinlincoln: side=AGREE quote="he will fight to lower taxes"
+        full statement [0] (stated/economy): Says he will fight to lower taxes, address inflation and create good-paying Valley jobs to make California more affordable.
+  Q id=no-cuts-social-security topic=health
+    EN: Social Security and Medicare benefits should not be cut.
+    ES: Los beneficios del Seguro Social y Medicare no deberían recortarse.
+    TRADEOFF EN: Keeping benefits may require higher taxes or more federal debt. | ES: Mantener los beneficios podría requerir más impuestos o más deuda federal.
+    MAP adamgray: side=AGREE quote="says Social Security and Medicare should be protected"
+        full statement [1] (stated/health): Says he worked with both parties to secure more than $200 million for a UC Merced medical school, and says Social Security and Medicare should be protected.
+    MAP kevinlincoln: side=AGREE quote="protect Social Security and Medicare"
+        full statement [1] (stated/health): Says he will work to lower prescription drug costs and protect Social Security and Medicare.
+
+## CONTEST: City Council Member, Council #2  [sig=desriecampbell|keithparker]
+  Q id=more-police-staff topic=safety
+    EN: Fremont should increase the number of police officers.
+    ES: Fremont debería aumentar el número de policías.
+    TRADEOFF EN: More officers cost money that could go to other city services. | ES: Más policías cuestan dinero que podría ir a otros servicios.
+    MAP keithparker: side=AGREE quote="work with the Police Department to increase staffing"
+        full statement [1] (stated/safety): Says he will work with the Police Department to increase staffing and protect property.
+  Q id=streamline-business-permits topic=economy
+    EN: Fremont should simplify its permit process to attract new businesses.
+    ES: Fremont debería simplificar su proceso de permisos para atraer nuevos negocios.
+    TRADEOFF EN: Faster approvals may mean less review of impacts on neighbors. | ES: Aprobaciones más rápidas podrían significar menos revisión del impacto en vecinos.
+    MAP keithparker: side=AGREE quote="streamline processes to attract new businesses"
+        full statement [2] (stated/economy): Says he will streamline processes to attract new businesses.
+
+## CONTEST: School Board Member, Area 5  [sig=deeptigarg|francisrojas]
+  Q id=expand-steam topic=education
+    EN: The district should expand STEAM programs (science, technology, engineering, arts and math).
+    ES: El distrito debería ampliar los programas STEAM (ciencia, tecnología, ingeniería, artes y matemáticas).
+    TRADEOFF EN: Money for new programs could come from other school needs. | ES: El dinero para nuevos programas podría salir de otras necesidades escolares.
+    MAP francisrojas: side=AGREE quote="Supports expanding STEAM programs"
+        full statement [1] (stated/jobs): Supports expanding STEAM programs and college and career readiness opportunities.
+
+## CONTEST: City Council Member, Council #4  [sig=kashefqaadri|shivrajsingh]
+  Q id=more-housing topic=growth
+    EN: Dublin should allow more new housing to be built.
+    ES: Dublin debería permitir que se construyan más viviendas nuevas.
+    TRADEOFF EN: More homes can add traffic and strain schools and services. | ES: Más viviendas pueden aumentar el tráfico y presionar escuelas y servicios.
+    MAP kashefqaadri: side=AGREE quote="Dublin can add new housing and business opportunities without losing the character"
+        full statement [0] (stated/growth): Says Dublin can add new housing and business opportunities without losing the character residents love.
+
+## CONTEST: Superintendent of Public Instruction  [sig=richardbarrera|sonjashaw]
+  Q id=focus-basics topic=education
+    EN: Schools should spend more class time on reading, writing and math.
+    ES: Las escuelas deberían dedicar más tiempo de clase a lectura, escritura y matemáticas.
+    TRADEOFF EN: Less time could be left for arts, science and other subjects. | ES: Podría quedar menos tiempo para artes, ciencias y otras materias.
+    MAP sonjashaw: side=AGREE quote="wants schools to focus on reading, writing and math"
+        full statement [0] (stated/education): Says half of students cannot read or write at grade level and wants schools to focus on reading, writing and math.
+  Q id=parent-say topic=education
+    EN: Parents should have more say in state school policies that affect their children.
+    ES: Los padres deberían tener más voz en las políticas escolares estatales que afectan a sus hijos.
+    TRADEOFF EN: Some worry this could limit student privacy or teacher judgment. | ES: A algunos les preocupa que limite la privacidad estudiantil o el criterio docente.
+    MAP sonjashaw: side=AGREE quote="some state policies left parents out of decisions"
+        full statement [1] (stated/other): Lists parental rights as a priority and says some state policies left parents out of decisions.
+
+## CONTEST: School Director, District 4  [sig=kathryncamp|mikehutchinson|sylviapfeifferwilliams]
+  Q id=career-pathways topic=education
+    EN: Oakland high schools should expand career pathway programs for students.
+    ES: Las preparatorias de Oakland deberían ampliar los programas de preparación para carreras.
+    TRADEOFF EN: Money for career programs could otherwise go to core academic classes. | ES: El dinero para programas de carreras podría usarse en clases académicas básicas.
+    MAP kathryncamp: side=AGREE quote="Supports expanded career pathways for students"
+        full statement [1] (stated/economy): Supports expanded career pathways for students
+  Q id=adult-ed topic=education
+    EN: The school district should make adult education programs a priority.
+    ES: El distrito escolar debería dar prioridad a los programas de educación para adultos.
+    TRADEOFF EN: Money for adult classes could otherwise go to K-12 students. | ES: El dinero para clases de adultos podría usarse en estudiantes de kínder a 12.º grado.
+    MAP sylviapfeifferwilliams: side=AGREE quote="Prioritizes safe schools, community schools, and adult education"
+        full statement [2] (stated/education): Prioritizes safe schools, community schools, and adult education
+
+## CONTEST: State Assembly, District 16  [sig=josepharubay|rebeccabauerkahan]
+  Q id=abortion-access topic=abortion
+    EN: The state should help make abortion care affordable and easy to get.
+    ES: El estado debería ayudar a que el aborto sea accesible y asequible.
+    TRADEOFF EN: Some people object to public support for abortion on moral grounds. | ES: Algunas personas se oponen por razones morales al apoyo público al aborto.
+    MAP rebeccabauerkahan: side=AGREE quote="affordable access to pregnancy, abortion and menopause care"
+        full statement [3] (stated/abortion): Says she has led the fight for women’s health and reproductive choice, including affordable access to pregnancy, abortion and menopause care.
+  Q id=gun-laws topic=guns
+    EN: California should pass stricter gun safety laws.
+    ES: California debería aprobar leyes más estrictas sobre armas.
+    TRADEOFF EN: Some gun owners say more rules limit their rights without cutting crime. | ES: Algunos dueños de armas dicen que más reglas limitan sus derechos sin reducir el crimen.
+    MAP rebeccabauerkahan: side=AGREE quote="worked with public safety officials to strengthen gun safety and hate crimes laws"
+        full statement [2] (stated/safety): Says she worked with public safety officials to strengthen gun safety and hate crimes laws and to fund law enforcement response to organized retail theft.
+  Q id=repeat-offenders topic=crime
+    EN: People who commit crimes again and again should face tougher penalties.
+    ES: Quienes cometen delitos una y otra vez deberían recibir castigos más duros.
+    TRADEOFF EN: Longer sentences cost more for jails and may not lower crime. | ES: Las condenas más largas cuestan más en cárceles y quizá no reduzcan el crimen.
+    MAP josepharubay: side=AGREE quote="wants stronger accountability for repeat offenders"
+        full statement [0] (stated/safety): Says he opposes defunding police, supports adequate law enforcement funding and wants stronger accountability for repeat offenders.
+  Q id=parents-final-say topic=education
+    EN: Parents, not schools, should have the final say on their child's education.
+    ES: Los padres, no las escuelas, deberían tener la última palabra sobre la educación de sus hijos.
+    TRADEOFF EN: Schools could find it harder to keep one shared plan for all students. | ES: A las escuelas les podría costar más mantener un plan común para todos.
+    MAP josepharubay: side=AGREE quote="parents should have the final say on their child’s education"
+        full statement [2] (stated/education): Supports a back-to-basics education focused on core subjects and says parents should have the final say on their child’s education.
+
+## CONTEST: City Council Member, Council #2  [sig=benbarrientos|narayantadimeti]
+  Q id=growth-boundary topic=growth
+    EN: Livermore should keep its Urban Growth Boundary, which limits building on open land.
+    ES: Livermore debería mantener su límite de crecimiento urbano, que restringe construir en terrenos abiertos.
+    TRADEOFF EN: Limiting where homes can go may keep housing scarce and costly. | ES: Limitar dónde se construye puede mantener la vivienda escasa y cara.
+    MAP benbarrientos: side=AGREE quote="supported incentives for energy and water conservation and the Urban Growth Boundary"
+        full statement [1] (stated/environment): Says that as a council member he supported incentives for energy and water conservation and the Urban Growth Boundary.
+  Q id=worker-housing topic=housing
+    EN: Livermore should add more affordable housing for workers like teachers and nurses.
+    ES: Livermore debería crear más vivienda asequible para trabajadores como maestros y enfermeras.
+    TRADEOFF EN: It may need city money or denser building in neighborhoods. | ES: Podría requerir dinero de la ciudad o más densidad en los vecindarios.
+    MAP benbarrientos: side=AGREE quote="supports more affordable housing, especially for seniors, nurses, teachers"
+        full statement [0] (stated/housing): Says he supports more affordable housing, especially for seniors, nurses, teachers, firefighters, police and other essential service personnel.
+  Q id=conservation-incentives topic=environment
+    EN: The city should pay incentives to people who save energy and water.
+    ES: La ciudad debería dar incentivos a quienes ahorran energía y agua.
+    TRADEOFF EN: Incentive programs cost city money that could fund other needs. | ES: Los incentivos cuestan dinero que podría usarse en otras necesidades.
+    MAP benbarrientos: side=AGREE quote="supported incentives for energy and water conservation"
+        full statement [1] (stated/environment): Says that as a council member he supported incentives for energy and water conservation and the Urban Growth Boundary.
+
+## CONTEST: City Council Member, Council #3  [sig=jamieyee|reenagupta]
+  Q id=no-tax-rate-hike topic=taxes
+    EN: Pleasanton should not raise local tax rates, even to pay for more services.
+    ES: Pleasanton no debería subir las tasas de impuestos locales, ni siquiera para pagar más servicios.
+    TRADEOFF EN: Without new taxes, some services or repairs may be cut or delayed. | ES: Sin impuestos nuevos, algunos servicios o reparaciones podrían recortarse o retrasarse.
+    MAP reenagupta: side=AGREE quote="wants to grow the revenue base, not the tax rate"
+        full statement [0] (stated/budget): Says Pleasanton must remain fiscally disciplined and wants to grow the revenue base, not the tax rate.
+  Q id=stoneridge-redevelop topic=growth
+    EN: The city should support redeveloping Stoneridge Mall.
+    ES: La ciudad debería apoyar la remodelación del centro comercial Stoneridge.
+    TRADEOFF EN: Redevelopment can bring more traffic and change the area's feel. | ES: La remodelación puede traer más tráfico y cambiar el carácter de la zona.
+    MAP reenagupta: side=AGREE quote="support Stoneridge Mall redevelopment"
+        full statement [1] (stated/economy): Plans to revitalize Downtown, support Stoneridge Mall redevelopment, attract businesses and reduce commercial vacancies.
+  Q id=library-hours topic=community
+    EN: Pleasanton should restore library hours that were cut.
+    ES: Pleasanton debería recuperar los horarios de biblioteca que se recortaron.
+    TRADEOFF EN: Longer hours cost money that could go to other city needs. | ES: Más horas cuestan dinero que podría usarse en otras necesidades de la ciudad.
+    MAP reenagupta: side=AGREE quote="restoring library hours"
+        full statement [2] (stated/community): Says she supports thoughtful housing, public safety, restoring library hours and investing in infrastructure.
+
+## CONTEST: Director, Ward 4  [sig=gabrielmorales|sarahsyed]
+  Q id=broadway-service topic=roads
+    EN: AC Transit should restore bus service on Broadway.
+    ES: AC Transit debería restablecer el servicio de autobús en Broadway.
+    TRADEOFF EN: Money for this route could otherwise go to other routes. | ES: El dinero para esta ruta podría destinarse a otras rutas.
+    MAP sarahsyed: side=AGREE quote="restored Broadway service"
+        full statement [0] (stated/roads): Supports frequent, reliable buses and restored Broadway service
+
+## CONTEST: City Council Member  [sig=amoswhite|marciejohnson|marialbondonno|steveslauson|thushanamarasiriwardena|tylersavage]
+  Q id=restaurant-food-tax topic=taxes
+    EN: Sales tax on food eaten at restaurants should end.
+    ES: Debería eliminarse el impuesto sobre la comida consumida en restaurantes.
+    TRADEOFF EN: Governments would collect less money for public services. | ES: El gobierno recaudaría menos dinero para servicios públicos.
+    MAP steveslauson: side=AGREE quote="supports ending taxes on food eaten at restaurants"
+        full statement [3] (stated/taxes): Says he supports ending taxes on food eaten at restaurants.
+  Q id=single-family-neighborhoods topic=growth
+    EN: Alameda's historic single-family neighborhoods should stay single-family, not be opened to denser housing.
+    ES: Los barrios históricos de casas unifamiliares de Alameda deberían seguir así, sin abrirse a más densidad.
+    TRADEOFF EN: Fewer new homes could be built, which may keep housing costs high. | ES: Se construirían menos viviendas nuevas, lo que podría mantener altos los costos.
+    MAP steveslauson: side=AGREE quote="preserve Alameda's historic single-family neighborhoods"
+        full statement [0] (stated/growth): Says he will continue to preserve Alameda's historic single-family neighborhoods.
+  Q id=bond-climate-shoreline topic=environment
+    EN: City infrastructure bond money should go toward climate and shoreline adaptation plans.
+    ES: Los bonos de infraestructura de la ciudad deberían financiar planes de clima y adaptación costera.
+    TRADEOFF EN: Less bond money would be left for roads, pipes and other repairs. | ES: Quedaría menos dinero de bonos para calles, tuberías y otras reparaciones.
+    MAP amoswhite: side=AGREE quote="direct infrastructure bond funds to the city's Climate Action and Shoreline Adaptation Plans"
+        full statement [0] (stated/environment): Says he would direct infrastructure bond funds to the city's Climate Action and Shoreline Adaptation Plans.
+  Q id=veterans-center topic=veterans
+    EN: The city should finish building a Veterans Center at the old Navy base.
+    ES: La ciudad debería terminar de construir un Centro de Veteranos en la antigua base naval.
+    TRADEOFF EN: The money and land could be used for other city needs. | ES: El dinero y el terreno podrían usarse para otras necesidades de la ciudad.
+    MAP steveslauson: side=AGREE quote="complete the Veterans Center at the old Navy base"
+        full statement [4] (stated/veterans): Says he will work to complete the Veterans Center at the old Navy base.
+
+## CONTEST: City Council Member, Council #1  [sig=kathynarum|vinkruttiventi]
+  Q id=stoneridge-mall topic=economy
+    EN: Pleasanton should make revitalizing Stoneridge Mall a main way to raise city revenue.
+    ES: Pleasanton debería revitalizar el centro comercial Stoneridge como vía principal para tener más ingresos.
+    TRADEOFF EN: Retail income can be uncertain, and city effort there takes from other needs. | ES: Los ingresos del comercio son inciertos y ese esfuerzo resta atención a otras necesidades.
+    MAP vinkruttiventi: side=AGREE quote="raise revenue by supporting local businesses, revitalizing Stoneridge Mall"
+        full statement [1] (stated/economy): Says the city must raise revenue by supporting local businesses, revitalizing Stoneridge Mall, and attracting new businesses to downtown and business parks.
+
+## CONTEST: State Assembly, District 20  [sig=lizortega|patriciamuga]
+  Q id=ice-contractor-benefits topic=immigration
+    EN: California should deny state benefits to private companies that help ICE.
+    ES: California debería negar beneficios estatales a las empresas privadas que ayudan a ICE.
+    TRADEOFF EN: It could raise conflicts with the federal government and in courts. | ES: Podría causar conflictos con el gobierno federal y en los tribunales.
+    MAP lizortega: side=AGREE quote="end benefits for private companies helping ICE"
+        full statement [0] (stated/immigration): Says she authored multiple bills to end illegal raids, demand more ICE oversight, and end benefits for private companies helping ICE.
+  Q id=card-fees topic=economy
+    EN: The state should limit the extra fees banks and card companies charge businesses.
+    ES: El estado debería limitar los cargos extra que bancos y compañías de tarjetas cobran a los negocios.
+    TRADEOFF EN: Card companies could cut rewards or raise other costs. | ES: Las compañías de tarjetas podrían reducir beneficios o subir otros costos.
+    MAP lizortega: side=AGREE quote="stop big banks and credit card companies from charging businesses extra fees"
+        full statement [2] (stated/economy): Says she sponsored legislation to stop big banks and credit card companies from charging businesses extra fees, and to give tax relief to small business owners.
+  Q id=keep-natural-gas topic=energy
+    EN: California should keep using natural gas rather than phase it out.
+    ES: California debería seguir usando gas natural en lugar de eliminarlo poco a poco.
+    TRADEOFF EN: It would slow the shift to cleaner energy and add to air pollution. | ES: Haría más lento el cambio a energía limpia y aumentaría la contaminación.
+    MAP patriciamuga: side=AGREE quote="she supports keeping natural gas, nuclear plants and petroleum refineries"
+        full statement [1] (reporting/energy): Pleasanton Weekly reports she supports keeping natural gas, nuclear plants and petroleum refineries, and increasing water storage.
+  Q id=voter-citizenship-proof topic=elections
+    EN: People should have to show proof of citizenship to register to vote.
+    ES: Debería exigirse prueba de ciudadanía para inscribirse para votar.
+    TRADEOFF EN: Some eligible citizens without papers on hand may have trouble registering. | ES: Algunos ciudadanos sin documentos a mano podrían tener problemas para inscribirse.
+    MAP patriciamuga: side=AGREE quote="requiring proof of citizenship for voter registration"
+        full statement [2] (reporting/elections): Pleasanton Weekly reports she advocates requiring proof of citizenship for voter registration.
+
+## CONTEST: State Senator, District 10  [sig=lindarprice|scottsakakihara]
+  Q id=limit-ice topic=immigration
+    EN: California should take steps to limit ICE enforcement in the state.
+    ES: California debería tomar medidas para limitar la aplicación de leyes de ICE en el estado.
+    TRADEOFF EN: It could raise conflicts with the federal government and risk federal funds. | ES: Podría causar conflictos con el gobierno federal y poner en riesgo fondos federales.
+    MAP scottsakakihara: side=AGREE quote="wants to stop ICE"
+        full statement [1] (stated/immigration): Says he is committed to protecting immigrants in California who are targeted by Trump and ICE, and wants to stop ICE.
+  Q id=universal-health topic=health
+    EN: California should guarantee health coverage for every resident.
+    ES: California debería garantizar cobertura médica para todos sus residentes.
+    TRADEOFF EN: It would likely require large new taxes. | ES: Probablemente requeriría nuevos impuestos grandes.
+    MAP scottsakakihara: side=AGREE quote="Supports universal healthcare"
+        full statement [2] (stated/health): Supports universal healthcare and childcare, raising wages, and fully funding public schools.
+  Q id=universal-childcare topic=childcare
+    EN: The state should provide child care to every family that wants it.
+    ES: El estado debería ofrecer cuidado infantil a toda familia que lo desee.
+    TRADEOFF EN: It would cost the state billions each year. | ES: Le costaría al estado miles de millones cada año.
+    MAP scottsakakihara: side=AGREE quote="Supports universal healthcare and childcare"
+        full statement [2] (stated/health): Supports universal healthcare and childcare, raising wages, and fully funding public schools.
+
+## CONTEST: Attorney General  [sig=michaelegates|robbonta]
+  Q id=camping-laws topic=homeless
+    EN: The state should strictly enforce laws against camping and loitering in public places.
+    ES: El estado debería aplicar estrictamente las leyes contra acampar y merodear en lugares públicos.
+    TRADEOFF EN: People without shelter may be moved or cited with nowhere else to go. | ES: Personas sin refugio podrían ser desalojadas o multadas sin otro lugar adonde ir.
+    MAP michaelegates: side=AGREE quote="enforcing camping and loitering laws"
+        full statement [0] (stated/safety): Says he is ready to crack down on lawlessness in the state; lists enforcing camping and loitering laws and funding police as priorities.
+  Q id=local-housing-control topic=housing
+    EN: Cities, not the state, should decide how dense new housing can be.
+    ES: Las ciudades, no el estado, deberían decidir qué tan densa puede ser la vivienda nueva.
+    TRADEOFF EN: Some cities may block new homes, keeping housing scarce and costly. | ES: Algunas ciudades podrían frenar viviendas nuevas, manteniéndolas escasas y caras.
+    MAP michaelegates: side=AGREE quote="opposes state housing density mandates"
+        full statement [1] (stated/housing): Says local officials, not state leaders, should decide housing and other local matters; opposes state housing density mandates.
+
+## CONTEST: City Council Member, District 1  [sig=dariawrubel|laurababitt|monigangopadhyay|rossbernet|stevekromer]
+  Q id=flock-cameras topic=safety
+    EN: Berkeley police should use license-plate reader cameras, like Flock, to help solve crimes.
+    ES: La policía de Berkeley debería usar cámaras lectoras de placas, como Flock, para resolver delitos.
+    TRADEOFF EN: The cameras collect data on many drivers who did nothing wrong. | ES: Las cámaras recopilan datos de muchos conductores que no hicieron nada malo.
+    MAP monigangopadhyay: side=DISAGREE quote="keep Flock (license-plate camera technology) out of Berkeley"
+        full statement [0] (stated/streets): Lists three slogans: repair streets, save the waterfront, and keep Flock (license-plate camera technology) out of Berkeley.
+  Q id=tenant-protections topic=housing
+    EN: Berkeley should add stronger protections for renters.
+    ES: Berkeley debería agregar protecciones más fuertes para los inquilinos.
+    TRADEOFF EN: Some landlords may rent out or build fewer units. | ES: Algunos dueños podrían rentar o construir menos viviendas.
+    MAP monigangopadhyay: side=AGREE quote="improve tenant protections"
+        full statement [2] (stated/housing): Says he will work with community land trusts and nonprofits on affordable housing, improve tenant protections, and fight housing speculation.
+    MAP dariawrubel: side=AGREE quote="build housing and protect tenants"
+        full statement [0] (stated/housing): Says she is running to build housing and protect tenants, and that those goals belong together.
+  Q id=housing-all-incomes topic=housing
+    EN: Berkeley should allow more new housing at all income levels, including market-rate homes.
+    ES: Berkeley debería permitir más viviendas nuevas para todos los niveles de ingreso, incluso a precio de mercado.
+    TRADEOFF EN: More building can mean more density, traffic and change in neighborhoods. | ES: Construir más puede traer más densidad, tráfico y cambios en los vecindarios.
+    MAP rossbernet: side=AGREE quote="create more housing at all income levels"
+        full statement [0] (stated/housing): Says he will work to create more housing at all income levels so children can afford to live in Berkeley when they grow up.
+
+## CONTEST: City Council Member, Council #4  [sig=anuragmishra|azizakbari|manishapathak|yingminli]
+  Q id=fully-staff-police topic=safety
+    EN: Fremont should spend more to fully staff its police department.
+    ES: Fremont debería gastar más para tener su departamento de policía con personal completo.
+    TRADEOFF EN: Money spent on police can't go to other city services. | ES: El dinero para la policía no puede ir a otros servicios de la ciudad.
+    MAP yingminli: side=AGREE quote="fully staff the Police Department"
+        full statement [0] (stated/safety): Says public safety is her top priority and she will work to fully staff the Police Department and equip it with resources.
+  Q id=build-affordable-housing topic=housing
+    EN: Fremont should build more affordable housing for working families and seniors.
+    ES: Fremont debería construir más vivienda asequible para familias trabajadoras y personas mayores.
+    TRADEOFF EN: New housing can add density and traffic, and subsidies cost money. | ES: Más vivienda puede traer densidad y tráfico, y los subsidios cuestan dinero.
+    MAP azizakbari: side=AGREE quote="he will build affordable housing so working families and seniors can live in Fremont"
+        full statement [0] (stated/housing): Says he will build affordable housing so working families and seniors can live in Fremont.
+  Q id=expand-green-space topic=environment
+    EN: Fremont should expand parks and green spaces across the city.
+    ES: Fremont debería ampliar los parques y áreas verdes en toda la ciudad.
+    TRADEOFF EN: Land used for parks can't be used for housing or business. | ES: El terreno para parques no se puede usar para vivienda o negocios.
+    MAP azizakbari: side=AGREE quote="he will expand green spaces"
+        full statement [1] (stated/environment): Says he will expand green spaces so Fremont feels like a city built inside a park.
+
+## CONTEST: School Director  [sig=jennifershanoski|kadijahabrown|sandypark]
+  Q id=gender-neutral-bathrooms topic=education
+    EN: Schools should offer gender-neutral bathrooms.
+    ES: Las escuelas deberían ofrecer baños de género neutro.
+    TRADEOFF EN: Some families have privacy concerns, and changes cost money. | ES: Algunas familias tienen dudas de privacidad, y los cambios cuestan dinero.
+    MAP jennifershanoski: side=AGREE quote="gender neutral bathrooms"
+        full statement [2] (record/safety): Championed safe student drop-offs, aftercare expansion, and gender neutral bathrooms
+  Q id=local-measures-teacher-pay topic=education
+    EN: The district should ask voters to pass local measures that raise teacher pay.
+    ES: El distrito debería pedir a los votantes aprobar medidas locales para subir el sueldo de maestros.
+    TRADEOFF EN: Local measures usually mean higher taxes for property owners. | ES: Las medidas locales suelen significar más impuestos para los propietarios.
+    MAP jennifershanoski: side=AGREE quote="Co-chaired committees that passed in 2022 and 2024 for teacher salaries and school facilities"
+        full statement [0] (record/education): Co-chaired committees that passed in 2022 and 2024 for teacher salaries and school facilities
+  Q id=ai-privacy-rules topic=education
+    EN: The district should adopt new AI and technology rules to protect student privacy.
+    ES: El distrito debería adoptar nuevas reglas de IA y tecnología para proteger la privacidad estudiantil.
+    TRADEOFF EN: Strict rules could limit useful learning tools in class. | ES: Reglas estrictas podrían limitar herramientas útiles en clase.
+    MAP sandypark: side=AGREE quote="establishing forward-thinking AI and technology policies that safeguard student privacy"
+        full statement [0] (stated/education): Supports establishing forward-thinking AI and technology policies that safeguard student privacy
+
+## CONTEST: Insurance Commissioner  [sig=benallen|janekim]
+  Q id=block-rate-hikes topic=cost
+    EN: The insurance commissioner should block most insurance rate increases.
+    ES: El comisionado de seguros debería bloquear la mayoría de los aumentos de tarifas.
+    TRADEOFF EN: Insurers may stop selling new policies or leave the state. | ES: Las aseguradoras podrían dejar de vender pólizas o irse del estado.
+    MAP janekim: side=AGREE quote="Says she will stop insurers from raising rates"
+        full statement [0] (stated/cost): Says she will stop insurers from raising rates, illegal price gouging and denying valid claims. Lists lower costs, guaranteed coverage and fast, fair claims as priorities.
+  Q id=refuse-insurer-money topic=elections
+    EN: Candidates for insurance commissioner should refuse campaign money from insurance companies.
+    ES: Los candidatos a comisionado de seguros deberían rechazar dinero de campaña de aseguradoras.
+    TRADEOFF EN: Candidates may have less money to reach voters. | ES: Los candidatos podrían tener menos dinero para llegar a los votantes.
+    MAP benallen: side=AGREE quote="Lists refusing insurance industry money as one of his commitments."
+        full statement [1] (stated/finance): Lists refusing insurance industry money as one of his commitments.
+    MAP janekim: side=AGREE quote="Says she has not taken insurance company money in this election"
+        full statement [1] (stated/finance): Says she has not taken insurance company money in this election and refuses contributions from corporate PACs.
+
+## CONTEST: Member, State Board of Equalization, 2nd District  [sig=johnpimentel|sallyjlieber]
+  Q id=billionaires-tax topic=taxes
+    EN: California should pass a new tax on billionaires.
+    ES: California debería aprobar un nuevo impuesto a los multimillonarios.
+    TRADEOFF EN: Without it, the state has less money for programs. | ES: Sin él, el estado tiene menos dinero para programas.
+    MAP johnpimentel: side=DISAGREE quote="would oppose broad tax increases such as the proposed Billionaires Tax"
+        full statement [1] (stated/taxes): Says he would oppose broad tax increases such as the proposed Billionaires Tax, and would seek to end the sales tax on food.
+  Q id=end-food-sales-tax topic=taxes
+    EN: California should end the sales tax on food.
+    ES: California debería eliminar el impuesto sobre las ventas de alimentos.
+    TRADEOFF EN: State and local governments would collect less money. | ES: Los gobiernos estatales y locales recaudarían menos dinero.
+    MAP johnpimentel: side=AGREE quote="would seek to end the sales tax on food"
+        full statement [1] (stated/taxes): Says he would oppose broad tax increases such as the proposed Billionaires Tax, and would seek to end the sales tax on food.
+  Q id=eliminate-boe topic=budget
+    EN: California should eliminate the elected State Board of Equalization.
+    ES: California debería eliminar la Junta Estatal de Igualación elegida por votantes.
+    TRADEOFF EN: Voters would lose elected officials who oversee some tax matters. | ES: Los votantes perderían funcionarios electos que supervisan asuntos de impuestos.
+    MAP johnpimentel: side=AGREE quote="considers eliminating the organization"
+        full statement [0] (stated/budget): Says he questions whether four elected Board members in an oversight role create value, and considers eliminating the organization.
+
+## CONTEST: School Board Member (full term)  [sig=carriehahnel|garylym|joyceboyd|mikemcmahon|sarahputnam]
+  Q id=parcel-tax-bonds topic=education
+    EN: The school district should ask voters to pass parcel taxes and bonds to fix school buildings.
+    ES: El distrito escolar debería pedir a los votantes aprobar impuestos a parcelas y bonos para arreglar escuelas.
+    TRADEOFF EN: Property owners would pay more in taxes. | ES: Los dueños de propiedades pagarían más impuestos.
+    MAP garylym: side=AGREE quote="pass multiple parcel taxes and facility bonds for school infrastructure"
+        full statement [3] (stated/budget): Worked with stakeholders to pass multiple parcel taxes and facility bonds for school infrastructure.
+  Q id=bond-audits topic=budget
+    EN: School bond spending should be checked by an independent financial audit.
+    ES: El gasto de los bonos escolares debería revisarse con una auditoría financiera independiente.
+    TRADEOFF EN: Audits cost money and staff time. | ES: Las auditorías cuestan dinero y tiempo del personal.
+    MAP sarahputnam: side=AGREE quote="Demands independent financial audits of bond allocations"
+        full statement [1] (stated/budget): Demands independent financial audits of bond allocations and responsible stewardship of taxpayer dollars.
+  Q id=teacher-pay topic=jobs
+    EN: The district should raise pay for teachers and school staff.
+    ES: El distrito debería subir el sueldo de los maestros y del personal escolar.
+    TRADEOFF EN: Less money would be left for programs, or deficits could grow. | ES: Quedaría menos dinero para programas, o podría crecer el déficit.
+    MAP carriehahnel: side=AGREE quote="Secured 10 percent pay increase and more affordable health benefits for educators and staff"
+        full statement [1] (stated/jobs): Secured 10 percent pay increase and more affordable health benefits for educators and staff while on the board.
+    MAP sarahputnam: side=AGREE quote="Supports competitive teacher compensation"
+        full statement [3] (stated/jobs): Supports competitive teacher compensation and resources educators need to help every student succeed.
+  Q id=ai-learning topic=education
+    EN: Schools should use AI tools to personalize learning for each student.
+    ES: Las escuelas deberían usar herramientas de IA para adaptar el aprendizaje a cada estudiante.
+    TRADEOFF EN: AI tools raise privacy concerns and may not improve learning. | ES: La IA plantea dudas de privacidad y quizás no mejore el aprendizaje.
+    MAP mikemcmahon: side=AGREE quote="artificial intelligence should be governed thoughtfully for personalized learning"
+        full statement [0] (stated/education): Says artificial intelligence should be governed thoughtfully for personalized learning while protecting privacy and equity.
+
+## CONTEST: Mayor  [sig=marksalinas|tomwong]
+  Q id=data-centers topic=growth
+    EN: Hayward should stop allowing more data centers to be built.
+    ES: Hayward debería dejar de permitir que se construyan más centros de datos.
+    TRADEOFF EN: The city could lose tax money and jobs. | ES: La ciudad podría perder ingresos fiscales y empleos.
+    MAP tomwong: side=AGREE quote="stopping more data-center expansion"
+        full statement [4] (stated/housing): Campaign site lists stopping more data-center expansion and putting resources toward family housing as a priority.
+  Q id=senior-property-tax topic=taxes
+    EN: Senior homeowners should not have to pay property tax.
+    ES: Los propietarios de vivienda mayores de edad no deberían pagar impuesto a la propiedad.
+    TRADEOFF EN: Less money for city services and schools. | ES: Habría menos dinero para servicios de la ciudad y escuelas.
+    MAP tomwong: side=AGREE quote="no property tax for senior homeowners"
+        full statement [3] (stated/taxes): Says he will champion no property tax for senior homeowners.
+  Q id=local-hiring topic=jobs
+    EN: Hiring rules should give Hayward residents first priority for Hayward jobs.
+    ES: Las reglas de contratación deberían dar prioridad a los residentes de Hayward para empleos en Hayward.
+    TRADEOFF EN: It could shrink the pool of qualified workers. | ES: Podría reducir el número de trabajadores calificados disponibles.
+    MAP tomwong: side=AGREE quote="hiring policies that give Hayward residents priority for Hayward jobs"
+        full statement [2] (stated/jobs): Says he will push for hiring policies that give Hayward residents priority for Hayward jobs.
+  Q id=student-transit topic=education
+    EN: The city should pay for free transit passes for students.
+    ES: La ciudad debería pagar pases de transporte gratis para estudiantes.
+    TRADEOFF EN: That money could go to other city services. | ES: Ese dinero podría usarse en otros servicios de la ciudad.
+    MAP marksalinas: side=AGREE quote="citing free student transit passes"
+        full statement [2] (stated/education): Says he worked to make Hayward an Education City, citing free student transit passes, Hayward Rides bicycles, and guaranteed Cal State East Bay admission for high school graduates.
+
+## CONTEST: City Council Member, District 7  [sig=aidanhill|syrakmicael]
+  Q id=public-land-vote topic=growth
+    EN: Voters should have to approve before major public land is converted to new uses.
+    ES: Los votantes deberían aprobar antes de que se cambie el uso de terrenos públicos importantes.
+    TRADEOFF EN: It could slow housing and other projects. | ES: Podría retrasar proyectos de vivienda y otros.
+    MAP aidanhill: side=AGREE quote="seek voter approval before major public land is converted"
+        full statement [3] (stated/other): Says he will seek voter approval before major public land is converted and publish quarterly progress reports.
+  Q id=development-fees topic=growth
+    EN: Large new developments should pay for the roads, pipes and services their growth needs.
+    ES: Los grandes desarrollos nuevos deberían pagar las calles, tuberías y servicios que su crecimiento requiere.
+    TRADEOFF EN: Higher costs could mean fewer new homes get built. | ES: Costos más altos podrían significar que se construyan menos viviendas.
+    MAP aidanhill: side=AGREE quote="make major development fund the infrastructure its growth demands"
+        full statement [2] (stated/growth): Says he will work to make major development fund the infrastructure its growth demands and press UC Berkeley for housing and neighborhood responsibility.
+  Q id=rent-control topic=housing
+    EN: Berkeley should keep its rent-controlled housing protected from changes.
+    ES: Berkeley debería mantener protegidas las viviendas con control de alquiler.
+    TRADEOFF EN: Rent control can discourage owners from building or renting units. | ES: El control de alquiler puede desanimar a dueños a construir o alquilar.
+    MAP aidanhill: side=AGREE quote="protect rent-controlled housing"
+        full statement [0] (stated/housing): Says he will protect rent-controlled housing and expand permanent affordability.
+  Q id=affordable-housing topic=housing
+    EN: Berkeley should use city money to expand affordable housing.
+    ES: Berkeley debería usar dinero de la ciudad para ampliar la vivienda asequible.
+    TRADEOFF EN: Less money for other services, or higher taxes. | ES: Menos dinero para otros servicios, o impuestos más altos.
+    MAP aidanhill: side=AGREE quote="expand permanent affordability"
+        full statement [0] (stated/housing): Says he will protect rent-controlled housing and expand permanent affordability.
+    MAP syrakmicael: side=AGREE quote="fund housing infrastructure, and support affordable housing"
+        full statement [1] (stated/record): Says that on the Housing Advisory Commission he voted to hold landlords accountable, fund housing infrastructure, and support affordable housing.
+
+## CONTEST: City Council Member, District 2  [sig=charlenewang|nateadams]
+  Q id=ice-cooperation topic=immigration
+    EN: Oakland should ban city cooperation with federal immigration agents (ICE).
+    ES: Oakland debería prohibir que la ciudad coopere con agentes federales de inmigración (ICE).
+    TRADEOFF EN: It could risk federal funding or conflict with federal agencies. | ES: Podría arriesgar fondos federales o causar conflictos con agencias federales.
+    MAP charlenewang: side=AGREE quote="banning collection of immigration status data and cooperation with ICE"
+        full statement [1] (stated/immigration): Says she wrote Oakland's new sanctuary law, banning collection of immigration status data and cooperation with ICE.
+  Q id=motel-shelters topic=homeless
+    EN: Oakland should convert motels into homeless shelters.
+    ES: Oakland debería convertir moteles en refugios para personas sin hogar.
+    TRADEOFF EN: It costs money and nearby neighbors may object. | ES: Cuesta dinero y los vecinos cercanos podrían oponerse.
+    MAP charlenewang: side=AGREE quote="converting motels into homeless shelters"
+        full statement [2] (stated/homeless): Says she closed the East 12th encampment and is converting motels into homeless shelters.
+  Q id=city-jobs topic=jobs
+    EN: Oakland should hire 1,000 more city workers to deliver services.
+    ES: Oakland debería contratar a 1,000 trabajadores municipales más para dar servicios.
+    TRADEOFF EN: Payroll costs would rise in a tight budget. | ES: Los costos de nómina subirían en un presupuesto ajustado.
+    MAP nateadams: side=AGREE quote="1,000 city jobs delivering services"
+        full statement [0] (stated/other): Lists four commitments: safer, cleaner streets; affordable housing; 1,000 city jobs delivering services; and fiscal accountability. Says he is the only corporate-free candidate.
+  Q id=corporate-investors topic=housing
+    EN: Oakland should limit corporate investors from buying up rental housing.
+    ES: Oakland debería limitar que inversionistas corporativos compren viviendas de alquiler.
+    TRADEOFF EN: Less investment could mean fewer homes built or repaired. | ES: Menos inversión podría significar menos viviendas construidas o reparadas.
+    MAP nateadams: side=AGREE quote="prevent corporate investors from driving up costs"
+        full statement [1] (stated/housing): Says he would create permanently affordable housing for renters and prevent corporate investors from driving up costs.
+
+## CONTEST: Director, Ward 3  [sig=dongray|margueriteyoung]
+  Q id=shutoff-ban topic=water
+    EN: EBMUD should never shut off water for customers who cannot pay their bills.
+    ES: EBMUD nunca debería cortar el agua a clientes que no pueden pagar sus facturas.
+    TRADEOFF EN: Unpaid bills could raise costs for other customers. | ES: Las facturas sin pagar podrían subir los costos de otros clientes.
+    MAP margueriteyoung: side=AGREE quote="Made water shutoff moratorium permanent"
+        full statement [2] (stated/community): Made water shutoff moratorium permanent and expanded customer assistance program to prevent service loss due to inability to pay.
+  Q id=net-zero topic=energy
+    EN: EBMUD should reach net zero emissions by 2030.
+    ES: EBMUD debería llegar a cero emisiones netas para 2030.
+    TRADEOFF EN: Meeting the goal could raise water bills. | ES: Cumplir la meta podría subir las facturas de agua.
+    MAP margueriteyoung: side=AGREE quote="Put EBMUD on path to net zero emissions by 2030"
+        full statement [1] (stated/energy): Put EBMUD on path to net zero emissions by 2030 and prepared for droughts, wildfires, and power shutoffs.
+  Q id=pipe-pace topic=water
+    EN: EBMUD should replace old water pipes at a faster pace.
+    ES: EBMUD debería reemplazar las tuberías viejas de agua a un ritmo más rápido.
+    TRADEOFF EN: Faster work costs more and may raise rates. | ES: Trabajar más rápido cuesta más y podría subir las tarifas.
+    MAP margueriteyoung: side=AGREE quote="nearly tripled pipeline replacement pace"
+        full statement [0] (stated/water): Expanded water conservation and recycling; nearly tripled pipeline replacement pace to ensure continuous water service.
+
+## CONTEST: house/CA17  [sig=riteshtandon|rokhanna]
+  Q id=stock-ban topic=other
+    EN: Members of Congress and their families should be banned from trading individual stocks.
+    ES: Los miembros del Congreso y sus familias deberían tener prohibido comprar y vender acciones individuales.
+    TRADEOFF EN: It could discourage some people from running for office. | ES: Podría desanimar a algunas personas a postularse.
+    MAP riteshtandon: side=AGREE quote="supports a stock-trading ban for members of Congress and their families"
+        full statement [0] (stated/other): Pledges not to buy or sell individual stocks in Congress and says he supports a stock-trading ban for members of Congress and their families.
+  Q id=voter-id topic=elections
+    EN: Voters should have to show ID to vote.
+    ES: Los votantes deberían tener que mostrar una identificación para votar.
+    TRADEOFF EN: Some eligible voters do not have an ID. | ES: Algunos votantes elegibles no tienen identificación.
+    MAP riteshtandon: side=AGREE quote="Supports voter identification"
+        full statement [3] (stated/safety): Supports voter identification, secure borders and safe communities.
+  Q id=preexisting topic=health
+    EN: Health insurers should have to cover people with preexisting conditions.
+    ES: Las aseguradoras de salud deberían estar obligadas a cubrir a personas con condiciones preexistentes.
+    TRADEOFF EN: It can raise premiums for other people. | ES: Puede subir las primas de otras personas.
+    MAP riteshtandon: side=AGREE quote="protect coverage for preexisting conditions"
+        full statement [1] (stated/health): Says he will fight to lower housing and healthcare costs and prescription drug prices, and to protect coverage for preexisting conditions.
+
+## CONTEST: Mayor  [sig=michaelkhannon]
+  Q id=repaving topic=roads
+    EN: Newark should keep street repaving funding at its doubled level.
+    ES: Newark debería mantener al doble el dinero para repavimentar calles.
+    TRADEOFF EN: Less money would be left for other city needs. | ES: Quedaría menos dinero para otras necesidades de la ciudad.
+    MAP michaelkhannon: side=AGREE quote="doubled street repaving funding"
+        full statement [1] (stated/roads): Says he doubled street repaving funding with work continuing in 2027
+
+## CONTEST: City Council Member  [sig=evemarielittle|matthewjorgens|noahpatrickgrushkin|tonyaconnolly]
+  Q id=business-tax topic=taxes
+    EN: Newark should raise taxes on local businesses to pay for city services.
+    ES: Newark debería subir los impuestos a los negocios locales para pagar los servicios de la ciudad.
+    TRADEOFF EN: Businesses may pass the cost on to residents through higher prices. | ES: Los negocios podrían pasar el costo a los residentes con precios más altos.
+    MAP tonyaconnolly: side=DISAGREE quote="Opposes business tax increase"
+        full statement [2] (stated/budget): Opposes business tax increase; such taxes get passed to residents and harm local economy.
+    MAP noahpatrickgrushkin: side=DISAGREE quote="without raising taxes"
+        full statement [0] (stated/budget): Reallocate excess budget spending toward better quality of life without raising taxes.
+  Q id=cultural-arts-center topic=community
+    EN: Newark should build a new Cultural Arts Center.
+    ES: Newark debería construir un nuevo Centro de Artes Culturales.
+    TRADEOFF EN: Building and running it would cost money that could go to other services. | ES: Construirlo y operarlo costaría dinero que podría usarse en otros servicios.
+    MAP evemarielittle: side=AGREE quote="Goal to create a new Cultural Arts Center for Newark community."
+        full statement [0] (stated/community): Goal to create a new Cultural Arts Center for Newark community.
+
+## CONTEST: Director  [sig=darshansaini|josephgrcar|kenowen|kristydoomanwoerz|ralphjohnson]
+  Q id=pay-off-bonds topic=budget
+    EN: The district should pay off its 30-year building bonds early.
+    ES: El distrito debería pagar antes de tiempo sus bonos de 30 años del edificio.
+    TRADEOFF EN: Paying early needs cash now that could go to repairs or keeping rates low. | ES: Pagar antes requiere dinero ahora que podría ir a reparaciones o a tarifas bajas.
+    MAP kenowen: side=AGREE quote="Wants to pay off the district's 30-year bonds"
+        full statement [0] (stated/budget): Wants to pay off the district's 30-year bonds costing about $1 million annually for the new building.
+  Q id=board-term-limits topic=elections
+    EN: The sanitary district board should have term limits.
+    ES: La junta del distrito sanitario debería tener límites de mandato.
+    TRADEOFF EN: Voters could lose experienced board members they want to keep. | ES: Los votantes podrían perder miembros con experiencia que quieren mantener.
+    MAP kenowen: side=AGREE quote="Plans to push for term limits on the District Board."
+        full statement [1] (stated/elections): Plans to push for term limits on the District Board.
+
+## CONTEST: Director, Ward 7  [sig=aprilchan|garywolff|josephgrcar|luisreynoso]
+  Q id=end-drought-surcharge topic=water
+    EN: EBMUD should end its 8.5% drought surcharge on water bills.
+    ES: EBMUD debería eliminar su recargo por sequía del 8.5% en las facturas de agua.
+    TRADEOFF EN: The district would have less money for drought supplies and repairs. | ES: El distrito tendría menos dinero para agua en sequías y reparaciones.
+    MAP aprilchan: side=AGREE quote="Advocated to eliminate the 8.5 percent drought surcharge"
+        full statement [1] (stated/taxes): Advocated to eliminate the 8.5 percent drought surcharge that burdened Ward 7 families.
+  Q id=low-income-assistance topic=water
+    EN: EBMUD should expand its bill discount program for low-income customers.
+    ES: EBMUD debería ampliar su programa de descuentos en facturas para clientes de bajos ingresos.
+    TRADEOFF EN: Other customers may pay a bit more to cover the discounts. | ES: Otros clientes podrían pagar un poco más para cubrir los descuentos.
+    MAP garywolff: side=AGREE quote="Pledges to expand low-income customer assistance program"
+        full statement [2] (stated/economy): Pledges to expand low-income customer assistance program to help vulnerable households access water.
+  Q id=lake-chabot-soil-dump topic=community
+    EN: EBMUD should allow a soil dump site served by about 100 trucks a day on Lake Chabot Road.
+    ES: EBMUD debería permitir un depósito de tierra con unos 100 camiones al día en Lake Chabot Road.
+    TRADEOFF EN: Agreeing means more trucks, noise and traffic for nearby neighborhoods. | ES: Estar de acuerdo implica más camiones, ruido y tráfico para los vecindarios cercanos.
+    MAP aprilchan: side=DISAGREE quote="Opposed Lake Chabot Road soil dump proposal"
+        full statement [3] (stated/community): Opposed Lake Chabot Road soil dump proposal, working with communities to block 100 daily truck routes.
+
+## CONTEST: house/CA08  [sig=johngaramendi|rudyrecile]
+  Q id=delta-tunnel topic=water
+    EN: California should build the Delta tunnel to send more water south.
+    ES: California debería construir el túnel del Delta para enviar más agua al sur.
+    TRADEOFF EN: Delta farms, fish and towns could lose water and habitat. | ES: Las granjas, los peces y los pueblos del Delta podrían perder agua y hábitat.
+    MAP johngaramendi: side=DISAGREE quote="stopping the Delta tunnels and saving the Delta"
+        full statement [4] (stated/water): Campaign website lists stopping the Delta tunnels and saving the Delta among his issues.
+  Q id=travis-ice-detention topic=immigration
+    EN: Travis Air Force Base should be used as an ICE immigration detention facility.
+    ES: La Base Aérea Travis debería usarse como centro de detención de inmigrantes de ICE.
+    TRADEOFF EN: Base space and staff could be pulled away from military missions. | ES: El espacio y el personal de la base podrían desviarse de misiones militares.
+    MAP johngaramendi: side=DISAGREE quote="stop ICE from converting Travis Air Force Base into a detention facility"
+        full statement [0] (stated/other): Says he used his Armed Services Committee seniority to stop ICE from converting Travis Air Force Base into a detention facility.
+  Q id=federal-shipbuilding topic=jobs
+    EN: Congress should spend federal money to expand U.S. shipbuilding and upgrade ports.
+    ES: El Congreso debería usar dinero federal para ampliar la construcción de barcos y mejorar los puertos.
+    TRADEOFF EN: It would add federal spending that could go to other needs. | ES: Aumentaría el gasto federal que podría usarse para otras necesidades.
+    MAP johngaramendi: side=AGREE quote="his SHIPS Act would expand domestic shipbuilding and upgrade ports"
+        full statement [2] (stated/jobs): Says his SHIPS Act would expand domestic shipbuilding and upgrade ports, and that he is working on an I-80 Bio Research and Manufacturing Corridor.
+
+## CONTEST: Board of Education Member  [sig=beckyhopwood|davidmckinney|joshmahoney|margaretallen|melissaboyd]
+  Q id=local-school-taxes topic=education
+    EN: The school district should ask local voters to approve parcel taxes or bonds for school funding.
+    ES: El distrito escolar debería pedir a los votantes locales que aprueben impuestos o bonos para las escuelas.
+    TRADEOFF EN: Property owners would pay more each year in local taxes. | ES: Los dueños de propiedades pagarían más impuestos locales cada año.
+    MAP beckyhopwood: side=AGREE quote="Helped lead successful parcel tax and bond measure campaigns to provide critical funding for Albany students"
+        full statement [1] (stated/budget): Helped lead successful parcel tax and bond measure campaigns to provide critical funding for Albany students.
+
+## CONTEST: City Council Member  [sig=brandonsoublet|corryfrydlewicz|davidmourra|kalimahatreyupriforce]
+  Q id=flock-cameras topic=safety
+    EN: The city should keep using license plate reader cameras, like Flock, to help police.
+    ES: La ciudad debería seguir usando cámaras lectoras de placas, como Flock, para ayudar a la policía.
+    TRADEOFF EN: Data on where people drive could be shared with other agencies, like ICE. | ES: Los datos de por dónde maneja la gente podrían compartirse con otras agencias, como ICE.
+    MAP corryfrydlewicz: side=DISAGREE quote="Opposes Flock camera surveillance that the city approved in 2023"
+        full statement [0] (stated/safety): Opposes Flock camera surveillance that the city approved in 2023, saying it enables ICE to track residents' movements.
+  Q id=corporate-campaign-money topic=elections
+    EN: City council candidates should refuse campaign money from corporations.
+    ES: Los candidatos al concejo municipal deberían rechazar dinero de campaña de corporaciones.
+    TRADEOFF EN: Candidates may have less money to reach voters. | ES: Los candidatos podrían tener menos dinero para llegar a los votantes.
+    MAP corryfrydlewicz: side=AGREE quote="Opposes corporate money in politics"
+        full statement [2] (stated/elections): Opposes corporate money in politics and says she is running a volunteer-supported grassroots campaign without corporate funding.
+  Q id=bike-walk-streets topic=streets
+    EN: The city should build more bike lanes and walkways, even if it takes space from cars.
+    ES: La ciudad debería construir más ciclovías y aceras, aunque quite espacio a los autos.
+    TRADEOFF EN: Drivers could lose lanes or parking. | ES: Los conductores podrían perder carriles o estacionamiento.
+    MAP davidmourra: side=AGREE quote="expanded bike and pedestrian infrastructure"
+        full statement [1] (stated/streets): Says he expanded bike and pedestrian infrastructure and improved parks during his council service.
+    MAP brandonsoublet: side=AGREE quote="Supports building walkable and bike-friendly streets"
+        full statement [0] (stated/streets): Supports building walkable and bike-friendly streets designed to protect children and seniors.
+  Q id=electric-city-fleet topic=environment
+    EN: The city should replace its gas-powered vehicles with electric ones.
+    ES: La ciudad debería reemplazar sus vehículos de gasolina por vehículos eléctricos.
+    TRADEOFF EN: Electric vehicles and chargers can cost more up front. | ES: Los vehículos eléctricos y los cargadores pueden costar más al inicio.
+    MAP davidmourra: side=AGREE quote="electrifying the municipal vehicle fleet"
+        full statement [2] (stated/environment): Introduced citywide environmental initiatives, including electrifying the municipal vehicle fleet.
+
+## CONTEST: School Board Member, Area 5  [sig=dancherrier|seemabadar]
+  Q id=end-deficit-spending topic=budget
+    EN: The school district should stop spending more each year than it takes in.
+    ES: El distrito escolar debería dejar de gastar cada año más de lo que recibe.
+    TRADEOFF EN: Balancing the budget could mean cuts to staff or programs. | ES: Equilibrar el presupuesto podría implicar recortes de personal o programas.
+    MAP dancherrier: side=AGREE quote="Expresses concern about deficit spending"
+        full statement [1] (stated/budget): Expresses concern about deficit spending and deferred maintenance at the district.
+  Q id=emerald-student-parking topic=education
+    EN: Emerald High School should have enough parking for every student who drives.
+    ES: La escuela Emerald High debería tener estacionamiento suficiente para todos los estudiantes que manejan.
+    TRADEOFF EN: Land and money for parking can't be used for classrooms or fields. | ES: El terreno y el dinero del estacionamiento no se usarían en aulas o campos.
+    MAP dancherrier: side=AGREE quote="Advocates for adequate student parking at Emerald High School"
+        full statement [3] (stated/growth): Advocates for adequate student parking at Emerald High School per project environmental review commitment.
+
+## CONTEST: Director, Area 2  [sig=amandaalysiadaniels|saralamnin]
+  Q id=park-10-minute-walk topic=community
+    EN: Every resident should have a park within a 10-minute walk of home.
+    ES: Cada residente debería tener un parque a menos de 10 minutos a pie de su casa.
+    TRADEOFF EN: Buying land and building new parks costs money and takes years. | ES: Comprar terrenos y construir parques cuesta dinero y toma años.
+    MAP saralamnin: side=AGREE quote="Worked to ensure every resident has park access within 10-minute walk"
+        full statement [0] (stated/community): Worked to ensure every resident has park access within 10-minute walk; supports safe, high-quality parks
+
+## CONTEST: School Board Member, Area 3  [sig=danjacowitz|erykanmathewscain|glennamiller|karawong]
+  Q id=more-ap-classes topic=education
+    EN: The district should offer more advanced placement (AP) classes.
+    ES: El distrito debería ofrecer más clases de nivel avanzado (AP).
+    TRADEOFF EN: Money and teachers for AP could come from other classes or programs. | ES: El dinero y los maestros para AP podrían salir de otras clases o programas.
+    MAP danjacowitz: side=AGREE quote="access to advanced placement classes"
+        full statement [0] (stated/education): Says he will work to improve students' quality of learning and access to advanced placement classes.
+
+## CONTEST: City Council Member, Council #2  [sig=jaimepatino|victorlopezpulido]
+  Q id=renter-protections topic=housing
+    EN: Union City should pass stronger legal protections for renters.
+    ES: Union City debería aprobar protecciones legales más fuertes para los inquilinos.
+    TRADEOFF EN: Landlords may raise costs, build less or stop renting out units. | ES: Los dueños podrían subir costos, construir menos o dejar de rentar viviendas.
+    MAP victorlopezpulido: side=AGREE quote="Supports real renter protections"
+        full statement [1] (stated/housing): Supports real renter protections and affordable housing to keep working families in their homes.
+  Q id=immigrant-services topic=immigration
+    EN: The city should spend money to help immigrant families get access to services.
+    ES: La ciudad debería invertir dinero para ayudar a las familias inmigrantes a acceder a servicios.
+    TRADEOFF EN: City funds used for this would not be available for other services. | ES: Los fondos usados para esto no estarían disponibles para otros servicios.
+    MAP victorlopezpulido: side=AGREE quote="protect immigrant families and help them access resources"
+        full statement [3] (stated/immigration): Says he will protect immigrant families and help them access resources.
+
+## CONTEST: Director, Ward 2  [sig=jasonmiguel|judychuang]
+  Q id=local-water-supply topic=water
+    EN: The water district should invest in local water supplies to rely less on imported water.
+    ES: El distrito de agua debería invertir en fuentes locales para depender menos del agua importada.
+    TRADEOFF EN: New local supplies, like recycled water, can raise water bills. | ES: Las nuevas fuentes locales, como el agua reciclada, pueden subir las facturas.
+    MAP judychuang: side=AGREE quote="Supports conservation and local supplies to reduce drought impacts and reliance on imported water"
+        full statement [2] (stated/environment): Supports conservation and local supplies to reduce drought impacts and reliance on imported water.
+  Q id=replace-old-pipes topic=water
+    EN: The water district should make replacing aging pipes a top spending priority.
+    ES: El distrito de agua debería hacer del reemplazo de tuberías viejas una prioridad de gasto.
+    TRADEOFF EN: Pipe replacement is costly and may raise rates or delay other projects. | ES: Cambiar tuberías es costoso y podría subir tarifas o retrasar otros proyectos.
+    MAP jasonmiguel: side=AGREE quote="Supports repairing and replacing aging pipeline infrastructure"
+        full statement [2] (stated/other): Supports repairing and replacing aging pipeline infrastructure to ensure reliable service.
+  Q id=seismic-standards topic=water
+    EN: Water system upgrades should be built to stronger earthquake safety standards.
+    ES: Las mejoras al sistema de agua deberían cumplir normas más estrictas contra terremotos.
+    TRADEOFF EN: Stronger standards raise the upfront cost of each project. | ES: Normas más estrictas aumentan el costo inicial de cada proyecto.
+    MAP jasonmiguel: side=AGREE quote="Emphasizes seismic safety for any infrastructure upgrades"
+        full statement [3] (stated/safety): Emphasizes seismic safety for any infrastructure upgrades to prevent costly future repairs.
+
+## CONTEST: house/CA12  [sig=jamiejoyce|lateefahsimon]
+  Q id=limit-ice topic=immigration
+    EN: Congress should place new limits on how ICE carries out immigration enforcement.
+    ES: El Congreso debería poner nuevos límites a cómo ICE aplica las leyes de inmigración.
+    TRADEOFF EN: Limits may make it harder to remove people in the country illegally. | ES: Los límites podrían dificultar la expulsión de personas que están en el país sin permiso.
+    MAP jamiejoyce: side=AGREE quote="she wrote a bill to rein in ICE"
+        full statement [0] (stated/other): Says she wrote a bill to rein in ICE, surveillance, AI, corruption and dark money, and to fund electoral reform.
+  Q id=regulate-ai topic=other
+    EN: Congress should pass new rules to regulate artificial intelligence.
+    ES: El Congreso debería aprobar nuevas reglas para regular la inteligencia artificial.
+    TRADEOFF EN: Strict rules could slow new technology and business growth. | ES: Reglas estrictas podrían frenar la nueva tecnología y el crecimiento de empresas.
+    MAP jamiejoyce: side=AGREE quote="Lists AI regulation as a priority"
+        full statement [2] (stated/other): Lists AI regulation as a priority on her campaign site, citing a poll figure.
+  Q id=limit-dark-money topic=elections
+    EN: Congress should limit election spending by groups that do not reveal their donors.
+    ES: El Congreso debería limitar el gasto electoral de grupos que no revelan a sus donantes.
+    TRADEOFF EN: Some say such limits restrict free speech and donor privacy. | ES: Hay quienes dicen que esos límites restringen la libertad de expresión y la privacidad.
+    MAP jamiejoyce: side=AGREE quote="rein in ICE, surveillance, AI, corruption and dark money"
+        full statement [0] (stated/other): Says she wrote a bill to rein in ICE, surveillance, AI, corruption and dark money, and to fund electoral reform.
+  Q id=federal-housing-funds topic=housing
+    EN: The federal government should spend more to expand affordable housing.
+    ES: El gobierno federal debería gastar más para ampliar la vivienda asequible.
+    TRADEOFF EN: More federal spending adds to the deficit or requires new taxes. | ES: Más gasto federal aumenta el déficit o requiere nuevos impuestos.
+    MAP lateefahsimon: side=AGREE quote="advance legislation to expand affordable housing"
+        full statement [0] (stated/housing): Says she will advance legislation to expand affordable housing and protect Social Security, Medicare and Medicaid.

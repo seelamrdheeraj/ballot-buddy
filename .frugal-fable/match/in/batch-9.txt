@@ -1,0 +1,137 @@
+Each contest starts with '## '. Lines starting with '- ' are candidates: id | name | party | review | counts. Indented '[n] kind/topic: text' lines are that candidate's documented positions; n is the statement index.
+
+## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:lammersvilleunifiedschooldistrict:boardmembertrusteearea4 | status=contested
+- San Joaquin:school:lammersvilleunifiedschooldistrict:boardmembertrusteearea4:stephanieolsen | Stephanie Olsen | nonp | review=reviewed | stated=12 other=7
+    [0] stated/education: Says she is a credentialed special education teacher, was chief negotiator for her local teachers’ union, and is now an education law attorney.
+    [1] stated/community: Says she has given almost two decades of service in Mountain House, including as Questa PTO president, athletic boosters president, and in youth league and swim club roles.
+    [2] stated/education: Says she addresses student needs through service on the wellness, safety, policy, English-learner and facilities committees. (Dec 2025 minutes list her on the DELAC, Facilities and Safety committees.)
+    [3] stated/education: Says the district won three Golden Bell Awards and was recognized for student achievement during her tenure, and that she wants to continue in the role. Her statement does not list policy goals beyond continuing her work.
+    [4] record/record: Appointed by the board (3–0) to the provisional at-large seat through December 2026, effective Dec 18, 2024.
+    [5] record/record: Elected board clerk for 2026 at the annual reorganization: 3 ayes, 1 nay, 1 abstention.
+    [6] record/record: Moved approval of a four-year contract extension for the superintendent (July 2026–June 2030); carried 5–0.
+    [7] record/finance: Filed a Form 470 with the county on July 14, 2026, declaring she expects to raise and spend under $2,000 this calendar year. No campaign committee, Form 460 or itemized contributions were on file as of Oct 8, 2026; her 2020 committee closed in February 2021.
+    [8] record/endorse: Listed for Lammersville Area 4 in the North Valley Labor Federation’s 2026 voter guide. It was the only endorsement from an organization’s own published list found for this race.
+    [9] record/record: Attended all 32 regular board meetings with published minutes from January 2025 through Sept 2, 2026, and cast no “no” vote or abstention on any recorded motion in that period.
+    [10] record/record: Moved the naming committee’s recommendation to name the Neighborhood J K-8 school “Pombo Elementary School”; carried 4–1 with Trustee Mody opposed, one of only two split votes in 21 months.
+    [11] stated/growth: Says managing growth is her top priority. Notes the district’s master plan calls for one high school, that a second would need about 75 acres and roughly $400 million the developers are not obliged to fund, and that the current high school can reach about 2,900 students.
+    [12] stated/budget: Says her biggest priority is not spending over budget, so the district avoids deficits or a high school it cannot staff. Supports the Sept 16 framework (a developer-funded K-8 in Cordes Village, with the current Cordes campus becoming a high-school annex of about 1,000 seats) and says the remaining concern is implementation.
+    [13] stated/education: Committed to keeping the seven-period day. Says career pathways are built from student surveys and limited by capacity, and that engineering was oversubscribed so extra seventh-period sections were opened.
+    [14] stated/budget: Says LUSD is among the lowest-funded districts in the county and state because it sits at the state base grant; wants the state to raise the base grant and loosen rules on local-control money, supports the CSBA and CTA lawsuit over Prop 98 funds, and says she lobbied Congress in April for fuller special-education (IDEA) funding.
+    [15] stated/education: Says special-education services are legally mandated, so the board must manage the general fund well. Praises the district’s in-house extensive-support-needs classes and names staffing shortages (speech-language pathologists, psychologists) as the main challenge.
+    [16] stated/community: Says her second priority is empowering parents to work directly with teachers and administrators. Cites getting the board to relax the attendance policy to require a doctor’s note after 10 absences instead of 5.
+    [17] stated/elections: Says the board adopted trustee areas reluctantly after legal-risk concerns, citing another district’s litigation costs, and that trustees still represent all schools.
+    [18] stated/community: Says she reports monthly to the City Council as board clerk, brokered opening the high school tennis courts to the city, and with Trustee Pombo revised the facilities-use handbook to give Mountain House residents rental priority.
+- San Joaquin:school:lammersvilleunifiedschooldistrict:boardmembertrusteearea4:vanithadaniel | Vanitha Daniel | nonp | review=reviewed | stated=12 other=8
+    [0] stated/education: Says she is committed to academic excellence and that state test scores in English, science and math improved during her service. (Score claim is hers; not checked here.)
+    [1] stated/education: Says she is committed to student wellness and safe, inclusive schools, citing the district’s Wellness Center and EPIC Academy Golden Bell Awards.
+    [2] stated/education: Says she is committed to supporting educators.
+    [3] stated/budget: Says she is committed to fiscal responsibility and to expanding opportunities for every student as the district grows.
+    [4] record/record: Appointed to an at-large seat for an unexpired term in June 2021; won the seat in the November 2022 election.
+    [5] record/record: At the annual reorganization she was nominated for board clerk; the board elected Olsen 3–1–1 and Daniel abstained.
+    [6] record/record: Voted yes on a four-year contract extension for the superintendent (July 2026–June 2030); carried 5–0.
+    [7] record/finance: Her candidate committee (FPPC ID 1451669) reported for July 1–Sept 19, 2026: no contributions from anyone else, $1,597.45 loaned by the candidate herself, $353.82 spent on a Mountain House Matters ad and yard-sign stands, $1,457.08 cash on hand, and $4,597.45 in loans from herself still outstanding, including $3,000 from 2022. She also filed a Form 470 on July 13 declaring she expects to stay under $2,000 for the year.
+    [8] record/endorse: No endorsement from an organization’s own published list was found as of Oct 8, 2026. The North Valley Labor Federation guide lists her opponent; the county Democratic and Republican committees, CTA and Equality California lists do not mention this race.
+    [9] record/record: Attended 28 of the 32 regular board meetings with published minutes from January 2025 through Sept 2, 2026, missing July 16 and Aug 6, 2025 (announced in advance) and Aug 5 and Aug 19, 2026 (no reason recorded). Apart from her abstention in the December 2025 clerk election, she cast no “no” vote or abstention on any recorded motion.
+    [10] record/record: Seconded the motion to name the Neighborhood J K-8 school “Pombo Elementary School”; carried 4–1 with Trustee Mody opposed, one of only two split votes in 21 months.
+    [11] stated/education: Says she is running to bring an educator’s and parent’s perspective and, in her words, a diverse one as the first Indian American woman elected to the board. Her focus areas are enrollment, staffing, growth, quality, transparency of data such as AP and honors enrollment, and making families feel heard; says her goal is to continue what is working.
+    [12] stated/budget: Says fiscal stewardship amid rising costs, and the district’s long-term financial health, is her second reason for running.
+    [13] stated/budget: Citing the July 1 budget (about $116.6 million general fund, about $80 million of it salaries and benefits), says the district receives no federal immigrant-student funding and very limited English-learner funding, which she says she has been advocating to change as someone whose second language is English.
+    [14] stated/growth: Supports the Sept 16 framework as a creative plan that adds about 1,000 high-school seats without cutting programs. Wants an engineering pathway expanded, which she says the superintendent indicated could be approved with board agreement.
+    [15] stated/education: Says she visits the extensive-support-needs classes at Altamont and Pombo, that special education needs more budget and resources, and that she hopes for more inclusion in general classes.
+    [16] stated/record: Asked about missed board meetings, she said she missed a few while caring for her elderly parents, including time in India, and stayed reachable by phone.
+    [17] stated/record: Names raising substitute-teacher pay as her accomplishment: substitutes, who have no union, came to her, and she brought a pay comparison the board agreed to.
+    [18] stated/community: Says closed-session matters cannot be shared and points residents to agendas and the district website. Describes a trustee as one of five votes and explains the chain from teacher to principal to district office before a trustee.
+    [19] reporting/result: Won the November 2022 at-large race with about 43% of the vote (3,390 votes), per Tracy Press’s near-final count.
+
+## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityoftracy:membercitycouncildistrict3 | status=contested
+- San Joaquin:city:cityoftracy:membercitycouncildistrict3:amenialexander | Ameni Alexander | nonp | review=reviewed | stated=2 other=0
+    [0] stated/community: Says she will work to bring a bowling alley back to Tracy as an affordable gathering place for families.
+    [1] stated/housing: Says she is concerned about owners losing vacant homes to unauthorized occupants and will advocate for laws that protect homeowners while respecting due process.
+- San Joaquin:city:cityoftracy:membercitycouncildistrict3:ametriusvsidney | Ametrius V. Sidney | nonp | review=reviewed | stated=3 other=0
+    [0] stated/jobs: Says he will work to bring major companies to Tracy to create local jobs so residents can work close to home.
+    [1] stated/roads: Supports smart infrastructure and roads that keep pace with the city's growth.
+    [2] stated/safety: Says his public safety experience, including work with first responders, is what he would bring to City Council.
+- San Joaquin:city:cityoftracy:membercitycouncildistrict3:danevans | Dan Evans | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says he helped secure funding for a new police substation, three new fire stations, a regional fire training center, and Tracy's first EMS surge ambulance.
+    [1] stated/economy: Says he helped set up the City's Economic Development Team and Strategic Plan and supports responsible economic growth.
+    [2] stated/growth: Says he sought office to ensure growth is supported by the infrastructure the community deserves.
+    [3] stated/endorse: Lists endorsements from the Tracy Firefighters Association and the Tracy Police Officers Association.
+
+## san-joaquin/school | office=Board Member Trustee Area 6 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea6 | status=contested
+- San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea6:sofiacoln | Sofia Colón | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Doubled percentage of students in kindergarten through second grade reading on grade level through instructional support and evidence-based programs.
+    [1] stated/finance: Achieved first clean independent financial audit in years, met California Department of Education requirements, and removed district from State High-Risk Designation.
+    [2] stated/safety: Improved school safety during her tenure as Board President.
+    [3] stated/community: Prioritizes listening to students, parents, educators, and community through school visits, public meetings, and regular communication.
+- San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea6:christinabaccamcbrian | Christina Bacca McBrian | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Plans to improve campus safety if elected.
+    [1] stated/education: Plans to increase student-to-staff ratio in Special Education Department to add more paraprofessionals.
+    [2] stated/education: Pledges to expand after-school programs and make Science Camp free for all students.
+    [3] stated/community: Commits to bringing more resources to nine neighborhood schools: August, Bush, Chavez High, Fremont, Grunsky, Harrison, Peyton, Rio Calaveras, and Young Adult Program.
+
+## san-joaquin/city | office=Member, City Council District 1 | id=San Joaquin:city:cityoftracy:membercitycouncildistrict1 | status=contested
+- San Joaquin:city:cityoftracy:membercitycouncildistrict1:robincole | Robin Cole | nonp | review=reviewed | stated=3 other=0
+    [0] stated/jobs: Says she hopes to help residents work, live and thrive in Tracy instead of commuting over the Altamont to Bay Area jobs.
+    [1] stated/community: Says she would offer a fresh, objective voice on the Council and promises to listen to residents to make Tracy better, safer and more beautiful.
+    [2] stated/community: Says she is running because Tracy has something worth keeping, not because it has problems.
+- San Joaquin:city:cityoftracy:membercitycouncildistrict1:jasssangha | Jass Sangha | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Lists public safety, improving infrastructure, encouraging business investment, and opportunities for youth as her priorities.
+    [1] stated/endorse: Says she is the only District 1 candidate endorsed by both the Tracy Police Officers Association and the Tracy Firefighters Association.
+    [2] stated/growth: Says her planning commission experience gives her an understanding of responsible growth, strong neighborhoods and a thriving local economy.
+
+## san-joaquin/city | office=Mayor | id=San Joaquin:city:cityoftracy:mayor | status=contested
+- San Joaquin:city:cityoftracy:mayor:uyiosafelixoviawe | Uyiosa Felix Oviawe | nonp | review=none_found | stated=0 other=0
+- San Joaquin:city:cityoftracy:mayor:danarriola | Dan Arriola | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says public safety should remain the highest priority and supports tools and strategies that keep the community safe.
+    [1] stated/economy: Says he will keep working for new businesses, better jobs, and more investment in roads and public parks.
+    [2] stated/community: Says he has championed efforts to hold previous misconduct accountable and will work to restore Tracy’s reputation as business-friendly.
+    [3] stated/endorse: Lists endorsements from the Tracy Firefighters Association and the Tracy Police Officers Association.
+- San Joaquin:city:cityoftracy:mayor:mateobedolla | Mateo Bedolla | nonp | review=reviewed | stated=1 other=0
+    [0] stated/community: Describes himself as a lifelong Tracy resident who grew up, worked, taught and serves in the city.
+
+## san-joaquin/city | office=Member, City Council | id=San Joaquin:city:cityofripon:membercitycouncil | status=contested
+- San Joaquin:city:cityofripon:membercitycouncil:michaelrestuccia | Michael Restuccia | nonp | review=unreviewed | stated=0 other=0
+- San Joaquin:city:cityofripon:membercitycouncil:franklmadrigal | Frank L. Madrigal | nonp | review=reviewed | stated=4 other=0
+    [0] stated/growth: Supports responsible development that protects neighborhoods and quality of life
+    [1] stated/safety: Supports strong public safety measures
+    [2] stated/budget: Believes local government should be transparent, fiscally responsible, and accountable
+    [3] stated/water: Wants growth to protect water resources and property values
+- San Joaquin:city:cityofripon:membercitycouncil:deanduecker | Dean D. Uecker | nonp | review=unreviewed | stated=0 other=0
+
+## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:lindenunifiedschooldistrict:boardmembertrusteearea4 | status=contested
+- San Joaquin:school:lindenunifiedschooldistrict:boardmembertrusteearea4:kylebeadles | Kyle Beadles | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Advocates for academic excellence and preparing students for college, trades, military, or workforce.
+    [1] stated/budget: Supports wise management of tax dollars and fiscal responsibility in school spending.
+    [2] stated/safety: Prioritizes safe and effective learning environments in school classrooms.
+    [3] stated/community: Committed to transparency, listening to stakeholders, and making fact-based decisions.
+- San Joaquin:school:lindenunifiedschooldistrict:boardmembertrusteearea4:jennifertrotter | Jennifer Trotter | nonp | review=unreviewed | stated=0 other=0
+
+## san-joaquin/school | office=Board Member Trustee Area 7 | id=San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea7 | status=contested
+- San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea7:vijaypasapula | Vijay Pasapula | nonp | review=unreviewed | stated=0 other=0
+- San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea7:barbarabobbieetcheverry | Barbara "Bobbie" Etcheverry | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Says students at every level must be the top priority
+    [1] stated/safety: Recognizes the importance of maintaining safe schools
+    [2] stated/budget: Recognizes importance of managing district budget responsibly
+    [3] stated/jobs: Supports providing employees with competitive salaries and benefits
+
+## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityofmanteca:membercitycouncildistrict3 | status=contested
+- San Joaquin:city:cityofmanteca:membercitycouncildistrict3:leiannvarlettalarson | Lei Ann Varletta Larson | nonp | review=unreviewed | stated=0 other=0
+- San Joaquin:city:cityofmanteca:membercitycouncildistrict3:davidbreitenbucher | David Breitenbucher | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Says public safety is his top priority. Supports police officers and firefighters and wants to complete a new police headquarters and a sixth fire station.
+    [1] stated/budget: Says he will hold city government fiscally accountable, invest in needed infrastructure, and move forward with an aquatics center and community center.
+    [2] stated/homeless: Says encampments were reduced and the homeless population fell nearly 50%. Says he is committed to completing a permanent navigation center.
+
+## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea4 | status=contested
+- San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea4:rupindersinghjagpal | Rupinder Singh Jagpal | nonp | review=unreviewed | stated=0 other=0
+- San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea4:veronicasalazar | Veronica Salazar | nonp | review=unreviewed | stated=0 other=0
+- San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea4:mariefreitas | Marie Freitas | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports district vision that every student achieves grade-level standards and receives individual support
+    [1] stated/safety: Committed to maintaining safe, supportive, and enriching learning environments for all students
+    [2] stated/growth: Supports campus remodeling and expansion initiatives to accommodate district growth
+
+## san-joaquin/school | office=Board Member Trustee Area 6 | id=San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea6 | status=contested
+- San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea6:devaughnjones | Devaughn Jones | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports strengthening academic achievement and preparing students for college, careers, military service, and skilled trades
+    [1] stated/safety: Says every child deserves a safe learning environment with excellent teachers and strong support
+    [2] stated/budget: Supports responsible budgeting and ensuring transparency in district decision-making
+- San Joaquin:school:tracyunifiedschooldistrict:boardmembertrusteearea6:rgfagin | R. G. Fagin | nonp | review=unreviewed | stated=0 other=0

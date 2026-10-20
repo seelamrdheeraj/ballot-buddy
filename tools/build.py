@@ -126,7 +126,7 @@ for f in sorted(glob.glob(os.path.join(DATA_IN, 'measures_*.json'))):
         for m in (block.get('measures') or []):
             if not m.get('number'): continue
             plain = m.get('plain') or []
-            ms.append({'number': m['number'], 'title': m.get('title',''), 'ballot_label': m.get('ballot_label',''), 'plain': (plain[:3] if isinstance(plain, list) else (plain if isinstance(plain, dict) else [str(plain)])), 'yes': m.get('yes',''), 'no': m.get('no',''), 'fiscal': m.get('fiscal',''), 'urls': m.get('urls') or ([m['url']] if m.get('url') else [])})
+            ms.append({'number': m['number'], 'title': m.get('title',''), 'ballot_label': m.get('ballot_label',''), 'plain': (plain[:4] if isinstance(plain, list) else (plain if isinstance(plain, dict) else [str(plain)])), 'yes': m.get('yes',''), 'no': m.get('no',''), 'fiscal': m.get('fiscal',''), 'urls': m.get('urls') or ([m['url']] if m.get('url') else [])})
         for m in ms:
             mn = CO.MEASURE_NEWS.get(f"{st}:{m['number']}") or {}
             for k in ('news', 'status_change'):

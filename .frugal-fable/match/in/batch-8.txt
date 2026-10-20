@@ -1,0 +1,157 @@
+Each contest starts with '## '. Lines starting with '- ' are candidates: id | name | party | review | counts. Indented '[n] kind/topic: text' lines are that candidate's documented positions; n is the statement index.
+
+## house/CA10 | office= | id=None | status=
+- ushouse:10:markdesaulnier | Mark DeSaulnier | Democratic | review=reviewed | stated=8 other=0
+    [0] stated/record: Says he has authored 73 laws signed, helped over 15,000 residents with federal issues, and held 272 town halls.
+    [1] stated/cost: Says he has worked to lower health care and housing costs, protect Social Security and Medicare, and reduce gun violence.
+    [2] stated/community: Lists transportation and traffic relief, public safety, infrastructure, and children's mental health care as local priorities.
+    [3] stated/elections: Says he will defend democracy, uphold the rule of law, and restore trust in Congress through transparency and ethics.
+    [4] stated/endorse: Lists endorsements from Senators Adam Schiff and Alex Padilla, former Speaker Nancy Pelosi, and local leaders.
+    [5] stated/environment: Lists protecting clean air standards and speeding the move to clean energy as a priority.
+    [6] stated/abortion: Lists restoring and protecting reproductive health care decisions as a priority.
+    [7] stated/immigration: Lists humane, functional immigration reform as a priority.
+- ushouse:10:jefffrese | Jeff Frese | Republican | review=reviewed | stated=6 other=0
+    [0] stated/budget: Says he wants to stop deficit spending, which he says drives up mortgage rates and prices.
+    [1] stated/elections: Lists cleaning up Congress as a priority, saying Congress should not be a career.
+    [2] stated/safety: Says every neighborhood in the district should feel safe after dark.
+    [3] stated/education: Says schools should prepare kids for real life rather than add bureaucracy.
+    [4] stated/elections: Says voting should be easy to take part in and hard to manipulate.
+    [5] stated/taxes: Says Washington should not touch Social Security and Medicare.
+
+## alameda/school | office=School Board Member, Area 3 | id=Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea3 | status=contested
+- Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea3:danjacowitz | Dan Jacowitz | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Says he will work to improve students' quality of learning and access to advanced placement classes.
+    [1] stated/safety: Pledges to ensure schools are safe and equitable for everyone.
+    [2] stated/education: Will support teachers and collaborate with local safety partners.
+- Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea3:erykanmathewscain | Eryka N Mathews-Cain | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Commits to improving student achievement and strengthening reading and math proficiency.
+    [1] stated/budget: Pledges to ensure taxpayer dollars are invested wisely, transparently, and responsibly.
+    [2] stated/safety: Will support safe and inclusive schools for all students.
+- Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea3:glennamiller | Glenn A. Miller | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Commits to helping all students improve academically without lowering standards.
+    [1] stated/safety: Pledges to ensure schools are kind places free from bias and unfair treatment.
+    [2] stated/community: Will be honest, speak truthfully, and listen carefully to parents.
+- Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea3:karawong | Kara Wong | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Supports measurable progress in literacy, math, college and career readiness with rigorous academics.
+    [1] stated/safety: Commits to supporting safe school culture and student well-being for all students.
+    [2] stated/jobs: Will support sustainable strategies to attract and retain excellent educators.
+    [3] stated/education: Says all students, including special education and early childhood, deserve equal support and opportunity.
+
+## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea5 | status=contested
+- Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea5:deenakaplanis | Deena Kaplanis | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Supports consistent focus on academic excellence
+    [1] stated/safety: Prioritizes campus safety and keeping girls safe in sports and private spaces
+    [2] stated/education: Committed to strengthening reading and math instruction
+    [3] stated/budget: Supports fiscal responsibility in district operations
+- Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea5:samphelps | Sam Phelps | nonp | review=reviewed | stated=4 other=0
+    [0] stated/budget: Supports directing dollars to classrooms and teacher compensation
+    [1] stated/safety: Prioritizes safe and well-maintained school campuses
+    [2] stated/budget: Supports budget transparency and clarity for parents
+    [3] stated/jobs: Supports career and trade pathways for students not pursuing four-year degrees
+- Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea5:christiaanvandenheuvel | Christiaan Vandenheuvel | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Prioritizes strengthening education quality and improving student results
+    [1] stated/education: Supports innovative teaching practices
+    [2] stated/community: Advocates that every student regardless of background receives what they need to succeed
+
+## alameda/city | office=City Council Member, Council #2 | id=Alameda:city:cityofunioncity:citycouncilmembercouncil2 | status=contested
+- Alameda:city:cityofunioncity:citycouncilmembercouncil2:victorlopezpulido | Victor Lopez Pulido | nonp | review=reviewed | stated=6 other=0
+    [0] stated/cost: Says he will fight to lower the cost of living.
+    [1] stated/housing: Supports real renter protections and affordable housing to keep working families in their homes.
+    [2] stated/safety: Wants to expand public health and safety services.
+    [3] stated/immigration: Says he will protect immigrant families and help them access resources.
+    [4] stated/housing: Lists affordable housing and rent relief, lower cost of living, public health and safety, and a voice for immigrant families as priorities.
+    [5] stated/endorse: Lists endorsements from the Alameda County Democratic Party, SEIU 1021, Alameda County Fire Fighters Local 55, and several elected officials.
+- Alameda:city:cityofunioncity:citycouncilmembercouncil2:jaimepatino | Jaime Patino | nonp | review=reviewed | stated=4 other=0
+    [0] stated/budget: Says the council has strengthened the city's finances, and he remains committed to fiscal responsibility.
+    [1] stated/safety: Lists safe neighborhoods and investment in public safety as priorities.
+    [2] stated/economy: Says he supported local businesses and helped secure millions in state and federal funding for local projects.
+    [3] stated/endorse: Lists an endorsement from the Building and Construction Trades Council of Alameda County.
+
+## alameda/city | office=City Council Member, District 4 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict4 | status=contested
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict4:majdigaithabuhamdieh | Majdi "Gaith" Abuhamdieh | nonp | review=reviewed | stated=4 other=0
+    [0] stated/economy: Says he will work to revitalize downtown and neighborhood commercial corridors, and support workers and local businesses.
+    [1] stated/housing: Says he will strengthen tenant protections and expand housing opportunities.
+    [2] stated/safety: Says he will improve public safety and advance climate action.
+    [3] stated/budget: Says he will bring fiscal responsibility, transparency and integrity to City Hall.
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict4:igoratregub | Igor A. Tregub | nonp | review=reviewed | stated=5 other=0
+    [0] stated/housing: Says the city must keep advancing homeownership opportunities and rentals that hardworking residents can afford.
+    [1] stated/homeless: Says he wants to help unhoused people find supportive housing and wraparound services.
+    [2] stated/streets: Says he will implement safer, climate-resilient infrastructure, and cites street safety and accessibility improvements in the district.
+    [3] stated/endorse: Lists endorsements from the Sierra Club, National Union of Healthcare Workers, Mayor Adena Ishii and others.
+    [4] stated/other: Says he has devoted more than 20 years to serving the people of Berkeley.
+
+## alameda/special | office=Director, Ward 2 | id=Alameda:special:alamedacountywaterdistrict:directorward2 | status=contested
+- Alameda:special:alamedacountywaterdistrict:directorward2:judychuang | Judy C. Huang | nonp | review=reviewed | stated=4 other=0
+    [0] stated/water: Prioritizes providing safe, reliable, and affordable water for the community.
+    [1] stated/budget: Fought for lower rates and increased operational efficiency to reduce costs.
+    [2] stated/environment: Supports conservation and local supplies to reduce drought impacts and reliance on imported water.
+    [3] stated/community: Supports regional cooperation with neighboring water districts to improve drought tolerance.
+- Alameda:special:alamedacountywaterdistrict:directorward2:jasonmiguel | Jason Miguel | nonp | review=reviewed | stated=4 other=0
+    [0] stated/water: Supports reliable, sustainable, high-quality water service to the community.
+    [1] stated/budget: Prioritizes efficiency to reduce costs and keep bills down for customers.
+    [2] stated/other: Supports repairing and replacing aging pipeline infrastructure to ensure reliable service.
+    [3] stated/safety: Emphasizes seismic safety for any infrastructure upgrades to prevent costly future repairs.
+
+## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:pleasantonunifiedschooldistrict:schoolboardmemberarea5 | status=contested
+- Alameda:school:pleasantonunifiedschooldistrict:schoolboardmemberarea5:thomaschoi | Thomas Choi | nonp | review=reviewed | stated=4 other=0
+    [0] stated/budget: Says he will restore fiscal stability and rebuild budget reserves, citing district's fiscal challenges including negative certification and depleted reserves.
+    [1] stated/education: Says protecting classroom resources and supporting teaching staff will always be his top priority.
+    [2] stated/education: Says he opposed teaching and student facing staff layoffs based on his advocacy at board meetings.
+    [3] stated/finance: Says he will bring independent oversight, rigorous analysis, and legal expertise to restore financial stability and bring transparency to district leadership.
+- Alameda:school:pleasantonunifiedschooldistrict:schoolboardmemberarea5:karenfletcher | Karen Fletcher | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Says she will support student success while maintaining high standards for academics.
+    [1] stated/finance: Says she will apply her experience to ensure continued growth and both short and long-term financial health of the district.
+    [2] stated/community: Says she is dedicated to supporting students, parents, teachers and schools, and will prioritize transparency, respect, and accountability.
+- Alameda:school:pleasantonunifiedschooldistrict:schoolboardmemberarea5:brettgeraldmartinez | Brett Gerald Martinez | nonp | review=unreviewed | stated=0 other=0
+
+## house/CA12 | office= | id=None | status=
+- ushouse:12:jamiejoyce | Jamie Joyce | Democratic | review=reviewed | stated=3 other=0
+    [0] stated/other: Says she wrote a bill to rein in ICE, surveillance, AI, corruption and dark money, and to fund electoral reform.
+    [1] stated/economy: Says costs are out of control and lists affordable living, healthcare and a clean environment as goals.
+    [2] stated/other: Lists AI regulation as a priority on her campaign site, citing a poll figure.
+- ushouse:12:lateefahsimon | Lateefah Simon | Democratic | review=reviewed | stated=3 other=0
+    [0] stated/housing: Says she will advance legislation to expand affordable housing and protect Social Security, Medicare and Medicaid.
+    [1] stated/record: Says she secured over $800 million in federal funding for the East Bay in her first term.
+    [2] stated/immigration: Says she has defended immigrant communities through casework help and by holding the administration accountable on enforcement.
+
+## alameda/school | office=School Board Member, Area 3 | id=Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea3 | status=contested
+- Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea3:angelambrady | Angela M. Brady | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports board considering varied perspectives to help create conditions for student success.
+    [1] stated/community: Will represent Area 3 residents by bringing community concerns to the board and communicating decisions transparently.
+    [2] stated/community: Believes embracing community diversity is essential to creating conditions for all students to succeed.
+- Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea3:deborahgibson | Deborah Gibson | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Believes quality education is imperative for the continued success of the next generation.
+    [1] stated/safety: Cites student safety as a top area of concern for the district.
+    [2] stated/budget: Lists fiscal responsibility as a top area of concern for the district.
+
+## alameda/special | office=Director, Dist #1 | id=Alameda:special:orolomasanitarydistrict:directordist1 | status=contested
+- Alameda:special:orolomasanitarydistrict:directordist1:tiarepea | Tiare Peña | nonp | review=reviewed | stated=3 other=0
+    [0] stated/environment: The Oro Loma Sanitary District plays an essential role in protecting the environment and maintaining wastewater infrastructure.
+    [1] stated/water: Brings professional experience in analyzing policies, regulations, and infrastructure impacts while balancing public needs.
+    [2] stated/other: Emphasizes integrity, transparency, and sound judgment in decisions involving responsible management of public resources and community long-term interests.
+- Alameda:special:orolomasanitarydistrict:directordist1:sheliayoung | Shelia Young | nonp | review=reviewed | stated=3 other=0
+    [0] stated/water: Possesses knowledge and experience to address wastewater collection and treatment needs, and provide innovative and cost-effective solid waste and recycling services.
+    [1] stated/environment: Agencies she led are responsible for environmental choices that protect the health of the Bay while promoting waste reduction and recycling.
+    [2] stated/budget: Emphasizes providing cost-effective services and brought leadership during a period of economic growth and financial stability as San Leandro mayor.
+
+## alameda/school | office=School Board Member, Area 2 | id=Alameda:school:haywardunifiedschooldistrict:schoolboardmemberarea2 | status=contested
+- Alameda:school:haywardunifiedschooldistrict:schoolboardmemberarea2:joannguzman | Joann Guzman | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Supports bringing families, educators, and community partners together to help every student succeed.
+    [1] stated/budget: Has professional background in financial services and currently serves on bond oversight committee to promote financial accountability and responsible spending.
+    [2] stated/safety: Committed to ensuring safe and welcoming schools for all students.
+    [3] stated/community: Supports strengthening family engagement and bringing a strong parent voice to the school board.
+- Alameda:school:haywardunifiedschooldistrict:schoolboardmemberarea2:joeorlandoramos | Joe Orlando Ramos | nonp | review=unreviewed | stated=0 other=0
+
+## alameda/city | office=Auditor | id=Alameda:city:cityofberkeley:auditor | status=unopposed
+- Alameda:city:cityofberkeley:auditor:jennywong | Jenny Wong | nonp | review=reviewed | stated=4 other=0
+    [0] stated/record: Says her office produced reports on leases, staff retention, restaurant inspections, homeless response, fire inspections and contracts, and that four audits won national awards.
+    [1] stated/budget: Says her office analyzed the city's financial condition during a budget deficit, and that its audits contributed to additional funding for street paving.
+    [2] stated/other: If reelected, says she will complete audits of the public health division, the Rent Board and business license taxes, and choose other audits based on community needs.
+    [3] stated/community: Says she has worked to make audits and departments' responses to them more transparent and accessible to the community.
+
+## alameda/special | office=Director, Area 3 | id=Alameda:special:edentownshiphealthcaredistrict:directorarea3 | status=contested
+- Alameda:special:edentownshiphealthcaredistrict:directorarea3:nargesdillon | Narges Dillon | nonp | review=reviewed | stated=3 other=0
+    [0] stated/health: Says she will expand essential health resources and support healthcare workforce
+    [1] stated/health: Says she advocates for behavioral health systems that deliver timely care
+    [2] stated/community: Says she brings clinical and nonprofit executive leadership to strengthen community health
+- Alameda:special:edentownshiphealthcaredistrict:directorarea3:josephgrcar | Joseph Grcar | nonp | review=unreviewed | stated=0 other=0

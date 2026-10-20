@@ -1,0 +1,171 @@
+Each contest starts with '## '. Lines starting with '- ' are candidates: id | name | party | review | counts. Indented '[n] kind/topic: text' lines are that candidate's documented positions; n is the statement index.
+
+## alameda/school | office=School Board Member (full term) | id=Alameda:school:alamedaunifiedschooldistrict:schoolboardmemberfullterm | status=contested
+- Alameda:school:alamedaunifiedschooldistrict:schoolboardmemberfullterm:joyceboyd | Joyce Boyd | nonp | review=reviewed | stated=1 other=0
+    [0] stated/education: Supports high academic expectations, early intervention for struggling learners, and equal opportunities for student success.
+- Alameda:school:alamedaunifiedschooldistrict:schoolboardmemberfullterm:carriehahnel | Carrie Hahnel | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Focuses on improving outcomes particularly for historically underserved students through evidence-based policies.
+    [1] stated/jobs: Secured 10 percent pay increase and more affordable health benefits for educators and staff while on the board.
+    [2] stated/education: Worked to raise academic expectations and expand opportunities for all students.
+    [3] stated/budget: Advanced a plan for long-term fiscal sustainability of the district.
+- Alameda:school:alamedaunifiedschooldistrict:schoolboardmemberfullterm:garylym | Gary Lym | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Prioritizes preparing students to be college and career ready through collaborative partnerships.
+    [1] stated/jobs: Worked to retain and attract excellent teachers and staff, maintaining Alameda as a destination district.
+    [2] stated/jobs: Achieved a three-year labor agreement with both certificated and classified staff.
+    [3] stated/budget: Worked with stakeholders to pass multiple parcel taxes and facility bonds for school infrastructure.
+- Alameda:school:alamedaunifiedschooldistrict:schoolboardmemberfullterm:mikemcmahon | Mike McMahon | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Says artificial intelligence should be governed thoughtfully for personalized learning while protecting privacy and equity.
+    [1] stated/jobs: Advocates that technology should empower teachers rather than replace them in the classroom.
+    [2] stated/education: Believes strong schools begin with excellent teachers, responsible governance, and family partnerships.
+- Alameda:school:alamedaunifiedschooldistrict:schoolboardmemberfullterm:sarahputnam | Sarah Putnam | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Prioritizes accessible learning environments and strong services for students with disabilities and IEPs.
+    [1] stated/budget: Demands independent financial audits of bond allocations and responsible stewardship of taxpayer dollars.
+    [2] stated/safety: Prioritizes classroom safety and firmly rejects campus hate speech.
+    [3] stated/jobs: Supports competitive teacher compensation and resources educators need to help every student succeed.
+
+## alameda/city | office=City Council Member | id=Alameda:city:cityofalbany:citycouncilmember | status=contested
+- Alameda:city:cityofalbany:citycouncilmember:jondestin | Jon Destin | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Supports safer streets, citywide traffic calming and trustworthy sidewalks
+    [1] stated/budget: Supports transparent city budget with plan to replace $1.1 million annual revenue from Golden Gate Fields closure
+    [2] stated/economy: Supports opening and sustaining local businesses on Solano and San Pablo Avenues
+- Alameda:city:cityofalbany:citycouncilmember:katherineenos | Katherine Enos | nonp | review=reviewed | stated=2 other=0
+    [0] stated/community: Supports ensuring homeowner and tenant voices are heard through increased discussion opportunities and meaningful feedback processes
+    [1] stated/other: Supports updating local codes for digital era including privacy standards and wireless technology encroachment limits
+- Alameda:city:cityofalbany:citycouncilmember:robindlpez | Robin D. López | nonp | review=reviewed | stated=3 other=0
+    [0] stated/budget: Achieved balanced budget as Mayor
+    [1] stated/environment: Delivered results divesting from fossil fuels
+    [2] stated/community: Supports enhanced access to basic needs and equitable accessible infrastructure
+- Alameda:city:cityofalbany:citycouncilmember:chrismcdaniels | Chris McDaniels | nonp | review=reviewed | stated=3 other=0
+    [0] stated/budget: Brings extensive experience in government operations, infrastructure, strategic planning, and budgeting
+    [1] stated/safety: Committed to emergency preparedness and responsible stewardship of public resources
+    [2] stated/community: Leads with integrity and collaboration to help ensure Albany remains exceptional place to live and work
+- Alameda:city:cityofalbany:citycouncilmember:aarontiedemann | Aaron Tiedemann | nonp | review=reviewed | stated=2 other=0
+    [0] stated/budget: Secured $600,000 in annual UC Berkeley funding for Fire Department and city services
+    [1] stated/other: Believes city should be guided by smart, progressive policymaking with shared community values
+
+## alameda/city | office=Mayor | id=Alameda:city:cityofhayward:mayor | status=contested
+- Alameda:city:cityofhayward:mayor:marksalinas | Mark Salinas | nonp | review=reviewed | stated=5 other=0
+    [0] stated/safety: Says crime is down and the city is recruiting and retaining good police officers. Lists reducing crime more as a priority.
+    [1] stated/housing: Says housing is being built for all income levels and homelessness is being reduced through supportive housing and services.
+    [2] stated/education: Says he worked to make Hayward an Education City, citing free student transit passes, Hayward Rides bicycles, and guaranteed Cal State East Bay admission for high school graduates.
+    [3] stated/budget: Lists a stronger city financial position, more businesses and jobs, and safer streets for pedestrians, bicyclists and drivers as priorities.
+    [4] stated/education: Campaign site lists making Hayward an "Education City" among his priorities.
+- Alameda:city:cityofhayward:mayor:tomwong | Tom Wong | nonp | review=reviewed | stated=6 other=0
+    [0] stated/safety: Says he will make sure police and fire departments have resources to respond quickly.
+    [1] stated/housing: Says he will work to create a direct pathway to homeownership for Hayward families and cut red tape and delays.
+    [2] stated/jobs: Says he will push for hiring policies that give Hayward residents priority for Hayward jobs.
+    [3] stated/taxes: Says he will champion no property tax for senior homeowners.
+    [4] stated/housing: Campaign site lists stopping more data-center expansion and putting resources toward family housing as a priority.
+    [5] stated/endorse: Campaign site lists an endorsement from the California Rifle & Pistol Association PAC (September 2026).
+
+## alameda/school | office=School Board Member, Area 4 | id=Alameda:school:newhavenunifiedschooldistrict:schoolboardmemberarea4 | status=contested
+- Alameda:school:newhavenunifiedschooldistrict:schoolboardmemberarea4:shrutikumar | Shruti Kumar | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Expanded middle school Spanish, speech, debate, and math programs; strengthened college pathways through partnership with California State University, East Bay.
+    [1] stated/safety: Improved school safety and traffic flow at school sites.
+    [2] stated/community: Accessible through office hours, school visits, and community engagement; believes best decisions come from listening to community.
+- Alameda:school:newhavenunifiedschooldistrict:schoolboardmemberarea4:charandeepsinghtatlah | Charandeep Singh Tatlah | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Brings technical expertise in STEAM, problem-solving, entrepreneurship, and leadership to school board decision-making.
+    [1] stated/education: Views teachers as foundation of district; deeply grateful for their dedication, care, and expertise in classrooms.
+    [2] stated/education: Priorities include honesty, putting students first, listening to parents, empowering teachers, and driving increased resources to schools.
+- Alameda:school:newhavenunifiedschooldistrict:schoolboardmemberarea4:kashifwasim | Kashif Wasim | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Wants to bring practical technology into schools so students gain needed skills and teachers receive training and resources.
+    [1] stated/education: Committed to raising academic standards and school ratings across district through strong instruction, clear accountability, and continuous improvement.
+    [2] stated/education: Committed to ensuring teachers have resources and support needed to do their best work with students.
+
+## alameda/city | office=City Council Member, District 7 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict7 | status=contested
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict7:aidanhill | Aidan Hill | nonp | review=reviewed | stated=5 other=0
+    [0] stated/housing: Says he will protect rent-controlled housing and expand permanent affordability.
+    [1] stated/streets: Says he will prioritize sidewalk, lighting, sanitation, and disability-access improvements.
+    [2] stated/growth: Says he will work to make major development fund the infrastructure its growth demands and press UC Berkeley for housing and neighborhood responsibility.
+    [3] stated/other: Says he will seek voter approval before major public land is converted and publish quarterly progress reports.
+    [4] stated/endorse: Lists endorsements on his campaign website from the Peace and Freedom Party of California and FLIP Berkeley City Council, plus individuals including former Councilmember Cheryl Davila.
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict7:syrakmicael | Syrak Micael | nonp | review=reviewed | stated=4 other=0
+    [0] stated/housing: Says he believes housing is a human right and living should be affordable.
+    [1] stated/record: Says that on the Housing Advisory Commission he voted to hold landlords accountable, fund housing infrastructure, and support affordable housing.
+    [2] stated/endorse: Lists endorsements from East Bay Democratic Socialists of America, UAW Region 6, Berkeley Tenants Union, Telegraph for People, and Supervisor Nikki Fortunato Bas.
+    [3] stated/endorse: Lists an endorsement from current District 7 Councilmember Cecilia Lunaparra on his campaign website.
+
+## alameda/special | office=Director, Ward 3 | id=Alameda:special:alamedacountywaterdistrict:directorward3 | status=contested
+- Alameda:special:alamedacountywaterdistrict:directorward3:paulsethy | Paul Sethy | nonp | review=reviewed | stated=4 other=0
+    [0] stated/water: Says he kept water rates among the lowest in Bay Area; initiated rate assistance program for low-income households
+    [1] stated/finance: Says he managed district finances strictly, achieving AAA credit ratings from major rating agencies
+    [2] stated/water: Says he steered seismic improvement projects along the Hayward Fault to protect infrastructure
+    [3] stated/energy: Says he sponsored energy-efficiency efforts to install solar at district facilities to lower water production costs
+- Alameda:special:alamedacountywaterdistrict:directorward3:yangshao | Yang Shao | nonp | review=reviewed | stated=4 other=0
+    [0] stated/water: Opposes proposed water rate increases of 5% in 2027 and 2028; calls for rejecting hikes and breaking cycle of automatic annual increases
+    [1] stated/finance: Calls for publishing clear accounting of all district spending and State Water Project taxes; supports independent audits and fixed-charge reform
+    [2] stated/water: Prioritizes replacing aging water pipelines and proactively protecting groundwater before main breaks force costly emergency repairs
+    [3] stated/water: Says his chemistry background and education qualify him to scrutinize water quality data and review infrastructure plans
+
+## alameda/city | office=City Council Member, District 2 | id=Alameda:city:cityofoakland:citycouncilmemberdistrict2 | status=contested
+- Alameda:city:cityofoakland:citycouncilmemberdistrict2:nateadams | Nate Adams | nonp | review=reviewed | stated=3 other=0
+    [0] stated/other: Lists four commitments: safer, cleaner streets; affordable housing; 1,000 city jobs delivering services; and fiscal accountability. Says he is the only corporate-free candidate.
+    [1] stated/housing: Says he would create permanently affordable housing for renters and prevent corporate investors from driving up costs.
+    [2] stated/streets: Says his time on the council would be measured by potholes filled, lights repaired and streets cleaned.
+- Alameda:city:cityofoakland:citycouncilmemberdistrict2:charlenewang | Charlene Wang | nonp | review=reviewed | stated=4 other=1
+    [0] stated/safety: Says she chairs the Public Safety Committee to improve 911, reduce crime, slow reckless driving and stop illegal dumping.
+    [1] stated/immigration: Says she wrote Oakland's new sanctuary law, banning collection of immigration status data and cooperation with ICE.
+    [2] stated/homeless: Says she closed the East 12th encampment and is converting motels into homeless shelters.
+    [3] stated/housing: Says that as a renter she cut red tape that inflates rent and will keep working on affordability.
+    [4] record/record: The city lists her as chair of the Public Safety Committee and of Oakland's anti-human-trafficking task force.
+
+## alameda/college | office=Community College District Trustee, Area 3 | id=Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea3 | status=contested
+- Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea3:markfay | Mark Fay | nonp | review=unreviewed | stated=0 other=0
+- Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea3:wendyhuang | Wendy Huang | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Prioritizes strengthening STEAM education and expanding career technical education, apprenticeships, and workforce training
+    [1] stated/jobs: Supports expanding career technical education, apprenticeships, and workforce training programs for students
+    [2] stated/budget: Committed to transparent, accountable leadership that safeguards taxpayer dollars
+- Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea3:harrismojadedi | Harris Mojadedi | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Advocates for educational policies that expand access and equity for historically marginalized communities
+    [1] stated/jobs: Lists workforce development as a top priority for the district
+    [2] stated/budget: Has worked to expand funding for critical services through partnerships with regional and state leaders
+
+## alameda/special | office=Director, Ward 3 | id=Alameda:special:eastbaymunicipalutilitydistrictebmud:directorward3 | status=contested
+- Alameda:special:eastbaymunicipalutilitydistrictebmud:directorward3:dongray | Don Gray | nonp | review=reviewed | stated=2 other=0
+    [0] stated/water: Designed EBMUD's first major water recycling plant producing up to 5.4 million gallons daily.
+    [1] stated/economy: Obtained patents for food waste recycling and infrastructure processes that reduced treatment costs and EBMUD bills.
+- Alameda:special:eastbaymunicipalutilitydistrictebmud:directorward3:margueriteyoung | Marguerite Young | nonp | review=reviewed | stated=4 other=0
+    [0] stated/water: Expanded water conservation and recycling; nearly tripled pipeline replacement pace to ensure continuous water service.
+    [1] stated/energy: Put EBMUD on path to net zero emissions by 2030 and prepared for droughts, wildfires, and power shutoffs.
+    [2] stated/community: Made water shutoff moratorium permanent and expanded customer assistance program to prevent service loss due to inability to pay.
+    [3] stated/environment: Drove efforts to reduce harmful nutrients polluting the Bay and secured permanent protection of the Mokelumne River.
+
+## alameda/transit | office=Director, Ward 3 | id=Alameda:transit:actransitdistrict:directorward3 | status=contested
+- Alameda:transit:actransitdistrict:directorward3:adrianavalencia | Adriana Valencia | nonp | review=reviewed | stated=2 other=0
+    [0] stated/economy: Supports affordable and reliable transit to ensure access to jobs, schools, shopping, and medical care
+    [1] stated/community: Has experience as transit advocate, housing advocate, and chair of district economic development committee
+- Alameda:transit:actransitdistrict:directorward3:joelbyoung | Joel B. Young | nonp | review=reviewed | stated=3 other=0
+    [0] stated/environment: Supports clean buses and environmental protection; secured funding for hydrogen fuel cell bus program
+    [1] stated/economy: Directed over $200 million in AC Transit contracting opportunities to local businesses to create good-paying jobs
+    [2] stated/health: Supports clean buses to protect public health
+
+## house/CA17 | office= | id=None | status=
+- ushouse:17:rokhanna | Ro Khanna | Democratic | review=none_found | stated=0 other=0
+- ushouse:17:riteshtandon | Ritesh Tandon | Republican | review=reviewed | stated=4 other=0
+    [0] stated/other: Pledges not to buy or sell individual stocks in Congress and says he supports a stock-trading ban for members of Congress and their families.
+    [1] stated/health: Says he will fight to lower housing and healthcare costs and prescription drug prices, and to protect coverage for preexisting conditions.
+    [2] stated/economy: Says he will support responsible innovation and small businesses, protect American jobs, and prepare workers for artificial intelligence.
+    [3] stated/safety: Supports voter identification, secure borders and safe communities.
+
+## alameda/transit | office=Director, District 4 | id=Alameda:transit:bart:directordistrict4 | status=contested
+- Alameda:transit:bart:directordistrict4:robertraburn | Robert Raburn | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says safety focus improved cleanliness, crime; deployed attendants, crisis specialists
+    [1] stated/housing: Says created thousands of affordable homes close to transit
+    [2] stated/environment: Supports Regional Transit Measure to preserve service, combat climate change, reduce congestion
+    [3] stated/community: Says directed BART to be equitable, hire locally, support small businesses
+- Alameda:transit:bart:directordistrict4:luisreynoso | Luis Reynoso | nonp | review=unreviewed | stated=0 other=0
+
+## alameda/city | office=Mayor | id=Alameda:city:cityofnewark:mayor | status=unopposed
+- Alameda:city:cityofnewark:mayor:michaelkhannon | Michael K. Hannon | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Says he prioritized new fire stations and police efforts reducing crime
+    [1] stated/roads: Says he doubled street repaving funding with work continuing in 2027
+    [2] stated/community: Supports broadband development, community resource center, and park improvements
+
+## alameda/statewide | office=Treasurer | id=Alameda:statewide:stateofcalifornia:treasurer | status=contested
+- Alameda:statewide:stateofcalifornia:treasurer:jenniferhawks | Jennifer Hawks | Republican | review=reviewed | stated=0 other=2
+    [0] reporting/budget: CalMatters reports she stresses her outsider status, saying her lack of political experience gives her skills and independence to check state government.
+    [1] reporting/endorse: CalMatters lists endorsements from the California Republican Party, the California Republican Assembly and Reform California.
+- Alameda:statewide:stateofcalifornia:treasurer:elenikounalakis | Eleni Kounalakis | Democratic | review=reviewed | stated=2 other=1
+    [0] stated/other: Campaign site says she strives to build a future where everyone has the same chance and opportunity.
+    [1] reporting/education: CalMatters reports she voted against proposed tuition increases on the UC Board of Regents and CSU Board of Trustees.
+    [2] stated/endorse: Campaign site lists endorsements from Governor Gavin Newsom and the California Labor Federation.

@@ -1,0 +1,170 @@
+[
+ {
+  "contest": "assembly/CA16",
+  "id": "gun-laws",
+  "q_en": "California should pass stricter gun laws.",
+  "q_es": "California debería aprobar leyes de armas más estrictas.",
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "assembly/CA20",
+  "id": "card-fees",
+  "q_en": "The state should limit the swipe fees that banks and card companies charge businesses.",
+  "q_es": "El estado debería limitar las comisiones que bancos y empresas de tarjetas cobran a los negocios.",
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "assembly/CA20",
+  "id": "keep-natural-gas",
+  "q_en": null,
+  "q_es": null,
+  "t_en": "Keeping gas could slow the shift to cleaner energy; phasing it out could raise costs.",
+  "t_es": "Mantener el gas podría frenar la energía limpia; eliminarlo podría subir los costos."
+ },
+ {
+  "contest": "cityofalameda:citycouncilmember",
+  "id": "restaurant-food-tax",
+  "q_en": null,
+  "q_es": "Debería eliminarse el impuesto sobre las ventas de la comida consumida en restaurantes.",
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "Board of Equalization",
+  "id": "billionaires-tax",
+  "q_en": null,
+  "q_es": null,
+  "t_en": "Supporters expect new revenue; opponents say some wealthy residents might leave the state.",
+  "t_es": "Partidarios esperan nuevos ingresos; opositores dicen que algunos ricos podrían irse del estado."
+ },
+ {
+  "contest": "cityofhayward:mayor",
+  "id": "senior-property-tax",
+  "q_en": null,
+  "q_es": "Los propietarios adultos mayores no deberían pagar impuesto a la propiedad.",
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "cityofberkeley:citycouncilmemberdistrict7",
+  "id": "rent-control",
+  "q_en": "Berkeley should keep its rent control rules in place rather than loosen them.",
+  "q_es": "Berkeley debería mantener sus reglas de control de rentas en vez de flexibilizarlas.",
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "eastbaymunicipalutilitydistrictebmud:directorward7",
+  "id": "lake-chabot-soil-dump",
+  "q_en": "EBMUD should allow a soil disposal site on Lake Chabot Road with about 100 truck trips a day.",
+  "q_es": "EBMUD debería permitir un sitio de depósito de tierra en Lake Chabot Road con unos 100 viajes de camión al día.",
+  "t_en": "It would give nearby construction a place for soil; neighbors would get truck traffic and dust.",
+  "t_es": "Daría a obras cercanas un lugar para la tierra; los vecinos tendrían camiones y polvo."
+ },
+ {
+  "contest": "house/CA08",
+  "id": "federal-shipbuilding",
+  "q_en": "Congress should spend federal money to expand U.S. shipbuilding.",
+  "q_es": "El Congreso debería invertir fondos federales para expandir la construcción naval en EE. UU.",
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "cityofnewark:mayor",
+  "id": "repaving",
+  "q_en": null,
+  "q_es": null,
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "cityofhayward:citycouncilmemberdistrict1",
+  "id": "limit-data-centers",
+  "q_en": "Hayward should limit where new data centers can be built.",
+  "q_es": "Hayward debería limitar dónde se pueden construir nuevos centros de datos.",
+  "t_en": "Fewer data centers could mean fewer jobs and less tax money for the city.",
+  "t_es": "Menos centros de datos podría significar menos empleos y menos impuestos para la ciudad."
+ },
+ {
+  "contest": "cityofalameda:mayor",
+  "id": "divest-weapons-polluters",
+  "q_en": "The city should not invest its money in companies that make weapons.",
+  "q_es": "La ciudad no debería invertir su dinero en empresas que fabrican armas.",
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "orolomasanitarydistrict:directordist3",
+  "id": "replace-sewer-pipes",
+  "q_en": "The district should replace aging sewer pipes faster, even if it raises sewer rates.",
+  "q_es": "El distrito debería reemplazar más rápido las tuberías viejas, aunque suban las tarifas.",
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "alamedacountywaterdistrict:directorward3",
+  "id": "pipe-replacement",
+  "q_en": "The district should speed up replacing aging pipes, even if it raises water rates.",
+  "q_es": "El distrito debería acelerar el reemplazo de tuberías viejas, aunque suban las tarifas de agua.",
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "cityofalbany:citycouncilmember",
+  "id": "traffic-calming",
+  "q_en": null,
+  "q_es": null,
+  "t_en": "Car trips would be slower and the work costs money.",
+  "t_es": null
+ },
+ {
+  "contest": "bart:directordistrict4",
+  "id": "transit-measure",
+  "q_en": "Voters should approve a regional measure that raises money for BART and bus service.",
+  "q_es": "Los votantes deberían aprobar una medida regional que recaude dinero para BART y autobuses.",
+  "t_en": "Residents would pay for it through a new tax or fee.",
+  "t_es": "Los residentes lo pagarían con un nuevo impuesto o cargo."
+ },
+ {
+  "contest": "cityofberkeley:auditor",
+  "id": "audit-rent-board",
+  "q_en": null,
+  "q_es": "El auditor de la ciudad debería completar una auditoría de la Junta de Rentas de Berkeley.",
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "cityofmountainhouse:membercitycouncil",
+  "id": "signals-not-roundabouts",
+  "q_en": null,
+  "q_es": null,
+  "t_en": "Changing course would mean redoing a project the council already approved.",
+  "t_es": "Cambiar de rumbo implicaría rehacer un proyecto que el concejo ya aprobó."
+ },
+ {
+  "contest": "danibettencourt",
+  "id": "police-fire-promised-funds",
+  "q_en": "Police and Fire should get their full budgeted funding, even if other city budgets shrink.",
+  "q_es": "La policía y los bomberos deberían recibir todo su presupuesto asignado, aunque otros presupuestos se reduzcan.",
+  "t_en": null,
+  "t_es": null
+ },
+ {
+  "contest": "katherineking",
+  "id": "staff-pay",
+  "q_en": null,
+  "q_es": "El distrito debería hacer del aumento de sueldo de maestros y personal una de las principales prioridades del presupuesto.",
+  "t_en": null,
+  "t_es": "Sueldos más altos podrían dejar menos dinero para programas, materiales u otras necesidades."
+ },
+ {
+  "contest": "nelsonesparza",
+  "id": "close-loopholes",
+  "q_en": "The state should end some tax breaks so more money goes to local services.",
+  "q_es": "El estado debería eliminar algunas exenciones fiscales para que más dinero llegue a servicios locales.",
+  "t_en": null,
+  "t_es": null
+ }
+]

@@ -1,0 +1,170 @@
+Each contest starts with '## '. Lines starting with '- ' are candidates: id | name | party | review | counts. Indented '[n] kind/topic: text' lines are that candidate's documented positions; n is the statement index.
+
+## alameda/special | office=Director | id=Alameda:special:livermorearearecreationparkdistrict:director | status=contested
+- Alameda:special:livermorearearecreationparkdistrict:director:timothybarry | Timothy Barry | nonp | review=reviewed | stated=3 other=0
+    [0] stated/community: Work for vibrant and growing District programs that help diverse community thrive
+    [1] stated/budget: Stretch dollars to get results and make quality of life the best it can be
+    [2] stated/other: Values continued energy and efforts for parks, trails, and activities that serve community
+- Alameda:special:livermorearearecreationparkdistrict:director:larrybird | Larry Bird | nonp | review=reviewed | stated=3 other=0
+    [0] stated/community: Family has utilized LARPD facilities and committed to ongoing community collaboration
+    [1] stated/other: Founded and grew Tri-Valley Pickleball Club to 600 members; serves as pickleball instructor and liaison for LARPD
+    [2] stated/community: Dedicated career in public service; collaborated with community organizations on events and programs
+- Alameda:special:livermorearearecreationparkdistrict:director:mattbogdanowicz | Matt Bogdanowicz | nonp | review=unreviewed | stated=0 other=0
+- Alameda:special:livermorearearecreationparkdistrict:director:maryalicesummersfaltings | Maryalice Summers Faltings | nonp | review=reviewed | stated=4 other=0
+    [0] stated/other: Maintain strong volunteer program; promote innovative facilities like spray parks, pickleball, bike tracks
+    [1] stated/community: Safeguard important programs including ESS, aquatics, youth sports, and senior services
+    [2] stated/budget: LARPD has spent tax dollars wisely and continues to plan for future needs over 75 years
+    [3] stated/community: Encourage cooperation among park districts, school districts, and city for efficient local government
+- Alameda:special:livermorearearecreationparkdistrict:director:philippierpont | Philip Pierpont | nonp | review=reviewed | stated=3 other=0
+    [0] stated/other: LARPD enacted programs to enhance community quality of life including playground renovation and aquatics improvements
+    [1] stated/other: Worked with City and County to connect multiple multi-use trails throughout community
+    [2] stated/budget: Pushed aggressively to protect taxes paid by residents and ensure funds are spent in community
+- Alameda:special:livermorearearecreationparkdistrict:director:mikeralph | Mike Ralph | nonp | review=reviewed | stated=4 other=0
+    [0] stated/other: Long-time advocate for Sunken Gardens Pump Track; helped lead inaugural first use in June
+    [1] stated/other: Led efforts to provide free bicycle helmets to local riders, including Title I school students
+    [2] stated/other: Supports safe, responsible e-bike use through education, clear regulations, and appropriate enforcement
+    [3] stated/environment: Committed to preserving Camp Shelly for future generations to enjoy Lake Tahoe campground
+- Alameda:special:livermorearearecreationparkdistrict:director:laureenturner | Laureen Turner | nonp | review=reviewed | stated=3 other=0
+    [0] stated/other: Committed to preserving and enhancing parks, trails, open spaces, and recreational opportunities
+    [1] stated/community: Believes LARPD enriches lives of residents through programs from hiking and pickleball to youth, senior, and family programs
+    [2] stated/budget: Gained experience in public service and fiscal responsibility through previous community leadership roles
+
+## alameda/school | office=School Director, District 4 | id=Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict4 | status=contested
+- Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict4:kathryncamp | Kathryn Camp | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Supports stronger literacy and math instruction
+    [1] stated/economy: Supports expanded career pathways for students
+    [2] stated/budget: Emphasizes responsible budgeting and fiscal responsibility
+    [3] stated/education: Pledges to make independent, data-based decisions
+- Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict4:mikehutchinson | Mike Hutchinson | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Calls for excellent superintendent and strategic plan
+    [1] stated/budget: Supports fiscal solvency plan for district recovery
+    [2] stated/community: Calls for authentic community engagement as partners
+    [3] stated/education: Supports high-quality, community-focused schools
+- Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict4:sylviapfeifferwilliams | Sylvia Pfeiffer Williams | nonp | review=reviewed | stated=4 other=0
+    [0] stated/budget: Supports aligning budgets with community values and priorities
+    [1] stated/education: Committed to working toward educational equity for all students
+    [2] stated/education: Prioritizes safe schools, community schools, and adult education
+    [3] stated/community: Emphasizes clear communication with constituents
+
+## alameda/school | office=School Board Member, Area 4 | id=Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea4 | status=contested
+- Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea4:faithcarroll | Faith Carroll | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Values trades, apprenticeships, career training, the arts, and college degrees equally, with visible, accessible, supported pathways to success for all students.
+    [1] stated/health: Prioritizes student mental health as part of creating safe, well-maintained schools.
+    [2] stated/safety: Supports safe schools that are well-maintained and advocates for transparency, respect, and accountability.
+    [3] stated/education: Believes strong schools are built through trust, communication, and community engagement.
+- Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea4:brianafoster | Brian A. Foster | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Wants to raise academic standards and offer more Advanced Placement courses to help Castro Valley compete with high-performing districts.
+    [1] stated/education: Opposes 50% credit for no work and supports honest grading to give students accurate feedback on college readiness.
+    [2] stated/education: Believes teachers should have the opportunity, authority, and support needed to provide quality education focused on classroom learning.
+- Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea4:josephgrcar | Joseph Grcar | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Wants to expand access to Advanced Placement courses and maintain high standards with strong academic programs.
+    [1] stated/safety: Advocates for schools free from bullying with safe campuses as a priority.
+    [2] stated/education: Emphasizes honest, truthful communication with parents and maintaining school choice to sustain enrollment and resources.
+
+## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityoffremont:citycouncilmembercouncil3 | status=contested
+- Alameda:city:cityoffremont:citycouncilmembercouncil3:kathykimberlin | Kathy Kimberlin | nonp | review=reviewed | stated=5 other=0
+    [0] stated/homeless: Says she has advocated for unhoused neighbors, and works to connect residents with food, shelter and wrap-around services.
+    [1] stated/streets: Says she has made progress on traffic issues since her 2024 appointment.
+    [2] stated/economy: Says she has increased support for local businesses and strengthened nonprofit partnerships.
+    [3] stated/endorse: Lists endorsements from Rep. Ro Khanna, State Treasurer Fiona Ma, Assemblymember Alex Lee and the Tri-Cities mayors.
+    [4] stated/economy: Lists job growth and economic development, traffic management, homelessness, business support, nonprofit assistance and public safety as priorities.
+- Alameda:city:cityoffremont:citycouncilmembercouncil3:vipinsharma | Vipin Sharma | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says he will bring an independent, evidence-based approach to public safety, homelessness, responsible budgeting and neighborhood quality of life.
+    [1] stated/budget: Lists responsible financial stewardship as a priority, including careful budgeting, transparency and measurable outcomes.
+    [2] stated/growth: Lists smart growth as a priority, covering housing, economic development, transportation and infrastructure that respect existing neighborhoods.
+    [3] stated/homeless: Lists practical homelessness solutions that balance compassion with community responsibility, under safe, well-maintained neighborhoods.
+
+## assembly/CA16 | office=State Assembly, District 16 | id=None | status=
+- stateassembly:16:rebeccabauerkahan | Rebecca Bauer-Kahan | Democratic | review=reviewed | stated=5 other=0
+    [0] stated/cost: Says she is working across the aisle to make California more affordable, and is fighting to lower PG&E bills and fix the insurance market.
+    [1] stated/environment: Says she defends local open space and holds Big Tech accountable for data center energy and water use.
+    [2] stated/safety: Says she worked with public safety officials to strengthen gun safety and hate crimes laws and to fund law enforcement response to organized retail theft.
+    [3] stated/abortion: Says she has led the fight for women’s health and reproductive choice, including affordable access to pregnancy, abortion and menopause care.
+    [4] stated/other: Lists keeping kids safe online, fixing the insurance crisis, investing in local schools and protecting reproductive rights as issues on her campaign site.
+- stateassembly:16:josepharubay | Joseph A. Rubay | Republican | review=reviewed | stated=3 other=0
+    [0] stated/safety: Says he opposes defunding police, supports adequate law enforcement funding and wants stronger accountability for repeat offenders.
+    [1] stated/taxes: Says he wants to cut wasteful programs, audit state agencies, and reduce taxes, utility costs and housing expenses.
+    [2] stated/education: Supports a back-to-basics education focused on core subjects and says parents should have the final say on their child’s education.
+
+## house/CA14 | office= | id=None | status=
+- ushouse:14:melissahernandez | Melissa Hernandez | Democratic | review=reviewed | stated=3 other=0
+    [0] stated/housing: Says that in Congress she will fight for smart affordable housing solutions.
+    [1] stated/health: Says she will work to protect Social Security and Medicare and lower the cost of healthcare, childcare and everyday items.
+    [2] stated/record: Says that as Mayor of Dublin she worked to increase affordable housing and advance policies that created good-paying jobs.
+- ushouse:14:aishawahab | Aisha Wahab | Democratic | review=reviewed | stated=4 other=1
+    [0] stated/economy: Says she is running to get back to basics: food, housing, well-paying jobs, healthcare, strong public schools and an affordable life.
+    [1] stated/record: Says she capped insulin costs, secured $11 insulin pens, funded first-time homebuyer down payments and expanded affordable housing.
+    [2] stated/endorse: Lists the California Democratic Party, Alameda County Sheriff Yesenia Sanchez and several legislators as supporters.
+    [3] stated/other: Campaign site lists priorities: housing and homeownership, jobs, social services funding, public safety with law enforcement, and environment.
+    [4] reporting/record: AP reported that she won the August 2026 special election and is the first Afghan American to serve in Congress.
+
+## alameda/city | office=City Council Member, Council #2 | id=Alameda:city:cityoflivermore:citycouncilmembercouncil2 | status=contested
+- Alameda:city:cityoflivermore:citycouncilmembercouncil2:benbarrientos | Ben Barrientos | nonp | review=reviewed | stated=4 other=0
+    [0] stated/housing: Says he supports more affordable housing, especially for seniors, nurses, teachers, firefighters, police and other essential service personnel.
+    [1] stated/environment: Says that as a council member he supported incentives for energy and water conservation and the Urban Growth Boundary.
+    [2] stated/community: Says he voted for a park in District 2 with a playground, trails, community garden and frisbee golf, opening this fall.
+    [3] stated/roads: Says he filled potholes, fixed sidewalks and added more handicap parking on First Street.
+- Alameda:city:cityoflivermore:citycouncilmembercouncil2:narayantadimeti | Narayan Tadimeti | nonp | review=reviewed | stated=3 other=1
+    [0] stated/budget: Says Livermore's success depends on thoughtful planning, fiscal responsibility, safe neighborhoods, a strong local economy and a council that works as a team.
+    [1] stated/community: Says he respects nonprofit organizations and the role they play in strengthening communities and supporting families.
+    [2] reporting/growth: The Livermore Vine reports his priorities are smart growth and infrastructure, attainable housing, community safety, fiscal responsibility and open space preservation.
+    [3] stated/community: Says Livermore is ready for a new chapter where every resident feels heard and has a stake in the shared future.
+
+## assembly/CA18 | office=State Assembly, District 18 | id=None | status=
+- stateassembly:18:miabonta | Mia Bonta | Democratic | review=reviewed | stated=4 other=0
+    [0] stated/housing: Says she has fought for billions of dollars in state spending for housing creation, renter protections, and housing help for students and families.
+    [1] stated/health: Says that as Health Committee Chair she works to lower prescription drug costs and ensure seniors get needed home medical equipment.
+    [2] stated/childcare: Says she helped expand childcare, free school meals and universal pre-K, and helped establish the California Legislative Children's Caucus.
+    [3] stated/safety: Says she led legislation to clean up streets, properly dispose of abandoned RVs, and make neighborhoods safe.
+- stateassembly:18:andresandford | Andre Sandford | Democratic | review=reviewed | stated=2 other=0
+    [0] stated/cost: Says rising living costs burden families and that he would fight for working families. Lists housing cost reduction, rent caps, childcare access and universal health coverage as affordability priorities.
+    [1] stated/endorse: Lists endorsements from Black Young Dems of the Bay, California Young Democrats Bay Area Region, Forward California, and a recommendation from the Green Party of Alameda County.
+
+## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityofpleasanton:citycouncilmembercouncil3 | status=contested
+- Alameda:city:cityofpleasanton:citycouncilmembercouncil3:reenagupta | Reena Gupta | nonp | review=reviewed | stated=3 other=1
+    [0] stated/budget: Says Pleasanton must remain fiscally disciplined and wants to grow the revenue base, not the tax rate.
+    [1] stated/economy: Plans to revitalize Downtown, support Stoneridge Mall redevelopment, attract businesses and reduce commercial vacancies.
+    [2] stated/community: Says she supports thoughtful housing, public safety, restoring library hours and investing in infrastructure.
+    [3] reporting/economy: Pleasanton Weekly reports she wants to activate underused assets such as Stoneridge Shopping Center and business parks.
+- Alameda:city:cityofpleasanton:citycouncilmembercouncil3:jamieyee | Jamie Yee | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Says she would support public safety, a strong local economy, infrastructure needs, and a transparent, accountable City Hall.
+    [1] stated/budget: Says her school board service focused on fiscal responsibility, transparency and long-term planning during the Great Recession.
+    [2] stated/community: Campaign site lists protecting neighborhoods, careful planning and investing in what matters most as priorities.
+
+## alameda/school | office=School Director, District 2 | id=Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict2 | status=contested
+- Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict2:jenniferbrouhard | Jennifer Brouhard | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports high-quality public schools meeting every neighborhood's student needs.
+    [1] stated/budget: Says responsible budgeting and educational excellence support each other.
+    [2] stated/education: Supports retaining excellent educators through competitive compensation for student support.
+- Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict2:ariellefleisher | Arielle Fleisher | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Notes that despite high per-student spending, only 1 in 3 students read at grade level.
+    [1] stated/budget: Commits to bringing honest budgeting and transparency to the school board.
+    [2] stated/other: Says regained local school control is at risk and needs experienced policy leadership to protect.
+
+## alameda/transit | office=Director, Ward 4 | id=Alameda:transit:actransitdistrict:directorward4 | status=contested
+- Alameda:transit:actransitdistrict:directorward4:gabrielmorales | Gabriel Morales | nonp | review=unreviewed | stated=0 other=0
+- Alameda:transit:actransitdistrict:directorward4:sarahsyed | Sarah Syed | nonp | review=reviewed | stated=4 other=0
+    [0] stated/roads: Supports frequent, reliable buses and restored Broadway service
+    [1] stated/community: Works to ensure low-income and student riders benefit from service improvements
+    [2] stated/environment: Advocates for transparent decisions on zero-emission bus adoption
+    [3] stated/jobs: Supports better working conditions for bus operators
+
+## alameda/statewide | office=Controller | id=Alameda:statewide:stateofcalifornia:controller | status=contested
+- Alameda:statewide:stateofcalifornia:controller:maliamcohen | Malia M. Cohen | Democratic | review=reviewed | stated=1 other=0
+    [0] stated/housing: Lists addressing California's housing crisis, retirement security, and affordable health care among her campaign priorities.
+- Alameda:statewide:stateofcalifornia:controller:herbwmorgan | Herb W Morgan | Republican | review=reviewed | stated=2 other=0
+    [0] stated/budget: Lists auditing government spending, especially the social services system, as a main priority.
+    [1] stated/finance: Proposes returning $15 billion in unclaimed assets to owners by cross-referencing state records and speeding direct payments.
+
+## alameda/college | office=Community College District Trustee, Area 2 | id=Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea2 | status=contested
+- Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea2:lindagranger | Linda Granger | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Dedicated to ensuring all community college students receive quality education
+    [1] stated/education: Supports preparing students for careers or transfer to four-year college
+    [2] stated/education: Supports innovative solutions to adapt to new challenges
+- Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea2:cindyrocha | Cindy Rocha | nonp | review=unreviewed | stated=0 other=0
+
+## alameda/city | office=Auditor | id=Alameda:city:cityofoakland:auditor | status=unopposed
+- Alameda:city:cityofoakland:auditor:michaelchouston | Michael C. Houston | nonp | review=reviewed | stated=3 other=0
+    [0] stated/record: Says his office has audited illegal dumping, business taxes, and emergency response, and has run whistleblower investigations.
+    [1] stated/budget: Says that if re-elected he will look for ways to streamline processes, protect public resources, cut costs, and raise revenue for the City.
+    [2] stated/other: Says being an elected auditor means he is independent of the Mayor, City Council, and City Administration.

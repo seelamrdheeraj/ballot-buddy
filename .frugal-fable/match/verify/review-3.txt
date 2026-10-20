@@ -1,0 +1,340 @@
+
+## CONTEST: Member, City Council  [sig=arjunjuturu|bernicekingtingle|happygrewal|nadershareghi|ronnagreen|sureshvuyyuru]
+  Q id=cfd-special-tax-bonds topic=finance
+    EN: The city should approve special tax bonds to pay for facilities in new improvement areas.
+    ES: La ciudad debería aprobar bonos de impuesto especial para pagar instalaciones en nuevas áreas de mejora.
+    TRADEOFF EN: Property owners in those areas repay the bonds through a special tax. | ES: Los dueños de propiedades en esas áreas pagan los bonos con un impuesto especial.
+    MAP ronnagreen: side=AGREE quote="Voted for Resolution 2026-76 authorizing special tax bonds for Improvement Areas 8 and 13"
+        full statement [5] (record/record): Voted for Resolution 2026-76 authorizing special tax bonds for Improvement Areas 8 and 13 of Community Facilities District 2024-1 (carried 3-1; King Tingle against; Mayor Su absent). Green chaired the meeting as Vice Mayor.
+    MAP bernicekingtingle: side=DISAGREE quote="Voted against Resolution 2026-76 authorizing special tax bonds for CFD 2024-1 Improvement Areas 8 and 13"
+        full statement [4] (record/record): Voted against Resolution 2026-76 authorizing special tax bonds for CFD 2024-1 Improvement Areas 8 and 13 (carried 3-1; she was the only 'Against'; Mayor Su absent).
+  Q id=council-political-activity-policy topic=elections
+    EN: The council should adopt a written policy on council members' political activities.
+    ES: El concejo debería adoptar una política escrita sobre las actividades políticas de sus miembros.
+    TRADEOFF EN: The policy adds new rules on how council members take part in politics. | ES: La política agrega nuevas reglas sobre cómo los concejales participan en la política.
+    MAP ronnagreen: side=DISAGREE quote="cast the only 'Against' vote on Resolution 2026-72, adding Section 5.16 'Political Activities of Council Members'"
+        full statement [4] (record/record): As Vice Mayor, cast the only 'Against' vote on Resolution 2026-72, adding Section 5.16 'Political Activities of Council Members' to the Council Policies and Procedures (carried 4-1). The minutes note it includes language excluding all City parks from the defined City facilities.
+    MAP bernicekingtingle: side=AGREE quote="Voted for Resolution 2026-72 adding Section 5.16 'Political Activities of Council Members'"
+        full statement [5] (record/record): Voted for Resolution 2026-72 adding Section 5.16 'Political Activities of Council Members' to the Council Policies and Procedures (carried 4-1; Green against).
+  Q id=signals-not-roundabouts topic=roads
+    EN: Grant Line Road should get traffic signals instead of roundabouts.
+    ES: Grant Line Road debería tener semáforos en lugar de glorietas.
+    TRADEOFF EN: The council already approved the roundabout project. | ES: El concejo ya aprobó el proyecto de glorietas.
+    MAP arjunjuturu: side=AGREE quote="saying roundabouts would not fix the traffic problem and signals should be considered"
+        full statement [4] (record/comment): Spoke as a resident at the public hearing on the Grant Line Road Roundabouts EIR, saying roundabouts would not fix the traffic problem and signals should be considered. The council approved the project 5-0.
+  Q id=backup-water-sources topic=water
+    EN: The city should add backup water sources instead of relying on a single supply line.
+    ES: La ciudad debería agregar fuentes de agua de respaldo en vez de depender de una sola línea de suministro.
+    TRADEOFF EN: New water sources take money that could go to other projects. | ES: Nuevas fuentes de agua requieren dinero que podría ir a otros proyectos.
+    MAP nadershareghi: side=AGREE quote="secure backup and alternative water sources rather than depend on a single supply line"
+        full statement [2] (stated/water): Says the city should secure backup and alternative water sources rather than depend on a single supply line.
+
+## CONTEST: Member, City Council District 1  [sig=brandonsywassink|dawsonhayre|michaelcarouba]
+  Q id=no-tax-increase topic=taxes
+    EN: Lodi should balance its budget without raising taxes.
+    ES: Lodi debería equilibrar su presupuesto sin subir los impuestos.
+    TRADEOFF EN: The city may have to cut services to make the budget work. | ES: La ciudad podría tener que recortar servicios para equilibrar el presupuesto.
+    MAP dawsonhayre: side=AGREE quote="through responsible growth and smart investment, not higher taxes"
+        full statement [2] (stated/budget): Says he would strengthen the city's financial future through responsible growth and smart investment, not higher taxes.
+  Q id=restore-public-safety-cut topic=safety
+    EN: Lodi should undo the nearly $3 million cut to public safety in the city budget.
+    ES: Lodi debería revertir el recorte de casi $3 millones a la seguridad pública en el presupuesto.
+    TRADEOFF EN: That money would have to come from other city services. | ES: Ese dinero tendría que salir de otros servicios de la ciudad.
+    MAP michaelcarouba: side=AGREE quote="the city budget cuts almost $3 million from public safety, and he would vote to protect public safety"
+        full statement [0] (stated/safety): Says the city budget cuts almost $3 million from public safety, and he would vote to protect public safety.
+
+## CONTEST: Member, City Council District 4  [sig=danibettencourt|mikemorowit|roggerfgutierrez]
+  Q id=police-fire-promised-funds topic=safety
+    EN: Police and Fire should receive all the funds they were promised, even if other budgets shrink.
+    ES: La policía y los bomberos deberían recibir todos los fondos prometidos, aunque otros presupuestos se reduzcan.
+    TRADEOFF EN: Other city programs could get less money. | ES: Otros programas de la ciudad podrían recibir menos dinero.
+    MAP danibettencourt: side=AGREE quote="ensure the Police and Fire Departments get the funds they were promised"
+        full statement [2] (stated/safety): Says she will work to ensure the Police and Fire Departments get the funds they were promised.
+
+## CONTEST: Member, City Council District 2  [sig=jordanduncan|lisacraighensley]
+  Q id=no-marijuana-dispensaries topic=other
+    EN: Lodi should not allow marijuana dispensaries.
+    ES: Lodi no debería permitir dispensarios de marihuana.
+    TRADEOFF EN: The city gives up possible tax money from dispensary sales. | ES: La ciudad renuncia a posibles ingresos fiscales de las ventas de dispensarios.
+    MAP jordanduncan: side=AGREE quote="no marijuana dispensaries"
+        full statement [0] (stated/taxes): Says his plan includes no new unnecessary taxes, no marijuana dispensaries, fixing the current deficit, and preventing government waste.
+  Q id=enforce-anti-camping topic=homeless
+    EN: Lodi should enforce its anti-camping laws as part of its homelessness plan.
+    ES: Lodi debería hacer cumplir sus leyes contra acampar como parte de su plan sobre personas sin hogar.
+    TRADEOFF EN: Enforcement can move people without giving them a place to go. | ES: Hacer cumplir la ley puede desplazar a personas sin darles un lugar adonde ir.
+    MAP lisacraighensley: side=AGREE quote="enforcement of anti-camping laws"
+        full statement [2] (stated/homeless): Describes a balanced approach to homelessness including outreach, rehabilitation, Community Liaison Officers, partnerships, and enforcement of anti-camping laws.
+  Q id=no-business-license-tax topic=taxes
+    EN: Lodi should not charge a business license tax.
+    ES: Lodi no debería cobrar un impuesto de licencia comercial.
+    TRADEOFF EN: The city collects less money for its services. | ES: La ciudad recauda menos dinero para sus servicios.
+    MAP lisacraighensley: side=AGREE quote="she helped repeal the business license tax"
+        full statement [1] (stated/economy): Says she helped repeal the business license tax, create an Economic Development Department and Plan, and create a Finance Committee.
+
+## CONTEST: Member, City Council District 3  [sig=jessicatoccoli|michaelblower]
+  Q id=campaign-disclosure-rules topic=elections
+    EN: Stockton should adopt stricter campaign disclosure rules for city officials.
+    ES: Stockton debería adoptar reglas más estrictas de divulgación de campañas para funcionarios.
+    TRADEOFF EN: More rules add paperwork for candidates and city staff. | ES: Más reglas agregan trámites para candidatos y personal de la ciudad.
+    MAP michaelblower: side=AGREE quote="calls for strict accountability standards, transparency requirements and campaign disclosure rules"
+        full statement [3] (stated/elections): Cites recent Civil Grand Jury recommendations and calls for strict accountability standards, transparency requirements and campaign disclosure rules.
+  Q id=homeless-enforcement topic=homeless
+    EN: Stockton's homelessness response should include enforcement, not only services.
+    ES: La respuesta de Stockton a la falta de vivienda debería incluir el cumplimiento de la ley, no solo servicios.
+    TRADEOFF EN: Enforcement can move people without giving them a place to go. | ES: Hacer cumplir la ley puede desplazar a personas sin darles un lugar adonde ir.
+    MAP michaelblower: side=AGREE quote="addressing homelessness through resources, rehabilitation and enforcement"
+        full statement [1] (stated/homeless): Says Stockton must keep addressing homelessness through resources, rehabilitation and enforcement, and names the Zeiter Navigation Center and Pathways Modular Unit Community as central.
+
+## CONTEST: Board Member Division 2  [sig=glennspyksma|mikesonke]
+  Q id=acquire-pge-assets topic=energy
+    EN: SSJID should buy PG&E's local electric assets and run the power system itself.
+    ES: SSJID debería comprar los bienes eléctricos locales de PG&E y operar el sistema eléctrico.
+    TRADEOFF EN: Buying and running the system could be costly for the district. | ES: Comprar y operar el sistema podría ser costoso para el distrito.
+    MAP glennspyksma: side=AGREE quote="Supports local acquisition of PG&E assets"
+        full statement [0] (stated/energy): Supports local acquisition of PG&E assets for greater local accountability and competitive rates
+
+## CONTEST: Board Member Trustee Area 4  [sig=larkinfleckner|toddwetherell]
+  Q id=reading-intervention topic=education
+    EN: The district should expand reading intervention programs staffed by credentialed teachers.
+    ES: El distrito debería ampliar los programas de apoyo en lectura con maestros acreditados.
+    TRADEOFF EN: Money for more staff could come from other programs. | ES: El dinero para más personal podría salir de otros programas.
+    MAP larkinfleckner: side=AGREE quote="Supports expanding reading intervention programs with credentialed staff"
+        full statement [0] (stated/education): Supports expanding reading intervention programs with credentialed staff
+
+## CONTEST: Board Member Trustee Area 5  [sig=donalddonaire|malinasanchez]
+  Q id=ethnic-studies topic=education
+    EN: The district should expand ethnic studies courses.
+    ES: El distrito debería ampliar los cursos de estudios étnicos.
+    TRADEOFF EN: Class time and funds could go to other subjects instead. | ES: El tiempo de clase y los fondos podrían destinarse a otras materias.
+    MAP donalddonaire: side=AGREE quote="ethnic studies advancement"
+        full statement [2] (stated/education): Supports college and career readiness, restorative practices, and ethnic studies advancement
+  Q id=restorative-practices topic=education
+    EN: Schools should use restorative practices to handle student discipline.
+    ES: Las escuelas deberían usar prácticas restaurativas para manejar la disciplina estudiantil.
+    TRADEOFF EN: Some say it can be less firm than suspensions for serious behavior. | ES: Algunos dicen que puede ser menos firme que las suspensiones ante conductas graves.
+    MAP donalddonaire: side=AGREE quote="restorative practices"
+        full statement [2] (stated/education): Supports college and career readiness, restorative practices, and ethnic studies advancement
+
+## CONTEST: Member, City Council District 3  [sig=cameronbregman|christophersanderson|deannebarth]
+  Q id=no-new-taxes topic=taxes
+    EN: Lodi should close its budget gap without raising taxes.
+    ES: Lodi debería cerrar su déficit presupuestario sin subir impuestos.
+    TRADEOFF EN: The city may need to cut services or wait for growth to bring in money. | ES: La ciudad podría tener que recortar servicios o esperar ingresos del crecimiento.
+    MAP christophersanderson: side=AGREE quote="find new revenue through economic growth, not higher taxes"
+        full statement [0] (stated/budget): Says Lodi has a structural budget deficit and that the city should find new revenue through economic growth, not higher taxes, while protecting public safety and city services.
+    MAP cameronbregman: side=AGREE quote="no more taxes"
+        full statement [0] (stated/taxes): Says no more taxes and no cannabis dispensaries in Lodi.
+  Q id=cannabis-dispensaries topic=economy
+    EN: Lodi should allow cannabis dispensaries to open in the city.
+    ES: Lodi debería permitir que abran dispensarios de cannabis en la ciudad.
+    TRADEOFF EN: Some residents may not want cannabis stores in their community. | ES: Algunos residentes podrían no querer tiendas de cannabis en su comunidad.
+    MAP cameronbregman: side=DISAGREE quote="no cannabis dispensaries in Lodi"
+        full statement [0] (stated/taxes): Says no more taxes and no cannabis dispensaries in Lodi.
+  Q id=nonprofit-grants topic=budget
+    EN: The city should give $100,000 a year to local nonprofit groups.
+    ES: La ciudad debería dar $100,000 al año a organizaciones locales sin fines de lucro.
+    TRADEOFF EN: That money would not be available for other city services. | ES: Ese dinero no estaría disponible para otros servicios de la ciudad.
+    MAP cameronbregman: side=DISAGREE quote="was the lone no vote on giving $100,000 a year to non-profits"
+        full statement [2] (stated/budget): Says that in his mayoral year he passed a budget with no deficit, was the lone no vote on giving $100,000 a year to non-profits, and voted against waste management increases.
+
+## CONTEST: Mayor  [sig=garysingh|jacobnaven]
+  Q id=new-police-station topic=safety
+    EN: Manteca should build a new police station.
+    ES: Manteca debería construir una nueva estación de policía.
+    TRADEOFF EN: Building it would cost money that could go to other city needs. | ES: Construirla costaría dinero que podría usarse en otras necesidades de la ciudad.
+    MAP garysingh: side=AGREE quote="Says he will work toward a modern police station."
+        full statement [0] (stated/safety): Says the city added police officers and firefighters, strengthened emergency services and opened a new fire station. Says he will work toward a modern police station.
+  Q id=aquatic-center topic=community
+    EN: Manteca should build a new public aquatic center.
+    ES: Manteca debería construir un nuevo centro acuático público.
+    TRADEOFF EN: A pool center costs money to build and run that could fund other services. | ES: Un centro acuático cuesta construirlo y operarlo; ese dinero podría ir a otros servicios.
+    MAP garysingh: side=AGREE quote="a new community center and an aquatic center among his priorities"
+        full statement [4] (stated/community): Lists a new police station, a new fire station, an expanded animal shelter, a new community center and an aquatic center among his priorities.
+
+## CONTEST: Board Member Trustee Area 3  [sig=katherineking|sherryalexander]
+  Q id=staff-pay topic=education
+    EN: The district should make higher pay for teachers and staff a top budget priority.
+    ES: El distrito debería hacer del aumento de sueldo de maestros y personal una prioridad del presupuesto.
+    TRADEOFF EN: Higher pay could leave less money for programs, supplies or other needs. | ES: Sueldos más altos podrían dejar menos dinero para programas, materiales y más.
+    MAP katherineking: side=AGREE quote="Prioritize securing competitive wages and fair contracts for teachers and staff"
+        full statement [1] (stated/jobs): Prioritize securing competitive wages and fair contracts for teachers and staff to retain talent and fill vacant positions.
+  Q id=campus-security topic=safety
+    EN: The district should spend more on campus security measures.
+    ES: El distrito debería gastar más en medidas de seguridad en las escuelas.
+    TRADEOFF EN: Money spent on security would not be available for classroom needs. | ES: El dinero gastado en seguridad no estaría disponible para las aulas.
+    MAP katherineking: side=AGREE quote="Enhance campus security measures"
+        full statement [3] (stated/safety): Enhance campus security measures and prioritize mental health resources and student well-being.
+
+## CONTEST: Member, City Council District 1  [sig=michelepadilla|tamicasmall]
+  Q id=more-police topic=safety
+    EN: Stockton should hire more police officers.
+    ES: Stockton debería contratar más agentes de policía.
+    TRADEOFF EN: More officers would cost money that could fund other city services. | ES: Más agentes costarían dinero que podría financiar otros servicios de la ciudad.
+    MAP tamicasmall: side=AGREE quote="advocate for more police officers"
+        full statement [0] (stated/safety): Says she will advocate for more police officers and make public safety the top priority from day one.
+  Q id=clear-encampments topic=homeless
+    EN: Stockton should clear large homeless encampments.
+    ES: Stockton debería desalojar los campamentos grandes de personas sin hogar.
+    TRADEOFF EN: People may move to other areas if shelter or services are not ready. | ES: Las personas podrían mudarse a otras zonas si no hay refugio o servicios listos.
+    MAP michelepadilla: side=AGREE quote="her team cleared District 1's largest homeless encampment"
+        full statement [0] (stated/homeless): Says her team cleared District 1's largest homeless encampment and launched a citywide Safe Grounds Initiative to keep streets clean and connect unsheltered people to services.
+
+## CONTEST: Mayor  [sig=minniecottondiallo|paulakinjo]
+  Q id=traffic-calming topic=streets
+    EN: Lathrop should spend more on projects that slow traffic and make walking safer.
+    ES: Lathrop debería gastar más en proyectos que reduzcan la velocidad del tráfico y hagan más seguro caminar.
+    TRADEOFF EN: Those projects cost money and can make driving trips slower. | ES: Esos proyectos cuestan dinero y pueden hacer más lentos los viajes en auto.
+    MAP paulakinjo: side=AGREE quote="launched Slow Down Lathrop and completed pedestrian safety improvements"
+        full statement [1] (stated/safety): Says he launched Slow Down Lathrop and completed pedestrian safety improvements.
+  Q id=board-appointments topic=community
+    EN: The mayor's process for picking people for city boards should be changed to be more open.
+    ES: El proceso del alcalde para elegir miembros de juntas de la ciudad debería cambiar para ser más abierto.
+    TRADEOFF EN: A longer process could slow down filling open seats. | ES: Un proceso más largo podría retrasar la ocupación de puestos vacantes.
+    MAP minniecottondiallo: side=AGREE quote="reform the mayor's appointment process for boards, commissions and committees"
+        full statement [0] (stated/community): Says she will reform the mayor's appointment process for boards, commissions and committees to be more open, transparent and merit-based.
+
+## CONTEST: Board Member Trustee Area 5  [sig=andreagehmlich]
+  Q id=expand-gate topic=education
+    EN: The district should expand its GATE program for gifted students.
+    ES: El distrito debería ampliar su programa GATE para estudiantes con altas capacidades.
+    TRADEOFF EN: Expanding it would take staff time and money from other programs. | ES: Ampliarlo requeriría tiempo del personal y dinero de otros programas.
+    MAP andreagehmlich: side=AGREE quote="Says the GATE program could be expanded"
+        full statement [2] (stated/education): Says the GATE program could be expanded, and wants less screen time and more hands-on learning for young students, while acknowledging the Chromebook focus is part of the district’s vision and that mandated minutes constrain teachers.
+  Q id=less-screen-time topic=education
+    EN: Young students should spend less class time on screens and more on hands-on learning.
+    ES: Los estudiantes pequeños deberían pasar menos tiempo en pantallas y más en aprendizaje práctico.
+    TRADEOFF EN: The district's plan centers on Chromebooks, and changing it may take time. | ES: El plan del distrito se basa en Chromebooks, y cambiarlo podría tomar tiempo.
+    MAP andreagehmlich: side=AGREE quote="wants less screen time and more hands-on learning for young students"
+        full statement [2] (stated/education): Says the GATE program could be expanded, and wants less screen time and more hands-on learning for young students, while acknowledging the Chromebook focus is part of the district’s vision and that mandated minutes constrain teachers.
+  Q id=disability-training topic=education
+    EN: The district should give staff more training on supporting students with disabilities.
+    ES: El distrito debería dar al personal más capacitación para apoyar a estudiantes con discapacidades.
+    TRADEOFF EN: Training takes staff time and money away from other uses. | ES: La capacitación quita tiempo y dinero del personal para otros usos.
+    MAP andreagehmlich: side=AGREE quote="she wants more staff and family training in how disability is discussed"
+        full statement [1] (stated/education): Says her top priority is accommodations and opportunities for students of every ability level. As a parent of children with 504 plans and IEPs, she wants more staff and family training in how disability is discussed.
+
+## CONTEST: Member, City Council District 5  [sig=brandovillapudua|desireelynch]
+  Q id=measure-a-police topic=safety
+    EN: Stockton's budget should set aside Measure A money for police officers.
+    ES: El presupuesto de Stockton debería reservar el dinero de la Medida A para agentes de policía.
+    TRADEOFF EN: Money set aside for police could not be used for other city needs. | ES: El dinero reservado para la policía no podría usarse en otras necesidades de la ciudad.
+    MAP desireelynch: side=AGREE quote="make sure the city budget reflects that commitment to police officers"
+        full statement [0] (stated/safety): Says she would implement Measure A as voters intended and make sure the city budget reflects that commitment to police officers.
+  Q id=treatment-led-homeless topic=homeless
+    EN: Stockton's homeless programs should be led by addiction and mental health treatment.
+    ES: Los programas para personas sin hogar en Stockton deberían basarse en tratar adicciones y salud mental.
+    TRADEOFF EN: People who are not ready for treatment may wait longer for housing. | ES: Las personas que no estén listas para tratamiento podrían esperar más por vivienda.
+    MAP desireelynch: side=AGREE quote="supports a treatment-led recovery approach"
+        full statement [1] (stated/homeless): Says she would reduce homelessness through expanded treatment options and affordable housing, and supports a treatment-led recovery approach.
+
+## CONTEST: Board Member Trustee Area 4  [sig=aliciarcorrales|olingayarberalexander]
+  Q id=student-counseling topic=health
+    EN: The district should offer psychological counseling services to students.
+    ES: El distrito debería ofrecer servicios de consejería psicológica a los estudiantes.
+    TRADEOFF EN: Paying for counselors could mean less money for other school programs. | ES: Pagar consejeros podría significar menos dinero para otros programas escolares.
+    MAP olingayarberalexander: side=AGREE quote="Supports providing psychological counseling services for students"
+        full statement [1] (stated/health): Supports providing psychological counseling services for students
+
+## CONTEST: Member, State Board of Equalization, District 1  [sig=nelsonesparza|shannongrove]
+  Q id=keep-prop-13 topic=taxes
+    EN: California should keep Proposition 13's limits on property tax increases.
+    ES: California debería mantener los límites de la Proposición 13 a los aumentos del impuesto a la propiedad.
+    TRADEOFF EN: Keeping the limits may mean less property tax money for local services. | ES: Mantener los límites podría significar menos dinero de impuestos para servicios locales.
+    MAP shannongrove: side=AGREE quote="defending Proposition 13"
+        full statement [0] (stated/taxes): Says she wants to act as a taxpayer watchdog on the Board of Equalization and lists protecting homeowners and businesses from overtaxation and defending Proposition 13 as focuses.
+  Q id=close-loopholes topic=taxes
+    EN: The state should close tax loopholes so more money goes to local services.
+    ES: El estado debería cerrar vacíos fiscales para que más dinero llegue a servicios locales.
+    TRADEOFF EN: Some people and businesses would pay more in taxes. | ES: Algunas personas y empresas pagarían más impuestos.
+    MAP nelsonesparza: side=AGREE quote="close tax loopholes and crack down on tax evasion"
+        full statement [0] (stated/taxes): Says he will work to close tax loopholes and crack down on tax evasion so local governments can fund public safety, infrastructure, education, healthcare and economic development.
+
+## CONTEST: Board Member Trustee Area 4  [sig=stephanieolsen|vanithadaniel]
+  Q id=cordes-annex topic=education
+    EN: Lammersville should add about 1,000 high-school seats by turning the Cordes campus into an annex.
+    ES: Lammersville debería sumar unos 1,000 lugares de preparatoria convirtiendo el campus Cordes en un anexo.
+    TRADEOFF EN: Some high-school students would attend a separate annex campus. | ES: Algunos estudiantes de preparatoria irían a un campus anexo aparte.
+    MAP stephanieolsen: side=AGREE quote="Supports the Sept 16 framework (a developer-funded K-8 in Cordes Village, with the current Cordes campus becoming a high"
+        full statement [12] (stated/budget): Says her biggest priority is not spending over budget, so the district avoids deficits or a high school it cannot staff. Supports the Sept 16 framework (a developer-funded K-8 in Cordes Village, with the current Cordes campus becoming a high-school annex of about 1,000 seats) and says the remaining concern is implementation.
+    MAP vanithadaniel: side=AGREE quote="Supports the Sept 16 framework as a creative plan that adds about 1,000 high-school seats without cutting programs."
+        full statement [14] (stated/growth): Supports the Sept 16 framework as a creative plan that adds about 1,000 high-school seats without cutting programs. Wants an engineering pathway expanded, which she says the superintendent indicated could be approved with board agreement.
+  Q id=engineering-pathway topic=education
+    EN: The district should expand its engineering career pathway for high-school students.
+    ES: El distrito debería ampliar su programa de carrera en ingeniería para estudiantes de preparatoria.
+    TRADEOFF EN: Space and staff are limited, so other programs could get less. | ES: El espacio y el personal son limitados, así que otros programas podrían recibir menos.
+    MAP vanithadaniel: side=AGREE quote="Wants an engineering pathway expanded"
+        full statement [14] (stated/growth): Supports the Sept 16 framework as a creative plan that adds about 1,000 high-school seats without cutting programs. Wants an engineering pathway expanded, which she says the superintendent indicated could be approved with board agreement.
+  Q id=sped-inclusion topic=education
+    EN: More special-education students should be taught in general classrooms.
+    ES: Más estudiantes de educación especial deberían recibir clases en salones generales.
+    TRADEOFF EN: Some students may get less specialized support than in separate classes. | ES: Algunos estudiantes podrían recibir menos apoyo especializado que en clases separadas.
+    MAP vanithadaniel: side=AGREE quote="she hopes for more inclusion in general classes"
+        full statement [15] (stated/education): Says she visits the extensive-support-needs classes at Altamont and Pombo, that special education needs more budget and resources, and that she hopes for more inclusion in general classes.
+  Q id=absence-doctor-note topic=education
+    EN: Families should need a doctor's note only after 10 school absences, not after 5.
+    ES: Las familias solo deberían necesitar una nota médica después de 10 ausencias escolares, no después de 5.
+    TRADEOFF EN: It could be harder to spot students who are missing too much school. | ES: Podría ser más difícil detectar a estudiantes que faltan demasiado a la escuela.
+    MAP stephanieolsen: side=AGREE quote="relax the attendance policy to require a doctor’s note after 10 absences instead of 5"
+        full statement [16] (stated/community): Says her second priority is empowering parents to work directly with teachers and administrators. Cites getting the board to relax the attendance policy to require a doctor’s note after 10 absences instead of 5.
+
+## CONTEST: Member, City Council District 3  [sig=amenialexander|ametriusvsidney|danevans]
+  Q id=vacant-home-occupants topic=housing
+    EN: Tracy should push for stronger laws to help owners remove unauthorized occupants from vacant homes.
+    ES: Tracy debería impulsar leyes más duras para que los dueños saquen a ocupantes no autorizados de casas vacías.
+    TRADEOFF EN: Stricter rules could affect people with real disputes over their right to stay. | ES: Reglas más estrictas podrían afectar a quienes disputan de verdad su derecho a quedarse.
+    MAP amenialexander: side=AGREE quote="will advocate for laws that protect homeowners while respecting due process"
+        full statement [1] (stated/housing): Says she is concerned about owners losing vacant homes to unauthorized occupants and will advocate for laws that protect homeowners while respecting due process.
+  Q id=bowling-alley topic=community
+    EN: The city should work to bring a bowling alley back to Tracy.
+    ES: La ciudad debería trabajar para traer de vuelta un boliche a Tracy.
+    TRADEOFF EN: City staff time and money could go to other priorities instead. | ES: El tiempo y el dinero de la ciudad podrían usarse en otras prioridades.
+    MAP amenialexander: side=AGREE quote="will work to bring a bowling alley back to Tracy"
+        full statement [0] (stated/community): Says she will work to bring a bowling alley back to Tracy as an affordable gathering place for families.
+
+## CONTEST: Board Member Trustee Area 6  [sig=christinabaccamcbrian|sofiacoln]
+  Q id=free-science-camp topic=education
+    EN: Stockton Unified should make Science Camp free for all students.
+    ES: Stockton Unified debería hacer que el Campamento de Ciencias sea gratis para todos los estudiantes.
+    TRADEOFF EN: The district would pay more, leaving less for other programs. | ES: El distrito pagaría más y quedaría menos para otros programas.
+    MAP christinabaccamcbrian: side=AGREE quote="make Science Camp free for all students"
+        full statement [2] (stated/education): Pledges to expand after-school programs and make Science Camp free for all students.
+  Q id=sped-aides topic=education
+    EN: Stockton Unified should hire more aides for special-education classes.
+    ES: Stockton Unified debería contratar más asistentes para las clases de educación especial.
+    TRADEOFF EN: Hiring more aides costs money that could fund other needs. | ES: Contratar más asistentes cuesta dinero que podría usarse en otras necesidades.
+    MAP christinabaccamcbrian: side=AGREE quote="Special Education Department to add more paraprofessionals"
+        full statement [1] (stated/education): Plans to increase student-to-staff ratio in Special Education Department to add more paraprofessionals.
+  Q id=after-school-expand topic=education
+    EN: Stockton Unified should expand its after-school programs.
+    ES: Stockton Unified debería ampliar sus programas después de clases.
+    TRADEOFF EN: Expanding programs costs money and staff the district would need to find. | ES: Ampliar programas cuesta dinero y personal que el distrito tendría que conseguir.
+    MAP christinabaccamcbrian: side=AGREE quote="Pledges to expand after-school programs"
+        full statement [2] (stated/education): Pledges to expand after-school programs and make Science Camp free for all students.
+
+## CONTEST: Member, City Council District 3  [sig=davidbreitenbucher|leiannvarlettalarson]
+  Q id=navigation-center topic=homeless
+    EN: Manteca should build a permanent homeless navigation center.
+    ES: Manteca debería construir un centro de navegación permanente para personas sin hogar.
+    TRADEOFF EN: Building and running it would use city money. | ES: Construirlo y operarlo usaría dinero de la ciudad.
+    MAP davidbreitenbucher: side=AGREE quote="committed to completing a permanent navigation center"
+        full statement [2] (stated/homeless): Says encampments were reduced and the homeless population fell nearly 50%. Says he is committed to completing a permanent navigation center.
+  Q id=sixth-fire-station topic=safety
+    EN: Manteca should build a sixth fire station.
+    ES: Manteca debería construir una sexta estación de bomberos.
+    TRADEOFF EN: Building and staffing it would use city money. | ES: Construirla y darle personal usaría dinero de la ciudad.
+    MAP davidbreitenbucher: side=AGREE quote="wants to complete a new police headquarters and a sixth fire station"
+        full statement [0] (stated/safety): Says public safety is his top priority. Supports police officers and firefighters and wants to complete a new police headquarters and a sixth fire station.
+  Q id=aquatics-center topic=community
+    EN: Manteca should move forward with building an aquatics center.
+    ES: Manteca debería seguir adelante con la construcción de un centro acuático.
+    TRADEOFF EN: The city would have less money for other projects. | ES: La ciudad tendría menos dinero para otros proyectos.
+    MAP davidbreitenbucher: side=AGREE quote="move forward with an aquatics center"
+        full statement [1] (stated/budget): Says he will hold city government fiscally accountable, invest in needed infrastructure, and move forward with an aquatics center and community center.
+
+## CONTEST: Board Member Trustee Area 4  [sig=mariefreitas|rupindersinghjagpal|veronicasalazar]
+  Q id=campus-expansion topic=education
+    EN: Manteca Unified should remodel and expand campuses to make room for more students.
+    ES: Manteca Unified debería remodelar y ampliar sus planteles para dar cabida a más estudiantes.
+    TRADEOFF EN: Construction costs could take money from other school needs. | ES: Los costos de construcción podrían quitar dinero a otras necesidades escolares.
+    MAP mariefreitas: side=AGREE quote="Supports campus remodeling and expansion initiatives to accommodate district growth"
+        full statement [2] (stated/growth): Supports campus remodeling and expansion initiatives to accommodate district growth

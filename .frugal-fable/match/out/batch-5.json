@@ -1,0 +1,825 @@
+{
+ "contests": [
+  {
+   "contest": "## alameda/school | office=School Board Member (full term) | id=Alameda:school:alamedaunifiedschooldistrict:schoolboardmemberfullterm | status=contested",
+   "questions": [
+    {
+     "id": "parcel-tax-bonds",
+     "topic": "education",
+     "q": {
+      "en": "The school district should ask voters to pass parcel taxes and bonds to fix school buildings.",
+      "es": "El distrito escolar debería pedir a los votantes aprobar impuestos a parcelas y bonos para arreglar escuelas."
+     },
+     "tradeoff": {
+      "en": "Property owners would pay more in taxes.",
+      "es": "Los dueños de propiedades pagarían más impuestos."
+     },
+     "sides": {
+      "garylym": {
+       "side": 1,
+       "idx": 3,
+       "quote": "pass multiple parcel taxes and facility bonds for school infrastructure"
+      }
+     }
+    },
+    {
+     "id": "bond-audits",
+     "topic": "budget",
+     "q": {
+      "en": "School bond spending should be checked by an independent financial audit.",
+      "es": "El gasto de los bonos escolares debería revisarse con una auditoría financiera independiente."
+     },
+     "tradeoff": {
+      "en": "Audits cost money and staff time.",
+      "es": "Las auditorías cuestan dinero y tiempo del personal."
+     },
+     "sides": {
+      "sarahputnam": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Demands independent financial audits of bond allocations"
+      }
+     }
+    },
+    {
+     "id": "teacher-pay",
+     "topic": "jobs",
+     "q": {
+      "en": "The district should raise pay for teachers and school staff.",
+      "es": "El distrito debería subir el sueldo de los maestros y del personal escolar."
+     },
+     "tradeoff": {
+      "en": "Less money would be left for programs, or deficits could grow.",
+      "es": "Quedaría menos dinero para programas, o podría crecer el déficit."
+     },
+     "sides": {
+      "carriehahnel": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Secured 10 percent pay increase and more affordable health benefits for educators and staff"
+      },
+      "sarahputnam": {
+       "side": 1,
+       "idx": 3,
+       "quote": "Supports competitive teacher compensation"
+      }
+     }
+    },
+    {
+     "id": "ai-learning",
+     "topic": "education",
+     "q": {
+      "en": "Schools should use AI tools to personalize learning for each student.",
+      "es": "Las escuelas deberían usar herramientas de IA para adaptar el aprendizaje a cada estudiante."
+     },
+     "tradeoff": {
+      "en": "AI tools raise privacy concerns and may not improve learning.",
+      "es": "La IA plantea dudas de privacidad y quizás no mejore el aprendizaje."
+     },
+     "sides": {
+      "mikemcmahon": {
+       "side": 1,
+       "idx": 0,
+       "quote": "artificial intelligence should be governed thoughtfully for personalized learning"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member | id=Alameda:city:cityofalbany:citycouncilmember | status=contested",
+   "questions": [
+    {
+     "id": "traffic-calming",
+     "topic": "streets",
+     "q": {
+      "en": "Albany should add traffic calming, like speed humps, on streets across the city.",
+      "es": "Albany debería poner medidas para calmar el tráfico, como reductores de velocidad, en toda la ciudad."
+     },
+     "tradeoff": {
+      "en": "Drives would be slower and the work costs money.",
+      "es": "Los viajes en auto serían más lentos y las obras cuestan dinero."
+     },
+     "sides": {
+      "jondestin": {
+       "side": 1,
+       "idx": 0,
+       "quote": "citywide traffic calming"
+      }
+     }
+    },
+    {
+     "id": "wireless-limits",
+     "topic": "other",
+     "q": {
+      "en": "Albany should update its codes to limit where wireless equipment can be placed.",
+      "es": "Albany debería actualizar sus normas para limitar dónde se puede instalar equipo inalámbrico."
+     },
+     "tradeoff": {
+      "en": "Limits could slow better cell and internet service.",
+      "es": "Los límites podrían frenar mejoras en el servicio celular e internet."
+     },
+     "sides": {
+      "katherineenos": {
+       "side": 1,
+       "idx": 1,
+       "quote": "wireless technology encroachment limits"
+      }
+     }
+    },
+    {
+     "id": "fossil-divest",
+     "topic": "environment",
+     "q": {
+      "en": "The city should keep its money out of fossil fuel companies.",
+      "es": "La ciudad no debería invertir su dinero en empresas de combustibles fósiles."
+     },
+     "tradeoff": {
+      "en": "It could limit investment choices and returns.",
+      "es": "Podría limitar las opciones y ganancias de las inversiones."
+     },
+     "sides": {
+      "robindlpez": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Delivered results divesting from fossil fuels"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=Mayor | id=Alameda:city:cityofhayward:mayor | status=contested",
+   "questions": [
+    {
+     "id": "data-centers",
+     "topic": "growth",
+     "q": {
+      "en": "Hayward should stop allowing more data centers to be built.",
+      "es": "Hayward debería dejar de permitir que se construyan más centros de datos."
+     },
+     "tradeoff": {
+      "en": "The city could lose tax money and jobs.",
+      "es": "La ciudad podría perder ingresos fiscales y empleos."
+     },
+     "sides": {
+      "tomwong": {
+       "side": 1,
+       "idx": 4,
+       "quote": "stopping more data-center expansion"
+      }
+     }
+    },
+    {
+     "id": "senior-property-tax",
+     "topic": "taxes",
+     "q": {
+      "en": "Senior homeowners should not have to pay property tax.",
+      "es": "Los propietarios de vivienda mayores de edad no deberían pagar impuesto a la propiedad."
+     },
+     "tradeoff": {
+      "en": "Less money for city services and schools.",
+      "es": "Habría menos dinero para servicios de la ciudad y escuelas."
+     },
+     "sides": {
+      "tomwong": {
+       "side": 1,
+       "idx": 3,
+       "quote": "no property tax for senior homeowners"
+      }
+     }
+    },
+    {
+     "id": "local-hiring",
+     "topic": "jobs",
+     "q": {
+      "en": "Hiring rules should give Hayward residents first priority for Hayward jobs.",
+      "es": "Las reglas de contratación deberían dar prioridad a los residentes de Hayward para empleos en Hayward."
+     },
+     "tradeoff": {
+      "en": "It could shrink the pool of qualified workers.",
+      "es": "Podría reducir el número de trabajadores calificados disponibles."
+     },
+     "sides": {
+      "tomwong": {
+       "side": 1,
+       "idx": 2,
+       "quote": "hiring policies that give Hayward residents priority for Hayward jobs"
+      }
+     }
+    },
+    {
+     "id": "student-transit",
+     "topic": "education",
+     "q": {
+      "en": "The city should pay for free transit passes for students.",
+      "es": "La ciudad debería pagar pases de transporte gratis para estudiantes."
+     },
+     "tradeoff": {
+      "en": "That money could go to other city services.",
+      "es": "Ese dinero podría usarse en otros servicios de la ciudad."
+     },
+     "sides": {
+      "marksalinas": {
+       "side": 1,
+       "idx": 2,
+       "quote": "citing free student transit passes"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 4 | id=Alameda:school:newhavenunifiedschooldistrict:schoolboardmemberarea4 | status=contested",
+   "questions": [
+    {
+     "id": "middle-electives",
+     "topic": "education",
+     "q": {
+      "en": "Middle schools should offer more programs like Spanish, speech and debate.",
+      "es": "Las escuelas secundarias deberían ofrecer más programas como español, oratoria y debate."
+     },
+     "tradeoff": {
+      "en": "Money and staff may be pulled from other classes.",
+      "es": "Podría quitarse dinero y personal de otras clases."
+     },
+     "sides": {
+      "shrutikumar": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Expanded middle school Spanish, speech, debate, and math programs"
+      }
+     }
+    },
+    {
+     "id": "school-tech",
+     "topic": "education",
+     "q": {
+      "en": "Schools should spend more on classroom technology so students learn job skills.",
+      "es": "Las escuelas deberían invertir más en tecnología en el aula para enseñar habilidades laborales."
+     },
+     "tradeoff": {
+      "en": "Tech can be costly and may not raise learning.",
+      "es": "La tecnología puede ser costosa y quizás no mejore el aprendizaje."
+     },
+     "sides": {
+      "kashifwasim": {
+       "side": 1,
+       "idx": 0,
+       "quote": "bring practical technology into schools so students gain needed skills"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, District 7 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict7 | status=contested",
+   "questions": [
+    {
+     "id": "public-land-vote",
+     "topic": "growth",
+     "q": {
+      "en": "Voters should have to approve before major public land is converted to new uses.",
+      "es": "Los votantes deberían aprobar antes de que se cambie el uso de terrenos públicos importantes."
+     },
+     "tradeoff": {
+      "en": "It could slow housing and other projects.",
+      "es": "Podría retrasar proyectos de vivienda y otros."
+     },
+     "sides": {
+      "aidanhill": {
+       "side": 1,
+       "idx": 3,
+       "quote": "seek voter approval before major public land is converted"
+      }
+     }
+    },
+    {
+     "id": "development-fees",
+     "topic": "growth",
+     "q": {
+      "en": "Large new developments should pay for the roads, pipes and services their growth needs.",
+      "es": "Los grandes desarrollos nuevos deberían pagar las calles, tuberías y servicios que su crecimiento requiere."
+     },
+     "tradeoff": {
+      "en": "Higher costs could mean fewer new homes get built.",
+      "es": "Costos más altos podrían significar que se construyan menos viviendas."
+     },
+     "sides": {
+      "aidanhill": {
+       "side": 1,
+       "idx": 2,
+       "quote": "make major development fund the infrastructure its growth demands"
+      }
+     }
+    },
+    {
+     "id": "rent-control",
+     "topic": "housing",
+     "q": {
+      "en": "Berkeley should keep its rent-controlled housing protected from changes.",
+      "es": "Berkeley debería mantener protegidas las viviendas con control de alquiler."
+     },
+     "tradeoff": {
+      "en": "Rent control can discourage owners from building or renting units.",
+      "es": "El control de alquiler puede desanimar a dueños a construir o alquilar."
+     },
+     "sides": {
+      "aidanhill": {
+       "side": 1,
+       "idx": 0,
+       "quote": "protect rent-controlled housing"
+      }
+     }
+    },
+    {
+     "id": "affordable-housing",
+     "topic": "housing",
+     "q": {
+      "en": "Berkeley should use city money to expand affordable housing.",
+      "es": "Berkeley debería usar dinero de la ciudad para ampliar la vivienda asequible."
+     },
+     "tradeoff": {
+      "en": "Less money for other services, or higher taxes.",
+      "es": "Menos dinero para otros servicios, o impuestos más altos."
+     },
+     "sides": {
+      "aidanhill": {
+       "side": 1,
+       "idx": 0,
+       "quote": "expand permanent affordability"
+      },
+      "syrakmicael": {
+       "side": 1,
+       "idx": 1,
+       "quote": "fund housing infrastructure, and support affordable housing"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/special | office=Director, Ward 3 | id=Alameda:special:alamedacountywaterdistrict:directorward3 | status=contested",
+   "questions": [
+    {
+     "id": "rate-increase",
+     "topic": "water",
+     "q": {
+      "en": "The water district should approve the planned 5% rate increases in 2027 and 2028.",
+      "es": "El distrito de agua debería aprobar los aumentos de tarifa del 5% previstos para 2027 y 2028."
+     },
+     "tradeoff": {
+      "en": "Water bills would go up each year.",
+      "es": "Las facturas de agua subirían cada año."
+     },
+     "sides": {
+      "yangshao": {
+       "side": -1,
+       "idx": 0,
+       "quote": "Opposes proposed water rate increases of 5% in 2027 and 2028"
+      }
+     }
+    },
+    {
+     "id": "low-income-rates",
+     "topic": "water",
+     "q": {
+      "en": "The water district should offer reduced rates for low-income households.",
+      "es": "El distrito de agua debería ofrecer tarifas reducidas a hogares de bajos ingresos."
+     },
+     "tradeoff": {
+      "en": "Other customers may pay more to cover the cost.",
+      "es": "Otros clientes podrían pagar más para cubrir el costo."
+     },
+     "sides": {
+      "paulsethy": {
+       "side": 1,
+       "idx": 0,
+       "quote": "initiated rate assistance program for low-income households"
+      }
+     }
+    },
+    {
+     "id": "pipe-replacement",
+     "topic": "water",
+     "q": {
+      "en": "The district should replace aging pipes now, before they break.",
+      "es": "El distrito debería reemplazar las tuberías viejas ahora, antes de que se rompan."
+     },
+     "tradeoff": {
+      "en": "It costs more up front and may raise rates.",
+      "es": "Cuesta más al principio y podría subir las tarifas."
+     },
+     "sides": {
+      "yangshao": {
+       "side": 1,
+       "idx": 2,
+       "quote": "replacing aging water pipelines and proactively protecting groundwater before main breaks"
+      }
+     }
+    },
+    {
+     "id": "solar-facilities",
+     "topic": "energy",
+     "q": {
+      "en": "The water district should install solar panels at its facilities.",
+      "es": "El distrito de agua debería instalar paneles solares en sus instalaciones."
+     },
+     "tradeoff": {
+      "en": "Panels cost money up front before any savings.",
+      "es": "Los paneles cuestan dinero al inicio antes de generar ahorros."
+     },
+     "sides": {
+      "paulsethy": {
+       "side": 1,
+       "idx": 3,
+       "quote": "install solar at district facilities to lower water production costs"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, District 2 | id=Alameda:city:cityofoakland:citycouncilmemberdistrict2 | status=contested",
+   "questions": [
+    {
+     "id": "ice-cooperation",
+     "topic": "immigration",
+     "q": {
+      "en": "Oakland should ban city cooperation with federal immigration agents (ICE).",
+      "es": "Oakland debería prohibir que la ciudad coopere con agentes federales de inmigración (ICE)."
+     },
+     "tradeoff": {
+      "en": "It could risk federal funding or conflict with federal agencies.",
+      "es": "Podría arriesgar fondos federales o causar conflictos con agencias federales."
+     },
+     "sides": {
+      "charlenewang": {
+       "side": 1,
+       "idx": 1,
+       "quote": "banning collection of immigration status data and cooperation with ICE"
+      }
+     }
+    },
+    {
+     "id": "motel-shelters",
+     "topic": "homeless",
+     "q": {
+      "en": "Oakland should convert motels into homeless shelters.",
+      "es": "Oakland debería convertir moteles en refugios para personas sin hogar."
+     },
+     "tradeoff": {
+      "en": "It costs money and nearby neighbors may object.",
+      "es": "Cuesta dinero y los vecinos cercanos podrían oponerse."
+     },
+     "sides": {
+      "charlenewang": {
+       "side": 1,
+       "idx": 2,
+       "quote": "converting motels into homeless shelters"
+      }
+     }
+    },
+    {
+     "id": "city-jobs",
+     "topic": "jobs",
+     "q": {
+      "en": "Oakland should hire 1,000 more city workers to deliver services.",
+      "es": "Oakland debería contratar a 1,000 trabajadores municipales más para dar servicios."
+     },
+     "tradeoff": {
+      "en": "Payroll costs would rise in a tight budget.",
+      "es": "Los costos de nómina subirían en un presupuesto ajustado."
+     },
+     "sides": {
+      "nateadams": {
+       "side": 1,
+       "idx": 0,
+       "quote": "1,000 city jobs delivering services"
+      }
+     }
+    },
+    {
+     "id": "corporate-investors",
+     "topic": "housing",
+     "q": {
+      "en": "Oakland should limit corporate investors from buying up rental housing.",
+      "es": "Oakland debería limitar que inversionistas corporativos compren viviendas de alquiler."
+     },
+     "tradeoff": {
+      "en": "Less investment could mean fewer homes built or repaired.",
+      "es": "Menos inversión podría significar menos viviendas construidas o reparadas."
+     },
+     "sides": {
+      "nateadams": {
+       "side": 1,
+       "idx": 1,
+       "quote": "prevent corporate investors from driving up costs"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/college | office=Community College District Trustee, Area 3 | id=Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea3 | status=contested",
+   "questions": [
+    {
+     "id": "career-tech",
+     "topic": "education",
+     "q": {
+      "en": "The college district should expand career technical classes and apprenticeships.",
+      "es": "El distrito universitario debería ampliar las clases técnicas y los programas de aprendices."
+     },
+     "tradeoff": {
+      "en": "Less money could go to classes for transfer students.",
+      "es": "Podría haber menos dinero para clases de transferencia universitaria."
+     },
+     "sides": {
+      "wendyhuang": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Supports expanding career technical education, apprenticeships, and workforce training programs"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/special | office=Director, Ward 3 | id=Alameda:special:eastbaymunicipalutilitydistrictebmud:directorward3 | status=contested",
+   "questions": [
+    {
+     "id": "shutoff-ban",
+     "topic": "water",
+     "q": {
+      "en": "EBMUD should never shut off water for customers who cannot pay their bills.",
+      "es": "EBMUD nunca debería cortar el agua a clientes que no pueden pagar sus facturas."
+     },
+     "tradeoff": {
+      "en": "Unpaid bills could raise costs for other customers.",
+      "es": "Las facturas sin pagar podrían subir los costos de otros clientes."
+     },
+     "sides": {
+      "margueriteyoung": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Made water shutoff moratorium permanent"
+      }
+     }
+    },
+    {
+     "id": "net-zero",
+     "topic": "energy",
+     "q": {
+      "en": "EBMUD should reach net zero emissions by 2030.",
+      "es": "EBMUD debería llegar a cero emisiones netas para 2030."
+     },
+     "tradeoff": {
+      "en": "Meeting the goal could raise water bills.",
+      "es": "Cumplir la meta podría subir las facturas de agua."
+     },
+     "sides": {
+      "margueriteyoung": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Put EBMUD on path to net zero emissions by 2030"
+      }
+     }
+    },
+    {
+     "id": "pipe-pace",
+     "topic": "water",
+     "q": {
+      "en": "EBMUD should replace old water pipes at a faster pace.",
+      "es": "EBMUD debería reemplazar las tuberías viejas de agua a un ritmo más rápido."
+     },
+     "tradeoff": {
+      "en": "Faster work costs more and may raise rates.",
+      "es": "Trabajar más rápido cuesta más y podría subir las tarifas."
+     },
+     "sides": {
+      "margueriteyoung": {
+       "side": 1,
+       "idx": 0,
+       "quote": "nearly tripled pipeline replacement pace"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/transit | office=Director, Ward 3 | id=Alameda:transit:actransitdistrict:directorward3 | status=contested",
+   "questions": [
+    {
+     "id": "hydrogen-buses",
+     "topic": "environment",
+     "q": {
+      "en": "AC Transit should keep adding hydrogen fuel cell buses.",
+      "es": "AC Transit debería seguir agregando autobuses de celdas de hidrógeno."
+     },
+     "tradeoff": {
+      "en": "Hydrogen buses can cost more to buy and fuel.",
+      "es": "Los autobuses de hidrógeno pueden costar más de comprar y operar."
+     },
+     "sides": {
+      "joelbyoung": {
+       "side": 1,
+       "idx": 0,
+       "quote": "secured funding for hydrogen fuel cell bus program"
+      }
+     }
+    },
+    {
+     "id": "local-contracts",
+     "topic": "economy",
+     "q": {
+      "en": "AC Transit should steer more of its contracts to local businesses.",
+      "es": "AC Transit debería dar más de sus contratos a negocios locales."
+     },
+     "tradeoff": {
+      "en": "Local firms may not always offer the lowest price.",
+      "es": "Las empresas locales no siempre ofrecen el precio más bajo."
+     },
+     "sides": {
+      "joelbyoung": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Directed over $200 million in AC Transit contracting opportunities to local businesses"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## house/CA17 | office= | id=None | status=",
+   "questions": [
+    {
+     "id": "stock-ban",
+     "topic": "other",
+     "q": {
+      "en": "Members of Congress and their families should be banned from trading individual stocks.",
+      "es": "Los miembros del Congreso y sus familias deberían tener prohibido comprar y vender acciones individuales."
+     },
+     "tradeoff": {
+      "en": "It could discourage some people from running for office.",
+      "es": "Podría desanimar a algunas personas a postularse."
+     },
+     "sides": {
+      "riteshtandon": {
+       "side": 1,
+       "idx": 0,
+       "quote": "supports a stock-trading ban for members of Congress and their families"
+      }
+     }
+    },
+    {
+     "id": "voter-id",
+     "topic": "elections",
+     "q": {
+      "en": "Voters should have to show ID to vote.",
+      "es": "Los votantes deberían tener que mostrar una identificación para votar."
+     },
+     "tradeoff": {
+      "en": "Some eligible voters do not have an ID.",
+      "es": "Algunos votantes elegibles no tienen identificación."
+     },
+     "sides": {
+      "riteshtandon": {
+       "side": 1,
+       "idx": 3,
+       "quote": "Supports voter identification"
+      }
+     }
+    },
+    {
+     "id": "preexisting",
+     "topic": "health",
+     "q": {
+      "en": "Health insurers should have to cover people with preexisting conditions.",
+      "es": "Las aseguradoras de salud deberían estar obligadas a cubrir a personas con condiciones preexistentes."
+     },
+     "tradeoff": {
+      "en": "It can raise premiums for other people.",
+      "es": "Puede subir las primas de otras personas."
+     },
+     "sides": {
+      "riteshtandon": {
+       "side": 1,
+       "idx": 1,
+       "quote": "protect coverage for preexisting conditions"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/transit | office=Director, District 4 | id=Alameda:transit:bart:directordistrict4 | status=contested",
+   "questions": [
+    {
+     "id": "transit-measure",
+     "topic": "budget",
+     "q": {
+      "en": "Voters should pass the Regional Transit Measure to keep BART and bus service running.",
+      "es": "Los votantes deberían aprobar la medida regional de transporte para mantener el servicio de BART y autobuses."
+     },
+     "tradeoff": {
+      "en": "Bay Area residents would pay more in taxes.",
+      "es": "Los residentes del Área de la Bahía pagarían más impuestos."
+     },
+     "sides": {
+      "robertraburn": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Supports Regional Transit Measure to preserve service"
+      }
+     }
+    },
+    {
+     "id": "station-housing",
+     "topic": "housing",
+     "q": {
+      "en": "BART should build affordable homes on its land near stations.",
+      "es": "BART debería construir viviendas asequibles en sus terrenos cerca de las estaciones."
+     },
+     "tradeoff": {
+      "en": "It can mean less station parking and denser neighborhoods.",
+      "es": "Puede significar menos estacionamiento y vecindarios más densos."
+     },
+     "sides": {
+      "robertraburn": {
+       "side": 1,
+       "idx": 1,
+       "quote": "created thousands of affordable homes close to transit"
+      }
+     }
+    },
+    {
+     "id": "crisis-specialists",
+     "topic": "safety",
+     "q": {
+      "en": "BART should use crisis specialists, not only police, to handle problems on trains.",
+      "es": "BART debería usar especialistas en crisis, no solo policías, para atender problemas en los trenes."
+     },
+     "tradeoff": {
+      "en": "Some say police are better suited for dangerous situations.",
+      "es": "Algunos dicen que la policía está mejor preparada para situaciones peligrosas."
+     },
+     "sides": {
+      "robertraburn": {
+       "side": 1,
+       "idx": 0,
+       "quote": "deployed attendants, crisis specialists"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=Mayor | id=Alameda:city:cityofnewark:mayor | status=unopposed",
+   "questions": [
+    {
+     "id": "repaving",
+     "topic": "roads",
+     "q": {
+      "en": "Newark should keep street repaving funding at its doubled level.",
+      "es": "Newark debería mantener al doble el dinero para repavimentar calles."
+     },
+     "tradeoff": {
+      "en": "Less money would be left for other city needs.",
+      "es": "Quedaría menos dinero para otras necesidades de la ciudad."
+     },
+     "sides": {
+      "michaelkhannon": {
+       "side": 1,
+       "idx": 1,
+       "quote": "doubled street repaving funding"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/statewide | office=Treasurer | id=Alameda:statewide:stateofcalifornia:treasurer | status=contested",
+   "questions": [
+    {
+     "id": "tuition",
+     "topic": "education",
+     "q": {
+      "en": "UC and CSU should keep tuition where it is rather than raise it.",
+      "es": "La UC y la CSU deberían mantener la colegiatura igual en vez de subirla."
+     },
+     "tradeoff": {
+      "en": "Colleges may have less money for classes and staff.",
+      "es": "Las universidades podrían tener menos dinero para clases y personal."
+     },
+     "sides": {
+      "elenikounalakis": {
+       "side": 1,
+       "idx": 1,
+       "quote": "voted against proposed tuition increases"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

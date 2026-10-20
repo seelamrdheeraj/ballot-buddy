@@ -1,0 +1,469 @@
+{
+ "contests": [
+  {
+   "contest": "## house/CA10 | office= | id=None | status=",
+   "questions": [
+    {
+     "id": "clean-energy",
+     "topic": "energy",
+     "q": {
+      "en": "The federal government should speed up the switch from fossil fuels to clean energy.",
+      "es": "El gobierno federal debería acelerar el cambio de los combustibles fósiles a la energía limpia."
+     },
+     "tradeoff": {
+      "en": "Energy prices and oil and gas jobs could be affected during the switch.",
+      "es": "Los precios de la energía y los empleos en petróleo y gas podrían verse afectados."
+     },
+     "sides": {
+      "markdesaulnier": {
+       "side": 1,
+       "idx": 5,
+       "quote": "speeding the move to clean energy"
+      }
+     }
+    },
+    {
+     "id": "abortion-access",
+     "topic": "abortion",
+     "q": {
+      "en": "Federal law should protect access to abortion in every state.",
+      "es": "La ley federal debería proteger el acceso al aborto en todos los estados."
+     },
+     "tradeoff": {
+      "en": "States would have less power to set their own abortion rules.",
+      "es": "Los estados tendrían menos poder para fijar sus propias reglas sobre el aborto."
+     },
+     "sides": {
+      "markdesaulnier": {
+       "side": 1,
+       "idx": 6,
+       "quote": "restoring and protecting reproductive health care decisions"
+      }
+     }
+    },
+    {
+     "id": "end-deficit",
+     "topic": "budget",
+     "q": {
+      "en": "The federal government should stop spending more money than it takes in.",
+      "es": "El gobierno federal debería dejar de gastar más dinero del que recibe."
+     },
+     "tradeoff": {
+      "en": "Ending deficits could mean cutting programs or raising taxes.",
+      "es": "Eliminar el déficit podría implicar recortar programas o subir impuestos."
+     },
+     "sides": {
+      "jefffrese": {
+       "side": 1,
+       "idx": 0,
+       "quote": "he wants to stop deficit spending"
+      }
+     }
+    },
+    {
+     "id": "no-ss-medicare-cuts",
+     "topic": "budget",
+     "q": {
+      "en": "Congress should not cut Social Security or Medicare benefits.",
+      "es": "El Congreso no debería recortar los beneficios del Seguro Social ni de Medicare."
+     },
+     "tradeoff": {
+      "en": "Both programs face funding gaps that may need new taxes or other cuts to close.",
+      "es": "Ambos programas tienen déficits que podrían requerir nuevos impuestos u otros recortes."
+     },
+     "sides": {
+      "jefffrese": {
+       "side": 1,
+       "idx": 5,
+       "quote": "Washington should not touch Social Security and Medicare"
+      },
+      "markdesaulnier": {
+       "side": 1,
+       "idx": 1,
+       "quote": "protect Social Security and Medicare"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 3 | id=Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea3 | status=contested",
+   "questions": [
+    {
+     "id": "more-ap-classes",
+     "topic": "education",
+     "q": {
+      "en": "The district should offer more advanced placement (AP) classes.",
+      "es": "El distrito debería ofrecer más clases de nivel avanzado (AP)."
+     },
+     "tradeoff": {
+      "en": "Money and teachers for AP could come from other classes or programs.",
+      "es": "El dinero y los maestros para AP podrían salir de otras clases o programas."
+     },
+     "sides": {
+      "danjacowitz": {
+       "side": 1,
+       "idx": 0,
+       "quote": "access to advanced placement classes"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea5 | status=contested",
+   "questions": [
+    {
+     "id": "career-trade-paths",
+     "topic": "education",
+     "q": {
+      "en": "The district should expand career and trade programs for students not headed to a four-year college.",
+      "es": "El distrito debería ampliar los programas técnicos y de oficios para quienes no irán a la universidad."
+     },
+     "tradeoff": {
+      "en": "Funding these programs could leave less for college-prep courses.",
+      "es": "Financiar estos programas podría dejar menos para cursos de preparación universitaria."
+     },
+     "sides": {
+      "samphelps": {
+       "side": 1,
+       "idx": 3,
+       "quote": "Supports career and trade pathways for students not pursuing four-year degrees"
+      }
+     }
+    },
+    {
+     "id": "teacher-pay-share",
+     "topic": "education",
+     "q": {
+      "en": "A larger share of the district budget should go to classrooms and teacher pay.",
+      "es": "Una parte mayor del presupuesto del distrito debería ir a las aulas y al sueldo de los maestros."
+     },
+     "tradeoff": {
+      "en": "Less money could be left for support staff, buildings or other services.",
+      "es": "Podría quedar menos dinero para personal de apoyo, edificios u otros servicios."
+     },
+     "sides": {
+      "samphelps": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Supports directing dollars to classrooms and teacher compensation"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, Council #2 | id=Alameda:city:cityofunioncity:citycouncilmembercouncil2 | status=contested",
+   "questions": [
+    {
+     "id": "renter-protections",
+     "topic": "housing",
+     "q": {
+      "en": "Union City should pass stronger legal protections for renters.",
+      "es": "Union City debería aprobar protecciones legales más fuertes para los inquilinos."
+     },
+     "tradeoff": {
+      "en": "Landlords may raise costs, build less or stop renting out units.",
+      "es": "Los dueños podrían subir costos, construir menos o dejar de rentar viviendas."
+     },
+     "sides": {
+      "victorlopezpulido": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Supports real renter protections"
+      }
+     }
+    },
+    {
+     "id": "immigrant-services",
+     "topic": "immigration",
+     "q": {
+      "en": "The city should spend money to help immigrant families get access to services.",
+      "es": "La ciudad debería invertir dinero para ayudar a las familias inmigrantes a acceder a servicios."
+     },
+     "tradeoff": {
+      "en": "City funds used for this would not be available for other services.",
+      "es": "Los fondos usados para esto no estarían disponibles para otros servicios."
+     },
+     "sides": {
+      "victorlopezpulido": {
+       "side": 1,
+       "idx": 3,
+       "quote": "protect immigrant families and help them access resources"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, District 4 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict4 | status=contested",
+   "questions": [
+    {
+     "id": "tenant-protections",
+     "topic": "housing",
+     "q": {
+      "en": "Berkeley should strengthen its tenant protections.",
+      "es": "Berkeley debería reforzar sus protecciones para los inquilinos."
+     },
+     "tradeoff": {
+      "en": "Stricter rules may discourage owners from renting or building new units.",
+      "es": "Reglas más estrictas podrían desanimar a los dueños a rentar o construir viviendas."
+     },
+     "sides": {
+      "majdigaithabuhamdieh": {
+       "side": 1,
+       "idx": 1,
+       "quote": "strengthen tenant protections"
+      }
+     }
+    },
+    {
+     "id": "supportive-housing",
+     "topic": "homeless",
+     "q": {
+      "en": "The city's homeless response should focus on supportive housing with services attached.",
+      "es": "La respuesta de la ciudad a la falta de vivienda debería centrarse en vivienda con servicios de apoyo."
+     },
+     "tradeoff": {
+      "en": "Supportive housing is costly and can take years to build.",
+      "es": "La vivienda con servicios de apoyo es costosa y puede tardar años en construirse."
+     },
+     "sides": {
+      "igoratregub": {
+       "side": 1,
+       "idx": 1,
+       "quote": "help unhoused people find supportive housing and wraparound services"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/special | office=Director, Ward 2 | id=Alameda:special:alamedacountywaterdistrict:directorward2 | status=contested",
+   "questions": [
+    {
+     "id": "local-water-supply",
+     "topic": "water",
+     "q": {
+      "en": "The water district should invest in local water supplies to rely less on imported water.",
+      "es": "El distrito de agua debería invertir en fuentes locales para depender menos del agua importada."
+     },
+     "tradeoff": {
+      "en": "New local supplies, like recycled water, can raise water bills.",
+      "es": "Las nuevas fuentes locales, como el agua reciclada, pueden subir las facturas."
+     },
+     "sides": {
+      "judychuang": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Supports conservation and local supplies to reduce drought impacts and reliance on imported water"
+      }
+     }
+    },
+    {
+     "id": "replace-old-pipes",
+     "topic": "water",
+     "q": {
+      "en": "The water district should make replacing aging pipes a top spending priority.",
+      "es": "El distrito de agua debería hacer del reemplazo de tuberías viejas una prioridad de gasto."
+     },
+     "tradeoff": {
+      "en": "Pipe replacement is costly and may raise rates or delay other projects.",
+      "es": "Cambiar tuberías es costoso y podría subir tarifas o retrasar otros proyectos."
+     },
+     "sides": {
+      "jasonmiguel": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Supports repairing and replacing aging pipeline infrastructure"
+      }
+     }
+    },
+    {
+     "id": "seismic-standards",
+     "topic": "water",
+     "q": {
+      "en": "Water system upgrades should be built to stronger earthquake safety standards.",
+      "es": "Las mejoras al sistema de agua deberían cumplir normas más estrictas contra terremotos."
+     },
+     "tradeoff": {
+      "en": "Stronger standards raise the upfront cost of each project.",
+      "es": "Normas más estrictas aumentan el costo inicial de cada proyecto."
+     },
+     "sides": {
+      "jasonmiguel": {
+       "side": 1,
+       "idx": 3,
+       "quote": "Emphasizes seismic safety for any infrastructure upgrades"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:pleasantonunifiedschooldistrict:schoolboardmemberarea5 | status=contested",
+   "questions": [
+    {
+     "id": "avoid-teacher-layoffs",
+     "topic": "education",
+     "q": {
+      "en": "The district should avoid laying off teachers, even during a budget shortfall.",
+      "es": "El distrito debería evitar despedir maestros, incluso con un déficit en el presupuesto."
+     },
+     "tradeoff": {
+      "en": "Deeper cuts would be needed in other areas to balance the budget.",
+      "es": "Se necesitarían recortes más profundos en otras áreas para equilibrar el presupuesto."
+     },
+     "sides": {
+      "thomaschoi": {
+       "side": 1,
+       "idx": 2,
+       "quote": "he opposed teaching and student facing staff layoffs"
+      }
+     }
+    },
+    {
+     "id": "rebuild-reserves",
+     "topic": "budget",
+     "q": {
+      "en": "The district should make rebuilding its budget reserves a top priority.",
+      "es": "El distrito debería hacer de la reconstrucción de sus reservas una prioridad principal."
+     },
+     "tradeoff": {
+      "en": "Money set aside in reserves is not spent on classrooms now.",
+      "es": "El dinero guardado en reservas no se gasta ahora en las aulas."
+     },
+     "sides": {
+      "thomaschoi": {
+       "side": 1,
+       "idx": 0,
+       "quote": "rebuild budget reserves"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## house/CA12 | office= | id=None | status=",
+   "questions": [
+    {
+     "id": "limit-ice",
+     "topic": "immigration",
+     "q": {
+      "en": "Congress should place new limits on how ICE carries out immigration enforcement.",
+      "es": "El Congreso debería poner nuevos límites a cómo ICE aplica las leyes de inmigración."
+     },
+     "tradeoff": {
+      "en": "Limits may make it harder to remove people in the country illegally.",
+      "es": "Los límites podrían dificultar la expulsión de personas que están en el país sin permiso."
+     },
+     "sides": {
+      "jamiejoyce": {
+       "side": 1,
+       "idx": 0,
+       "quote": "she wrote a bill to rein in ICE"
+      }
+     }
+    },
+    {
+     "id": "regulate-ai",
+     "topic": "other",
+     "q": {
+      "en": "Congress should pass new rules to regulate artificial intelligence.",
+      "es": "El Congreso debería aprobar nuevas reglas para regular la inteligencia artificial."
+     },
+     "tradeoff": {
+      "en": "Strict rules could slow new technology and business growth.",
+      "es": "Reglas estrictas podrían frenar la nueva tecnología y el crecimiento de empresas."
+     },
+     "sides": {
+      "jamiejoyce": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Lists AI regulation as a priority"
+      }
+     }
+    },
+    {
+     "id": "limit-dark-money",
+     "topic": "elections",
+     "q": {
+      "en": "Congress should limit election spending by groups that do not reveal their donors.",
+      "es": "El Congreso debería limitar el gasto electoral de grupos que no revelan a sus donantes."
+     },
+     "tradeoff": {
+      "en": "Some say such limits restrict free speech and donor privacy.",
+      "es": "Hay quienes dicen que esos límites restringen la libertad de expresión y la privacidad."
+     },
+     "sides": {
+      "jamiejoyce": {
+       "side": 1,
+       "idx": 0,
+       "quote": "rein in ICE, surveillance, AI, corruption and dark money"
+      }
+     }
+    },
+    {
+     "id": "federal-housing-funds",
+     "topic": "housing",
+     "q": {
+      "en": "The federal government should spend more to expand affordable housing.",
+      "es": "El gobierno federal debería gastar más para ampliar la vivienda asequible."
+     },
+     "tradeoff": {
+      "en": "More federal spending adds to the deficit or requires new taxes.",
+      "es": "Más gasto federal aumenta el déficit o requiere nuevos impuestos."
+     },
+     "sides": {
+      "lateefahsimon": {
+       "side": 1,
+       "idx": 0,
+       "quote": "advance legislation to expand affordable housing"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 3 | id=Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea3 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/special | office=Director, Dist #1 | id=Alameda:special:orolomasanitarydistrict:directordist1 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 2 | id=Alameda:school:haywardunifiedschooldistrict:schoolboardmemberarea2 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/city | office=Auditor | id=Alameda:city:cityofberkeley:auditor | status=unopposed",
+   "questions": [
+    {
+     "id": "audit-rent-board",
+     "topic": "other",
+     "q": {
+      "en": "The city auditor should complete an audit of the Berkeley Rent Board.",
+      "es": "La auditoría de la ciudad debería completar una revisión de la Junta de Rentas de Berkeley."
+     },
+     "tradeoff": {
+      "en": "Audit staff time spent here cannot go to other city departments.",
+      "es": "El tiempo del personal de auditoría usado aquí no puede ir a otros departamentos."
+     },
+     "sides": {
+      "jennywong": {
+       "side": 1,
+       "idx": 2,
+       "quote": "she will complete audits of the public health division, the Rent Board and business license taxes"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/special | office=Director, Area 3 | id=Alameda:special:edentownshiphealthcaredistrict:directorarea3 | status=contested",
+   "questions": []
+  }
+ ]
+}

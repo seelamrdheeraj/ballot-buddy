@@ -1,0 +1,147 @@
+[
+ {
+  "contest": "City Council Member, District 1",
+  "sig": "brianmschott|georgesyrop",
+  "id": "limit-data-centers",
+  "slug": null,
+  "severity": "fix",
+  "reason": "'because of their impact on the environment' presupposes harm and frames limiting as the justified answer.",
+  "suggest": "Hayward should limit new data centers, even if that means fewer jobs and less tax revenue."
+ },
+ {
+  "contest": "Mayor",
+  "sig": "maliavella|tonydaysog|tracyjensen",
+  "id": "divest-weapons-polluters",
+  "slug": null,
+  "severity": "fix",
+  "reason": "Asks about two separate divestment policies (weapons makers and polluting companies) at once.",
+  "suggest": "The city should not invest its money in fossil fuel and other polluting companies."
+ },
+ {
+  "contest": "Director, Dist #3",
+  "sig": "bennylee|fredsimon",
+  "id": "replace-sewer-pipes",
+  "slug": null,
+  "severity": "fix",
+  "reason": "'not wait until they fail' frames waiting as obviously careless, making one answer sound better.",
+  "suggest": "The district should replace aging sewer pipes on an accelerated schedule, even if it raises sewer rates."
+ },
+ {
+  "contest": "Director, Ward 3",
+  "sig": "paulsethy|yangshao",
+  "id": "pipe-replacement",
+  "slug": null,
+  "severity": "fix",
+  "reason": "'before they break' frames the alternative as obviously worse, making one answer sound better.",
+  "suggest": "The district should speed up replacement of aging pipes, even if it costs more up front and may raise rates."
+ },
+ {
+  "contest": "Director, Dist #3",
+  "sig": "bennylee|fredsimon",
+  "id": "expand-recycling",
+  "slug": "fredsimon",
+  "severity": "drop",
+  "reason": "Statement says 'improving' recycling programs, which is not clearly expanding them."
+ },
+ {
+  "contest": "City Council Member, Council #3",
+  "sig": "cheriscrockerroot|jeffwang",
+  "id": "railroad-crossings",
+  "slug": "cheriscrockerroot",
+  "severity": "drop",
+  "reason": "Statement only says she will improve railroad crossings; it never makes them a top transportation project."
+ },
+ {
+  "contest": "Mayor",
+  "sig": "barbaralee|brendafgrisham|juliusrobinson|mindyruthpechenuk",
+  "id": "speed-cameras",
+  "slug": "mindyruthpechenuk",
+  "severity": "drop",
+  "reason": "Statement opposes treating drivers as revenue and cites camera tickets but never explicitly opposes using speed cameras."
+ },
+ {
+  "contest": "Mayor",
+  "sig": "barbaralee|brendafgrisham|juliusrobinson|mindyruthpechenuk",
+  "id": "speed-cameras",
+  "slug": null,
+  "severity": "fix",
+  "reason": "Tradeoff states only a safety argument for cameras, not a cost or counter-consideration, and asserts crash effects unsupported by the statements.",
+  "suggest": "Critics say speed cameras can feel like a revenue source and ticket drivers automatically."
+ },
+ {
+  "contest": "City Council Member, District 8",
+  "sig": "fredmfeller|marimendonca|markhumbert|michaelwallman",
+  "id": "middle-density",
+  "slug": "marimendonca",
+  "severity": "drop",
+  "reason": "Criticizing up-zoning and density bonuses is a related but different policy from allowing middle-density homes; no explicit opposition to middle housing."
+ },
+ {
+  "contest": "State Assembly, District 18",
+  "sig": "andresandford|miabonta",
+  "id": "free-school-meals",
+  "slug": "miabonta",
+  "severity": "drop",
+  "reason": "'Expand free school meals' does not clearly say meals for all students regardless of income."
+ },
+ {
+  "contest": "Community College District Trustee, Area 6",
+  "sig": "soniasalwan|suzannesueleechan",
+  "id": "plain-language-budget",
+  "slug": null,
+  "severity": "drop",
+  "reason": "Almost everyone would agree with explaining expenses plainly, and the tradeoff (staff time, slower decisions) is not a genuine cost."
+ },
+ {
+  "contest": "City Council Member",
+  "sig": "aarontiedemann|chrismcdaniels|jondestin|katherineenos|robindlpez",
+  "id": "traffic-calming",
+  "slug": null,
+  "severity": "fix",
+  "reason": "Tradeoff EN has a typo ('Drives would be slower').",
+  "suggest": "Car trips would be slower and the work costs money."
+ },
+ {
+  "contest": "Director, District 4",
+  "sig": "luisreynoso|robertraburn",
+  "id": "transit-measure",
+  "slug": null,
+  "severity": "fix",
+  "reason": "Wording presents the measure as what keeps service running, framing a yes vote as the obvious choice.",
+  "suggest": "Voters should pass the Regional Transit Measure, a tax measure to fund BART and bus service."
+ },
+ {
+  "contest": "house/CA10",
+  "sig": "jefffrese|markdesaulnier",
+  "id": "abortion-access",
+  "slug": "markdesaulnier",
+  "severity": "drop",
+  "reason": "'Restoring and protecting reproductive health care decisions' is a vague priority, not a clear stand on a federal law guaranteeing abortion access in every state."
+ },
+ {
+  "contest": "house/CA10",
+  "sig": "jefffrese|markdesaulnier",
+  "id": "abortion-access",
+  "slug": null,
+  "severity": "fix",
+  "reason": "'protect access' is morally loaded and frames one side as defending rights.",
+  "suggest": "Federal law should set a nationwide right to abortion, replacing state-by-state rules."
+ },
+ {
+  "contest": "house/CA10",
+  "sig": "jefffrese|markdesaulnier",
+  "id": "no-ss-medicare-cuts",
+  "slug": "markdesaulnier",
+  "severity": "drop",
+  "reason": "'Protect Social Security and Medicare' is a vague priority and does not explicitly rule out benefit cuts."
+ },
+ {
+  "contest": "Auditor",
+  "sig": "jennywong",
+  "id": "audit-rent-board",
+  "slug": null,
+  "severity": "fix",
+  "reason": "ES says 'La auditoría de la ciudad debería completar una revisión', which makes the audit the actor instead of the auditor.",
+  "suggest": "El auditor de la ciudad debería completar una auditoría de la Junta de Rentas de Berkeley."
+ }
+]

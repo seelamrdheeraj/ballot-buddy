@@ -1,0 +1,636 @@
+{
+ "contests": [
+  {
+   "contest": "## alameda/city | office=City Council Member | id=Alameda:city:cityofalameda:citycouncilmember | status=contested",
+   "questions": [
+    {
+     "id": "restaurant-food-tax",
+     "topic": "taxes",
+     "q": {
+      "en": "Sales tax on food eaten at restaurants should end.",
+      "es": "Debería eliminarse el impuesto sobre la comida consumida en restaurantes."
+     },
+     "tradeoff": {
+      "en": "Governments would collect less money for public services.",
+      "es": "El gobierno recaudaría menos dinero para servicios públicos."
+     },
+     "sides": {
+      "steveslauson": {
+       "side": 1,
+       "idx": 3,
+       "quote": "supports ending taxes on food eaten at restaurants"
+      }
+     }
+    },
+    {
+     "id": "single-family-neighborhoods",
+     "topic": "growth",
+     "q": {
+      "en": "Alameda's historic single-family neighborhoods should stay single-family, not be opened to denser housing.",
+      "es": "Los barrios históricos de casas unifamiliares de Alameda deberían seguir así, sin abrirse a más densidad."
+     },
+     "tradeoff": {
+      "en": "Fewer new homes could be built, which may keep housing costs high.",
+      "es": "Se construirían menos viviendas nuevas, lo que podría mantener altos los costos."
+     },
+     "sides": {
+      "steveslauson": {
+       "side": 1,
+       "idx": 0,
+       "quote": "preserve Alameda's historic single-family neighborhoods"
+      }
+     }
+    },
+    {
+     "id": "bond-climate-shoreline",
+     "topic": "environment",
+     "q": {
+      "en": "City infrastructure bond money should go toward climate and shoreline adaptation plans.",
+      "es": "Los bonos de infraestructura de la ciudad deberían financiar planes de clima y adaptación costera."
+     },
+     "tradeoff": {
+      "en": "Less bond money would be left for roads, pipes and other repairs.",
+      "es": "Quedaría menos dinero de bonos para calles, tuberías y otras reparaciones."
+     },
+     "sides": {
+      "amoswhite": {
+       "side": 1,
+       "idx": 0,
+       "quote": "direct infrastructure bond funds to the city's Climate Action and Shoreline Adaptation Plans"
+      }
+     }
+    },
+    {
+     "id": "veterans-center",
+     "topic": "veterans",
+     "q": {
+      "en": "The city should finish building a Veterans Center at the old Navy base.",
+      "es": "La ciudad debería terminar de construir un Centro de Veteranos en la antigua base naval."
+     },
+     "tradeoff": {
+      "en": "The money and land could be used for other city needs.",
+      "es": "El dinero y el terreno podrían usarse para otras necesidades de la ciudad."
+     },
+     "sides": {
+      "steveslauson": {
+       "side": 1,
+       "idx": 4,
+       "quote": "complete the Veterans Center at the old Navy base"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, District 8 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict8 | status=contested",
+   "questions": [
+    {
+     "id": "elmwood-height",
+     "topic": "growth",
+     "q": {
+      "en": "Berkeley should raise height limits on some Elmwood properties to allow more housing.",
+      "es": "Berkeley debería aumentar los límites de altura en algunas propiedades de Elmwood para permitir más vivienda."
+     },
+     "tradeoff": {
+      "en": "Taller buildings could change the look and feel of the neighborhood.",
+      "es": "Edificios más altos podrían cambiar el aspecto y el ambiente del barrio."
+     },
+     "sides": {
+      "markhumbert": {
+       "side": 1,
+       "idx": 3,
+       "quote": "supports a narrower Elmwood zoning change that raises height limits only on specific properties"
+      },
+      "marimendonca": {
+       "side": -1,
+       "idx": 3,
+       "quote": "opposes changing Elmwood zoning rules"
+      }
+     }
+    },
+    {
+     "id": "elmwood-historic-district",
+     "topic": "growth",
+     "q": {
+      "en": "The Elmwood business core should be made a historic district.",
+      "es": "El centro comercial de Elmwood debería declararse distrito histórico."
+     },
+     "tradeoff": {
+      "en": "Historic rules can make it harder and costlier to build or remodel.",
+      "es": "Las normas históricas pueden dificultar y encarecer construir o remodelar."
+     },
+     "sides": {
+      "michaelwallman": {
+       "side": 1,
+       "idx": 3,
+       "quote": "backed making the Elmwood core a historic district"
+      }
+     }
+    },
+    {
+     "id": "middle-density",
+     "topic": "housing",
+     "q": {
+      "en": "Zoning should allow more middle-density homes, like small apartment buildings, in neighborhoods.",
+      "es": "La zonificación debería permitir más viviendas de densidad media, como edificios pequeños, en los barrios."
+     },
+     "tradeoff": {
+      "en": "More homes could bring more traffic and strain on local services.",
+      "es": "Más viviendas podrían traer más tráfico y presión sobre los servicios locales."
+     },
+     "sides": {
+      "markhumbert": {
+       "side": 1,
+       "idx": 1,
+       "quote": "updated its zoning laws to enable middle-density homes"
+      },
+      "marimendonca": {
+       "side": -1,
+       "idx": 1,
+       "quote": "Criticizes up-zoning and density bonuses"
+      }
+     }
+    },
+    {
+     "id": "inclusionary-housing",
+     "topic": "housing",
+     "q": {
+      "en": "New housing projects should have to include a share of affordable units.",
+      "es": "Los nuevos proyectos de vivienda deberían incluir una parte de unidades asequibles."
+     },
+     "tradeoff": {
+      "en": "Builders may build fewer homes or charge more for the other units.",
+      "es": "Los constructores podrían hacer menos viviendas o cobrar más por las demás."
+     },
+     "sides": {
+      "fredmfeller": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Supports appropriate scale inclusionary housing"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=Mayor | id=Alameda:city:cityofdublin:mayor | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, Council #1 | id=Alameda:city:cityofpleasanton:citycouncilmembercouncil1 | status=contested",
+   "questions": [
+    {
+     "id": "stoneridge-mall",
+     "topic": "economy",
+     "q": {
+      "en": "Pleasanton should make revitalizing Stoneridge Mall a main way to raise city revenue.",
+      "es": "Pleasanton debería revitalizar el centro comercial Stoneridge como vía principal para tener más ingresos."
+     },
+     "tradeoff": {
+      "en": "Retail income can be uncertain, and city effort there takes from other needs.",
+      "es": "Los ingresos del comercio son inciertos y ese esfuerzo resta atención a otras necesidades."
+     },
+     "sides": {
+      "vinkruttiventi": {
+       "side": 1,
+       "idx": 1,
+       "quote": "raise revenue by supporting local businesses, revitalizing Stoneridge Mall"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/college | office=Community College District Trustee, Area 6 | id=Alameda:college:ohlonecommunitycollegedistrict:communitycollegedistricttrusteearea6 | status=contested",
+   "questions": [
+    {
+     "id": "career-certificates",
+     "topic": "education",
+     "q": {
+      "en": "The college should expand short-term career certificate programs.",
+      "es": "La universidad debería ampliar los programas cortos de certificados profesionales."
+     },
+     "tradeoff": {
+      "en": "Less money could be left for transfer and academic classes.",
+      "es": "Podría quedar menos dinero para clases académicas y de transferencia."
+     },
+     "sides": {
+      "suzannesueleechan": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Supports certificate training programs in manufacturing, biotechnology, cybersecurity, business, and healthcare"
+      },
+      "soniasalwan": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Supports expanding short-term programs for working adults, career-changers, and lifelong learners"
+      }
+     }
+    },
+    {
+     "id": "student-basic-needs",
+     "topic": "education",
+     "q": {
+      "en": "The college should spend more on student needs like food, housing and mental health.",
+      "es": "La universidad debería gastar más en necesidades estudiantiles como comida, vivienda y salud mental."
+     },
+     "tradeoff": {
+      "en": "Less money would be left for classes and instructors.",
+      "es": "Quedaría menos dinero para clases y profesores."
+     },
+     "sides": {
+      "suzannesueleechan": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Prioritizes student basic needs: mental wellness support, food security, and affordable housing"
+      }
+     }
+    },
+    {
+     "id": "plain-language-budget",
+     "topic": "budget",
+     "q": {
+      "en": "The board should explain major expenses in plain language before voting on them.",
+      "es": "La junta debería explicar los gastos grandes en lenguaje sencillo antes de votarlos."
+     },
+     "tradeoff": {
+      "en": "It could take staff time and slow down decisions.",
+      "es": "Podría ocupar tiempo del personal y hacer más lentas las decisiones."
+     },
+     "sides": {
+      "soniasalwan": {
+       "side": 1,
+       "idx": 3,
+       "quote": "major expenses explained in plain language before voting"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## assembly/CA20 | office=State Assembly, District 20 | id=None | status=",
+   "questions": [
+    {
+     "id": "ice-contractor-benefits",
+     "topic": "immigration",
+     "q": {
+      "en": "California should deny state benefits to private companies that help ICE.",
+      "es": "California debería negar beneficios estatales a las empresas privadas que ayudan a ICE."
+     },
+     "tradeoff": {
+      "en": "It could raise conflicts with the federal government and in courts.",
+      "es": "Podría causar conflictos con el gobierno federal y en los tribunales."
+     },
+     "sides": {
+      "lizortega": {
+       "side": 1,
+       "idx": 0,
+       "quote": "end benefits for private companies helping ICE"
+      }
+     }
+    },
+    {
+     "id": "card-fees",
+     "topic": "economy",
+     "q": {
+      "en": "The state should limit the extra fees banks and card companies charge businesses.",
+      "es": "El estado debería limitar los cargos extra que bancos y compañías de tarjetas cobran a los negocios."
+     },
+     "tradeoff": {
+      "en": "Card companies could cut rewards or raise other costs.",
+      "es": "Las compañías de tarjetas podrían reducir beneficios o subir otros costos."
+     },
+     "sides": {
+      "lizortega": {
+       "side": 1,
+       "idx": 2,
+       "quote": "stop big banks and credit card companies from charging businesses extra fees"
+      }
+     }
+    },
+    {
+     "id": "keep-natural-gas",
+     "topic": "energy",
+     "q": {
+      "en": "California should keep using natural gas rather than phase it out.",
+      "es": "California debería seguir usando gas natural en lugar de eliminarlo poco a poco."
+     },
+     "tradeoff": {
+      "en": "It would slow the shift to cleaner energy and add to air pollution.",
+      "es": "Haría más lento el cambio a energía limpia y aumentaría la contaminación."
+     },
+     "sides": {
+      "patriciamuga": {
+       "side": 1,
+       "idx": 1,
+       "quote": "she supports keeping natural gas, nuclear plants and petroleum refineries"
+      }
+     }
+    },
+    {
+     "id": "voter-citizenship-proof",
+     "topic": "elections",
+     "q": {
+      "en": "People should have to show proof of citizenship to register to vote.",
+      "es": "Debería exigirse prueba de ciudadanía para inscribirse para votar."
+     },
+     "tradeoff": {
+      "en": "Some eligible citizens without papers on hand may have trouble registering.",
+      "es": "Algunos ciudadanos sin documentos a mano podrían tener problemas para inscribirse."
+     },
+     "sides": {
+      "patriciamuga": {
+       "side": 1,
+       "idx": 2,
+       "quote": "requiring proof of citizenship for voter registration"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=Mayor | id=Alameda:city:cityofpleasanton:mayor | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## assembly/CA24 | office=State Assembly, District 24 | id=None | status=",
+   "questions": [
+    {
+     "id": "social-housing",
+     "topic": "housing",
+     "q": {
+      "en": "The state should build government-owned \"social housing\" for people of mixed incomes.",
+      "es": "El estado debería construir \"vivienda social\" de propiedad pública para personas de ingresos variados."
+     },
+     "tradeoff": {
+      "en": "It would cost public money and compete with private builders.",
+      "es": "Costaría dinero público y competiría con constructores privados."
+     },
+     "sides": {
+      "alexlee": {
+       "side": 1,
+       "idx": 0,
+       "quote": "has led efforts to build social housing"
+      }
+     }
+    },
+    {
+     "id": "universal-health",
+     "topic": "health",
+     "q": {
+      "en": "California should guarantee health coverage for every resident.",
+      "es": "California debería garantizar cobertura médica para todos sus residentes."
+     },
+     "tradeoff": {
+      "en": "It would likely require large new taxes.",
+      "es": "Probablemente requeriría nuevos impuestos grandes."
+     },
+     "sides": {
+      "alexlee": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Lists universal health care among the causes he leads"
+      }
+     }
+    },
+    {
+     "id": "tax-wealthy",
+     "topic": "taxes",
+     "q": {
+      "en": "California should raise taxes on its wealthiest residents.",
+      "es": "California debería subir los impuestos a sus residentes más ricos."
+     },
+     "tradeoff": {
+      "en": "Some high earners and businesses could move out of state.",
+      "es": "Algunas personas de altos ingresos y empresas podrían irse del estado."
+     },
+     "sides": {
+      "alexlee": {
+       "side": 1,
+       "idx": 2,
+       "quote": "has led the fight to tax the rich"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, Council #5 | id=Alameda:city:cityofsanleandro:citycouncilmembercouncil5 | status=unopposed",
+   "questions": []
+  },
+  {
+   "contest": "## ssenate/CA10 | office=State Senator, District 10 | id=None | status=",
+   "questions": [
+    {
+     "id": "limit-ice",
+     "topic": "immigration",
+     "q": {
+      "en": "California should take steps to limit ICE enforcement in the state.",
+      "es": "California debería tomar medidas para limitar la aplicación de leyes de ICE en el estado."
+     },
+     "tradeoff": {
+      "en": "It could raise conflicts with the federal government and risk federal funds.",
+      "es": "Podría causar conflictos con el gobierno federal y poner en riesgo fondos federales."
+     },
+     "sides": {
+      "scottsakakihara": {
+       "side": 1,
+       "idx": 1,
+       "quote": "wants to stop ICE"
+      }
+     }
+    },
+    {
+     "id": "universal-health",
+     "topic": "health",
+     "q": {
+      "en": "California should guarantee health coverage for every resident.",
+      "es": "California debería garantizar cobertura médica para todos sus residentes."
+     },
+     "tradeoff": {
+      "en": "It would likely require large new taxes.",
+      "es": "Probablemente requeriría nuevos impuestos grandes."
+     },
+     "sides": {
+      "scottsakakihara": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Supports universal healthcare"
+      }
+     }
+    },
+    {
+     "id": "universal-childcare",
+     "topic": "childcare",
+     "q": {
+      "en": "The state should provide child care to every family that wants it.",
+      "es": "El estado debería ofrecer cuidado infantil a toda familia que lo desee."
+     },
+     "tradeoff": {
+      "en": "It would cost the state billions each year.",
+      "es": "Le costaría al estado miles de millones cada año."
+     },
+     "sides": {
+      "scottsakakihara": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Supports universal healthcare and childcare"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/special | office=Director, Ward 5 | id=Alameda:special:eastbayregionalparkdistrict:directorward5 | status=contested",
+   "questions": [
+    {
+     "id": "expand-trails",
+     "topic": "environment",
+     "q": {
+      "en": "The park district should open more trails to public use.",
+      "es": "El distrito de parques debería abrir más senderos al uso público."
+     },
+     "tradeoff": {
+      "en": "More visitors could disturb wildlife and cost more to patrol.",
+      "es": "Más visitantes podrían molestar a la fauna y costaría más vigilar."
+     },
+     "sides": {
+      "brucehenry": {
+       "side": 1,
+       "idx": 0,
+       "quote": "expanding trail access"
+      }
+     }
+    },
+    {
+     "id": "restore-shadow-cliffs",
+     "topic": "water",
+     "q": {
+      "en": "The park district should spend money to restore Shadow Cliffs Lake and nearby ponds.",
+      "es": "El distrito de parques debería invertir en restaurar el lago Shadow Cliffs y los estanques cercanos."
+     },
+     "tradeoff": {
+      "en": "That money could not go to other parks or services.",
+      "es": "Ese dinero no podría usarse en otros parques o servicios."
+     },
+     "sides": {
+      "oliviasanwong": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Restore Shadow Cliffs Lake and grassland ponds"
+      }
+     }
+    },
+    {
+     "id": "trail-bridges",
+     "topic": "safety",
+     "q": {
+      "en": "The park district should pay for trail bridges, like the Iron Horse Trail Bridge, for safer crossings.",
+      "es": "El distrito de parques debería pagar puentes, como el de Iron Horse Trail, para cruces más seguros."
+     },
+     "tradeoff": {
+      "en": "Bridges are costly and take funds from upkeep elsewhere.",
+      "es": "Los puentes son caros y restan fondos al mantenimiento en otros lugares."
+     },
+     "sides": {
+      "oliviasanwong": {
+       "side": 1,
+       "idx": 1,
+       "quote": "infrastructure improvements like Iron Horse Trail Bridge"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/statewide | office=Attorney General | id=Alameda:statewide:stateofcalifornia:attorneygeneral | status=contested",
+   "questions": [
+    {
+     "id": "camping-laws",
+     "topic": "homeless",
+     "q": {
+      "en": "The state should strictly enforce laws against camping and loitering in public places.",
+      "es": "El estado debería aplicar estrictamente las leyes contra acampar y merodear en lugares públicos."
+     },
+     "tradeoff": {
+      "en": "People without shelter may be moved or cited with nowhere else to go.",
+      "es": "Personas sin refugio podrían ser desalojadas o multadas sin otro lugar adonde ir."
+     },
+     "sides": {
+      "michaelegates": {
+       "side": 1,
+       "idx": 0,
+       "quote": "enforcing camping and loitering laws"
+      }
+     }
+    },
+    {
+     "id": "local-housing-control",
+     "topic": "housing",
+     "q": {
+      "en": "Cities, not the state, should decide how dense new housing can be.",
+      "es": "Las ciudades, no el estado, deberían decidir qué tan densa puede ser la vivienda nueva."
+     },
+     "tradeoff": {
+      "en": "Some cities may block new homes, keeping housing scarce and costly.",
+      "es": "Algunas ciudades podrían frenar viviendas nuevas, manteniéndolas escasas y caras."
+     },
+     "sides": {
+      "michaelegates": {
+       "side": 1,
+       "idx": 1,
+       "quote": "opposes state housing density mandates"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/college | office=Community College District Trustee, Area 6 | id=Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea6 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/statewide | office=Lieutenant Governor | id=Alameda:statewide:stateofcalifornia:lieutenantgovernor | status=contested",
+   "questions": [
+    {
+     "id": "school-vouchers",
+     "topic": "education",
+     "q": {
+      "en": "Parents should be able to use public money to pay for private school.",
+      "es": "Los padres deberían poder usar dinero público para pagar escuelas privadas."
+     },
+     "tradeoff": {
+      "en": "Public schools could lose funding as students leave.",
+      "es": "Las escuelas públicas podrían perder fondos si se van estudiantes."
+     },
+     "sides": {
+      "gloriaromero": {
+       "side": 1,
+       "idx": 2,
+       "quote": "she supports school vouchers so parents can use public money for private school"
+      }
+     }
+    },
+    {
+     "id": "parent-trigger",
+     "topic": "education",
+     "q": {
+      "en": "Parents should be able to petition to force major changes at a low-performing public school.",
+      "es": "Los padres deberían poder pedir con firmas cambios mayores en una escuela pública de bajo rendimiento."
+     },
+     "tradeoff": {
+      "en": "It can cause conflict and disrupt teachers and students mid-year.",
+      "es": "Puede causar conflictos y afectar a maestros y estudiantes durante el año."
+     },
+     "sides": {
+      "gloriaromero": {
+       "side": 1,
+       "idx": 0,
+       "quote": "she wrote the Parent Trigger and Open Enrollment Act"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

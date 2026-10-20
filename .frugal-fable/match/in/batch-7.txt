@@ -1,0 +1,167 @@
+Each contest starts with '## '. Lines starting with '- ' are candidates: id | name | party | review | counts. Indented '[n] kind/topic: text' lines are that candidate's documented positions; n is the statement index.
+
+## alameda/school | office=Board of Education Member | id=Alameda:school:albanyunifiedschooldistrict:boardofeducationmember | status=contested
+- Alameda:school:albanyunifiedschooldistrict:boardofeducationmember:margaretallen | Margaret Allen | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: All six campuses deserve strong academic performance, safe buildings, and reliable support for every student.
+    [1] stated/budget: Will examine district budget and master plan to push for long-term fiscal stability and educational equity.
+    [2] stated/education: Supports listening to and engaging with teachers, staff, and parents to carry their values into board decisions.
+- Alameda:school:albanyunifiedschooldistrict:boardofeducationmember:melissaboyd | Melissa Boyd | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Public education is the great equalizer that gives children opportunity to reach their potential regardless of background or circumstance.
+    [1] stated/community: Approaches position with respect and without ego, using experience as attorney and coach to make difficult decisions calmly and level-headedly.
+    [2] stated/education: Passionate about achieving equity in education and continuing service to students and families.
+- Alameda:school:albanyunifiedschooldistrict:boardofeducationmember:beckyhopwood | Becky Hopwood | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports equity, academic excellence, student well-being, fiscal responsibility, and strong partnerships with families and staff.
+    [1] stated/budget: Helped lead successful parcel tax and bond measure campaigns to provide critical funding for Albany students.
+    [2] stated/community: Brings stability, continuity, and steady governance to support students, staff, and families during times of transition.
+- Alameda:school:albanyunifiedschooldistrict:boardofeducationmember:joshmahoney | Josh Mahoney | nonp | review=reviewed | stated=3 other=0
+    [0] stated/budget: In uncertain economic times, district must remain financially stable so Albany can decide how to best educate Albany kids.
+    [1] stated/safety: Children must have safe facilities and an environment conducive to learning.
+    [2] stated/education: Must address equity by ensuring all students achieve required standards in reading and math to pursue their passions.
+- Alameda:school:albanyunifiedschooldistrict:boardofeducationmember:davidmckinney | David McKinney | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: High-quality public education provides learning environments where students feel safe within a supportive community.
+    [1] stated/education: Students must find and pursue their passions and be equipped with resources and support needed to succeed in school and beyond.
+    [2] stated/community: Will work collaboratively to enact policies and spending that foster exceptional educational environments for student growth.
+
+## alameda/city | office=City Council Member | id=Alameda:city:cityofpiedmont:citycouncilmember | status=contested
+- Alameda:city:cityofpiedmont:citycouncilmember:nancybeninati | Nancy Beninati | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Says her work has strengthened public safety while advancing civil rights and equal opportunity
+    [1] stated/education: Teaches law and public policy at UC Berkeley to prepare next generation of public servants and advocates
+    [2] stated/environment: Committed to climate resilience as one of her priorities for city leadership
+- Alameda:city:cityofpiedmont:citycouncilmember:sunnybostromfleming | Sunny Bostrom-Fleming | nonp | review=reviewed | stated=2 other=0
+    [0] stated/education: Lifetime advocate for swimming education in all schools, calling it life-saving and a confidence builder
+    [1] stated/community: Calls for sympathetic and creative resolution to local issue; emphasizes values in how community treats others
+- Alameda:city:cityofpiedmont:citycouncilmember:adamhundt | Adam Hundt | nonp | review=reviewed | stated=3 other=0
+    [0] stated/environment: Prioritizes implementing Piedmont Climate Action Plan with focus on home and building electrification
+    [1] stated/energy: Supports affordable home and building electrification to reduce costs, carbon footprint, and increase home values
+    [2] stated/community: Says it is critical to obtain feedback from residents and share clean energy best practices
+- Alameda:city:cityofpiedmont:citycouncilmember:tomramsey | Tom Ramsey | nonp | review=reviewed | stated=2 other=0
+    [0] stated/budget: Prioritizes fiscal oversight, maintaining balanced budgets, and managing city resources responsibly
+    [1] stated/safety: Prioritizes public safety and helped implement new Police and Fire Dispatch Center for quick emergency response
+- Alameda:city:cityofpiedmont:citycouncilmember:billreichle | Bill Reichle | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Prioritizes reliable public safety, stating without it nothing else matters
+    [1] stated/budget: Emphasizes sound fiscal management and discipline as essential for community to flourish
+    [2] stated/community: Supports community building and engaging entire Piedmont community in open and transparent conversation
+
+## alameda/city | office=City Council Member | id=Alameda:city:cityofemeryville:citycouncilmember | status=contested
+- Alameda:city:cityofemeryville:citycouncilmember:corryfrydlewicz | Corry Frydlewicz | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Opposes Flock camera surveillance that the city approved in 2023, saying it enables ICE to track residents' movements.
+    [1] stated/roads: Prioritizes reducing traffic delays as a way to improve road safety and keep roads open.
+    [2] stated/elections: Opposes corporate money in politics and says she is running a volunteer-supported grassroots campaign without corporate funding.
+- Alameda:city:cityofemeryville:citycouncilmember:davidmourra | David Mourra | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Prioritizes public safety and clean, well-maintained streets, sidewalks, and public spaces as core focuses of his council work.
+    [1] stated/streets: Says he expanded bike and pedestrian infrastructure and improved parks during his council service.
+    [2] stated/environment: Introduced citywide environmental initiatives, including electrifying the municipal vehicle fleet.
+- Alameda:city:cityofemeryville:citycouncilmember:kalimahatreyupriforce | Kalimah Atreyu Priforce | nonp | review=reviewed | stated=2 other=0
+    [0] stated/economy: As a democratic socialist, she says City Hall should put working people before corporate power, and fights for renters, homeowners, and small businesses.
+    [1] stated/budget: Says her proposals are moving Emeryville toward fiscal accountability and making it harder for City Hall to ignore residents.
+- Alameda:city:cityofemeryville:citycouncilmember:brandonsoublet | Brandon Soublet | nonp | review=reviewed | stated=3 other=0
+    [0] stated/streets: Supports building walkable and bike-friendly streets designed to protect children and seniors.
+    [1] stated/safety: Supports realistic, equitable steps toward improving public safety by aligning stakeholders.
+    [2] stated/growth: Advocates for managing land use and development so corporate interests do not outweigh residents' needs.
+
+## house/CA07 | office= | id=None | status=
+- ushouse:7:dorismatsui | Doris Matsui | Democratic | review=reviewed | stated=5 other=0
+    [0] stated/water: Says she has secured billions of dollars in federal funding for regional flood protection and Delta watershed protection.
+    [1] stated/health: Says she helped pass the Affordable Care Act and a law lowering the cost of 64 common prescription drugs.
+    [2] stated/jobs: Says she works across the aisle to make the region safer and healthier and to create good-paying clean tech jobs.
+    [3] stated/endorse: Lists support from firefighters, nurses, teachers, sheriffs and deputy sheriffs, and Planned Parenthood Action Fund.
+    [4] stated/water: Says she secured over $3 billion to strengthen levees and modernize Folsom Dam.
+- ushouse:7:maivang | Mai Vang | Democratic | review=reviewed | stated=4 other=0
+    [0] stated/cost: Says she will fight to lower the cost of rent, groceries and medical bills.
+    [1] stated/finance: Says she takes no money from corporations.
+    [2] stated/record: Says on Sacramento City Council she opened a large vaccination clinic and saved local libraries from closing.
+    [3] stated/health: Supports Medicare for All, according to her campaign website.
+
+## alameda/city | office=City Council Member, Council #4 | id=Alameda:city:cityofunioncity:citycouncilmembercouncil4 | status=contested
+- Alameda:city:cityofunioncity:citycouncilmembercouncil4:vipansbajwa | Vipan S. Bajwa | nonp | review=reviewed | stated=2 other=0
+    [0] stated/safety: Says he will fight for safer neighborhoods, well-maintained streets, thriving businesses and stronger school partnerships.
+    [1] stated/taxes: Says he will protect taxpayer dollars and make local government more accessible and responsive.
+- Alameda:city:cityofunioncity:citycouncilmembercouncil4:sarabjitkaurcheema | Sarabjit Kaur Cheema | nonp | review=reviewed | stated=3 other=0
+    [0] stated/economy: Says she wants to improve quality of life through economic development, public safety, robust services and cultural amenities.
+    [1] stated/budget: Says she consistently balanced budgets while on the school board, prioritizing students and stakeholders.
+    [2] stated/endorse: Lists Councilmember Scott Sakakihara, Assemblymember Liz Ortega, former Assemblyman Bill Quirk and labor leaders as supporters.
+- Alameda:city:cityofunioncity:citycouncilmembercouncil4:qasimlodhi | Qasim Lodhi | nonp | review=reviewed | stated=2 other=0
+    [0] stated/safety: Says he will focus on public safety, affordable housing opportunities, local businesses, and more recreation and entertainment options.
+    [1] stated/taxes: Says government should be transparent, responsive and accountable, and tax dollars should be invested wisely.
+- Alameda:city:cityofunioncity:citycouncilmembercouncil4:annyapjequinto | Ann Yap-Jequinto | nonp | review=reviewed | stated=2 other=0
+    [0] stated/safety: Lists public safety, fiscal accountability, infrastructure, housing and homelessness solutions, and economic development as priorities.
+    [1] stated/community: Says she helped feed unhoused people, organized food distributions and led community cleanups.
+
+## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityofsanleandro:citycouncilmembercouncil3 | status=contested
+- Alameda:city:cityofsanleandro:citycouncilmembercouncil3:leethomas | Lee Thomas | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says he will work to protect essential police and fire services.
+    [1] stated/housing: Says he will support practical and inclusive housing solutions.
+    [2] stated/economy: Says he will strengthen the local economy and keep providing high-quality city services.
+    [3] stated/other: Lists transparency, business investment for city revenue, police and fire services, inclusive housing, and youth, family and senior services as priorities.
+- Alameda:city:cityofsanleandro:citycouncilmembercouncil3:josephtrujillo | Joseph Trujillo | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says he is committed to strengthening public safety.
+    [1] stated/roads: Says he will work on fixing aging infrastructure.
+    [2] stated/budget: Says he will protect essential city services through sound financial stewardship and make City Hall transparent and accountable.
+    [3] stated/other: Lists infrastructure, economic revitalization, fully funded public safety and responsive leadership as core priorities.
+
+## alameda/school | office=School Board Member, Area 5 | id=Alameda:school:dublinunifiedschooldistrict:schoolboardmemberarea5 | status=contested
+- Alameda:school:dublinunifiedschooldistrict:schoolboardmemberarea5:seemabadar | Seema Badar | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Supports ensuring every student succeeds through dedicated school board leadership.
+    [1] stated/community: Prioritizes parent and community engagement, including organizing outreach events and volunteering.
+    [2] stated/budget: Supports responsible oversight of district finances and tax dollars to ensure students have quality resources.
+    [3] stated/education: Pledges to support teachers' needs in her role as school board trustee.
+- Alameda:school:dublinunifiedschooldistrict:schoolboardmemberarea5:dancherrier | Dan Cherrier | nonp | review=reviewed | stated=3 other=1
+    [0] record/education: Consistently advocated and voted for construction of a second high school (Emerald High School).
+    [1] stated/budget: Expresses concern about deficit spending and deferred maintenance at the district.
+    [2] stated/finance: Prioritizes financial decisions focused on the district's future solvency.
+    [3] stated/growth: Advocates for adequate student parking at Emerald High School per project environmental review commitment.
+
+## house/CA09 | office= | id=None | status=
+- ushouse:9:joshharder | Josh Harder | Democratic | review=reviewed | stated=3 other=0
+    [0] stated/cost: Cut prescription drug costs, repeal gas taxes, get housing costs under control.
+    [1] stated/health: A $35 monthly cap on insulin; bring more doctors to the Valley.
+    [2] stated/homeless: Treat homelessness as an emergency: mental health, addiction services, job training.
+- ushouse:9:johnmcbride | John McBride | Republican | review=reviewed | stated=3 other=0
+    [0] stated/taxes: Reduce taxes, shrink government spending, no tax on Social Security.
+    [1] stated/health: Remove dangerous chemicals from food and water.
+    [2] stated/safety: Support local police, a stronger border, water rights, less regulation on small farms.
+
+## alameda/school | office=School Board Member, Area 2 | id=Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea2 | status=contested
+- Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea2:taraboyce | Tara Boyce | nonp | review=reviewed | stated=3 other=0
+    [0] stated/budget: Will work to balance both short and long term fiscal health of the district.
+    [1] stated/education: Committed to elevating student achievement and success to meet world standards.
+    [2] stated/community: Will center transparency, respect, and accountability in setting district priorities and require data-backed recommendations.
+- Alameda:school:livermorevalleyjointunifiedschooldistrict:schoolboardmemberarea2:stephenrorgain | Stephen R Orgain | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports high-quality education in safe, supportive, and focused learning environment where students can succeed.
+    [1] stated/safety: Believes schools should be safe places where students can focus on learning without unnecessary distractions.
+    [2] stated/community: Committed to listening to parents, teachers, students, administrators, and community members in decision-making.
+
+## alameda/special | office=Director, Area 4 | id=Alameda:special:haywardarearecreationparkdistrict:directorarea4 | status=contested
+- Alameda:special:haywardarearecreationparkdistrict:directorarea4:josephjoegiltner | Joseph "Joe" Giltner | nonp | review=reviewed | stated=3 other=0
+    [0] stated/environment: Will protect parks and natural environment while preserving community beauty and expanding recreational opportunities.
+    [1] stated/community: Will ensure all residents of every age, ability, and background have access to H.A.R.D.'s programs and facilities.
+    [2] stated/budget: Will champion fiscal responsibility, transparency, and accountability in how tax dollars are spent.
+- Alameda:special:haywardarearecreationparkdistrict:directorarea4:paulwhodgesjr | Paul W. Hodges, JR. | nonp | review=reviewed | stated=3 other=0
+    [0] stated/community: Calls H.A.R.D. the 'crown jewel' of recreational and leisure centers in the Bay Area and supports safe, accessible public parks.
+    [1] stated/budget: Says collaboration with other agencies is crucial during tight budget times to create new projects and make capital improvements.
+    [2] stated/other: Promises to continue service with honesty, integrity, openness, and equality for all community members.
+
+## alameda/school | office=School Board Member, Area 2 (short term) | id=Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea2shortterm | status=contested
+- Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea2shortterm:jesusjacobo | Jesus Jacobo | nonp | review=unreviewed | stated=0 other=0
+- Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea2shortterm:mylalong | Myla Long | nonp | review=reviewed | stated=4 other=0
+    [0] stated/budget: Supports responsible budgeting, accountability, and long-term planning; says every dollar should be spent wisely.
+    [1] stated/education: Says she will work to strengthen academic achievement.
+    [2] stated/community: Supports revitalizing trust through open communication.
+    [3] stated/safety: Supports safe and inclusive learning environments.
+- Alameda:school:castrovalleyunifiedschooldistrict:schoolboardmemberarea2shortterm:frederickregala | Frederick Regala | nonp | review=unreviewed | stated=0 other=0
+
+## alameda/special | office=Director, Area 2 | id=Alameda:special:haywardarearecreationparkdistrict:directorarea2 | status=contested
+- Alameda:special:haywardarearecreationparkdistrict:directorarea2:amandaalysiadaniels | Amanda Alysia Daniels | nonp | review=unreviewed | stated=0 other=0
+- Alameda:special:haywardarearecreationparkdistrict:directorarea2:saralamnin | Sara Lamnin | nonp | review=reviewed | stated=4 other=0
+    [0] stated/community: Worked to ensure every resident has park access within 10-minute walk; supports safe, high-quality parks
+    [1] stated/community: Supports affordable recreation opportunities and expanded programming for all ages and abilities
+    [2] stated/environment: Supports protecting natural resources and expanding environmental education and local trails
+    [3] stated/budget: Supports investing taxpayer dollars wisely in parks and programs
+
+## alameda/transit | office=Director, Ward 5 | id=Alameda:transit:actransitdistrict:directorward5 | status=contested
+- Alameda:transit:actransitdistrict:directorward5:josephgrcar | Joseph Grcar | nonp | review=unreviewed | stated=0 other=0
+- Alameda:transit:actransitdistrict:directorward5:murphymccalley | Murphy McCalley | nonp | review=reviewed | stated=3 other=0
+    [0] stated/budget: Brings experience developing and managing transit system budgets and securing additional funding.
+    [1] stated/safety: Supports improved, reliable, and safe public transit services.
+    [2] stated/economy: Sees public transit as key to community quality of life, affecting economic vitality, employment, and mobility.
+- Alameda:transit:actransitdistrict:directorward5:luisreynoso | Luis Reynoso | nonp | review=unreviewed | stated=0 other=0

@@ -1,0 +1,138 @@
+Each contest starts with '## '. Lines starting with '- ' are candidates: id | name | party | review | counts. Indented '[n] kind/topic: text' lines are that candidate's documented positions; n is the statement index.
+
+## san-joaquin/city | office=Member, City Council | id=San Joaquin:city:cityofmountainhouse:membercitycouncil | status=contested
+- San Joaquin:city:cityofmountainhouse:membercitycouncil:arjunjuturu | Arjun Juturu | nonp | review=reviewed | stated=4 other=3
+    [0] stated/budget: Says he will protect taxpayer dollars through balanced budgets and transparent contracts.
+    [1] stated/growth: Says he supports responsible growth and economic development.
+    [2] stated/water: Lists infrastructure, including water security, as a priority.
+    [3] stated/safety: Lists public safety and public schools as priorities and promises collaborative, accountable leadership.
+    [4] record/comment: Spoke as a resident at the public hearing on the Grant Line Road Roundabouts EIR, saying roundabouts would not fix the traffic problem and signals should be considered. The council approved the project 5-0.
+    [5] record/comment: Spoke as a resident in favor of moving the pledged facilities debt service charge to the property tax bill, citing transparency and predictable payments.
+    [6] reporting/result: Finished third of three in the 2022 Lammersville USD board race (1,549 votes, 19.23%), per certified results reported by Tracy Press.
+- San Joaquin:city:cityofmountainhouse:membercitycouncil:nadershareghi | Nader Shareghi | nonp | review=reviewed | stated=3 other=1
+    [0] stated/budget: Lists fiscal responsibility as a top priority.
+    [1] stated/growth: Says remaining development should be consistent with the Master Plan, citing his knowledge of the plan, development agreements, design standards and financing frameworks.
+    [2] stated/water: Says the city should secure backup and alternative water sources rather than depend on a single supply line.
+    [3] reporting/record: Local reporting says the City Council presented him a Certificate of Appreciation at its Sept 11, 2024 meeting on his retirement as Public Works Director. (Council minutes before May 2025 are not online; not verified in minutes.)
+- San Joaquin:city:cityofmountainhouse:membercitycouncil:happygrewal | Happy Grewal | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says he will work to strengthen public safety.
+    [1] stated/community: Says he will expand opportunities for youth and invest in quality parks and community programs.
+    [2] stated/growth: Says he supports thoughtful growth that preserves quality of life, with responsible planning and a clear vision.
+    [3] stated/budget: Says he will protect taxpayer dollars and stresses accountability and fiscal responsibility, drawing on managing budgets as a business owner.
+- San Joaquin:city:cityofmountainhouse:membercitycouncil:ronnagreen | Ronna Green | nonp | review=reviewed | stated=4 other=3
+    [0] stated/safety: Says she wants a community that feels like home, where families feel safe and every person belongs.
+    [1] stated/roads: Says she advocates in Washington, D.C. for safer roads and better connectivity, and pledges to fight for strong roads.
+    [2] stated/water: Says she is working with state and federal leaders to put Mountain House on the map for critical water infrastructure investment and grant funding.
+    [3] stated/growth: Says she supports thoughtful growth and cites investment in parks and trails.
+    [4] record/record: As Vice Mayor, cast the only 'Against' vote on Resolution 2026-72, adding Section 5.16 'Political Activities of Council Members' to the Council Policies and Procedures (carried 4-1). The minutes note it includes language excluding all City parks from the defined City facilities.
+    [5] record/record: Voted for Resolution 2026-76 authorizing special tax bonds for Improvement Areas 8 and 13 of Community Facilities District 2024-1 (carried 3-1; King Tingle against; Mayor Su absent). Green chaired the meeting as Vice Mayor.
+    [6] record/record: Voted for General Plan, Master Plan, Specific Plan and zoning amendments and four subdivision approvals for the MHD C-R project north of Byron Road (Resolutions 2026-77 to 2026-85; carried 4-0; Mayor Su absent).
+- San Joaquin:city:cityofmountainhouse:membercitycouncil:sureshvuyyuru | Suresh Vuyyuru | nonp | review=none_found | stated=0 other=2
+    [0] record/comment: Spoke as a resident in public comment asking for an update on the status of the Public Safety, Transportation, Recreation and Planning bodies and for residents to be included in public committees.
+    [1] reporting/result: Finished third of six in the 2022 Mountain House CSD board race (1,340 votes, 16.30%), per certified results reported by Tracy Press.
+- San Joaquin:city:cityofmountainhouse:membercitycouncil:bernicekingtingle | Bernice King Tingle | nonp | review=reviewed | stated=4 other=3
+    [0] stated/growth: Says she supports the City's Master Plan and wants housing and population growth aligned with it and its CC&Rs, while adapting to unanticipated modern challenges.
+    [1] stated/budget: Says she advocates governance aligned with strategic plans and a balanced budget.
+    [2] stated/safety: Lists public safety, transportation and water among her governance priorities.
+    [3] stated/other: Says she supports intentional growth of commerce and recreation that reflects community values.
+    [4] record/record: Voted against Resolution 2026-76 authorizing special tax bonds for CFD 2024-1 Improvement Areas 8 and 13 (carried 3-1; she was the only 'Against'; Mayor Su absent).
+    [5] record/record: Voted for Resolution 2026-72 adding Section 5.16 'Political Activities of Council Members' to the Council Policies and Procedures (carried 4-1; Green against).
+    [6] record/record: Moved approval of the consent calendar, which included Resolution 2026-73 (Altamont Neighborhood Park playground purchase and installation, not to exceed $1,168,860.28); carried 4-0.
+
+## san-joaquin/city | office=Member, City Council District 1 | id=San Joaquin:city:cityoflodi:membercitycouncildistrict1 | status=contested
+- San Joaquin:city:cityoflodi:membercitycouncildistrict1:dawsonhayre | Dawson Hayre | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Lists expanding opportunities for youth as a priority.
+    [1] stated/homeless: Says he wants to address homelessness with practical and compassionate solutions.
+    [2] stated/budget: Says he would strengthen the city's financial future through responsible growth and smart investment, not higher taxes.
+- San Joaquin:city:cityoflodi:membercitycouncildistrict1:michaelcarouba | Michael Carouba | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Says the city budget cuts almost $3 million from public safety, and he would vote to protect public safety.
+    [1] stated/record: Says he helped champion a locally controlled measure in 2018 that stabilized the city budget and protected public safety funding.
+    [2] stated/budget: Says he asks for votes to protect public safety and secure Lodi's financial future.
+- San Joaquin:city:cityoflodi:membercitycouncildistrict1:brandonsywassink | Brandon Sywassink | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Lists public safety, infrastructure, responsible economic development and support for local businesses among his priorities.
+    [1] stated/budget: Says he supports fiscal responsibility and spending taxpayer dollars wisely, and cites his experience balancing budgets.
+    [2] stated/growth: Says he wants to protect what makes Lodi a good place to live while planning responsibly for its future.
+
+## san-joaquin/city | office=Member, City Council District 4 | id=San Joaquin:city:cityofmanteca:membercitycouncildistrict4 | status=contested
+- San Joaquin:city:cityofmanteca:membercitycouncildistrict4:danibettencourt | Dani Bettencourt | nonp | review=reviewed | stated=4 other=0
+    [0] stated/budget: Says she has a commitment to fiscal accountability and wants the city to operate with accountability.
+    [1] stated/homeless: Says she is committed to tackling the homelessness problem.
+    [2] stated/safety: Says she will work to ensure the Police and Fire Departments get the funds they were promised.
+    [3] stated/other: Says she is dissatisfied with the city's direction and cites lack of transparency and stalled progress.
+- San Joaquin:city:cityofmanteca:membercitycouncildistrict4:roggerfgutierrez | Rogger F. Gutierrez | nonp | review=none_found | stated=0 other=0
+- San Joaquin:city:cityofmanteca:membercitycouncildistrict4:mikemorowit | Mike Morowit | nonp | review=reviewed | stated=4 other=0
+    [0] stated/roads: Says that as a councilmember he has worked to improve roads and infrastructure.
+    [1] stated/growth: Says he wants the city to grow responsibly through fiscally accountable government.
+    [2] stated/economy: Says he will keep working to attract the restaurants, businesses and amenities residents have asked for.
+    [3] stated/endorse: Lists endorsements from Manteca Police Officers, Manteca Firefighters, District Attorney Ron Freitas and County Superintendent Troy Brown.
+
+## san-joaquin/city | office=Member, City Council District 2 | id=San Joaquin:city:cityoflodi:membercitycouncildistrict2 | status=contested
+- San Joaquin:city:cityoflodi:membercitycouncildistrict2:lisacraighensley | Lisa Craig-Hensley | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says public safety is her top priority and that she worked with the Police and Fire Departments on crime prevention and emergency response.
+    [1] stated/economy: Says she helped repeal the business license tax, create an Economic Development Department and Plan, and create a Finance Committee.
+    [2] stated/homeless: Describes a balanced approach to homelessness including outreach, rehabilitation, Community Liaison Officers, partnerships, and enforcement of anti-camping laws.
+    [3] stated/endorse: Lists an endorsement from San Joaquin County District Attorney Ron Freitas.
+- San Joaquin:city:cityoflodi:membercitycouncildistrict2:jordanduncan | Jordan Duncan | nonp | review=reviewed | stated=3 other=0
+    [0] stated/taxes: Says his plan includes no new unnecessary taxes, no marijuana dispensaries, fixing the current deficit, and preventing government waste.
+    [1] stated/safety: Says he wants to make city streets safe and cites his law enforcement experience, including work as a school resource officer and SWAT member.
+    [2] stated/roads: Says Lodi needs better roads, cheaper utilities, and safer parks.
+
+## san-joaquin/school | office=Board Member Trustee Area 6 | id=San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea6 | status=contested
+- San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea6:barrykeith | Barry Keith | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Focus on better math and reading scores through classroom experience
+    [1] stated/safety: Supports safe schools as a core priority
+    [2] stated/budget: Advocates for smarter use of tax dollars
+- San Joaquin:school:mantecaunifiedschooldistrict:boardmembertrusteearea6:stephenjschluer | Stephen J. Schluer | nonp | review=reviewed | stated=3 other=1
+    [0] stated/education: Supports academic excellence and expanded career/college opportunities
+    [1] stated/safety: Emphasizes enhancing campus safety
+    [2] stated/budget: Prioritizes fiscal responsibility and transparency in taxpayer resources
+    [3] record/education: Has improved and modernized school facilities during 11-year tenure
+
+## san-joaquin/school | office=Board Member Trustee Area 5 | id=San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea5 | status=contested
+- San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea5:ronheberle | Ron Heberle | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports focus on curriculum that emphasizes mastery and builds confidence with adequate classroom resources.
+    [1] stated/jobs: Championed and promoted career and technical opportunities to build foundational skills for today's jobs.
+    [2] stated/safety: Believes every student deserves a safe school with high quality education that prepares them for success.
+- San Joaquin:school:lodiunifiedschooldistrict:boardmembertrusteearea5:jeffstroh | Jeff Stroh | nonp | review=reviewed | stated=2 other=0
+    [0] stated/education: Developed ESL programs and worked to make district more inclusive for immigrant and all students.
+    [1] stated/community: Worked with high-risk students throughout career and understands their challenges. As trustee, visited all schools and departments to understand district needs.
+
+## san-joaquin/city | office=Member, City Council District 3 | id=San Joaquin:city:cityofstockton:membercitycouncildistrict3 | status=contested
+- San Joaquin:city:cityofstockton:membercitycouncildistrict3:michaelblower | Michael Blower | nonp | review=reviewed | stated=4 other=1
+    [0] stated/safety: Says he worked to strengthen public safety by establishing a fire truck company, reopening a closed fire station and replacing equipment. Lists Stockton Firefighters as supporters.
+    [1] stated/homeless: Says Stockton must keep addressing homelessness through resources, rehabilitation and enforcement, and names the Zeiter Navigation Center and Pathways Modular Unit Community as central.
+    [2] stated/budget: Says fiscal responsibility is essential and that he will protect tax dollars while investing in quality of life. Lists San Joaquin Building Trades as supporters.
+    [3] stated/elections: Cites recent Civil Grand Jury recommendations and calls for strict accountability standards, transparency requirements and campaign disclosure rules.
+    [4] record/record: City page says his priority as a council member is to assist the homeless, keep neighborhoods safe, create better-paying jobs and be fiscally accountable.
+- San Joaquin:city:cityofstockton:membercitycouncildistrict3:jessicatoccoli | Jessica Toccoli | nonp | review=reviewed | stated=0 other=1
+    [0] reporting/community: As quoted by Stocktonia in June 2026, she said District 3 deserves representation that is present, accessible and connected to the people it serves.
+
+## san-joaquin/school | office=Board Member Trustee Area 7 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea7 | status=contested
+- San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea7:davidpadilla | David Padilla | nonp | review=unreviewed | stated=0 other=0
+- San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea7:kennethastevens | Kennetha Stevens | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Supports high-quality education that promotes student growth and achievement; aims to increase graduation rates
+    [1] stated/safety: Established Safety and Student Conduct Subcommittee to improve oversight, collaboration, and accountability for student and school safety
+    [2] stated/budget: Maintains fiscal solvency and promotes data-driven decision-making; ensures responsible fiscal management and taxpayer accountability
+    [3] stated/jobs: Supports fair teacher contracts and investing in qualified educators; believes teacher development and retention are essential to student achievement
+
+## san-joaquin/special | office=Board Member Division 2 | id=San Joaquin:special:southsanjoaquinirrigationdistrict:boardmemberdivision2 | status=contested
+- San Joaquin:special:southsanjoaquinirrigationdistrict:boardmemberdivision2:glennspyksma | Glenn Spyksma | nonp | review=reviewed | stated=2 other=0
+    [0] stated/energy: Supports local acquisition of PG&E assets for greater local accountability and competitive rates
+    [1] stated/budget: Supports maintaining fiscal stewardship and strengthening District's long-term financial stability
+- San Joaquin:special:southsanjoaquinirrigationdistrict:boardmemberdivision2:mikesonke | Mike Sonke | nonp | review=reviewed | stated=2 other=0
+    [0] stated/water: Prioritizes protecting SSJID water rights and maintaining local water infrastructure
+    [1] stated/agriculture: Emphasizes practical background in agricultural machinery, processing, and farm management
+
+## san-joaquin/school | office=Board Member Trustee Area 4 | id=San Joaquin:school:jeffersonelementaryschooldistrict:boardmembertrusteearea4 | status=contested
+- San Joaquin:school:jeffersonelementaryschooldistrict:boardmembertrusteearea4:toddwetherell | Todd Wetherell | nonp | review=unreviewed | stated=0 other=0
+- San Joaquin:school:jeffersonelementaryschooldistrict:boardmembertrusteearea4:larkinfleckner | Larkin Fleckner | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports expanding reading intervention programs with credentialed staff
+    [1] stated/community: Organized school art show and values student enrichment activities
+    [2] stated/education: Supports transparent, collaborative leadership with teachers, staff, and community
+
+## san-joaquin/school | office=Board Member Trustee Area 5 | id=San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea5 | status=contested
+- San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea5:donalddonaire | Donald Donaire | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports safe schools with high-quality teaching in early math and literacy
+    [1] stated/finance: Supports responsible stewardship of taxpayer dollars
+    [2] stated/education: Supports college and career readiness, restorative practices, and ethnic studies advancement
+- San Joaquin:school:stocktonunifiedschooldistrict:boardmembertrusteearea5:malinasanchez | Malina Sanchez | nonp | review=unreviewed | stated=0 other=0

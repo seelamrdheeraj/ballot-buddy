@@ -1,0 +1,177 @@
+Each contest starts with '## '. Lines starting with '- ' are candidates: id | name | party | review | counts. Indented '[n] kind/topic: text' lines are that candidate's documented positions; n is the statement index.
+
+## alameda/city | office=City Council Member | id=Alameda:city:cityofalameda:citycouncilmember | status=contested
+- Alameda:city:cityofalameda:citycouncilmember:thushanamarasiriwardena | Thushan Amarasiriwardena | nonp | review=reviewed | stated=4 other=0
+    [0] stated/streets: Says residents universally call for safer, slower streets.
+    [1] stated/housing: Says longtime residents want to stay but worry about being priced out.
+    [2] stated/economy: Raises vacant storefronts in the downtowns as a problem to solve.
+    [3] stated/environment: Cites climate change effects on infrastructure, such as the Bay Farm lagoons, as a solvable problem.
+- Alameda:city:cityofalameda:citycouncilmember:marialbondonno | Maria L. Bondonno | nonp | review=reviewed | stated=1 other=0
+    [0] stated/other: Says her civil service work has centered on legal analysis and protecting the public interest.
+- Alameda:city:cityofalameda:citycouncilmember:marciejohnson | Marcie Johnson | nonp | review=reviewed | stated=3 other=0
+    [0] stated/community: Says she is committed to youth and to strengthening social services for individuals and families.
+    [1] stated/roads: Says she wants to take part in decisions that prioritize infrastructure improvements.
+    [2] stated/community: Says she would work to keep Alameda a place to live, work and visit.
+- Alameda:city:cityofalameda:citycouncilmember:tylersavage | Tyler Savage | nonp | review=reviewed | stated=3 other=0
+    [0] stated/streets: Says he wants to create safe, accessible streets.
+    [1] stated/economy: Says he wants to support thriving business districts.
+    [2] stated/roads: Says he wants thoughtful investments in infrastructure that will serve Alameda for decades.
+- Alameda:city:cityofalameda:citycouncilmember:steveslauson | Steve Slauson | nonp | review=reviewed | stated=5 other=0
+    [0] stated/growth: Says he will continue to preserve Alameda's historic single-family neighborhoods.
+    [1] stated/housing: Says he supports building affordable housing in Alameda's redevelopment areas.
+    [2] stated/safety: Says he will continue to support the Police Department.
+    [3] stated/taxes: Says he supports ending taxes on food eaten at restaurants.
+    [4] stated/veterans: Says he will work to complete the Veterans Center at the old Navy base.
+- Alameda:city:cityofalameda:citycouncilmember:amoswhite | Amos White | nonp | review=reviewed | stated=3 other=0
+    [0] stated/environment: Says he would direct infrastructure bond funds to the city's Climate Action and Shoreline Adaptation Plans.
+    [1] stated/community: Says he is running for good governance, the environment, children and working families.
+    [2] stated/other: Says his run is about representation on a council reflecting every community in the city.
+
+## alameda/city | office=City Council Member, District 8 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict8 | status=contested
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict8:fredmfeller | Fred M. Feller | nonp | review=reviewed | stated=4 other=0
+    [0] stated/housing: Says his priorities are finding better ways to build affordable housing in high resource neighborhoods. Supports appropriate scale inclusionary housing.
+    [1] stated/safety: Says he supports public safety initiatives that do not threaten privacy.
+    [2] stated/homeless: Says he has a strong interest in reforming the mental health system and housing people who are homeless.
+    [3] stated/emerg: Says he will push for clear evacuation planning, vegetation management and honest communication about fire risk in the Claremont hills.
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict8:markhumbert | Mark Humbert | nonp | review=reviewed | stated=3 other=1
+    [0] stated/streets: Says he wants to continue working to improve public safety, support small businesses and fix streets and sidewalks.
+    [1] stated/housing: Says that during his first term the city updated its zoning laws to enable middle-density homes.
+    [2] stated/endorse: Lists endorsements from State Senator Jesse Arreguín, Assemblymember Buffy Wicks, Mayor Adena Ishii, Berkeley Firefighters Association Local 1227, the Sierra Club and others.
+    [3] reporting/growth: Humbert supports a narrower Elmwood zoning change that raises height limits only on specific properties.
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict8:marimendonca | Mari Mendonca | nonp | review=reviewed | stated=3 other=1
+    [0] stated/growth: Says she will fight for growth in Elmwood that is responsible and honors its legacy.
+    [1] stated/housing: Criticizes up-zoning and density bonuses, saying they do not deliver the affordable housing needed and threaten small businesses.
+    [2] stated/community: Says Berkeley needs leadership that listens and ensures housing, safety, infrastructure, access and accessibility.
+    [3] reporting/growth: Mendonca opposes changing Elmwood zoning rules, saying state law already allows enough housing there.
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict8:michaelwallman | Michael Wallman | nonp | review=reviewed | stated=3 other=1
+    [0] stated/emerg: Says fire and earthquake safety are urgent priorities and he will foster collaboration among the city, fire department and residents.
+    [1] stated/growth: Says development must be balanced, protecting small businesses while accounting for traffic and infrastructure.
+    [2] stated/education: Says he is committed to clean, safe streets, supporting public education, and preserving parks and open spaces.
+    [3] reporting/growth: Wallman opposes the Elmwood plan's approach and backed making the Elmwood core a historic district.
+
+## alameda/city | office=Mayor | id=Alameda:city:cityofdublin:mayor | status=contested
+- Alameda:city:cityofdublin:mayor:sherryhu | Sherry Hu | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says her focus as Mayor has been safety, community, business vitality and responsible financial management, and says Dublin has strengthened public safety.
+    [1] stated/budget: Says Dublin has opened three new parks, welcomed over 100 new businesses and kept a strong budget surplus.
+    [2] stated/safety: Lists public safety as her highest priority, with support for police, firefighters and behavioral health resources.
+    [3] stated/roads: Lists roadway improvements, including Village Parkway reconstruction and Tassajara Road enhancements, as part of her infrastructure and growth priorities.
+- Alameda:city:cityofdublin:mayor:michaelmccorriston | Michael McCorriston | nonp | review=reviewed | stated=4 other=1
+    [0] stated/safety: Says he will mandate investments in safety programs and security infrastructure.
+    [1] stated/economy: Says he will support small businesses and attract new industries to create local jobs.
+    [2] stated/housing: Says he will introduce creative solutions so essential workers, new families and seniors can afford to live in Dublin.
+    [3] stated/environment: Says he will work to reduce traffic congestion while preserving open space and conserving natural resources.
+    [4] reporting/finance: Pleasanton Weekly reports he says his finance experience would help make sure police and fire have the resources they need.
+- Alameda:city:cityofdublin:mayor:kiranmohammad | Kiran Mohammad | nonp | review=reviewed | stated=2 other=0
+    [0] stated/growth: Says he would prioritize thoughtful growth, public safety, transportation and mobility, local businesses, responsible use of public resources, and connected neighborhoods.
+    [1] stated/other: Says residents deserve an accessible, transparent, responsive city government willing to rethink processes that no longer serve them well.
+
+## alameda/city | office=City Council Member, Council #1 | id=Alameda:city:cityofpleasanton:citycouncilmembercouncil1 | status=contested
+- Alameda:city:cityofpleasanton:citycouncilmembercouncil1:vinkruttiventi | Vin Kruttiventi | nonp | review=reviewed | stated=5 other=0
+    [0] stated/budget: Says the city is in a difficult financial situation due to years of poor financial planning and that he would apply his business experience to solve it.
+    [1] stated/economy: Says the city must raise revenue by supporting local businesses, revitalizing Stoneridge Mall, and attracting new businesses to downtown and business parks.
+    [2] stated/safety: Says he strongly supports police and firefighters.
+    [3] stated/roads: Says he would prioritize better roads, fund aging infrastructure, ensure safe drinking water, and protect parks.
+    [4] stated/other: Lists six priorities on his campaign site, starting with restoring fiscal responsibility and keeping Pleasanton safe.
+- Alameda:city:cityofpleasanton:citycouncilmembercouncil1:kathynarum | Kathy Narum | nonp | review=reviewed | stated=4 other=0
+    [0] stated/water: Lists reliable, safe, clean water that stays as affordable as possible for families and businesses as a priority.
+    [1] stated/economy: Lists fiscal sustainability and a robust local economy, strengthened by investments, as a priority.
+    [2] stated/safety: Lists public safety as a priority, with well-equipped, well-trained first responders and community partnerships for emergency readiness.
+    [3] stated/other: Says residents deserve a representative who is experienced, accessible and does their homework.
+
+## alameda/college | office=Community College District Trustee, Area 6 | id=Alameda:college:ohlonecommunitycollegedistrict:communitycollegedistricttrusteearea6 | status=contested
+- Alameda:college:ohlonecommunitycollegedistrict:communitycollegedistricttrusteearea6:suzannesueleechan | Suzanne "Sue" Lee Chan | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Says increased enrollment and transfer rates show student success.
+    [1] stated/education: Supports certificate training programs in manufacturing, biotechnology, cybersecurity, business, and healthcare.
+    [2] stated/childcare: Prioritizes student basic needs: mental wellness support, food security, and affordable housing.
+    [3] stated/budget: Says experienced leadership is essential amid decreasing federal funding.
+- Alameda:college:ohlonecommunitycollegedistrict:communitycollegedistricttrusteearea6:soniasalwan | Sonia Salwan | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Supports expanding access to required classes and strengthening counseling and mental health services.
+    [1] stated/education: Supports expanding short-term programs for working adults, career-changers, and lifelong learners.
+    [2] stated/jobs: Supports stackable certificates built with employers to prepare residents for local careers.
+    [3] stated/budget: Supports public budget transparency: major expenses explained in plain language before voting.
+
+## assembly/CA20 | office=State Assembly, District 20 | id=None | status=
+- stateassembly:20:lizortega | Liz Ortega | Democratic | review=reviewed | stated=5 other=0
+    [0] stated/immigration: Says she authored multiple bills to end illegal raids, demand more ICE oversight, and end benefits for private companies helping ICE.
+    [1] stated/health: Says she authored legislation to save St. Rose Hospital, Hayward's only emergency room, from closure.
+    [2] stated/economy: Says she sponsored legislation to stop big banks and credit card companies from charging businesses extra fees, and to give tax relief to small business owners.
+    [3] stated/jobs: As Labor Committee Chair, says she championed the largest corporate wage theft lawsuit and victory in California history, and supports a living wage.
+    [4] stated/cost: Says families are being priced out of housing, health care and food.
+- stateassembly:20:patriciamuga | Patricia Muga | Republican | review=reviewed | stated=2 other=2
+    [0] stated/other: Says good government requires dialogue and that government must be transparent and responsive to the people it serves.
+    [1] reporting/energy: Pleasanton Weekly reports she supports keeping natural gas, nuclear plants and petroleum refineries, and increasing water storage.
+    [2] reporting/elections: Pleasanton Weekly reports she advocates requiring proof of citizenship for voter registration.
+    [3] stated/endorse: Lists endorsements from the California Republican Party, Reform California and American Independent California.
+
+## alameda/city | office=Mayor | id=Alameda:city:cityofpleasanton:mayor | status=contested
+- Alameda:city:cityofpleasanton:mayor:jackbalch | Jack Balch | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says that as Mayor he has worked to strengthen public safety and advance long-term water reliability.
+    [1] stated/budget: Lists transparent government, quality and affordable city services, and protecting taxpayer dollars as his commitment amid constrained budgets.
+    [2] stated/economy: Lists a vibrant downtown, economic vitality, public safety, reliable water, school collaboration, and clean parks as his priorities.
+    [3] stated/other: Campaign site says the city has prioritized public safety, fiscal responsibility, transparent governance, and clean water solutions.
+- Alameda:city:cityofpleasanton:mayor:julietesta | Julie Testa | nonp | review=reviewed | stated=3 other=1
+    [0] stated/budget: Says protecting financial stability, balanced budgets, infrastructure, and clean, safe drinking water are essential priorities.
+    [1] stated/growth: Says she has addressed state housing mandates and regional pressures, and that she is not a builder or developer.
+    [2] stated/community: Says residents, not special interests, should be at the center of local government, and lists public safety, parks, and a strong local economy.
+    [3] reporting/other: Pleasanton Weekly reports she announced a run for mayor on Aug. 10, 2026 and lists quality of life, fiscal responsibility, public safety, and clean water as priorities.
+
+## assembly/CA24 | office=State Assembly, District 24 | id=None | status=
+- stateassembly:24:alexlee | Alex Lee | Democratic | review=reviewed | stated=4 other=0
+    [0] stated/housing: Says he is running to fix the housing crisis and has led efforts to build social housing.
+    [1] stated/health: Lists universal health care among the causes he leads as Chair of the Legislative Progressive Caucus.
+    [2] stated/taxes: Says he has led the fight to tax the rich and against corporate greed.
+    [3] stated/elections: Says he has rejected all campaign contributions from corporations since day one.
+- stateassembly:24:maxhsia | Max Hsia | Republican | review=reviewed | stated=2 other=0
+    [0] stated/other: Says he will focus on common-sense policies and practical solutions to issues made complicated by government red tape.
+    [1] stated/community: Says he is committed to representing District 24 with integrity, transparency and determination, and plans community events and town halls.
+
+## alameda/city | office=City Council Member, Council #5 | id=Alameda:city:cityofsanleandro:citycouncilmembercouncil5 | status=unopposed
+- Alameda:city:cityofsanleandro:citycouncilmembercouncil5:xouhoabowen | Xouhoa Bowen | nonp | review=reviewed | stated=6 other=0
+    [0] stated/safety: Lists strengthening public safety as a focus on the Council.
+    [1] stated/streets: Lists improving roads and transportation as a focus.
+    [2] stated/childcare: Lists expanding youth programs and childcare infrastructure as a focus.
+    [3] stated/housing: Lists increasing access to affordable housing and mental health resources as a focus.
+    [4] stated/budget: Says she promotes transparent, fiscally responsible government that keeps San Leandro affordable for working families.
+    [5] stated/other: Campaign site says she ran for office to make things better for real people.
+
+## ssenate/CA10 | office=State Senator, District 10 | id=None | status=
+- statesenate:10:scottsakakihara | Scott Sakakihara | Democratic | review=reviewed | stated=4 other=0
+    [0] stated/housing: Says he has helped make it easier to build affordable housing and supported renters. Lists lowering housing, utility and grocery costs as a platform goal.
+    [1] stated/immigration: Says he is committed to protecting immigrants in California who are targeted by Trump and ICE, and wants to stop ICE.
+    [2] stated/health: Supports universal healthcare and childcare, raising wages, and fully funding public schools.
+    [3] stated/endorse: Lists endorsements from the California Democratic Party, California Professional Firefighters, Planned Parenthood Advocates Mar Monte and others.
+- statesenate:10:lindarprice | Linda R. Price | Republican | review=reviewed | stated=1 other=0
+    [0] stated/other: Pledges to listen, treat people with respect, work hard and tell the truth. Lists safe neighborhoods, schools, housing, the economy and accountability as focus areas.
+
+## alameda/special | office=Director, Ward 5 | id=Alameda:special:eastbayregionalparkdistrict:directorward5 | status=contested
+- Alameda:special:eastbayregionalparkdistrict:directorward5:brucehenry | Bruce Henry | nonp | review=reviewed | stated=2 other=0
+    [0] stated/safety: Enhance public safety by expanding trail access and protecting open spaces
+    [1] stated/budget: Apply corporate financial discipline and operational expertise to ensure efficient public management
+- Alameda:special:eastbayregionalparkdistrict:directorward5:oliviasanwong | Olivia Sanwong | nonp | review=reviewed | stated=3 other=0
+    [0] stated/water: Restore Shadow Cliffs Lake and grassland ponds; expand Alameda Creek Watershed environmental education
+    [1] stated/safety: Improve public safety through infrastructure improvements like Iron Horse Trail Bridge
+    [2] stated/environment: Protect land, water, wildlife, and open space to provide nature's restorative benefits
+
+## alameda/statewide | office=Attorney General | id=Alameda:statewide:stateofcalifornia:attorneygeneral | status=contested
+- Alameda:statewide:stateofcalifornia:attorneygeneral:robbonta | Rob Bonta | Democratic | review=reviewed | stated=1 other=1
+    [0] stated/other: Says he is running for re-election to protect freedoms, defend democracy and stand up to abuse of power.
+    [1] record/other: The Attorney General's official page describes his office's focus as serving, protecting and solving problems.
+- Alameda:statewide:stateofcalifornia:attorneygeneral:michaelegates | Michael E. Gates | Republican | review=reviewed | stated=2 other=0
+    [0] stated/safety: Says he is ready to crack down on lawlessness in the state; lists enforcing camping and loitering laws and funding police as priorities.
+    [1] stated/housing: Says local officials, not state leaders, should decide housing and other local matters; opposes state housing density mandates.
+
+## alameda/college | office=Community College District Trustee, Area 6 | id=Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea6 | status=contested
+- Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea6:halggin | Hal G. Gin | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports guided pathways and comprehensive student support services to prepare students for academic and career success.
+    [1] stated/budget: Emphasizes fiscal strength and academic excellence as key priorities for the district.
+    [2] stated/community: Highlights extensive community involvement through service on multiple boards and commissions.
+- Alameda:college:chabotlaspositascommunitycollegedistrict:communitycollegedistricttrusteearea6:joeorlandoramos | Joe Orlando Ramos | nonp | review=unreviewed | stated=0 other=0
+
+## alameda/statewide | office=Lieutenant Governor | id=Alameda:statewide:stateofcalifornia:lieutenantgovernor | status=contested
+- Alameda:statewide:stateofcalifornia:lieutenantgovernor:fionama | Fiona Ma | Democratic | review=reviewed | stated=1 other=1
+    [0] stated/endorse: Lists endorsements from Lt. Gov. Eleni Kounalakis, Secretary of State Shirley Weber, the California Federation of Labor and the Teamsters.
+    [1] reporting/housing: CalMatters reports she would seek other revenue for Cal State universities to help lower housing and tuition costs.
+- Alameda:statewide:stateofcalifornia:lieutenantgovernor:gloriaromero | Gloria Romero | Republican | review=reviewed | stated=1 other=2
+    [0] stated/education: Calls education the central civil rights issue of our time and says she wrote the Parent Trigger and Open Enrollment Act.
+    [1] reporting/taxes: Said in an interview that California cannot tax itself into further debt, and that complex air quality rules raise housing costs.
+    [2] reporting/education: CalMatters reports she supports school vouchers so parents can use public money for private school.

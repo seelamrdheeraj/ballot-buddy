@@ -1,0 +1,176 @@
+Each contest starts with '## '. Lines starting with '- ' are candidates: id | name | party | review | counts. Indented '[n] kind/topic: text' lines are that candidate's documented positions; n is the statement index.
+
+## alameda/city | office=City Council Member, District 1 | id=Alameda:city:cityofberkeley:citycouncilmemberdistrict1 | status=contested
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict1:laurababitt | Laura Babitt | nonp | review=reviewed | stated=4 other=0
+    [0] stated/budget: Says Berkeley faces an estimated $30M deficit and that she would bring her fiscal oversight and governing experience to the Council.
+    [1] stated/housing: Says tax dollars should protect first responders, build truly affordable housing, keep streets paved, address homelessness, and help small businesses.
+    [2] stated/endorse: Lists endorsements from the Berkeley Fire Fighters Association, Local 1227, and State Senator Jesse Arreguin.
+    [3] stated/other: Lists priorities on her campaign website including affordable housing, safe parks, streets and sidewalks, and small-business support. Posts an endorsement quote from former Vice Mayor Susan Wengraf.
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict1:rossbernet | Ross Bernet | nonp | review=reviewed | stated=4 other=0
+    [0] stated/housing: Says he will work to create more housing at all income levels so children can afford to live in Berkeley when they grow up.
+    [1] stated/environment: Says he will plant more trees, advocate for parks, and fight climate change with clean energy and sustainable transportation.
+    [2] stated/streets: Says he will support first responders and local businesses, fix streets and sidewalks, and address housing and homelessness with citywide and regional solutions.
+    [3] stated/endorse: Lists endorsements from the Berkeley Firefighters Association, the Sierra Club, and Assemblymember Buffy Wicks.
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict1:monigangopadhyay | Moni Gangopadhyay | nonp | review=reviewed | stated=4 other=0
+    [0] stated/streets: Lists three slogans: repair streets, save the waterfront, and keep Flock (license-plate camera technology) out of Berkeley.
+    [1] stated/budget: Says he has revised billion-dollar budgets and is not afraid to take on the city's ballooning deficit and balance the budget.
+    [2] stated/housing: Says he will work with community land trusts and nonprofits on affordable housing, improve tenant protections, and fight housing speculation.
+    [3] stated/homeless: Says he will work with the city to maintain infrastructure, expand climate resilience, and provide dignified housing and services for unhoused people.
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict1:stevekromer | Steve Kromer | nonp | review=reviewed | stated=3 other=0
+    [0] stated/community: Says he helps run the Friends of James Kenney Park email list and organize clean-up days, and that parks are a reason he is running.
+    [1] stated/budget: Says parks budgets and the city's budget should be open and honest so residents can see where their money goes.
+    [2] stated/other: Says Berkeley lacks follow-through rather than good ideas, and that he knows how to turn plans into results.
+- Alameda:city:cityofberkeley:citycouncilmemberdistrict1:dariawrubel | Daria Wrubel | nonp | review=reviewed | stated=4 other=0
+    [0] stated/housing: Says she is running to build housing and protect tenants, and that those goals belong together.
+    [1] stated/safety: Says she wants public safety investment that does not rely on mass surveillance and does not risk further harm to immigrants, trans neighbors and others.
+    [2] stated/budget: Says Berkeley can deliver effective, fiscally responsible city services and also uphold progressive values and protect vulnerable neighbors.
+    [3] stated/other: Her campaign website lists endorsements from Mayor Adena Ishii and former District 1 Councilmember Linda Maio and describes her as a councilmember for everyone.
+
+## alameda/city | office=Mayor | id=Alameda:city:cityofoakland:mayor | status=contested
+- Alameda:city:cityofoakland:mayor:brendafgrisham | Brenda F. Grisham | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Says she committed her life to public safety and victim support after her son was killed in 2010, and has advocated for stronger public safety policies in Washington, D.C.
+    [1] stated/finance: Says she owns a financial solutions company serving more than 700 clients and brings financial and business experience to the job.
+    [2] stated/other: Lists public safety, budgeting, housing, education and community advocacy as her work and promises accountable leadership.
+- Alameda:city:cityofoakland:mayor:barbaralee | Barbara Lee | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says she is reducing gun violence and Oakland is safer than before.
+    [1] stated/budget: Says she has achieved budget stability and demands high ethical and professional standards at City Hall.
+    [2] stated/economy: Says she wants small businesses to thrive and residents to be able to open a business or afford a home in Oakland.
+    [3] stated/homeless: Lists a comprehensive approach to homelessness, more affordable housing, local jobs, and reopening fire stations among her priorities.
+- Alameda:city:cityofoakland:mayor:mindyruthpechenuk | Mindy Ruth Pechenuk | nonp | review=reviewed | stated=4 other=0
+    [0] stated/jobs: Says she will revitalize manufacturing, bring back businesses, and create large-scale apprenticeship programs in the trades, construction and local production.
+    [1] stated/budget: Says she will require an independent audit, impose full spending transparency, and cut wasteful spending without raising taxes.
+    [2] stated/safety: Says she will confront open-air drug markets and wants children to have quality education.
+    [3] stated/streets: Opposes treating drivers as a source of revenue and cites Oakland's camera speeding tickets.
+- Alameda:city:cityofoakland:mayor:juliusrobinson | Julius Robinson | nonp | review=reviewed | stated=2 other=0
+    [0] stated/economy: Says his career brought investment, affordable housing, small business capital, workforce development and financial education to communities, and he helped create a $350 million investment fund.
+    [1] stated/other: Lists safe neighborhoods, accountable government, thriving businesses, quality housing and renewed public trust as what Oakland deserves.
+
+## alameda/city | office=City Council Member, Council #4 | id=Alameda:city:cityoffremont:citycouncilmembercouncil4 | status=contested
+- Alameda:city:cityoffremont:citycouncilmembercouncil4:azizakbari | Aziz Akbari | nonp | review=reviewed | stated=4 other=0
+    [0] stated/housing: Says he will build affordable housing so working families and seniors can live in Fremont.
+    [1] stated/environment: Says he will expand green spaces so Fremont feels like a city built inside a park.
+    [2] stated/budget: Says he will run City Hall with fiscal transparency, and points to his water district record on grants and a AAA bond rating.
+    [3] stated/other: Lists affordability and livability, environmental quality, and effective governance as his campaign priorities.
+- Alameda:city:cityoffremont:citycouncilmembercouncil4:yingminli | Ying Min Li | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Says public safety is her top priority and she will work to fully staff the Police Department and equip it with resources.
+    [1] stated/roads: Says traffic has worsened because infrastructure has not kept pace with growth, and she will prioritize solutions that reduce congestion and commute times.
+    [2] stated/homeless: Supports policies that improve affordability, expand effective services, and help people move from homelessness to stable housing while protecting neighborhoods.
+- Alameda:city:cityoffremont:citycouncilmembercouncil4:anuragmishra | Anurag Mishra | nonp | review=unreviewed | stated=0 other=0
+- Alameda:city:cityoffremont:citycouncilmembercouncil4:manishapathak | Manisha Pathak | nonp | review=reviewed | stated=3 other=0
+    [0] stated/homeless: Says she will address homelessness with compassion, accountability, and measurable results.
+    [1] stated/safety: Says she will strengthen neighborhood safety through first responder-community partnerships.
+    [2] stated/roads: Lists improving traffic infrastructure and practical environmental solutions among her priorities.
+
+## alameda/city | office=Mayor | id=Alameda:city:cityofsanleandro:mayor | status=contested
+- Alameda:city:cityofsanleandro:mayor:juangonzleziii | Juan González III | nonp | review=reviewed | stated=4 other=0
+    [0] stated/safety: Says crime has been reduced, traffic enforcement increased, and emergency response times improved. Lists strengthening public safety as continuing work.
+    [1] stated/housing: Says the city built more housing, strengthened renter protections, and connected more unhoused residents with services. Supports expanding housing opportunities.
+    [2] stated/streets: Says the city secured state and federal funding for streets, libraries and infrastructure. Lists repairing aging infrastructure on time and on budget as a priority.
+    [3] stated/economy: Says the city is attracting clean energy, advanced manufacturing and technology companies creating jobs. Lists revitalizing the business community as a goal.
+- Alameda:city:cityofsanleandro:mayor:jamesmaes | James Maes | nonp | review=reviewed | stated=5 other=0
+    [0] stated/housing: Says San Leandro is becoming too costly. Wants to make it easier to provide housing and revenue.
+    [1] stated/budget: Says he would balance the budget without cutting essential neighborhood services, using his executive experience.
+    [2] stated/community: Says he would unite the city council and resolve conflicts.
+    [3] stated/other: Lists housing availability, balancing the city budget, and council collaboration as priorities.
+    [4] stated/endorse: Lists an endorsement from Friends of the Filipino American Community PAC (September 2026) on his campaign site.
+
+## alameda/school | office=School Director | id=Alameda:school:berkeleyunifiedschooldistrict:schooldirector | status=unopposed
+- Alameda:school:berkeleyunifiedschooldistrict:schooldirector:kadijahabrown | Ka'Dijah A. Brown | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Supports closing opportunity gaps and strengthening academic achievement
+    [1] stated/education: Supports expanding college and career pathways for students
+    [2] stated/budget: Committed to ensuring responsible stewardship of taxpayer dollars
+- Alameda:school:berkeleyunifiedschooldistrict:schooldirector:sandypark | Sandy Park | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Supports establishing forward-thinking AI and technology policies that safeguard student privacy
+    [1] stated/education: Supports closing the opportunity gap through targeted structural investments
+    [2] stated/jobs: Committed to equitable fiscal stewardship and protecting student-facing services
+    [3] stated/community: Committed to fostering shared decision-making and building trust with community
+- Alameda:school:berkeleyunifiedschooldistrict:schooldirector:jennifershanoski | Jennifer Shanoski | nonp | review=reviewed | stated=1 other=2
+    [0] record/education: Co-chaired committees that passed in 2022 and 2024 for teacher salaries and school facilities
+    [1] stated/education: Committed to expanding STEAM opportunities for all students and improving curriculum
+    [2] record/safety: Championed safe student drop-offs, aftercare expansion, and gender neutral bathrooms
+
+## alameda/school | office=School Board Member, Area 3 (short term) | id=Alameda:school:dublinunifiedschooldistrict:schoolboardmemberarea3shortterm | status=contested
+- Alameda:school:dublinunifiedschooldistrict:schoolboardmemberarea3shortterm:shalinibhandari | Shalini Bhandari | nonp | review=reviewed | stated=4 other=0
+    [0] stated/education: Supports academic excellence and ensuring all students have access to high-quality education that prepares them for success.
+    [1] stated/safety: Commits to maintaining safe and equipped schools where children have inspiring learning environments.
+    [2] stated/budget: Prioritizes responsible stewardship of taxpayer dollars and financial accountability.
+    [3] stated/community: Commits to collaborative leadership with parents, teachers, staff, students, and community to strengthen schools and support educators.
+- Alameda:school:dublinunifiedschooldistrict:schoolboardmemberarea3shortterm:tannerfrye | Tanner Frye | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Committed to promoting academic excellence and preparing every student for success in higher education, careers, and life.
+    [1] stated/community: Emphasizes importance of dedicated teachers and engaged families in student education, and supporting educators in schools.
+    [2] stated/community: Supports ensuring Dublin schools remain exceptional learning places where students reach their full potential while preserving community education standards.
+
+## alameda/special | office=Director, Dist #3 | id=Alameda:special:orolomasanitarydistrict:directordist3 | status=contested
+- Alameda:special:orolomasanitarydistrict:directordist3:bennylee | Benny Lee | nonp | review=reviewed | stated=3 other=0
+    [0] stated/budget: Prioritizes fiscal responsibility while investing in staff and infrastructure to ensure service reliability.
+    [1] stated/water: Supports replacing aged sewer infrastructure with modern pipes to reduce service disruptions and ensure long-term reliability.
+    [2] stated/environment: Committed to policies that make the district more resilient and keep the environment clean and healthy for current and future generations.
+- Alameda:special:orolomasanitarydistrict:directordist3:fredsimon | Fred Simon | nonp | review=reviewed | stated=4 other=0
+    [0] stated/economy: Supports saving money for ratepayers by embracing innovation in water management.
+    [1] stated/water: Champions using recycled water for public landscaping and industry to provide high-quality drinking water.
+    [2] stated/environment: Supports improving paper, plastic, and glass recycling programs.
+    [3] stated/education: Prioritizes programs that teach children to preserve the environment.
+
+## alameda/statewide | office=Insurance Commissioner | id=Alameda:statewide:stateofcalifornia:insurancecommissioner | status=contested
+- Alameda:statewide:stateofcalifornia:insurancecommissioner:benallen | Ben Allen | Democratic | review=reviewed | stated=3 other=0
+    [0] stated/cost: Says that as commissioner he will lower costs, bring insurers back to the market and make sure Californians are paid what they are owed.
+    [1] stated/finance: Lists refusing insurance industry money as one of his commitments.
+    [2] stated/endorse: Lists endorsements from the California Professional Firefighters and the Sierra Club, among others.
+- Alameda:statewide:stateofcalifornia:insurancecommissioner:janekim | Jane Kim | Democratic | review=reviewed | stated=3 other=0
+    [0] stated/cost: Says she will stop insurers from raising rates, illegal price gouging and denying valid claims. Lists lower costs, guaranteed coverage and fast, fair claims as priorities.
+    [1] stated/finance: Says she has not taken insurance company money in this election and refuses contributions from corporate PACs.
+    [2] stated/endorse: Lists endorsements from Bernie Sanders and the California Teachers Association, among others.
+
+## alameda/city | office=City Council Member, Council #3 | id=Alameda:city:cityofunioncity:citycouncilmembercouncil3 | status=contested
+- Alameda:city:cityofunioncity:citycouncilmembercouncil3:cheriscrockerroot | Cheris Crocker-Root | nonp | review=reviewed | stated=3 other=0
+    [0] stated/budget: Says fiscal accountability is her top priority and cites her MBA, finance and asset management experience.
+    [1] stated/safety: Lists listening to parents' safety concerns, fixing basic infrastructure and cutting red tape for businesses as what residents want.
+    [2] stated/streets: Says she will deliver on Measure B's promises and improve railroad crossings.
+- Alameda:city:cityofunioncity:citycouncilmembercouncil3:jeffwang | Jeff Wang | nonp | review=reviewed | stated=3 other=1
+    [0] stated/safety: Says the council strengthened public safety by increasing police staffing and reducing crime.
+    [1] stated/budget: Says the council balanced the budget, eliminated the city's deficit and protected essential services; promises continued fiscal responsibility.
+    [2] stated/community: Lists public safety, fiscal responsibility, neighborhoods, local businesses and better City Hall communication as priorities for the next four years.
+    [3] reporting/safety: A 2023 news report said he aimed to expand policing, attract tech companies and enhance senior services.
+
+## alameda/city | office=City Council Member, District 6 | id=Alameda:city:cityofhayward:citycouncilmemberdistrict6 | status=unopposed
+- Alameda:city:cityofhayward:citycouncilmemberdistrict6:julieroche | Julie Roche | nonp | review=reviewed | stated=5 other=0
+    [0] stated/budget: Says she is focused on fiscal responsibility and good governance as a Councilmember.
+    [1] stated/safety: Says she wants a safe community, working in partnership with Hayward police and fire professionals.
+    [2] stated/environment: Says she is focused on protecting Hayward's natural environment.
+    [3] stated/endorse: Lists support from Mayor Mark Salinas, former Assemblymember Bill Quirk, County Supervisor Elisa Márquez and the Building & Construction Trades Council of Alameda County.
+    [4] stated/housing: Lists housing and affordability as one of four campaign issues on her website.
+
+## alameda/city | office=City Council Member, District 6 | id=Alameda:city:cityofoakland:citycouncilmemberdistrict6 | status=contested
+- Alameda:city:cityofoakland:citycouncilmemberdistrict6:kevinejenkins | Kevin E. Jenkins | nonp | review=reviewed | stated=3 other=0
+    [0] stated/safety: Says progress has been made on public safety, neighborhood investment and support for local businesses, and that more work remains.
+    [1] stated/community: Says Oakland families deserve safe, clean neighborhoods, a strong local economy, and a city government that listens, delivers and is accountable.
+    [2] stated/endorse: Lists support from Mayor Barbara Lee, Congresswoman Lateefa Simon and State Senator Jesse Arreguín.
+- Alameda:city:cityofoakland:citycouncilmemberdistrict6:nancyssidebotham | Nancy S. Sidebotham | nonp | review=reviewed | stated=2 other=0
+    [0] stated/budget: Says she knows city policies, budgets and department staffing levels, and points to a lack of transparency and some malfeasance.
+    [1] stated/community: Says deep knowledge of city practices, combined with a clear vision, is carried out through inclusive community action.
+
+## alameda/statewide | office=Member, State Board of Equalization, 2nd District | id=Alameda:statewide:stateofcalifornia:memberstateboardofequalization2nddistrict | status=contested
+- Alameda:statewide:stateofcalifornia:memberstateboardofequalization2nddistrict:sallyjlieber | Sally J. Lieber | Democratic | review=reviewed | stated=0 other=1
+    [0] record/record: Official bio lists her authoring laws that made human trafficking a felony and that created the Sexual Assault Victim's Bill of Rights.
+- Alameda:statewide:stateofcalifornia:memberstateboardofequalization2nddistrict:johnpimentel | John Pimentel | Democratic | review=reviewed | stated=3 other=0
+    [0] stated/budget: Says he questions whether four elected Board members in an oversight role create value, and considers eliminating the organization.
+    [1] stated/taxes: Says he would oppose broad tax increases such as the proposed Billionaires Tax, and would seek to end the sales tax on food.
+    [2] stated/endorse: Lists endorsements from Treasurer Fiona Ma, Rep. Kevin Mullin, San Jose Mayor Matt Mahan, Howard Jarvis Taxpayers Association and GrowSF.
+
+## alameda/school | office=School Board Member | id=Alameda:school:emeryunifiedschooldistrict:schoolboardmember | status=contested
+- Alameda:school:emeryunifiedschooldistrict:schoolboardmember:christopherkeithallen | Christopher Keith Allen | nonp | review=unreviewed | stated=0 other=0
+- Alameda:school:emeryunifiedschooldistrict:schoolboardmember:reginachagolla | Regina Chagolla | nonp | review=unreviewed | stated=0 other=0
+- Alameda:school:emeryunifiedschooldistrict:schoolboardmember:briandonahue | Brian Donahue | nonp | review=unreviewed | stated=0 other=0
+- Alameda:school:emeryunifiedschooldistrict:schoolboardmember:davidridlehuber | David Ridlehuber | nonp | review=reviewed | stated=3 other=0
+    [0] stated/education: Deeply committed to championing and supporting dedicated teachers and classroom staff.
+    [1] stated/budget: 30+ years of construction management and business ownership managing multimillion-dollar budgets.
+    [2] stated/community: Active school volunteer and community board member involved in arts and housing initiatives.
+- Alameda:school:emeryunifiedschooldistrict:schoolboardmember:kimberlysolis | Kimberly Solis | nonp | review=unreviewed | stated=0 other=0
+
+## alameda/statewide | office=Secretary of State | id=Alameda:statewide:stateofcalifornia:secretaryofstate | status=contested
+- Alameda:statewide:stateofcalifornia:secretaryofstate:donaldpdonwagner | Donald P. (Don) Wagner | Republican | review=reviewed | stated=1 other=1
+    [0] stated/elections: Says Californians deserve an election system that is secure, efficient, accurate and accessible.
+    [1] reporting/elections: CalMatters reports he supports requiring voter ID at polls and wants faster ballot certification.
+- Alameda:statewide:stateofcalifornia:secretaryofstate:shirleynweber | Shirley N. Weber | Democratic | review=reviewed | stated=1 other=1
+    [0] stated/elections: Says she will protect, secure and expand Californians' right to vote.
+    [1] reporting/elections: CalMatters reports she focuses on voter access and turnout, and says accuracy matters more than counting speed.

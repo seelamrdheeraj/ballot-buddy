@@ -1,0 +1,189 @@
+[
+ {
+  "contest": "house/CA13",
+  "sig": "adamgray|kevinlincoln",
+  "id": "river-flows",
+  "slug": "adamgray",
+  "severity": "drop",
+  "reason": "Fighting the 'state water grab' does not explicitly say he opposes requiring more river flows for fish, so DISAGREE is an inference."
+ },
+ {
+  "contest": "City Council Member, Council #4",
+  "sig": "kashefqaadri|shivrajsingh",
+  "id": "more-housing",
+  "slug": "kashefqaadri",
+  "severity": "drop",
+  "reason": "Saying Dublin 'can' add housing without losing character is a conditional possibility, not a clear stance on allowing more housing."
+ },
+ {
+  "contest": "State Assembly, District 16",
+  "sig": "josepharubay|rebeccabauerkahan",
+  "id": "gun-laws",
+  "slug": null,
+  "severity": "fix",
+  "reason": "'Gun safety laws' is a label used by one side and makes the policy sound inherently beneficial; the Spanish is already neutral.",
+  "suggest": "California should pass stricter gun laws."
+ },
+ {
+  "contest": "State Assembly, District 16",
+  "sig": "josepharubay|rebeccabauerkahan",
+  "id": "repeat-offenders",
+  "slug": "josepharubay",
+  "severity": "drop",
+  "reason": "'Stronger accountability' for repeat offenders does not clearly mean tougher penalties; it could mean programs or enforcement."
+ },
+ {
+  "contest": "State Assembly, District 20",
+  "sig": "lizortega|patriciamuga",
+  "id": "card-fees",
+  "slug": null,
+  "severity": "fix",
+  "reason": "'Extra fees' implies the fees are illegitimate, which frames one side as correct.",
+  "suggest": "The state should limit the swipe fees that banks and card companies charge businesses."
+ },
+ {
+  "contest": "State Assembly, District 20",
+  "sig": "lizortega|patriciamuga",
+  "id": "keep-natural-gas",
+  "slug": null,
+  "severity": "fix",
+  "reason": "Tradeoff states as certain ('would slow', 'add to air pollution') only the downside of one answer, while the other side gets no counter-consideration.",
+  "suggest": "Tradeoff: Keeping natural gas could slow the shift to cleaner energy and add air pollution, while phasing it out could raise energy costs or strain reliability."
+ },
+ {
+  "contest": "City Council Member",
+  "sig": "amoswhite|marciejohnson|marialbondonno|steveslauson|thushanamarasiriwardena|tylersavage",
+  "id": "restaurant-food-tax",
+  "slug": null,
+  "severity": "fix",
+  "reason": "Spanish drops 'sales' (impuesto sobre las ventas) from the EN 'sales tax'.",
+  "suggest": "Debería eliminarse el impuesto sobre las ventas de la comida consumida en restaurantes."
+ },
+ {
+  "contest": "Member, State Board of Equalization, 2nd District",
+  "sig": "johnpimentel|sallyjlieber",
+  "id": "eliminate-boe",
+  "slug": "johnpimentel",
+  "severity": "drop",
+  "reason": "'Considers eliminating' and 'questions whether' is not a position in favor of eliminating the Board."
+ },
+ {
+  "contest": "Member, State Board of Equalization, 2nd District",
+  "sig": "johnpimentel|sallyjlieber",
+  "id": "billionaires-tax",
+  "slug": null,
+  "severity": "fix",
+  "reason": "Tradeoff states only the benefit of passing the tax (money for programs) and gives no cost or counter-consideration, so it nudges toward yes.",
+  "suggest": "Tradeoff: Supporters say it would raise money for programs; opponents say some wealthy residents might leave the state and revenue could fall short."
+ },
+ {
+  "contest": "School Board Member (full term)",
+  "sig": "carriehahnel|garylym|joyceboyd|mikemcmahon|sarahputnam",
+  "id": "bond-audits",
+  "slug": null,
+  "severity": "drop",
+  "reason": "Almost everyone would agree bond spending should be audited and the tradeoff (audits cost money) is not a real counterweight."
+ },
+ {
+  "contest": "School Board Member (full term)",
+  "sig": "carriehahnel|garylym|joyceboyd|mikemcmahon|sarahputnam",
+  "id": "teacher-pay",
+  "slug": "sarahputnam",
+  "severity": "drop",
+  "reason": "'Supports competitive teacher compensation' does not clearly commit to raising pay for teachers and staff."
+ },
+ {
+  "contest": "Mayor",
+  "sig": "marksalinas|tomwong",
+  "id": "senior-property-tax",
+  "slug": null,
+  "severity": "fix",
+  "reason": "Spanish 'mayores de edad' means 'of legal age (adults)', not senior citizens.",
+  "suggest": "Los propietarios de vivienda que son adultos mayores no deberían pagar impuesto a la propiedad."
+ },
+ {
+  "contest": "City Council Member, District 7",
+  "sig": "aidanhill|syrakmicael",
+  "id": "rent-control",
+  "slug": null,
+  "severity": "fix",
+  "reason": "'Protected from changes' is vague and sounds like a positive, favoring the yes answer.",
+  "suggest": "Berkeley should keep its rent control rules in place rather than loosen them."
+ },
+ {
+  "contest": "City Council Member, District 7",
+  "sig": "aidanhill|syrakmicael",
+  "id": "affordable-housing",
+  "slug": "aidanhill",
+  "severity": "drop",
+  "reason": "'Expand permanent affordability' does not say he would use city money to expand affordable housing."
+ },
+ {
+  "contest": "City Council Member, District 2",
+  "sig": "charlenewang|nateadams",
+  "id": "corporate-investors",
+  "slug": "nateadams",
+  "severity": "drop",
+  "reason": "'Prevent corporate investors from driving up costs' is a goal, not a clear commitment to limit their purchases of rental housing."
+ },
+ {
+  "contest": "City Council Member, District 2",
+  "sig": "charlenewang|nateadams",
+  "id": "corporate-investors",
+  "slug": null,
+  "severity": "fix",
+  "reason": "'Buying up' carries a negative connotation that favors one answer.",
+  "suggest": "Oakland should limit how many rental homes corporate investors can buy."
+ },
+ {
+  "contest": "Director, Ward 7",
+  "sig": "aprilchan|garywolff|josephgrcar|luisreynoso",
+  "id": "lake-chabot-soil-dump",
+  "slug": null,
+  "severity": "fix",
+  "reason": "Question and tradeoff list only the burdens (100 trucks a day) and give no reason someone might support the site, making 'no' sound obviously better.",
+  "suggest": "EBMUD should allow a soil disposal site on Lake Chabot Road that would receive about 100 truck trips a day. Tradeoff: It would give construction and utility work a nearby place to dispose of soil, but add truck traffic, noise and wear on the road for neighbors."
+ },
+ {
+  "contest": "house/CA08",
+  "sig": "johngaramendi|rudyrecile",
+  "id": "federal-shipbuilding",
+  "slug": null,
+  "severity": "fix",
+  "reason": "Double-barreled: asks about shipbuilding and port upgrades as two separate policies.",
+  "suggest": "Congress should spend federal money to expand U.S. shipbuilding."
+ },
+ {
+  "contest": "Mayor",
+  "sig": "michaelkhannon",
+  "id": "repaving",
+  "slug": null,
+  "severity": "fix",
+  "reason": "Spanish 'mantener al doble el dinero' is ungrammatical/unclear.",
+  "suggest": "Newark debería mantener el doble de fondos para repavimentar calles."
+ },
+ {
+  "contest": "City Council Member",
+  "sig": "evemarielittle|matthewjorgens|noahpatrickgrushkin|tonyaconnolly",
+  "id": "business-tax",
+  "slug": "noahpatrickgrushkin",
+  "severity": "drop",
+  "reason": "'Without raising taxes' is a general budget phrase, not an explicit statement about business taxes."
+ },
+ {
+  "contest": "School Board Member, Area 5",
+  "sig": "dancherrier|seemabadar",
+  "id": "end-deficit-spending",
+  "slug": "dancherrier",
+  "severity": "drop",
+  "reason": "'Expresses concern about deficit spending' is not a clear commitment to stop deficit spending."
+ },
+ {
+  "contest": "Director, Ward 2",
+  "sig": "jasonmiguel|judychuang",
+  "id": "replace-old-pipes",
+  "slug": "jasonmiguel",
+  "severity": "drop",
+  "reason": "'Supports repairing and replacing' pipes does not say it should be a top spending priority."
+ }
+]

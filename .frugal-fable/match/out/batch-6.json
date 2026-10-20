@@ -1,0 +1,392 @@
+{
+ "contests": [
+  {
+   "contest": "## alameda/city | office=City Council Member | id=Alameda:city:cityofnewark:citycouncilmember | status=contested",
+   "questions": [
+    {
+     "id": "business-tax",
+     "topic": "taxes",
+     "q": {
+      "en": "Newark should raise taxes on local businesses to pay for city services.",
+      "es": "Newark debería subir los impuestos a los negocios locales para pagar los servicios de la ciudad."
+     },
+     "tradeoff": {
+      "en": "Businesses may pass the cost on to residents through higher prices.",
+      "es": "Los negocios podrían pasar el costo a los residentes con precios más altos."
+     },
+     "sides": {
+      "tonyaconnolly": {
+       "side": -1,
+       "idx": 2,
+       "quote": "Opposes business tax increase"
+      },
+      "noahpatrickgrushkin": {
+       "side": -1,
+       "idx": 0,
+       "quote": "without raising taxes"
+      }
+     }
+    },
+    {
+     "id": "cultural-arts-center",
+     "topic": "community",
+     "q": {
+      "en": "Newark should build a new Cultural Arts Center.",
+      "es": "Newark debería construir un nuevo Centro de Artes Culturales."
+     },
+     "tradeoff": {
+      "en": "Building and running it would cost money that could go to other services.",
+      "es": "Construirlo y operarlo costaría dinero que podría usarse en otros servicios."
+     },
+     "sides": {
+      "evemarielittle": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Goal to create a new Cultural Arts Center for Newark community."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member | id=Alameda:school:sunolglenunifiedschooldistrict:schoolboardmember | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, Council #2 | id=Alameda:city:cityofdublin:citycouncilmembercouncil2 | status=contested",
+   "questions": [
+    {
+     "id": "infill-transit-housing",
+     "topic": "housing",
+     "q": {
+      "en": "Dublin should allow more homes on infill lots and near transit.",
+      "es": "Dublin debería permitir más viviendas en terrenos vacíos dentro de la ciudad y cerca del transporte público."
+     },
+     "tradeoff": {
+      "en": "More homes could mean more crowding, traffic and demand on schools.",
+      "es": "Más viviendas podrían traer más densidad, tráfico y presión sobre las escuelas."
+     },
+     "sides": {
+      "richardthornbury": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Supports infill and transit-oriented home building"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/special | office=Director | id=Alameda:special:castrovalleysanitarydistrict:director | status=contested",
+   "questions": [
+    {
+     "id": "pay-off-bonds",
+     "topic": "budget",
+     "q": {
+      "en": "The district should pay off its 30-year building bonds early.",
+      "es": "El distrito debería pagar antes de tiempo sus bonos de 30 años del edificio."
+     },
+     "tradeoff": {
+      "en": "Paying early needs cash now that could go to repairs or keeping rates low.",
+      "es": "Pagar antes requiere dinero ahora que podría ir a reparaciones o a tarifas bajas."
+     },
+     "sides": {
+      "kenowen": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Wants to pay off the district's 30-year bonds"
+      }
+     }
+    },
+    {
+     "id": "board-term-limits",
+     "topic": "elections",
+     "q": {
+      "en": "The sanitary district board should have term limits.",
+      "es": "La junta del distrito sanitario debería tener límites de mandato."
+     },
+     "tradeoff": {
+      "en": "Voters could lose experienced board members they want to keep.",
+      "es": "Los votantes podrían perder miembros con experiencia que quieren mantener."
+     },
+     "sides": {
+      "kenowen": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Plans to push for term limits on the District Board."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Director, District 6 | id=Alameda:school:oaklandunifiedschooldistrict:schooldirectordistrict6 | status=contested",
+   "questions": [
+    {
+     "id": "keep-schools-open",
+     "topic": "education",
+     "q": {
+      "en": "OUSD should keep neighborhood schools open rather than close or merge them to save money.",
+      "es": "OUSD debería mantener abiertas las escuelas de barrio en vez de cerrarlas o fusionarlas para ahorrar."
+     },
+     "tradeoff": {
+      "en": "Keeping small schools open costs more in a district with money problems.",
+      "es": "Mantener escuelas pequeñas abiertas cuesta más en un distrito con problemas de dinero."
+     },
+     "sides": {
+      "valariebachelor": {
+       "side": 1,
+       "idx": 3,
+       "quote": "Keep neighborhood schools stable and open"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/special | office=Director, Ward 7 | id=Alameda:special:eastbaymunicipalutilitydistrictebmud:directorward7 | status=contested",
+   "questions": [
+    {
+     "id": "end-drought-surcharge",
+     "topic": "water",
+     "q": {
+      "en": "EBMUD should end its 8.5% drought surcharge on water bills.",
+      "es": "EBMUD debería eliminar su recargo por sequía del 8.5% en las facturas de agua."
+     },
+     "tradeoff": {
+      "en": "The district would have less money for drought supplies and repairs.",
+      "es": "El distrito tendría menos dinero para agua en sequías y reparaciones."
+     },
+     "sides": {
+      "aprilchan": {
+       "side": 1,
+       "idx": 1,
+       "quote": "Advocated to eliminate the 8.5 percent drought surcharge"
+      }
+     }
+    },
+    {
+     "id": "low-income-assistance",
+     "topic": "water",
+     "q": {
+      "en": "EBMUD should expand its bill discount program for low-income customers.",
+      "es": "EBMUD debería ampliar su programa de descuentos en facturas para clientes de bajos ingresos."
+     },
+     "tradeoff": {
+      "en": "Other customers may pay a bit more to cover the discounts.",
+      "es": "Otros clientes podrían pagar un poco más para cubrir los descuentos."
+     },
+     "sides": {
+      "garywolff": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Pledges to expand low-income customer assistance program"
+      }
+     }
+    },
+    {
+     "id": "lake-chabot-soil-dump",
+     "topic": "community",
+     "q": {
+      "en": "EBMUD should allow a soil dump site served by about 100 trucks a day on Lake Chabot Road.",
+      "es": "EBMUD debería permitir un depósito de tierra con unos 100 camiones al día en Lake Chabot Road."
+     },
+     "tradeoff": {
+      "en": "Agreeing means more trucks, noise and traffic for nearby neighborhoods.",
+      "es": "Estar de acuerdo implica más camiones, ruido y tráfico para los vecindarios cercanos."
+     },
+     "sides": {
+      "aprilchan": {
+       "side": -1,
+       "idx": 3,
+       "quote": "Opposed Lake Chabot Road soil dump proposal"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## governor/CA | office= | id=None | status=",
+   "questions": [
+    {
+     "id": "income-tax-150k",
+     "topic": "taxes",
+     "q": {
+      "en": "The state should stop taxing the first $150,000 of income.",
+      "es": "El estado debería dejar de cobrar impuestos sobre los primeros $150,000 de ingresos."
+     },
+     "tradeoff": {
+      "en": "The state would have less money for schools, health and other programs.",
+      "es": "El estado tendría menos dinero para escuelas, salud y otros programas."
+     },
+     "sides": {
+      "stevehilton": {
+       "side": 1,
+       "idx": 0,
+       "quote": "No state income tax on the first $150,000 you earn."
+      }
+     }
+    },
+    {
+     "id": "gas-price-rules",
+     "topic": "energy",
+     "q": {
+      "en": "California should end the state rules and fees that add to gas prices.",
+      "es": "California debería eliminar las reglas y cargos estatales que suben el precio de la gasolina."
+     },
+     "tradeoff": {
+      "en": "Some of those rules aim to cut pollution and fund climate programs.",
+      "es": "Algunas de esas reglas buscan reducir la contaminación y financiar programas del clima."
+     },
+     "sides": {
+      "stevehilton": {
+       "side": 1,
+       "idx": 1,
+       "quote": "End the rules and fees behind high gas prices"
+      }
+     }
+    },
+    {
+     "id": "housing-emergency",
+     "topic": "housing",
+     "q": {
+      "en": "The governor should declare the housing shortage a state emergency.",
+      "es": "El gobernador debería declarar la escasez de vivienda como una emergencia estatal."
+     },
+     "tradeoff": {
+      "en": "Emergency powers could skip some normal local review and public input.",
+      "es": "Los poderes de emergencia podrían omitir parte de la revisión local y la opinión pública."
+     },
+     "sides": {
+      "xavierbecerra": {
+       "side": 1,
+       "idx": 0,
+       "quote": "Declare the housing shortage a state emergency"
+      }
+     }
+    },
+    {
+     "id": "cut-home-building-fees",
+     "topic": "housing",
+     "q": {
+      "en": "The state should cut the fees charged to build new homes.",
+      "es": "El estado debería reducir los cargos que se cobran por construir viviendas nuevas."
+     },
+     "tradeoff": {
+      "en": "Cities would have less money for roads, parks and sewers for new homes.",
+      "es": "Las ciudades tendrían menos dinero para calles, parques y drenaje de las nuevas viviendas."
+     },
+     "sides": {
+      "stevehilton": {
+       "side": 1,
+       "idx": 2,
+       "quote": "Clear red tape and fees so starter homes for young families get built."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## house/CA08 | office= | id=None | status=",
+   "questions": [
+    {
+     "id": "delta-tunnel",
+     "topic": "water",
+     "q": {
+      "en": "California should build the Delta tunnel to send more water south.",
+      "es": "California debería construir el túnel del Delta para enviar más agua al sur."
+     },
+     "tradeoff": {
+      "en": "Delta farms, fish and towns could lose water and habitat.",
+      "es": "Las granjas, los peces y los pueblos del Delta podrían perder agua y hábitat."
+     },
+     "sides": {
+      "johngaramendi": {
+       "side": -1,
+       "idx": 4,
+       "quote": "stopping the Delta tunnels and saving the Delta"
+      }
+     }
+    },
+    {
+     "id": "travis-ice-detention",
+     "topic": "immigration",
+     "q": {
+      "en": "Travis Air Force Base should be used as an ICE immigration detention facility.",
+      "es": "La Base Aérea Travis debería usarse como centro de detención de inmigrantes de ICE."
+     },
+     "tradeoff": {
+      "en": "Base space and staff could be pulled away from military missions.",
+      "es": "El espacio y el personal de la base podrían desviarse de misiones militares."
+     },
+     "sides": {
+      "johngaramendi": {
+       "side": -1,
+       "idx": 0,
+       "quote": "stop ICE from converting Travis Air Force Base into a detention facility"
+      }
+     }
+    },
+    {
+     "id": "federal-shipbuilding",
+     "topic": "jobs",
+     "q": {
+      "en": "Congress should spend federal money to expand U.S. shipbuilding and upgrade ports.",
+      "es": "El Congreso debería usar dinero federal para ampliar la construcción de barcos y mejorar los puertos."
+     },
+     "tradeoff": {
+      "en": "It would add federal spending that could go to other needs.",
+      "es": "Aumentaría el gasto federal que podría usarse para otras necesidades."
+     },
+     "sides": {
+      "johngaramendi": {
+       "side": 1,
+       "idx": 2,
+       "quote": "his SHIPS Act would expand domestic shipbuilding and upgrade ports"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/school | office=School Board Member, Area 4 | id=Alameda:school:haywardunifiedschooldistrict:schoolboardmemberarea4 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/special | office=Director, Ward 3 | id=Alameda:special:eastbayregionalparkdistrict:directorward3 | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/college | office=Community College District Trustee, Area 5 | id=Alameda:college:peraltacommunitycollegedistrict:communitycollegedistricttrusteearea5 | status=contested",
+   "questions": [
+    {
+     "id": "outsourcing",
+     "topic": "jobs",
+     "q": {
+      "en": "Peralta should hire outside companies for some services instead of district staff.",
+      "es": "Peralta debería contratar empresas externas para algunos servicios en lugar de personal del distrito."
+     },
+     "tradeoff": {
+      "en": "Outside contracts could cut district jobs and reduce direct oversight.",
+      "es": "Los contratos externos podrían eliminar empleos del distrito y reducir la supervisión."
+     },
+     "sides": {
+      "sandraweese": {
+       "side": -1,
+       "idx": 3,
+       "quote": "opposes outsourcing"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "contest": "## alameda/special | office=Director | id=Alameda:special:fairviewfireprotectiondistrict:director | status=contested",
+   "questions": []
+  },
+  {
+   "contest": "## alameda/city | office=City Council Member, Council #1 | id=Alameda:city:cityofsanleandro:citycouncilmembercouncil1 | status=unopposed",
+   "questions": []
+  }
+ ]
+}
